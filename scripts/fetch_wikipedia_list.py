@@ -20,7 +20,7 @@ PLATFORMS = {
     "gba": {
         "page": "ゲームボーイアドバンスのゲームタイトル一覧",
         "section": "発売されたタイトル",
-        "out": "data/gba/jp_titles.csv",
+        "out": "data/gba/wikipedia_titles.csv",
     },
 }
 
