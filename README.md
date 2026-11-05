@@ -121,7 +121,7 @@ ONE PIECE は MAME の誤記（`BO8J` → 正しくは数字の `B08J`）だっ�
 
 ## 店頭体験版・開発版・試作品（`jp_non_retail.csv`）
 
-No-Intro の DB Export から `scripts/build_gba_dumps.py` が生成する。
+No-Intro の DB Export から `scripts/build_dumps.py` が生成する。
 
 | 区分（`category`） | 載せる条件 | 件数 |
 |---|---|---|
@@ -166,13 +166,16 @@ MAME が 2003〜2007年ごろの古い外部提供の吸い出しを使ってい
 
 ```sh
 python3 scripts/fetch_wikipedia_list.py gba   # Wikipedia → data/gba/wikipedia_titles.csv
-python3 scripts/enrich_gba.py                 # 型番・価格を付与 → data/gba/jp_titles.csv
-python3 scripts/build_gba_dumps.py            # ROM 吸い出し一覧・別リスト → jp_rom_dumps.csv / jp_non_retail.csv
+python3 scripts/enrich.py gba                  # 型番・価格を付与 → data/gba/jp_titles.csv
+python3 scripts/build_dumps.py gba             # ROM 吸い出し一覧・別リスト → jp_rom_dumps.csv / jp_non_retail.csv
 ```
 
-- `enrich_gba.py` は MADB・MAME・No-Intro DAT・maru-chang のデータを `.cache/` にダウンロードして再利用する。
+- スクリプトは機種名（`gba` など）を引数に取る。機種ごとの設定（Wikipedia のページと表の列、
+  MADB の機種名、MAME のリスト、No-Intro の DAT 名、型番の形式など）は `scripts/platforms.py` にあり、
+  共通処理は `scripts/common.py` にある。
+- `enrich.py` は MADB・MAME・No-Intro DAT・maru-chang のデータを `.cache/` にダウンロードして再利用する。
   maru-chang は 5 秒間隔で 16 ページを取得する。
-- `build_gba_dumps.py` が使う No-Intro DB Export は、利用規約への同意が必要なため自動取得しない。
+- `build_dumps.py` が使う No-Intro DB Export は、利用規約への同意が必要なため自動取得しない。
   [DAT-o-MATIC](https://datomatic.no-intro.org/) で規約に同意し、Download → Nintendo - Game Boy Advance →
   「DB」の Prepare → Download!! で得た zip を `.cache/nointro-db/` に置く（または `--export` で指定）。
 

@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """日本語版Wikipediaの「〇〇のゲームタイトル一覧」から国内発売タイトルを抽出してCSVに書き出す。
 
+どのページのどの表を読むか、表の列の並びは scripts/platforms.py の "wikipedia" に書く。
+
 使い方:
     python3 scripts/fetch_wikipedia_list.py gba
-    python3 scripts/fetch_wikipedia_list.py gba --wikitext saved.wiki  # 保存済みwikitextから再生成
+    python3 scripts/fetch_wikipedia_list.py gba --wikitext saved.wiki  # 保存済みwikitextから再生成（1ページの機種のみ）
 """
 import argparse
 import csv
@@ -16,13 +18,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-PLATFORMS = {
-    "gba": {
-        "page": "ゲームボーイアドバンスのゲームタイトル一覧",
-        "section": "発売されたタイトル",
-        "out": "data/gba/wikipedia_titles.csv",
-    },
-}
+import platforms as P
 
 API = "https://ja.wikipedia.org/w/api.php"
 UA = "retro-game-db/0.1 (https://github.com/moheronemy/retro-game-db)"
@@ -119,9 +115,34 @@ def parse_date(s):
     return ""
 
 
-def parse_rows(text):
+def first_line(s):
+    """「日本題<br />英題」や {{ubl|日本題|英題}} の先頭（日本の表記）を取り出す。"""
+    m = re.match(r"\s*\{\{\s*ubl\s*\|([^|}]*)", s, re.I)
+    if m:
+        return m.group(1)
+    return re.split(r"<br\s*/?>", s)[0]
+
+
+def interlang(s):
+    """{{仮リンク|日本語名|en|英語名}} を [[日本語名]] にする（脚注テンプレート除去で消えないように）。"""
+    return re.sub(r"\{\{\s*仮リンク\s*\|([^|}]*)\|[^}]*\}\}", r"[[\1]]", s)
+
+
+def table_text(text, table_id):
+    """id 指定の表だけを取り出す（無指定なら text 全体）。"""
+    if not table_id:
+        return text
+    i = text.index(f'id="{table_id}"')
+    i = text.rindex("{|", 0, i)
+    j = text.index("\n|}", i)
+    return text[i:j + 3]
+
+
+def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None):
+    """表の各行を読む。columns は先頭からの列の意味（jp=日本の発売日）。日本未発売の行は除く。"""
     rows = []
     in_table = False
+    regional = "na" in columns
     for block in re.split(r"^\|-.*$", text, flags=re.M):
         lines = []
         for ln in block.splitlines():
@@ -129,7 +150,7 @@ def parse_rows(text):
                 in_table = True; continue
             if ln.startswith("|}"):
                 in_table = False; continue
-            if not in_table or ln.startswith("!"):
+            if not in_table or ln.startswith("!") or ln.startswith("|+"):
                 continue
             if ln.startswith("|"):
                 lines.append(ln[1:])
@@ -143,41 +164,66 @@ def parse_rows(text):
         if len(cells) < 3:
             print("skip:", cells, file=sys.stderr)
             continue
-        date_raw, title_raw, pub_raw = cells[0], cells[1], cells[2]
-        note_raw = cells[3] if len(cells) > 3 else ""
-        date_raw = re.sub(r"<span[^>]*></span>", "", date_raw)
-        rows.append({
-            "release_date": parse_date(plain(date_raw)),
+        c = dict(zip(columns, cells))
+        date_raw = re.sub(r"<span[^>]*></span>", "", c.get("jp", ""))
+        date = parse_date(plain(date_raw))
+        if regional and not date:
+            continue  # 日本未発売（{{Unreleased}}）
+        title_raw, pub_raw = c.get("title", ""), c.get("publisher", "")
+        if regional:
+            title_raw, pub_raw = first_line(interlang(title_raw)), first_line(pub_raw)
+        row = {
+            "release_date": date,
             "title": plain(title_raw),
             "publisher": plain(pub_raw),
-            "notes": plain(note_raw),
+            "notes": plain(c.get("notes", "")),
             "wikipedia_article": link_target(title_raw),
-        })
+        }
+        if "sgb" in columns:
+            row["sgb"] = "yes" if re.search(r"[○◯〇]", c.get("sgb", "")) else ""
+        row.update(extra or {})
+        rows.append(row)
     return rows
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("platform", choices=PLATFORMS)
-    ap.add_argument("--wikitext", help="保存済みwikitextファイルを使う")
+    ap.add_argument("platform")
+    ap.add_argument("--wikitext", help="保存済みwikitextファイルを使う（1ページの機種のみ）")
     ap.add_argument("--out")
     a = ap.parse_args()
-    cfg = PLATFORMS[a.platform]
-    if a.wikitext:
-        wt, rev = Path(a.wikitext).read_text(encoding="utf-8"), None
-    else:
-        wt, rev = fetch_wikitext(cfg["page"])
-    rows = parse_rows(section(wt, cfg["section"]))
+    cfg = P.get(a.platform)
+    wcfg = cfg["wikipedia"]
+    pages = {t.get("page", wcfg.get("page")) for t in wcfg["tables"]}
+    texts = {}
+    for page in sorted(pages):
+        if a.wikitext:
+            texts[page], rev = Path(a.wikitext).read_text(encoding="utf-8"), None
+        else:
+            texts[page], rev = fetch_wikitext(page)
+            time.sleep(3)
+        print(f"{page}: revid={rev}", file=sys.stderr)
+    rows = []
+    for t in wcfg["tables"]:
+        page = t.get("page", wcfg.get("page"))
+        text = table_text(section(texts[page], t["section"]), t.get("table_id"))
+        got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"))
+        print(f"  {t['section']}: {len(got)} 行", file=sys.stderr)
+        rows += got
+    if len(wcfg["tables"]) > 1:
+        rows.sort(key=lambda r: r["release_date"])  # 複数の表をまとめるときは発売日順（同日は表の順）
     for i, r in enumerate(rows, 1):
-        r["id"] = f"{a.platform}-jp-{i:04d}"
-    out = Path(a.out or cfg["out"])
+        r["id"] = f"{cfg['id_prefix']}-{i:04d}"
+    out = Path(a.out) if a.out else cfg["dir"] / "wikipedia_titles.csv"
     out.parent.mkdir(parents=True, exist_ok=True)
-    fields = ["id", "release_date", "title", "publisher", "notes", "wikipedia_article"]
+    fields = ["id", "release_date", "title", "publisher", "notes", "wikipedia_article"] + \
+        [k for k in (rows[0] if rows else {}) if k not in ("id", "release_date", "title", "publisher", "notes",
+                                                         "wikipedia_article")]
     with out.open("w", encoding="utf-8", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fields)
         w.writeheader()
         w.writerows(rows)
-    print(f"{len(rows)} rows -> {out} (source: {cfg['page']}, revid={rev})", file=sys.stderr)
+    print(f"{len(rows)} rows -> {out}", file=sys.stderr)
 
 
 if __name__ == "__main__":

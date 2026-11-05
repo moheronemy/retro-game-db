@@ -1,25 +1,25 @@
 #!/usr/bin/env python3
-"""GBA国内タイトルごとの ROM 吸い出し（ハッシュ・リビジョン）一覧を作る。
+"""国内タイトルごとの ROM 吸い出し（ハッシュ・リビジョン）一覧と、体験版・試作品の別リストを作る。
 
 入力:
-  data/gba/jp_titles.csv                     タイトル一覧（型番 = ゲームコードで照合する）
-  No-Intro DB Export（GBA）                  ハッシュ・リビジョン・吸い出し情報（主たる出典）
+  <dir>/jp_titles.csv                     タイトル一覧（型番 = ゲームコードで照合する）
+  No-Intro DB Export                  ハッシュ・リビジョン・吸い出し情報（主たる出典）
       DAT-o-MATIC (https://datomatic.no-intro.org/) の Download → "Nintendo - Game Boy Advance"
       → op=db の "Prepare" → "Download!!" で得られる zip。利用規約への同意が必要なため自動取得はしない。
       .cache/nointro-db/ に置くか、--export で zip / xml のパスを渡す。
   No-Intro DAT（libretro-database 収録）     ゲームコードの補完（DB Export はシリアル移行中で欠けがあるため）
-  MAME ソフトウェアリスト hash/gba.xml        同じ CRC の MAME エントリと baddump 表記
-  data/gba/overrides/dump_matches.csv         自動で結びつかない吸い出しの手動対応
+  MAME ソフトウェアリスト                   同じ CRC の MAME エントリと baddump 表記
+  <dir>/overrides/dump_matches.csv         自動で結びつかない吸い出しの手動対応
 
-  data/gba/jp_not_for_sale.csv               非売品の本リスト（手で管理。nointro_name / mame_name で吸い出しに結びつける）
-  data/gba/overrides/non_retail_parents.csv  体験版・試作品の対応する製品版（ゲームコードで決まらないもの）
+  <dir>/jp_not_for_sale.csv               非売品の本リスト（手で管理。nointro_name / mame_name で吸い出しに結びつける）
+  <dir>/overrides/non_retail_parents.csv  体験版・試作品の対応する製品版（ゲームコードで決まらないもの）
 
 出力:
-  data/gba/jp_rom_dumps.csv                  1吸い出し = 1行（製品版・非売品・体験版・試作品）
-  data/gba/jp_non_retail.csv                 店頭体験版・試作品・開発版の別リスト（No-Intro から生成）
+  <dir>/jp_rom_dumps.csv                  1吸い出し = 1行（製品版・非売品・体験版・試作品）
+  <dir>/jp_non_retail.csv                 店頭体験版・試作品・開発版の別リスト（No-Intro から生成）
 
 使い方:
-  python3 scripts/build_gba_dumps.py [--export PATH]
+  python3 scripts/build_dumps.py gba [--export PATH]
 """
 import argparse
 import csv
@@ -30,9 +30,8 @@ import zipfile
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import enrich_gba as E  # noqa: E402  (fetch / キャッシュ / URL を共有)
-
-DATA = E.DATA
+import common as C  # noqa: E402
+import platforms as P  # noqa: E402
 
 # 別の製品として扱うもの（試作・体験版・販促品・非公式など）。非売品は別途まとめる
 EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|Pirate|Unl|Aftermarket|Debug"
@@ -41,49 +40,6 @@ VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$")
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
                 ("Third Party", "third_party")]
-
-
-def load_export(path):
-    if path is None:
-        found = sorted((E.CACHE / "nointro-db").glob("*GBA*") or []) + \
-            sorted((E.CACHE / "nointro-db").glob("*Game Boy Advance*"))
-        if not found:
-            sys.exit("No-Intro DB Export が見つかりません。.cache/nointro-db/ に置くか --export で指定してください")
-        path = found[-1]
-    path = Path(path)
-    if path.suffix == ".zip":
-        with zipfile.ZipFile(path) as z:
-            text = z.read(z.namelist()[0]).decode("utf-8")
-    else:
-        text = path.read_text(encoding="utf-8")
-    version = re.search(r"<version>([^<]+)</version>", text)
-    # <header> と <datafile> の2つのルート要素が並んでいるので包んで読む
-    root = ET.fromstring("<root>" + text.split("?>", 1)[1] + "</root>")
-    return root, version.group(1) if version else ""
-
-
-def load_nointro_dat():
-    """libretro 版 DAT: 名前 → (ゲームコード, サイズ, CRC, MD5, SHA1)。"""
-    text = E.fetch(E.NOINTRO_URL, E.CACHE / "nointro_gba.dat").read_text(encoding="utf-8")
-    out = {}
-    for m in re.finditer(r'game \(\n(.*?)\n\)\n', text, re.S):
-        b = m.group(1)
-        name = re.search(r'name "([^"]+)"', b).group(1)
-        rom = re.search(r'rom \( (.*?) \)', b).group(1)
-        g = lambda k: (re.search(k + r' "?([^" ]+)"?', rom) or [None, ""])[1]
-        out[name] = dict(serial=g("serial"), size=g("size"), crc=g("crc").lower(),
-                         md5=g("md5").lower(), sha1=g("sha1").lower())
-    return out
-
-
-def load_mame_crcs():
-    path = E.fetch(E.MAME_URL, E.CACHE / "mame_gba.xml")
-    out = {}
-    for s in ET.parse(path).getroot().findall("software"):
-        for rom in s.iter("rom"):
-            if rom.get("crc"):
-                out.setdefault(rom.get("crc").lower(), []).append((s.get("name"), rom.get("status") or "good"))
-    return out
 
 
 def dump_kind(tags):
@@ -118,14 +74,12 @@ def tags_of(name):
     return [t for grp in re.findall(r"\(([^)]*)\)", name) for t in grp.split(", ")]
 
 
-def game_codes(g, ref):
+def game_codes(g, ref, cfg):
     files = [f for s in g.findall("source") for f in s.findall("file")]
     codes = {f.get("serial") for f in files if f.get("serial")}
     if ref and ref["serial"]:
         codes.add(ref["serial"])
-    # 日米共通カートリッジはROM内のコード末尾が A（例: B85A）。パッケージ型番は J（AGB-B85J-JPN）
-    codes = {c[:3] + "J" if c.endswith("A") else c for c in codes}
-    return {c for c in codes if re.fullmatch(r"[A-Z0-9]{3}J", c)}
+    return {c2 for c in codes for c2 in [cfg["normalize_code"](c)] if c2}
 
 
 def dump_info(g, ref, mame):
@@ -186,33 +140,30 @@ def mame_dump(mame_xml_root, mame_name):
     }
 
 
-def write_csv(path, rows):
-    with open(path, "w", encoding="utf-8", newline="") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0]))
-        w.writeheader()
-        w.writerows(rows)
-
-
 def main():
     ap = argparse.ArgumentParser()
+    ap.add_argument("platform")
     ap.add_argument("--export", help="No-Intro DB Export の zip / xml")
     a = ap.parse_args()
+    cfg = P.get(a.platform)
+    DATA = cfg["dir"]
+    code_of = cfg["code_of"]
 
-    titles = E.read_csv(DATA / "jp_titles.csv")
+    titles = C.read_csv(DATA / "jp_titles.csv")
     title_by_id = {t["id"]: t for t in titles}
     by_code = {}
     for t in titles:
         if t["model_number"]:
-            by_code.setdefault(t["model_number"][4:8], []).append(t)
-    root, version = load_export(a.export)
+            by_code.setdefault(code_of(t["model_number"]), []).append(t)
+    root, version = C.load_nointro_export(cfg["nointro_export"], a.export)
     games = {g.get("name"): g for g in root.iter("game")}
-    dat = load_nointro_dat()
-    mame = load_mame_crcs()
-    mame_root = ET.parse(E.CACHE / "mame_gba.xml").getroot()
+    dat = C.load_nointro_dat(cfg["nointro_dats"])
+    mame = C.mame_crcs(cfg["mame_lists"])
+    mame_root_list = C.mame_roots(cfg["mame_lists"])
     # 自動で結びつかない吸い出しの手動対応（dump_name → title_id）
-    manual = {m["dump_name"]: m["title_id"] for m in E.read_csv(DATA / "overrides" / "dump_matches.csv")}
+    manual = {m["dump_name"]: m["title_id"] for m in C.read_csv(DATA / "overrides" / "dump_matches.csv")}
     nr_parents = {m["nointro_name"]: m["parent_id"]
-                  for m in E.read_csv(DATA / "overrides" / "non_retail_parents.csv")}
+                  for m in C.read_csv(DATA / "overrides" / "non_retail_parents.csv")}
 
     rows, non_retail, pending = [], [], []
     for name, g in games.items():
@@ -221,7 +172,7 @@ def main():
             continue
         tags = tags_of(name)
         ref = dat.get(name)
-        codes = game_codes(g, ref)
+        codes = game_codes(g, ref, cfg)
 
         # ---- 別リスト（A2〜A4）。対応する製品版は製品版の処理後に決める
         cat = non_retail_category(name, tags)
@@ -237,10 +188,10 @@ def main():
             # コードがどこにも無い場合は、同じ CRC を持つ MAME エントリ経由でタイトルに結びつける
             names = {n for n, _ in mame.get(ref["crc"], [])}
             targets = [t for t in titles if t["mame_name"] and t["mame_name"] in names]
-            codes = {t["model_number"][4:8] for t in targets}
+            codes = {code_of(t["model_number"]) for t in targets}
         if not targets and name in manual:
             targets = [title_by_id[manual[name]]]
-            codes = {t["model_number"][4:8] for t in targets}
+            codes = {code_of(t["model_number"]) for t in targets}
         info = dump_info(g, ref, mame) if targets else None
         for t in targets if info else []:
             rows.append({"title_id": t["id"], "title": t["title"], "game_code": "/".join(sorted(codes)),
@@ -261,7 +212,7 @@ def main():
             cands = retail_by_base.get(base(name), set())
             parent = next(iter(cands)) if len(cands) == 1 else ""
         info = dump_info(g, ref, mame)
-        nr_id = f"gba-jp-nr-{g.find('archive').get('number')}"
+        nr_id = f"{cfg['id_prefix']}-nr-{g.find('archive').get('number')}"
         title = f"{title_by_id[parent]['title']}（{labels[cat]}）" if parent else name
         non_retail.append({
             "id": nr_id, "title": title, "category": cat,
@@ -276,7 +227,7 @@ def main():
                          "dump_kind": cat, **info})
 
     # ---- 非売品の本リスト（A1）
-    for n in E.read_csv(DATA / "jp_not_for_sale.csv"):
+    for n in C.read_csv(DATA / "jp_not_for_sale.csv"):
         info = None
         if n["nointro_name"]:
             g = games.get(n["nointro_name"])
@@ -284,9 +235,9 @@ def main():
                 sys.exit(f"jp_not_for_sale.csv の nointro_name が No-Intro に見つかりません: {n['nointro_name']}")
             info = dump_info(g, dat.get(n["nointro_name"]), mame)
         elif n["mame_name"]:
-            info = mame_dump(mame_root, n["mame_name"])
+            info = next((d for d in (mame_dump(r, n["mame_name"]) for r in mame_root_list) if d), None)
         if info:
-            rows.append({"title_id": n["id"], "title": n["title"], "game_code": n["model_number"][4:8],
+            rows.append({"title_id": n["id"], "title": n["title"], "game_code": code_of(n["model_number"]),
                          "dump_kind": "not_for_sale", **info})
 
     kind_order = {"retail": 0, "collection": 1, "virtual_console": 2, "not_for_sale": 3,
@@ -294,10 +245,10 @@ def main():
     rows.sort(key=lambda r: (r["title_id"], kind_order[r["dump_kind"]], r["revision"], r["dump_name"]))
     cols = ["title_id", "title", "game_code", "dump_name", "revision", "dump_kind"]
     rows = [{**{c: r[c] for c in cols}, **{k: v for k, v in r.items() if k not in cols}} for r in rows]
-    write_csv(DATA / "jp_rom_dumps.csv", rows)
+    C.write_csv(DATA / "jp_rom_dumps.csv", rows)
     non_retail.sort(key=lambda r: (["store_demo", "beta", "prototype", "tech_demo"].index(r["category"]),
                                    r["parent_id"] or "~", r["nointro_name"]))
-    write_csv(DATA / "jp_non_retail.csv", non_retail)
+    C.write_csv(DATA / "jp_non_retail.csv", non_retail)
 
     covered = {r["title_id"] for r in rows if r["dump_kind"] == "retail"}
     print(f"No-Intro DB Export {version}: 吸い出し {len(rows)} 行 / 製品版の吸い出しがあるタイトル "
