@@ -161,6 +161,32 @@ def _n64_code(model):
     return m.group(1) if m else ""
 
 
+def _sfc_models(text):
+    """SFC の日本版の型番。初期は 'SHVC-FZ' のような2〜3文字、後期は 'SHVC-ATGJ-JPN'。
+    スーファミターボは 'SFT-0101-JPN'。メーカー独自の番号（'HUMAN No. 138' など）は含めない。"""
+    out = []
+    t = text.upper()
+    for m in re.finditer(r"\bSHVC-(?:P-)?([A-Z0-9]{3}J)(?![A-Z0-9])|\bSHVC-([A-Z0-9]{2,3})(?![A-Z0-9-])|\bSFT-(\d{4})-JPN", t):
+        if m.group(1):
+            model = f"SHVC-{m.group(1)}-JPN"
+        elif m.group(2):
+            model = f"SHVC-{m.group(2)}"
+        else:
+            model = f"SFT-{m.group(3)}-JPN"
+        if model not in out:
+            out.append(model)
+    return out
+
+
+def _sfc_code(model):
+    m = re.fullmatch(r"SHVC-([A-Z0-9]{3}J)-JPN", model or "")
+    return m.group(1) if m else ""
+
+
+def _sfc_media(row):
+    return "sufami_turbo" if row.get("title", "").startswith("スーファミターボ専用") else "cartridge"
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -342,6 +368,34 @@ PLATFORMS = {
         "models_from_serial": lambda s: [f"NUS-{s}-JPN"] if re.fullmatch(r"[A-Z0-9]{3}J", s) else [],
         "code_of": _n64_code,
         "normalize_code": _gba_normalize_code,
+    },
+    # スーパーファミコン。ニンテンドウパワーは別リスト、サテラビューは対象外。
+    # スーファミターボ用ソフトは本リストに含め、media 列で区別する
+    "sfc": {
+        "name": "スーパーファミコン",
+        "dir": ROOT / "data" / "sfc",
+        "id_prefix": "sfc-jp",
+        "wikipedia": {
+            "tables": [
+                {"page": "スーパーファミコンのゲームタイトル一覧", "section": "発売されたタイトル",
+                 "table_id": "softwarelist", "columns": ("jp", "na", "eu", "title", "publisher", "notes")},
+            ],
+        },
+        "extra_columns": ["media"],
+        "derive": {"media": _sfc_media},
+        "madb_platforms": ["スーパーファミコン"],
+        "mame_lists": ["snes", "snes_strom"],
+        "mame_jp_models": _sfc_models,
+        "nointro_dats": ["Nintendo - Super Nintendo Entertainment System", "Nintendo - Sufami Turbo"],
+        "nointro_export": ["Super Nintendo Entertainment System (DB Export)", "Sufami Turbo (DB Export)"],
+        "nointro_export_fallback": {
+            "Super Nintendo Entertainment System (DB Export)": "Nintendo - Super Nintendo Entertainment System",
+            "Sufami Turbo (DB Export)": "Nintendo - Sufami Turbo"},
+        "models_from": _sfc_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルがほぼ無いので型番の検証には使わない
+        "code_of": _sfc_code,
+        "normalize_code": _gba_normalize_code,
+        "nintendo_power": {"page": "ニンテンドウパワーのゲームタイトル一覧", "section": "スーパーファミコン"},
     },
     # Wii（ディスクソフト）。Wiiウェアは別リスト、バーチャルコンソール・Wiiチャンネルは対象外
     "wii": {

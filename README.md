@@ -13,6 +13,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ニンテンドー ゲームキューブ (GC) | [`data/gc/jp_titles.csv`](data/gc/jp_titles.csv) | 276 | 272 | 274 | [`data/gc/jp_rom_dumps.csv`](data/gc/jp_rom_dumps.csv)（366 行） |
 | Wii | [`data/wii/jp_titles.csv`](data/wii/jp_titles.csv) | 461 | 461 | 461 | [`data/wii/jp_rom_dumps.csv`](data/wii/jp_rom_dumps.csv)（496 行） |
 | NINTENDO 64 (N64) | [`data/n64/jp_titles.csv`](data/n64/jp_titles.csv) | 198 | 198 | 144 | [`data/n64/jp_rom_dumps.csv`](data/n64/jp_rom_dumps.csv)（245 行） |
+| スーパーファミコン (SFC) | [`data/sfc/jp_titles.csv`](data/sfc/jp_titles.csv) | 1,422 | 1,384 | 1,324 | [`data/sfc/jp_rom_dumps.csv`](data/sfc/jp_rom_dumps.csv)（1,606 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -22,6 +23,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GC | [`jp_not_for_sale.csv`](data/gc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/gc/jp_non_retail.csv)（62 件） | |
 | Wii | [`jp_not_for_sale.csv`](data/wii/jp_not_for_sale.csv)（4 件） | （0 件） | Wiiウェア [`jp_wiiware.csv`](data/wii/jp_wiiware.csv)（210 件） |
 | N64 | （未調査・0 件） | [`jp_non_retail.csv`](data/n64/jp_non_retail.csv)（5 件） | 64DD [`jp_64dd.csv`](data/n64/jp_64dd.csv)（10 件） |
+| SFC | [`jp_not_for_sale.csv`](data/sfc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/sfc/jp_non_retail.csv)（9 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/sfc/jp_nintendo_power.csv)（179 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -408,6 +410,46 @@ NINTENDO 64 用として日本で発売されたソフト（1996〜2001年）。
 64DD（磁気ディスクドライブ）用ソフト 10 件の別リスト（Wikipedia の「発売された64DDのタイトル」）。
 ランドネットディスク（通信サービス用）を含む。ハッシュ（No-Intro の 64DD DAT）は未収録。
 
+## SFC
+
+スーパーファミコン用として日本で発売されたソフト（1990〜2000年）。`id` は `sfc-jp-<連番>`（発売順）。
+サテラビュー（BS 放送で配信されたソフト）は対象外。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「スーパーファミコンのゲームタイトル一覧」（日本の発売日がある行。本文の記載どおり 1,447 件、年別件数も一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「スーパーファミコン」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/snes.xml`・`hash/snes_strom.xml`（スーファミターボ） |
+| ハッシュ | No-Intro DAT（libretro 収録の SNES・Sufami Turbo。DB Export は未取得） |
+| ニンテンドウパワー | ja.wikipedia「ニンテンドウパワーのゲームタイトル一覧」スーパーファミコンの表 |
+
+- 本リストは 1,422 件。ニンテンドウパワーの書き換え専用タイトル 25 件（ピクロスNP、スーパーパンチアウト!!、
+  ダービースタリオン98 など）は別リストに移した。
+- `media` 列: `cartridge` / `sufami_turbo`（スーファミターボ専用ソフト 13 件。型番は `SFT-0101-JPN` 形式）。
+- 型番は初期が `SHVC-FZ` のような 2〜3 文字、後期が `SHVC-XXXJ-JPN`。型番なし 38 件、価格なし 98 件。
+- maru-chang に SFC の一覧は無いため、照合は Wikipedia・MADB・MAME の 3 つ。消費税は 1997年3月まで 3%、以降 5%（税抜表示）。
+- 発売日: MADB と MAME がそろって Wikipedia と異なる日付を持つものが 9 件ある（牧場物語 1996-08-06 → 両出典は 08-09 など）。
+  Wikipedia の誤りの可能性が高いが、現時点では修正せず要確認レポートに出している。
+
+### 非売品（`jp_not_for_sale.csv`）・別リスト
+
+Wikipedia「その他」節の 6 件を振り分けた。
+
+| 振り分け先 | 内容 |
+|---|---|
+| 非売品（3 件） | もと子ちゃんのワンダーキッチン（味の素マヨネーズの懸賞品）、パチンコ鉄人七番勝負（パチンコ店の景品）、鮫亀キャラデータ集（大会景品） |
+| 別リスト `business`（3 件） | ゲットインザホール（ゴルフシミュレータ専用）、JRA PAT／JRA PAT ワイド対応版（NTT データ通信セット専用の競馬投票ソフト） |
+
+No-Intro の `Sample`・`Auto Demo`・`Enhancement Chip` は製品版から除き、`Capcom Town`・`Columbus Circle`（後年の再発売）は
+`collection` とした。別リストはほかに試作品 6 件。
+
+### ニンテンドウパワー（`jp_nintendo_power.csv`）
+
+GB と同じ形式の別リスト（179 件、うち書き換え専用 26 件）。No-Intro の `(NP)` の吸い出し 50 件のうち 48 件を
+対応づけた（書き換え専用タイトルは [`data/sfc/overrides/np_dump_matches.csv`](data/sfc/overrides/np_dump_matches.csv)）。
+
 ## 再生成
 
 ```sh
@@ -438,6 +480,11 @@ python3 scripts/fetch_wikipedia_list.py n64
 python3 scripts/fetch_wikipedia_list.py n64 --list 64dd   # → data/n64/jp_64dd.csv
 python3 scripts/enrich.py n64
 python3 scripts/build_dumps.py n64
+
+python3 scripts/fetch_wikipedia_list.py sfc
+python3 scripts/enrich.py sfc                  # ニンテンドウパワー書き換え専用タイトルはここで除く
+python3 scripts/build_nintendo_power.py sfc
+python3 scripts/build_dumps.py sfc
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。
