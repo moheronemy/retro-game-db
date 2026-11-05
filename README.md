@@ -36,7 +36,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | MD | （未調査・0 件） | [`jp_non_retail.csv`](data/md/jp_non_retail.csv)（7 件） | 配信専用 [`jp_online.csv`](data/md/jp_online.csv)（46 件） |
 | メガCD | [`jp_not_for_sale.csv`](data/md/mega_cd/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/md/mega_cd/jp_non_retail.csv)（1 件） | |
 | PCE | [`jp_not_for_sale.csv`](data/pce/jp_not_for_sale.csv)（15 件） | [`jp_non_retail.csv`](data/pce/jp_non_retail.csv)（1 件） | 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） |
-| SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（6 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
+| SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -631,15 +631,17 @@ PCエンジンとして日本で発売されたソフト（1987〜1999年）。`
 
 ### 非売品（`jp_not_for_sale.csv`）・別リスト
 
-Wikipedia「非売品」節の 29 件について配布経路を調べ、出典（Wikipedia の本文・各作品の記事、富士通の報道資料、4Gamer）で
-経路を確認できたものだけ載せた。
+Wikipedia「非売品」節の 29 件について配布経路を調べ、出典（Wikipedia の本文・各作品の記事、富士通の報道資料、4Gamer、
+Sega Retro）で経路を確認できたものだけ載せた。Sega Retro（ファンのデータベース）だけを根拠にしたものは `notes` にそう書いている。
 
 | 振り分け先 | 内容 |
 |---|---|
-| 非売品（6 件） | シャイニングフォース3 プレミアムディスク（応募券をそろえて応募）、ジャワティオリジナル バーチャファイターキッズ（ジャワティーの景品）、ソウルハッカーズ EXTRAダンジョン（『悪魔全書 第二集』のはがきで抽選）、デリソバデラックス（東京フレンドパークIIの視聴者プレゼント）、Dragon's Dream（クライアント CD を申込者に無償配布・`free_distribution`）、BAROQUE REPORT CD DATA FILE（店頭配布の冊子のはがきで入手・`promotional`） |
-| 別リスト `store_demo`（33 件） | フラッシュ・セガサターン（ソフト販売店向けのデモ集）。Redump にある お近づき編・Vol.1〜32 を1巻1行で |
-| 載せていない（経路が未確認） | オレゴン&ベーシック welcome to アイフルホーム、きゃんバニ日めくりカレンダー、ファイナルロマンス 着せかえディスク、アイアンフック、雀帝 原画集、スーパー競輪、セガサターンインターネット（Vol.1・Vol.2・スペシャルディスク）、帝国華撃団隊員名簿、でべろマガジンVol.2、電波少年的ゲーム2、バーチャファイターCGポートレート（コレクション・デュラル）、ハイムワルツ、パッドニフティ、野村ホームトレード、ジグソーパズルカタログ、ルース。通販サイトの商品説明・個人ブログ・検索結果の抜粋でしか経路が分からないものもここに含めた |
-| 市販品だった | ワープロソフト EGWORD ver1.0（プリンタ同梱で発売）・ver2.0（発売。Wikipedia「EGWORD」）。ピクトフラッシュ どんどん も教室等での販売だった可能性がある |
+| 非売品（6 件） | シャイニングフォース3 プレミアムディスク（応募券をそろえて応募）、ジャワティオリジナル バーチャファイターキッズ（ジャワティーの景品）、ソウルハッカーズ EXTRAダンジョン（『悪魔全書 第二集』のはがきで抽選）、デリソバデラックス（東京フレンドパークIIの視聴者プレゼント）、Dragon's Dream（クライアント CD を申込者に無償配布・`free_distribution`）、BAROQUE REPORT CD DATA FILE（店頭配布の冊子のはがきで入手・`promotional`）、
+BIG THANKS スーパー競輪（競輪50周年記念イベントの来場者に配布・`event`）、でべろマガジンVol.2（雑誌の付録・`supplement`）、
+パッドニフティ（市販のセガサターンモデムに同梱・`bundled`） |
+| 別リスト `store_demo`（33 件） | フラッシュ・セガサターン（Wikipedia ではソフト販売店向けのデモ集。Sega Retro はセガクラブ会員への無料配布とする）。Redump にある お近づき編・Vol.1〜32 を1巻1行で |
+| 載せていない（経路が未確認） | オレゴン&ベーシック welcome to アイフルホーム、きゃんバニ日めくりカレンダー、ファイナルロマンス 着せかえディスク、アイアンフック、雀帝 原画集、セガサターンインターネット（Vol.1・Vol.2・スペシャルディスク）、帝国華撃団隊員名簿（Sega Retro も「報道関係者に配布（?）」と留保）、電波少年的ゲーム2、バーチャファイターCGポートレート（コレクション・デュラル）、ハイムワルツ、野村ホームトレード（「一般販売せず配布」とあるが対象不明）、ジグソーパズルカタログ、ルース。通販サイトの商品説明・個人ブログ・検索結果の抜粋でしか経路が分からないものもここに含めた |
+| 市販品だった | ワープロソフト EGWORD ver1.0（プリンタ同梱で発売）・ver2.0（発売。Wikipedia「EGWORD」）、ピクトフラッシュ どんどん（Sega Retro では定価 15,800 円） |
 
 Redump の `(Java Tea Original)` は製品版『バーチャファイターキッズ』に結びつけない（非売品として扱う）。
 
