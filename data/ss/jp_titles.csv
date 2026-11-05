@@ -1,0 +1,1059 @@
+id,release_date,title,publisher,age_rating,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+ss-jp-0001,1994-11-22,バーチャファイター,セガ,,GS-9001,8800,税抜,ローンチタイトル。同名アーケードゲームの移植版。,バーチャファイター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,バーチャファイター,M719651,vfjc
+ss-jp-0002,1994-11-22,MYST,サンソフト,,T-1501G,7800,税抜,ローンチタイトル。同名PCゲームの移植版,MYST,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,MYST,M740899,mystj
+ss-jp-0003,1994-11-22,TAMA,タイムワーナーインタラクティブ,,T-4801G,5800,税抜,ローンチタイトル。,TAMA (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,TAMA,M719650,tama
+ss-jp-0004,1994-11-22,麻雀悟空 天竺,エレクトロニック・アーツ・ビクター,,T-10601G,5800,税抜,ローンチタイトル。,プロフェッショナル麻雀悟空,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,麻雀悟空 天竺,M719652,mjgokuu
+ss-jp-0005,1994-11-22,ワンチャイコネクション,セガ,,GS-9007,7800,税抜,ローンチタイトル。,ワンチャイコネクション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,WanChai Connection,M719649,wanchai
+ss-jp-0006,1994-12-02,真説・夢見館 扉の奥に誰かが…,セガ,,GS-9005,7800,税抜,メガCD用ソフト『夢見館の物語』の続編,真説・夢見館 扉の奥に誰かが…,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,真説・夢見館 扉の奥に誰かが…,M719647,shinsetsa
+ss-jp-0007,1994-12-02,ゲイルレーサー,セガ,,GS-9003,6800,税抜,アーケードゲーム『ラッドモビール』のアレンジ移植,ラッドモビール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲイルレーサー,M747926,galerace
+ss-jp-0008,1994-12-09,クロックワークナイト 〜ペパルーチョの大冒険・上巻〜,セガ,,GS-9004,4800,税抜,欧州ではローンチタイトルとして発売された,クロックワークナイト 〜ペパルーチョの大冒険〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CLOCKWORK KNIGHT Pepperouchau's Adventure,M719646,cknightja
+ss-jp-0009,1995-01-20,ビクトリーゴール,セガ,,GS-9002,6800,税抜,,ビクトリーゴール,Wikipedia+MADB+MAME,MAME+MADB,MADB,VICTORY GOAL,M719643,vgoal
+ss-jp-0010,1995-01-27,ゴータ イスマイリア戦役,セガ,,GS-9009,6800,税抜,,ゴータ イスマイリア戦役,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GOTHA ～イスマイリア戦役～,M719642,gotha
+ss-jp-0011,1995-02-24,PEBBLE BEACH GOLF LINKS 〜スタドラーに挑戦〜,セガ,,GS-9006,8800,税抜,,PEBBLE BEACH GOLF LINKS 〜スタドラーに挑戦〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,PEBBLE BEACH GOLF LINKS スタドラーに挑戦,M719640,pebblej
+ss-jp-0012,1995-02-24,上海 万里の長城,サンソフト,,T-1505G,6800,税抜,同名PCゲームの移植版,上海 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,上海 万里の長城,M762342,shangbanb
+ss-jp-0013,1995-02-24,アイドル雀士スーチーパイSpecial,ジャレコ,18+,T-5701G,6900,税抜,同名アーケードゲームの移植版。 18歳以上推奨（MA-18）,アイドル雀士スーチーパイ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アイドル雀士スーチーパイ Special,M744514,suchispc
+ss-jp-0014,1995-02-24,RAMPO,セガ,18+,GS-9011,7800,税抜,同名映画のゲーム版。 18歳以上推奨,RAMPO,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,RAMPO,M719043,rampo
+ss-jp-0015,1995-03-03,ポポイっとへべれけ,サンソフト,,T-1504G,6000,税抜,,へべれけ (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ポポイっとへべれけ,M756460,popohebe
+ss-jp-0016,1995-03-10,パンツァードラグーン,セガ,,GS-9015,6800,税抜,,パンツァードラグーン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,PANZER DRAGOON,M719639,panzerjb
+ss-jp-0017,1995-03-10,麻雀巌流島,アスキー,,T-2101G,6800,税抜,麻雀ゲームで、戦国時代の武将と対決するモードと、実在の雀豪らと対戦できるモードが収録されている,麻雀巌流島,Wikipedia+MADB,MAME+No-Intro,MADB,麻雀巌流島,M766105,mjganryu
+ss-jp-0018,1995-03-24,ダイダロス,セガ,,GS-9008,6800,税抜,,ダイダロス (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ダイダロス,M719637,deadalusa
+ss-jp-0019,1995-03-25,EMIT Vol.1 〜時の迷子〜,光栄,,T-7602G,8800,税抜,,EMIT,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,EMIT Vol. 1 ～時の迷子～,M738778,emit1
+ss-jp-0020,1995-03-31,サイドポケット2 〜伝説のハスラー〜,データイースト,,T-1301G,6800,税抜,セガサターン初のビリヤードゲームで、実写映像が用いられている,サイドポケット2 〜伝説のハスラー〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイドポケット2 ～伝説のハスラー～,M748694,sidepkt2a
+ss-jp-0021,1995-04-01,デイトナUSA,セガ,,GS-9013,6800,税抜,同名アーケードゲームの移植版 欧州ではローンチタイトルとして発売された,デイトナUSA,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DAYTONA USA,M719636,daytonaj
+ss-jp-0022,1995-04-01,EMIT Vol.2 〜命がけの旅〜,光栄,,T-7603G,8800,税抜,,EMIT,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,EMIT Vol. 2 ～命がけの旅～,M738781,emit2
+ss-jp-0023,1995-04-01,EMIT Vol.3 〜私にさよならを〜,光栄,,T-7603G,8800,税抜,,EMIT,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,EMIT Vol. 3 ～私にさよならを～,M738784,emit3
+ss-jp-0024,1995-04-14,柿木将棋,アスキー,,T-2104G,7800,税抜,同名PCゲームの移植版,柿木将棋,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,柿木将棋,M760401,kakinoki
+ss-jp-0025,1995-04-28,ヴァーチャルハイドライド,セガ,,GS-9012,5800,税抜,PCゲーム『ハイドライド』を3Dおよび実写を用いてリメイクした作品,ハイドライドシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,VIRTUAL HYDLIDE,M719634,vhydlidj
+ss-jp-0026,1995-04-28,輝水晶伝説アスタル,セガ,,GS-9019,5800,税抜,,輝水晶伝説アスタル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,輝水晶伝説アスタル,M719633,astalja
+ss-jp-0027,1995-04-28,三國志IV,光栄,,T-7601G,14800,税抜,,三國志IV,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,三國志4,M734618,sangoku4
+ss-jp-0028,1995-04-28,アイルトン・セナ パーソナルトーク 〜Message for the future〜,セガ,,GS-9020,8800,税抜,F1レーサーアイルトン・セナの映像集,アイルトン・セナ パーソナルトーク 〜Message for the future〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,アイルトン・セナ パーソナルトーク,M719635,asenna
+ss-jp-0029,1995-05-19,極上パロディウスだ! DELUXE PACK,コナミ,,T-9501G,5800,税抜,『パロディウスだ! 〜神話からお笑いへ〜』と『極上パロディウス 〜過去の栄光を求めて〜』を収録,極上パロディウス 〜過去の栄光を求めて〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,極上パロディウスだ! DELUXE PACK,M760780,gokuparo
+ss-jp-0030,1995-05-26,グランチェイサー,セガ,,GS-9022,5800,税抜,近未来都市を舞台としたレースゲームで、車体のデザインはシド・ミードが担当した,グランチェイサー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,グランチェイサー,M719632,granchas
+ss-jp-0031,1995-05-26,完全中継プロ野球グレイテストナイン,セガ,,GS-9017,5800,税抜,プロ野球12球団公認作品で、選手が実名で登場する,完全中継プロ野球グレイテストナイン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,完全中継プロ野球 GREATEST NINE,M719631,gnine
+ss-jp-0032,1995-05-26,スーパーリアル麻雀PV,セタ,X,T-16501G,8800,税抜,同名アーケードゲームの移植版 X指定（18歳未満禁止）,スーパーリアル麻雀,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーリアル麻雀P5,M734145,srmp5
+ss-jp-0033,1995-06-02,バトルモンスターズ,ナグザット,18+,T-18701G,5800,税抜,実写取り込みを用いた格闘ゲーム 18歳以上推奨,バトルモンスターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BATTLE MONSTERS,M719033,btlmonstja
+ss-jp-0034,1995-06-09,ゲームの達人,サンソフト,,T-1502G,8900,税抜,ボードゲーム集,ゲームの達人 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲームの達人,M747980,gametat
+ss-jp-0035,1995-06-16,制服伝説 プリティーファイターX,イマジニア,18+,T-15001G,7980,税抜,スーパーファミコン用ソフト『〜制服伝説〜プリティファイター』の続編 18歳以上推奨,〜制服伝説〜プリティファイター,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,制服伝説 プリティファイター X,M719042,prettyx
+ss-jp-0036,1995-06-23,デジタルピンボール ラストグラディエーターズ,カゼ,,T-18901G,5800,税抜,,デジタルピンボール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,デジタルピンボール ラストグラディエーターズ,M719630,digipinja
+ss-jp-0037,1995-06-23,ブルーシード 〜奇稲田秘録伝〜,セガ,18+,GS-9014,,,テレビアニメ『BLUE SEED』のゲーム化作品。 18歳以上推奨,ブルーシード 〜奇稲田秘録伝〜,Wikipedia+MAME,MAME+No-Intro,,,,blueseed
+ss-jp-0038,1995-06-30,新・忍伝,セガ,18+,GS-9010,4800,税抜,「忍」シリーズの1作品で、実写取り込みを用いている。 18歳以上推奨,忍_-SHINOBI-,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,新・忍伝,M719031,shinobij
+ss-jp-0039,1995-07-07,ダークシード,ギャガ・コミュニケーションズ,18+,T-18501G,5800,税抜,18歳以上推奨,ダークシード,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DARKSEED,M719030,darkseed
+ss-jp-0040,1995-07-07,平成天才バカボン すすめ!バカボンズ,ゼネラル・エンタテイメント,,T-17001G,4800,税抜,テレビアニメ『平成天才バカボン』を基にした落ちものパズル,天才バカボン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,平成天才バカボン すすめ! バカボンズ,M765715,bakabons
+ss-jp-0041,1995-07-14,バーチャファイターリミックス,セガ,,GS-9039,34800,税抜,『バーチャファイター』の内容改良版 1996年7月27日にはXBAND対応版が発売された,バーチャファイター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイター リミックス セガサターン100万台!キャンペーンボックス,M753359,vfremixjd
+ss-jp-0042,1995-07-14,学校の怪談,セガ,,GS-9026,5800,税抜,同名映画のゲーム化で、原作の映像が用いられている,学校の怪談,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,学校の怪談,M719627,gakkokai
+ss-jp-0043,1995-07-21,リグロードサーガ,セガ,,GS-9021,5800,税抜,,リグロードサーガ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,リグロード サーガ,M719626,riglordb
+ss-jp-0044,1995-07-21,熱血親子,テクノソフト,,T-1802G,5800,税抜,元々はアーケードゲームの企画だった,熱血親子,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,熱血親子,M719625,nekketsu
+ss-jp-0045,1995-07-21,バーチャルバレーボール,イマジニア,,T-15005G,7800,税抜,,バーチャルバレーボール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャルバレーボール,M753387,vvolly
+ss-jp-0046,1995-07-28,クロックワークナイト 〜ペパルーチョの大冒険・下巻〜,セガ,,GS-9029,4800,税抜,,クロックワークナイト 〜ペパルーチョの大冒険〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CLOCKWORK KNIGHT Pepperouchau's Adventure,M719623,cknight2j
+ss-jp-0047,1995-07-28,Dの食卓,アクレイムジャパン,,T-8101G,8800,税抜,同名3DO用ソフトの移植版,Dの食卓,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Dの食卓,M738712,djb
+ss-jp-0048,1995-07-28,THE野球拳スペシャル 〜今夜は12回戦〜,ソシエッタ代官山,X,,6800,税抜,X指定（18歳未満禁止） 実写ヌードシーンあり,THE野球拳スペシャル 〜今夜は12回戦〜,Wikipedia+MADB,,MADB,THE野球拳スペシャル～今夜は12回戦～,M743346,
+ss-jp-0049,1995-07-28,実況パワフルプロ野球'95開幕版,コナミ,,,5800,税抜,,実況パワフルプロ野球'95開幕版,Wikipedia+MADB,,MADB,実況パワフルプロ野球'95開幕版,M761970,
+ss-jp-0050,1995-07-28,ゆみみみっくすREMIX,ゲームアーツ,,T-4501G,,,メガCD用ソフト『ゆみみみっくす』にサターン版独自要素としてパズルゲームを追加,ゆみみみっくす,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719624,yummixrm
+ss-jp-0051,1995-08-04,麻雀海岸物語 〜麻雀狂時代 セクシーアイドル編〜,マイクロネット,18+,T-2201G,6800,税抜,18歳以上推奨 セクシーアイドル・ENDOLLが出演する麻雀ゲーム。,麻雀海岸物語 〜麻雀狂時代 セクシーアイドル編〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀海岸物語～麻雀狂時代 セクシーアイドル編～,M766086,mjkaigan
+ss-jp-0052,1995-08-04,レースドライビン,タイムワーナーインタラクティブ,,T-4802G,5800,税抜,同名アーケードゲームの移植版,レースドライビン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レースドライビン,M758769,racedriv
+ss-jp-0053,1995-08-11,ウイニングポストEX,光栄,,T-7606G,6800,税抜,,ウイニングポスト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイニングポストEX,M745662,wpostex
+ss-jp-0054,1995-08-11,シャイニング・ウィズダム,セガ,,GS-9057,5800,税抜,開発元のソニックにとっては初めてのセガサターン作品でもある,シャイニング・ウィズダム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SHINING WISDOM,M719622,shinwisdjb
+ss-jp-0055,1995-08-11,ストリートファイター リアルバトル オン フィルム,カプコン,,T-1201G,5800,税抜,映画『ストリートファイター』のゲーム化で、システムは『スーパーストリートファイターII X』を基にしている,ストリートファイター リアルバトル オン フィルム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストリートファイター リアルバトル オン フィルム,M750074,sfreal
+ss-jp-0056,1995-08-11,水滸演武,データイースト,,T-1302G,5800,税抜,同名アーケードゲームの移植版,水滸演武,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,水滸演武,M763103,suikoenba
+ss-jp-0057,1995-08-11,学校のコワイうわさ 花子さんがきた!!,カプコン,,T-1205G,4980,税抜,同名テレビアニメのゲーム化,学校のコワイうわさ 花子さんがきた!! (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,学校のコワイうわさ 花子さんがきた!!,M760467,gakkokow
+ss-jp-0058,1995-08-11,テレビアニメ スラムダンク I Love Basketball,バンダイ,,,6800,税抜,,SLAM DUNK,Wikipedia+MADB,,MADB,テレビアニメ スラムダンク I Love Basketball,M751990,
+ss-jp-0059,1995-08-11,卒業II 〜Neo Generation〜,リバーヒルソフト,18+,T-5301G,,,同名PCエンジン用ソフトの移植版 18歳以上推奨,卒業II 〜Neo Generation〜,Wikipedia+MAME,MAME+No-Intro,,,,sotsugy2
+ss-jp-0060,1995-08-11,アイドル麻雀ファイナルロマンス2,アスク講談社,X,T-16702G,7800,税抜,X指定（18歳未満禁止）,対戦アイドル麻雀ファイナルロマンス2,Wikipedia,MAME+No-Intro,MADB,アイドル麻雀ファイナルロマンス2,M744517,fromanc2
+ss-jp-0061,1995-08-25,魔法騎士レイアース,セガ,,GS-9058,4800,税抜,同名テレビアニメのゲーム化 北米における最後のセガサターン用ソフト,魔法騎士レイアース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,魔法騎士レイアース,M719620,rayearthja
+ss-jp-0062,1995-08-25,AI将棋,サムシンググッド,,T-18602G,6800,税抜,,AI将棋,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,AI将棋,M719618,aishogi
+ss-jp-0063,1995-08-25,球転界,テクノソフト,,T-1801G,5800,税抜,ファンタジー調のデジタルピンボール,球転界,Wikipedia+MADB,MADB+No-Intro,MADB,球転界,M719621,
+ss-jp-0064,1995-08-25,ファイプロ外伝 ブレイジングトルネード,ヒューマン,,T-4302G,6800,税抜,,ファイヤープロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイプロ外伝 ブレイジングトルネード,M755002,blaztorn
+ss-jp-0065,1995-09-01,実戦麻雀,イマジニア,,T-15002G,6800,税抜,,実戦麻雀,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実戦麻雀,M762026,jissenmj
+ss-jp-0066,1995-09-14,レイヤーセクション,タイトー,,T-1101G,5800,税抜,アーケードゲーム『レイフォース』の移植版,レイフォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,LAYER SECTION,M719617,layersec
+ss-jp-0067,1995-09-15,将棋まつり,セタ,,T-16502G,9200,税抜,通常の対局に加え、1983年から93年までのプロ棋士の対局データ、および詰将棋モードなどを収録した将棋ゲーム,将棋まつり,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,将棋まつり,M762279,shougima
+ss-jp-0068,1995-09-22,ワールドアドバンスド大戦略 〜鋼鉄の戦風〜,セガ,,GS-9025,5800,税抜,メガドライブ用ソフト『アドバンスド大戦略』の内容強化版,ワールドアドバンスド大戦略 〜鋼鉄の戦風〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワールド アドバンスド 大戦略 鋼鉄の戦風 ワールドアドバンスド大戦略パック,M759278,wada
+ss-jp-0069,1995-09-22,マスターズ 〜遙かなるオーガスタ3〜,T&Eソフト,,T-11401G,5800,税抜,,遙かなるオーガスタ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マスターズ 遥かなるオーガスタ3,M719616,augusta3
+ss-jp-0070,1995-09-22,ブルー・シカゴ・ブルース,リバーヒルソフト,18+,T-5302G,7800,税抜,18歳以上推奨,ブルー・シカゴ・ブルース,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブルー・シカゴ・ブルース,M755706,jbharold
+ss-jp-0071,1995-09-22,ブレイクスルー,翔泳社,,T-21501G,5800,税抜,,Break Thru!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブレイクスルー,M755744,brkthru
+ss-jp-0072,1995-09-29,シムシティ2000,セガ,,GS-9027,5800,税抜,『シムシティ』の続編である同名PCゲームの移植版で、プレイに際してはバックアップメモリが必要,シムシティ2000,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SIM CITY 2000,M719614,simcit2kja
+ss-jp-0073,1995-09-29,ウイングアームズ 〜華麗なる撃墜王〜,セガ,,GS-9038,5800,税抜,,ウイングアームズ 〜華麗なる撃墜王〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイングアームズ～華麗なる撃墜王～,M745678,wingarmsj
+ss-jp-0074,1995-09-29,ゴールデンアックス・ザ・デュエル,セガ,,GS-9041,5800,税抜,同名アーケードゲームの移植版,ゴールデンアックス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゴールデンアックス・ザ・デュエル,M719613,gaxeduelja
+ss-jp-0075,1995-09-29,アイドル雀士スーチーパイRemix,ジャレコ,X,T-5704G,,,X指定（18歳未満禁止） 『アイドル雀士スーチーパイSpecial』の性的表現を変更,アイドル雀士スーチーパイ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M718877,suchirmx
+ss-jp-0076,1995-09-29,永世名人,コナミ,,T-9506G,5300,税抜,,永世名人 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,永世名人,M759803,eisei
+ss-jp-0077,1995-09-29,QUANTUM GATE I 〜悪魔の序章〜,ギャガ・コミュニケーションズ,18+,T-18502G,5800,税抜,18歳以上推奨,QUANTUM GATE I 〜悪魔の序章〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,QUANTUM GATE 1 ～悪夢の序章～,M719029,quantum1
+ss-jp-0078,1995-09-29,スチームギアマッシュ,タカラ,,T-10301G,5800,税抜,,スチームギアマッシュ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スチームギア★マッシュ,M749995,steamgea
+ss-jp-0079,1995-09-29,出たなツインビーヤッホー! DELUXE PACK,コナミ,,T-9505G,5800,,『出たなツインビー』と『ツインビーヤッホー!』を収録,出たなツインビーヤッホー! DELUXE PACK,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,出たなツインビーヤッホー! DELUXE PACK,M725859,tbyahhod
+ss-jp-0080,1995-09-29,天地無用! 魎皇鬼ごくらくCD-ROM for SEGA SATURN,ユーメディア,X,T-21801G,7800,税抜,OVA『天地無用!』を原作とするPCゲームの移植版 X指定（18歳未満禁止）,天地無用!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,天地無用! 魎皇鬼 ごくらくCD-ROM for SEGA SATURN,M718878,tenchryo
+ss-jp-0081,1995-09-29,信長の野望・天翔記,光栄,,T-7605G,9800,税抜,,信長の野望・天翔記,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,信長の野望 天翔記,M762404,nobutens
+ss-jp-0082,1995-09-29,宝魔ハンターライム Perfect Collection,アスミック,18+,T-2001G,8800,税抜,18歳以上推奨,宝魔ハンターライム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,宝魔ハンターライム Perfect Collection,M719028,hhuntpc
+ss-jp-0083,1995-09-29,魔法の雀士 ぽえぽえポエミィ,イマジニア,18+,T-15004G,7800,税抜,18歳以上推奨,魔法の雀士 ぽえぽえポエミィ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,魔法の雀士 ぽえぽえポエミィ,M766035,mahoupoe
+ss-jp-0084,1995-09-29,メタルファイターMIKU,ビクターエンタテインメント,,T-6002G,6800,税抜,同名テレビアニメのゲーム化,メタルファイターMIKU,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メタルファイター♥MIKU,M757601,mfmiku
+ss-jp-0085,1995-10-13,ゲームの鉄人 THE上海,サンソフト,,T-1506G,6800,税抜,,ゲームの鉄人 THE上海,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲームの鉄人 THE上海,M747984,gametats
+ss-jp-0086,1995-10-13,バーチャファイターCGポートレートシリーズVOL.1（サラ・ブライアント）,セガ,,GS-9062,1280,税抜,CG集,バーチャファイター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ Vol. 1（サラ・ブライアント）,M753362,vfport01
+ss-jp-0087,1995-10-13,バーチャファイターCGポートレートシリーズVOL.2（ジャッキー・ブライアント）,セガ,,GS-9064,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ Vol. 2（ジャッキー・ブライアント）,M753364,vfport02
+ss-jp-0088,1995-10-20,キング・オブ・ボクシング,ビクターエンタテインメント,,T-6001G,5800,税抜,,キング・オブ・ボクシング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キング・オブ・ボクシング,M747354,kingboxa
+ss-jp-0089,1995-10-20,X JAPAN Virtual Shock 001,セガ,,GS-9023,6800,税抜,1994年に行われたX JAPANのライブを撮影するカメラマンを主人公にしたアドベンチャーゲーム,X JAPAN Virtual Shock 001,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,X JAPAN Virtual Shock 001,M719612,vshck001
+ss-jp-0090,1995-10-20,サンダーストーム&ロードブラスター,エクゼコ・デベロップメント,,T-20701G,6800,税抜,業務用レーザーディスクゲーム『サンダーストーム』と『ロードブラスター』を収録,サンダーストーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サンダーストーム＆ロードブラスター,M748970,tstrmrbl
+ss-jp-0091,1995-10-20,ときめき麻雀パラダイス 〜恋のてんぱいビート〜,ソネット・コンピュータエンタテイメント,X,T-20201G,6800,税抜,X指定（18歳未満禁止）,ときめき麻雀パラダイス 〜恋のてんぱいビート〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ときめき麻雀パラダイス～恋のてんぱいビート～,M752180,tokimjpa
+ss-jp-0092,1995-10-27,ハングオンGP'95,セガ,,GS-9032,5800,税抜,セガサターン初のレースゲームで、アーケードゲーム『ハングオン』の移植版,ハングオンGP'95,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HANG ON GP '95,M719611,hangongpj
+ss-jp-0093,1995-10-27,セガ インターナショナル ビクトリーゴール,セガ,,GS-9044,4800,税抜,『ビクトリーゴール』の続編 ヨーロッパではローンチタイトルとして発売された,セガ インターナショナル ビクトリーゴール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,セガ インターナショナル ビクトリーゴール,M719610,intvgoalj
+ss-jp-0094,1995-10-27,バーチャルオープンテニス,イマジニア,,T-15007G,7800,税抜,,バーチャルオープンテニス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャルオープンテニス,M753378,votennisj
+ss-jp-0095,1995-10-27,アメリカ横断ウルトラクイズ,ビクターエンタテインメント,,T-6004G,5800,税抜,同名テレビ番組のゲーム化,アメリカ横断ウルトラクイズ (コンピュータゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アメリカ横断ウルトラクイズ,M745055,amoudan
+ss-jp-0096,1995-10-27,結婚前夜,小学館プロダクション,,T-10502G,2000,税抜,『結婚 ～Marriage～』のパイロットディスク,卒業 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,結婚前夜,M761026,kekknzen
+ss-jp-0097,1995-10-27,サイコトロン,ギャガ・コミュニケーションズ,18+,T-18503G,5800,税抜,18歳以上推奨 北米で発売されたPCゲームの移植だがSS版は日本のみ,サイコトロン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,The PSYCHOTRON,M719027,psychotr
+ss-jp-0098,1995-10-27,「占都物語」そのI,CRI,,T-6801G,5800,税抜,,「占都物語」そのI,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,「占都物語」その1,M736887,sentomon
+ss-jp-0099,1995-10-27,ぷよぷよ通,コンパイル,,T-6601G,4800,税抜,同名作品の移植版,ぷよぷよ通,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぷよぷよ通,M755451,puyopuy2
+ss-jp-0100,1995-10-27,プリンセスメーカー2,マイクロキャビン,,T-5201G,7800,税抜,,プリンセスメーカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プリンセスメーカー2,M755682,prinmak2
+ss-jp-0101,1995-11-02,F-1ライブインフォメーション,セガ,,GS-9035,,,,F-1ライブインフォメーション,Wikipedia+MAME,MAME+No-Intro,,,,f1live
+ss-jp-0102,1995-11-03,ただいま惑星開拓中!,アルトロン,,T-16602G,5800,税抜,,ただいま惑星開拓中!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ただいま惑星開拓中!,M750975,tadaima
+ss-jp-0103,1995-11-10,ばくばくアニマル 〜世界飼育係選手権〜,セガ,,GS-9040,4800,税抜,同名アーケードゲームの移植版,ばくばくアニマル 〜世界飼育係選手権〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ばくばくアニマル ～世界飼育係選手権～,M719608,bakubakuj
+ss-jp-0104,1995-11-10,峠KING THE SPIRITS,アトラス,,T-14401G,5800,税抜,,峠シリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,峠KING THE SPIRITS,M764966,tougea
+ss-jp-0105,1995-11-17,野茂英雄ワールドシリーズベースボール,セガ,,GS-9061,5800,税抜,『完全中継プロ野球グレイテストナイン』の内容をメジャーリーグに差し替えた作品,野茂英雄ワールドシリーズベースボール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,野茂英雄 ワールドシリーズ ベースボール,M719607,nomowsb
+ss-jp-0106,1995-11-17,レイマン,UBIソフト,,T-17701G,5800,税抜,,レイマン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レイマン,M758716,raymanj
+ss-jp-0107,1995-11-17,戦略将棋,エレクトロニック・アーツ・ビクター,,T-10604G,6800,税抜,,戦略将棋,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,戦略将棋,M763663,senryaku
+ss-jp-0108,1995-11-17,ドラゴンボールZ 真武闘伝,バンダイ,,T-13302G,6800,税抜,,ドラゴンボールZ 真武闘伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラゴンボールZ 真武闘伝,M752578,dbzsbuto
+ss-jp-0109,1995-11-17,バーチャファイターCGポートレートシリーズVOL.3（結城晶）,セガ,,GS-9065,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ Vol 3（結城晶）,M753361,vfport03
+ss-jp-0110,1995-11-17,バーチャファイターCGポートレートシリーズVOL.4（パイ・チェン）,セガ,,GS-9066,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ Vol. 4（パイ・チェン）,M753365,vfport04
+ss-jp-0111,1995-11-17,おーちゃんのお絵かきロジック,サンソフト,,T-1508G,4900,税抜,,おーちゃんのお絵かきロジック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,おーちゃんのお絵かきロジック,M746219,ooekakil
+ss-jp-0112,1995-11-22,オフワールド・インターセプター エクストリーム,BMGビクター,,T-15901G,5800,税抜,3DO用ソフト『オフワールド・インターセプター』の移植版,オフワールド・インターセプター エクストリーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,オフワールド・インターセプター エクストリーム,M746374,offworldj
+ss-jp-0113,1995-11-22,X-MEN CHILDREN OF THE ATOM,カプコン,,T-1203G,5800,税抜,同名アーケードゲームの移植版,エックス・メン チルドレン オブ ジ アトム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,X-MEN CHILDREN OF THE ATOM,M744141,xmcotaja
+ss-jp-0114,1995-11-22,ギャラクシーファイト ユニバーサル・ウォーリアーズ,サンソフト,,T-1510G,5800,税抜,同名ネオジオ用ソフトの移植版,ギャラクシーファイト ユニバーサル・ウォーリアーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ギャラクシーファイト ユニバーサル・ウォリアーズ,M747237,galaxyfgj
+ss-jp-0115,1995-11-22,燃えろ!!プロ野球'95 ダブルヘッダー,ジャレコ,,T-5703G,5800,税抜,,燃えろ!!プロ野球,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,燃えろ!! プロ野球'95 ダブルヘッダー,M765231,moepro95
+ss-jp-0116,1995-11-22,ぱっぱらぱおーん,エコールソフトウェア,,T-23201G,4800,税抜,ブロックを投げて消す形式の対戦アクションパズル,ぱっぱらぱおーん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぱっぱらぱおーん,M754065,papparap
+ss-jp-0117,1995-11-24,闘神伝S,セガ,,GS-9078,5800,税抜,PlayStaton用ソフト『闘神伝』の移植版,闘神伝,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,闘神伝S,M719603,toshimixja
+ss-jp-0118,1995-11-24,バーチャコップ,セガ,,GS-9060,5800,税抜,同名アーケードゲームの移植版 バーチャガン対応,バーチャコップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,VIRTUA COP,M719606,vcopjb
+ss-jp-0119,1995-11-24,金沢将棋,セタ,,T-16505G,7900,税抜,金沢伸一郎の開発したプログラムを採用した将棋ゲーム,金沢将棋,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,金沢将棋,M760865,kanazawa
+ss-jp-0120,1995-11-24,シュトラール 〜秘められし七つの光〜,メディアエンターテイメント,,T-20501G,4800,税抜,全編にムービーを採用したアクションゲーム,シュトラール 〜秘められし七つの光〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,STRAHL 秘められし七つの光,M719605,strahl
+ss-jp-0121,1995-11-24,スーパーリアル麻雀グラフィティ,セタ,X,T-16504G,8800,税抜,スーパーリアル麻雀シリーズのうち、第2作から第4作までを収録した作品 X指定（18歳未満禁止）,スーパーリアル麻雀,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーリアル麻雀グラフィティ,M749707,srmgraf
+ss-jp-0122,1995-12-01,NBA JAM トーナメントエディション,アクレイムジャパン,,T-8102G,5800,税抜,同名作品の移植版,NBA JAM トーナメントエディション,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NBA JAM トーナメントエディション,M741048,nbajamtej
+ss-jp-0123,1995-12-01,バーチャファイター2,セガ,,GS-9079,6800,税抜,同名アーケードゲームの移植版,バーチャファイター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Virtua Fighter 2,M719602,vf2jc
+ss-jp-0124,1995-12-01,爆笑!!オール吉本クイズ王決定戦DX,吉本興業,,T-20001G,5800,税抜,吉本興業所属のお笑い芸人が登場するクイズ番組形式のゲーム,爆笑!!オール吉本クイズ王決定戦DX,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,爆笑!! オール吉本クイズ王決定戦DX,M765364,yoquizdx
+ss-jp-0125,1995-12-08,バグ!ジャンプして、ふんづけちゃって、ぺっちゃんこ,セガ,,GS-9063,5800,税抜,,バグ!ジャンプして、ふんづけちゃって、ぺっちゃんこ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BUG! ジャンプして、ふんづけちゃって、ぺっちゃんこ,M719600,bugj
+ss-jp-0126,1995-12-08,バーチャファイターCGポートレートシリーズVOL.5（ウルフ・ホークフィールド）,セガ,,GS-9068,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ Vol. 5（ウルフ・ホークフィールド）,M753366,vfport05
+ss-jp-0127,1995-12-08,バーチャファイターCGポートレートシリーズVOL.6（ラウ・チェン）,セガ,,GS-9069,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ Vol. 6（ラウ・チェン）,M753367,vfport06
+ss-jp-0128,1995-12-08,ハットトリックヒーローS,タイトー,,T-1103G,5800,税抜,アーケードゲーム『ハットトリックヒーロー'93』の移植版,ハットトリックヒーローS,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HATTRICK HERO S,M719601,htheros
+ss-jp-0129,1995-12-08,日灼けの想い出+姫くり,やのまん,,T-21002G,5800,税抜,実写を用いたパズルゲームであり、題名の「姫くり」はセガサターンの内蔵時計を用いた日替わりパズルゲームモードの名前でもある,日灼けの想い出+姫くり,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,日灼けの想い出+姫くり,M765083,girlpuz1
+ss-jp-0130,1995-12-08,ファーザー・クリスマス,ギャガ・コミュニケーションズ,,T-18504G,5800,税抜,同名絵本およびそのアニメ版を基にした教育ソフト,ファーザー・クリスマス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファーザー・クリスマス,M754811,fatherxm
+ss-jp-0131,1995-12-15,ザ・ハイパーゴルフ 〜デビルズコース〜,ビック東海,,T-2301G,5800,税抜,,遙かなるオーガスタ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・ハイパーゴルフ～デビルズコース～,M748595,hyprgolf
+ss-jp-0132,1995-12-15,ダライアス外伝,タイトー,,T-1102G,5800,税抜,同名アーケードゲームの移植版,ダライアス外伝,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ダライアス外伝,M719596,dariusgja
+ss-jp-0133,1995-12-15,海底大戦争,イマジニア,,T-15006G,6800,税抜,同名アーケードゲームの移植版,海底大戦争 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,海底大戦争,M719598,inthuntja
+ss-jp-0134,1995-12-15,湾岸デッドヒート,パック・イン・ビデオ,18+,T-9102G,6800,税抜,高速道路を舞台としたレースゲームで、プレイヤーの同乗者として女性タレントの実写映像が用いられている 18歳以上推奨,湾岸デッドヒート,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,湾岸デッドヒート,M766881,wangan
+ss-jp-0135,1995-12-15,EMIT バリューセット,光栄,,,15800,税抜,EMIT三部作を一つにまとめた作品,EMIT,Wikipedia+MADB,,MADB,EMIT バリューセット,M738787,
+ss-jp-0136,1995-12-15,ガンバード,アトラス,,T-14402G,5800,税抜,同名アーケードゲームの移植版,ガンバード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガンバード,M746929,gunbird
+ss-jp-0137,1995-12-15,クロックワークナイト 〜ペパルーチョの福袋〜,セガ,,GS-9074,6800,税抜,『クロックワークナイト 〜ペパルーチョの大冒険』の上巻と下巻を一つにまとめ、ミニゲームを付与した作品,クロックワークナイト 〜ペパルーチョの大冒険〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CLOCKWORK KNIGHT ペパルーチョの福袋,M719597,cknightf
+ss-jp-0138,1995-12-15,結婚 〜Marriage〜,小学館プロダクション,,T-10501G,6800,税抜,,結婚 〜Marriage〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,結婚～Marriage～,M761025,kekkon
+ss-jp-0139,1995-12-15,DX人生ゲーム,タカラ,,T-10302G,5800,税抜,,人生ゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,DX人生ゲーム,M738693,dxjinsei
+ss-jp-0140,1995-12-15,ちびまる子ちゃんの対戦ぱずるだま,コナミ,,T-9507G,5800,税抜,テレビアニメ『ちびまる子ちゃん』を題材とした落ちものパズルゲーム,ちびまる子ちゃんの対戦ぱずるだま,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ちびまる子ちゃんの対戦ぱずるだま,M751220,cpuzldam
+ss-jp-0141,1995-12-15,マジカルドロップ,データイースト,,T-1304G,5800,税抜,同名アーケードゲームの移植版,マジカルドロップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジカルドロップ,M756779,magdrop
+ss-jp-0142,1995-12-21,QUOVADIS,グラムス,,T-17401G,6800,税抜,未来の宇宙を舞台に艦隊を指揮するシミュレーションRPG,QUOVADIS,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,QUOVADIS,M741761,quovadis
+ss-jp-0143,1995-12-22,テーマパーク,エレクトロニック・アーツ・ビクター,,T-10605G,5800,税抜,,テーマパーク (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,テーマパーク,M751635,themeprkj
+ss-jp-0144,1995-12-22,バーチャレーシング,タイムワーナーインタラクティブ,,T-4803G,5800,税抜,同名アーケードゲームの移植版,バーチャレーシング,Wikipedia+MADB+MAME,MAME,MADB,バーチャレーシング セガサターン,M753396,vrj
+ss-jp-0145,1995-12-22,ブラックファイアー,ヴァージンインタラクティブエンターテイメント,,T-7003G,5800,税抜,戦闘ヘリによる3Dシューティングゲームであり、フライトシミュレータとしての側面もある,ブラックファイアー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブラックファイアー,M755509,blckfirej
+ss-jp-0146,1995-12-22,機動戦士ガンダム,バンダイ,,T-13303G,,,同名アニメ作品のゲーム化,機動戦士ガンダム (セガサターン),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719595,gundam
+ss-jp-0147,1995-12-22,ゴジラ 列島震撼,セガ,,GS-9050,5800,税抜,映画ゴジラシリーズを題材としたリアルタイムストラテジー,ゴジラ 列島震撼,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゴジラ -列島震撼-,M719594,godzilla
+ss-jp-0148,1995-12-25,真・女神転生デビルサマナー,アトラス,,T-14403G,6800,税抜,『真・女神転生』のパラレルワールドを舞台とした作品。,真・女神転生デビルサマナー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,真・女神転生 デビルサマナー 悪魔召喚師,M719593,shinmtds
+ss-jp-0149,1995-12-22,北斗の拳,バンプレスト,,T-20601G,5800,税抜,同名テレビアニメを原作とするアドベンチャーゲーム,北斗の拳 (セガサターン),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,北斗の拳,M765814,hokuto
+ss-jp-0150,1995-12-29,セガラリーチャンピオンシップ,セガ,,GS-9047,5800,税抜,同名アーケードゲームの移植版,セガラリーチャンピオンシップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SEGA RALLY CHAMPIONSHIP,M719592,srallycjb
+ss-jp-0151,1995-12-29,カオスコントロール,ヴァージンインタラクティブエンターテイメント,,T-7002G,5800,税抜,,カオスコントロール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カオスコントロール,M746627,chaosconja
+ss-jp-0152,1995-12-29,ウィザーズハーモニー,アークシステムワークス,,T-22001G,4900,税抜,,ウィザーズハーモニー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Wizards Harmony,M719591,wizharm
+ss-jp-0153,1996-01-12,麻雀狂時代 コギャル放課後編,マイクロネット,18+,T-2203G,8800,税抜,18歳以上推奨 麻宮淳子らが出演したマージャンゲーム,麻雀狂時代 コギャル放課後編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀狂時代 コギャル放課後編,M766107,mjhoukag
+ss-jp-0154,1996-01-12,プロ麻雀 極S,アテナ,,T-16801G,5800,税抜,,プロ麻雀 極,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,プロ麻雀 極S,M719590,mjkiwams
+ss-jp-0155,1996-01-19,クリーチャー・ショック,データイースト,,T-1303G,6800,税抜,同名PCゲームの移植版,クリーチャー・ショック,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,クリーチャーショック,M719589,crshockj
+ss-jp-0156,1996-01-19,必殺パチンココレクション,サンソフト,,T-1503G,6800,税抜,『ダンスダンス2』ほか5機種を収録した実機シミュレーターで、パソコン通信によるコンテストモードあり,必殺パチンココレクション,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,必殺パチンココレクション,M765481,hisspach
+ss-jp-0157,1996-01-26,ストリートファイターZERO,カプコン,,T-1206G,5800,税抜,同名アーケードゲームの移植版,ストリートファイターZERO,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストリートファイターZERO,M750077,sfzc
+ss-jp-0158,1996-01-26,ガーディアンヒーローズ,セガ,,GS-9031,5800,税抜,対戦格闘ゲームの要素を取り入れたRPGで、開発元のトレジャーにとっては初めてのセガサターン作品である,ガーディアンヒーローズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ガーディアン ヒーローズ,M719587,guardherja
+ss-jp-0159,1996-01-26,でろーんでろでろ,テクモ,,T-3601G,5800,税抜,同名PlayStation用ソフトの移植版。,でろーんでろでろ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,でろーんでろでろ,M751995,deroon
+ss-jp-0160,1996-01-26,バーチャファイターCGポートレートシリーズVOL.7 舜帝,セガ,,GS-9070,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ VOL. 7（舜帝）,M753368,vfport07
+ss-jp-0161,1996-01-26,バーチャファイターCGポートレートシリーズVOL.8 リオン・ラファール,セガ,,GS-9071,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ VOL. 8（リオン・ラファール）,M753369,vfport08
+ss-jp-0162,1996-02-02,NINKU -忍空- 〜強気な奴等の大激突!〜,セガ,,GS-9036,5800,税抜,,NINKU -忍空-,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NINKU-忍空- ～強気な奴等の大激突! ～,M741299,ninku
+ss-jp-0163,1996-02-02,松方弘樹のワールドフィッシング,メディアクエスト,,T-26401G,5800,税抜,,松方弘樹,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,松方弘樹のワールドフィッシング,M719588,worldfsh
+ss-jp-0164,1996-02-02,リターン・トゥ・ゾーク,バンダイビジュアル,,T-23401G,5800,税抜,,リターン・トゥ・ゾーク,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,リターン・トゥ・ゾーク,M719586,retzork
+ss-jp-0165,1996-02-09,PDウルトラマンリンク,バンダイ,,T-13304G,6800,税抜,ウルトラ兄弟を題材とした落ちものパズル,PDウルトラマンリンク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,PDウルトラマンリンク,M741501,pdultram
+ss-jp-0166,1996-02-09,天地無用! 魅御理温泉湯けむりの旅,ユーメディア,18+,T-21802G,8900,税抜,セガサターンにおける天地無用!シリーズ第2弾 18歳以上推奨,天地無用!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,天地無用! 魅御理温泉 湯けむりの旅,M764616,tenchynt
+ss-jp-0167,1996-02-16,サイベリア,インタープレイ,,T-12501G,6500,税抜,,サイベリア,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイベリア,M748717,cyberiaj
+ss-jp-0168,1996-02-16,ロボ・ピット,アルトロン,,T-16603G,5800,税抜,ロボットによる対戦アクションゲーム,ロボ・ピット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロボ・ピット,M759213,robopitj
+ss-jp-0169,1996-02-16,デスマスク,バンタンインターナショナル電脳工場,18+,T-22701G,8800,税抜,同名PCゲームの移植版 18歳以上推奨,デスマスク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デスマスク,M751776,deathmsk
+ss-jp-0170,1996-02-23,サンダーホーク II,ビクターエンタテインメント,,T-6006G,6800,税抜,同名メガCD用ソフトの移植版,サンダーホーク II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サンダーホーク2,M734109,thawk2j
+ss-jp-0171,1996-02-23,ヴァンパイアハンター,カプコン,,T-1202G,,,,ヴァンパイア (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719584,vhuntd
+ss-jp-0172,1996-02-23,アローン・イン・ザ・ダーク2,エレクトロニック・アーツ・ビクター,,T-10602G,5800,税抜,,アローン・イン・ザ・ダーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アローン・イン・ザ・ダーク2,M745188,aitd2ja
+ss-jp-0173,1996-02-23,提督の決断II,光栄,,T-7607G,10800,税抜,,提督の決断II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,提督の決断2,M734787,teikets2
+ss-jp-0174,1996-02-23,シーバスフィッシング,ビクターエンタテインメント,,T-6005G,6800,税抜,,シーバスフィッシング,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,シーバス・フィッシング,M719585,seabassj
+ss-jp-0175,1996-02-23,おまかせ! 退魔業,セガ,,GS-9030,5800,税抜,アイドルグループ・FEELが出演する実写アドベンチャーゲーム,おまかせ! 退魔業,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,おまかせ! 退魔業（セイバーズ）,M719582,omakases
+ss-jp-0176,1996-02-23,くるりんPA!,スカイ・シンク・システム,,T-24201G,3980,税抜,,くるりんPA!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,くるりんPA!,M719583,kururinp
+ss-jp-0177,1996-02-23,四柱推命ピタグラフ,データム・ポリスター,,T-19501G,5800,税抜,四柱推命および算命占星学をベースとした占いソフト,四柱推命,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,四柱推命ピタグラフ,M761802,pitgraph
+ss-jp-0178,1996-02-23,ハイパー3D対戦バトルゲボッカーズ,リバーヒルソフト,,,5800,税抜,,ハイパー3D対戦バトルゲボッカーズ,Wikipedia+MADB,,MADB,ハイパー3D対戦バトル ゲボッカーズ,M753662,
+ss-jp-0179,1996-02-23,Jリーグ プロサッカークラブをつくろう!,セガ,,GS-9034,6800,税抜,『プロサッカークラブをつくろう!』シリーズ第1作。,プロサッカークラブをつくろう!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Jリーグ プロサッカークラブをつくろう!,M719581,jltsuk
+ss-jp-0180,1996-02-23,料理の鉄人 キッチンスタジアムツアー,HAMLET,,T-21702G,5000,税抜,テレビ番組『料理の鉄人 』のデータベースソフト,料理の鉄人,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,料理の鉄人 KITCHEN STADIUM TOUR,M719580,ryorinot
+ss-jp-0181,1996-02-23,ロジックパズルレインボータウン,ヒューマン,,T-4303G,5800,税抜,,ロジックパズルレインボータウン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロジックパズル レインボータウン,M758991,logicpuz
+ss-jp-0182,1996-03-01,ゴータII 天空の騎士,光栄,,T-7608G,6800,税抜,ゴータシリーズ第2作,ゴータII 天空の騎士,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゴータ 2  天空の騎士,M734067,gotha2a
+ss-jp-0183,1996-03-01,ザ・タワー,オープンブック9003,,T-21601G,6800,税抜,同名PCゲームの移植版,ザ・タワー (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,The Tower,M719579,tower
+ss-jp-0184,1996-03-01,新世紀エヴァンゲリオン,セガ,,GS-9051,5800,税抜,同名テレビアニメのゲーム化で、原作の第9話と第10話の間の物語を描いている,新世紀エヴァンゲリオン (セガサターン),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,新世紀エヴァンゲリオン,M719578,shinev
+ss-jp-0185,1996-03-01,バーチャファイターCGポートレートシリーズVOL.9 影丸,セガ,,GS-9067,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ VOL. 9（影丸）,M753370,vfport09
+ss-jp-0186,1996-03-01,バーチャファイターCGポートレートシリーズVOL.10 ジェフリー・マクワイルド,セガ,,GS-9072,1280,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャファイターCGポートレートシリーズ VOL. 10（ジェフリー・マクワイルド）,M753363,vfport10
+ss-jp-0187,1996-03-01,media ROMancer/浅倉大介,ファンハウス,,T-25001G,5800,税抜,音楽家・浅倉大介のデータベースソフト,media ROMancer/浅倉大介,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,media ROMancer DAISUKE ASAKURA,M725720,mediarom
+ss-jp-0188,1996-03-08,ザ・ホード,BMGビクター,,T-15902G,5800,税抜,あらゆるものを食いつくす怪物ホードとの戦いを描いたシミュレーションゲーム,ザ・ホード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・ホード,M748613,hordeja
+ss-jp-0189,1996-03-08,麻雀ハイパーリアクションR,サミー工業,X,T-2402G,6800,税抜,同名アーケードゲームの移植版 X指定（18歳未満禁止）,麻雀ハイパーリアクションR,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀ハイパーリアクションR,M766079,mjhyperr
+ss-jp-0190,1996-03-08,ロードランナーレジェンド・リターンズ,パトラ,,T-25101G,5800,税抜,『ロードランナー』のリメイク,ロードランナー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロードランナー レジェンド・リターンズ,M758969,ldrunlr
+ss-jp-0191,1996-03-15,FIFAサッカー'96,エレクトロニック・アーツ・ビクター,,T-10606G,5800,税抜,,FIFAサッカー'96,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,FIFAサッカー'96,M739193,fifa96j
+ss-jp-0192,1996-03-15,ガングリフォンTHE EURASIAN CONFLICT,ゲームアーツ,,T-4502G,5800,税抜,,ガングリフォン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GUNGRIFFON THE EURASIAN CONFLICT,M719576,gungriffjb
+ss-jp-0193,1996-03-15,バーチャルカジノ,ダットジャパン,,T-27301G,5800,税抜,,バーチャルカジノ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,バーチャルカジノ,M719572,vcasinoj
+ss-jp-0194,1996-03-15,ストリートファイターII ムービー,カプコン,,T-1204G,6800,税抜,同名アニメ映画を原作とするインタラクティブムービー,ストリートファイターII ムービー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストリートファイター2 ムービー,M734168,sf2mov
+ss-jp-0195,1996-03-15,ZORK・I,翔泳社,,T-21502G,5800,税抜,PCゲーム『ゾーク』のリメイク版,ZORK・I,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ZORK 1,M719577,zork
+ss-jp-0196,1996-03-15,アイドル麻雀ファイナルロマンス R,アスク講談社,X,,8800,税抜,同名アーケードゲームの移植版 X指定（18歳未満禁止）,対戦アイドル麻雀ファイナルロマンスR,Wikipedia+MADB,,MADB,アイドル麻雀ファイナルロマンスR,M744520,
+ss-jp-0197,1996-03-15,ドラえもん のび太と復活の星,エポック社,,T-19801G,5800,税抜,,ドラえもん のび太と復活の星,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラえもん のび太と復活の星,M752345,doraemon
+ss-jp-0198,1996-03-15,毎日替わるクイズ番組クイズ365,OZクラブ,,T-21201G,6800,税抜,同名アーケードゲームの移植版,毎日替わるクイズ番組クイズ365,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,毎日替わるクイズ番組 クイズ365,M766169,mkq365
+ss-jp-0199,1996-03-15,フィッシング甲子園,キングレコード,,T-24901G,6800,税抜,テレビ番組『第3回 フィッシング甲子園』のゲーム化,フィッシング甲子園,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フィッシング甲子園,M755194,fishk
+ss-jp-0200,1996-03-15,ブレインバトルQ,クレフ,,T-25701G,4800,税抜,クイズゲームであると同時に、電話やFAXによる通販サービスも含まれていた また、発売元のクレフにとっては参入作でもあった,ブレインバトルQ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BRAIN BATTLE Q,M719575,bbq
+ss-jp-0201,1996-03-15,リンクル・リバー・ストーリー,セガ,,GS-9055,5800,税抜,,リンクル・リバー・ストーリー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,リンクル・リバー・ストーリー,M719573,linkle
+ss-jp-0202,1996-03-15,ワールドアドバンスド大戦略 作戦ファイル,セガ,,GS-9082,4800,税抜,,ワールドアドバンスド大戦略 〜鋼鉄の戦風〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,WORLD ADVANCED 大戦略 作戦ファイル,M719574,wadsak
+ss-jp-0203,1996-03-15,ゲームの達人2,サンソフト,,T-1509G,8900,税抜,,ゲームの達人 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲームの達人2,M747982,gametat2
+ss-jp-0204,1996-03-22,ハイオクタン,エレクトロニック・アーツ・ビクター,,T-10608G,5800,税抜,,ハイオクタン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ハイオクタン,M753483,hioctanej
+ss-jp-0205,1996-03-22,パンツァードラグーン ツヴァイ,セガ,,GS-9049,,,,パンツァードラグーン,Wikipedia+MAME,MAME+No-Intro,,,,panzer2jb
+ss-jp-0206,1996-03-22,ISTO E ZICO〜ジーコの考えるサッカー〜,MIZUKI,,T-18802G,5800,税抜,同名書籍のデジタル化,ISTO E ZICO〜ジーコの考えるサッカー〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,IST E ZICO ～ジーコの考えるサッカー～,M719569,zico
+ss-jp-0207,1996-03-22,エアーマネジメント'96,光栄,,T-7611G,8800,税抜,,エアーマネジメント'96,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エアーマネジメント'96,M745930,airman96
+ss-jp-0208,1996-03-22,ウイニングポスト2,光栄,,T-7612G,9800,税抜,,ウイニングポスト2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイニングポスト2,M745647,winpost2
+ss-jp-0209,1996-03-22,空想科学世界ガリバーボーイ,ハドソン,,T-14303G,6800,税抜,,空想科学世界ガリバーボーイ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,空想科学世界ガリバーボーイ,M719571,gulliver
+ss-jp-0210,1996-03-22,水滸演武 〜風雲再起〜,データイースト,,T-1305G,5800,税抜,,水滸演武,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,水滸演武～風雲再起～,M763104,suikoen2
+ss-jp-0211,1996-03-22,ビクトリーゴール'96,セガ,,GS-9048,,,,ビクトリーゴール,Wikipedia,MAME+No-Intro,,,,jlv96
+ss-jp-0212,1996-03-22,マイ・ベスト・フレンズSt.アンドリュー女学園編,アトラス,X,T-14404G,6800,税抜,サターン初のX指定（18歳未満禁止）パズルゲーム,マイ・ベスト・フレンズSt.アンドリュー女学園編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マイ・ベスト・フレンズ,M756652,mybest
+ss-jp-0213,1996-03-28,ザ・キング・オブ・ファイターズ'95,SNK,,T-3101G,7800,税抜,同名ネオジオCD用ソフトの移植版,ザ・キング・オブ・ファイターズ'95,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・キング・オブ・ファイターズ'95,M748525,kof95ja
+ss-jp-0214,1996-03-29,ゲックス,BMGビクター,,T-15904G,5800,税抜,,ゲックス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲックス,M748034,gexj
+ss-jp-0215,1996-03-29,NFLクォーターバッククラブ'96,アクレイムジャパン,,T-8105G,5800,税抜,,NFL,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NFLクォーターバッククラブ'96,M741216,nflqb96ja
+ss-jp-0216,1996-03-29,ワールドカップゴルフ・イン・ハイアット ドラドビーチ,ソフトビジョンインターナショナル,,T-7301G,5800,税抜,カリブ海のゴルフコースを回るゴルフゲームで、実写取り込みが用いられている,ワールドカップゴルフ・イン・ハイアット ドラドビーチ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワールドカップゴルフ・イン・ハイアット ドラドビーチ,M759298,wcgolfja
+ss-jp-0217,1996-03-29,モータルコンバットII 完全版,アクレイムジャパン,X,T-8107G,5800,税抜,同名アーケードゲームの移植版 X指定（18歳未満禁止）,モータルコンバット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,モータルコンバット2  完全版,M734479,mk2j
+ss-jp-0218,1996-03-29,ドラゴンフォース,セガ,,GS-9028,5800,税抜,,ドラゴンフォース (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DRAGON FORCE,M725694,dragnfrcjb
+ss-jp-0219,1996-03-29,アンジェリークSpecial,光栄,,T-7615G,7800,税抜,スーパーファミコン用ソフト『アンジェリーク』の移植版で、声優による音声が追加されている,アンジェリーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アンジェリークSpecial,M745218,angspec
+ss-jp-0220,1996-03-29,ぐっすんおよよS,エクシングエンタテイメント,,T-26101G,6800,税抜,アーケードゲーム『ぐっすんおよよ』の移植版,ぐっすんおよよ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぐっすんおよよS,M747465,gussun
+ss-jp-0221,1996-03-29,グラディウス DELUXE PACK,コナミ,,T-9509G,5800,税抜,『グラディウス』と『グラディウスII』を収録,グラディウス (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,グラディウス DELUXE PACK,M747579,gradiusd
+ss-jp-0222,1996-03-29,三國志英傑伝,光栄,,T-7613G,8800,税抜,,三國志英傑伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,三國志英傑伝,M761728,sangoeik
+ss-jp-0223,1996-03-29,スナッチャー,コナミ,,T-9508G,5800,税抜,同名PCゲームの移植版,スナッチャー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スナッチャー,M750118,snatcher
+ss-jp-0224,1996-03-29,超兄貴 〜究極…男の逆襲〜,メサイヤ,18+,T-2503G,5800,税抜,18歳以上推奨,超兄貴,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超兄貴～究極…男の逆襲～,M764385,choaniki
+ss-jp-0225,1996-03-29,信長の野望リターンズ,光栄,,T-7614G,5800,税抜,PCゲーム『信長の野望』のリメイク,信長の野望 (初代),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,信長の野望 リターンズ,M762389,noburet
+ss-jp-0226,1996-03-29,バーチャフォトスタジオ,アクレイムジャパン,X,T-8103G,6800,税抜,X指定（18歳未満禁止）,バーチャフォトスタジオ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャフォトスタジオ,M753371,vphoto
+ss-jp-0227,1996-03-29,ホラーツアー,オー・シー・シー,,T-24301G,5800,税抜,古城からの脱出を描いたアドベンチャーゲーム,ホラーツアー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HORROR TOUR,M719566,horror
+ss-jp-0228,1996-03-29,麻雀天使エンジェルリップス,日本システム,X,T-27001G,6800,税抜,アーケードゲーム『エンジェルキッス』の移植版 X指定（18歳未満禁止）,麻雀天使エンジェルリップス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀天使エンジェルリップス,M766134,mjangel
+ss-jp-0229,1996-03-29,麻雀同級生Special,メイクソフトウェア,18+,T-25301G,8800,税抜,同名アーケードゲームの移植版 18歳以上推奨,麻雀同級生Special,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀同級生 Special プレミアムパック,M766135,mjdokysp
+ss-jp-0230,1996-03-29,ルパン三世ザ・マスターファイル,MIZUKI,,T-18801G,,,テレビアニメ『ルパン三世』のデータベースソフト,ルパン三世,Wikipedia+MAME,MAME+No-Intro,,,,lupinmst
+ss-jp-0231,1996-04-05,鉄球 〜TRUE PINBALL〜,ギャガ・コミュニケーションズ,,T-18505G,5800,税抜,「Law and Justice」ほかピンボール4機種を収録,鉄球 〜TRUE PINBALL〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,鉄球～TRUE PINBALL～,M719565,truepinj
+ss-jp-0232,1996-04-05,きゃんきゃんバニー・プルミエール,KID (ゲームブランド)|キッド,X,T-19701G,5800,税抜,同名成人向けPCゲームの移植版 X指定（18歳未満禁止）,きゃんきゃんバニーシリーズ,Wikipedia+MADB+MAME,MAME,MADB,きゃんきゃんバニー プルミエール,M747270,cancanp
+ss-jp-0233,1996-04-05,ゲームウェア,ゼネラル・エンタテイメント,,T-17002G,1980,税抜,,ゲームウェア,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GAME-WARE,M719564,gware
+ss-jp-0234,1996-04-05,七つの秘館,光栄,,T-7616G,7800,税抜,,七つの秘館,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,七つの秘館,M761884,nanatsuh
+ss-jp-0235,1996-04-05,2度あることはサンドア〜ル,CRI,,T-6802G,5800,税抜,同名アーケードゲームの移植版,2度あることはサンドア〜ル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,2度あることはサンドア～ル,M737041,sandr
+ss-jp-0236,1996-04-19,タイタンウォーズ,BMGビクター/クリスタル・ダイナミクス,,T-15903G,5800,税抜,土星の衛星タイタンを舞台とした3Dシューティングゲームで、実写による演出もある 『SATURN FAN』 1996年3月1日号掲載時点では1996年3月15日発売予定だった,タイタンウォーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,タイタンウォーズ,M750825,titanwarj
+ss-jp-0237,1996-04-19,エンジェルパラダイスVol.1坂木優子 恋の予感in Hollywood,サミー工業,,T-2403G,5800,税抜,エンジェルパラダイスシリーズ第1弾,エンジェルパラダイスVol.1坂木優子 恋の予感in Hollywood,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エンジェルパラダイスVol. 1 坂木優子 恋の予感 in Hollywood,M746180,anglpar1
+ss-jp-0238,1996-04-19,3×3EYES〜吸精公主〜,日本クリエイト,,T-21301G,7300,税抜,同名PCゲームの移植版,3×3EYES,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,3×3EYES～吸精公主～ S,M737044,3x3eyes
+ss-jp-0239,1996-04-19,大冒険 セントエルモスの奇跡,パイ,,T-23101G,6800,税抜,,大冒険 セントエルモスの奇跡,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大冒険 セントエルモスの奇跡,M764147,daistelm
+ss-jp-0240,1996-04-26,ゲン ウォー,ヴァージンインタラクティブエンターテインメント,,T-7004G,5800,税抜,宇宙種族・ゲンとの戦いを描いた3Dシューティングゲーム,ゲン ウォー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲン ウォー,M748058,ghenwarja
+ss-jp-0241,1996-04-26,ジョニー・バズーカ,ソフトビジョンインターナショナル,,T-7302G,6800,税抜,,ジョニー・バズーカ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジョニー・バズーカ,M749398,jbazookaj
+ss-jp-0242,1996-04-26,レボリューションX,アクレイムジャパン,18+,T-8106G,5800,税抜,18歳以上推奨,レボリューションX,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レボリューションX,M758880,revxj
+ss-jp-0243,1996-04-26,トア 〜精霊王紀伝〜,セガ,,GS-9053,5800,税抜,,トア 〜精霊王紀伝〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THOR 精霊王紀伝,M719563,thor2jb
+ss-jp-0244,1996-04-26,ロックマンX3,カプコン,,T-1210G,5800,税抜,同名スーパーファミコン用ソフトの移植版,ロックマンX3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロックマンX3,M759154,rockmnx3
+ss-jp-0245,1996-04-26,アイレムアーケードクラシックス,アイマックス,,T-22403G,5800,税抜,『スパルタンX』他2作を収録,アイレムアーケードクラシックス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アイレム アーケードクラシックス,M744526,iremac
+ss-jp-0246,1996-04-26,真・女神転生デビルサマナー悪魔全書,アトラス,,T-14406G,2900,税抜,『真・女神転生デビルサマナー』のCG集兼データベースソフト,真・女神転生デビルサマナー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,真・女神転生デビルサマナー悪魔全書,M762885,shinmtaz
+ss-jp-0247,1996-04-26,首領蜂,アトラス,,T-14405G,5800,税抜,同名アーケードゲームの移植版,首領蜂,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,首領蜂,M762076,donpachi
+ss-jp-0248,1996-04-26,野々村病院の人々,エルフ,X,T-28001G,6800,税抜,同名PCゲームの移植版 X指定（18歳未満禁止）,野々村病院の人々,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,野々村病院の人々,M718876,nonomura
+ss-jp-0249,1996-04-26,爆れつハンター,アイマックス,,T-22402G,8800,税抜,同名テレビアニメのゲーム化,爆れつハンター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,爆れつハンター,M765357,bakhunt
+ss-jp-0250,1996-04-26,アイドル雀士 スーチーパイII,ジャレコ,X,T-5705G,,,同名アーケードゲームの移植版 X指定（18歳未満禁止） ディスクは本編とおまけコンテンツの2枚組である。,アイドル雀士スーチーパイ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719026,suchipa2
+ss-jp-0251,1996-04-26,美少女バラエティゲームラピュラスパニック,翔泳社/BMGビクター,,T-21503G,5300,税抜,,美少女バラエティゲームラピュラスパニック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,美少女バラエティゲーム ラピュラスパニック,M765450,rapyulus
+ss-jp-0252,1996-05-03,ときめき麻雀グラフィティ 〜年下の天使たち〜,ソネット・コンピュータエンタテイメント,X,T-20202G,5800,税抜,『ときめき麻雀パラダイス』の続編 X指定（18歳未満禁止）,ときめき麻雀グラフィティ 〜年下の天使たち〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ときめき麻雀グラフィティ～年下の天使たち～,M752178,tokimjgr
+ss-jp-0253,1996-05-17,キュービックギャラリー,ウイネット,,T-19401G,5800,税抜,,キュービックギャラリー,Wikipedia+MADB,MAME+No-Intro,MADB,キュービックギャラリー,M747285,cubicgal
+ss-jp-0254,1996-05-17,慶応遊撃隊 活劇編,ビクターエンタテインメント,,T-6003G,5800,税抜,メガCD用ソフト『慶応遊撃隊』の続編,慶応遊撃隊 活劇編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,慶応遊撃隊 活劇編,M760960,keio2j
+ss-jp-0255,1996-05-17,スーパーリアル麻雀P VI,セタ,X,T-16507G,8800,税抜,同名アーケードゲームの移植版 X指定（18歳未満禁止）,スーパーリアル麻雀,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーリアル麻雀P6,M734146,srmp6
+ss-jp-0256,1996-05-24,実戦 パチスロ必勝法!3,サミー工業,,T-2401G,6800,税抜,サミーの『アラジンマスター』をはじめとするパチスロ機5社から各1機種ずつ収録,実戦 パチスロ必勝法!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実戦パチスロ必勝法! 3,M762004,jpslot3
+ss-jp-0257,1996-05-24,SEGA AGES VOL.1 宿題がタントア〜ル,セガ,,GS-9042,4800,税抜,SEGA AGESプロジェクト第1弾で、アーケードゲーム『クイズ 宿題を忘れました』と『タントア〜ル』を収録している,SEGA AGES,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,宿題がタントア～ル,M719562,tantr
+ss-jp-0258,1996-05-24,FEDAリメイク!エンブレム・オブ・ジャスティス,やのまん,,T-21001G,6300,税抜,スーパーファミコン用ソフト『FEDA』のリメイク版,FEDA,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,FEDAリメイク! エンブレム・オブ・ジャスティス,M739060,fedarm
+ss-jp-0259,1996-05-24,メタルブラック,ビング,,T-19902G,5800,税抜,,メタルブラック,Wikipedia+MADB+MAME,MAME,MADB,メタルブラック,M757615,metalblk
+ss-jp-0260,1996-05-24,ライフスケイプ 生命40億年はるかな旅,メディアクエスト,,T-26405G,6800,税抜,かつて生息していた生物や生命の進化を題材とした教育ゲーム 『SATURN FAN』1996年4月12日号掲載時点では1996年5月17日発売予定だった,ライフスケイプ 生命40億年はるかな旅,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ライフスケイプ 生命40億年はるかな旅,M758200,lifescap
+ss-jp-0261,1996-05-31,ドラゴンボールZ 偉大なるドラゴンボール伝説,バンダイ,,T-13305G,5800,税抜,テレビアニメ『ドラゴンボールZ』のゲーム化,ドラゴンボールZ 偉大なるドラゴンボール伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラゴンボールZ ～偉大なるドラゴンボール伝説～,M752565,dbzidbd
+ss-jp-0262,1996-05-31,ウィザードリィ VI & VIIコンプリート,データイースト,,T-1306G,6800,税抜,『Wizardry VI BANE OF THE COSMIC FORGE』と『Wizardry VII CRUSADERS OF THE DARK SAVANT』を収録,ウィザードリィ,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ6＆7コンプリート,M733970,wizcomp
+ss-jp-0263,1996-05-31,ソード&ソーサリー,マイクロキャビン,,T-5202G,6800,税抜,,ソード&ソーサリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ソード＆ソーサリー,M750550,swordsor
+ss-jp-0264,1996-06-07,DEFCON5,マルチソフト,,T-24101G,5800,税抜,|マルチソフトのセガサターン参入作で、仮題は「Incoming」だった。,DEFCON5,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,DEFCON5,M738373,defcon5j
+ss-jp-0265,1996-06-07,ダライアスII,タイトー,,T-1104G,5800,税抜,同名アーケードゲームの移植版,ダライアスII,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダライアス2,M734223,darius2j
+ss-jp-0266,1996-06-07,ハイパーリヴァーシオン,テクノソフト,,T-1803G,5800,税抜,PlayStaton用ソフト『リヴァーシオン』の移植版,リヴァーシオン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ハイパーリヴァーシオン,M719560,hyperrev
+ss-jp-0267,1996-06-14,疾風魔法大作戦,ギャガ・コミュニケーションズ,,T-18506G,5800,税抜,同名アーケードゲームの移植版 『SATURN FAN』 1996年4月26日号掲載時点では1996年6月7日に発売が予定されていた,疾風魔法大作戦,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,疾風魔法大作戦,M719661,mahoudai
+ss-jp-0268,1996-06-14,痛快!スロットシューティング,翔泳社/BMGビクター,,T-21504G,5500,税抜,シューティングゲームの要素を組み込んだパズルゲーム,痛快!スロットシューティング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,痛快! スロットシューティング,M764480,slotshot
+ss-jp-0269,1996-06-14,ナイトストライカーS,ビング,,T-19901G,5800,税抜,アーケードゲーム『ナイトストライカー』の移植版,ナイトストライカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイトストライカーS,M752814,nightstr
+ss-jp-0270,1996-06-14,犯行写真〜縛られた少女たちの見たモノは?〜,イマジニア,18+,T-15008G,6800,税抜,18歳以上推奨 湯原麻利絵らがアイドルグループを演じるアドベンチャーゲーム,犯行写真〜縛られた少女たちの見たモノは?〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,犯行写真～縛られた少女たちの見たモノは?～,M765413,hankoush
+ss-jp-0271,1996-06-14,ビッグ一撃!パチスロ大攻略ユニバーサル・ミュージアム,アスク講談社,,T-16704G,5800,税抜,『クランキーコンドル』ほかユニバーサルエンターテインメント製のパチスロ12機種を収録した実機シミュレーター,ビッグ一撃!パチスロ大攻略ユニバーサル・ミュージアム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ビッグ一撃! パチスロ大攻略 ユニバーサル・ミュージアム,M754678,bigichig
+ss-jp-0272,1996-06-28,ライズ オブ ザ ロボット2,アクレイムジャパン,,T-8104G,5800,税抜,『ライズ オブ ザ ロボット』の続編,ライズ オブ ザ ロボット2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ライズ オブ ザ ロボット2,M758183,rise2j
+ss-jp-0273,1996-06-28,月花霧幻譚〜TORICO〜,セガ,,GS-9056,5800,税抜,,月花霧幻譚〜TORICO〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,月花霧幻譚 TORICO,M719559,toricoj
+ss-jp-0274,1996-06-28,井出洋介名人の新実戦麻雀,カプコン,,T-1208G,4800,税抜,,井出洋介,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,井出洋介名人の新実戦麻雀,M759679,ideyusmj
+ss-jp-0275,1996-06-28,餓狼伝説3 -遥かなる闘い-,SNK,,T-3102G,6800,税抜,,餓狼伝説3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,餓狼伝説3 -遥かなる闘い-,M760282,fatfury3
+ss-jp-0276,1996-06-28,踝兄弟劇場第一巻 麻雀篇,ユーメディア,,T-21803G,5800,税抜,,踝兄弟劇場,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,踝兄弟劇場第一巻 麻雀篇,M766932,kurubush
+ss-jp-0277,1996-06-28,ストライカーズ1945,アトラス,,T-14407G,5800,税抜,同名アーケードゲームの移植版,ストライカーズ1945,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストライカーズ1945,M750043,s1945
+ss-jp-0278,1996-06-28,誕生S 〜Debut〜,NECインターチャネル,18+,T-20101G,6800,税抜,18歳以上推奨,誕生 〜Debut〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,誕生S～Debut～,M764258,tanjous
+ss-jp-0279,1996-06-28,大牌砦,メトロ,,T-29201G,5800,税抜,同名アーケードゲームの移植版,大牌砦,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大牌砦（だいとりで）,M764145,daitorid
+ss-jp-0280,1996-06-28,必殺!,バンダイビジュアル,,T-23402G,5800,税抜,テレビドラマ必殺シリーズを原作とする横スクロールアクションゲーム,必殺! (セガサターン),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,必殺!,M765472,hissatsu
+ss-jp-0281,1996-06-28,ザ・メイキング・オブ・ナイトゥルース ボイスセレクション,ソネット・コンピュータエンタテイメント,,T-20203G,2480,税抜,『ナイトゥルース 闇の扉』のメイキング映像を収録,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・メイキング・オブ・ナイトゥルース,M748619,ntruthm1
+ss-jp-0282,1996-07-05,NiGHTS,セガ,,GS-9046,5800,税抜,本作の発売に合わせて周辺機器・セガマルチコントローラーも発売,ナイツ (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,NiGHTS,M719557,nightsjb
+ss-jp-0283,1996-07-05,一発逆転〜ギャンブルキングへの道〜,BMGビクター,,T-29602G,5800,税抜,,一発逆転〜ギャンブルキングへの道〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,一発逆転～ギャンブルキングへの道～,M759705,gamblkng
+ss-jp-0284,1996-07-05,ゲームウェア2号,ゼネラル・エンタテイメント,,T-17003G,1980,税抜,,ゲームウェア,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GAME-WARE Vol. 2,M719556,gware2
+ss-jp-0285,1996-07-05,ソニックウィングススペシャル,メディアクエスト,,T-26402G,7800,税抜,『SATURN FAN』1996年5月10日・5月24日合併号掲載時点では1996年5月31日発売予定だった,ソニックウィングス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ソニックウィングス スペシャル,M750645,sonicwin
+ss-jp-0286,1996-07-12,デカスリート,セガ,,GS-9096,5800,税抜,デカスロンを題材としたスポーツゲーム,デカスリート,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,デカスリート,M719554,decathltjb
+ss-jp-0287,1996-07-12,アクアゾーン for SEGASATURN,オープンブック9003,,T-24001G,5800,税抜,PCゲーム『アクアゾーン』の移植版,アクアゾーン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,AQUAZONE,M719555,aquazone
+ss-jp-0288,1996-07-12,ワイプアウト,ソフトバンク,,T-18603G,5800,税抜,,ワイプアウト (レースゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワイプアウト,M759377,wipeoutj
+ss-jp-0289,1996-07-12,ピンボールグラフィティ,パック・イン・ビデオ,,T-9101G,6800,税抜,,ピンボールグラフィティ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ピンボールグラフィティ,M754784,pinbgrafj
+ss-jp-0290,1996-07-12,デススロットル 隔絶都市からの脱出,メディアクエスト,18+,T-26403G,5800,税抜,PCゲーム『カランティーン』の移植版で、『SATURN FAN』1996年5月10日・5月24日合併号掲載時点では1996年5月31日発売予定だった。 18歳以上推奨,デススロットル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デススロットル 隔絶都市からの脱出,M751762,deaththr
+ss-jp-0291,1996-07-12,アクアワールド 海美物語,増田屋コーポレーション,,T-30301G,5800,税抜,当初はMIZUKIからの発売が予定されていた。,アクアワールド 海美物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アクアワールド海美物語,M744582,aquawld
+ss-jp-0292,1996-07-19,サターンボンバーマン,ハドソン,,T-14302G,6800,税抜,ボンバーマンシリーズ初のセガサターン用ソフト マルチターミナル6に対応し、最大プレイ可能人数は10人 仮題は「ボンバーマンSS」,サターンボンバーマン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サターンボンバーマン,M719550,satbombmjb
+ss-jp-0293,1996-07-19,グレイテストナイン'96,セガ,,GS-9086,5800,税抜,,グレイテストナイン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GREATEST NINE '96,M719552,gnine96
+ss-jp-0294,1996-07-19,昇龍三國演義,イマジニア,,T-15009G,6800,税抜,,昇龍三國演義,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,昇龍三國演義,M762322,shoryuse
+ss-jp-0295,1996-07-19,ときめきメモリアル〜forever with you〜,コナミ,,T-9504G,6800,税抜,,ときめきメモリアル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ときめきメモリアル ～forever with you～ デラックス版,M725621,tokimfwy
+ss-jp-0296,1996-07-19,麻雀狂時代セブアイランド'96,マイクロネット,18+,T-2204G,8800,税抜,18歳以上推奨 青沼ちあさらが出演する麻雀ゲーム,麻雀狂時代セブアイランド'96,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀狂時代 セブアイランド'96,M766109,mjcebu96
+ss-jp-0297,1996-07-26,バーチャファイターキッズ,セガ,,GS-9098,5800,税抜,『バーチャファイター』を子ども向けにした作品,バーチャファイター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Virtua Fighter Kids,M719549,vfkidsja
+ss-jp-0298,1996-07-26,ロードラッシュ,エレクトロニック・アーツ・ビクター,,T-10609G,5800,税抜,,ロードラッシュ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロードラッシュ,M758959,roadrashj
+ss-jp-0299,1996-07-26,パズルボブル2X,タイトー,,T-1106G,5800,税抜,同名アーケードゲームの移植版,パズルボブル2X,Wikipedia+MAME,MAME+MADB,MADB,パズルボブル2X,M719553,pbobbl2xb
+ss-jp-0300,1996-07-26,時空探偵DD〜幻のローレライ〜,アスキー,,T-2103G,6800,税抜,,時空探偵DD〜幻のローレライ〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,時空探偵DD～幻のローレライ～,M761859,jikudrac
+ss-jp-0301,1996-07-26,プラドルDISC Vol.1 木下優,Sada Soft,,T-30801G,3000,税抜,デジタル写真集・プラドルシリーズ第1弾,プラドルDISC Vol.1 木下優,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 1 木下優,M755533,pidolv1
+ss-jp-0302,1996-08-02,ビッグハート ベースボール,アクレイムジャパン,,T-8111G,5800,税抜,野球選手のトーマス・フランクリンが監修した野球ゲームで、『SATURN FAN』1996年6月7日号掲載時点では1996年7月26日に発売される予定だった。,ビッグハート ベースボール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ビッグハート ベースボール,M754662,bighurtj
+ss-jp-0303,1996-08-02,激烈パチンカーズ,BMGビクター,,T-29601G,5800,税抜,パチンコ及びパチスロのシミュレータであると同時に、アドベンチャーゲームとしての要素も含まれている,激烈パチンカーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,激烈パチンカーズ,M761016,gepachin
+ss-jp-0304,1996-08-02,ボディスペシャル264,やのまん,,T-21003G,6800,税抜,『日灼けの想い出+姫くり』の続編,ボディスペシャル264,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ボディスペシャル264,M756444,girlpuz2
+ss-jp-0305,1996-08-09,レッスルマニア・ジ・アーケードゲーム,アクレイムジャパン,,T-8112G,5800,税抜,同名アーケードゲームの移植版,レッスルマニア・ジ・アーケードゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レッスルマニア・ジ・アーケードゲーム,M758840,wwfagj
+ss-jp-0306,1996-08-09,マジック・ジョンソンとカリーム・アブドゥール・ジャバーのスラムジャム'96,BMGビクター,,T-15905G,4800,税抜,バスケットボール選手のマジック・ジョンソンとカリーム・アブドゥール・ジャバが監修したバスケットボールゲーム,スラムジャム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジック・ジョンソンとカリーム・アブドゥール・ジャバーのスラムジャム'96,M756815,slamnjamj
+ss-jp-0307,1996-08-09,アルバートオデッセイ外伝〜LEGEND OF ELDEAN〜,サンソフト,,T-1514G,6500,税抜,『アルバートオデッセイ』の数百年後を描いたRPGであり、当初は「アルバートオデッセイ外伝 翼の記憶」という題名のスーパーファミコン用ソフトになる予定だった また、『Electronic Gaming Monthly』1997年6月号掲載時点では、1997年5月に北米での発売を予定していた。,アルバートオデッセイ外伝〜LEGEND OF ELDEAN〜,Wikipedia+MADB,MADB+No-Intro,MADB,アルバートオデッセイ外伝 Legend of Eldean,M719548,
+ss-jp-0308,1996-08-09,クロックワークス,徳間書店,,T-22302G,5800,税抜,同名スーパーファミコン用ソフトの移植版で、『SATURN FAN』1996年6月7日号掲載時点では1996年7月12日発売予定だった,クロックワークス (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,クロックワークス,M719546,clockwrx
+ss-jp-0309,1996-08-09,サイバードール,アイマックス,18+,T-22401G,6800,税抜,サイバーパンク調のRPG 18歳以上推奨,サイバードール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイバードール,M748703,cyberdol
+ss-jp-0310,1996-08-09,新型くるりんPA!,スカイ・シンク・システム,,T-24202G,4800,税抜,『くるりんPA!』のリニューアル版で、『SATURN FAN』1996年6月7日号掲載時点では1996年8月23日に発売される予定だった。,新型くるりんPA!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新型くるりんPA!,M762590,skurupa
+ss-jp-0311,1996-08-09,神秘の世界エルハザード,パイオニアLDC,,T-22202G,6900,税抜,同名PCゲームの移植版,神秘の世界エルハザード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,神秘の世界エルハザード,M762982,elhazard
+ss-jp-0312,1996-08-09,SEGA AGES VOL.2 スペースハリアー,セガ,,,,,周辺機器・ミッションスティックが同梱されたバージョンも発売,スペースハリアー,Wikipedia,,,,,
+ss-jp-0313,1996-08-09,タイトーチェイスH.Q.プラス S.C.I.,タイトー,,T-1105G,5800,税抜,アーケード『チェイスH.Q.』と『S.C.I.』を収録,チェイスH.Q.,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,タイトーチェイスH.Q. プラスS.C.I.,M719547,chasehqs
+ss-jp-0314,1996-08-09,デスクリムゾン,エコールソフトウェア,,T-23202G,5800,税抜,バーチャガン対応,デスクリムゾン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デスクリムゾン,M751757,deathcri
+ss-jp-0315,1996-08-09,同級生if,NECインターチャネル,18+,T-20102G,,,18歳以上推奨,同級生if,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719025,dokyuif
+ss-jp-0316,1996-08-09,ナイトゥルース 闇の扉,ソネット・コンピュータエンタテイメント,18+,T-20204G,,,ナイトゥルースシリーズ第1弾。18歳以上推奨,ナイトゥルース 闇の扉,Wikipedia+MAME,MAME+No-Intro,,,,ntruthyt
+ss-jp-0317,1996-08-09,プレイボーイカラオケVol.1,ビック東海,X,T-2303G,5800,税抜,"rowspan=""2""|雑誌『プレイボーイ』のモデルを採用したカラオケソフト X指定（18歳未満禁止）",プレイボーイカラオケVol.1,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プレイボーイカラオケ Vol. 1,M755791,pboyk1
+ss-jp-0318,1996-08-09,プレイボーイカラオケvol.2,ビック東海,,T-2304G,5800,税抜,,プレイボーイカラオケvol.2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プレイボーイカラオケ Vol. 2,M755792,pboyk2
+ss-jp-0319,1996-08-09,妖艶電視麻雀遊戯 GAL JAN,童,X,T-29101G,,,X指定（18歳未満禁止）,妖艶電視麻雀遊戯 GAL JAN,Wikipedia+MAME,MAME+No-Intro,,,,galjan
+ss-jp-0320,1996-08-09,ワールドヒーローズパーフェクト,SNK,,T-3103G,5800,税抜,同名アーケードゲームの移植版,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワールドヒーローズパーフェクト,M759369,whp
+ss-jp-0321,1996-08-23,トーナメント・リーダー,ビクターエンタテインメント,,T-6007G,5800,税抜,元々はスーパー32X用ソフトとして発売される予定だった,トーナメント・リーダー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トーナメント・リーダー,M752079,tourlead
+ss-jp-0322,1996-08-23,3D レミングス,イマジニア,,T-15013G,6800,税抜,,レミングス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,3D レミングス,M737066,3dlemminj
+ss-jp-0323,1996-08-23,ジャパンスーパーバス クラシック'96,ナグザット,,T-18707G,6800,税抜,日本バスプロ協会および日本バスクラブ公認の釣りゲームで、トーナメントやバスプロが実名で登場する,ジャパンスーパーバス クラシック'96,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジャパン スーパーバス クラシック'96,M749283,jsbc96
+ss-jp-0324,1996-08-23,駿才 〜競馬データSTABLE〜,ナグザット,,,8800,税抜,競馬のデータベース兼シミュレーター,駿才 〜競馬データSTABLE〜,Wikipedia+MADB,,MADB,駿才～競馬データSTABLE～,M762163,
+ss-jp-0325,1996-08-23,特捜機動隊ジェイスワット,バンプレスト,,T-20602G,5800,税抜,,特捜機動隊ジェイスワット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,特捜機動隊ジェイスワット,M765028,jswat
+ss-jp-0326,1996-08-23,本格プロ麻雀 徹萬スペシャル,ナグザット,,T-18709G,5800,税抜,日本プロ麻雀連盟公認の麻雀ゲームで、小泉武夫ら雀士が実名で登場する,本格プロ麻雀 徹萬スペシャル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,本格プロ麻雀 徹萬スペシャル,M765883,honktmsp
+ss-jp-0327,1996-08-30,ストライカー'96,アクレイムジャパン,,T-8114G,5800,税抜,,ストライカー'96,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストライカー'96,M750041,strik96j
+ss-jp-0328,1996-08-30,エイリアントリロジー,アクレイムジャパン,18+,T-8113G,5800,税抜,映画『エイリアン』シリーズ初期3作品を題材としたシューティングゲーム 18歳以上推奨,エイリアントリロジー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エイリアントリロジー,M745974,alientrijb
+ss-jp-0329,1996-08-30,オリンピックサッカー,ココナッツジャパンエンターテイメント,,T-7304G,5800,税抜,アトランタオリンピックにおけるサッカーを題材としたゲームで、実際の大会でラジオ実況を務めたも登場している,オリンピックサッカー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,オリンピックサッカー,M719542,olympsocja
+ss-jp-0330,1996-08-30,テトリスプラス,ジャレコ,,T-5708G,5800,税抜,同名アーケードゲームの移植版,テトリス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,テトリスプラス,M751844,tetrispja
+ss-jp-0331,1996-08-30,ファイティングバイパーズ,セガ,,GS-9101,6800,税抜,同名アーケードゲームの移植版,ファイティングバイパーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ファイティングバイパーズ,M719543,fvipersjd
+ss-jp-0332,1996-08-30,ダークセイバー,クライマックス,,T-22101G,5800,税抜,賞金稼ぎを主役としたRPG,ダークセイバー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ダークセイバー,M719544,darksavj
+ss-jp-0333,1996-08-30,アーサーとアスタロトの謎魔界村,カプコン,,T-1209G,5800,税抜,,アーサーとアスタロトの謎魔界村,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アーサーとアスタロトの謎魔界村,M744339,nazomak
+ss-jp-0334,1996-08-30,イエロー・ブリック・ロード,アクレイムジャパン,,T-8109G,5800,税抜,『オズの魔法使い』をモチーフとしたアドベンチャーゲーム,イエロー・ブリック・ロード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,イエロー・ブリック・ロード,M745324,yellowbr
+ss-jp-0335,1996-08-30,プラドルDISC Vol.2 内山美紀,Sada Soft,,T-30802G,3000,税抜,,プラドルDISC,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 2 内山美紀,M755536,pidolv2
+ss-jp-0336,1996-08-30,湾岸デッドヒート+リアルアレンジ,パック・イン・ビデオ,18+,T-9103G,6800,税抜,『湾岸デッドヒート』の内容強化版 18歳以上推奨,湾岸デッドヒート,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,湾岸デッドヒート+リアルアレンジ,M766882,wanganra
+ss-jp-0337,1996-09-06,鋼鉄霊域,テクノソフト,,T-1805G,5800,税抜,3DCGを用いた対戦格闘ゲーム。 対戦ケーブルによる2P対戦に対応しており、ケーブル同梱版も発売された,鋼鉄霊域,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,鋼鉄霊域（スティールダム）,M719541,steeldom
+ss-jp-0338,1996-09-06,天地を喰らうII 赤壁の戦い,カプコン,,T-1207G,5800,税抜,同名アーケードゲームの移植版,天地を喰らうII 赤壁の戦い,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,天地を喰らう2  赤壁の戦い,M734807,tenchik2
+ss-jp-0339,1996-09-06,ハートビートスクランブル,イマジニア,,T-15014G,6800,税抜,実写を用いた恋愛アドベンチャーゲーム,ハートビートスクランブル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ハートビートスクランブル,M753421,heartbea
+ss-jp-0340,1996-09-13,ウルトラマン図鑑,講談社,,T-25501G,6800,税抜,テレビ番組『ウルトラマン』のデータベース,ウルトラマン図鑑,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ウルトラマン図鑑,M719540,ultraz
+ss-jp-0341,1996-09-13,エンジェルパラダイスVol.2吉野公佳 いっしょにい・た・い in Hawaii,サミー工業,,T-2405G,5800,税抜,エンジェルパラダイスシリーズ第2弾,エンジェルパラダイス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エンジェルパラダイスVol. 2 吉野公佳 いっしょに い・た・い in Hawaii,M746181,anglpar2
+ss-jp-0342,1996-09-13,ポリスノーツ,コナミ,,T-9510G,6800,税抜,同名PCゲームの移植版で、ガンコントローラーに対応している,ポリスノーツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ポリスノーツ,M756506,policena
+ss-jp-0343,1996-09-14,ストリートファイターZERO2,カプコン,,T-1212G,5800,税抜,同名アーケードゲームの移植版,ストリートファイターZERO2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストリートファイターZERO2,M750081,sfz2b
+ss-jp-0344,1996-09-20,デストラクションダービー,ソフトバンク,,T-18604G,5800,税抜,ストックカーレースを題材にしたレースゲーム 『SATURN FAN』1996年8月2日号掲載時点では1996年8月30日に発売される予定だった,デストラクションダービー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デストラクションダービー,M751771,dderbyj
+ss-jp-0345,1996-09-20,SEGA AGES アウトラン,セガ,,GS-9110,3800,税抜,|アーケードゲーム『アウトラン』の移植版,アウトラン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Out Run,M719539,outrun
+ss-jp-0346,1996-09-20,機動戦士ガンダム外伝I 戦慄のブルー,バンダイ,,T-13307G,4800,税抜,『機動戦士ガンダム外伝 THE BLUE DESTINY』三部作の第一部 ツインスティック対応,機動戦士ガンダム外伝 THE BLUE DESTINY,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,機動戦士ガンダム外伝1 戦慄のブルー,M734546,gundg1
+ss-jp-0347,1996-09-20,セガラリーチャンピオンシップ・プラス,セガ,,GS-9116,5800,税抜,『セガラリーチャンピオンシップ』のXBAND対応版,セガラリーチャンピオンシップ,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,セガラリー・チャンピオンシップ・プラス,M719535,srallypl
+ss-jp-0348,1996-09-20,リアルバウト餓狼伝説,SNK,,T-3105G,8800,税抜,同名アーケードゲームの移植版,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リアルバウト餓狼伝説,M758410,rbff
+ss-jp-0349,1996-09-27,闘神伝URA,タカラ,,T-10305G,5800,税抜,闘神伝シリーズにおけるセガサターンオリジナル作品,闘神伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,闘神伝URA,M764941,toshiuraj
+ss-jp-0350,1996-09-27,SEGA AGES アフターバーナーII,セガ,,GS-9109,3800,税抜,アーケードゲーム『アフターバーナーII』の移植版,アフターバーナーII,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,アフターバーナー 2 SEGA AGES,M719533,aburner2
+ss-jp-0351,1996-09-27,奥寺康彦の世界を目指せ!サッカーキッズ 入門編,富士通パレックス,,T-26001G,4800,税抜,子ども向けのサッカー教則ソフト 発売元の富士通パレックスにとってはセガサターン参入作でもある,奥寺康彦,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,奥寺康彦の世界をめざせ! サッカーキッズ 入門編,M759929,socrkids
+ss-jp-0352,1996-09-27,ギャルズパニックSS,毎日コミュニケーションズ,,T-29002G,6800,税抜,アーケードゲーム『ギャルズパニック』の移植版,ギャルズパニック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ギャルズパニックSS,M747263,gpanicss
+ss-jp-0353,1996-09-27,グッドアイランドカフェ・飯島愛,インナーブレイン,,T-25201G,5000,税抜,タレント・飯島愛を主題としたゲーム,グッドアイランドカフェ・飯島愛,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,グッドアイランドカフェ・飯島愛,M747470,aiiijima
+ss-jp-0354,1996-09-27,サクラ大戦,セガ,,GS-9037,6800,税抜,,サクラ大戦,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サクラ大戦,M719536,sakurat
+ss-jp-0355,1996-09-27,サターンボンバーマン XBAND対応通信対戦版,ハドソン,,T-14305G,2800,税抜,,サターンボンバーマン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サターンボンバーマン X-BAND対応通信対戦版,M748817,satbombmjsn
+ss-jp-0356,1996-09-27,三國志V,光栄,,T-7623G,9800,税抜,,三國志V,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,三國志5,M734638,sangoku5
+ss-jp-0357,1996-09-27,サンダーフォース ゴールドパック1,テクノソフト,,T-1807G,4800,税抜,『サンダーフォースII』と『サンダーフォースIII』を収録,サンダーフォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サンダーフォース ゴールドパック 1,M719537,tfgold1
+ss-jp-0358,1996-09-27,女子高生の放課後…ぷくんパ,アテナ,,T-16802G,4980,税抜,落ちものパズルゲームで、「ぷくんパ」とは作中に登場するゲーム研究会が制作したパズルゲームの名前でもある,女子高生の放課後…ぷくんパ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,女子高生の放課後…ぷくんパ,M762235,pukunpa
+ss-jp-0359,1996-09-27,ときめきメモリアル対戦ぱずるだま,コナミ,,T-9512G,5800,税抜,同名アーケードゲームの移植版,ときめきメモリアル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ときめきメモリアル対戦ぱずるだま,M725551,tokimpzd
+ss-jp-0360,1996-09-27,プラドルDISC Vol.3 大島朱美,Sada Soft,,T-30803G,3000,税抜,,プラドルDISC Vol.3 大島朱美,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 3 大島朱美,M755537,pidolv3
+ss-jp-0361,1996-09-27,ホーンテッドカジノ,ソシエッタ代官山,X,T-21902G,7900,税抜,X指定（18歳未満禁止） 最後のX指定タイトル,ホーンテッドカジノ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ホーンテッド・カジノ,M756148,hauntedc
+ss-jp-0362,1996-09-27,麻雀四姉妹 若草物語,ナグザット,X,T-18704G,8800,税抜,同名アーケードゲームの移植版 X指定（18歳未満禁止） 最後のX指定タイトル,麻雀四姉妹 若草物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀四姉妹 若草物語,M766119,mjshimai
+ss-jp-0363,1996-09-27,マジカルドロップ2,セガ,,GS-9104,5800,税抜,同名アーケードゲームの移植版,マジカルドロップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マジカルドロップ2,M719534,magdrop2
+ss-jp-0364,1996-09-27,めざせアイドルスター! 夏色メモリーズ 麻雀編,シャー・ロック,18+,T-31001G,6800,税抜,18歳以上推奨,めざせアイドルスター! 夏色メモリーズ 麻雀編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,めざせアイドル☆スター! 夏色メモリーズ 麻雀編,M757464,mezaseid
+ss-jp-0365,1996-10-04,アクチャーサッカー,ナグザット,,T-18706G,5800,税抜,,アクチャーサッカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アクチャーサッカー,M744608,actuasocj
+ss-jp-0366,1996-10-04,ウイニングポスト2プログラム'96,光栄,,T-7620G,6800,税抜,,ウイニングポスト2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイニングポスト2 プログラム'96,M745650,wpost296
+ss-jp-0367,1996-10-04,エターナルメロディ,メディアワークス,,T-27802G,5800,税抜,,エターナルメロディ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エターナルメロディ,M746088,etmelody
+ss-jp-0368,1996-10-04,ゲームウェア3号,ゼネラル・エンタテイメント,,T-17004G,,,,ゲームウェア,Wikipedia+MAME,MAME+No-Intro,,,,gware3
+ss-jp-0369,1996-10-04,ターフウィンド'96〜武豊 競走馬育成ゲーム〜,ジャレコ,,T-5707G,6800,,50名の機種と2000頭の今日相場が実名で登場する育成シミュレーションゲーム,ターフウィンド'96〜武豊 競走馬育成ゲーム〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Turf Wind '96 武豊 競走馬育成ゲーム,M719532,turfwind
+ss-jp-0370,1996-10-04,平和パチンコ総進撃,ナグザット,,T-18702G,7800,税抜,,平和パチンコ総進撃,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,平和パチンコ総進撃,M765724,heiwa
+ss-jp-0371,1996-10-04,麻雀大会II Special,光栄,,T-7621G,6800,税抜,麻雀大会II Special,麻雀大会,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,麻雀大会2 Special,M719531,mjtai2s
+ss-jp-0372,1996-10-10,ブレインデッド13,ココナッツジャパンエンターテイメント,,T-7305G,6500,税抜,,ブレインデッド13,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブレインデッド13,M755798,bdead13j
+ss-jp-0373,1996-10-10,本格4人打ち 芸能人対局麻雀THEわれめDEポン,ビデオシステム,,T-3001G,7800,税抜,深夜番組『THEわれめDEポン』のゲーム化,本格4人打ち 芸能人対局麻雀THEわれめDEポン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,本格4人打ち 芸能人対局麻雀 THEわれめDEポン,M765882,waremepo
+ss-jp-0374,1996-10-10,南の島にブタがいたルーカスの大冒険,スコラ,,T-27101G,5800,税抜,,南の島にブタがいたルーカスの大冒険,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,南の島にブタがいた ルーカスの大冒険,M765060,lucas
+ss-jp-0375,1996-10-18,オラクルの宝石,サンソフト,,T-1511G,5980,税抜,3DCGを用いたパズルゲーム,オラクルの宝石,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,オラクルの宝石,M746413,jeworaclj
+ss-jp-0376,1996-10-18,マイティヒット〜Mighty Hits〜,アルトロン,,T-16604G,5800,税抜,バーチャガン対応の3Dシューティングゲーム,マイティヒット〜Mighty Hits〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マイティヒット～Mighty Hits～,M756681,mightyhija
+ss-jp-0377,1996-10-18,ぎゅわんぶらあ自己中心派トーキョーマージャンランド,ゲームアーツ,,T-4504G,6800,税抜,,ぎゅわんぶらあ自己中心派,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぎゅわんぶらあ自己中心派 トーキョーマージャンランド,M747302,gambler
+ss-jp-0378,1996-10-18,ラングリッサー III,メサイヤ,,T-2502G,6200,税抜,,ラングリッサー,Wikipedia+MADB+MAME,MAME,MADB,ラングリッサー3,M734500,langris3
+ss-jp-0379,1996-10-25,シェルショック,エレクトロニック・アーツ・ビクター,,T-10607G,5800,税抜,,シェルショック (コンピュータゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,シェルショック,M749099,shellshkj
+ss-jp-0380,1996-10-25,ワールドシリーズベースボールII,セガ,,GS-9120,5800,税抜,,ワールドシリーズベースボールII,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ワールドシリーズベースボール 2,M719529,wsb2jb
+ss-jp-0381,1996-10-25,スターファイター3000,イマジニア,,T-15012G,6800,税抜,『SATURN FAN』1996年8月2日号掲載時点では1996年9月20日に発売される予定だった,スターファイター3000,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スターファイター3000,M749964,sf3000j
+ss-jp-0382,1996-10-25,BATSUGUN,バンプレスト,,T-20605G,5800,税抜,同名アーケードゲームの移植版,BATSUGUN,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,BATSUGUN,M737495,batsugun
+ss-jp-0383,1996-10-25,マスターオブモンスターズ〜ネオ・ジェネレーションズ,東芝EMI,,T-6301G,6800,税抜,PCゲーム『マスターオブモンスターズ』の移植版,マスターオブモンスターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マスターオブモンスターズ～ネオ・ジェネレーションズ,M756847,mastmons
+ss-jp-0384,1996-10-25,ルナ シルバースターストーリー,角川書店,,T-27901G,6800,税抜,同名メガCD用ソフトのリメイク,LUNAR,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ルナ シルバースターストーリー,M758649,lunar
+ss-jp-0385,1996-11-01,セクシーパロディウス,コナミ,,T-9514G,4800,税抜,同名アーケードゲームの移植版,セクシーパロディウス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,セクシーパロディウス,M750402,sexyparo
+ss-jp-0386,1996-11-01,伝説のオウガバトル,リバーヒルソフト,,T-5305G,5800,税抜,,伝説のオウガバトル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,伝説のオウガバトル,M764644,ogrebatl
+ss-jp-0387,1996-11-01,パップ・ブリーダー,サイ・メイト,,T-29301G,5800,税抜,動物型天使「パップ」を通じて問題解決を図る育成シミュレーション,パップ・ブリーダー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,パップブリーダー,M719528,pupbreed
+ss-jp-0388,1996-11-01,LULU,セガ,,GS-9118,4800,税抜,絵本の世界を舞台としたアドベンチャーゲーム,ルル (デジタル絵本),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,LULU,M719527,lulu
+ss-jp-0389,1996-11-08,サムライスピリッツ 斬紅郎無双剣,SNK,,T-3104G,5800,税抜,,サムライスピリッツ 斬紅郎無双剣,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サムライスピリッツ 斬紅郎無双剣,M719525,samsho3
+ss-jp-0390,1996-11-08,メイキング・オブ・ナイトゥルース II ボイスコレクション,ソネット・コンピュータエンタテイメント,,T-20205G,2480,税抜,"『ナイトゥルース Maria』のメイキング映像を収録したファンディスクで、15,000枚の限定販売だった。",,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メイキング・オブ・ナイトゥルース2  ボイスセレクション,M734473,ntruthm2
+ss-jp-0391,1996-11-08,リグロードサーガ2,セガ,,GS-9084,5800,税抜,,リグロードサーガ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,リグロードサーガ2,M719526,riglord2
+ss-jp-0392,1996-11-11,アースワーム・ジム2,タカラ,,T-10304G,5800,税抜,『アースワーム・ジム』の続編,アースワーム・ジム2,Wikipedia,MAME+No-Intro,MADB,アースワームジム2,M744357,ejim2j
+ss-jp-0393,1996-11-15,上海 Great Moments,サンソフト,,T-1512G,6500,税抜,,上海 Great Moments,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,上海 Great Moments,M762338,shanghgm
+ss-jp-0394,1996-11-15,デジタルピンボール ネクロノミコン,カゼ,,T-18902G,5800,税抜,デジタルピンボール第2弾で、クトゥルフ神話をモチーフとしている,デジタルピンボール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,NECRONOMICON,M725495,dpnecro
+ss-jp-0395,1996-11-15,風水先生,博報堂,,T-21701G,5800,税抜,,風水先生,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,風水先生,M719524,fengshui
+ss-jp-0396,1996-11-15,プリクラ大作戦,アトラス,,T-14409G,6800,税抜,,プリクラ大作戦,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プリクラ大作戦,M755600,purikura
+ss-jp-0397,1996-11-22,NFLクォーターバッククラブ'97,アクレイムジャパン,,T-8116G,5800,税抜,,NFLクォーターバッククラブ'97,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NFLクォーターバッククラブ'97,M741217,nflqb97j
+ss-jp-0398,1996-11-22,アイアンマン/XO,アクレイムジャパン,,T-8115G,5800,税抜,,アイアンマン/XO,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アイアンマン/XO,M744423,ironmanj
+ss-jp-0399,1996-11-22,バーチャコップ2,セガ,,GS-9097,5800,税抜,バーチャガン対応,バーチャコップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,VIRTUA COP 2,M719522,vcop2jc
+ss-jp-0400,1996-11-22,クリスマスナイツ 冬季限定版,セガ,,610-6431,1500,税抜,,クリスマスナイツ,Wikipedia+MADB,MADB+No-Intro,MADB,Christmas NIGHTS 冬季限定版,M719523,
+ss-jp-0401,1996-11-22,カオスコントロール リミックス,ヴァージンインタラクティブエンターテインメント,,T-7006G,4800,税抜,『カオスコントロール』のマイナーチェンジ版で、バーチャガン対応など様々な変更が施された,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カオスコントロール リミックス,M746628,chaoscrm
+ss-jp-0402,1996-11-22,月下の棋士 王竜戦,バンプレスト,,T-20606G,5800,税抜,,月下の棋士,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,月下の棋士 王竜戦,M761050,gekkakis
+ss-jp-0403,1996-11-22,フィスト,イマジニア,,T-15015G,6800,税抜,,制服伝説 プリティ・ファイター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フィスト,M755186,fist
+ss-jp-0404,1996-11-22,戦国ブレード,アトラス/彩京,,T-14410G,6800,税抜,同名アーケードゲームの移植版 元々は彩京の自社発売となる予定だったが、『SATURN FAN』1996年8月2日号にてアトラスからの発売に変更された,戦国ブレード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,戦国ブレード,M763505,sengblad
+ss-jp-0405,1996-11-22,トライラッシュデッピー,日本クリエイト,,T-21302G,5800,税抜,,トライラッシュデッピー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トライラッシュ デッピー,M752330,tryrushd
+ss-jp-0406,1996-11-22,ハイパーデュエル,テクノソフト,,T-1809G,5800,税抜,同名アーケードゲームの移植版,ハイパーデュエル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HYPERDUEL,M719521,hyprduel
+ss-jp-0407,1996-11-29,ブラッドファクトリー,インタープレイ,18+,T-12504G,5800,税抜,刑務所の脱獄を描いたシューティングゲームで、『SATURN FAN』1996年9月20日号1996年10月4日号掲載時点では、1996年11月15日に発売予定だった。 18歳以上推奨,ブラッドファクトリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブラッドファクトリー,M755528,bloodfac
+ss-jp-0408,1996-11-29,ビクトリーゴール WORLD WIDE edition,セガ,,GS-9112,5800,税抜,『ビクトリーゴール'96』の世界版,ビクトリーゴール WORLD WIDE edition,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Victory Goal WORLD WIDE edition,M719520,vgoalww
+ss-jp-0409,1996-11-29,電脳戦機バーチャロン,セガ,,GS-9099,5800,税抜,ツインスティック対応,電脳戦機バーチャロン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CYBER TROOPERS VIRTUALON,M719519,vonjb
+ss-jp-0410,1996-11-29,西暦1999 ファラオの復活,BMGビクター,18+,T-18001G,5800,税抜,当初は「エクスヒュームド」という題名で日本で発売される予定だった 18歳以上推奨,西暦1999 ファラオの復活,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,西暦1999 ファラオの復活,M763301,seireki
+ss-jp-0411,1996-11-29,銀河英雄伝説,徳間書店,,T-22301G,5800,税抜,,銀河英雄伝説 (ゲーム),Wikipedia+MADB,MAME+MADB+No-Intro,MADB,銀河英雄伝説,M719518,gingaed
+ss-jp-0412,1996-11-29,美少女戦士セーラームーンSS Various Emotion,エンジェル,,T-15701G,5800,税抜,,美少女戦士セーラームーン (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,美少女戦士セーラームーンスーパーズ Various Emotion,M765467,sailorss
+ss-jp-0413,1996-11-29,ズープ,メディアクエスト,,T-26406G,4800,税抜,シューティング要素のあるパズルゲーム 『SATURN FAN』1996年7月19日号掲載時点では1996年9月27日に発売予定だった,ズープ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ズープ,M749817,zoop
+ss-jp-0414,1996-11-29,対局将棋 極 II,毎日コミュニケーションズ,,T-29001G,6800,税抜,,対局将棋 極 II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,対局将棋 極2,M734748,taishouk
+ss-jp-0415,1996-11-29,太閤立志伝II,光栄,,T-7618G,7800,税抜,,太閤立志伝II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,太閤立志伝2,M734732,taikori2
+ss-jp-0416,1996-11-29,探偵 神宮寺三郎 未完のルポ,データイースト,,T-1307G,5800,税抜,,探偵 神宮寺三郎 未完のルポ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,探偵神宮寺三郎 ～未完のルポ～,M725468,tjsmikrp
+ss-jp-0417,1996-11-29,プラドルDISC特別編,Sada Soft,,T-30804G,3800,税抜,コスプレ写真集,プラドルDISC特別編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC 特別編 コスプレイヤーズ,M755547,pidolcos
+ss-jp-0418,1996-12-06,マジックカーペット,エレクトロニック・アーツ・ビクター,,T-10611G,5800,税抜,魔法のじゅうたんを題材とした3Dシューティングゲーム,マジックカーペット,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,MaGic CaRPet,M719516,magicarpj
+ss-jp-0419,1996-12-06,スーパーパズルファイターII X,カプコン,,T-1213G,5800,税抜,同名アーケードゲームの移植版,スーパーパズルファイターII X,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーパズルファイター2 X,M734138,spf2x
+ss-jp-0420,1996-12-06,皇龍三國演義,エクシングエンタテイメント,,T-26104G,5800,税抜,三國志を題材とした歴史シミュレーションゲームで、『SATURN FAN』1996年9月20日号1996年9月20日号掲載時点では、1996年11月に発売予定だった。,皇龍三國演義,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,皇龍三國演義,M761290,kouryuu
+ss-jp-0421,1996-12-06,アクアゾーンオプションディスクシリーズエンゼルフィッシュ,オープンブック9003,,T-24002G,,,"rowspan=""5""|『アクアゾーン』のオプションディスクで、『セガサターンマガジン』1996年10月25日号掲載時点では1996年11月22日に発売される予定だった。",アクアゾーン,Wikipedia+MAME,MAME+No-Intro,,,,aquaopt1
+ss-jp-0422,1996-12-06,アクアゾーンオプションディスクシリーズクラウンローチ,オープンブック9003,,T-24005G,,,,アクアゾーン,Wikipedia+MAME,MAME+No-Intro,,,,aquaopt4
+ss-jp-0423,1996-12-06,アクアゾーンオプションディスクシリーズブラックモーリー,オープンブック9003,,T-24003G,2000,税抜,,アクアゾーン,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,AQUAZONE DESKTOP LIFE Option Disc Series 2 Black Molly,M719509,aquaopt2
+ss-jp-0424,1996-12-06,アクアゾーンオプションディスクシリーズブルーエンペラー,オープンブック9003,,T-24004G,,,,アクアゾーン,Wikipedia+MAME,MAME+No-Intro,,,,aquaopt3
+ss-jp-0425,1996-12-06,アクアゾーンオプションディスクシリーズラミーノーズ,オープンブック9003,,T-24006G,,,,アクアゾーン,Wikipedia+MAME,MAME+No-Intro,,,,aquaopt5
+ss-jp-0426,1996-12-06,機動戦士ガンダム外伝II 蒼を受け継ぐ者,バンダイ,,T-13309G,4800,税抜,,機動戦士ガンダム外伝 THE BLUE DESTINY,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,機動戦士ガンダム外伝2  蒼を受け継ぐ者,M734547,gundg2
+ss-jp-0427,1996-12-06,サンダーフォース ゴールドパック2,テクノソフト,,T-1808G,4800,税抜,『サンダーフォースAC』と『サンダーフォースIV』を収録 『SATURN FAN』1996年9月20日号1996年10月4日号掲載時点では、1996年10月25日に発売予定だった。,サンダーフォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THUNDER FORCE Gold Pack 2,M719517,tfgold2
+ss-jp-0428,1996-12-06,ステークスウィナー GI完全制覇への道,ザウルス,,T-3107G,5800,税抜,,ステークスウィナー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ステークスウィナー GI完全制覇への道,M750022,stakewin
+ss-jp-0429,1996-12-06,世界の車窓から［I］スイス編〜アルプス登山鉄道の旅〜,富士通,,T-32201G,4800,税抜,同名テレビ番組のデータベースソフトであり、PC版からの移植,世界の車窓から,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,世界の車窓から 1 スイス編～アルプス登山鉄道の旅～,M734707,swisshen
+ss-jp-0430,1996-12-06,バトルバ,日本ビクター,,T-31501G,5800,税抜,複数の車同士の戦いを描いたアクションゲームで、周辺機器・マルチターミナル6による最大6人の多人数プレイに対応していた 『SATURN FAN』1996年9月20日号1996年10月4日号掲載時点では、1996年11月29日に発売予定だった。,バトルバ,Wikipedia+MADB,MAME+No-Intro,MADB,バトルバ,M754141,vatlva
+ss-jp-0431,1996-12-13,エネミー・ゼロ,ワープ,,T-30001G,6800,税抜,,エネミー・ゼロ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ENEMY ZERO,M725441,enemy0jb
+ss-jp-0432,1996-12-13,ディスクワールド,メディアエンターテイメント,,T-20502G,5800,税抜,同名小説のゲーム化,ディスクワールド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ディスクワールド,M751464,discwrldj
+ss-jp-0433,1996-12-13,実況おしゃべりパロディウス〜forever with me〜,コナミ,,T-9513G,4800,税抜,パロディウスシリーズ初の家庭用ゲーム機オリジナル作品,実況おしゃべりパロディウス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況おしゃべりパロディウス ～forever with me～,M761918,jikkparo
+ss-jp-0434,1996-12-13,出世麻雀 大接待,キングレコード,,T-24902G,5800,税抜,,出世麻雀 大接待,Wikipedia,MAME+No-Intro,MADB,出世麻雀 大接待,M762155,shussemj
+ss-jp-0435,1996-12-13,スペースインベーダー,タイトー,,T-1107G,3980,税抜,同名アーケードゲームの移植版で、新たに2人用の対戦モードも追加された,スペースインベーダー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スペースインベーダー,M750200,spaceinv
+ss-jp-0436,1996-12-13,タクティクスオウガ,リバーヒルソフト,,T-5306G,5800,税抜,,タクティクスオウガ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,タクティクスオウガ,M750956,tactogre
+ss-jp-0437,1996-12-13,メルティランサー 〜銀河少女警察2086〜,イマジニア,,T-15016G,5800,税抜,メディアミックス・メルティランサーの一つであり、『SATURN FAN』1996年9月20日号1996年9月20日号掲載時点では、1996年11月に発売予定だった。,メルティランサー 〜銀河少女警察2086〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メルティランサー ～銀河少女警察2086～,M757786,meltygsk
+ss-jp-0438,1996-12-13,バトルアスリーテス大運動会,インクリメントP,,T-24601G,5800,税抜,スポーツものの育成シミュレーションゲーム,バトルアスリーテス大運動会,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バトルアスリーテス 大運動会,M754107,btathlet
+ss-jp-0439,1996-12-13,パンツァードラグーン I & II,セガ,,,5800,税抜,,パンツァードラグーン,Wikipedia+MADB,,MADB,パンツァードラグーン1＆2,M734326,
+ss-jp-0440,1996-12-13,ファンキーファンタジー,吉本興業,,T-20002G,5800,税抜,吉本興業のお笑い芸人40人が登場するパロディ系シミュレーションRPG,ファンキーファンタジー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Funky Fantasy,M719515,funkyfan
+ss-jp-0441,1996-12-13,大戦略パック,セガ,,,5800,税抜,『ワールドアドバンスド大戦略 〜鋼鉄の戦風〜』と『ワールドアドバンスド大戦略 作戦ファイル』を収録,ワールドアドバンスド大戦略 〜鋼鉄の戦風〜,Wikipedia+MADB,,MADB,大戦略パック,M764116,
+ss-jp-0442,1996-12-20,シャイニング・ザ・ホーリィアーク,セガ、ソニック,,T-33101G,5800,税抜,,シャイニング・ザ・ホーリィアーク,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SHINING THE HOLY ARK,M719511,shinholyja
+ss-jp-0443,1996-12-20,ストリートレーサーエクストラ,UBIソフト,,T-17702G,5800,税抜,,ストリートレーサーエクストラ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストリートレーサー エクストラ,M750095,sracerj
+ss-jp-0444,1996-12-20,アポなしギャルズ お・り・ん・ぽ・す,ヒューマン,18+,,5800,税抜,18歳以上推奨,アポなしギャルズ お・り・ん・ぽ・す,Wikipedia+MADB,,MADB,アポなしギャルズ お・り・ん・ぽ・す♥,M745035,
+ss-jp-0445,1996-12-20,ウルトラマン 光の巨人伝説,バンダイ,,T-13308G,7800,税抜,『ウルトラマン』を原作とする対戦格闘ゲーム,ウルトラマン 光の巨人伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウルトラマン 光の巨人伝説,M745895,ultraman
+ss-jp-0446,1996-12-20,エアーズアドベンチャー,ゲームスタジオ,,T-20301G,5800,税抜,漫画家・永野護がキャラクターデザインを手掛けたRPG,エアーズアドベンチャー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,エアーズアドベンチャー,M719660,airsadve
+ss-jp-0447,1996-12-20,永世名人 II,コナミ,,T-9516G,5300,税抜,,永世名人 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,永世名人 2,M734532,eisei2
+ss-jp-0448,1996-12-20,m［emu］〜君を伝えて〜,ネクサスインターラクト,,T-31202G,5800,税抜,交換日記を題材とした恋愛シミュレーションゲーム,m［emu］〜君を伝えて〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,m～君を伝えて～,M740460,memukimi
+ss-jp-0449,1996-12-20,オーバードライビンGT-R,エレクトロニック・アーツ・ビクター,,T-10613G,6200,税抜,PlayStation用ソフト『オーバードライビンDX』の移植版,オーバードライビン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,オーバードライビンGT-R,M746238,nissangt
+ss-jp-0450,1996-12-20,きゃんきゃんバニー・プルミエール2,キッド,18+,T-19703G,,,18歳以上推奨,きゃんきゃんバニーシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719023,cancanp2
+ss-jp-0451,1996-12-20,DX日本特急旅行ゲーム,タカラ,,T-10306G,5800,税抜,ボードゲーム『日本特急旅行ゲーム』のコンピュータゲーム化,DX日本特急旅行ゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,DX日本特急旅行ゲーム,M738696,traveljp
+ss-jp-0452,1996-12-20,ナイトゥルース Maria,ソネット・コンピュータエンタテイメント,,T-20206G,5800,税抜,ナイトゥルースシリーズのデジタルコミック,ナイトゥルース Maria,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイトゥルース Maria,M752808,ntruthma
+ss-jp-0453,1996-12-20,バーチャル競艇,日本物産,,T-7101G,6800,税抜,社団法人全国モーターボート競走会連合会公認作品,バーチャル競艇,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャル競艇,M753389,vkyoutei
+ss-jp-0454,1996-12-20,ぴょんぴょんキャルルのまあじゃん日和,ナツメ,,T-31101G,5800,税抜,,ぴょんぴょんキャルルのまあじゃん日和,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぴょんぴょんキャルルのまあじゃん日和,M754750,pyonpyon
+ss-jp-0455,1996-12-20,両替パズル もうぢゃ,ヴァージンインタラクティブエンターテインメント,,T-7010G,5800,税抜,,もうぢや,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,もうぢゃ,M757808,mouja
+ss-jp-0456,1996-12-21,ファイターズメガミックス,セガ,,GS-9126,5800,税抜,『バーチャファイター2』と『ファイティングバイパーズ』のクロスオーバー,ファイターズメガミックス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,FIGHTERS MEGAMiX,M719508,fightmixjb
+ss-jp-0457,1996-12-27,グリッドランナー,ヴァージンインタラクティブエンターテインメント,,T-7009G,5800,税抜,,グリッドランナー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,グリッドランナー,M747698,gridrunnj
+ss-jp-0458,1996-12-27,SEGA AGES 廊下にイチダントアール,セガ,,GS-9043,4800,税抜,アーケードゲーム『イチダントアール』と『クイズ 廊下に立ってなさい!』を収録,イチダントアール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,廊下にイチダントア～ル,M719503,ichidntr
+ss-jp-0459,1996-12-27,銀河お嬢様伝説ユナMika Akitaka Illust Works,ハドソン,,T-14308G,4220,税抜,,銀河お嬢様伝説ユナ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,銀河お嬢様伝説ユナ Mika Akitaka Illust Works,M760876,goillust
+ss-jp-0460,1996-12-27,銀河お嬢様伝説ユナREMIX,ハドソン,,T-14307G,6800,税抜,PCエンジン用ソフト『銀河お嬢様伝説ユナ』の移植版,銀河お嬢様伝説ユナ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,銀河お嬢様伝説ユナ REMIX,M719507,goyunarm
+ss-jp-0461,1996-12-27,ゲゲゲの鬼太郎 幻冬怪奇譚,バンダイ,,T-13310G,6800,税抜,漫画『ゲゲゲの鬼太郎』を原作とするサウンドノベル,ゲゲゲの鬼太郎,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲゲゲの鬼太郎 幻冬怪奇譚,M748015,gegege
+ss-jp-0462,1996-12-27,人造人間ハカイダー ラストジャッジメント,セガ,,GS-9088,6800,税抜,映画『人造人間ハカイダー』の後日談,人造人間ハカイダー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,人造人間ハカイダー ラストジャッジメント,M719506,lastjudg
+ss-jp-0463,1996-12-27,水滸伝・天命の誓い,光栄,,,5800,税抜,,水滸伝・天命の誓い,Wikipedia+MADB,,MADB,水滸伝・天命の誓い,M763112,
+ss-jp-0464,1996-12-27,だいな あいらん 予告編,ゲームアーツ,,T-4505G,2300,税抜,『だいなあいらん』のパイロットディスク,だいなあいらん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,だいな♥あいらん 予告編,M750860,dinoislyokoa
+ss-jp-0465,1996-12-27,タクラマカン 〜敦煌傅奇〜,パトラ,,T-25102G,6800,税抜,,タクラマカン 〜敦煌傅奇〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,タクラマカン～敦煌傅奇～,M750962,takurama
+ss-jp-0466,1996-12-27,テトリスS,BPS,,T-20802G,4800,税抜,,テトリス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,TETRIS S,M719504,tetriss
+ss-jp-0467,1996-12-27,テラ ファンタスティカ,セガ,,GS-9054,,,当初は「ファンタジーアース」という題名で発売される予定だった,テラ ファンタスティカ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719505,terrapha
+ss-jp-0468,1996-12-27,ファイヤープロレスリングS6MEN SCRAMBLE,ヒューマン,,T-4308G,5800,税抜,,ファイヤープロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイヤープロレスリングS 6 MEN SCRAMBLE,M755017,fpw6men
+ss-jp-0469,1996-12-27,プラドルDISC データ編レースクイーンF,Sada Soft,,T-30805G,3800,税抜,プラドルDISCシリーズ第5弾,プラドルDISC データ編レースクイーンF,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC データ編 レースクイーンF,M755544,pidolhrf
+ss-jp-0470,1996-12-31,THE KING OF FIGHTERS '96,SNK,,T-3108G,7800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・キング・オブ・ファイターズ'96 RAM同梱版,M719502,kof96
+ss-jp-0471,1996-12-31,電脳戦機バーチャロン FOR SEGANET,セガ,,GS-7106,2800,税抜,『電脳戦機バーチャロン』のXBAND対応版,電脳戦機バーチャロン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,電脳戦機 バーチャロン セガネット専用,M764716,vonjsn
+ss-jp-0472,1997-06-27,Mr.BONES,セガ,,GS-9127,5800,税抜,日本ではコンビニ専売,Mr.BONES,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,mr.BONES,M719460,mrbonesjb
+ss-jp-0473,1997-01-10,スポットゴーズトゥーハリウッド,ヴァージンインタラクティブエンターテインメント,,T-7014G,5800,税抜,飲料・セブンアップのマスコットであるスポットを主役としたアクションゲーム,スポットゴーズトゥーハリウッド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スポット ゴーズトゥーハリウッド,M750270,spotgoj
+ss-jp-0474,1997-01-10,デジタルダンスミックス Vol.1 安室奈美恵,セガ,,GS-9133,,,デジキューブ専売,安室奈美恵,Wikipedia+MAME,MAME+No-Intro,,,,digidanc
+ss-jp-0475,1997-01-10,ファンキーヘッドボクサーズ,吉本興業,,T-20003G,5800,税抜,吉本興業所属のお笑い芸人が登場するボクシングゲーム,ファンキーヘッドボクサーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ファンキー・ヘッド・ボクサーズ,M719500,fhbox
+ss-jp-0476,1997-01-10,ロードランナーエクストラ,パトラ,,T-25103G,4800,税抜,『ロードランナーレジェンド・リターンズ』の続編,ロードランナー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロードランナー エクストラ,M758966,ldrunex
+ss-jp-0477,1997-01-14,天外魔境 第四の黙示録,ハドソン,,T-14301G,6800,税抜,,天外魔境 第四の黙示録,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,天外魔境 第四の黙示録,M719499,tengaima
+ss-jp-0478,1997-01-17,ハイパー3Dピンボール,ヴァージンインタラクティブエンターテインメント,,T-7007G,5800,税抜,6機種を収録したデジタルピンボールで、『Game Pro』1996年7月号掲載時点では1996年6月に北米での発売が予定されていた。,ハイパー3Dピンボール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ハイパー3D ピンボール,M753660,h3dpinj
+ss-jp-0479,1997-01-17,ロックマン8 メタルヒーローズ,カプコン,,T-1214G,5800,税抜,ロックマンシリーズナンバリング第8作で、シリーズ初のセガサターン用ソフトである,ロックマン8 メタルヒーローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロックマン8 メタルヒーローズ,M759127,rockman8
+ss-jp-0480,1997-01-17,心霊呪殺師 太郎丸,タイムワーナーインタラクティブ,,T-4804G,5800,税抜,,心霊呪殺師 太郎丸,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,心霊呪殺師 太郎丸,M762525,shinreij
+ss-jp-0481,1997-01-17,タイムギャル&忍者ハヤテ,エクゼコ・デベロップメント,,T-20702G,5800,税抜,レーザーディスクゲーム『タイムギャル』と『忍者ハヤテ』を収録,タイムギャル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,タイムギャル＆忍者ハヤテ,M750899,timegal
+ss-jp-0482,1997-01-17,天地無用! 登校無用アニラジコレクション,エクシングエンタテイメント,,T-26103G,8800,税抜,テレビアニメ版『天地無用!』を原作とするアドベンチャーゲーム,天地無用!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,天地無用! 登校無用アニラジコレクション,M719498,tenchtou
+ss-jp-0483,1997-01-17,ニタックスゴールド,ヒューマン,,T-4305G,5000,税抜,2択式のクイズゲームで、ソフトに同梱された専用用紙による懸賞も行われていた,ニタックスゴールド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ニタックスゴールド,M753093,2taxgold
+ss-jp-0484,1997-01-17,ブラストウィンド,テクノソフト,,T-1810G,5800,税抜,開発中止となったアーケードゲームの企画「稲妻セイバー」を転用した作品。,ブラストウィンド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BLAST WIND,M719497,blastwnd
+ss-jp-0485,1997-01-24,デイトナUSA CIRCUIT EDITION,セガ,,GS-9100,5800,,『デイトナUSA』のXBAND対応版,デイトナUSA,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DAYTONA USA CIRCUIT EDITION,M719496,daytonceja
+ss-jp-0486,1997-01-24,ダイナマイト刑事,セガ,,GS-9122,5800,税抜,同名アーケードゲームの移植版,ダイナマイト刑事,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ダイナマイト刑事,M719494,dnmtdekab
+ss-jp-0487,1997-01-24,EVE burst error,イマジニア/シーズウェア,18+,T-15011G,,,同名アダルトゲームの移植版 18歳以上推奨,EVE burst error,Wikipedia+MADB+MAME,MAME+No-Intro,,,M719022,eveburst
+ss-jp-0488,1997-01-24,スーパーカジノスペシャル,ココナッツジャパンエンターテイメント,,T-7306G,,,,スーパーカジノスペシャル,Wikipedia+MAME,MAME+No-Intro,,,,supercas
+ss-jp-0489,1997-01-24,トゥームレイダース,ビクターインタラクティブソフトウェア,,T-6010G,,,トゥームレイダーシリーズ第1弾 また、E3 1996にも出展されており、この時点ではUS Goldが北米での発売を担当する予定だった。,トゥームレイダース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719495,traidjb
+ss-jp-0490,1997-01-24,レジェンド オブ K-1ザ・ベストコレクション,ポニーキャニオン,,,4980,税抜,総合格闘技・K-1のデータベースソフト,レジェンド オブ K-1ザ・ベストコレクション,Wikipedia+MADB,,MADB,レジェンド オブ K-1 ザ・ベストコレクション,M758807,
+ss-jp-0491,1997-01-29,プラドルDISC 特別編 レースクイーンG,Sada Soft,,T-30806G,3800,税抜,,プラドルDISC 特別編 レースクイーンG,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC 特別編 レースクイーンG,M755548,pidolhrg
+ss-jp-0492,1997-01-31,3Dベースボール ザ・メジャー,BMGジャパン,,T-18003G,5800,税抜,メジャーリーグ選手協会のライセンスを受けた野球ゲームで、選手が実名で登場する,3Dベースボール ザ・メジャー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,3Dベースボール ～ザ・メジャー,M737077,3dbballj
+ss-jp-0493,1997-01-31,バグ・トゥー! もっともっとジャンプして、ふんづけちゃって、ぺっちゃんこ,セガ,,GS-9128,5800,税抜,『バグ!ジャンプして、ふんづけちゃって、ぺっちゃんこ』の続編で、『Game Pro』1996年12月号掲載時点では、1996年11月に北米で発売される予定だった。,バグ・トゥー! もっともっとジャンプして、ふんづけちゃって、ぺっちゃんこ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BUG TOO!! もっともっとジャンプしてふんづけちゃってぺっちゃんこ,M719493,bug2j
+ss-jp-0494,1997-01-31,ダイハード・トリロジー,セガ,,GS-9123,5800,税抜,映画ダイ・ハードシリーズのゲーム化,ダイハード・トリロジー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DIE HARD TRILOGY,M719492,diehardtj
+ss-jp-0495,1997-01-31,K-1 ファイティング,エクシングエンタテイメント,,T-26102G,5800,税抜,アンディ・フグらK-1選手12名が登場する3D対戦格闘ゲーム,K-1 ファイティング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,K-1 ファイティングイリュージョン 翔,M740081,k1fight
+ss-jp-0496,1997-01-31,三國志リターンズ,光栄,,T-7617G,6800,税抜,PCゲーム『三國志』のリメイク,三國志 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,三國志リターンズ,M761722,sangoret
+ss-jp-0497,1997-02-07,NHLパワープレイ'96,ヴァージンインタラクティブエンターテインメント,,T-7012G,5800,税抜,,NHLパワープレイ'96,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NHLパワープレイ'96,M741231,nhlpowerj
+ss-jp-0498,1997-02-07,エリア51,ソフトバンク,,T-18613G,5800,税抜,同名アーケードゲームの移植版,エリア51 (1995年のコンピュータゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エリア51,M746108,area51j
+ss-jp-0499,1997-02-07,蒼穹紅蓮隊,エレクトロニック・アーツ・ビクター,,T-10616G,5800,税抜,,蒼穹紅蓮隊,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,蒼穹紅蓮隊,M725376,sokyugrt
+ss-jp-0500,1997-02-07,シミュレーション・ズー,ソフトバンク,,T-18611G,5800,税抜,,シミュレーション・ズー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,シミュレーション・ズー,M749171,simzoo
+ss-jp-0501,1997-02-07,はいぱぁセキュリティーズS,パック・イン・ソフト,,T-9105G,6800,税抜,PCゲームの移植版で、『SATURN FAN』1996年12月27日号掲載時点では1997年1月24日に発売が予定されていた。,はいぱぁセキュリティーズS,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,はいぱぁセキュリティーズS,M753670,hyprsecs
+ss-jp-0502,1997-02-14,バットマンフォーエヴァー・ジ・アーケードゲーム,アクレイムジャパン,,,5800,税抜,映画『バットマンフォーエヴァー』のゲーム化,バットマンフォーエヴァー・ジ・アーケードゲーム,Wikipedia+MADB,,MADB,バットマンフォーエヴァー・ジ・アーケードゲーム,M754060,
+ss-jp-0503,1997-02-14,エレベーターアクションリターンズ,ビング,,T-19903G,5800,税抜,同名アーケードゲームの移植版,エレベーターアクション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,エレベーターアクション リターンズ,M719488,elevact2
+ss-jp-0504,1997-02-14,クレオパトラフォーチュン,タイトー,,T-1108G,5800,税抜,同名アーケードゲームの移植版,クレオパトラフォーチュン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クレオパトラフォーチュン,M747800,cleopatr
+ss-jp-0505,1997-02-14,サクラ大戦 花組通信,セガ,,GS-9134,4800,税抜,『サクラ大戦』のファンディスク,サクラ大戦,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サクラ大戦 花組通信,M719489,hanatsus
+ss-jp-0506,1997-02-14,だいなあいらん,ゲームアーツ,,T-4503G,6800,税抜,竹本泉原作のデジタルコミック第2弾,だいなあいらん,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,だいな あいらん,M719491,dinoisl
+ss-jp-0507,1997-02-14,天城紫苑,クリップハウス,18+,T-1513G,6800,税抜,18歳以上推奨 元アダルトビデオ女優の松本コンチータと冴島奈緒が出演するアドベンチャーゲーム。,天城紫苑,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,天城紫苑,M764603,amagishi
+ss-jp-0508,1997-02-14,ドリームスクエア 雛形あきこ,ビデオシステム,,T-3002G,3800,税抜,,雛形あきこ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドリームスクエア 雛形あきこ,M752676,dreamsq
+ss-jp-0509,1997-02-14,ぷよぷよSUN,コンパイル,,T-6603G,4800,税抜,同名アーケードゲームの移植版,ぷよぷよSUN,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぷよぷよSUN,M755411,puyosun
+ss-jp-0510,1997-02-14,ルームメイト 〜井上涼子〜,データム・ポリスター,,T-19502G,5800,税抜,セガサターン本体の内蔵時計とゲーム内の時間が同期しているという特徴がある,ROOMMATE,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ルームメイト ～井上涼子～,M758620,rmate
+ss-jp-0511,1997-02-21,WWF in Your House,アクレイムジャパン,18+,T-8120G,5800,税抜,WWFのレスラーが10名登場するプロレスゲーム 18歳以上推奨,WWF in Your House,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,WWF in Your House,M744075,wwfiyhj
+ss-jp-0512,1997-02-21,ZAP!SNOW BOARDING TRIX,ポニーキャニオン,,T-7502G,5800,税抜,セガサターン初のスノーボードゲーム,ZAP!SNOW BOARDING TRIX,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ZAP! SNOW BOARDING TRIX,M744187,zap
+ss-jp-0513,1997-02-21,三國志 バリューセット,光栄,,,12800,税抜,『三國志V』と『三國志リターンズ』を収録,三國志シリーズ,Wikipedia+MADB,,MADB,三國志 バリューセット 三國志V 三國志リターンズ 同梱版,M761661,
+ss-jp-0514,1997-02-21,重装機兵レイノス2,メサイヤ,,T-2501G,5900,税抜,メガドライブ用ソフト『重装機兵レイノス』の続編,重装機兵レイノス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,重装機兵レイノス2,M762124,leynos2
+ss-jp-0515,1997-02-21,信長の野望 バリューセット,光栄,,,11800,税抜,『信長の野望・天翔記』と『信長の野望リターンズ』を収録,信長の野望シリーズ,Wikipedia+MADB,,MADB,信長の野望 バリューセット,M762387,
+ss-jp-0516,1997-02-21,SEGA AGES ファンタジーゾーン,セガ,,GS-9136,3800,税抜,アーケードゲーム『ファンタジーゾーン』の移植版,ファンタジーゾーン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,FANTASY ZONE,M719487,fantzone
+ss-jp-0517,1997-02-28,クリティコム,ビック東海,,T-2302G,5800,税抜,,クリティコム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クリティコム ザ・クリティカルコンバット,M747701,criticomj
+ss-jp-0518,1997-02-28,NBA JAM エクストリーム,アクレイムジャパン,,T-8122G,5800,税抜,『NBA JAM』の続編,NBA JAM,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NBA JAM エクストリーム,M741046,nbajamexj
+ss-jp-0519,1997-02-28,スペースジャム,アクレイムジャパン,,T-8119G,5800,税抜,同名映画を原作とするバスケットボールゲーム,スペースジャム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スペースジャム,M750213,spacejamj
+ss-jp-0520,1997-02-28,ふしぎの国のアンジェリーク,光栄,,T-7634G,5800,税抜,『アンジェリーク』関連作品,アンジェリークシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ふしぎの国のアンジェリーク,M755312,fushangl
+ss-jp-0521,1997-02-28,キューブバトラー〜デバッガー翔編〜,やのまん,,T-21004G,5800,税抜,キューブ状のピースを扱うタイセンパズルゲーム,キューブバトラー〜デバッガー翔編〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キューブバトラー ～デバッガー翔編～,M747291,cubeshou
+ss-jp-0522,1997-02-28,続ぐっすんおよよ,バンプレスト,,T-20604G,5800,税抜,,ぐっすんおよよ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,続ぐっすんおよよ,M763847,zgussun
+ss-jp-0523,1997-02-28,首都高バトル'97,イマジニア,,T-15019G,5800,税抜,PlayStaton用ソフト『首都高バトル』の移植版,首都高バトル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,首都高バトル'97,M762071,sbatl97
+ss-jp-0524,1997-02-28,SEGA AGES メモリアルセレクションVOL.1,セガ,,GS-9135,4800,税抜,『ヘッドオン』ほかセガのアーケードゲーム4作品を収録,SEGA AGES,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,メモリアルセレクション VOL. 1 SEGA AGES,M719486,samem1
+ss-jp-0525,1997-02-28,天地無用!連鎖必要,パイオニアLDC,,T-22204G,6800,税抜,メディアミックス『天地無用!』を題材とした落ちものパズル,天地無用!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,天地無用! 連鎖必要,M764617,tenchren
+ss-jp-0526,1997-02-28,パネルティアストーリー ケルンの大冒険,翔泳社,,T-21510G,6200,税抜,パネルでフィールドを作るシステムのRPG,パネルティアストーリー ケルンの大冒険,Wikipedia+MADB,MAME+No-Intro,MADB,パネルティアストーリー ケルンの大冒険,M754229,paneltia
+ss-jp-0527,1997-02-28,ワイアラエの奇蹟,T&Eソフト,,T-11402G,6800,税抜,同名スーパーファミコン用ソフトのリメイク,遙かなるオーガスタ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワイアラエの奇蹟 -Extra 36 Holes-,M759376,waix36
+ss-jp-0528,1997-03-07,ヘンリーエクスプローラーズ,コナミ,,T-9518G,5800,税抜,同名アーケードゲームの移植版,ヘンリーエクスプローラーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ヘンリーエクスプローラーズ,M756093,henryexpa
+ss-jp-0529,1997-03-07,機動戦士ガンダム外伝III 裁かれし者,バンダイ,,T-13312G,4800,税抜,機動戦士ガンダム外伝三部作の完結編,機動戦士ガンダム外伝 THE BLUE DESTINY,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,機動戦士ガンダム外伝3  裁かれし者,M734548,gundg3
+ss-jp-0530,1997-03-07,ゲームウェア4号,ゼネラル・エンタテイメント,,T-17005G,,,,ゲームウェア,Wikipedia+MAME,MAME+No-Intro,,,,gware4
+ss-jp-0531,1997-03-07,新世紀エヴァンゲリオン 2nd Impression,セガ,,GS-9129,6800,税抜,『新世紀エヴァンゲリオン』の続編,新世紀エヴァンゲリオン 2nd Impression,Wikipedia+MADB,MADB+No-Intro,MADB,新世紀エヴァンゲリオン 2nd Impression,M719485,
+ss-jp-0532,1997-03-07,プラネット・ジョーカー,ナグザット,,T-18711G,5800,税抜,,プラネット・ジョーカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラネット・ジョーカー,M755551,planetjk
+ss-jp-0533,1997-03-14,ワームス,アイマックス,,T-22405G,5800,税抜,,ワームス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワームス,M759277,wormsj
+ss-jp-0534,1997-03-14,マンクスTT スーパーバイク,セガ,,GS-9102,5800,税抜,同名アーケードゲームの移植版,マンクスTT スーパーバイク,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マンクスTT SuperBike,M719482,manxttja
+ss-jp-0535,1997-03-14,アドヴァンストヴァリアブル・ジオ,TGL,18+,T-32501G,7800,税抜,18歳以上推奨,ヴァリアブル・ジオ,Wikipedia+MADB+MAME,MAME,MADB,アドヴァンスト ヴァリアブル・ジオ,M744927,avg
+ss-jp-0536,1997-03-14,ナイトゥルースボイスセレクションラジオドラマ編,ソネット・コンピュータエンタテイメント,,T-20207G,2980,税抜,『ナイトゥルース』のラジオドラマおよび次回作の予告編を収録 『SATURN FAN』1996年12月27日号掲載時点では1997年2月に発売が予定されていた。,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイトゥルース ボイスセレクション ラジオドラマ編,M752809,ntruthrd
+ss-jp-0537,1997-03-14,Jリーグビクトリーゴール'97,セガ,,GS-9140,5800,税抜,,ビクトリーゴール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Jリーグ ビクトリーゴール'97,M719483,jlv97
+ss-jp-0538,1997-03-14,優駿クラシックロード,ビクターインタラクティブソフトウェア,,T-6009G,5800,税抜,クラシックロードシリーズの1作品,優駿クラシックロード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,優駿 クラシックロード,M766414,classryu
+ss-jp-0539,1997-03-15,実戦パチスロ必勝法!4,サミー工業,,T-2406G,5800,税抜,『SATURN FAN』1996年12月27日号掲載時点では1996年12月27日に発売が予定されていた。,実戦パチスロ必勝法!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実戦パチスロ必勝法! 4,M762005,jpslot4
+ss-jp-0540,1997-03-20,ADVANCED WORLD WAR 〜千年帝国の興亡〜,セガ,,GS-9087,6800,税抜,,ADVANCED WORLD WAR 〜千年帝国の興亡〜,Wikipedia+MADB,MADB+No-Intro,MADB,ADVANCED WORLD WAR 千年帝国の興亡 -LAST OF THE MILLENNIUM-,M725333,
+ss-jp-0541,1997-03-20,ザ・コンビニ,ヒューマン,,T-4310G,5800,税抜,同名PCゲームの移植版,ザ・コンビニ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ザ・コンビニ ~あの町を独占せよ~,M719481,conveni
+ss-jp-0542,1997-03-20,スタンバイSay You!,ヒューマン,18+,,5800,税抜,音響監督の視点からアニメのアフレコを行うアドベンチャーゲーム 18歳以上推奨,スタンバイSay You!,Wikipedia+MADB,,MADB,スタンバイSay You! 通常版2,M749994,
+ss-jp-0543,1997-03-27,ときめきメモリアルSelection藤崎詩織,コナミ,,T-9517G,2800,税抜,『ときめきメモリアル』の登場人物・藤崎詩織のミュージックビデオ集,ときめきメモリアル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ときめきメモリアルSelection 藤崎詩織,M752173,tokimfuj
+ss-jp-0544,1997-03-28,プロ野球 グレイテストナイン'97,セガ,,GS-9139,5800,税抜,,グレイテストナイン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,プロ野球グレイテストナイン'97,M719477,gnine97
+ss-jp-0545,1997-03-28,パズルボブル3,タイトー,,T-1109G,5800,税抜,,パズルボブル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パズルボブル3,M753820,pbobble3
+ss-jp-0546,1997-03-28,AnEarth Fantasy Stories THE FIRST VOLUME,メディアワークス,,T-27801G,,,PCエンジン用ソフト『聖夜物語 AnEarth Fantasy Stories』のリメイク,聖夜物語 AnEarth Fantasy Stories,Wikipedia+MAME,MAME+No-Intro,,,,anearth
+ss-jp-0547,1997-03-28,ウルフファング・SS,エクシングエンタテイメント,,T-26105G,5800,税抜,アーケードゲーム『ウルフファング』の移植版,ウルフファング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウルフファング・SS 空牙2001,M745916,wolffang
+ss-jp-0548,1997-03-28,SSアドベンチャーパック七つの秘館&MYST,光栄,,T-7639G,8800,,,七つの秘館,Wikipedia+MADB,MADB,MADB,七つの秘館＆MYST SSアドベンチャーパック,M719480,
+ss-jp-0549,1997-03-28,サイバーボッツ,カプコン,,T-1217G,5800,税抜,同名アーケードゲームの移植版,サイバーボッツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイバーボッツ,M748709,cybots
+ss-jp-0550,1997-03-28,三國志 孔明伝,光栄,,T-7629G,7800,税抜,『三國志演義』に登場する諸葛孔明を題材としたシミュレーションRPG,三國志シリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,三國志孔明伝,M761733,sangokou
+ss-jp-0551,1997-03-28,実戦パチンコ必勝法 TWIN,サミー工業,,T-2407G,,,『CRガオガオキッズ』と『CRくだもの畑』を収録した実機シミュレーター,実戦パチンコ必勝法,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719479,jpachitw
+ss-jp-0552,1997-03-28,卒業 クロスワールド,小学館プロダクション,,,5800,税抜,卒業シリーズを題材とした恋愛アドベンチャーゲーム,卒業 (ゲーム),Wikipedia+MADB,,MADB,卒業 クロスワールド,M763853,
+ss-jp-0553,1997-03-28,大航海時代II,光栄,,T-7628G,6800,税抜,,大航海時代II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大航海時代2,M734763,daikok2
+ss-jp-0554,1997-03-28,ドラゴンマスターシルク,データム・ポリスター,,T-19503G,6800,税抜,,ドラゴンマスターシルク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラゴンマスターシルク,M752597,dmsilk
+ss-jp-0555,1997-03-28,花組対戦コラムス,セガ,,GS-9138,5800,税抜,『サクラ大戦』に『コラムス』のシステムを組み込んだ作品,花組対戦コラムス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,花組対戦コラムス,M719478,hanacols
+ss-jp-0556,1997-03-28,ファーランドストーリー ～破亡の舞～,TGL,,T-32505G,6800,税抜,スーパーファミコン用ソフト『ファーランドストーリー2 』のアレンジ移植,ファーランドストーリー2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファーランドストーリー～破亡の舞～,M754840,farland
+ss-jp-0557,1997-03-28,幻のブラックバス,メイクソフトウェア,,T-25303G,5800,税抜,夢の中を舞台とした釣りゲーム,幻のブラックバス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,幻のブラックバス,M727979,blackbas
+ss-jp-0558,1997-03-28,モンスタースライダー,ダットジャパン,,T-27302G,5800,税抜,傾斜のあるステージを特徴とする落ちものパズル,モンスタースライダー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,モンスタースライダー,M757920,mslider
+ss-jp-0559,1997-04-04,アクチャーゴルフ,ナグザット,,T-18710G,5800,税抜,『SATURN FAN』1996年7月19日号掲載時点では1996年9月6日発売予定だった,アクチャーゴルフ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アクチャーゴルフ,M744607,actuagolj
+ss-jp-0560,1997-04-04,アンジェリークSpecial2,光栄,,,7800,税抜,『アンジェリークSpecial』の続編,アンジェリーク,Wikipedia+MADB,,MADB,アンジェリークSpecial 2,M745222,
+ss-jp-0561,1997-04-04,QUOVADIS 2〜惑星強襲オヴァン・レイ〜,グラムス,,T-17402G,6800,税抜,『QUOVADIS』の続編,QUOVADIS 2〜惑星強襲オヴァン・レイ〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,QUOVADIS 2 惑星強襲オヴァン・レイ,M719475,quovadi2
+ss-jp-0562,1997-04-04,SANKYO FEVER実機シミュレーションS,TEN研究所,,T-32102G,5800,税抜,SANKYOから発売された6機種を収録した実機シミュレーター,SANKYO FEVER,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,SANKYO FEVER 実機シミュレーションS,M742082,sjsims
+ss-jp-0563,1997-04-04,神凰拳,SNK,,T-3113G,5800,税抜,同名アーケードゲームの移植版,神凰拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,神凰拳,M763000,ragnagrd
+ss-jp-0564,1997-04-04,新海底軍艦 鋼鉄の孤独,アスキー,,T-2105G,6800,税抜,近未来を舞台とした戦略シミュレーションゲームで、『SATURN FAN』 1997年1月17日号掲載時点では1997年2月28日に発売が予定されていた。,新海底軍艦 鋼鉄の孤独,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新海底軍艦 鋼鉄の孤独,M762583,skgkodo
+ss-jp-0565,1997-04-04,ダークハンター (上) 異次元学園,光栄,,T-7631G,6800,税抜,栗本薫の小説『ダークハンター』を原作とした英語学習ソフトで、富士通の自動翻訳ツール「ATLAS」が用いられている,ダークハンター (上) 異次元学園,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダークハンター（上） 異次元学園,M750776,dhuntjou
+ss-jp-0566,1997-04-04,ボイスアイドルマニアックス〜プールバーストーリー〜,データイースト,,T-1312G,,,池澤春菜ら8人の声優と対戦するビリヤードゲーム,ボイスアイドルマニアックス〜プールバーストーリー〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719474,voiceido
+ss-jp-0567,1997-04-04,マルチメディア歴史体験ソフトゲーム日本史 革命児 織田信長,光栄,,T-7633G,6800,税抜,織田信長を題材とした教育ソフトで、ミュレーションゲームとしての要素も含まれている,マルチメディア歴史体験ソフトゲーム日本史 革命児 織田信長,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲーム日本史～革命児 織田信長～,M748006,gameniho
+ss-jp-0568,1997-04-04,メタルスラッグ,SNK,,T-3111G,5800,税抜,同名ネオジオ用ソフトの移植版,メタルスラッグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メタルスラッグ,M757554,mslug
+ss-jp-0569,1997-04-11,新テーマパーク,ヴァージンインタラクティブエンターテインメント,,T-10618G,5800,税抜,,新テーマパーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新テーマパーク,M762570,sthemepk
+ss-jp-0570,1997-04-11,センチメンタルグラフティファーストウィンドウ,NECインターチャネル,,T-20111G,2980,税抜,『センチメンタルグラフティ』のファンディスクおよび予告編に相当する作品で、限定生産された,センチメンタルグラフティ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,センチメンタルグラフティ ファーストウィンドウ,M750507,sentgfw
+ss-jp-0571,1997-04-18,雀帝 バトルコスプレイヤー,ダイキ,,T-34601G,6800,税抜,,雀帝 バトルコスプレイヤー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,雀帝 バトルコスプレイヤー,M763148,jantbcp
+ss-jp-0572,1997-04-18,逆鱗弾タイムトラベルシューティング,ヴァージンインタラクティブエンターテインメント,,T-7008G,,,,逆鱗弾,Wikipedia+MAME,MAME+No-Intro,,,,gekiridn
+ss-jp-0573,1997-04-18,峠KING THE SPIRITS2,アトラス,,T-14412G,5800,税抜,『峠KING THE SPIRITS』の続編,峠シリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,峠KING THE SPIRITS2,M764967,touge2
+ss-jp-0574,1997-04-18,レジェンド オブK-1 グランプリ'96,ポニーキャニオン,,T-7503G,4980,税抜,K-1データベース第2弾。,レジェンド オブK-1 グランプリ'96,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レジェンド オブ K-1 グランプリ'96,M758806,lok1gp
+ss-jp-0575,1997-04-25,ブラックドーン,ヴァージンインタラクティブエンターテインメント,,T-7013G,5800,税抜,,ブラックドーン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブラックドーン,M755507,blckdawnj
+ss-jp-0576,1997-04-25,キャスパー,インタープレイ,,T-12503G,5800,税抜,同名映画のゲーム化,キャスパー (映画),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キャスパー,M747159,casperj
+ss-jp-0577,1997-04-25,コマンド&コンカー,セガ,,GS-9131,6800,税抜,同名PCゲームの移植版,コマンド&コンカー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,コマンド＆コンカー,M719470,cncj
+ss-jp-0578,1997-04-25,ザ・クロウ,アクレイムジャパン,18+,T-8123G,5800,税抜,18歳以上推奨,ザ・クロウ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・クロウ,M748548,crowj
+ss-jp-0579,1997-04-25,マジカルホッパーズ,バンダイ,,T-13316G,6800,税抜,,マジカルホッパーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジカルホッパーズ,M756799,maghopp
+ss-jp-0580,1997-04-25,スカイターゲット,セガ,,GS-9103,5800,税抜,同名アーケードゲームの移植版,スカイターゲット,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スカイターゲット,M719471,skytargtja
+ss-jp-0581,1997-04-25,エルフを狩るモノたち,アルトロン,,T-16605G,7800,税抜,,エルフを狩るモノたち,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エルフを狩るモノたち,M746124,elf
+ss-jp-0582,1997-04-25,下級生,エルフ,18+,T-28002G,7800,税抜,18歳以上推奨,下級生 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,下級生,M719021,kakyusei
+ss-jp-0583,1997-04-25,機動戦士Ζガンダム前編 Ζの鼓動,バンダイ,,T-13315G,6800,税抜,,機動戦士Ζガンダム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,機動戦士Zガンダム 前編 ゼータの鼓動,M760558,zgundzen
+ss-jp-0584,1997-04-25,シーバス・フィッシング2,パック・イン・ビデオ,,,5800,税抜,『シーバス・フィッシング』の続編,シーバス・フィッシング2,Wikipedia+MADB,,MADB,シーバス・フィッシング2,M749021,
+ss-jp-0585,1997-04-25,デジグ アクアワールド,増田屋コーポレーション,,T-30303G,4800,税抜,"rowspan=""2""|デジタルジグソーパズル",デジグ アクアワールド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デジグ アクアワールド,M751686,dejigaqw
+ss-jp-0586,1997-04-25,デジグ TIN TOY,増田屋コーポレーション,,T-30302G,4800,税抜,,デジグ TIN TOY,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デジグ TIN TOY,M751685,dejigtin
+ss-jp-0587,1997-04-25,東京SHADOW,タイトー,18+,T-1110G,8800,税抜,同名PlayStation用ソフトの移植版 18歳以上推奨,東京SHADOW,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,東京SHADOW,M764764,tokyoshd
+ss-jp-0588,1997-04-25,ファンタステップ,ジャレコ,,T-5710G,5800,税抜,絵本世界の冒険を描いたインタラクティブアドベンチャー,ファンタステップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファンタステップ,M755151,fantstep
+ss-jp-0589,1997-04-25,プラドルDISC 特別編コギャル大百科100,Sada Soft,,T-30807G,3800,税抜,女子高生を題材としたデータベースソフト,プラドルDISC 特別編コギャル大百科100,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC 特別編 コギャル大百科100,M755546,pidol100
+ss-jp-0590,1997-05-02,デカ四駆 TOUGH THE TRUCK,ヒューマン,,T-4313G,5800,税抜,,デカ四駆 TOUGH THE TRUCK,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デカ4駆 TOUGH THE TRUCK,M751640,toughtrk
+ss-jp-0591,1997-05-02,機動戦艦ナデシコ〜やっぱり最後は「愛が勝つ」?〜,セガ,,GS-9142,5800,税抜,,機動戦艦ナデシコ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,機動戦艦ナデシコ ～やっぱり最後は「愛が勝つ」?～,M719468,ksnyap
+ss-jp-0592,1997-05-02,ジ アンソルブド,ヴァージンインタラクティブエンターテインメント,18+,T-7017G,7800,税抜,超常現象の研究家である飛鳥昭雄が原作を手掛けたアドベンチャーゲーム 18歳以上推奨,ジ アンソルブド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジ アンソルブド,M748990,unsolved
+ss-jp-0593,1997-05-02,シヴィライゼーション,アスミック,,T-2003G,5800,税抜,,シヴィライゼーション,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,シヴィライゼーション 新・世界七大文明,M749067,civ
+ss-jp-0594,1997-05-02,ステークスウィナー2最強馬伝説,ザウルス,,T-3115G,5800,税抜,アーケードゲームの移植版,ステークスウィナー2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ステークスウィナー2 最強馬伝説,M750024,stakewn2
+ss-jp-0595,1997-05-02,ファンキーヘッドボクサーズ+,吉本興業,,T-20004G,5800,税抜,,ファンキーヘッドボクサーズ+,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ファンキーヘッドボクサーズ+,M719469,fhboxpls
+ss-jp-0596,1997-05-09,フリートーク・スタジオ〜マリの気ままなおしゃべり〜,メディアエンターテイメント,,T-20504G,5800,税抜,ラジオ局を舞台としたアドベンチャーゲーム,フリートーク・スタジオ〜マリの気ままなおしゃべり〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フリートーク・スタジオ～マリの気ままなおしゃべり～,M755591,freetalk
+ss-jp-0597,1997-05-16,グルーヴ オン ファイト,アトラス,,T-14413G,5800,税抜,豪血寺一族シリーズの1作品,豪血寺一族,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,グルーヴオンファイト 豪血寺一族3,M747736,groovef
+ss-jp-0598,1997-05-23,BLAM!マシーンヘッド,ヴァージンインタラクティブエンターテインメント,,T-7015G,5800,税抜,『SATURN FAN』1996年12月13日号掲載時点では1997年1月発売予定だった。,BLAM!マシーンヘッド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,BLAM! マシーンヘッド,M737675,blamja
+ss-jp-0599,1997-05-23,キューブバトラー〜アンナ未来編〜,やのまん,,T-21006G,5800,税抜,『キューブバトラー〜デバッガー翔編〜』の姉妹作,キューブバトラー〜アンナ未来編〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キューブバトラー～アンナ未来編～,M747292,cubeanna
+ss-jp-0600,1997-05-23,龍的五千年,イマジニア,,T-15025G,6800,税抜,龍を題材としたアドベンチャーゲームで、『SATURN FAN』1997年2月28日号掲載時点では1997年4月25日発売予定だった また、『SATURN FAN』1997年5月16日号では1997年6月13日発売予定と記されていた,龍的五千年,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,龍的五千年,M766742,ryuuteki
+ss-jp-0601,1997-05-23,ワラワラウォーズ,翔泳社,,T-21507G,5800,税抜,多人数戦闘を導入した戦略シミュレーションゲームで、『SATURN FAN』1996年12月27日号掲載時点では1997年3月に発売が予定されていた。,ワラワラウォーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワラワラウォーズ 激闘! 大軍団バトル,M759447,wara2war
+ss-jp-0602,1997-05-30,スリー・ダーティ・ドワーブズ,セガ,,GS-9137,5800,税抜,3人のドワーフの戦いを描いたアニメ調のアクションアドベンチャーゲームで、『Game Pro』1996年7月号掲載時点では1996年7月に北米での発売が予定されていた。,スリー・ダーティ・ドワーブズ,Wikipedia+MADB,MADB+No-Intro,MADB,スリー・ダーティ・ドワーブズ,M719467,
+ss-jp-0603,1997-05-30,エーベルージュ,タカラ,,T-10309G,6800,税抜,同名PCゲームの移植版で、メディアミックス「ワーランド・プロジェクト」の一つでもある。,エーベルージュ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エーベルージュ,M746010,eberouge
+ss-jp-0604,1997-05-30,Jリーグ GO GO ゴール!,テクモ,,T-3602G,5800,税抜,,Jリーグ GO GO ゴール!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Jリーグ GO GO ゴール!,M740047,gogogoal
+ss-jp-0605,1997-05-30,スカルファング 〜空牙外伝〜,データイースト,,T-1311G,5800,税抜,同名アーケードゲームの移植版,スカルファング 〜空牙外伝〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スカルファング 空牙外伝,M725262,skullfng
+ss-jp-0606,1997-05-30,ダークハンター (下) 妖魔の森,光栄,,T-7632G,6800,税抜,栗本薫の小説『ダークハンター』を原作とした英語学習ソフトで、富士通の自動翻訳ツール「ATLAS 」が用いられている,ダークハンター (下) 妖魔の森,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダークハンター（下） 妖魔の森,M750775,dhuntge
+ss-jp-0607,1997-05-30,ダービー穴リスト,メディアエンターテイメント,18+,T-20505G,6800,税抜,競馬予想ソフト 18歳以上推奨,ダービー穴リスト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダービーアナリスト,M750783,derbyana
+ss-jp-0608,1997-05-30,デイサード,タカラ,,T-10307G,5800,税抜,,デイサード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ディ・サード,M751400,dxhird
+ss-jp-0609,1997-05-30,日本プロ麻雀連盟公認 道場破り,ナグザット,,T-18714G,5800,税抜,,日本プロ麻雀連盟公認 道場破り,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,日本プロ麻雀連盟公認 道場破り,M765102,npmjren
+ss-jp-0610,1997-05-30,フィッシング甲子園 II,キングレコード,,T-24904G,6800,税抜,,フィッシング甲子園 II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フィッシング甲子園 2,M734411,fishk2
+ss-jp-0611,1997-06-06,インパクトレーシング,ココナッツジャパンエンターテイメント,,T-7307G,6800,税抜,,インパクトレーシング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,インパクトレーシング,M745501,impactrcj
+ss-jp-0612,1997-06-06,ゲーム天国,ジャレコ,,T-5712G,5800,税抜,同名アーケードゲームの移植版,ゲーム天国,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲーム天国,M748002,gametngk
+ss-jp-0613,1997-06-06,超時空要塞マクロス愛・おぼえていますか,バンダイビジュアル,,T-23403G,6800,税抜,アニメ映画『超時空要塞マクロス 愛・おぼえていますか』のゲーム化,マクロスシリーズ (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,超時空要塞マクロス 愛・おぼえていますか,M719659,macross
+ss-jp-0614,1997-06-13,ウェルカムハウス,イマジニア,,T-15027G,6800,税抜,,ウェルカムハウス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウェルカムハウス,M745709,welcomeh
+ss-jp-0615,1997-06-13,太平洋の嵐2 疾風の艨艟,イマジニア,,T-15018G,6800,税抜,同名作品の移植版,太平洋の嵐 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,太平洋の嵐2 疾風の艨艟,M763941,taiheiy2
+ss-jp-0616,1997-06-19,沙羅曼蛇デラックスパック プラス,コナミ,,,,,『沙羅曼蛇』ほか3作を収録,沙羅曼蛇,Wikipedia,,,,,
+ss-jp-0617,1997-06-20,PGA TOUR'97,ヴァージンインタラクティブエンターテインメント,,T-10619G,5800,税抜,,PGA TOUR'97,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,PGA TOUR'97,M741524,pga97j
+ss-jp-0618,1997-06-20,AMOK アモック,光栄,,T-7637G,5800,税抜,,AMOK アモック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アモック,M745059,amokj
+ss-jp-0619,1997-06-20,ソニック ジャム,セガ,,GS-9147,4800,,『ソニック・ザ ・ヘッジホッグ』から『ソニック＆ ナックルズ』までの4作品を収録,ソニック ジャム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SONIC JAM,M719464,sonicjamja
+ss-jp-0620,1997-06-20,ゼロヨンチャンプDoozy-J TypeR,メディアリング,,T-21401G,6800,税抜,,ゼロヨンチャンプDoozy-J TypeR,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゼロヨンチャンプ Doozy-J TypeR,M750502,zero4
+ss-jp-0621,1997-06-20,デジタルアンジュ〜電脳天使SS〜,徳間書店インターメディア,,T-33003G,5800,税抜,PCエンジン用ソフト『デジタルアンジュ〜電脳天使〜』のアナザーストーリーで、『SATURN FAN』1996年12月27日号掲載時点では1997年春に発売が予定されていた。,デジタルアンジュ〜電脳天使〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デジタルアンジュ～電脳天使SS～,M751690,digiange
+ss-jp-0622,1997-06-20,マジカルドロップIII とれたて増刊号!,データイースト,,T-1313G,5800,税抜,アーケードゲーム『マジカルドロップIII』の移植版,マジカルドロップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジカルドロップ3  とれたて増刊号!,M734457,magdrop3
+ss-jp-0623,1997-06-20,マリカ 〜真実の世界〜,ビクターインタラクティブソフトウェア,18+,T-6008G,5800,税抜,18歳以上推奨,マリカ 〜真実の世界〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリカ～真実の世界～,M757080,marica
+ss-jp-0624,1997-06-20,プラドルDISC 特別編 キャンペーンガール'97,Sada Soft,,T-30808G,3000,税抜,,プラドルDISC 特別編 キャンペーンガール'97,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC 特別編 キャンペーンガール'97,M755545,pidolc97
+ss-jp-0625,1997-06-20,わくわく7,サンソフト,,T-1516G,5800,税抜,同名アーケードゲームの移植版,わくわく7,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,わくわく7,M759430,wakuwak7
+ss-jp-0626,1997-06-27,ブレイクポイント,パック・イン・ソフト,,T-9107G,6800,税抜,,ブレイクポイント (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブレイクポイント,M755746,bptennisj
+ss-jp-0627,1997-06-27,クライムウェーブ,ヴァージンインタラクティブエンターテインメント,,T-7018G,6800,税抜,シューティング要素のあるドライブゲーム 雑誌『Game Pro』1996年7月号掲載時点では1996年8月に北米での発売が予定されていた一方、『セガサターンマガジン』1997年4月25日号および『SATURN FAN』1997年4月25日号掲載時点では1997年5月16日に日本での発売が予定されていた,クライムウェーブ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クライムウェーブ,M747512,crimewavj
+ss-jp-0628,1997-06-27,クレイジーイワン,ソフトバンク,,T-18605G,5800,税抜,,クレイジーイワン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クレイジーイワン,M747780,krazyivnj
+ss-jp-0629,1997-06-27,ウィリーウォンバット,ハドソン,,T-14306G,5800,税抜,ブーメランを武器とするウォンバットのウィリーを主役としたアクションゲームで、キャラクターデザインは松下進が担当した,ウィリーウォンバット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウィリーウォンバット,M745667,willywom
+ss-jp-0630,1997-06-27,QUIZ なないろDREAMS虹色町の奇跡,カプコン,,T-1220G,5800,税抜,,QUIZ なないろDREAMS,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,QUIZなないろDREAMS 虹色町の奇跡,M741760,qndream
+ss-jp-0631,1997-06-27,ゲームウェア5号,ゼネラル・エンタテイメント,,T-17006G,2980,税抜,,ゲームウェア,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GAME-WARE Vol. 5,M719459,gware5
+ss-jp-0632,1997-06-27,真説サムライスピリッツ武士道烈伝,SNK,,T-3112G,6800,税抜,サムライスピリッツシリーズとしては初のRPG作品,サムライスピリッツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,真説サムライスピリッツ 武士道烈伝,M762935,samsprpg
+ss-jp-0633,1997-06-27,紫炎龍,童,,T-29102G,5800,税抜,,紫炎龍,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,紫炎龍,M761835,shienryu
+ss-jp-0634,1997-06-27,政界立志伝〜よい国・よい政治〜,BMGジャパン,,T-18005G,5300,税抜,政治家を題材としたボードゲーム,政界立志伝〜よい国・よい政治〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,政界立志伝 ～よい国・よい政治～,M763189,seikairi
+ss-jp-0635,1997-06-27,大戦略 -STRONG STYLE-,OZクラブ,,T-21202G,6800,税抜,,大戦略シリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大戦略 -STRONG STYLE-,M764078,daisenss
+ss-jp-0636,1997-06-27,提督の決断III,光栄,,T-7640G,9800,税抜,,提督の決断III,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,提督の決断3,M734791,teikets3
+ss-jp-0637,1997-06-27,トップアングラーズスーパーフィッシングビッグファイト2,ナグザット,,T-18705G,5800,税抜,,トップアングラーズスーパーフィッシングビッグファイト2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トップアングラーズ ～スーパーフィッシングビッグファイト2～,M752230,topangle
+ss-jp-0638,1997-06-27,はるかぜ戦隊 Vフォース,ビング,,T-19904G,5800,税抜,アニメーションを用いたシミュレーションゲーム,はるかぜ戦隊 Vフォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,はるかぜ戦隊Vフォース,M719461,vforce
+ss-jp-0639,1997-06-27,プラドルDISC Vol.4 黒田美礼,Sada Soft,,T-30809G,3000,税抜,,黒田美礼,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 4 黒田美礼,M755538,pidolv4
+ss-jp-0640,1997-06-27,ムーンクレイドル,パック・イン・ソフト,,T-9109G,6800,税抜,同名3DO用ソフトの移植版,ムーンクレイドル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ムーンクレイドル,M757422,mcradle
+ss-jp-0641,1997-06-27,羅媚斗 RABBIT,ヴァージンインタラクティブエンターテインメント,,T-10610G,5800,税抜,同名アーケードゲームの移植版,羅媚斗 RABBIT,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,羅媚斗,M766591,rabbit
+ss-jp-0642,1997-06-27,ワールド・エボリューション・サッカー,アスミック,,T-2002G,5800,税抜,,ワールド・エボリューション・サッカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワールド・エボリューション・サッカー,M759281,worldevo
+ss-jp-0643,1997-07-04,だいすき,ギャガ・コミュニケーションズ,,T-18510G,6800,税抜,未来の士官学校を舞台とした恋愛シミュレーションゲーム,だいすき (テレビゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,だいすき♥,M750821,daisuki
+ss-jp-0644,1997-07-04,ファイターズヒストリー ダイナマイト,セガ,,GS-9107,5800,税抜,同名ネオジオ用ソフトの移植版,ファイターズヒストリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイターズヒストリー・ダイナマイト,M754895,fhdyna
+ss-jp-0645,1997-07-04,ルナ シルバースターストーリーMPEG版,角川書店,,T-27904G,6800,税抜,『ルナ シルバースターストーリー』の高画質版で、プレイに際してはムービーカードおよびツインオペレーターが必要,LUNAR,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ルナ シルバースターストーリー MPEG版,M758650,lunarmpga
+ss-jp-0646,1997-07-10,ときめきメモリアルドラマシリーズ Vol.1虹色の青春,コナミ,,T-9522G,,,『ときめきメモリアル』に登場する虹野沙希に焦点を当てた作品,ときめきメモリアル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725212,tokimdv1
+ss-jp-0647,1997-07-11,NHL 97,ヴァージンインタラクティブエンターテインメント,,T-10620G,5800,税抜,,NHL,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NHL 97,M741227,nhl97j
+ss-jp-0648,1997-07-11,ドゥーム,ソフトバンク,,T-18610G,5800,税抜,『DOOM』と『Doom II』を収録,DOOM,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドゥーム,M752029,doomj
+ss-jp-0649,1997-07-11,アルバムクラブ胸キュン セントポーリア女学院,ソシエッタ代官山,,T-21903G,6800,税抜,実写を併用した撮影ゲーム 18歳以上推薦,アルバムクラブ胸キュン セントポーリア女学院,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アルバムクラブ～胸キュン♥セントポーリア女学院～,M745164,albumclb
+ss-jp-0650,1997-07-11,AI囲碁サターン版,アスキーサムシンググッド,,T-17601G,6800,税抜,,AI囲碁サターン版,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,AI囲碁,M737195,aiigo
+ss-jp-0651,1997-07-11,サンダーフォースV,テクノソフト,,T-1811G,6800,税抜,,サンダーフォースV,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サンダーフォースV,M719458,tf5
+ss-jp-0652,1997-07-11,同級生2,NECインターチャネル,18+,T-20104G,7900,税抜,同名PCゲームの移植版 18歳以上推奨,同級生2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,同級生2,M719034,dokyuse2
+ss-jp-0653,1997-07-11,バルクスラッシュ,ハドソン,,T-14310G,5800,税抜,,バルクスラッシュ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バルクスラッシュ,M754352,bulkslas
+ss-jp-0654,1997-07-18,キャット・ザ・リパー13人目の探偵士,トンキンハウス,,T-35701G,5800,税抜,,Cat the Ripper 13人目の探偵士,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キャット・ザ・リパー 13人目の探偵士,M747181,catrip
+ss-jp-0655,1997-07-18,サイドポケット3,データイースト,,T-1314G,5800,税抜,,サイドポケット3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイドポケット3,M748695,sidepkt3
+ss-jp-0656,1997-07-18,悠久幻想曲,メディアワークス,,,5800,税抜,,悠久幻想曲,Wikipedia+MADB,,MADB,悠久幻想曲,M766462,
+ss-jp-0657,1997-07-18,リアルサウンド 〜風のリグレット〜,ワープ,,T-30002G,6400,税抜,,リアルサウンド 〜風のリグレット〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,リアルサウンド ～風のリグレット～,M719456,kazeregr
+ss-jp-0658,1997-07-24,DX人生ゲーム II,タカラ,,T-10310G,5800,税抜,,人生ゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,DX人生ゲーム2,M729509,dxjinse2
+ss-jp-0659,1997-07-24,冒険活劇モノモノ,翔泳社,,T-21508G,5800,税抜,アイテムコレクション要素を兼ねそろえたRPG,冒険活劇モノモノ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,冒険活劇モノモノ,M719455,monomono
+ss-jp-0660,1997-07-25,バイオハザード,カプコン,,T-1219G,4800,税抜,同名PlayStation用ソフトの移植版,バイオハザード (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バイオハザード,M753503,biohazb
+ss-jp-0661,1997-07-25,エンジェルグラフィティS〜あなたへのプロフィール〜,ココナッツジャパンエンターテイメント,,T-7308G,6800,税抜,,エンジェルグラフィティS〜あなたへのプロフィール〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エンジェルグラフィティS ～あなたへのプロフィール～,M746178,angelgrf
+ss-jp-0662,1997-07-25,怪盗セイント・テール,トミー,,T-28201G,6800,税抜,同名テレビアニメのゲーム化,怪盗セイント・テール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,怪盗セイント・テール,M760335,sainttl
+ss-jp-0663,1997-07-25,スレイヤーズろいやる,角川書店/ESP,,T-27903G,6300,税抜,テレビアニメ『スレイヤーズ』のゲーム化,スレイヤーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スレイヤーズろいやる,M750322,slayersr
+ss-jp-0664,1997-07-25,ナイトゥルース 二つだけの真実,レイ・アップ,,T-36201G,5800,税抜,,ナイトゥルース 二つだけの真実,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイトゥルース 二つだけの真実,M752810,ntruthfd
+ss-jp-0665,1997-07-25,ボイスファンタジアS失われたボイスパワー,アスク講談社,,T-16706G,6800,税抜,,ボイスファンタジアS失われたボイスパワー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ボイスファンタジアS 失われたボイスパワー,M756097,voicefan
+ss-jp-0666,1997-07-31,フルカウルミニ四駆,メディアクエスト,,T-26408G,,,漫画『爆走兄弟レッツ&ゴー!!』のゲーム化,ミニ四駆,Wikipedia+MAME,MAME+No-Intro,,,,fullcowl
+ss-jp-0667,1997-08-01,ロックマンX4,カプコン,,T-1221G,6800,税抜,『Electronic Gaming Monthly』1997年6月号掲載時点では、1997年7月に北米での発売が予定されていた。,ロックマンX4,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロックマンX4 スペシャルリミテッドパック,M759161,rockmnx4
+ss-jp-0668,1997-08-01,ラストブロンクス,セガ,,GS-9152,6800,税抜,同名アーケードゲームの移植版,ラストブロンクス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ラストブロンクス,M719453,lastbrnxjb
+ss-jp-0669,1997-08-01,激突甲子園,魔法,,T-6701G,5800,税抜,,激突甲子園,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,激突甲子園,M761014,gekikosh
+ss-jp-0670,1997-08-01,GO III Professional 対局囲碁,毎日コミュニケーションズ,,T-29003G,6800,税抜,同名PCゲームの移植版,GO III Professional 対局囲碁,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,GO3  Professional 対局囲碁,M729947,go3pro
+ss-jp-0671,1997-08-01,ラングリッサー IV,メサイヤ,,T-2506G,5800,税抜,,ラングリッサー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラングリッサー4,M734504,langris4
+ss-jp-0672,1997-08-07,ときめきメモリアル対戦とっかえだま,コナミ,,T-9524G,5800,税抜,,ときめきメモリアル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ときめきメモリアル対戦とっかえだま,M752177,tokimtkd
+ss-jp-0673,1997-08-07,南方珀堂登場,アトラス,,T-14414G,5800,税抜,心理学によるプロファイリングを用いたミステリゲーム,南方珀堂登場,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,南方珀堂登場,M765065,minakata
+ss-jp-0674,1997-08-08,マーヴル・スーパーヒーローズ,カプコン,,T-1215G,5800,税抜,同名アーケードゲームの移植版,マーヴル・スーパーヒーローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マーヴル・スーパーヒーローズ,M756599,mshja
+ss-jp-0675,1997-08-08,黒の断章,OZクラブ,18+,T-21204G,,,同名PCゲームの移植版 18歳以上推奨,黒の断章,Wikipedia+MADB+MAME,MAME+No-Intro,,,M719019,literary
+ss-jp-0676,1997-08-08,古伝降霊術 百物語〜ほんとにあった怖い話〜,ハドソン,,,5800,税抜,稲川淳二が監修するサウンドノベルで、稲川自身も出演している,古伝降霊術 百物語〜ほんとにあった怖い話〜,Wikipedia+MADB,,MADB,古伝降霊術 百物語 ほんとにあった怖い話,M761224,
+ss-jp-0677,1997-08-08,テラクレスタ3D,日本物産,,T-7102G,5800,税抜,アーケードゲーム『テラクレスタ』のリメイク,テラクレスタ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,テラクレスタ3D 初回版,M751971,terrac3d
+ss-jp-0678,1997-08-08,天下制覇,イマジニア,,T-15030G,6800,税抜,徳川家康を題材とした歴史シミュレーションゲーム,天下制覇,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,天下制覇,M764581,tenkasei
+ss-jp-0679,1997-08-08,爆れつハンターR,キングレコード,18+,T-24903G,5800,税抜,メディアミックス『爆れつハンター』を題材としたアドベンチャーゲームで、内容は漫画版に準拠している 18歳以上推奨,爆れつハンター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,爆れつハンターR,M765359,bakhuntr
+ss-jp-0680,1997-08-08,パズルボブル3 FOR SEGANET,タイトー,,,2800,税抜,『パズルボブル3』のXBAND対応版で、XBAND対応作品としては初めての対戦パズルゲーム,パズルボブル,Wikipedia+MADB,,MADB,パズルボブル3 FOR SEGANET,M753821,
+ss-jp-0681,1997-08-08,ぱにっくちゃん,イマジニア,,T-15010G,6800,税抜,アニメーションを用いたアドベンチャーゲーム,ぱにっくちゃん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぱにっくちゃん,M754223,panichan
+ss-jp-0682,1997-08-08,ファンタズム,アウトリガー工房,,T-36001G,9800,税抜,,ファンタズム (シエラオンライン),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファンタズム,M755152,phantasm
+ss-jp-0683,1997-08-08,プラドルDISC Vol.5 藤崎奈々子,Sada Soft,,T-30811G,3000,税抜,,藤崎奈々子,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 5 藤崎奈々子,M755539,pidolv5
+ss-jp-0684,1997-08-08,魔法少女プリティサミー恐るべし身体測定! 核爆発5秒前!!,NECインターチャネル,,T-20110G,6800,税抜,テレビアニメ『魔法少女プリティサミー』のデジタルコミック,魔法少女プリティサミー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,魔法少女プリティーサミー ～恐るべし身体測定! 核爆発5秒前!! ～,M766049,psamosor
+ss-jp-0685,1997-08-08,ライフスケイプ2,メディアクエスト,,T-26411G,5800,税抜,,ライフスケイプ2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ライフスケイプ2 ボディーバイオニクス～驚異の小宇宙・人体～,M758201,lifescp2
+ss-jp-0686,1997-08-08,ルパン三世 クロニクル,スパイク,,T-18806G,5800,税抜,テレビアニメ『ルパン三世』のデータベースソフトで、テレビシリーズは第2期まで、映画版は2作品収録されている,ルパン三世,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,LUPIN THE 3RD CHRONICLES,M719658,lupincra
+ss-jp-0687,1997-08-09,サターンミュージックスクール,ワカ製作所,,T-32801G,8800,税抜,演奏の練習や作曲機能の付いた音楽ソフトで、付属のMIDIキーボードをセガサターンと接続して遊ぶ 「セガ ホット インフォメーション」1997年号掲載時点では1997年8月1日発売予定だった。,サターンミュージックスクール,Wikipedia+MADB,MAME+No-Intro,MADB,サターンミュージックスクール,M748818,mschool
+ss-jp-0688,1997-08-22,VIRUS,ハドソン,,T-14304G,,,ハドソン・セガ・エイベックスによる同名メディアミックス作品の一つ,VIRUS,Wikipedia+MAME,MAME+No-Intro,,,,virus
+ss-jp-0689,1997-08-22,恋のサマーファンタジー in 宮崎シーガイア,バンダイビジュアル,,T-23407G,5800,税抜,タレントの奥菜恵をヒロインに据えた恋愛シミュレーションゲーム,恋のサマーファンタジー in 宮崎シーガイア,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,恋のサマーファンタジー in 宮崎シーガイア,M766820,ksumfant
+ss-jp-0690,1997-08-22,スコーチャー,アクレイムジャパン,,,5800,税抜,近未来を舞台としたバイクゲーム,スコーチャー (ゲーム),Wikipedia+MADB,,MADB,スコーチャー,M749888,
+ss-jp-0691,1997-08-28,プリルラ/アーケードギアーズ,エクシングエンタテイメント,,T-26106G,4800,税抜,アーケードゲーム『プリルラ』の移植版,プリルラ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プリルラ アーケードギアーズ,M755635,pulirula
+ss-jp-0692,1997-08-29,ウィズ,バンダイビジュアル/ビー・ファクトリー,,T-36102G,5800,税抜,,ウィズ (1994年のゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウィズ,M745591,whizzja
+ss-jp-0693,1997-08-29,ファイナリスト,ギャガ・コミュニケーションズ,,T-18511G,5800,税抜,,ファイナリスト (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイナリスト,M754917,finalist
+ss-jp-0694,1997-08-29,機動戦士ガンダム外伝 THE BLUE DESTINY,バンダイ,,,,,,機動戦士ガンダム外伝 THE BLUE DESTINY,Wikipedia,,,,,
+ss-jp-0695,1997-08-29,こちら葛飾区亀有公園前派出所中川ランド大レース!の巻,バンダイ,,T-13319G,6800,税抜,漫画『こちら葛飾区亀有公園前派出所』のデジタルボードゲーム化。 一部ミニゲームでは周辺機器シャトルマウスやバーチャガンを用いる。,こちら葛飾区亀有公園前派出所 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,こちら葛飾区亀有公園前派出所 中川ランド大レース! の巻,M748271,kkkrace
+ss-jp-0696,1997-08-29,ダークシードII,バンダイビジュアル/ビー・ファクトリー,,T-36101G,5800,税抜,,ダークシード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダークシード2,M734212,darksed2
+ss-jp-0697,1997-09-04,エルフを狩るモノたち -花札編-,アルトロン,18+,T-16606G,6800,税抜,メディアミックス『エルフを狩るモノたち』を原作とする花札ゲーム 18歳以上推奨,エルフを狩るモノたち,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エルフを狩るモノたち -花札編-,M746125,elfhana
+ss-jp-0698,1997-09-04,ぷよぷよSUN FOR SEGANET,コンパイル,,,2800,税抜,,ぷよぷよSUN,Wikipedia+MADB,,MADB,ぷよぷよSUN FOR SEGANET,M755413,
+ss-jp-0699,1997-09-11,アサルトリグス,ソフトバンク,,T-18606G,5800,税抜,,アサルトリグス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アサルトリグス,M744844,assrigs
+ss-jp-0700,1997-09-11,三國志IV with パワーアップキット,光栄,,T-7644G,7800,税抜,,三國志IV,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,三國志4  with パワーアップキット,M734620,sangoku4puk
+ss-jp-0701,1997-09-11,シルエットミラージュ,トレジャー/ESP,,T-32901G,,,トレジャーにとっては初めてとなるセガサターン用ソフト,シルエットミラージュ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719657,silhouet
+ss-jp-0702,1997-09-11,DESIRE,イマディオ,18+,T-15031G,,,18歳以上推奨,DESIRE (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719040,desire
+ss-jp-0703,1997-09-11,デジタルピンボール ラストグラディエーターズ Ver.9.7,カゼ,,T-18903G,5800,税抜,『デジタルピンボール ラストグラディエーターズ』の内容改良版,デジタルピンボール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デジタルピンボール ラストグラディエーターズ Ver.9.7,M751702,digipinj97
+ss-jp-0704,1997-09-11,信長の野望・天翔記 with パワーアップキット,光栄,,T-7643G,9800,税抜,,信長の野望・天翔記,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,信長の野望 天翔記 with パワーアップキット,M762407,nobutenspu
+ss-jp-0705,1997-09-11,森高千里 渡良瀬橋/ララ サンシャイン,セガ/オラシオン,,GS-9172,6800,税抜,森高千里のミュージックビデオ等を収録したデータベースソフト,森高千里,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,森高千里「渡良瀬橋/ララ サンシャイン」,M719452,chisatom
+ss-jp-0706,1997-09-18,ソビエトストライク,ヴァージンインタラクティブエンターテインメント,,,5800,税抜,,ソビエトストライク,Wikipedia+MADB,,MADB,ソビエトストライク,M750683,
+ss-jp-0707,1997-09-18,ストリートファイターコレクション,カプコン,,T-1223G,,,Disc 2枚組でDisc 2は『ストリートファイターZERO2'』 『ストリートファイターZERO2'』は1998年11月19日に廉価版（サタコレ）として単品でも発売,ストリートファイターII,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725146,sfz2da
+ss-jp-0708,1997-09-18,怒首領蜂,アトラス,,T-14419G,5800,税抜,同名アーケードゲームの移植版,怒首領蜂,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,怒首領蜂,M764741,ddonpach
+ss-jp-0709,1997-09-18,My Dream〜On Airが待てなくて〜,日本クリエイト,,T-21303G,6800,税抜,声優を題材とした育成シミュレーション,My Dream〜On Airが待てなくて〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,My Dream ～On Airが待てなくて～,M740883,mydream
+ss-jp-0710,1997-09-18,パチスロ完全攻略〜ユニコレ'97〜,日本シスコン,,T-36501G,6800,税抜,ユニバーサル製のパチンコ台を収録した実機シミュレータ,パチスロ完全攻略〜ユニコレ'97〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パチスロ完全攻略 ～ユニコレ'97～,M753876,pachiuni
+ss-jp-0711,1997-09-25,メックウォリア2,バンダイビジュアル/アクティビジョン,,T-23406G,5800,税抜,同名PCゲームの移植版 「セガ ホット インフォメーション」1997年号掲載時点では1997年8月29日発売予定だった。,バトルテック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メックウォリア2,M757686,mechwar2j
+ss-jp-0712,1997-09-25,維新の嵐,光栄,,T-7645G,6800,税抜,同名作品の移植版,維新の嵐,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,維新の嵐,M759666,ishinara
+ss-jp-0713,1997-09-25,ガンフロンティア アーケードギアーズ,エクシングエンタテイメント,,T-26109G,4800,税抜,アーケードゲーム『ガンフロンティア』の移植版,ガンフロンティア (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガンフロンティア アーケードギアーズ,M747000,gunfront
+ss-jp-0714,1997-09-25,機動戦士Ζガンダム後編 宇宙を駆ける,バンダイ,,T-13320G,6800,税抜,,機動戦士Ζガンダム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,機動戦士Zガンダム 後編 宇宙を駆ける,M760557,zgundkou
+ss-jp-0715,1997-09-25,出動!ミニスカポリス,Sada Soft,18+,T-30812G,4800,税抜,18歳以上推奨,出動!ミニスカポリス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,出動! ミニスカポリス,M762156,minipoli
+ss-jp-0716,1997-09-25,新世紀エヴァンゲリオンデジタル・カード・ライブラリ,セガ,,GS-9159,4800,税抜,『新世紀エヴァンゲリオン』のデータベースソフト兼デジタルトレーディングカードゲーム,新世紀エヴァンゲリオンデジタル・カード・ライブラリ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,新世紀エヴァンゲリオン デジタル・カード・ライブラリ,M719449,shinevdc
+ss-jp-0717,1997-09-25,スーパーロボット大戦F,バンプレスト,,T-20610G,6800,税抜,,スーパーロボット大戦F,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーロボット大戦F,M749728,srobotf
+ss-jp-0718,1997-09-25,ゼルドナーシルト,セガ/光栄,,GS-9155,6800,税抜,,ゼルドナーシルト,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Söldnerschild,M719450,soldners
+ss-jp-0719,1997-09-25,卒業S,NECインターチャネル,18+,T-20103G,6800,税抜,18歳以上推奨,卒業 〜Graduation〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,卒業S,M763856,sotsugys
+ss-jp-0720,1997-09-25,タイムボカンシリーズボカンと一発! ドロンボー,バンプレスト,,T-20607G,5800,税抜,,タイムボカン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,タイムボカンシリーズ ボカンと一発! ドロンボー完璧版,M750913,timeboka
+ss-jp-0721,1997-09-25,プラドルDISC Vol.6 吉田里深,Sada Soft,,,3000,税抜,,吉田里深,Wikipedia+MADB,,MADB,プラドルDISC Vol. 6 吉田里深,M755540,
+ss-jp-0722,1997-09-25,プロ野球グレイテストナイン'97メークミラクル,セガ,,GS-9171,5800,税抜,,プロ野球グレイテストナイン'97メークミラクル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,プロ野球グレイテストナイン'97 メークミラクル,M719448,gnine97m
+ss-jp-0723,1997-09-25,桃太郎道中記,ハドソン,,T-14309G,6800,税抜,桃太郎シリーズ唯一のセガサターン用ソフト,桃太郎道中記,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,桃太郎道中記,M719451,momotaro
+ss-jp-0724,1997-09-25,ルームメイト〜涼子 in Summer Vacation〜,データム・ポリスター,,,5800,税抜,『ルームメイト 〜井上涼子〜』の続編,ROOMMATE,Wikipedia+MADB,,MADB,ルームメイト ～涼子 in Summer Vacation～,M758622,
+ss-jp-0725,1997-10-02,ウィニングポスト2ファイナル'97,光栄,,T-7647G,,,,ウイニングポスト2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719447,wpost297
+ss-jp-0726,1997-10-02,御意見無用Anarchy in the NIPPON,KSS,,T-28902G,5800,税抜,『バーチャファイター』のゲーマー集団によって製作された対戦格闘ゲーム,御意見無用Anarchy in the NIPPON,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,御意見無用 Anarchy in the NIPPON,M761234,anarchy
+ss-jp-0727,1997-10-02,きゃんきゃんバニー・エクストラ,キッド,18+,T-19706G,6800,税抜,18歳以上推奨,きゃんきゃんバニーシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,きゃんきゃんバニー エクストラ,M747269,cancanex
+ss-jp-0728,1997-10-02,サムライスピリッツ 天草降臨,SNK,,T-3116G,5800,税抜,,サムライスピリッツ 天草降臨,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サムライスピリッツ 天草降臨,M748872,samsho4
+ss-jp-0729,1997-10-02,全国制服美少女グランプリファインドラブ,ダイキ,18+,T-34602G,4800,税抜,18歳以上推奨,全国制服美少女グランプリファインドラブ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,全国制服美少女グランプリ ファインドラブ,M763700,findlove
+ss-jp-0730,1997-10-02,毛利元就 誓いの三矢,光栄,,T-7646G,7800,税抜,毛利元就を題材とした歴史シミュレーションゲーム,毛利元就 誓いの三矢,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,毛利元就 誓いの三矢,M766356,mourimot
+ss-jp-0731,1997-10-09,あすか120%リミテッドBURNING Fest. LIMITED,アスク講談社,,T-16708G,5800,税抜,開発中止となった同名アーケードゲームを転用した作品。 「セガ ホット インフォメーション」1997年号掲載時点では1997年9月4日発売予定だった。,あすか120%,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,あすか120％リミテッド BURNING Fest. LIMITED,M744860,asuka120
+ss-jp-0732,1997-10-09,クロスロマンス恋と麻雀と花札と,日本物産,18+,T-7103G,6800,税抜,18歳以上推奨,クロスロマンス恋と麻雀と花札と,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クロスロマンス 恋と麻雀と花札と,M747872,xromance
+ss-jp-0733,1997-10-09,タクティクスフォーミュラ,セガ/アキ,,T-34101G,5800,,フォーミュラカーをモチーフとしたボードゲーム,タクティクスフォーミュラ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Tactics Formula,M719444,tacticsf
+ss-jp-0734,1997-10-09,デザエモン2,アテナ,,T-16804G,5800,税抜,,デザエモン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デザエモン2,M751683,dezaemn2
+ss-jp-0735,1997-10-09,デッド オア アライブ,テクモ,,T-3603G,5800,税抜,同名アーケードゲームの移植版,デッド オア アライブ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DEAD OR ALIVE,M719446,doa
+ss-jp-0736,1997-10-09,忍者じゃじゃ丸くん 鬼斬忍法帖・金,ジャレコ,,T-5709G,,,,忍者じゃじゃ丸くん 鬼斬忍法帖,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719445,ninjajaj
+ss-jp-0737,1997-10-16,ジーベクター,ソフトオフィス,,T-30603G,5800,税抜,,ジーベクター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジーベクター,M749028,gvector
+ss-jp-0738,1997-10-16,タクティカルファイター,メディアリング,,T-21402G,6800,税抜,美少女格闘家を題材とした育成シミュレーション 元々は「瞳 Evolution」という題名だった,タクティカルファイター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,タクティカルファイター,M750951,tacfight
+ss-jp-0739,1997-10-23,ロスト・ワールド/ジュラシック・パーク,セガ,,GS-9162,5800,税抜,,ロスト・ワールド/ジュラシック・パーク,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THE LOST WORLD JURASSIC PARK,M719442,lostwrldj
+ss-jp-0740,1997-10-23,スティープ・スロープ・スライダーズ,パック・イン・ソフト,,T-9112G,5800,税抜,,スティープ・スロープ・スライダーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スティープ・スロープ・スライダーズ,M750011,sssj
+ss-jp-0741,1997-10-23,銀河英雄伝説 PLUS,徳間書店,,T-22303G,5800,税抜,,銀河英雄伝説 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,銀河英雄伝説 PLUS,M719441,gingaedp
+ss-jp-0742,1997-10-23,全日本プロレス FEATURING VIRTUA,セガ,,GS-9158,5800,税抜,,全日本プロレス FEATURING VIRTUA,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,全日本プロレス FEATURING VIRTUA,M719443,znpwfv
+ss-jp-0743,1997-10-23,ぱすてるみゅーず,ソフトオフィス,,T-30602G,4800,税抜,,ぱすてるみゅーず,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぱすてるみゅーず,M753757,pastelms
+ss-jp-0744,1997-10-30,カルドセプト,大宮ソフト,,T-31401G,5800,税抜,,カルドセプト,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CULDCEPT,M719440,culdcept
+ss-jp-0745,1997-10-30,SEGA AGES コラムス アーケードコレクション,セガ,,GS-9161,4800,税抜,,コラムス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,コラムス アーケードコレクション SEGA AGES,M719438,columns
+ss-jp-0746,1997-10-30,DiscStation別冊 i miss you.,コンパイル,,,1980,税抜,雑誌の付属ソフトという位置づけであり、書店等雑誌を扱う店舗でのみ販売されていた 『SATURN FAN』1997年10月18日号掲載時点では1997年9月下旬発売予定だった,ディスクステーション,Wikipedia+MADB,,MADB,i miss you.,M739882,
+ss-jp-0747,1997-10-30,ミントン警部の捜査ファイル「道化師殺人事件」,リバーヒルソフト,,T-5307G,5800,税抜,,道化師殺人事件,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ミントン警部の捜査ファイル「道化師殺人事件」,M757307,mclown
+ss-jp-0748,1997-10-30,レイヤーセクション II,メディアクエスト,,T-26409G,5800,税抜,,レイストーム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,レイヤーセクション 2,M719439,layersc2
+ss-jp-0749,1997-10-30,RONDE 〜輪舞曲〜,アトラス,,T-14415G,6800,税抜,魔神転生シリーズの1作品,RONDE 〜輪舞曲〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,RONDE ～輪舞曲～,M741993,ronde
+ss-jp-0750,1997-11-06,蒼空の翼 -GOTHA WORLD-,マイクロネット,,T-2205G,6800,税抜,,蒼空の翼 -GOTHA WORLD-,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,蒼空の翼 -GOTHA WORLD-,M763801,gothawld
+ss-jp-0751,1997-11-06,ファルコムクラシックス,日本ビクター,,T-31502G,5800,税抜,PCゲーム『イース』『ドラゴンスレイヤー』『ザナドゥ』のオリジナル版よびアレンジ版を収録,ファルコム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファルコムクラシックス,M755104,falcom1
+ss-jp-0752,1997-11-06,麻雀学園祭,メイクソフトウェア,18+,T-25304G,6800,税抜,同名アーケードゲームの移植版 18歳以上推奨,麻雀学園祭,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀学園祭,M766102,mjgaku
+ss-jp-0753,1997-11-13,仮面ライダー 作戦ファイル1,東映ソフト,,T-14101G,6800,税抜,同名PC用データベースソフトの移植版,仮面ライダー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,仮面ライダー 作戦ファイル1,M760104,kamenrid
+ss-jp-0754,1997-11-13,サクラ大戦 蒸気ラジヲショウ,セガ,,GS-9160,,,『サクラ大戦』のファンディスク,サクラ大戦,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719436,radioshw
+ss-jp-0755,1997-11-13,ザ・スターボウリング,ユーメディア,,T-21804G,6800,税抜,横山智佐ら声優と対決するボウリングゲーム,ザ・スターボウリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・スターボウリング,M748586,starbwl
+ss-jp-0756,1997-11-13,チーム運営シミュレーションフォーミュラグランプリ,ココナッツジャパンエンターテイメント,,T-7309G,6800,税抜,,チーム運営シミュレーションフォーミュラグランプリ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,チーム運営シミュレーション フォーミュラグランプリ,M751177,fgpunei
+ss-jp-0757,1997-11-13,デビルサマナー ソウルハッカーズ,アトラス,,T-14420G,6800,税抜,『デビルサマナー』シリーズの2作目。,デビルサマナー ソウルハッカーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,デビルサマナー ソウルハッカーズ,M719437,dsumsoul
+ss-jp-0758,1997-11-20,マスデストラクション〜お父さんにもできるソフト〜,BMGジャパン,,T-18007G,5800,税抜,戦車を題材としたシミュレーションゲーム 元々は「マス・ディストラクション」という仮称だった また『Electronic Gaming Monthly』1997年6月号掲載時点では、1997年6月に北米での発売を予定していた。,マスデストラクション〜お父さんにもできるソフト〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マスデストラクション ～お父さんにもできるソフト～,M756850,massdestj
+ss-jp-0759,1997-11-20,プラドルDISC Vol.7 麻生かおり,Sada Soft,,T-30814G,3000,税抜,,麻生かおり (1978年生),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 7 麻生かおり,M755541,pidolv7
+ss-jp-0760,1997-11-20,落ちゲー・デザイナー作ってポン!,パック・イン・ソフト,,T-9108G,5800,税抜,落ちものパズルゲームを題材としたゲーム制作ソフト,落ちゲー・デザイナー作ってポン!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,落ちゲー・デザイナー 作ってポン!,M766612,odesign
+ss-jp-0761,1997-11-20,Jリーグ プロサッカークラブをつくろう!2,セガ,,GS-9168,5800,税抜,,サカつく,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Jリーグ プロサッカークラブをつくろう!2,M719433,jltsuk2
+ss-jp-0762,1997-11-20,ゼロディバイドザ・ファイナルコンフリクト,ズーム,,T-31601G,5800,税抜,PlayStaton用ソフト『ゼロ・ディバイド2』の続編,ゼロ・ディバイド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ZERO DIVIDE -THE FINAL CINFLICT-,M719434,zdivide
+ss-jp-0763,1997-11-20,ツタンカーメンの謎〜アンク〜,レイ,,T-35601G,,,考古学者・吉村作治が監修したアドベンチャーゲーム,ツタンカーメンの謎〜アンク〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719435,tutankam
+ss-jp-0764,1997-11-20,トランスポート タイクーン,イマジニア,,T-15028G,6800,税抜,,トランスポート タイクーン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トランスポートタイクーン,M752646,ttycoon
+ss-jp-0765,1997-11-20,ネクストキング 恋の千年王国,バンダイ,,T-13328G,6800,税抜,,ネクストキング 恋の千年王国,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ネクストキング 恋の千年王国,M753213,nextking
+ss-jp-0766,1997-11-20,魔法学園ルナ,角川書店,,T-27902G,6800,税抜,ゲームギア用ソフト『LUNAR さんぽする学園』のリメイク,LUNAR,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,魔法学園ルナ,M766040,mahougl
+ss-jp-0767,1997-11-27,ウォークラフトIIダークサーガ,ヴァージンインタラクティブエンターテインメント,,T-10623G,5800,税抜,,ウォークラフトIIダークサーガ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウォークラフト2  ダークサーガ,M733976,warcrft2j
+ss-jp-0768,1997-11-27,セガツーリングカーチャンピオンシップ,セガ,,GS-9164,5800,税抜,同名アーケードゲームの移植版,セガツーリングカーチャンピオンシップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,セガ ツーリングカーチャンピオンシップ,M719428,stccjb
+ss-jp-0769,1997-11-27,ヴァンダルハーツ〜失われた古代文明〜,コナミ,,T-9526G,4800,税抜,同名PlayStaton用ソフトの移植版,ヴァンダルハーツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ヴァンダルハーツ ～失われた古代文明～,M745534,vandalh
+ss-jp-0770,1997-11-27,X-MEN VS. STREET FIGHTER,カプコン,,T-1226G,7800,税抜,対戦型格闘ゲーム『ストリートファイター』シリーズとアメリカンコミック『X-MEN』のコラボレーション,X-MEN VS. STREET FIGHTER,Wikipedia+MADB+MAME,MAME,MADB,X-MEN VS. STREET FIGHTER 4M拡張RAM同梱版,M744145,xmvssfdou
+ss-jp-0771,1997-11-27,ガイアブリーダー,アスペクト,,T-34801G,5800,税抜,アスペクト初の自社作品。,ガイアブリーダー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガイアブリーダー,M746584,gaiabred
+ss-jp-0772,1997-11-27,グランドレッド,バンプレスト,,T-20603G,5800,税抜,漫画家・細野不二彦がキャラクターデザインを手掛けたシミュレーションゲーム,グランドレッド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,グランドレッド,M747654,grandrd
+ss-jp-0773,1997-11-27,貞本義行 イラストレーションズ,ガイナックス,,T-35102G,4800,税抜,,貞本義行,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,貞本義行 イラストレーションズ,M764498,yoshiyuk
+ss-jp-0774,1997-11-27,SEGA AGES メモリアルセレクションVOL.2,セガ,,GS-9163,4800,税抜,『モナコGP』ほかアーケードゲームの移植版6作品を収録,SEGA AGES,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,メモリアルセレクション VOL. 2 SEGA AGES,M719429,samem2
+ss-jp-0775,1997-11-27,七ツ風の島物語,エニックス,,T-35501G,6800,税抜,おとぎ話の世界にある七ツ風の島を描いたアドベンチャーゲームで、エニックスのセガサターン参入作でもある,七ツ風の島物語,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,七ツ風の島物語,M725079,nanatsuk
+ss-jp-0776,1997-11-27,プラドルDISC Vol.8 古川恵実子,Sada Soft,,,3000,税抜,,古川恵実子,Wikipedia+MADB,,MADB,プラドルDISC Vol. 8 古川恵実子,M755542,
+ss-jp-0777,1997-11-27,バブルシンフォニー,ビング,,T-19905G,3800,税抜,同名アーケードゲームの移植版,バブルシンフォニー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,バブルシンフォニー,M719431,bublsymp
+ss-jp-0778,1997-11-27,ブルーブレイカー 〜剣よりも微笑みを〜,ヒューマン,,T-4314G,6200,税抜,同名PC-FX用ソフトの移植版,ブルーブレイカー 〜剣よりも微笑みを〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブルーブレイカー ～剣よりも微笑みを～,M755719,bluebrkr
+ss-jp-0779,1997-11-27,メッセージ ナビ Vol.1,シムス,,T-4401G,2800,税抜,ディスクマガジン,メッセージ ナビ Vol.1,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メッセージ ナビ Vol. 1,M757687,mnavi
+ss-jp-0780,1997-11-27,リフレイン ラブ〜あなたに逢いたい,リバーヒルソフト,,T-5308G,6800,税抜,同名PlayStaton用ソフトの移植版,リフレイン ラブ〜あなたに逢いたい,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リフレイン ラブ ～あなたに逢いたい,M758554,refrainl
+ss-jp-0781,1997-12-04,ソニックR,セガ,,GS-9170,5800,税抜,ソニック・ザ・ヘッジホッグを題材としたレースゲーム,ソニックR,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ソニックR,M719426,sonicrja
+ss-jp-0782,1997-12-04,馬なり1ハロン劇場,マイクロビジョン,,T-35001G,5800,税抜,同名漫画のゲーム化,馬なり1ハロン劇場,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,馬なり1ハロン劇場,M719424,umanari1
+ss-jp-0783,1997-12-04,銀河お嬢様伝説ユナ3〜ライトニング・エンジェル〜,ハドソン,,T-14311G,5800,税抜,,銀河お嬢様伝説ユナ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,銀河お嬢様伝説ユナ3 LIGHTNING ANGEL,M719427,goyuna3
+ss-jp-0784,1997-12-04,コットン2,サクセス,,T-9904G,5800,税抜,,コットン2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,コットン2,M719425,cotton2
+ss-jp-0785,1997-12-04,この世の果てで恋を唄う少女YU-NO,エルフ,18+,T-28004G,,,同名PCゲームの移植版 18歳以上推奨,この世の果てで恋を唄う少女YU-NO,Wikipedia+MADB+MAME,MAME+No-Intro,,,M719018,yuno
+ss-jp-0786,1997-12-04,実況パワフルプロ野球S,コナミ,,,5800,税抜,,実況パワフルプロ野球,Wikipedia+MADB,,MADB,実況パワフルプロ野球S,M761972,
+ss-jp-0787,1997-12-04,デジグ マックナイト〜アートコレクション〜,増田屋コーポレーション,,T-30305G,5800,税抜,"rowspan=""2""|ジグソーパズル作品",デジグ マックナイト〜アートコレクション〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デジグ マックナイト ～アートコレクション～,M751687,dejigmck
+ss-jp-0788,1997-12-04,デジグ ラッセン〜アートコレクション〜,増田屋コーポレーション,,,5800,税抜,,デジグ ラッセン〜アートコレクション〜,Wikipedia+MADB,,MADB,デジグ ラッセン ～アートコレクション～,M751688,
+ss-jp-0789,1997-12-04,バーチャル競艇2,日本物産,,T-7104G,6800,税抜,,バーチャル競艇2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャル競艇2,M753390,vkyoute2
+ss-jp-0790,1997-12-04,プラドルDISC Vol.9 永松恵子,Sada Soft,,T-30816G,3000,税抜,,永松恵子,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 9 永松恵子,M755543,pidolv9
+ss-jp-0791,1997-12-04,Hop Step あいどる☆,メディアエンターテイメント,,T-20507G,6800,税抜,,Hop Step あいどる18歳以上推奨,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,HOP STEP あいどる☆,M739838,hopstep
+ss-jp-0792,1997-12-11,シャイニング・フォースIII シナリオ1 王都の巨神,セガ,,GS-9175,4800,税抜,『シャイニングフォースIII』三部作第一部,シャイニング・フォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,シャイニング・フォース 3 シナリオ1 王都の巨神,M719421,shinf3s1
+ss-jp-0793,1997-12-11,アルカナ・ストライクス,タカラ,,T-10311G,6800,税抜,レッドカンパニーによるデジタルトレーディングカードゲームで、樫本学ヴら漫画家がデザイナーとして参加している,アルカナ・ストライクス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アルカナ ストライクス,M745095,acstrike
+ss-jp-0794,1997-12-11,サターンボンバーマンファイト!!,ハドソン,,T-14321G,5800,税抜,,サターンボンバーマンファイト!!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サターンボンバーマン ファイト!!,M719423,bmanfght
+ss-jp-0795,1997-12-11,美少女花札紀行みちのく秘湯恋物語スペシャル,フォグ,18+,T-36701G,5800,税抜,PlayStaton用ソフト『美少女花札紀行 みちのく秘湯恋物語』の移植版 18歳以上推奨,美少女花札紀行 みちのく秘湯恋物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,美少女花札紀行 みちのく秘湯恋物語スペシャル,M765453,bishana
+ss-jp-0796,1997-12-11,プラドルDISC Vol.10 真崎麻衣,Sada Soft,,T-30817G,3000,税抜,『SATURN FAN』1997年9月12日号掲載時点では、1997年12月10日発売予定だった,真崎麻衣,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 10 真崎麻衣,M755534,pidolv10
+ss-jp-0797,1997-12-11,プリンセスクラウン,アトラス,,T-14418G,5800,税抜,,プリンセスクラウン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プリンセスクラウン,M755665,prcrown
+ss-jp-0798,1997-12-11,マリア 君たちが生まれた理由,アクセラ,,T-36302G,6800,税抜,多重人格を題材としたサイコスリラー・アドベンチャーゲーム,マリア 君たちが生まれた理由,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリア 君たちが生まれた理由,M756966,maria
+ss-jp-0799,1997-12-11,マリーのアトリエver.1.3〜ザールブルグの錬金術士〜,イマディオ,,T-15033G,5800,税抜,『マリーのアトリエ 〜ザールブルグの錬金術士〜』の移植版,マリーのアトリエ 〜ザールブルグの錬金術士〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリーのアトリエ Ver.1.3 ～ザールブルグの錬金術士～,M756974,marie13
+ss-jp-0800,1997-12-11,悠久の小箱OFFICIAL COLLECTION,メディアワークス,,T-27806G,2980,税抜,『悠久幻想曲』およびその次回作である『悠久幻想曲2』のファンディスク,悠久幻想曲,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悠久の小箱 OFFICIAL COLLECTION,M766461,yuukoffi
+ss-jp-0801,1997-12-15,銀河お嬢様伝説ユナMika Akitaka Illust Works2,ハドソン,,T-14323G,4800,税抜,,銀河お嬢様伝説ユナ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,銀河お嬢様伝説ユナ Mika Akitaka Illust Works 2,M760877,goillus2
+ss-jp-0802,1997-12-18,ウルトラマン図鑑2,講談社,,T-25502G,6800,税抜,テレビ番組『ウルトラマン』のデータベース,ウルトラマン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウルトラマン図鑑2,M745903,ultraz2
+ss-jp-0803,1997-12-18,R?MJ The Mystery Hospital,バンダイ,,T-13322G,6800,税抜,,R?MJ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,R?MJ The Mystery Hospital,M741773,rmj
+ss-jp-0804,1997-12-18,大江戸ルネッサンス,ビクターインタラクティブソフトウェア,,T-9104G,6800,税抜,田沼意次として江戸の町を発展させるシミュレーションゲーム,大江戸ルネッサンス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大江戸ルネッサンス,M763998,oedoren
+ss-jp-0805,1997-12-18,究極タイガーII PLUS,ナグザット,,T-18715G,5800,税抜,アーケードゲーム『究極タイガーII』の移植版,究極タイガーII,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,究極タイガー2  PLUS,M734549,ktiger2p
+ss-jp-0806,1997-12-18,グランディア,ゲームアーツ,,T-4507G,7800,税抜,,グランディア,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GRANDIA,M719419,grandia
+ss-jp-0807,1997-12-18,クローズ THE BATTLE ACTIONFOR SEGASATURN,アテナ,,T-16806G,5800,税抜,漫画『クローズ』のゲーム化,クローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クローズ THE BATTLE ACTION FOR SEGA SATURN,M747844,crows
+ss-jp-0808,1997-12-18,サウンドノベルツクール2,アスキー,,T-2108G,5800,税抜,同名PlayStaton用ソフトの移植版,サウンドノベルツクール2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サウンドノベルツクール2,M748744,snovelt2
+ss-jp-0809,1997-12-18,ZAP! SNOW BOARDING TRIX'98,ポニーキャニオン,,T-7504G,5800,税抜,,ZAP! SNOW BOARDING TRIX'98,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ZAP! SNOW BOARDING TRIX'98,M744188,zap98
+ss-jp-0810,1997-12-18,水滸伝・天導一〇八星,光栄,,T-7656G,7800,税抜,『水滸伝・天命の誓い』の続編,水滸伝・天導一〇八星,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,水滸伝 ～天導一〇八星～,M763105,suik108
+ss-jp-0811,1997-12-18,DJウォーズ,スパイク,,T-18807G,5800,税抜,,DJウォーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,DJウォーズ,M738553,djwars
+ss-jp-0812,1997-12-18,ティンクルスタースプライツ,ADK,,T-37301G,5800,税抜,同名アーケードゲームの移植版,ティンクルスタースプライツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ティンクルスタースプライツ,M751605,twinklss
+ss-jp-0813,1997-12-18,テクストート・ルド〜アルカナ戦記〜,パイ,,T-23102G,6800,税抜,タロットカードをモチーフとしたカードゲームで、アニメーション監督の寺田憲史が監修している,テクストート・ルド〜アルカナ戦記〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,テクストート・ルド ～アルカナ戦記～,M751658,texthoth
+ss-jp-0814,1997-12-18,忍ペンまん丸,エニックス,,T-35502G,6800,税抜,同名漫画およびテレビアニメのゲーム化,忍ペンまん丸,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,忍ペンまん丸,M765149,ninpen
+ss-jp-0815,1997-12-18,ジュンクラシックC.C&ロペ倶楽部,T&Eソフト,,T-11403G,6800,税抜,,遙かなるオーガスタ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジュンクラシック C.C＆ロペ倶楽部,M749357,ropeclub
+ss-jp-0816,1997-12-18,プラドルDISC Vol.11 廣瀬真弓,Sada Soft,,T-30818G,3000,税抜,,廣瀬真弓,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プラドルDISC Vol. 11 廣瀬真弓,M755535,pidolv11
+ss-jp-0817,1997-12-18,ユニバーサルナッツ,レイ・アップ,18+,T-36202G,5800,税抜,18歳以上推奨,ユニバーサルナッツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ユニバーサルナッツ,M758098,uninuts
+ss-jp-0818,1997-12-23,ウィザーズハーモニー2,アークシステムワークス,,T-22004G,5500,税抜,同名PlayStaton用ソフトの移植版,ウィザーズハーモニー2,Wikipedia,MAME+MADB+No-Intro,MADB,ウィザーズハーモニー2,M719415,wizharm2
+ss-jp-0819,1997-12-23,TILK 〜青い海から来た少女〜,TGL,,T-32508G,6800,税抜,「ティルク島」を舞台としたシミュレーションゲーム,TILK 〜青い海から来た少女〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,TILK ～青い海から来た少女～,M743367,tilk
+ss-jp-0820,1997-12-23,デビルサマナー ソウルハッカーズ 悪魔全書 第二集,アトラス,,T-14421G,,,,デビルサマナー ソウルハッカーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719418,dsumshaz
+ss-jp-0821,1997-12-23,反射でスパーク!,ジーク,,T-20902G,5800,税抜,,反射でスパーク!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,反射でスパーク!,M719416,hansha
+ss-jp-0822,1997-12-23,プリズナー オブ アイス邪神降臨,エクシングエンタテイメント,,T-26112G,5800,税抜,,プリズナー・オブ・アイス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プリズナー オブ アイス ～邪神降臨～,M755606,prisoner
+ss-jp-0823,1997-12-23,リアルバウト餓狼伝説スペシャル,SNK,,T-3117G,5800,税抜,同名ネオジオ用ソフトの移植版,リアルバウト餓狼伝説スペシャル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リアルバウト餓狼伝説スペシャル,M758416,rbffs
+ss-jp-0824,1998-01-15,金田一少年の事件簿〜星見島 悲しみの復讐鬼〜,ハドソン,,T-14315G,5800,税抜,漫画『金田一少年の事件簿』のゲーム化で、ゲームオリジナルの主人公が登場する,金田一少年の事件簿,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,金田一少年の事件簿 ～星見島 悲しみの復讐鬼～,M760869,kindajik
+ss-jp-0825,1998-01-15,SANKYO FEVER実機シミュレーションSVol.2,TEN研究所,,T-32103G,5800,税抜,,SANKYO FEVER,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,SANKYO FEVER 実機シミュレーションS Vol. 2,M742084,sjsims2
+ss-jp-0826,1998-01-15,じゃんぐリズム,アルトロン,,T-16607G,5800,税抜,,じゃんぐリズム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,じゃんぐリズム,M749297,jungrhyt
+ss-jp-0827,1998-01-15,ジャングルパーク,BMGジャパン,,T-18008G,4800,税抜,同名PCゲームの移植版,ジャングルパーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジャングルパーク ～サターン島～,M749303,junglprk
+ss-jp-0828,1998-01-15,ザ・スターボウリング Vol.2,ユーメディア,,T-21805G,6800,税抜,,ザ・スターボウリング Vol.2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・スターボウリング Vol. 2,M748587,starbwl2
+ss-jp-0829,1998-01-15,卒業アルバム,小学館プロダクション,,T-10504G,3800,税抜,,卒業 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,卒業アルバム,M763857,sotsualb
+ss-jp-0830,1998-01-15,放課後恋愛クラブ -恋のエチュード-,キッド,18+,T-19713G,,,成人向けPCゲーム『放課後恋愛クラブ』の移植版 18歳以上推奨,放課後恋愛クラブ -恋のエチュード-,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719039,houkago
+ss-jp-0831,1998-01-15,マリオ武者野の超将棋塾,キングレコード,,,7800,税抜,将棋棋士・マリオ武者野こと武者野勝巳が監修する将棋ゲーム,武者野勝巳,Wikipedia+MADB,,MADB,マリオ武者野の超将棋塾,M757078,
+ss-jp-0832,1998-01-22,センチメンタルグラフティ,NECインターチャネル,,T-20106G,7500,税抜,,センチメンタルグラフティ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Sentimental graffiti,M719414,sentgraf
+ss-jp-0833,1998-01-22,ソロ・クライシス,クインテット,,T-23501G,5800,税抜,表と裏のある世界を舞台としたシミュレーションゲームで、クインテットのセガサターン参入作でもある,ソロ・クライシス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ソロ・クライシス,M719413,solocris
+ss-jp-0834,1998-01-22,ウィザードリィネメシス,ショウエイシステム,,T-37001G,6800,税抜,同名PCゲームの移植版,ウィザードリィ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウィザードリィネメシス,M745586,wizneme
+ss-jp-0835,1998-01-22,サウンドノベル 街,チュンソフト,,T-34001G,5800,税抜,サウンドノベル第3弾で、チュンソフトのセガサターン参入作でもある,街 〜運命の交差点〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,街,M719412,machi
+ss-jp-0836,1998-01-29,AZEL -パンツァードラグーン RPG-,セガ,,GS-9076,6800,税抜,,AZEL -パンツァードラグーン RPG-,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,AZEL PANZER DRAGOON RPG,M719411,azelpanzjb
+ss-jp-0837,1998-01-29,UNO DX,メディアクエスト,,T-26414G,4800,税抜,,UNO (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,UNO DX,M719410,unodx
+ss-jp-0838,1998-01-29,ガンブレイズS,キッド,18+,T-19710G,6800,税抜,PCゲーム『ガンブレイズ』の移植版 18歳以上推奨,ガンブレイズS,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガンブレイズS,M746999,gunblaze
+ss-jp-0839,1998-01-29,坂本竜馬・維新開国,キッド,,T-19709G,4800,税抜,,坂本竜馬・維新開国,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,坂本龍馬 維新開国,M761570,sakamoto
+ss-jp-0840,1998-01-29,セガサターンで発見!!たまごっちパーク,バンダイ,,T-13325G,6800,税抜,,セガサターンで発見!!たまごっちパーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,セガサターンで発見!! たまごっちパーク,M750389,tamagotc
+ss-jp-0841,1998-01-29,仙窟活龍大戦カオスシード,ネバーランドカンパニー,,T-30902G,6800,税抜,同名スーパーファミコン用ソフトの移植版,仙窟活龍大戦カオスシード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,仙窟活龍大戦カオスシード,M763374,chaossd
+ss-jp-0842,1998-01-29,速攻生徒会,バンプレスト,,T-20611G,6800,税抜,雑誌「コミックゲーメスト」で連載されていた同名漫画のゲーム化で、「ゲーメスト」のスタッフが監修している,速攻生徒会,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,速攻生徒会,M763829,scouncil
+ss-jp-0843,1998-01-29,大航海時代外伝,光栄,,T-7657G,6800,税抜,,大航海時代外伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大航海時代外伝,M764020,daikogdn
+ss-jp-0844,1998-01-29,フォトジェニック,サンソフト,,T-1525G,6800,税抜,,フォトジェニック (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フォトジェニック,M755295,photogen
+ss-jp-0845,1998-01-29,本格将棋指南 若松将棋塾,シムス,,T-4402G,6800,税抜,,本格将棋指南 若松将棋塾,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,本格将棋指南 若松将棋塾,M765893,honkshog
+ss-jp-0846,1998-01-29,ファーランドサーガ,TGL,,T-32507G,6800,税抜,,ファーランドサーガ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファーランドサーガ,M754832,farsaga
+ss-jp-0847,1998-01-29,魔法少女プリティサミーハートのきもち,NECインターチャネル,,T-20112G,6800,税抜,セガサターンにおける『魔法少女プリティサミー』シリーズ第2弾,魔法少女プリティサミー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,魔法少女プリティーサミー ハートのきもち,M766050,psamhear
+ss-jp-0848,1998-01-29,NOON,マイクロキャビン,,T-5206G,,,せりあがってくる宝石「NOON」を並べて消すアクションパズルゲーム。,NOON,Wikipedia+MAME,MAME+No-Intro,,,,noon
+ss-jp-0849,1998-02-05,ウィンターヒート,セガ,,GS-9177,5800,税抜,同名アーケードゲームの移植版で、『デカスリート』の続編でもある,ウィンターヒート,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ウインターヒート 冬季競技11種,M719409,winterhtjb
+ss-jp-0850,1998-02-05,くのいち捕物帖,CRI,,T-6803G,5800,税抜,同名PCゲームの移植版,くのいち捕物帖,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,くのいち捕物帖,M747491,kunoichi
+ss-jp-0851,1998-02-11,SDガンダムGCENTURY S,バンダイ,,T-13324G,6800,税抜,PlayStaton用ソフト『SDガンダム G CENTURY』の移植版,SDガンダム G CENTURY,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,SDガンダム GセンチュリーS,M742120,sdgundam
+ss-jp-0852,1998-02-11,テナントウォーズ,キッド,,T-19707G,5800,税抜,,テナントウォーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,テナントウォーズ,M751847,tenantw
+ss-jp-0853,1998-02-19,すごべんちゃー 〜ドラゴンマスターシルク外伝〜,データム・ポリスター,,T-19505G,5800,税抜,『ドラゴンマスターシルク』の続編,すごべんちゃー 〜ドラゴンマスターシルク外伝〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,すごべんちゃー ～ドラゴンマスターシルク外伝～,M749890,drgmstsi
+ss-jp-0854,1998-02-19,バーチャコップ スペシャルパック,セガ,,GS-9060,5800,税抜,,バーチャコップ,Wikipedia+MADB,MADB+No-Intro,MADB,VIRTUA COP SPECIAL PACK スペシャルパック,M719406,
+ss-jp-0855,1998-02-19,プロ野球チームもつくろう!,セガ,,GS-9165,5800,税抜,,プロ野球チームもつくろう!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,プロ野球チームもつくろう!,M719405,proyakts
+ss-jp-0856,1998-02-26,バーニングレンジャー,セガ,,GS-9174,5800,税抜,未来世界の特殊消防レスキュー隊「バーニングレンジャー」の活躍を描いた作品,バーニングレンジャー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BURNING RANGERS,M719404,burningrja
+ss-jp-0857,1998-02-26,Jリーグ実況炎のストライカー,コナミ,,T-9528G,5800,税抜,コナミにとっては初めてのセガサターン向けのサッカーゲームであり、『SATURN FAN』1998年1月16日号掲載時点では1998年1月29日発売予定だった,Jリーグ実況炎のストライカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Jリーグ 実況炎のストライカー,M740057,jlstrik
+ss-jp-0858,1998-02-26,白き魔女 -もうひとつの英雄伝説-,ハドソン,,T-14322G,6800,税抜,PCゲーム『英雄伝説III 白き魔女』の移植版,英雄伝説III 白き魔女,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,白き魔女 ～もうひとつの英雄伝説～,M765268,shirokim
+ss-jp-0859,1998-02-26,スーチーパイアドベンチャードキドキナイトメア,ジャレコ,18+,T-5713G,,,『スーチーパイ』シリーズ初のアドベンチャーゲーム。 18歳以上推奨,アイドル雀士スーチーパイ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719015,suchiadv
+ss-jp-0860,1998-02-26,ステラアサルトSS,シムス,,T-4403G,5800,税抜,スーパー32X用ソフト『ステラアサルト』の移植版,ステラアサルトSS,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ステラアサルトSS,M750029,stellar
+ss-jp-0861,1998-02-26,EVE burst error&DESIRE バリューパック,イマディオ,18+,,9800,税抜,18歳以上推奨,EVE burst error,Wikipedia+MADB,,MADB,EVE burst error ＆ DESIRE バリューパック,M738845,
+ss-jp-0862,1998-02-26,慟哭 そして…,データイースト,18+,T-1315G,,,18歳以上推奨,慟哭 そして…,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719016,doukokus
+ss-jp-0863,1998-02-26,パチンコホール〜新装大開店〜,ネクストン,,T-37501G,6800,税抜,,パチンコホール〜新装大開店〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パチンコホール ～新装大開店～,M753960,pachihal
+ss-jp-0864,1998-02-26,バトルガレッガ,エレクトロニック・アーツ,,T-10627G,5800,税抜,,バトルガレッガ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バトルガレッガ,M754110,bgaregga
+ss-jp-0865,1998-02-26,SEGA AGES パワードリフト,セガ,,GS-9181,3800,税抜,アーケードゲーム『パワードリフト』の移植版,パワードリフト,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,パワードリフト SEGA AGES,M719403,pdrift
+ss-jp-0866,1998-02-26,メッセージ ナビ Vol.2,シムス,,T-4404G,2800,税抜,,メッセージ ナビ Vol.2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メッセージ ナビ Vol. 2,M757688,mnavi2
+ss-jp-0867,1998-02-26,悠久幻想曲 2nd Album,メディアワークス,,T-27807G,5800,税抜,,悠久幻想曲,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悠久幻想曲 2nd Album,M766463,yuuk2alb
+ss-jp-0868,1998-02-26,ラングリッサードラマティックエディション,メサイヤ,,T-2507G,6300,税抜,,ラングリッサー,Wikipedia+MADB+MAME,MAME,MADB,ラングリッサー ドラマティックエディション,M758377,langdram
+ss-jp-0869,1998-03-05,セガ ワールドワイドサッカー'98,セガ,,GS-9187,5800,税抜,,セガ ワールドワイドサッカー'98,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,セガ ワールドワイドサッカー'98,M719402,wwsoc98ja
+ss-jp-0870,1998-03-05,電波少年的ゲーム,ハドソン,,T-14316G,4800,税抜,テレビ番組『進ぬ!電波少年』の番組企画「無敵のセールスマン」で取り上げたカラオケボックス専用ゲームの製品化。 番組内で販売されたものとコンビニで専売されたものがある,電波少年,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,電波少年的ゲーム,M764726,denpasho
+ss-jp-0871,1998-03-05,ナイル河の夜明け,パック・イン・ソフト,,T-9106G,6800,税抜,古代エジプトのファラオを主題としたシミュレーションゲーム,ナイル河の夜明け,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイル河の夜明け,M752820,nilegawa
+ss-jp-0872,1998-03-05,バーチャル麻雀,マイクロネット,18+,T-2206G,8800,税抜,同名アーケードゲームの移植版 18歳以上推奨,バーチャル麻雀,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャル麻雀,M753395,vmahjong
+ss-jp-0873,1998-03-05,ワイプアウトXL,ゲームバンク,,T-18619G,5800,税抜,『ワイプアウト』の続編,ワイプアウト (レースゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワイプアウトXL,M759378,wipexl
+ss-jp-0874,1998-03-05,ワンダー3 アーケードギアーズ,エクシングエンタテイメント,,T-26107G,5800,税抜,,ワンダー3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワンダー3/アーケードギアーズ,M759472,wonder3
+ss-jp-0875,1998-03-12,EVE The Lost One,イマディオ,,T-15035G,7800,税抜,,EVE The Lost One,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,EVE The Lost One,M738856,evelost
+ss-jp-0876,1998-03-12,ザ・コンビニ2〜全国チェーン展開だ!〜,ヒューマン,,T-4317G,5800,税抜,,ザ・コンビニ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・コンビニ2 ～全国チェーン展開だ! ～,M748561,conveni2
+ss-jp-0877,1998-03-12,タイムコマンドー,アクレイムジャパン,,T-8129G,5800,税抜,,タイムコマンドー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,タイムコマンドー,M750905,timecomm
+ss-jp-0878,1998-03-12,Piaキャロットへようこそ!!,キッド,18+,T-19719G,,,同名PCゲームの移植版 18歳以上推奨,Piaキャロットへようこそ!!,Wikipedia+MADB+MAME,MAME+No-Intro,,,M719014,picarrot
+ss-jp-0879,1998-03-19,プリンセスクエスト,インクリメントP,,T-24603G,5800,税抜,,プリンセスクエスト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プリンセスクエスト,M755662,prquest
+ss-jp-0880,1998-03-26,プライマルレイジ,ゲームバンク,,T-18614G,5800,税抜,同名アーケードゲームの移植版,プライマルレイジ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プライマルレイジ,M755462,primalj
+ss-jp-0881,1998-03-26,ヘクセン,ゲームバンク,,T-18612G,5800,税抜,,ヘクセン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ヘクセン,M756000,hexenj
+ss-jp-0882,1998-03-26,クロック!パウパウアイランド,メディアクエスト,,T-26410G,5800,税抜,,クロック!パウパウアイランド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,クロック! パウパウアイランド,M719397,crocj
+ss-jp-0883,1998-03-26,クーリエ・クライシス,BMGジャパン,,T-18010G,5800,税抜,,クーリエ・クライシス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クーリエ・クライシス,M747416,ccrisisj
+ss-jp-0884,1998-03-26,ザ・ハウス・オブ・ザ・デッド,セガ,,GS-9173,2800,,同名アーケードゲームの移植版,ザ・ハウス・オブ・ザ・デッド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,THE HOUSE OF THE DEAD サタコレ,M724918,hotdja
+ss-jp-0885,1998-03-26,プロ野球 グレイテストナイン'98,セガ,,GS-9185,5800,税抜,,グレイテストナイン,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,プロ野球グレイテストナイン'98,M719399,gnine98
+ss-jp-0886,1998-03-26,THE KING OF FIGHTERS '97,SNK,,T-3120G,,,,ザ・キング・オブ・ファイターズ,Wikipedia+MAME,MAME+No-Intro,,,,kof97
+ss-jp-0887,1998-03-26,新世紀エヴァンゲリオン 鋼鉄のガールフレンド,セガ,,GS-9194,6800,税抜,同名PCゲームの移植版,新世紀エヴァンゲリオン 鋼鉄のガールフレンド,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,新世紀エヴァンゲリオン 鋼鉄のガールフレンド,M719398,shinevgf
+ss-jp-0888,1998-03-26,ダンジョン・マスターネクサス,ビクターインタラクティブソフトウェア,,T-9111G,6800,税抜,,ダンジョン・マスターネクサス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダンジョン・マスター ネクサス,M751111,dmastnx
+ss-jp-0889,1998-03-26,チョロQパーク,タカラ,,T-10314G,5800,税抜,,チョロQ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,チョロQパーク,M751325,choroqpk
+ss-jp-0890,1998-03-26,提督の決断III withパワーアップキット,光栄,,,9800,税抜,,提督の決断III,Wikipedia+MADB,,MADB,提督の決断3  with パワーアップキット,M734794,
+ss-jp-0891,1998-03-26,テクノモーター,電子メディアサービス,,T-37601G,4800,税抜,,テクノモーター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,テクノモーター,M751663,technomo
+ss-jp-0892,1998-03-26,ときめきメモリアルドラマシリーズ Vol.2彩のラブソング,コナミ,,T-9529G,5800,税抜,,ときめきメモリアルドラマシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ときめきメモリアル ドラマシリーズVol. 2 彩のラブソング,M724917,tokimdv2
+ss-jp-0893,1998-03-26,吉村将棋,コナミ,,T-9531G,5800,税抜,,吉村将棋,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,吉村将棋,M760664,yoshshog
+ss-jp-0894,1998-04-02,ウイニングポスト3,光栄,,T-7660G,6800,税抜,,ウイニングポスト3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイニングポスト3,M745651,winpost3
+ss-jp-0895,1998-04-02,組み立てバトルくっつけっと,テクノソフト,,T-1813G,5800,税抜,,組み立てバトルくっつけっと,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,組み立てバトル くっつけっと,M763714,kuttuket
+ss-jp-0896,1998-04-02,S.Q.〜サウンドキューブ〜,ヒューマン,,T-4318G,4800,税抜,音で同じ形のキューブを探し出すパズルゲーム,S.Q.〜サウンドキューブ〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,S.Q ～サウンドキューブ～,M742054,soundqub
+ss-jp-0897,1998-04-02,ドラゴンフォースII 神去りし大地に,セガ,,GS-9184,5800,税抜,,ドラゴンフォース (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ドラゴンフォース 2 神去りし大地に,M719395,dragfrc2
+ss-jp-0898,1998-04-02,信長の野望・将星録,光栄,,T-7664G,9800,税抜,,信長の野望・将星録,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,信長の野望 将星録,M762393,nobushou
+ss-jp-0899,1998-04-02,SEGA AGES ファンタシースターコレクション,セガ,,GS-9186,4800,税抜,,ファンタシースター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ファンタシースターコレクション SEGA AGES,M719396,pstarcol
+ss-jp-0900,1998-04-02,わくわくぷよぷよダンジョン,コンパイル,,T-6606G,5800,税抜,,ぷよぷよ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,わくわくぷよぷよダンジョン,M759437,wakupuyo
+ss-jp-0901,1998-04-02,湾岸トライアルラブ,パック・イン・ソフト,18+,T-9110G,6800,税抜,レースゲームと恋愛シミュレーションを合わせた作品で、『SATURN FAN』1998年1月16日号掲載時点では1998年2月26日発売予定だった 18歳以上推奨,湾岸トライアルラブ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,湾岸トライアルLove♥,M766885,wangantr
+ss-jp-0902,1998-04-04,サクラ大戦2 〜君、死にたもうことなかれ〜,セガ,,GS-9198,6800,税抜,,サクラ大戦2 〜君、死にたもうことなかれ〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サクラ大戦2 ～君、死にたもうことなかれ～,M719394,sakurat2
+ss-jp-0903,1998-04-09,RIVEN THE SEQUEL TO MYST,エニックス,,T-35503G,7900,税抜,『MYST』の続編,RIVEN THE SEQUEL TO MYST,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,RIVEN THE SEQUEL TO MYST,M741956,rivenj
+ss-jp-0904,1998-04-09,あやかし忍伝くの一番プラス,翔泳社,,T-21512G,6800,税抜,PCゲームからの移植版,あやかし忍伝 くの一番,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,あやかし忍伝 くの一番 プラス,M719391,ankpls
+ss-jp-0905,1998-04-09,機動戦士ガンダム ギレンの野望,バンダイ,,T-13330G,6800,税抜,テレビアニメ『機動戦士ガンダム』を題材とした戦略シミュレーションゲーム,機動戦士ガンダム ギレンの野望,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,機動戦士ガンダム ギレンの野望,M719392,gundgihrb
+ss-jp-0906,1998-04-09,卒業III 〜Wedding Bell〜,小学館プロダクション,,T-10506G,6800,税抜,卒業シリーズ第3弾,卒業III 〜Wedding Bell〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,卒業3  Wedding Bell,M734729,sotsugy3
+ss-jp-0907,1998-04-09,テニス・アリーナ,UBIソフト,,T-17703G,5800,税抜,,テニス・アリーナ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,テニス・アリーナ,M751852,tenarena
+ss-jp-0908,1998-04-09,信長の野望・戦国群雄伝,光栄,,T-7658G,5800,税抜,同名PCゲームの移植版,信長の野望・戦国群雄伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,信長の野望 戦国群雄伝,M762398,nobusg
+ss-jp-0909,1998-04-16,ヴァンパイアセイヴァー,カプコン,,T-1228G,,,,ヴァンパイア (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719390,vsav
+ss-jp-0910,1998-04-16,英雄志願,マイクロキャビン,,T-5204G,6800,税抜,同名PCゲームの移植版,英雄志願,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,英雄志願 Gal Act Heroism,M759833,gahero
+ss-jp-0911,1998-04-16,SAVAKI,マイクロキャビン,,T-5208G,5800,税抜,「捌き」に主眼を置いた格闘アクションゲームで、『SATURN FAN』1997年9月12日号掲載時点では、1997年12月4日発売予定だった,SAVAKI,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,SAVAKI（サバキ）,M742088,savaki
+ss-jp-0912,1998-04-16,ボンバーマンウォーズ,ハドソン,,T-14320G,5800,税抜,,ボンバーマンウォーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ボンバーマンウォーズ,M756548,bombwars
+ss-jp-0913,1998-04-23,ガングリフォン II,ゲームアーツ,,T-4510G,,,,ガングリフォン,Wikipedia+MADB+MAME,MAME+No-Intro,,,M724884,gungrif2
+ss-jp-0914,1998-04-23,ゲームで青春,キッド,,T-19711G,5800,税抜,,ゲームで青春,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲームで青春,M747970,gameseis
+ss-jp-0915,1998-04-23,スーパーロボット大戦F〜完結編〜,バンプレスト,,T-20612G,6800,税抜,,スーパーロボット大戦F,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スーパーロボット大戦F 完結編,M724885,srobotfk
+ss-jp-0916,1998-04-23,ツアーパーティー卒業旅行にいこう,タカラ,,T-10312G,5800,税抜,,ツアーパーティー卒業旅行にいこう,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ツアーパーティー 卒業旅行にいこう,M751331,tourpart
+ss-jp-0917,1998-04-23,ひみつ戦隊メタモルV,毎日コミュニケーションズ,,T-29005G,5800,税抜,,ひみつ戦隊メタモルV,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ひみつ戦隊メタモル5,M734327,metamor5
+ss-jp-0918,1998-04-29,シャイニング・フォースIII シナリオ2 狙われた神子,セガ,,GS-9188,4800,税抜,,シャイニング・フォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,シャイニング・フォース 3 シナリオ2 狙われた神子,M719387,shinf3s2
+ss-jp-0919,1998-04-29,SUPER TEMPO,メディアクエスト,,T-26413G,5800,税抜,スーパー32X用ソフト『 』の続編,SUPER TEMPO,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スーパーテンポ,M719388,suptempo
+ss-jp-0920,1998-04-29,ルームメイト3〜涼子 風の輝く朝に〜,データム・ポリスター,,T-19507G,5800,税抜,,ROOMMATE,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ルームメイト3 ～涼子 風の輝く朝に～,M758627,rmate3
+ss-jp-0921,1998-05-07,EVE The Lost One&DESIREバリューパック,イマディオ,18+,,9800,税抜,18歳以上推奨,EVE The Lost One,Wikipedia+MADB,,MADB,イブ・ザ・ロストワン＆DESIRE バリューパック,M745443,
+ss-jp-0922,1998-05-21,シャドウズ・オブ・ザ・タスク,ハドソン,,T-14319G,6800,税抜,カードゲームの要素を備えたシミュレーションゲームで、X-BANDにも対応していた,シャドウズ・オブ・ザ・タスク,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,シャドウズ・オブ・ザ・タスク,M719386,shadtusk
+ss-jp-0923,1998-05-21,スーパーリアル麻雀P7,セタ,18+,T-16509G,7800,税抜,18歳以上推奨,スーパーリアル麻雀,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーリアル麻雀P7,M749706,srmp7
+ss-jp-0924,1998-05-21,アイドル麻雀ファイナルロマンス4,ビデオシステム,18+,T-3003G,6800,税抜,同名アーケードゲームの移植版 18歳以上推奨,対戦麻雀ファイナルロマンス4,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,アイドル麻雀ファイナルロマンス4,M719013,fromanc4
+ss-jp-0925,1998-05-21,バロック,スティング,,T-33901G,6800,税抜,,バロック (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バロック,M754432,baroque
+ss-jp-0926,1998-05-21,メルティランサーRe-inforce,イマディオ,,,7800,税抜,,メルティランサー,Wikipedia+MADB,,MADB,メルティランサー Re-inforce,M757787,
+ss-jp-0927,1998-05-28,王様げーむ,ソシエッタ代官山,18+,T-21904G,6800,税抜,18歳以上推奨 吉田里深らグラビアアイドルと王様ゲームをする内容,王様げーむ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,王様げーむ,M759956,ousamaga
+ss-jp-0928,1998-05-28,グランディアデジタルミュージアム,ゲームアーツ,,T-4512G,3500,税抜,『グランディア』のファンディスク,グランディア,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,グランディア デジタルミュージアム,M747622,granddm
+ss-jp-0929,1998-05-28,GT24,ジャレコ,,T-5714G,5800,税抜,アーケードゲーム『Super GT 24h』の移植版,GT24,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,GT24,M739635,gt24
+ss-jp-0930,1998-05-28,少女革命ウテナ いつか革命される物語,セガ,,GS-9182,6800,税抜,テレビアニメ『少女革命ウテナ』のゲーム化で、原作の8話と9話の間の物語を描いている,少女革命ウテナ いつか革命される物語,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,少女革命ウテナ いつか革命される物語,M719385,utena
+ss-jp-0931,1998-05-28,無人島物語Rふたりのラブラブ愛ランド,KSS,18+,T-28901G,5800,税抜,18歳以上推奨,無人島物語シリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,無人島物語R ふたりのラブラブ愛ランド,M766245,mujintou
+ss-jp-0932,1998-06-04,ファインドラブ2ザ・プロローグ,ダイキ,18+,T-34604G,3300,税抜,『ファインドラブ2』のパイロットディスク 18歳以上推奨,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイドラブ2 ザ・プロローグ,M754914,flove2pr
+ss-jp-0933,1998-06-11,AI将棋2,アスキーサムシンググッド,,T-17602G,6800,税抜,,AI将棋2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,AI将棋2,M737206,aishogi2
+ss-jp-0934,1998-06-11,エーベルージュスペシャル〜恋と魔法の学園生活〜,タカラ,,T-10315G,5800,税抜,メディアミックス「ワーランド・プロジェクト」の一つであり、当初は1998年7月に発売が予定されていた,エーベルージュスペシャル〜恋と魔法の学園生活〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エーベルージュ スペシャル ～恋と魔法の学園生活～,M746012,eberousp
+ss-jp-0935,1998-06-11,ワールドカップ'98 フランス,セガ,,GS-9196,5800,税抜,ビクトリーゴールシリーズの流れをくむ作品で、1998 FIFAワールドカップを題材としている,ワールドカップ'98 フランス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ワールドカップ'98フランス～Road to Win～,M719384,wc98
+ss-jp-0936,1998-06-18,ウルトラマン図鑑3,講談社,,T-25505G,6800,税抜,テレビ番組『ウルトラマン』のデータベース,ウルトラマン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ウルトラマン図鑑 3,M719383,ultraz3
+ss-jp-0937,1998-06-18,ケリオトッセ!,増田屋コーポレーション,,T-30306G,4800,税抜,相手をステージからけり落とす対戦アクションゲーム,ケリオトッセ!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ケリオトッセ!,M748046,keriotos
+ss-jp-0938,1998-06-18,プリンセスメーカーゆめみる妖精,ガイナックス,,T-35101G,5800,税抜,,プリンセスメーカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プリンセスメーカー ゆめみる妖精,M755677,prinmak
+ss-jp-0939,1998-06-18,村越正海の爆釣日本列島,ビクターインタラクティブソフトウェア,,T-9115G,5800,税抜,,村越正海の爆釣日本列島,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,村越正海の爆釣日本列島,M763862,murakosh
+ss-jp-0940,1998-06-18,ラングリッサーVTHE END OF LEGEND,メサイヤ,,T-2509G,6300,税抜,,ラングリッサー,Wikipedia+MADB+MAME,MAME,MADB,ラングリッサー5 THE END OF LEGEND,M734506,langris5
+ss-jp-0941,1998-06-18,リンダキューブ 完全版,アスキー,,T-2112G,6800,税抜,PCエンジン用ソフト『リンダキューブ』の移植版,リンダキューブ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リンダキューブ 完全版,M758590,linda3
+ss-jp-0942,1998-06-25,悪魔城ドラキュラX 月下の夜想曲,コナミ,,T-9527G,3800,税抜,同名PlayStaton用ソフトの移植版,悪魔城ドラキュラX 月下の夜想曲,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悪魔城ドラキュラX ～月下の夜想曲～,M759625,draculax
+ss-jp-0943,1998-06-25,頭文字D 公道最速伝説,講談社,,,5800,税抜,漫画『頭文字D』を原作とするレースゲーム,頭文字D,Wikipedia+MADB,,MADB,頭文字D 公道最速伝説,M764931,
+ss-jp-0944,1998-06-25,クロス探偵物語,ワークジャム,,T-36401G,6800,税抜,,クロス探偵物語,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,クロス探偵物語 ～もつれた7つのラビリンス～,M719382,crtantei
+ss-jp-0945,1998-06-25,GAME BASIC for SEGASATURN,アスキー,,T-2111G,12800,税抜,BASIC言語ツール,GAME BASIC for SEGASATURN,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,GAME BASIC for SEGA SATURN,M739413,gamebas
+ss-jp-0946,1998-06-25,スーパーアドベンチャーロックマン,カプコン,,,5800,税抜,,スーパーアドベンチャーロックマン,Wikipedia+MADB,,MADB,スーパーアドベンチャー ロックマン,M749482,
+ss-jp-0947,1998-06-25,日本代表チームの監督になろう! 世界初、サッカーRPG,セガ/エニックス,,T-35504G,6800,税抜,,日本代表チームの監督になろう! 世界初、サッカーRPG,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,日本代表チームの監督になろう! ～世界初、サッカーRPG～,M719381,soccrrpg
+ss-jp-0948,1998-06-25,水木しげるの妖怪図鑑総集編,講談社,,T-25506G,5800,税抜,PC向けに発売された同名データベースソフトを原作とするアドベンチャーゲーム,水木しげる,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,水木しげるの妖怪図鑑 総集編,M763098,yokai
+ss-jp-0949,1998-07-02,アナザー・メモリーズ,スターライトマリー,,T-38001G,5800,税抜,,アナザー・メモリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アナザー・メモリーズ,M744965,amemorie
+ss-jp-0950,1998-07-02,EVE burst error&EVE The Lost Oneバリューパック,イマディオ,18+,,9800,税抜,18歳以上推奨,EVE burst error,Wikipedia+MADB,,MADB,EVE burst error ＆ EVE The Lost One バリューパック,M738846,
+ss-jp-0951,1998-07-02,SEGA AGES ギャラクシーフォースII,セガ,,GS-9197,3800,税抜,,ギャラクシーフォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ギャラクシーフォース 2 SEGA AGES,M719380,gforce2
+ss-jp-0952,1998-07-02,ソルディバイド,アトラス,,T-14423G,5800,税抜,同名アーケードゲームの移植版,ソルディバイド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ソルディバイド,M750718,soldivid
+ss-jp-0953,1998-07-02,ドルイド 闇への追跡者,光栄,,T-7670G,6800,税抜,,ドルイド 闇への追跡者,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドルイド 闇への追跡者,M752713,druid
+ss-jp-0954,1998-07-02,もってけたまごwithがんばれ!かものはし,ナグザット,,T-18712G,5800,税抜,,もってけたまごwithがんばれ!かものはし,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,もってけたまご with がんばれ! かものはし,M757844,motteke
+ss-jp-0955,1998-07-09,Code R,クインテット,,T-23502G,6800,税抜,,Code R,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Code R,M738054,coder
+ss-jp-0956,1998-07-09,探偵 神宮寺三郎 夢の終わりに,データイースト,18+,T-1316G,5800,税抜,18歳以上推奨,探偵 神宮寺三郎 夢の終わりに,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,探偵神宮寺三郎 ～夢の終わりに～,M764244,tjsyumow
+ss-jp-0957,1998-07-09,ポケットファイター,カプコン,,T-1230G,5800,税抜,同名アーケードゲームの移植版,ポケットファイター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,POCKET FIGHTER,M719379,pfght
+ss-jp-0958,1998-07-16,DEEP FEAR,セガ,,GS-9189,6800,税抜,欧州における最後のセガサターン用ソフト,DEEP FEAR,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DEEP FEAR,M724803,deepfearja
+ss-jp-0959,1998-07-16,エルフを狩るモノたちII,アルトロン,18+,T-16610G,7800,税抜,『エルフを狩るモノたち』の続編。18歳以上推奨,エルフを狩るモノたちII,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,エルフを狩るモノたち 2,M719012,elf2
+ss-jp-0960,1998-07-23,お嬢様を狙え!!,クリスタルビジョン,18+,T-38101G,6800,税抜,同名PCゲームの移植版 18歳以上推奨,お嬢様を狙え!!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,お嬢様を狙え!!,M746484,ojonerae
+ss-jp-0961,1998-07-23,コナミアンティークスMSXコレクション ウルトラパック,コナミ,,T-9530G,3800,税抜,『タイムパイロット』ほか1983年から88年にかけて発売されたMSX用ソフトの移植版30本を収録したオムニバス作品,コナミアンティークスMSXコレクション ウルトラパック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,コナミアンティークス ～MSXコレクション ウルトラパック～,M748324,konmsx
+ss-jp-0962,1998-07-23,ハイスクールテラ ストーリー,キッド,18+,T-19715G,5800,税抜,同名PCゲームの移植版 18歳以上推奨,ハイスクールテラ ストーリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ハイスクールテラストーリー,M753641,hsterra
+ss-jp-0963,1998-07-23,魔導物語,コンパイル,,T-6607G,5800,税抜,,魔導物語,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,魔導物語,M719377,madoum
+ss-jp-0964,1998-07-23,ルナ2 エターナルブルー,角川書店,,T-27906G,6800,税抜,,LUNAR,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ルナ2 エターナルブルー,M758652,lunar2
+ss-jp-0965,1998-07-23,レイディアントシルバーガン,トレジャー,,T-32902G,5800,税抜,同名アーケードゲームの移植版,レイディアントシルバーガン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レイディアントシルバーガン,M758704,rsgun
+ss-jp-0966,1998-07-30,アンジェリークデュエット,光栄,,T-7662G,7800,税抜,『アンジェリーク』シリーズの1作品で、第1作で主人公のライバルとして登場したロザリアを主役にしたシナリオも収録された,アンジェリーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アンジェリーク デュエット,M745202,angduet
+ss-jp-0967,1998-07-30,お嬢様特急,メディアワークス,,T-27803G,6800,税抜,,お嬢様特急,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,お嬢様特急（エクスプレス）,M746488,oexpress
+ss-jp-0968,1998-07-30,サターンミュージックスクール2,ワカ製作所,,,5800,税抜,サターンミュージックスクールシリーズ第2弾,サターンミュージックスクール2,Wikipedia+MADB,,MADB,サターンミュージックスクール2,M748820,
+ss-jp-0969,1998-07-30,ドリーム・ジェネレーション 〜恋か? 仕事か!?…〜,メサイヤ,,T-2511G,6300,税抜,2つの夢を追いかける恋愛シミュレーションゲーム,ドリーム・ジェネレーション 〜恋か? 仕事か!?…〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ドリーム・ジェネレーション 恋か?仕事か!?…,M719372,dreamgen
+ss-jp-0970,1998-07-30,バックガイナー〜よみがえる勇者たち〜覚醒編「ガイナー転生」,ビング,,T-19906G,5800,税抜,アニメーションを採用した戦略シミュレーションゲーム,バックガイナー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,バックガイナー ～よみがえる勇者たち～ 覚醒編「ガイナー転生」,M719373,backgkh
+ss-jp-0971,1998-07-30,ラブリーポップ2in1雀じゃん恋しましょ,ビスコ,,T-5801G,6800,税抜,アーケードゲーム『雀々しましょ』と『恋こいしましょ』を収録,ラブリーポップ2in1雀じゃん恋しましょ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラブリーポップ 2in1 雀じゃん恋しましょ,M758349,lovpop
+ss-jp-0972,1998-07-30,わくわくモンスター,アルトロン,,T-16608G,5800,税抜,『SATURN FAN』1998年6月12日号掲載時点では1998年7月2日発売予定だった,わくわくモンスター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,わくわくモンスター,M719374,wakumons
+ss-jp-0973,1998-08-06,アストラスーパースターズ,サンソフト,,T-1521G,5800,税抜,,アストラスーパースターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アストラスーパースターズ,M744871,astrass
+ss-jp-0974,1998-08-06,ガーディアンフォース,サクセス,,T-9905G,5800,税抜,同名アーケードゲームの移植版,ガーディアンフォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ガーディアンフォース,M719370,grdnfrce
+ss-jp-0975,1998-08-06,サムライスピリッツベストコレクション,SNK,,T-3124G,4800,税抜,,サムライスピリッツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サムライスピリッツ ベストコレクション,M748862,rbcolrbf
+ss-jp-0976,1998-08-06,斬魔超奥義ヴァルハリアン,カマタアンドパートナーズ,,T-38201G,5800,税抜,異世界を舞台としたシミュレーションRPG,斬魔超奥義ヴァルハリアン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,斬魔超奥義 ヴァルハリアン,M719371,valholli
+ss-jp-0977,1998-08-06,バッケンローダー,セガ,,GS-9183,5800,税抜,,バッケンローダー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,バッケンローダー,M719369,wachenro
+ss-jp-0978,1998-08-06,プロ野球グレイテストナイン'98 サマーアクション,セガ,,GS-9202,5800,税抜,,プロ野球グレイテストナイン'98 サマーアクション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,プロ野球グレイテストナイン'98 サマーアクション,M719368,gnine98s
+ss-jp-0979,1998-08-06,リアルバウト餓狼伝説ベストコレクション,SNK,,T-3124G,4800,税抜,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リアルバウト餓狼伝説 ベストコレクション,M758411,rbcolrbs
+ss-jp-0980,1998-08-06,ルパン三世ピラミッドの賢者,アスミック,,T-2004G,5800,税抜,,ルパン三世ピラミッドの賢者,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ルパン三世 ピラミッドの賢者,M758658,lupinpy
+ss-jp-0981,1998-08-20,イメージファイト&X-マルチプライアーケードギアーズ,エクシングエンタテイメント,,T-26110G,4800,税抜,アーケードゲームの『イメージファイト』と『X-マルチプライ』を収録,イメージファイト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,イメージファイト＆X-マルチプライ アーケードギアーズ,M745451,imgftxm
+ss-jp-0982,1998-08-20,海辺でリーチ!,毎日コミュニケーションズ,,T-29004G,5800,税抜,,海辺でリーチ!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,海辺でリーチ!,M760374,beachrea
+ss-jp-0983,1998-08-27,カプコンジェネレーション第1集 撃墜王の時代,カプコン,,T-1232G,5800,税抜,アーケードゲーム・19シリーズシリーズのうち初期3作品を収録,カプコンジェネレーション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CAPCOM GENERATION 第1集 撃墜王の時代,M719366,capgen1
+ss-jp-0984,1998-08-27,ブラックマトリクス,NECインターチャネル,,,6800,税抜,,ブラックマトリクス,Wikipedia+MADB,,MADB,ブラックマトリクス,M755510,
+ss-jp-0985,1998-08-27,魔法使いになる方法,TGL,,T-32510G,6800,税抜,同名PCゲームの移植版,魔法使いになる方法 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,魔法使いになる方法,M766048,mahoutsu
+ss-jp-0986,1998-09-03,スレイヤーズろいやる2,角川書店/ESP,,T-27907G,6800,税抜,,スレイヤーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スレイヤーズろいやる2,M750324,slayers2
+ss-jp-0987,1998-09-17,幻想水滸伝,コナミ,,T-9525G,3800,税抜,同名PlayStaton用ソフトの移植版,幻想水滸伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,幻想水滸伝,M761164,gensousu
+ss-jp-0988,1998-09-17,シミュレーションRPGツクール,アスキー,,T-2106G,5800,税抜,,ツクール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,シミュレーションRPGツクール,M749172,simrpg
+ss-jp-0989,1998-09-23,カプコンジェネレーション第2集 魔界と騎士,カプコン,,T-1233G,,,魔界村シリーズから初期3作品を収録,カプコンジェネレーション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719364,capgen2
+ss-jp-0990,1998-09-23,機動戦艦ナデシコ The blank of 3years,セガ,,GS-9195,6800,税抜,テレビ番組『機動戦艦ナデシコ』とアニメ映画『劇場版 機動戦艦ナデシコ -The prince of darkness-』の間の出来事を描いたサウンドノベル,機動戦艦ナデシコ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,機動戦艦ナデシコ The blank of 3years,M719362,ksn3year
+ss-jp-0991,1998-09-23,シャイニング・フォースIII シナリオ3氷壁の邪神宮,セガ,,GS-9203,4800,税抜,,シャイニング・フォース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,シャイニング・フォース 3 シナリオ3 氷壁の邪神宮,M719361,shinf3s3
+ss-jp-0992,1998-09-23,スチーム・ハーツ,TGL,18+,T-32502G,6800,税抜,同名PCゲームの移植版 18歳以上推奨,スチーム・ハーツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スチームハーツ,M749996,steamhea
+ss-jp-0993,1998-09-23,ソルヴァイス,アルトロン,,T-16609G,6800,税抜,カードバトル要素のあるアクションRPG,ソルヴァイス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ソルヴァイス,M719363,sorvice
+ss-jp-0994,1998-09-23,デジタルモンスターVer.S 〜デジモンテイマーズ〜,バンダイ,,T-13331G,5800,税抜,,デジタルモンスターVer.S 〜デジモンテイマーズ〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デジタルモンスター Ver. S デジモンテイマーズ,M751704,digimons
+ss-jp-0995,1998-09-23,The Legend of HeroesI&II 英雄伝説,GMF,,T-37101G,5800,税抜,PCゲーム『ドラゴンスレイヤー英雄伝説』と『ドラゴンスレイヤー英雄伝説II』を収録,ドラゴンスレイヤー英雄伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,The Legend of Heroes 1＆2  英雄伝説,M733225,lohero
+ss-jp-0996,1998-09-23,麻雀学園祭DX〜前日にまつわる奮戦記〜,メイクソフトウェア,18+,T-25306G,,,18歳以上推奨,麻雀学園祭DX〜前日にまつわる奮戦記〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719010,mjgakudx
+ss-jp-0997,1998-10-01,ザ・キング・オブ・ファイターズベストコレクション,SNK,,,6800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB,,MADB,ザ・キング・オブ・ファイターズ ベストコレクション,M748518,
+ss-jp-0998,1998-10-01,桜通信〜ReMaking Memories〜,メディアギャロップ,18+,,,,同名漫画のゲーム化 18歳以上推奨,桜通信,Wikipedia,,,,,
+ss-jp-0999,1998-10-01,電車でGO!EX,タカラ,,T-10317G,5800,税抜,,電車でGO!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,電車でGO! EX,M764690,dendego
+ss-jp-1000,1998-10-01,バックガイナー〜よみがえる勇者たち〜飛翔編「うらぎりの戦場」,ビング,,T-19907G,5800,税抜,,バックガイナー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,バックガイナー ～よみがえる勇者たち～ 飛翔編「うらぎりの戦場」,M719360,backghh
+ss-jp-1001,1998-10-01,初恋物語,徳間書店インターメディア,18+,T-33004G,5800,税抜,18歳以上推奨,初恋物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,初恋物語,M762220,hatsukoi
+ss-jp-1002,1998-10-08,機動戦士ガンダム ギレンの野望 攻略指令書,バンダイ,,T-13333G,2800,税抜,『機動戦士ガンダム ギレンの野望』のファンディスク,機動戦士ガンダム ギレンの野望,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,機動戦士ガンダム ギレンの野望 攻略指令書,M724699,gundgiks
+ss-jp-1003,1998-10-08,コットンブーメラン,サクセス,,T-9906G,4800,税抜,同名アーケードゲームの移植版,コットン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,コットン ブーメラン,M719359,cottonbm
+ss-jp-1004,1998-10-08,Piaキャロットへようこそ!!2,NECインターチャネル,18+,T-20114G,7200,税抜,同名成人向けPCゲームの移植版 18歳以上推奨,Piaキャロットへようこそ!!2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Pia♥キャロットへようこそ!! 2,M741545,picarro2
+ss-jp-1005,1998-10-15,SEGA AGES アイラブミッキーマウス ふしぎのお城大冒険 アイラブドナルドダック グルジア王の秘宝,セガ,,GS-9179,4800,税抜,『アイラブミッキーマウス ふしぎのお城大冒険』と『アイラブドナルドダック グルジア王の秘宝』を収録,アイラブミッキーマウス ふしぎのお城大冒険,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,アイ ラブ ミッキーマウス ふしぎのお城大冒険 / アイ ラブ ドナルドダック グルジア王の秘宝 SEGA AGES,M719358,mickdnld
+ss-jp-1006,1998-10-15,カプコンジェネレーション第3集 ここに歴史始まる,カプコン,,T-1234G,5800,税抜,『バルガス』ほかアーケードゲーム4作品を収録,カプコンジェネレーション,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カプコン ジェネレーション ～第3集 ここに歴史始まる～,M746721,capgen3
+ss-jp-1007,1998-10-22,ストライカーズ1945 II,彩京,,T-20402G,5800,税抜,,ストライカーズ1945 II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ストライカーズ19452,M734157,s1945ii
+ss-jp-1008,1998-10-22,MARVEL SUPER HEROES VS. STREET FIGHTER,カプコン,,T-1239G,5800,税抜,対戦型格闘ゲーム『ストリートファイター』シリーズとアメリカンコミックの出版社マーベル・コミックとのコラボレーション,MARVEL SUPER HEROES VS. STREET FIGHTER,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,MARVEL SUPER HEROES VS. STREET FIGHTER,M740580,mshvssf
+ss-jp-1009,1998-10-22,ミズバク大冒険,ビング,,T-19910G,3800,税抜,同名アーケードゲームの移植版,ミズバク大冒険,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ミズバク大冒険,M719355,liquidkj
+ss-jp-1010,1998-10-22,ROX -ロックス-,アルトロン,,T-16612G,5800,税抜,サイコロをモチーフとした落ちものゲーム,ROX -ロックス-,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ROX -ロックス-,M719357,rox
+ss-jp-1011,1998-10-29,せがた三四郎 真剣遊戯,セガ,,GS-9204,4800,税抜,セガサターンのイメージキャラクターせがた三四郎のプロモーションビデオを収録したミニゲーム集,せがた三四郎 真剣遊戯,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,せがた三四郎 真剣遊戯,M719354,segata
+ss-jp-1012,1998-10-29,バーチャコールS,キッド,18+,,6300,税抜,18歳以上推奨,バーチャコールS,Wikipedia+MADB,,MADB,バーチャコールS,M753348,
+ss-jp-1013,1998-10-29,ファルコムクラシックス II,日本ビクター,,T-31505G,5800,税抜,『イースII』と『太陽の神殿』を収録,ファルコムクラシックス II,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファルコムクラシックス2,M734405,falcom2
+ss-jp-1014,1998-10-29,本格花札,アルトロン,,T-16611G,5800,税抜,,本格花札,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,本格花札,M719353,honkhana
+ss-jp-1015,1998-11-05,新世紀エヴァンゲリオン エヴァと愉快な仲間たち,ガイナックス,,T-35103G,6800,税抜,『新世紀エヴァンゲリオン』をはじめとするガイナックスのキャラクター群による麻雀ゲーム,新世紀エヴァンゲリオン エヴァと愉快な仲間たち,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新世紀エヴァンゲリオン エヴァと愉快な仲間たち,M762609,shinevyu
+ss-jp-1016,1998-11-05,リアル麻雀アドベンチャー海へ Summer Waltz,セタ,,T-16511G,6800,税抜,,スーパーリアル麻雀,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リアル麻雀アドベンチャー 海へ Summer Waltz,M758427,mjadvent
+ss-jp-1017,1998-11-12,カプコンジェネレーション第4集 孤高の英雄,カプコン,,T-1235G,5800,税抜,アーケードゲーム『戦場の狼』ほか2作を収録,カプコンジェネレーション,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カプコンジェネレーション ～第4集 孤高の英雄～,M746726,capgen4
+ss-jp-1018,1998-11-19,七星闘神ガイファード-クラウン壊滅作戦-,カプコン,,T-1242G,5800,税抜,特撮番組『七星闘神ガイファード』を原作とするインタラクティブムービー,七星闘神ガイファード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,七星闘神ガイファード -クラウン壊滅作戦-,M761890,guyferd
+ss-jp-1019,1998-11-19,シーズン,キッド,18+,T-19717G,6800,税抜,18歳以上推奨,She'sn,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,シーズン,M749016,shesn
+ss-jp-1020,1998-11-26,アイドル雀士スーチーパイめちゃ限定版発売5周年(得)パッケージ,ジャレコ,,T-5716G,7800,税抜,『アイドル雀士スーチーパイRemix』と『アイドル雀士スーチーパイII』の修正版、および『スーチーパイアドベンチャードキドキナイトメア』のシステムを流用した新作アドベンチャーゲームを収録。,アイドル雀士スーチーパイ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,アイドル雀士スーチーパイ めちゃ限定版 発売5周年㊕パッケージ,M719008,suchimg
+ss-jp-1021,1998-11-26,ウィザードリィリルガミンサーガ,ローカス/ソリトンソフトウェア,,T-38601G,5800,税抜,ウィザードリィシリーズから初期3作品を収録,ウィザードリィのシリーズ一覧,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウィザードリィ リルガミンサーガ,M745582,wizsaga
+ss-jp-1022,1998-11-26,エチュード プロローグ揺れ動く心のかたち,TAKUYO,,T-37901G,5800,税抜,,エチュード プロローグ揺れ動く心のかたち,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エチュード プロローグ 揺れ動く心のかたち,M746090,etudepro
+ss-jp-1023,1998-11-26,SANKYO FEVER実機シミュレーションSVol.3,TEN研究所,,T-32105G,6800,税抜,『CRフィーバースーパーナインJX』ほか4機種を収録した実機シミュレーター,SANKYO FEVER,Wikipedia+MADB+MAME,MAME,MADB,SANKYO FEVER 実機シミュレーションS Vol. 3 ボーナスパック,M719351,sjsims3
+ss-jp-1024,1998-11-26,ファインドラブ2ラプソディ,ダイキ,18+,T-34605G,6800,税抜,18歳以上推奨,ファインドラブ2ラプソディ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Find Love 2Rhapsody,M719007,flove2ra
+ss-jp-1025,1998-11-26,ボールディランド,バンプレスト,,T-20608G,6800,税抜,,ボールディランド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ボールディランド,M756145,baldylnd
+ss-jp-1026,1998-12-03,ウイニングポスト3プログラム'98,光栄,,T-7671G,6800,税抜,,ウイニングポスト3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイニングポスト3 プログラム'98,M745652,wpost398
+ss-jp-1027,1998-12-03,カプコンジェネレーション第5集 格闘家たち,カプコン,,T-1236G,5800,税抜,『ストリートファイターII』シリーズより3作品を収録,カプコンジェネレーション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CAPCOM GENERATION 5 第5集 格闘家たち,M719345,capgen5
+ss-jp-1028,1998-12-03,続 初恋物語 〜修学旅行〜,徳間書店インターメディア,18+,T-33005G,7800,税抜,18歳以上推奨,続 初恋物語 〜修学旅行〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,続 初恋物語 ～修学旅行～,M763839,zokuhat
+ss-jp-1029,1998-12-03,ファーランドサーガ 時の道標,TGL,,T-32509G,6800,税抜,,ファーランドサーガ 時の道標,Wikipedia,MAME+No-Intro,MADB,ファーランドサーガ 時の道標,M754836,farsagat
+ss-jp-1030,1998-12-10,ノエル3,パイオニアLDC,,,,,,NOëL,Wikipedia,,,,,
+ss-jp-1031,1998-12-10,バーチャル麻雀 II マイ・フェアー・レディ,マイクロネット,18+,,8800,税抜,『バーチャル麻雀』の続編 18歳以上推奨,バーチャル麻雀 IIマイ・フェアー・レディ,Wikipedia+MADB,,MADB,バーチャル麻雀2  マイ・フェアー・レディ,M734314,
+ss-jp-1032,1998-12-10,悠久幻想曲ensemble,メディアワークス,,T-27808G,3800,税抜,『悠久幻想曲』のファンディスク,悠久幻想曲,Wikipedia+MADB+MAME,MAME,MADB,悠久幻想曲 ensemble,M766464,yuukens
+ss-jp-1033,1998-12-10,瑠璃色の雪,キッド,18+,,6800,税抜,18歳以上推奨,瑠璃色の雪,Wikipedia+MADB,,MADB,瑠璃色の雪,M766770,
+ss-jp-1034,1998-12-17,よしもと麻雀倶楽部,彩京,,T-20403G,5800,税抜,同名テレビ番組のゲーム化で、吉本興業のお笑い芸人が登場する,よしもと麻雀倶楽部,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,よしもと麻雀倶楽部,M758119,yoshimj
+ss-jp-1035,1998-12-23,ガールドールトーイ魂をください,ザウス,18+,T-37002G,6800,税抜,同名PCゲームの移植版 18歳以上推奨,ガールドールトーイ魂をください,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガールドールトーイ 魂をください,M746577,girldoll
+ss-jp-1036,1998-12-23,サクラ大戦 帝撃グラフ,セガ/レッドカンパニー,,T-32602G,4800,税抜,サクラ大戦シリーズのファンディスク,サクラ大戦シリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サクラ大戦 帝撃グラフ,M719340,teigekig
+ss-jp-1037,1998-12-23,ラングリッサートリビュート,メサイヤ,,,9800,税抜,,ラングリッサー,Wikipedia+MADB,,MADB,ラングリッサー トリビュート,M758378,
+ss-jp-1038,1998-12-23,6インチまいだーりん,キッド,,T-19721G,5800,税抜,,6インチまいだーりん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,6インチまいだ～りん,M737116,6inchmyd
+ss-jp-1039,1999-01-14,闘龍伝説エランドール,カマタアンドパートナーズ,,T-38202G,5800,税抜,同名アーケードゲームの移植版,闘龍伝説エランドール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,闘龍伝説エランドール,M719338,elandore
+ss-jp-1040,1999-01-14,ルームメイトW 〜ふたり〜,データム・ポリスター,,T-19508G,6800,税抜,,ルームメイトW 〜ふたり〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ルームメイトW ～ふたり～,M719337,rmatew
+ss-jp-1041,1999-02-25,デバイスレイン,メディアワークス/スターライトマリー,,T-27810G,5800,税抜,,デバイスレイン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デバイスレイン,M751892,devicere
+ss-jp-1042,1999-03-04,仙劍奇侠傳,SOFTSTAR ENTERTAINMENT,,T-37401G,5800,税抜,同名PCゲームの移植版,仙劍奇侠傳,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,仙劍奇侠傳,M719329,senken
+ss-jp-1043,1999-03-04,ダンジョンズ&ドラゴンズコレクション,カプコン,,T-1224G,5800,税抜,D&D タワーオブドゥーム、D&D シャドーオーバーミスタラのカップリング移植,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダンジョンズ＆ドラゴンズ コレクション,M751121,ddtod
+ss-jp-1044,1999-03-04,ファルコムクラシックコレクション,日本ビクター,,,6500,税抜,,ファルコムクラシックコレクション,Wikipedia+MADB,,MADB,ファルコムクラシックス コレクション,M755106,
+ss-jp-1045,1999-03-04,悠久幻想曲 ensemble vol.2,メディアワークス/スターライトマリー,,T-27809G,3800,税抜,『ドリームキャストFAN』1999年2月12日号掲載時点では1999年2月18日に発売が予定されていた,悠久幻想曲,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悠久幻想曲 ensemble2,M766466,yuukens2
+ss-jp-1046,1999-03-18,アイドル雀士スーチーパイ シークレットアルバム,ジャレコ,18+,T-5717G,4800,税抜,18歳以上推奨,アイドル雀士スーチーパイ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アイドル雀士スーチーパイ シークレットアルバム,M744515,suchisec
+ss-jp-1047,1999-03-18,KISSより…,キッド,,,6800,税抜,,KISSより…,Wikipedia+MADB,,MADB,KISSより…,M740172,
+ss-jp-1048,1999-03-25,ダービースタリオン,アスキー,,T-2113G,6800,税抜,スケルトン仕様のセガサターン本体が同梱されたバージョンも発売された,ダービースタリオン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダービースタリオン,M750784,dstall
+ss-jp-1049,1999-04-01,ときめきメモリアルドラマシリーズ Vol.3 〜旅立ちの詩〜,コナミ,,T-9532G,8800,税抜,,ときめきメモリアルドラマシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ときめきメモリアル ドラマシリーズVol. 3 旅立ちの詩,M752151,tokimdv3
+ss-jp-1050,1999-04-22,涼子のおしゃべりルーム,データム・ポリスター,,,5800,税抜,,ROOMMATE,Wikipedia+MADB,,MADB,涼子のおしゃべりルーム,M766759,
+ss-jp-1051,1999-04-29,フレンズ〜青春の輝き〜,NECインターチャネル,,T-20109G,7200,税抜,『ドリームキャストFAN』1999年2月12日号掲載時点では1999年4月8日に発売が予定されていた,同窓会 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フレンズ ～青春の輝き～,M755816,friends
+ss-jp-1052,1999-07-08,プロ指南麻雀「兵」,カルチャーブレーン,,,,,,プロ指南麻雀「兵」,Wikipedia,,,,,
+ss-jp-1053,1999-07-29,With You 〜みつめていたい〜,NECインターチャネル,,T-20117G,7200,税抜,同名PCゲームの移植版,With You 〜みつめていたい〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,With You ～みつめていたい～,M743937,withyou
+ss-jp-1054,1999-08-06,ストリートファイターZERO3,カプコン,,T-1247G,5800,税抜,,ストリートファイターZERO3,Wikipedia+MADB,MAME+No-Intro,MADB,ストリートファイターZERO3,M750086,sfz3
+ss-jp-1055,1999-10-14,ソニック3D フリッキーアイランド,セガ,,,3800,税抜,,ソニック3D フリッキーアイランド,Wikipedia+MADB,,MADB,ソニック3D フリッキーアイランド,M750636,
+ss-jp-1056,2000-03-16,ルームメイト井上涼子〜COMPLETE BOX〜,データム・ポリスター,,,15000,税抜,,ROOMMATE,Wikipedia+MADB,,MADB,ルームメイト ～井上涼子～ COMPLETE BOX,M758621,
+ss-jp-1057,2000-03-30,ファイナルファイト リベンジ,カプコン,,T-1249G,5800,税抜,,ファイナルファイト リベンジ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイナルファイト リベンジ,M754941,ffreveng
+ss-jp-1058,2000-12-07,悠久幻想曲 保存版 Perpetual Collection,メディアワークス,,,15000,税抜,セガサターン最後のソフト,悠久幻想曲,Wikipedia+MADB,,MADB,悠久幻想曲 保存版 Perpetual Collection,M766467,

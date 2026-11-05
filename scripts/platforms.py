@@ -275,6 +275,32 @@ def _pce_format(row):
     return "/".join(_PCE_FORMATS[c] for c in re.findall(r"HC|SG|CR|SC|AC", row.get("d_format", "")))
 
 
+def _ss_models(text):
+    """セガサターンの型番。セガ 'GS-9001'、ライセンシー 'T-14301G'（末尾 G が日本版）、Hiサターン等 'HSS-…'、
+    セガの商品番号 '610-6xxx'、ビクター 'VS010-J1'。セガ・ライセンシーの型番を優先し、海外版（'T-…H'、'MK-…'）は採らない。"""
+    found = []
+    for part in re.split(r"[,/]", (text or "").upper()):
+        part = re.sub(r"\((?!VS)[^)]*\)", "", part)
+        for m in re.finditer(r"(?<![A-Z0-9-])(GS-\d{4}|T-\d{4,5}G|HSS-\d{4}|610-\d{4,5}(?:-\d{2,3})?|VS\d{3}-J\d)(?![A-Z0-9])",
+                             part):
+            if m.group(1) not in found:
+                found.append(m.group(1))
+    rank = lambda c: 0 if re.match(r"GS-|T-", c) else 1 if c.startswith("HSS") else 2
+    return sorted(found, key=rank)
+
+
+def _ss_code(serial):
+    """Redump のシリアル（'T-15013G'、'GS-9001'、'T-4305G-50' など）を型番の形に。"""
+    m = _ss_models(re.sub(r"-\d{1,2}$", "", serial or ""))
+    return m[0] if m else ""
+
+
+def _age_rating(row):
+    """Wikipedia の備考の年齢区分（X指定=18歳未満購入禁止、18歳以上推奨）。"""
+    n = row.get("notes", "")
+    return "X" if "X指定" in n else "18+" if "18歳以上推奨" in n else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -662,6 +688,29 @@ PLATFORMS = {
         "code_of": _pce_key,
         "normalize_code": _pce_key,
         "tax_free_before": "1989-04-01",
+    },
+    # セガサターン。age_rating は Wikipedia の備考（X指定・18歳以上推奨）から
+    "ss": {
+        "name": "セガサターン",
+        "dir": ROOT / "data" / "ss",
+        "id_prefix": "ss-jp",
+        "wikipedia": {"tables": [{"page": "セガサターンのゲームタイトル一覧", "section": "発売されたタイトル",
+                                  "table_id": "softwarelist",
+                                  "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs")}]},
+        "extra_columns": ["age_rating"],
+        "derive": {"age_rating": _age_rating},
+        "madb_platforms": ["セガサターン"],
+        "mame_lists": ["saturn"],
+        "mame_jp_models": _ss_models,   # 説明に地域の無い日本版（'Waku Waku 7'、シリアル T-1516G）
+        "models_from": _ss_models,
+        "models_from_serial": lambda s: [c for c in [_ss_code(s)] if c],
+        "code_of": _ss_code,
+        "normalize_code": _ss_code,
+        "nointro_dats": ["redump:Sega - Saturn"],
+        "nointro_export": ["Sega - Saturn (Redump)"],
+        "nointro_export_fallback": {"Sega - Saturn (Redump)": "redump:Sega - Saturn"},
+        "hash_source": "Redump",
+        "media": "disc",
     },
     "wii": {
         "name": "Wii",

@@ -45,13 +45,13 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      # 非公式品（Hacker）、後年の書籍付録・配信版など
                      r"|FamicomBox|Family BASIC|Menu Cart|EPROM|Digital|Disc|Sansai Mook|Ending Credits Program"
                      r"|Not For Resale|Shouhin Golf Tournament US Course|Hacker|SA-0\d+( \d+)? PCB"
-                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On|Hibaihin)$")
+                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On|Hibaihin|Demo \d+)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$"
                         r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
                         r"|^XBOX$|^Classic Mini$|^Namco Anthology \d$|^Project EGG$|^Collector's Edition$"
                         r"|^Game & Watch - Super Mario Bros\.$|^Evercade$|^Retro-Bit$|^Disney Classic Games$"
-                        r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Mega 6$|^PC Engine Mini$")
+                        r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Mega 6$|^PC Engine Mini$|^Satakore$")
 # GameCube: GC 用ソフトに収録された ROM（N64）
 ONLINE = re.compile(r"^(Sega Game Toshokan|Sega Channel)$")   # MD の通信配信版（ゲーム図書館・セガチャンネル）
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
@@ -108,9 +108,13 @@ def merge_discs(rows):
     """複数枚組（No-Intro / Redump 名の '(Disc 1)' '(Disc A)' など）を1行にまとめる。
     サイズ・ハッシュ・確認区分などはディスク順に ';' でつなぎ、discs 列に枚数を入れる。"""
     disc_re = re.compile(r" \(Dis[ck] [0-9A-Z]+\)")
+    # 組の判定では、ディスクごとの呼び名（'(Game Disc)'、'(Omake Disc)'、'(Portrait CD)'）と
+    # マスタリングの印（サターンの '(1M)'、'(1M, 4M)'）も除く
+    label_re = re.compile(r" \([^()]*(?:Disc|CD)\)| \(\d+[A-Z](?:, \d+[A-Z])*\)")
     groups, order = {}, []
     for r in rows:
-        key = (r["title_id"], r["dump_kind"], disc_re.sub("", r["dump_name"]))
+        name = disc_re.sub("", r["dump_name"])
+        key = (r["title_id"], r["dump_kind"], label_re.sub("", name) if disc_re.search(r["dump_name"]) else name)
         if key not in groups:
             groups[key] = []
             order.append(key)
@@ -118,7 +122,9 @@ def merge_discs(rows):
     out = []
     for key in order:
         g = groups[key]
-        if len(g) == 1 or not all(disc_re.search(r["dump_name"]) for r in g):
+        discs_no = [disc_re.search(r["dump_name"]).group(0) for r in g if disc_re.search(r["dump_name"])]
+        if len(g) == 1 or len(discs_no) != len(g) or len(set(discs_no)) != len(g):
+            # 1枚だけ・ディスク番号の無いものが混ざる・同じ番号のディスクが複数（マスタリング違い）なら、まとめない
             for r in g:
                 out.append({**r, "discs": "1"})
             continue

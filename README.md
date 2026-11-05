@@ -20,6 +20,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 110 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
 | スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
 | PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 656 | 418 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（727 行） |
+| セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,169 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -603,6 +604,31 @@ PCエンジンとして日本で発売されたソフト（1987〜1999年）。`
 付録の『でべろスターターキット アセンブラ編』は Redump で製品版『ヴァージン・ドリーム』と同じシリアルになっているため、
 `overrides/dump_matches.csv` で製品版に結びつけないようにした（`title_id` が `-`）。その他の非売品（Redump にある『天外魔境 ZIRIA』の非売品版など）の調査は後回し。
 
+## SS
+
+セガサターンとして日本で発売されたソフト（1994〜2000年）。`id` は `ss-jp-<連番>`（発売順）。Wikipedia と同じく廉価版
+（サタコレなど）は本リストに入れず、その吸い出しは `collection` として元のタイトルに結びつける。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「セガサターンのゲームタイトル一覧」（セガ公式のソフトウェア一覧が出典。本文の記載は 1,057 件だが表は 1,058 行で、1997年が 1 行多い） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「セガサターン」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/saturn.xml` |
+| ハッシュ | Redump DAT（libretro 収録の Sega Saturn。データトラック） |
+
+- `age_rating` 列: Wikipedia の備考に「X指定」とあれば `X`（22 件）、「18歳以上推奨」とあれば `18+`（92 件）。
+- 型番は表記のまま（セガ `GS-9001`、ライセンシー `T-14301G`）。海外版（`T-…H`、`MK-…`）やセガの商品番号 `610-…` は優先しない。
+  MAME と MADB で番号が違うもの 11 件は要確認レポートに出している。
+- 吸い出しは Redump のシリアル（型番）で結びつけ、MAME に無いタイトルなど 69 件は `overrides/dump_matches.csv` で手動対応。
+  複数枚組は1行にまとめる（ディスクごとの呼び名 `(Game Disc)` やマスタリングの印 `(2M)` は組の判定で無視し、同じ番号の
+  ディスクが複数あるものはまとめない）。製品版の吸い出しが無いのは 20 件で、大半はバリューセットやベストコレクションなどのセット商品
+  （単体では NiGHTS、バーチャレーシング、スコーチャーが libretro 版 DAT に無い）。
+- 発売日: MADB と MAME がそろって Wikipedia と異なるものが 5 件（アイドル麻雀ファイナルロマンス2、アースワーム・ジム2、
+  出世麻雀 大接待、ウィザーズハーモニー2、ファーランドサーガ 時の道標）。修正せず要確認レポートに出している。
+- 非売品は Wikipedia「非売品」節の 29 件の配布経路を調査中（確認できたものだけ載せる）。
+
 ## 再生成
 
 ```sh
@@ -661,6 +687,10 @@ python3 scripts/fetch_wikipedia_list.py pce
 python3 scripts/fetch_wikipedia_list.py pce --list other   # 「その他」節 → data/pce/jp_other.csv
 python3 scripts/enrich.py pce
 python3 scripts/build_dumps.py pce
+
+python3 scripts/fetch_wikipedia_list.py ss
+python3 scripts/enrich.py ss
+python3 scripts/build_dumps.py ss
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。
