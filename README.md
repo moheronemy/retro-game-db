@@ -22,6 +22,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 656 | 418 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（727 行） |
 | セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,072 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（2,376 行） |
+| PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 906 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,071 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -39,6 +40,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PCE | [`jp_not_for_sale.csv`](data/pce/jp_not_for_sale.csv)（15 件） | [`jp_non_retail.csv`](data/pce/jp_non_retail.csv)（1 件） | 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） |
 | SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
 | PS | （未調査・0 件） | （0 件） | |
+| PS2 | （未調査・0 件） | [`jp_non_retail.csv`](data/ps2/jp_non_retail.csv)（店頭体験版 19 件） | |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -671,6 +673,27 @@ PlayStation（初代）として日本で発売されたソフト（1994〜2004�
   2 件（くるみミラクル、プリズムコート）。
 - 非売品・体験版の調査は後回し（Wikipedia に「非売品」節が無い）。
 
+## PS2
+
+PlayStation 2 として日本で発売されたソフト（2000〜2013年）。`id` は `ps2-jp-<連番>`（発売順）。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「PlayStation 2のゲームタイトル一覧」の年別ページ（2000〜2007年）と一覧ページ本体の 2008〜2013年の節。本文の記載は 2,927 件で、表は 2,930 行 |
+| 価格（・型番の補助） | メディア芸術データベース（機種「プレイステーション2」） |
+| ハッシュ | Redump DAT（libretro 収録の Sony PlayStation 2） |
+
+- MAME に PS2 のソフトウェアリストは無いため、型番の出典は MADB だけで、型番があるのは 906 件（許容。合意済み）。
+  吸い出しは Redump のシリアル（型番）で結びつけるので、製品版の吸い出しがあるのも 886 件にとどまる。
+- 価格は 2,689 件（無いものは許容）。2004年4月以降は総額表示（`税込`）。
+- 型番の形式は PS と同じ（`SLPM-66213` など。複数枚組は先頭ディスク）。
+- Wikipedia の表で発売日の欄が空の『ドラゴンクエストVIII』は、作品の記事の 2004年11月27日にした（`platforms.py` の `date_fixes`）。
+- Redump の版番号（`v1.01`・`v2.00` など）は `revision` 列。`PlayStation 2 the Best` は `collection`。店頭用体験版
+  （`Tentou-you Taikenban`・`Tentou Taikenban`）は別リストの `store_demo`、その他の体験版（`Taikenban`）は載せない。
+- 非売品（Wikipedia「非売品」節のマクドナルドオリジナル ハッピーディスクを含む）と CERO 年齢区分は後回し。
+
 ## 再生成
 
 ```sh
@@ -737,6 +760,10 @@ python3 scripts/build_dumps.py ss
 python3 scripts/fetch_wikipedia_list.py ps     # 年別 9 ページ
 python3 scripts/enrich.py ps
 python3 scripts/build_dumps.py ps
+
+python3 scripts/fetch_wikipedia_list.py ps2
+python3 scripts/enrich.py ps2
+python3 scripts/build_dumps.py ps2
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。

@@ -306,7 +306,7 @@ def _ps_models(text):
     複数枚組の範囲表記（'SLPS-01234~6'）や Redump のディスク番号付き（'SLPS-01234-5'）からは先頭の型番を取る。
     海外版（SLUS・SLES・SCES など）は採らない。"""
     out = []
-    for m in re.finditer(r"(?<![A-Z])(SCPS|SLPS|SLPM|SCPM|SIPS|PAPX|SCZS|SLKA)[- ]?(\d{5})", (text or "").upper()):
+    for m in re.finditer(r"(?<![A-Z])(SCPS|SLPS|SLPM|SCPM|SIPS|PAPX|SCZS|SCAJ|PBPX|PCPX|SCCS)[- ]?(\d{5})", (text or "").upper()):
         c = f"{m.group(1)}-{m.group(2)}"
         if c not in out:
             out.append(c)
@@ -752,6 +752,36 @@ PLATFORMS = {
         "nointro_dats": ["redump:Sony - PlayStation"],
         "nointro_export": ["Sony - PlayStation (Redump)"],
         "nointro_export_fallback": {"Sony - PlayStation (Redump)": "redump:Sony - PlayStation"},
+        "hash_source": "Redump",
+        "media": "disc",
+        "tax_inclusive_from": "2004-04-01",
+    },
+    # PlayStation 2。2000〜2007年は年別ページ、2008年以降は一覧の本体ページの節。型番は PS と同じ形式（複数枚組は先頭）
+    "ps2": {
+        "name": "PlayStation 2",
+        "dir": ROOT / "data" / "ps2",
+        "id_prefix": "ps2-jp",
+        "wikipedia": {
+            # 2004年のページで発売日の欄が空になっている（作品の記事では 2004年11月27日）
+            "date_fixes": {"ドラゴンクエストVIII 空と海と大地と呪われし姫君": "2004-11-27"},
+            "tables": [
+            {"page": "PlayStation 2のゲームタイトル一覧 (2000年-2001年)", "section": "2000年（全122タイトル）", "year": "2000"},
+            {"page": "PlayStation 2のゲームタイトル一覧 (2000年-2001年)", "section": "2001年（全228タイトル）", "year": "2001"},
+        ] + [{"page": f"PlayStation 2のゲームタイトル一覧 ({y}年)", "section": "発売されたタイトル", "year": str(y)}
+             for y in range(2002, 2007)] + [
+            {"page": "PlayStation 2のゲームタイトル一覧 (2007年)", "section": "2007年", "year": "2007"},
+        ] + [{"page": "PlayStation 2のゲームタイトル一覧", "section": sec, "year": sec[:4]}
+             for sec in ("2008年（全149タイトル）", "2009年（全78タイトル）", "2010年（全40タイトル）",
+                         "2011年（全6タイトル）", "2013年（全1タイトル）")]},
+        "madb_platforms": ["プレイステーション2"],
+        "mame_lists": [],
+        "models_from": _ps_models,
+        "models_from_serial": lambda s: [c for c in [_ps_code(s)] if c],
+        "code_of": _ps_code,
+        "normalize_code": _ps_code,
+        "nointro_dats": ["redump:Sony - PlayStation 2"],
+        "nointro_export": ["Sony - PlayStation 2 (Redump)"],
+        "nointro_export_fallback": {"Sony - PlayStation 2 (Redump)": "redump:Sony - PlayStation 2"},
         "hash_source": "Redump",
         "media": "disc",
         "tax_inclusive_from": "2004-04-01",

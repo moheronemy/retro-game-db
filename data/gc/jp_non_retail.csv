@@ -1,12 +1,12 @@
 id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
-gc-jp-nr-h75aef00c,ピクミン（店頭体験版）,store_demo,disc,gc-jp-0004,DPIJ,Pikmin (Japan) (Jitsuen-you Sample),No-Intro: ,dat_only
-gc-jp-nr-hdf2c1ffb,FIFA2002 Road to FIFA WORLD CUP（店頭体験版）,store_demo,disc,gc-jp-0005,DFSJ,FIFA 2002 - Road to FIFA World Cup (Japan) (Jitsuen-you Sample),No-Intro: ,dat_only
-gc-jp-nr-h82e04543,SSX TRICKY（店頭体験版）,store_demo,disc,gc-jp-0010,DSTJ,SSX Tricky (Japan) (Jitsuen-you Sample),No-Intro: ,dat_only
-gc-jp-nr-hfcda35ad,スター・ウォーズ ローグ スコードロン II（店頭体験版）,store_demo,disc,gc-jp-0018,DSWJ,Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample),No-Intro: ,dat_only
-gc-jp-nr-h8ea7e64d,2002FIFAワールドカップ（店頭体験版）,store_demo,disc,gc-jp-0025,DFIJ,2002 FIFA World Cup (Japan) (Jitsuen-you Sample),No-Intro: ,dat_only
-gc-jp-nr-h9c18627f,CAPCOM VS SNK2 ミリオネアファイティング2001EO（店頭体験版）,store_demo,disc,gc-jp-0028,DEOJ,Capcom vs. SNK 2 EO (Japan) (Tentou Taikenban),No-Intro: ,dat_only
-gc-jp-nr-hd84e6190,ディズニーのマジカルパーク（店頭体験版）,store_demo,disc,gc-jp-0035,DMTJ,Disney's Magical Park (Japan) (Jitsuen-you Sample),No-Intro: ,dat_only
-gc-jp-nr-h07249620,Biohazard Zero - Trial Edition (Japan) (Jitsuen-you Sample),store_demo,disc,,DBZJ,Biohazard Zero - Trial Edition (Japan) (Jitsuen-you Sample),No-Intro: ,dat_only
+gc-jp-nr-h75aef00c,ピクミン（店頭体験版）,store_demo,disc,gc-jp-0004,DPIJ,Pikmin (Japan) (Jitsuen-you Sample),No-Intro: Jitsuen-you Sample,dat_only
+gc-jp-nr-hdf2c1ffb,FIFA2002 Road to FIFA WORLD CUP（店頭体験版）,store_demo,disc,gc-jp-0005,DFSJ,FIFA 2002 - Road to FIFA World Cup (Japan) (Jitsuen-you Sample),No-Intro: Jitsuen-you Sample,dat_only
+gc-jp-nr-h82e04543,SSX TRICKY（店頭体験版）,store_demo,disc,gc-jp-0010,DSTJ,SSX Tricky (Japan) (Jitsuen-you Sample),No-Intro: Jitsuen-you Sample,dat_only
+gc-jp-nr-hfcda35ad,スター・ウォーズ ローグ スコードロン II（店頭体験版）,store_demo,disc,gc-jp-0018,DSWJ,Star Wars - Rogue Squadron II (Japan) (Jitsuen-you Sample),No-Intro: Jitsuen-you Sample,dat_only
+gc-jp-nr-h8ea7e64d,2002FIFAワールドカップ（店頭体験版）,store_demo,disc,gc-jp-0025,DFIJ,2002 FIFA World Cup (Japan) (Jitsuen-you Sample),No-Intro: Jitsuen-you Sample,dat_only
+gc-jp-nr-h9c18627f,CAPCOM VS SNK2 ミリオネアファイティング2001EO（店頭体験版）,store_demo,disc,gc-jp-0028,DEOJ,Capcom vs. SNK 2 EO (Japan) (Tentou Taikenban),No-Intro: Tentou Taikenban,dat_only
+gc-jp-nr-hd84e6190,ディズニーのマジカルパーク（店頭体験版）,store_demo,disc,gc-jp-0035,DMTJ,Disney's Magical Park (Japan) (Jitsuen-you Sample),No-Intro: Jitsuen-you Sample,dat_only
+gc-jp-nr-h07249620,Biohazard Zero - Trial Edition (Japan) (Jitsuen-you Sample),store_demo,disc,,DBZJ,Biohazard Zero - Trial Edition (Japan) (Jitsuen-you Sample),No-Intro: Jitsuen-you Sample,dat_only
 gc-jp-nr-h02c4d92f,月刊任天堂店頭デモ 2002年10月1日号,store_demo,disc,,D39J,Gekkan Nintendo Tentou Demo 2002.10.1 (Japan),No-Intro: ,dat_only
 gc-jp-nr-h126360d7,月刊任天堂店頭デモ 2002年11月1日号,store_demo,disc,,D42J,Gekkan Nintendo Tentou Demo 2002.11.1 (Japan),No-Intro: ,dat_only
 gc-jp-nr-h8a90784b,月刊任天堂店頭デモ 2002年12月1日号,store_demo,disc,,D44J,Gekkan Nintendo Tentou Demo 2002.12.1 (Japan),No-Intro: ,dat_only

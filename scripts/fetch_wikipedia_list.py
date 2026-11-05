@@ -258,6 +258,7 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
         c = dict(zip(columns, cells))
         date_raw = dts(re.sub(r"<span[^>]*></span>", "", c.get("jp", "")))
         date_raw = re.sub(r"\{\{\s*nowrap\s*\|([^{}]*)\}\}", r"\1", date_raw, flags=re.I)
+        date_raw = date_raw.lstrip("|")   # 「||2月28日」のような区切りの誤記
         date = parse_date(plain(date_raw), year)
         if regional and not date:
             continue  # 日本未発売（{{Unreleased}}）
@@ -328,6 +329,9 @@ def main():
                          t.get("year"), wcfg.get("ref_code"), t.get("row_filter"), t.get("derive"))
         print(f"  {t['section']}: {len(got)} 行", file=sys.stderr)
         rows += got
+    for r in rows:   # 表の発売日の欄が空・誤っている行の補正（platforms.py の date_fixes。根拠はそこに書く）
+        if r["title"] in wcfg.get("date_fixes", {}):
+            r["release_date"] = wcfg["date_fixes"][r["title"]]
     if len(wcfg["tables"]) > 1:
         rows.sort(key=lambda r: r["release_date"])  # 複数の表をまとめるときは発売日順（同日は表の順）
     prefix = cfg["id_prefix"] + (f"-{wcfg['id_suffix']}" if a.list else "")
