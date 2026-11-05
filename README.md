@@ -16,6 +16,9 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | スーパーファミコン (SFC) | [`data/sfc/jp_titles.csv`](data/sfc/jp_titles.csv) | 1,422 | 1,384 | 1,324 | [`data/sfc/jp_rom_dumps.csv`](data/sfc/jp_rom_dumps.csv)（1,606 行） |
 | ファミリーコンピュータ (FC) | [`data/fc/jp_titles.csv`](data/fc/jp_titles.csv) | 1,053 | 1,029 | 367 | [`data/fc/jp_rom_dumps.csv`](data/fc/jp_rom_dumps.csv)（1,320 行） |
 | ディスクシステム (FC の別リスト) | [`data/fc/disk_system/jp_titles.csv`](data/fc/disk_system/jp_titles.csv) | 198 | 182 | 23 | [`data/fc/disk_system/jp_rom_dumps.csv`](data/fc/disk_system/jp_rom_dumps.csv)（288 行） |
+| メガドライブ (MD) | [`data/md/jp_titles.csv`](data/md/jp_titles.csv) | 422 | 407 | 398 | [`data/md/jp_rom_dumps.csv`](data/md/jp_rom_dumps.csv)（524 行） |
+| メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 110 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
+| スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -28,6 +31,8 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | SFC | [`jp_not_for_sale.csv`](data/sfc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/sfc/jp_non_retail.csv)（9 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/sfc/jp_nintendo_power.csv)（179 件） |
 | FC | [`jp_not_for_sale.csv`](data/fc/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/fc/jp_non_retail.csv)（9 件） | |
 | ディスクシステム | [`jp_not_for_sale.csv`](data/fc/disk_system/jp_not_for_sale.csv)（4 件） | [`jp_non_retail.csv`](data/fc/disk_system/jp_non_retail.csv)（14 件） | |
+| MD | （未調査・0 件） | [`jp_non_retail.csv`](data/md/jp_non_retail.csv)（7 件） | 配信専用 [`jp_online.csv`](data/md/jp_online.csv)（46 件） |
+| メガCD | [`jp_not_for_sale.csv`](data/md/mega_cd/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/md/mega_cd/jp_non_retail.csv)（1 件） | |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -518,6 +523,37 @@ Wikipedia の「非売品」節（FC 10 行・ディスク 5 行）を振り分�
 吸い出しがあるのは、NHK学園は 3 本（5年上・6年上・6年下）。ゴルフJAPANコースの景品は No-Intro のシリアル `GSJE` が
 プロフェッショナルコースに当たる。別リストにはほかに試作品（FC 9 件・ディスク 12 件）。
 
+## MD
+
+メガドライブ（カートリッジ）として日本で発売されたソフト（1988〜1996年）。`id` は `md-jp-<連番>`（発売順）。
+メガCD（[`data/md/mega_cd/`](data/md/mega_cd/)、`mcd-jp-…`）とスーパー32X（[`data/md/32x/`](data/md/32x/)、`32x-jp-…`）は
+別リストで、列は本リストと同じ。メガLD・キッズコンピュータ ピコ・非ライセンス品は対象外。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「メガドライブのゲームタイトル一覧」（セガ公式のソフトウェア一覧が出典。日本 468 件・年別件数とも本文と一致）、「メガCDのゲームタイトル一覧」（114 件）、「スーパー32Xのゲームタイトル一覧」（18 件） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「メガドライブ」。カートリッジのうち型番 `GM-` は 32X、CD-ROM はメガCD に振り分け） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/megadriv.xml`・`megacd.xml`・`32x.xml` |
+| ハッシュ | No-Intro DAT（libretro 収録の Mega Drive・32X）、Redump DAT（libretro 収録の Mega-CD） |
+
+- Wikipedia の 468 件のうち、配信専用の 46 件（ゲーム図書館 36・セガチャンネル 8・MEGAターミナル 2）は
+  [`jp_online.csv`](data/md/jp_online.csv)（`service` 列）に分け、本リストは 422 件。『コラムス』のように
+  カートリッジでも発売されたものは本リストに残す。配信専用リストにはハッシュを付けていない。
+- 型番は表記のまま（セガ `G-4128`、ライセンシー `T-66013`、32X `GM-4002`、エレクトロニック・アーツ・ビクター `EM20003`）。
+  MAME の `G-5514 (Jpn), MK-1135-50 (Euro)` のような並記からは日本版の部分を取る。
+  MAME と MADB で番号が違うもの（ヴァーミリオン、アウトランなど本リスト 5 件・メガCD 3 件）は要確認レポートに出している。
+- ROM ヘッダのコードはパッケージの型番と一致しないことが多い（獣王記 `G-4001` ↔ `00054002-00`、32X は `MK-84508-00`）ため、
+  型番の検証にも吸い出しとの対応にも使わない。吸い出しは MAME の CRC・No-Intro 名・手動対応で結びつけた
+  （本リスト・メガCD・32X とも全タイトルに製品版の吸い出しがある）。メガCD は Redump のシリアル（レーベル面の型番）で結びつける。
+- 価格は本リスト 398 件・メガCD 101 件。32X は MADB に 2 件しかなく 1 件だけ。1989年3月以前の発売（5 件）は `税なし`。
+- メガCD のハッシュは libretro 版 Redump DAT に載っている最初のトラック（データトラック）のもの。
+- No-Intro の `Sega Game Toshokan`・`Sega Channel` の吸い出しは `dump_kind` を `online`、メガドライブミニ・ゲームのかんづめ・
+  セガエイジスなどの収録版は `collection` とした。
+- 非売品の調査は後回し（本体の一覧に「非売品」節が無い）。メガCD の「その他」節の 2 件は、ワンダーメガ コレクション
+  （ワンダーメガ本体に付属）を非売品（`bundled`）、SING!!（ゲームを収録した市販の音楽アルバム）をメガCD の一覧に追加した。
+
 ## 再生成
 
 ```sh
@@ -560,6 +596,17 @@ python3 scripts/build_dumps.py fc
 python3 scripts/fetch_wikipedia_list.py fds    # ディスクシステム → data/fc/disk_system/
 python3 scripts/enrich.py fds
 python3 scripts/build_dumps.py fds
+
+python3 scripts/fetch_wikipedia_list.py md
+python3 scripts/fetch_wikipedia_list.py md --list online   # 配信専用 → data/md/jp_online.csv
+python3 scripts/enrich.py md
+python3 scripts/build_dumps.py md
+python3 scripts/fetch_wikipedia_list.py mcd    # メガCD → data/md/mega_cd/
+python3 scripts/enrich.py mcd
+python3 scripts/build_dumps.py mcd
+python3 scripts/fetch_wikipedia_list.py 32x    # スーパー32X → data/md/32x/
+python3 scripts/enrich.py 32x
+python3 scripts/build_dumps.py 32x
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。

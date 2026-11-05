@@ -87,9 +87,8 @@ def main():
                 d[col] = o[col]
 
     madb = C.load_madb(cfg["madb_platforms"])
-    if cfg.get("madb_media"):  # 同じ機種名でカセットとディスクカードが混在する（FC）
-        inc, exc = cfg["madb_media"]
-        madb = [x for x in madb if (not inc or inc in x["media_format"]) and not (exc and exc in x["media_format"])]
+    if cfg.get("madb_filter"):  # 同じ機種名で別媒体・別機種が混在する（FC のディスクカード、MD の 32X など）
+        madb = [x for x in madb if cfg["madb_filter"](x)]
     mame = C.load_mame(cfg["mame_lists"], cfg.get("mame_jp_models"))
     nointro = nointro_models(cfg)
     maru = C.load_maru(cfg["maru"]) if cfg.get("maru") else None

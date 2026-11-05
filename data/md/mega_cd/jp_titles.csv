@@ -1,0 +1,116 @@
+id,release_date,title,publisher,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+mcd-jp-0001,1991-12-12,ソル・フィース,ウルフ・チーム,T-32024,,,"メガドライブ用ソフト""Sol-Deace""の移植版で、同名PCゲームを基にしている。",ソル・フィース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726921,solfeacej
+mcd-jp-0002,1991-12-12,ヘビーノバ,マイクロネット,T-22014,6800,税抜,北米ではメガドライブ用タイトルとして発売。,ヘビーノバ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HEAVY NOVA,M726920,heavynov
+mcd-jp-0003,1991-12-14,ノスタルジア1907,シュールド・ウェーブ,T-77014,7200,税抜,同名PCゲームの移植版で、新たに音声を追加。,ノスタルジア1907,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ノスタルジア1907,M726901,nost1907
+mcd-jp-0004,1991-12-20,惑星ウッドストック ファンキーホラーバンド,セガ,G-6001,6800,税抜,メガCD初のRPG,惑星ウッドストック ファンキーホラーバンド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,F.H.B FUNKY HORROR BAND,M726893,funkband
+mcd-jp-0005,1991-12-20,アーネスト・エバンス,ウルフ・チーム,T-32014,7300,税抜,アーネスト・エバンス三部作の第2作。 北米ではメガドライブ用タイトルとして発売。,アーネスト・エバンスシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,EARNEST EVANS,M726892,earnest
+mcd-jp-0006,1991-12-28,天下布武 英雄たちの咆哮,ゲームアーツ,T-45024,7800,税抜,,天下布武〜英雄たちの咆哮〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,天下布武 英雄たちの咆哮,M764583,tenkafub
+mcd-jp-0007,1992-02-18,精霊神世紀フェイエリア,ウルフ・チーム,T-32034,7400,税抜,,精霊神世紀フェイエリア,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,精霊神世紀 フェイエリア,M726852,fheyarea
+mcd-jp-0008,1992-03-27,コズミックファンタジーStories,日本テレネット,T-49014,7800,税抜,PCエンジン用ソフト『コズミック・ファンタジー 冒険少年ユウ』と『コズミック・ファンタジー2 冒険少年バン』のシステムを統一したうえでまとめて収録。,コズミック・ファンタジー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,コズミック・ファンタジー Stories,M726815,cfstory
+mcd-jp-0009,1992-04-17,デス・ブリンガー 秘められた紋章,日本テレネット,T-49034,,,同名PCゲームの移植版,デス・ブリンガー,Wikipedia+MAME,MAME+No-Intro,,,,deathbrn
+mcd-jp-0010,1992-05-29,クイズスクランブルスペシャル,セガ,G-6003,6800,税抜,メガCD初のクイズゲーム。 ビクター製ワンダーメガ付属ソフト『ワンダーメガコレクション』に収録されていたソフト「クイズスクランブル」を単体発売したもの。,クイズスクランブルスペシャル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,QUIZ SCRAMBLE SPECIAL,M726779,quizss
+mcd-jp-0011,1992-05-29,アイルロード,ウルフ・チーム,T-32044,7800,税抜,実写ムービーとキャラクターグラフィックが併用される場面あり,アイルロード,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,AISLE LORD,M726780,aislelrd
+mcd-jp-0012,1992-06-19,魔法の少女シルキーリップ,日本テレネット,T-49024,7400,税抜,魔法少女を題材としたアドベンチャーゲーム,魔法の少女シルキーリップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,魔法の少女 シルキーリップ,M726770,silkylip
+mcd-jp-0013,1992-06-26,LUNAR ザ・シルバースター,ゲームアーツ,T-45014,7800,税抜,,LUNAR ザ・シルバースター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,LUNAR THE SILVER STAR,M726764,lunarjb
+mcd-jp-0014,1992-07-26,SING!! Sega Game Music Presented by B.B. Queens,BMGビクター,,,,メガCD用ソフト『テディーボーイブルース』に加え、B.B.クィーンズ他によるセガ作品のカバー楽曲を収録したオムニバスアルバム（市販の音楽CD）。Wikipedia の「その他」節から追加,SING!! 〜SEGA GAME MUSIC presented by B.B.Queens,Wikipedia+MAME,,,,,sing
+mcd-jp-0015,1992-07-31,デトネイター・オーガン,ホット・ビィ,T-28014,7800,税抜,同名OVAをゲーム化,DETONATORオーガン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DETONATOR オーガン,M726735,detonatr
+mcd-jp-0016,1992-08-07,プリンス・オブ・ペルシャ,ビクター音楽産業,T-60014,,,同名メガドライブ用ソフトに、ボイスおよびビジュアルシーンを追加。 北米ではSega CD本体と同時発売。,プリンス・オブ・ペルシャ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726726,ppersiaj
+mcd-jp-0017,1992-08-28,サンダーストームFX,ウルフ・チーム,T-32064,7800,税抜,1984年稼働の同名レーザーディスクゲームの移植版。 北米ではSega CD本体と同時発売。,サンダーストーム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THUNDER STORM FX,M726717,tstormfxb
+mcd-jp-0018,1992-09-11,ブライ 八玉の勇士伝説,セガ,G-6004,7800,税抜,同名PCゲームの移植版 上下巻とされたが、下巻に相当する続編は未発売,ブライ 八玉の勇士伝説,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BURAI,M726711,burai
+mcd-jp-0019,1992-09-25,ライズ・オブ・ザ・ドラゴン,セガ,G-6002,,,同名PCゲームの移植版。 性的描写は削除された一方、薬物使用などは残されており、セガの北米法人による自主審査機関・Videogame Rating CouncilはMA-17を指定 北米では1994年に再販。,ライズ・オブ・ザ・ドラゴン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726702,risedrgj
+mcd-jp-0020,1992-09-25,ワンダードッグ,ビクター音楽産業,T-60074,,,ワンダーメガのマスコットキャラクターを主役とした横スクロールアクション,ワンダードッグ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726701,wonderdgj
+mcd-jp-0021,1992-10-23,ブラックホールアサルト,マイクロネット,T-22024,6800,税抜,『ヘビーノバ』の続編。 北米ではSega CD本体と同時発売。,ブラックホールアサルト,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BLACK HOLE ASSAULT,M726687,blackhj
+mcd-jp-0022,1992-10-30,プロ野球スーパーリーグCD,セガ,G-6010,7800,税抜,アーケードゲーム『クラッチヒッター』の移植版。 当初のタイトルは『プロ野球'92』。,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プロ野球スーパーリーグCD,M755921,proyakcd
+mcd-jp-0023,1992-11-13,タイムギャル,ウルフ・チーム,T-32114,7800,税抜,同名レーザーディスクゲームの移植版。,タイムギャル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,TIME GAL,M726676,timegalj
+mcd-jp-0024,1992-11-27,電忍アレスタ,コンパイル,T-66014,6800,税抜,アレスタシリーズの1作品。 日本版と国外版では仕様に若干の差異あり。,電忍アレスタ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,電忍アレスタ,M726656,dennin
+mcd-jp-0025,1992-12-18,アフターバーナーIII,CRI,T-68014,,,XE-1 APアナログジョイパッド対応 アーケードゲーム『ストライクファイター』の移植版。,アフターバーナー (ゲーム),Wikipedia+MAME,MAME+No-Intro,,,,aburner3j
+mcd-jp-0026,1992-12-18,ロードブラスターFX,ウルフ・チーム,T-32124,7800,税抜,1984年稼働の同名レーザーディスクゲームの移植版。 英語名が原題と異なるのは、アタリのレースゲーム『ロードブラスターズ』のメガドライブ版との混同を避けるためとされる。,ロードブラスター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ROAD BLASTER FX,M726629,rbfx
+mcd-jp-0027,1992-12-18,ぎゅわんぶらあ自己中心派2 激闘!東京マージャンランド編,ゲームアーツ,T-45044,7800,税抜,漫画『ぎゅわんぶらあ自己中心派』と『スーパーヅガン』をゲーム化。,ぎゅわんぶらあ自己中心派,Wikipedia+MADB,MAME+MADB+No-Intro,MADB,ぎゅわんぶらあ自己中心派2 激闘! 東京マージャンランド編,M726639,gambler2
+mcd-jp-0028,1992-12-25,天舞メガCDスペシャル,ウルフ・チーム,T-32084,9800,税抜,PCゲーム『天舞』の移植版で、実写ムービーを追加。,天舞メガCDスペシャル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,天舞メガCDスペシャル,M764624,tenbu
+mcd-jp-0029,1992-12-25,カプコンのクイズ殿様の野望,シムス,T-44024,7800,税抜,同名アーケードゲームの移植版,カプコンのクイズ殿様の野望,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カプコンのクイズ殿様の野望,M746728,quiztono
+mcd-jp-0030,1993-01-03,サイキック・ディテクティブ・シリーズVol.3 AYA,データウエスト,T-64024,7600,税抜,同名PCゲームの移植版。,サイキック・ディテクティブ・シリーズ,Wikipedia+MADB+MAME,MAME,MADB,AYA サイキック・ディテクティブ・シリーズ Vol. 3,M737430,psychic3
+mcd-jp-0031,1993-01-29,ゆみみみっくす,ゲームアーツ,T-45034,7800,税抜,漫画家の竹本泉がキャラクターデザイン及び脚本を手掛けたアドベンチャーゲーム。,ゆみみみっくす,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゆみみみっくす,M726586,yumimimx
+mcd-jp-0032,1993-03-12,シムアース,セガ,G-6008,7800,税抜,ガイア理論に基づき惑星を育てるゲーム。セガマウス対応。,シムアース,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,シムアース,M749176,simearth
+mcd-jp-0033,1993-03-12,ニンジャウォーリアーズ,タイトー,T-11024,6800,税抜,同名アーケードゲームのアレンジ移植。,ニンジャウォーリアーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ニンジャウォーリアーズ,M753145,ninjawar
+mcd-jp-0034,1993-03-19,ウルフチャイルド,ビクター音楽産業日米,T-60104,8800,税抜,同名PCゲームの移植版。 北米ではSega CD本体と同時発売。,ウルフチャイルド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,WOLFCHILD,M726555,wolfchldj
+mcd-jp-0035,1993-03-26,ジャガーXJ220,ビクター音楽産業日米,T-60094,8800,税抜,同名Amiga用ゲームの移植版。,ジャガーXJ220,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,JAGUAR XJ220,M726545,jagxj220j
+mcd-jp-0036,1993-03-30,アネット再び,ウルフ・チーム,T-32104,7800,税抜,『エル・ヴィエント』の続編。,アーネスト・エバンスシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アネット再び,M745005,anettfut
+mcd-jp-0037,1993-04-02,ファイナルファイトCD,セガ,G-6013,8800,税抜,アーケードゲーム『ファイナルファイト』のアレンジ移植。,ファイナルファイト,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Final Fight CD,M726535,ffightcdj
+mcd-jp-0038,1993-04-23,SEGA CLASSIC ARCADE COLLECTION,セガ,G-6012,2980,税抜,日本では『ザ・リベンジ・オブ・シノビ』『ゴールデンアックス』『ベア・ナックル』『コラムス』を収録。当初は1992年11月20日発売のメガCD本体との同梱品のみの流通だったが後に単品発売。,セガクラシック アーケードコレクション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SEGA CLASSIC ARCADE COLLECTION LIMITED EDITION,M726523,segaacjb
+mcd-jp-0039,1993-04-23,SWITCH,セガ,G-6009,8800,税抜,セガマウス対応,SWITCH (セガのゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SWITCH,M726524,switch
+mcd-jp-0040,1993-04-23,らんま1/2 白蘭愛歌,メサイヤ,T-25014,8300,税抜,アニメ『らんま1/2』を題材としたアドベンチャーゲーム。,らんま1/2 白蘭愛歌,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,らんま1/2 白蘭愛歌,M726525,ranma
+mcd-jp-0041,1993-04-23,三國志III,光栄,T-76014,14800,,同名メガドライブ用ソフトの移植版に、キャラクターファイルなどが追加。,三國志III,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,三國志 3,M726526,sangoku3
+mcd-jp-0042,1993-05-28,デバステイター,ウルフ・チーム,T-32074,7800,税抜,同名OVAをゲーム化。,D-1 DEVASTATOR,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デバステイター,M751893,devastat
+mcd-jp-0043,1993-05-28,ナイトストライカー,タイトー,T-11014,7800,税抜,XE-1 APアナログジョイパッド対応 同名アーケードゲームの移植版。,ナイトストライカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイトストライカー,M752812,nstriker
+mcd-jp-0044,1993-05-28,幻影都市 -ILLUSION CITY-,マイクロキャビン,T-51014,4980,税抜,同名PCゲームの移植版,幻影都市 -ILLUSION CITY-,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,幻影都市 -ILLUSION CITY-,M761155,illcity
+mcd-jp-0045,1993-06-25,メガシュヴァルツシルト,セガ,G-6020,7800,税抜,PCエンジン用ソフト『シュヴァルツシルト』の移植版。 当初のタイトルは『シュヴァルツシルト』。,シュヴァルツシルト (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,MEGA Schwarzschild,M726492,megaschw
+mcd-jp-0046,1993-06-25,Aランクサンダー 誕生編,RIOT,T-49064,7800,税抜,『魔法の少女 シルキーリップ』のシステムを応用したアドベンチャーゲーム。,Aランクサンダー 誕生編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Aランクサンダー 誕生編,M737437,arank
+mcd-jp-0047,1993-07-16,ダイナミックカントリークラブ,セガ,G-6017,7800,税抜,セガタップ対応 同名アーケードゲームの移植版,ダイナミックカントリークラブ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダイナミックカントリークラブ,M750879,dynamicc
+mcd-jp-0048,1993-07-23,聖魔伝説3×3EYES,セガ,G-6007,8800,税抜,同名漫画をゲーム化,3×3EYES,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,聖魔伝説3×3EYES,M726469,3x3eyes
+mcd-jp-0049,1993-07-23,アークスI・II・III,ウルフ・チーム,T-32094,8800,税抜,アークスシリーズ3作品を収録,アークス (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アークス1・2 ・3,M733907,arcus123
+mcd-jp-0050,1993-07-30,サイボーグ009,RIOT,T-49054,7800,税抜,同名漫画をゲーム化,サイボーグ009,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイボーグ009,M748719,cyborg9
+mcd-jp-0051,1993-07-30,シルフィード,ゲームアーツ,T-45054,8800,税抜,同名PCゲームの移植版。 当初のタイトルは『スーパーシルフィード』,シルフィード (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SILPHEED,M726465,silpheedj
+mcd-jp-0052,1993-07-30,バリ・アーム,ヒューマン,T-43024,7500,税抜,変形機構を持ったロボット戦闘機を主役としたサイドビューシューティング,バリ・アーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バリ・アーム,M754318,bariarmj
+mcd-jp-0053,1993-08-06,江川卓のスーパーリーグCD,セガ,G-6019,7800,税抜,元プロ野球選手である江川卓監修の野球ゲームで、スーパーリーグシリーズの最終作。 当初のタイトルは『江川卓のプロ野球'93』。,江川卓 (野球),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,江川卓のスーパーリーグCD,M761279,supleag
+mcd-jp-0054,1993-08-06,慶応遊撃隊,ビクターエンタテインメント日米,T-60114,7400,税抜,主人公である七光蘭未の声に菅野美穂を起用。,慶応遊撃隊,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,慶応遊撃隊,M760959,keioj
+mcd-jp-0055,1993-08-27,雀豪ワールドカップ,ビクターエンタテインメント,T-60124,8200,税抜,4人打ち麻雀ゲーム,雀豪ワールドカップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,雀豪 ワールドカップ,M726441,jangouwc
+mcd-jp-0056,1993-09-17,笑ゥせぇるすまん,セガ,G-6006,7800,税抜,セガマウス対応 同名漫画をゲーム化。,笑ゥせぇるすまん,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,笑ゥせぇるすまん,M726429,salesman
+mcd-jp-0057,1993-09-17,サンダーホーク,ビクターエンタテインメント,T-60134,7800,税抜,同名PCゲームの移植版。,,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THUNDER HAWK,M726430,thawkj
+mcd-jp-0058,1993-09-17,ウイニングポスト,光栄,T-76044,9800,税抜,同名アーケードゲームの移植版,ウイニングポスト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイニングポスト,M745641,winpost
+mcd-jp-0059,1993-09-23,ソニック・ザ・ヘッジホッグCD,セガ,G-6021,,,日本での当初のタイトルは『CDソニック・ザ・ヘッジホッグ』 北米版では主題歌を差し替え,ソニック・ザ・ヘッジホッグCD,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726425,soniccdj
+mcd-jp-0060,1993-09-23,モンキー・アイランド ユーレイ海賊大騒動!,ビクターエンタテインメント,T-60044,8800,税抜,セガマウス対応 PCゲーム『モンキー・アイランド』の移植版,モンキー・アイランド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,モンキー・アイランド ユーレイ海賊大騒動!,M757899,monkeyj
+mcd-jp-0061,1993-09-24,蒼き狼と白き牝鹿・元朝秘史,光栄,T-76034,9800,,同名メガドライブ用ソフトに、人物事典やサウンドファイルなどが追加,蒼き狼と白き牝鹿・元朝秘史,Wikipedia+MADB+MAME,MAME,MADB,蒼き狼と白き牝鹿・元朝秘史,M726424,genchohi
+mcd-jp-0062,1993-10-22,Vay 流星の鎧,シムス,T-44014,,,ファンタジーRPG 雑誌「BEEP!メガドライブ」にて敵キャラクターデザインの公募が行われ、採用されたキャラクターがゲーム内に登場,Vay 流星の鎧,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726411,vayj
+mcd-jp-0063,1993-10-29,リーサルエンフォーサーズ,コナミ,T-95014,9800,税抜,同名アーケードゲームの移植版。周辺機器同梱。 非売品として、雑誌『ファミコン通信』の景品として提供された『リーサルエンフォーサーズ ファミ通版』が存在する,リーサルエンフォーサーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リーサルエンフォーサーズ,M758438,lethalenj
+mcd-jp-0064,1993-11-12,ダークウィザード 蘇りし闇の魔導士,セガ,G-6005,6800,税抜,ファンタジー調のシミュレーションゲームでRPGの要素もある。,ダークウィザード 蘇りし闇の魔導士,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダーク ウィザード ～蘇りし闇の魔導士～,M750758,darkwizj
+mcd-jp-0065,1993-11-19,アルスラーン戦記,セガ,G-6028,7800,税抜,同名小説をゲーム化,アルスラーン戦記,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,アルスラーン戦記,M726392,arslan
+mcd-jp-0066,1993-11-19,ナイトトラップ,セガ,G-6025,8800,,実写取り込みを用いたリアルタイムアドベンチャー 北米ではSega CD本体と同時発売後、MA-17指定で再リリース、さらにパッケージ変更され再々リリース。,ナイトトラップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,NIGHT TRAP,M726391,ntrapj
+mcd-jp-0067,1993-11-26,マイト アンド マジックIII,CRI,T-68024,6800,税抜,同名ゲームの移植版。セガマウス対応,マイト・アンド・マジック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マイト アンド マジック 3,M756688,mightmg3
+mcd-jp-0068,1993-11-26,アルシャーク,サンドストーム,T-92014,8800,税抜,同名PCゲームの移植版,アルシャーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アルシャーク,M745132,alshark
+mcd-jp-0069,1993-11-26,ザ・サード ワールド ウォー,マイクロネット,T-22034,7800,税抜,,ザ・サード ワールド ウォー,Wikipedia+MADB,MAME+No-Intro,MADB,ザ サード ワールド ウォー,M748485,3rdwwj
+mcd-jp-0070,1993-12-10,夢見館の物語,セガ日欧,G-6027,7800,税抜,セガマウス対応 当初のタイトルは『華の館』。,夢見館の物語,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,夢見館の物語,M726368,yumemi
+mcd-jp-0071,1993-12-10,サイキック・ディテクティブ・シリーズVol.4 オルゴール,データウエスト,T-64034,7600,税抜,同名PCゲームの移植版。,サイキック・ディテクティブ・シリーズ,Wikipedia+MADB+MAME,MAME,MADB,サイキック・ディテクティブ・シリーズVol. 4 オルゴール,M748662,psychic4
+mcd-jp-0072,1993-12-28,戦国伝承,サミー,T-24034,8500,税抜,同名アーケードゲームの移植版。,戦国伝承,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,戦国伝承,M763523,sengoku
+mcd-jp-0073,1994-01-28,いしいひさいちの大政界,セガ,G-6016,7800,税抜,同名漫画を題材としたシミュレーションゲーム。,いしいひさいちの大政界,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,いしいひさいちの大政界,M745359,ishiihis
+mcd-jp-0074,1994-02-25,真・女神転生,シムス,T-44044,7800,税抜,セガマウス対応 同名スーパーファミコン用ソフトの移植版,真・女神転生,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,真・女神転生,M726307,shinmt
+mcd-jp-0075,1994-02-25,マイクロコズム,ビクターエンタテインメント,T-60164,,,人間の体内を舞台とした同名ゲームの移植版,マイクロコズム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726308,microcosj
+mcd-jp-0076,1994-03-18,ゲームのかんづめ VOL.1,セガ,G-6032,3980,税抜,メガドライブ用サービス『ゲーム図書館』配信作を収録したオムニバスソフト。,ゲームのかんづめ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゲームのかんづめVol. 1,M726286,gamenk1
+mcd-jp-0077,1994-03-18,ゲームのかんづめ VOL.2,セガ,G-6033,3980,税抜,メガドライブ用サービス『ゲーム図書館』配信作を収録したオムニバスソフト。,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲームのかんづめVol. 2,M747977,gamenk2
+mcd-jp-0078,1994-03-18,F1サーカスCD,ニチブツ,T-71014,8800,税抜,,F1サーカス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,F1サーカスCD,M738960,f1circus
+mcd-jp-0079,1994-03-18,ハイムドール,ビクターエンタテインメント,T-60154,8800,税抜,同名PCゲームの移植版。,ハイムドール,Wikipedia+MADB+MAME,MAME,MADB,HEIMDALL,M726285,heimdallj
+mcd-jp-0080,1994-03-25,AX-101,セガ,G-6031,7800,税抜,バーチャルシネマシリーズの一作にあたる3Dシューティングゲームで、元気とマイクロネットが共同開発した。,AX-101,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,AX-101,M726272,ax101j
+mcd-jp-0081,1994-03-25,ウイングコマンダー,セガ,G-6011,7800,税抜,ウィングコマンダーシリーズ第1作で、同名PCゲームの移植版。,ウイングコマンダー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウイングコマンダー,M745681,wingcommj
+mcd-jp-0082,1994-03-25,ダンジョンマスターII スカルキープ,ビクターエンタテインメント,T-60144,,,セガマウス対応 当初のタイトルは『ダンジョンマスター』。 なお、『ダンジョンマスターII』自体は三部作の予定だったが、版権元のFTLの倒産により同作のみの発売となった。,ダンジョンマスター,Wikipedia+MAME,MAME+No-Intro,,,,dmaster2j
+mcd-jp-0083,1994-03-25,信長の野望・覇王伝,光栄,T-76024,12800,税抜,セガマウス対応 同名ゲームの移植版に、人物紹介などが追加。,信長の野望・覇王伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,信長の野望・覇王伝,M762500,nobuhao
+mcd-jp-0084,1994-04-01,ぽっぷるメイル,セガ,G-6029,7800,税抜,同名PC用ゲームのアレンジ移植。,ぽっぷるメイル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぽっぷるメイル,M756409,popmailj
+mcd-jp-0085,1994-04-15,うる星やつら 〜ディア マイ フレンズ〜,ゲームアーツ,T-45064,7800,税抜,セガマウス対応 アニメ『うる星やつら』をゲーム化。,うる星やつら 〜ディア マイ フレンズ〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,うる星やつら ディア マイ フレンズ,M726251,uruseiya
+mcd-jp-0086,1994-04-15,バトルファンタジー,マイクロネット,T-22044,8400,税抜,対戦型格闘ゲームとRPGを組み合わせた作品。,BATTLE FANTASY,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BATTLE FANTASY,M726252,batlfant
+mcd-jp-0087,1994-04-22,爆伝 アンバランスゾーン,ソニー・ミュージックエンタテインメント,T-145014,7800,税抜,爆風スランプ監修、キャラクターデザインは赤塚不二夫。 同期時に発売された同名PCエンジン用ソフトは姉妹作。,爆伝 アンバランスゾーン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,爆伝 アンバランスゾーン,M765388,bakuden
+mcd-jp-0088,1994-04-22,アイ・オブ・ザ・ビホルダー,ポニーキャニオン,T-75014,7800,税抜,セガマウス対応 同名PCゲームの移植版で、メガCD版独自要素として古代祐三が作曲した楽曲を収録。,アイ・オブ・ザ・ビホルダー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アイ・オブ・ザ・ビホルダー,M744417,eyebeholj
+mcd-jp-0089,1994-04-23,ヘブンリーシンフォニー,セガ,G-6034,7800,税抜,セガとフジテレビが共同で開発したF1レースゲーム,ヘブンリーシンフォニー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ヘブンリーシンフォニー,M756016,heavenly
+mcd-jp-0090,1994-05-13,仮面ライダーZO,東映ビデオ,T-141013,,,同名映画のゲーム化であり、劇中映像を使用。,仮面ライダーZO,Wikipedia+MADB+MAME,MAME,,,M726237,kamenrzoj
+mcd-jp-0091,1994-05-20,ロードス島戦記 英雄戦争,セガ,G-6024,7800,税抜,小説『ロードス島戦記』をゲーム化、出演声優はOVA版と同様。,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロードス島戦記 英雄戦争,M758950,lodoss
+mcd-jp-0092,1994-06-03,ドラゴンズレア,セガ,G-6035,6800,税抜,1983年に稼働した同名レーザーディスクゲームの移植版。,ドラゴンズレア,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラゴンズ・レア,M752483,dlairj
+mcd-jp-0093,1994-06-03,モータルコンバット完全版,アクレイムジャパン,T-81014,6800,税抜,内容はメガドライブ版と同じだが、演出強化などの追加要素あり。,モータルコンバット,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,MORTAL KOMBAT 完全版,M726223,mkj
+mcd-jp-0094,1994-06-24,WWFマニア・ツアー,アクレイムジャパン,,6800,税抜,,WWFマニア・ツアー,Wikipedia+MADB,,MADB,WWFマニア・ツアー,M744084,
+mcd-jp-0095,1994-07-22,シャイニング・フォースCD,セガ,G-6036,7800,税抜,ゲームギア用ソフト『シャイニング・フォース外伝 遠征・邪神の国へ』と『シャイニング・フォース外伝II 邪神の覚醒』のリメイク移植と新規シナリオを収録。,シャイニング・フォースCD,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SHINING FORCE CD,M726195,shinfrcej
+mcd-jp-0096,1994-07-29,シャドー・オブ・ザ・ビーストII 獣神の呪縛,ビクターエンタテインメント,T-60034,8800,税抜,『シャドー・オブ・ザ・ビースト』の続編 同名PC用ソフトの移植版。,シャドー・オブ・ザ・ビーストII 獣神の呪縛,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,シャドー オブ ザ ビースト2 獣神の呪縛,M734122,beast2j
+mcd-jp-0097,1994-09-22,スター・ウォーズ レベルアサルト,ビクターエンタテインメント,T-60174,8800,税抜,映画『スター・ウォーズ』をゲーム化。,スター・ウォーズ レベルアサルト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スター ウォーズ・レベル・アサルト,M749902,swraj
+mcd-jp-0098,1994-09-30,ジュラシック・パーク,セガ,G-6038,7800,税抜,同名映画をゲーム化。,ジュラシック・パーク (メガCDのゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジュラシック パーク,M749350,jparkj
+mcd-jp-0099,1994-09-30,キャプテン翼,テクモ,T-36014,7800,税抜,同名漫画をゲーム化。,キャプテン翼 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キャプテン翼,M747193,ctsuba
+mcd-jp-0100,1994-09-30,バトルコープス,ビクターエンタテインメント,T-60194,8000,税抜,,バトルコープス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バトルコープス,M754116,btlcorpsj
+mcd-jp-0101,1994-10-28,スターブレード,ナムコ,T-14014,7800,税抜,XE-1 APアナログジョイパッド、セガマウス対応 同名アーケードゲームの移植版。,スターブレード,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,STARBLADE,M726128,starbladj
+mcd-jp-0102,1994-11-11,アフターハルマゲドン外伝 魔獣闘将伝エクリプス,セガ,G-6026,7800,税抜,PCゲーム『ラストハルマゲドン』の関連作品。,アフターハルマゲドン外伝 魔獣闘将伝エクリプス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アフターハルマゲドン外伝 魔獣闘将伝エクリプス,M745023,afterarm
+mcd-jp-0103,1994-11-25,リーサルエンフォーサーズII ザ・ウエスタン,コナミ,T-95034,9800,税抜,ジャスティファイアー対応 同名アーケードゲームの移植版。,リーサルエンフォーサーズII ザ・ウエスタン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,リーサルエンフォーサーズ2  ザ ウエスタン 光線銃付き,M734509,le2j
+mcd-jp-0104,1994-12-20,NBAジャム,アクレイムジャパン,T-81034,8800,税抜,セガタップ対応 メガドライブ版から一部選手を変更。,NBAジャム (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NBAジャム,M741087,nbajamj
+mcd-jp-0105,1994-12-22,トムキャットアレイ,セガ,G-6039,7800,税抜,戦闘機F-14を操縦するゲーム。,トムキャットアレイ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トムキャットアレイ,M752301,tcatalyj
+mcd-jp-0106,1994-12-22,ルナ エターナルブルー,ゲームアーツ,T-45074,,,北米版ではオープニングムービーの内容を変更。,LUNAR ETERNAL BLUE,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726051,lunar2jb
+mcd-jp-0107,1994-12-22,ソウルスター,ビクターエンタテインメント,T-60184,8000,税抜,,ソウルスター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ソウルスター,M750543,soulstarj
+mcd-jp-0108,1995-02-24,エコー・ザ・ドルフィンCD,セガ,G-6041,,,『エコー・ザ・ドルフィン』と『エコー・ザ・ドルフィン2』を収録し、CGムービーやオリジナルステージを追加。,エコー・ザ・ドルフィン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719641,eccoj
+mcd-jp-0109,1995-02-24,大封神伝,ビクターエンタテインメント,T-60024,6800,税抜,中国明時代の小説『封神演義』が題材。 当初のタイトルは『封神演義』。,大封神伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大封神伝,M764146,daihoush
+mcd-jp-0110,1995-03-24,ダブルスイッチ,セガ,G-6040,6800,税抜,ムック『メガドライブコンプリートガイドデラックス With マークIII』によると、『ナイトトラップ』の続編的作品とされる。,ダブルスイッチ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DOUBLE SWITCH,M725985,dblswtchj
+mcd-jp-0111,1995-03-24,プライズファイター,セガ,G-6037,6800,税抜,バーチャルシネマシリーズの一つ。 北米ではソフト単体で発売されたほか、X'eye（北米版ワンダーメガ）にも同梱された。,プライズファイター (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プライズファイター,M755456,prizefigj
+mcd-jp-0112,1995-03-31,餓狼伝説SPECIAL,ビクターエンタテインメント,,6800,税抜,ファイティングパッド6B対応 同名アーケードゲームの移植作。,餓狼伝説スペシャル,Wikipedia+MADB,,MADB,餓狼伝説 SPECIAL,M760273,
+mcd-jp-0113,1995-09-01,ファーレンハイト,セガ,G-6043,6800,税抜,バーチャルシネマシリーズの一つで、消防士を主題としている。 アメリカでは、セガCD32Xバージョンも発売。,ファーレンハイト (1995年のビデオゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファーレンハイト,M754844,fahrenhej
+mcd-jp-0114,1995-12-22,サージカルストライク,セガ,,6800,税抜,ホバークラフト状の兵器に搭乗するシューティングゲーム。,サージカルストライク,Wikipedia+MADB,,MADB,サージカル ストライク,M748651,
+mcd-jp-0115,1996-02-23,シャドウラン,コンパイル,,7800,税抜,テーブルトークRPGの『シャドウラン』のコンピュータゲーム化作品で、最後のメガCD用ソフト。当初はセガから発売される予定だった。,シャドウラン (1996年のビデオゲーム),Wikipedia+MADB,,MADB,シャドウラン,M749279,

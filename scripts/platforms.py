@@ -210,6 +210,48 @@ def _circle(col):
     return lambda row: "yes" if re.search(r"[○◯〇]", row.get(col, "")) else ""
 
 
+def _md_models(text):
+    """メガドライブ・メガCD・32X の型番（セガ 'G-4128'、ライセンシー 'T-66013'、32X 'GM-4002'、
+    エレクトロニック・アーツ・ビクター 'EM20003'）。
+    MAME の 'G-5514 (Jpn), MK-1135-50 (Euro)' のような並記からは海外版の部分を除く。"""
+    out = []
+    for part in re.split(r",|;|/", text or ""):
+        if re.search(r"\((Euro|Eur|USA|US|Kor|Bra|Asia)", part, re.I):
+            continue
+        for m in re.finditer(r"(?<![A-Z0-9-])((?:GM|G|T)-\d{4,6}|EM\d{5})(?![\d])", part.upper()):
+            if m.group(1) not in out:
+                out.append(m.group(1))
+    return out
+
+
+def _md_jp_models(serial):
+    """MAME で説明に Japan が無くても、シリアルに '(Jpn)' とあれば日本版。"""
+    return _md_models(serial) if re.search(r"jpn", serial or "", re.I) else []
+
+
+def _md_code(serial):
+    """Redump のシリアル（ディスクのレーベル面の型番。'T-93175'）を型番の形にそろえる。"""
+    s = (serial or "").replace(" ", "")
+    m = re.match(r"((?:GM|G|T)-\d{4,6})", s)
+    return m.group(1) if m else ""
+
+
+def _md_service(row):
+    """配信専用タイトルのサービス（本リストに載せないもの）。"""
+    n = row.get("notes", "")
+    if re.search(r"『ゲーム図書館』(配信タイトル|でのみ配信)", n):
+        return "game_toshokan"
+    if "MEGAターミナル必須" in n:
+        return "mega_terminal"
+    if re.search(r"(^|\s|日本では)セガチャンネル専用", n) and "北米ではセガチャンネル専用" not in n:
+        return "sega_channel"
+    return ""
+
+
+_MD_TABLE = {"page": "メガドライブのゲームタイトル一覧", "section": "発売されたライセンスゲームタイトル",
+             "table_id": "softwarelist", "columns": ("jp", "na", "eu", "br", "title", "publisher", "notes")}
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -434,7 +476,7 @@ PLATFORMS = {
             ],
         },
         "madb_platforms": ["ファミリーコンピュータ"],
-        "madb_media": ("", "ディスクカード"),
+        "madb_filter": lambda x: "ディスクカード" not in x["media_format"],
         "mame_lists": ["nes", "nes_datach", "nes_kstudio"],
         "mame_jp_models": _fc_models,   # 'Super Mario Bros. (World)' のように日米共通のもの（シリアルに HVC-SM）
         "dump_world": True,
@@ -465,7 +507,7 @@ PLATFORMS = {
         "derive": {"sales_channel": _fds_channel, "port_of_cartridge": _circle("d_port"),
                    "single_sided": _circle("d_single")},
         "madb_platforms": ["ファミリーコンピュータ"],
-        "madb_media": ("ディスクカード", ""),   # パッケージ版の価格（書き換え料金の出典は無い）
+        "madb_filter": lambda x: "ディスクカード" in x["media_format"],   # パッケージ版の価格（書き換え料金の出典は無い）
         "mame_lists": ["famicom_flop"],
         "mame_jp_models": lambda s: [s] if s else [],   # 説明に (Japan) が無い（全て日本のソフト）
         "nointro_dats": ["Nintendo - Family Computer Disk System"],
@@ -480,6 +522,81 @@ PLATFORMS = {
         "media": "disk",
         "tax_free_before": "1989-04-01",
         "match_date_only": True,
+    },
+    # メガドライブ（カートリッジ）。メガCD・スーパー32X は別リスト（機種キー mcd・32x、data/md/ の下）。
+    # ゲーム図書館・セガチャンネル・MEGAターミナルの配信専用タイトルは jp_online.csv（--list online）
+    "md": {
+        "name": "メガドライブ",
+        "dir": ROOT / "data" / "md",
+        "id_prefix": "md-jp",
+        "wikipedia": {"tables": [{**_MD_TABLE, "row_filter": lambda r: not _md_service(r)}]},
+        "extra_lists": {
+            "online": {
+                "out": "jp_online.csv",
+                "id_suffix": "online",
+                "tables": [{**_MD_TABLE, "row_filter": _md_service, "derive": {"service": _md_service}}],
+            },
+        },
+        "madb_platforms": ["メガドライブ"],
+        "madb_filter": lambda x: "カートリッジ" in x["media_format"] and not x["product_id"].startswith("GM-"),
+        "mame_lists": ["megadriv"],
+        "mame_jp_models": _md_jp_models,
+        "nointro_dats": ["Sega - Mega Drive - Genesis"],
+        "nointro_export": ["Sega - Mega Drive - Genesis (DB Export)"],
+        "nointro_export_fallback": {"Sega - Mega Drive - Genesis (DB Export)": "Sega - Mega Drive - Genesis"},
+        "models_from": _md_models,
+        # ROM ヘッダのコードはパッケージの型番と一致しないことが多い（獣王記 G-4001 ↔ '00054002-00'、
+        # 32X は 'MK-84508-00'）ため、型番の検証にも吸い出しとの対応にも使わない（MAME の CRC と名前で結びつける）
+        "models_from_serial": lambda s: [],
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "dump_world": True,
+        "tax_free_before": "1989-04-01",
+    },
+    # メガCD（メガドライブの別リスト）。ハッシュは Redump（libretro 収録 DAT）
+    "mcd": {
+        "name": "メガCD",
+        "dir": ROOT / "data" / "md" / "mega_cd",
+        "id_prefix": "mcd-jp",
+        "wikipedia": {"tables": [{"page": "メガCDのゲームタイトル一覧", "section": "発売されたタイトル",
+                                  "table_id": "softwarelist",
+                                  "columns": ("jp", "na", "eu", "title", "publisher", "notes")}]},
+        "madb_platforms": ["メガドライブ"],
+        "madb_filter": lambda x: "カートリッジ" not in x["media_format"],
+        "mame_lists": ["megacd"],
+        "mame_jp_models": _md_jp_models,
+        "nointro_dats": ["redump:Sega - Mega-CD - Sega CD"],
+        "nointro_export": ["Sega - Mega-CD (Redump)"],
+        "nointro_export_fallback": {"Sega - Mega-CD (Redump)": "redump:Sega - Mega-CD - Sega CD"},
+        "models_from": _md_models,
+        "models_from_serial": lambda s: [c for c in [_md_code(s)] if c],
+        "code_of": lambda m: m or "",
+        "normalize_code": _md_code,
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # スーパー32X（メガドライブの別リスト）。MADB では型番 GM- のカートリッジ
+    "32x": {
+        "name": "スーパー32X",
+        "dir": ROOT / "data" / "md" / "32x",
+        "id_prefix": "32x-jp",
+        "wikipedia": {"tables": [{"page": "スーパー32Xのゲームタイトル一覧", "section": "発売されたタイトル",
+                                  "table_id": "softwarelist",
+                                  "columns": ("jp", "na", "eu", "br", "title", "publisher", "notes")}]},
+        "madb_platforms": ["メガドライブ"],
+        "madb_filter": lambda x: x["product_id"].startswith("GM-"),
+        "mame_lists": ["32x"],
+        "mame_jp_models": _md_jp_models,
+        "nointro_dats": ["Sega - 32X"],
+        "nointro_export": ["Sega - 32X (DB Export)"],
+        "nointro_export_fallback": {"Sega - 32X (DB Export)": "Sega - 32X"},
+        "models_from": _md_models,
+        # ROM ヘッダのコードはパッケージの型番と一致しないことが多い（獣王記 G-4001 ↔ '00054002-00'、
+        # 32X は 'MK-84508-00'）ため、型番の検証にも吸い出しとの対応にも使わない（MAME の CRC と名前で結びつける）
+        "models_from_serial": lambda s: [],
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "dump_world": True,
     },
     "wii": {
         "name": "Wii",

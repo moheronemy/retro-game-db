@@ -45,17 +45,22 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      # 非公式品（Hacker）、後年の書籍付録・配信版など
                      r"|FamicomBox|Family BASIC|Menu Cart|EPROM|Digital|Disc|Sansai Mook|Ending Credits Program"
                      r"|Not For Resale|Shouhin Golf Tournament US Course|Hacker|SA-0\d+( \d+)? PCB"
-                     r"|Prize Card|Developer Card|National Tax Agency Demo)$")
+                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$"
                         r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
                         r"|^XBOX$|^Classic Mini$|^Namco Anthology \d$|^Project EGG$|^Collector's Edition$"
-                        r"|^Game & Watch - Super Mario Bros\.$")  # GameCube: GC 用ソフトに収録された ROM（N64）
+                        r"|^Game & Watch - Super Mario Bros\.$|^Evercade$|^Retro-Bit$|^Disney Classic Games$"
+                        r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Mega 6$")
+# GameCube: GC 用ソフトに収録された ROM（N64）
+ONLINE = re.compile(r"^(Sega Game Toshokan|Sega Channel)$")   # MD の通信配信版（ゲーム図書館・セガチャンネル）
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
                 ("Third Party", "third_party"), ("DAT", "dat_only")]
 
 
 def dump_kind(tags):
+    if any(ONLINE.match(t) for t in tags):
+        return "online"
     if any(VIRTUAL_CONSOLE.search(t) for t in tags):
         return "virtual_console"
     if any(COLLECTION.search(t) for t in tags):
@@ -411,7 +416,7 @@ def main():
             if r["hash_source"] == "No-Intro":
                 r["hash_source"] = cfg["hash_source"]
 
-    kind_order = {"retail": 0, "collection": 1, "virtual_console": 2, "not_for_sale": 3, "nintendo_power": 4,
+    kind_order = {"retail": 0, "collection": 1, "online": 1.5, "virtual_console": 2, "not_for_sale": 3, "nintendo_power": 4,
                   "store_demo": 5, "event_demo": 6, "beta": 7, "prototype": 8, "tech_demo": 9, "business": 10}
     rows.sort(key=lambda r: (r["title_id"], kind_order[r["dump_kind"]], r["revision"], r["dump_name"]))
     cols = ["title_id", "title", "game_code", "dump_name", "revision", "dump_kind"]

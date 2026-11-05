@@ -1,0 +1,19 @@
+id,release_date,title,publisher,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+32x-jp-0001,1994-12-03,スター・ウォーズ アーケード,セガ,GM-4002,8800,税抜,ファイティングパッド6B対応 アーケードゲーム『スター・ウォーズ』の移植版。,スター・ウォーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,STAR WARS ARCADE,M726088,swaj
+32x-jp-0002,1994-12-03,DOOM,セガ,GM-4003,,,ファイティングパッド6B対応 同名PCゲームの移植版だが、全三部のシナリオのうちBFG9000が登場するエピソード3は未収録。,DOOM,Wikipedia+MAME,MAME,,,,doomju
+32x-jp-0003,1994-12-03,スペースハリアー,セガ,GM-4005,,,日本におけるローンチタイトルで、同名アーケードゲームの移植版。XE-1 APアナログジョイパッド対応,スペースハリアー,Wikipedia+MAME,MAME,,,,sharrierju
+32x-jp-0004,1994-12-16,バーチャレーシング デラックス,セガ,GM-5001,,,ファイティングパッド6B対応 アーケードゲーム『バーチャレーシング』の移植版。,バーチャレーシング,Wikipedia+MAME,MAME,,,,vrdxj
+32x-jp-0005,1995-01-13,アフターバーナー・コンプリート,セガ,GM-4006,,,アーケードゲーム『アフターバーナーII』の移植版 XE-1 APアナログジョイパッド対応,アフターバーナー (ゲーム),Wikipedia+MAME,MAME,,,,aburnerju
+32x-jp-0006,1995-01-27,サイバーブロール,セガ,GM-4004,,,対戦格闘ゲーム。 北米ではローンチタイトルとして発売された。 日本では『The Ultimate Fighting』から改題。 日本国外ではキャラクターのデザインが差し替えられている。,サイバーブロール,Wikipedia+MAME,MAME,,,,cyberb
+32x-jp-0007,1995-02-24,メタルヘッド,セガ,GM-4008,,,ファイティングパッド6B対応,メタルヘッド (コンピュータゲーム),Wikipedia+MAME,MAME,,,,metalhdju
+32x-jp-0008,1995-02-24,GOLF MAGAZINE PRESENTS 36 GREAT HOLES STARRING FRED COUPLES,セガ,GM-5002,,,雑誌『ゴルフマガジン』協力によるゴルフゲームで、プロゴルファーのフレッド・カプルスが案内役として登場する セガタップ、ファイティングパッド6B対応,GOLF MAGAZINE PRESENTS 36 GREAT HOLES STARRING FRED COUPLES,Wikipedia+MAME,MAME,,,,36greatju
+32x-jp-0009,1995-03-24,TEMPO,セガ,GM-4009,,,音楽をモチーフとした横スクロールアクションゲームで、レッドカンパニーが開発した。,TEMPO (テレビゲーム),Wikipedia+MAME,MAME,,,,tempo
+32x-jp-0010,1995-04-21,カオティクス,セガ,GM-5003,,,ソニックシリーズに登場するナックルズ・ザ・エキドゥナを主役としたアクションゲーム。,カオティクス,Wikipedia+MAME,MAME,,,,chaotixju
+32x-jp-0011,1995-04-26,ステラアサルト,セガ,GM-4010,,,ファイティングパッド6B対応 日本では『バレットファイターズ』から改題。,ステラアサルト,Wikipedia+MAME,MAME,,,,stellarj
+32x-jp-0012,1995-05-19,モータルコンバットII 究極神拳,アクレイムジャパン,T-8104,,,モータルコンバットシリーズ第2弾。ファイティングパッド6B対応,モータルコンバット,Wikipedia+MAME,MAME,,,,mk2ju
+32x-jp-0013,1995-07-14,パラスコード,セガ,GM-4012,,,クォータービューを採用した3Dシューティングゲーム。 日本では『MOTHER BASE』から改題。 北米ではアーケードゲーム『ザクソン』の名を冠している。,パラスコード,Wikipedia+MAME,MAME,,,,zaxxon2kju
+32x-jp-0014,1995-07-14,NFLクォーターバッククラブ'95,アクレイムジャパン,T-8103,,,同名メガCD用ソフト移植版。セガタップ対応,NFLクォーターバッククラブ'95,Wikipedia+MAME,MAME,,,,nflqb
+32x-jp-0015,1995-07-28,三國志IV,光栄,T-7601,,,三國志シリーズ第4弾 ファイティングパッド6B対応,三國志IV,Wikipedia+MAME,MAME,,,,sangoku4
+32x-jp-0016,1995-09-01,NBAジャム・トーナメントエディション,アクレイムジャパン,T-8102,,,,NBAジャム・トーナメントエディション,Wikipedia+MAME,MAME,,,,nbajamte
+32x-jp-0017,1995-09-01,WWF RAW,アクレイムジャパン,T-8101,,,セガタップ対応,WWF RAW (ゲーム),Wikipedia+MAME,MAME,,,,wwfraw
+32x-jp-0018,1995-10-20,バーチャファイター,セガ,GM-4013,,,ファイティングパッド6B対応 同名アーケードゲームの移植版で、日本における最後のスーパー32X用ソフト。,バーチャファイター,Wikipedia+MAME,MAME,,,,vfju

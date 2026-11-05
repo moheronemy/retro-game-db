@@ -40,14 +40,14 @@ fc-jp-0018,ロードランナー,,Lode Runner (Japan) (Virtual Console),0,virtua
 fc-jp-0019,ナッツ&ミルク,,Nuts & Milk (Japan) (En),0,retail,24576,739a1027,143b93abeea246aabd80470eee8ca1cb,bd815e9731c7685ee8820434f13a3242c091f285,,dat_only,1,,,,,,,nutsmilk,good,No-Intro,1
 fc-jp-0020,ギャラクシアン,,Galaxian (Japan) (En),0,retail,16384,084f61cd,01c1f123f436943527f50eb585025b99,44bc6c4e8b3f6c635281b4c05382e8f316d8269e,,dat_only,1,,,,,,,galaxiana,good,No-Intro,1
 fc-jp-0020,ギャラクシアン,,Galaxian (Japan) (En) (Rev 1),1,retail,16384,76a6a813,7ea72482234ac1b3754153a559213367,0fe9120fd5adc2790b0b9e8fadd136f9c66a709f,,dat_only,1,,,,,,,galaxian,baddump,No-Intro,1
-fc-jp-0020,ギャラクシアン,,Galaxian (World) (Rev 1) (Evercade),1,retail,16384,2c9b7b33,a743efbd8a79726d7f1f4a0bef88e981,345a4fd5a1a1dd62e2ca1dedaac8a40d48b5507a,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0020,ギャラクシアン,,"Galaxian (World) (Namcot Collection, Namco Museum Archives Vol 1)",0,collection,16384,b6805889,6082941816e8e5c534f011642b293e3a,a81f0d93927b6b9c52a634d6e7b90bac98090fd8,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0020,ギャラクシアン,,Galaxian (World) (Rev 1) (Evercade),1,collection,16384,2c9b7b33,a743efbd8a79726d7f1f4a0bef88e981,345a4fd5a1a1dd62e2ca1dedaac8a40d48b5507a,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0021,デビルワールド,,Devil World (Japan),0,retail,24576,5fab6bce,7a6c790514130eec0fb368f74b07ad74,865a7a740f67b14be84d496e49d434cdedeaf210,,dat_only,1,,,,,,,devlwrldj1,good,No-Intro,1
 fc-jp-0021,デビルワールド,,Devil World (Japan) (Rev 1),1,retail,24576,145a9a6c,7bc1f99bf64ae561ec71f5564c1e321f,b07c874be0c36b1d071f4e5005215926ed0f0d20,,dat_only,1,,,,,,,devlwrldj,good,No-Intro,1
 fc-jp-0022,パックマン,,Pac-Man (Japan) (En),0,retail,24576,3e95ba25,991118f99cde0ad3fb2bf452d038e93b,3816ed83b51d53691ee4e4bd3428847df97e58d6,,dat_only,1,,,,,,,pacmanj2,good,No-Intro,1
-fc-jp-0022,パックマン,,Pac-Man (World) (Evercade),0,retail,24576,7bfc57c0,ee0ceaec71ea26a22cef74d77b4a675d,5ff73cb03cdf1d2329c1d4589b18edd94bec5efe,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0022,パックマン,,Pac-Man (Japan) (En) (Rev 1),1,retail,24576,5cdb2823,e4cc2e365fe5d0a43bb538981ab37bfd,2716ea4476fd4c6cdcbbf184f94558b5f233b3ae,,dat_only,1,,,,,,,pacmanj1,good,No-Intro,1
 fc-jp-0022,パックマン,,Pac-Man (Japan) (En) (Rev 2),2,retail,24576,2c7d68f3,10a12b5840a13e8f3a61885c44bf3b8d,bf49e53c6da49ddf0bf947dd82140573aeb59103,,dat_only,1,,,,,,,pacmanj,good,No-Intro,1
+fc-jp-0022,パックマン,,Pac-Man (World) (Evercade),0,collection,24576,7bfc57c0,ee0ceaec71ea26a22cef74d77b4a675d,5ff73cb03cdf1d2329c1d4589b18edd94bec5efe,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0022,パックマン,,"Pac-Man (World) (Rev 1) (Namcot Collection, Namco Museum Archives Vol 1)",1,collection,24576,43f7cfd5,a9cbf8f3becf919a0228abb8b88ecf9c,ac7cdf3cb7ee2f1fe71024474c0762361ca73825,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0023,4人打ち麻雀,,4 Nin Uchi Mahjong (Japan),0,retail,24576,d91104f1,32eecc96b3e1eeecde1c079869dba63a,d5c91381d98f6347beee398ea92b21c25dd48601,,dat_only,1,,,,,,,4num1,good,No-Intro,1
 fc-jp-0023,4人打ち麻雀,,4 Nin Uchi Mahjong (Japan) (Rev 1),1,retail,24576,84be00e9,b6a80df3985843b31b55f7af6d1d4546,73f400f1eee931ea12750b5de018d1fb70c55d98,,dat_only,1,,,,,,,4num,good,No-Intro,1
@@ -57,7 +57,7 @@ fc-jp-0025,ゼビウス,,Xevious (Japan) (En) (Rev 1),1,retail,40960,a2469526,57
 fc-jp-0025,ゼビウス,,"Xevious (World) (Namcot Collection, Namco Museum Archives Vol 1)",0,collection,40960,d7ede073,04c1cf84a3b9fbb012cd34e331b4cfac,be10b4240d42f2d1ba00f75f2cad592e1153c874,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0026,アーバンチャンピオン,,Urban Champion (World),0,retail,24576,656d4265,cb7f1463c90cdcdf5ef315c125f12fe2,9df9bb3775e8cca0214e3765cdc0443ef81636c4,,dat_only,1,,,,,,,urbnchmp,good,No-Intro,1
 fc-jp-0027,マッピー,,Mappy (Japan) (En),0,retail,24576,5d1301c5,87ecd2cc23de21ffd69439db9a1ca778,e22b95c6687ad703fdec22f4fe79556da6a2256b,,dat_only,1,,,,,,,mappy,good,No-Intro,1
-fc-jp-0027,マッピー,,Mappy (World) (Evercade),0,retail,24576,1d87dbcc,1f931bb4b099f87759bee49b408dcd98,da6f1d0b929078be1e696ee7ea835978b4dc24fe,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0027,マッピー,,Mappy (World) (Evercade),0,collection,24576,1d87dbcc,1f931bb4b099f87759bee49b408dcd98,da6f1d0b929078be1e696ee7ea835978b4dc24fe,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0027,マッピー,,"Mappy (World) (Namcot Collection, Namco Museum Archives Vol 1)",0,collection,24576,0808baa6,d4659a19e29fe64041bf9305078c82cc,089475f6a2d6d36d4ccfb134b650fa26a1f5933e,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0028,クルクルランド,,Clu Clu Land (World),0,retail,24576,48f68d40,eeba6ef8992074c5ebbdf0ecd9468e10,b04d740d624329826035e9ffcefa6bedebb4a80f,,dat_only,1,,,,,,,cluclu,good,No-Intro,1
 fc-jp-0028,クルクルランド,,Clu Clu Land (World) (Animal Crossing),0,collection,40960,dfefe8cd,1de41e13a2e691a8cc13b757a46ae3b8,741d530b718b7c8749c4ef9b68e64039e37f982d,,dat_only,1,,,,,,,cluclugc,baddump,No-Intro,1
@@ -89,7 +89,7 @@ fc-jp-0042,忍者くん 魔城の冒険,,Ninja-kun - Majou no Bouken (Japan),0,r
 fc-jp-0042,忍者くん 魔城の冒険,,Ninja-kun - Majou no Bouken (Japan) (Rev 1),1,retail,24576,fc00a282,115c251023bcef010c6c80abfab877a1,07d74ea004f54ec2453a70f751baff84a6c86dc7,,dat_only,1,,,,,,,ninjakun,good,No-Intro,1
 fc-jp-0043,ちゃっくんぽっぷ,,Chack'n Pop (Japan) (En),0,retail,24576,622f059d,a4fb8a298e89f6b8d05c84bc60c2f834,d717462255eb48983c787dcc85754c3d14dfd5ed,,dat_only,1,,,,,,,chackn,good,No-Intro,1
 fc-jp-0044,ディグダグ,,Dig Dug (Japan) (En),0,retail,24576,b174b680,6e5a474e52813c353a78d93630c27730,fcd1984d4cb3e0ab4d626ed2561c8e6d57198b76,,dat_only,1,,,,,,,digdug,good,No-Intro,1
-fc-jp-0044,ディグダグ,,Dig Dug (World) (Evercade),0,retail,24576,133cb15b,75dd5f4ade2ee077b54f3b5d3ab2c236,74b4af27282569518354b341a5ecf02126f634db,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0044,ディグダグ,,Dig Dug (World) (Evercade),0,collection,24576,133cb15b,75dd5f4ade2ee077b54f3b5d3ab2c236,74b4af27282569518354b341a5ecf02126f634db,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0044,ディグダグ,,"Dig Dug (World) (Namcot Collection, Namco Museum Archives Vol 1)",0,collection,24576,0d27648f,f379611982a7bb9a3142089d1b381d29,8c01306431b0c7a67e1ae494b56817f35119498c,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0045,FLAPPY,,Flappy (Japan) (En),0,retail,40960,cf701da4,e303a24f093bf17c426990f5796e90d5,15d6a10515847f21504e9ff07ca1ff4960ce12fb,,dat_only,1,,,,,,,flappy,good,No-Intro,1
 fc-jp-0046,レッキングクルー,,Wrecking Crew (World),0,retail,40960,9b506a48,e7d7225dad044b624fbad9c9ca96e835,dee513dad7223cfc81bcd859d0aac6746349cb25,,dat_only,1,,,,,,,wrecking,good,No-Intro,1
@@ -104,7 +104,7 @@ fc-jp-0050,エレベーターアクション,,Elevator Action (Japan) (En) (Rev 
 fc-jp-0051,フィールドコンバット,,Field Combat (Japan) (En),0,retail,24576,1b45a73e,8cdd15b58199c088fd73d05bfaa20db4,310b8c4a406b0ceb68c38e51fd0dbdffe961a878,,dat_only,1,,,,,,,fieldcom,good,No-Intro,1
 fc-jp-0052,ロードファイター,,Road Fighter (Japan) (En),0,retail,24576,7ee625eb,efceb99991929decd1bb19fbe1ef4a38,eb392f6f2ca12186697c88111105263f0d027985,,dat_only,1,,,,,,,roadfghtj,good,No-Intro,1
 fc-jp-0053,ワープマン,,Warpman (Japan) (En),0,retail,24576,64bbcb77,ddda8653ebc615881fdc67ef8d82169f,c667c5dc1c1760766198fc13cd5c9d8f61fcb940,,dat_only,1,,,,,,,warpman,good,No-Intro,1
-fc-jp-0053,ワープマン,,Warpman (World) (Evercade),0,retail,24576,d51b415b,8c7544be6a2afe20dfb940c059284ae7,1843edc9ca0bca1252198150eca495182ee87840,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0053,ワープマン,,Warpman (World) (Evercade),0,collection,24576,d51b415b,8c7544be6a2afe20dfb940c059284ae7,1843edc9ca0bca1252198150eca495182ee87840,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0053,ワープマン,,Warpman (World) (Namcot Collection),0,collection,24576,8457cd0c,66f87c4452dc5f9e1310d9639f19b994,0359711017b6a758be4373a4dd8fa284cdeb2638,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0053,ワープマン,,Warpman (World) (Rev 1) (Namcot Collection),1,collection,24576,b5a87aa8,e18e6f3b20fdd90cacee5a347314ffc5,815ad10931f2cfd0ec3c3bc3f26992a3324799a7,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0054,ジッピーレース,,Zippy Race (Japan),0,retail,24576,e492d45a,ed2bfe66774c4070a237f1a3405983de,ace488d8fa6ad5fb528f759e6bed66b3cfef042d,,dat_only,1,,,,,,,zippyrac,good,No-Intro,1
@@ -128,7 +128,7 @@ fc-jp-0067,プーヤン,,Pooyan (Japan) (En),0,retail,24576,7f495283,5b1248b99bf
 fc-jp-0068,ハイパースポーツ,,Hyper Sports (Japan) (En),0,retail,24576,915a53a7,0cbb8fdd19d6a2d0d3386ff750acf12d,32b6be4598dbce05559bde7675d5238638faf9be,,dat_only,1,,,,,,,hyperspt1,good,No-Intro,1
 fc-jp-0068,ハイパースポーツ,,Hyper Sports (Japan) (En) (Rev 1),1,retail,24576,6ae762ae,2d5e659d1ea2606ff42fe5a791508686,00f38f2f0725a5eed57f87a7b7b477f89d5f5d01,,dat_only,1,,,,,,,hyperspt,good,No-Intro,1
 fc-jp-0069,シティコネクション,,City Connection (Japan) (En),0,retail,32768,20f98977,134fe480cbc5da83be53e5c4668ea11d,f2e03874495ccc5ab416d8682d00b176d2fd2c1a,,dat_only,1,,,,,,,cityconj,good,No-Intro,1
-fc-jp-0069,シティコネクション,,City Connection (World) (Evercade),0,retail,65536,bc30f8f0,7832f1555c2e27b394f63c9ef5f4a40b,f6791c49c59ac1def2c35b99e442e4b322c8d0f8,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0069,シティコネクション,,City Connection (World) (Evercade),0,collection,65536,bc30f8f0,7832f1555c2e27b394f63c9ef5f4a40b,f6791c49c59ac1def2c35b99e442e4b322c8d0f8,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0070,ルート16ターボ,,Route-16 Turbo (Japan) (En),0,retail,40960,728bfa8d,f0d453602d83de3113a7c4a7104a3a81,88ab3376937004970d38cf477c0a01c8c8b28ec1,,dat_only,1,,,,,,,route16,good,No-Intro,1
 fc-jp-0070,ルート16ターボ,,Route-16 Turbo (Japan) (En) (Rev 1),1,retail,40960,1677a61b,7f026a2687be91bd9623f76efb1ae9f1,f76a45a8b30b5c8e58c1c13fac51a484380d90bf,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0071,チャレンジャー,,Challenger (Japan) (En),0,retail,40960,73418721,199c1ff0b775e14e714afd5dc2ae7a96,49eaebb4a208c630704485704546a9e1056f41ee,,dat_only,1,,,,,,,challngr,good,No-Intro,1
@@ -147,16 +147,16 @@ fc-jp-0077,パックランド,,Pac-Land (Japan),0,retail,40960,89d42098,b130cc24
 fc-jp-0077,パックランド,,"Pac-Land (World) (Namcot Collection, Namco Museum Archives Vol 2)",0,collection,40960,70cca102,063511a533e1e627cbbae7addf85f7ad,710cef093620ab126402b1e7d0aaf1d61d031aeb,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0078,パチコン,,Pachicom (Japan),0,retail,40960,e30b2bcf,5f8213b3fe59044987f256fa6ff7ccb0,efe9dd039206c59420ecd58436ef0cd8e640e30c,,dat_only,1,,,,,,,pachicom,good,No-Intro,1
 fc-jp-0079,バーガータイム,,BurgerTime (Japan) (En),0,retail,24576,ce67507a,ffd28d2476566b2efbd182f107d9d8e8,ad3fbccba6d180f89a33cb8f4368f820ec3f8fef,,dat_only,1,,,,,,,btimej,good,No-Intro,1
-fc-jp-0079,バーガータイム,,BurgerTime (World) (Evercade),0,retail,24576,f0a0d3b5,f3b78af8c37951e361382181c8c72563,159e9cb6e65ac2ac67352dd881292a18e98d51db,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0079,バーガータイム,,BurgerTime (World) (Evercade),0,collection,24576,f0a0d3b5,f3b78af8c37951e361382181c8c72563,159e9cb6e65ac2ac67352dd881292a18e98d51db,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0080,いっき,,Ikki (Japan) (En),0,retail,24576,821feb7a,4d26a2af6b8a88b01f982d0afa2317f8,83a3acd2e1c51caa7e1460963facc1d96707f230,,dat_only,1,,,,,,,ikki,good,No-Intro,1
 fc-jp-0081,ポートピア連続殺人事件,,Portopia Renzoku Satsujin Jiken (Japan),0,retail,40960,7c596e45,24f1d824a2e187603a22af0c4612ee5f,5be6ee745225269ffd69d0f194c40343cddde442,,dat_only,1,,,,,,,portopia,good,No-Intro,1
 fc-jp-0082,ルナーボール,,Lunar Ball (Japan),0,retail,24576,2f55be88,1defaa29fe2f94465fff9e06c21cbf65,58bf3e3e50ca61db95b9d1631312e8e01d2017d7,,dat_only,1,,,,,,,lunarbal,good,No-Intro,1
 fc-jp-0083,カラテカ,,Karateka (Japan) (En),0,retail,24576,8ba75848,5adc2eaf216646ccba59e0a5c317a7db,9d6eeef0cad251f1ccddb6078bb7d0cbe56b9231,,dat_only,1,,,,,,,karateka,good,No-Intro,1
 fc-jp-0084,スターラスター,,Star Luster (Japan) (En),0,retail,40960,26bd6ec6,69a18f44736e7160d34f3a610f3a9c3c,feb3013505143ad926e5307acf2f2ec177e18d4f,,dat_only,1,,,,,,,starlust,good,No-Intro,1
-fc-jp-0084,スターラスター,,Star Luster (World) (Evercade),0,retail,40960,85acaebd,9ab8f87563ac40f20ab11e9301324d79,06ed909bd731cc753c5438f67260deb16895db90,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0084,スターラスター,,Star Luster (World) (Star Fox - Assault),0,retail,40960,e7718c0b,b52cb774cebc1b9e36d90e89f9211131,b1de069cfffd3c4c17d83b50d9f8a0cbcf24d18f,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0084,スターラスター,,Star Luster (Japan) (En) (Namco Anthology 1),0,collection,40960,1efb6c83,022047d3b1728d6e42b4bc23aee58d31,2b79e6c1340ad2a64ce75aa53c533447960058f2,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0084,スターラスター,,Star Luster (Japan) (En) (Namcot Collection),0,collection,40960,6790630b,408423d59e46dd07871f243623f44c9b,7f45e2a95280cf7169d2e23a0ac422d23cf54446,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0084,スターラスター,,Star Luster (World) (Evercade),0,collection,40960,85acaebd,9ab8f87563ac40f20ab11e9301324d79,06ed909bd731cc753c5438f67260deb16895db90,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0084,スターラスター,,Star Luster (Japan) (En) (Virtual Console),0,virtual_console,40960,5cdd800f,b50657267d67c5f46fd77737b0d5bdd5,e3b99c2a0ac8adfc919476788dad31985cc3cda4,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0085,スペランカー,,Spelunker (Japan),0,retail,40960,636923bb,fa06939555ba9fc56039e1b7a171eb07,57e44ef692ff5dd190a323abead26855174a979e,,dat_only,1,,,,,,,spelunkrj,good,No-Intro,1
 fc-jp-0085,スペランカー,,Spelunker (Japan) (Virtual Console),0,virtual_console,40960,48591193,dfadc9d6e1ff51ab4eaef62762922582,df744a707873bb991cd7f28d47ab9b19d0bdaa9c,,dat_only,1,,,,,,,,,No-Intro,1
@@ -470,8 +470,8 @@ fc-jp-0331,フリートコマンダー,,Fleet Commander (Japan),0,retail,65536,b
 fc-jp-0332,ビー・バップ・ハイスクール 高校生極楽伝説,,Be-Bop-Highschool - Koukousei Gokuraku Densetsu (Japan),0,retail,262144,2bfb1186,dc9fc81e5bc2f868d0889b65d11f19ea,ef6e94731e57ed4ac971d8b3be5d783c3546478e,,dat_only,1,,,,,,,bebophs,good,No-Intro,1
 fc-jp-0333,独眼竜政宗,,Dokuganryuu Masamune (Japan),0,retail,262144,10c8f2fa,3896ee6bc5cc5e8d154d6b082d373b08,7974126ffe8c5c064d6a0bdda14646f874fa7109,,dat_only,1,,,,,,,masamune,good,No-Intro,1
 fc-jp-0334,ダブルドラゴン,,Double Dragon (Japan) (En),0,retail,262144,6dce4b23,42e1fffd194a653ba1b4837eefe51732,1dcf1660be8c025b0c01b41b23ca9a74a0e94e97,,dat_only,1,,,,,,,ddragonj,good,No-Intro,1
-fc-jp-0334,ダブルドラゴン,,Double Dragon (World) (Evercade),0,retail,262144,46f90895,d3ef8d402865bfed9f002cc7a764f4a9,8d06446e5f4d0e95d1d72ff3a47ac43b4829dec7,,dat_only,1,,,,,,,,,No-Intro,1
-fc-jp-0334,ダブルドラゴン,,Double Dragon (World) (v1.1) (Evercade),v1.1,retail,262144,2b44f9d7,da7f05a6900f06bee12905a99b06dc65,31c8d670ffcc0f75ad31d96ee039cc85744be830,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0334,ダブルドラゴン,,Double Dragon (World) (Evercade),0,collection,262144,46f90895,d3ef8d402865bfed9f002cc7a764f4a9,8d06446e5f4d0e95d1d72ff3a47ac43b4829dec7,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0334,ダブルドラゴン,,Double Dragon (World) (v1.1) (Evercade),v1.1,collection,262144,2b44f9d7,da7f05a6900f06bee12905a99b06dc65,31c8d670ffcc0f75ad31d96ee039cc85744be830,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0335,ジーキル博士の彷魔が刻,,Jekyll Hakase no Houma ga Toki (Japan) (En),0,retail,131072,96ba90b0,50b9ecc2af9f0a3c13917486ac9643dc,559c8eecf3fb93582407a100bcf78b6b6729b656,,dat_only,1,,,,,,,drjekyllj,good,No-Intro,1
 fc-jp-0336,燃えろ!!プロテニス,,Moero!! Pro Tennis (Japan),0,retail,262144,6c61b622,1e5b6d6a3b9f82e822c10068201817ed,cb130f4e4cae6ddb112cfe96024be1d3292dd84b,,dat_only,1,,,,,,,moetenn,nodump,No-Intro,1
 fc-jp-0337,怒II DOGOSOKEN,,Ikari II - Dogosoken (Japan),0,retail,262144,d2bc86f3,6c8ce9cb9ab166e47dee86356b783e60,66d6d30c691b81df9e3537d605fdc418bad6ea93,,dat_only,1,,,,,,,ikari2j,good,No-Intro,1
@@ -770,14 +770,14 @@ fc-jp-0581,ファミスタ'90,,Famista '90 (Japan),0,retail,262144,0c1792da,bf22
 fc-jp-0582,ザ・マネーゲームII 兜町の奇跡,,"Money Game II, The - Kabutochou no Kiseki (Japan)",0,retail,262144,b9ab06aa,ba7d503614962b113ede58d393b2734c,24fb3ec622fdf6d46f487a71b1ad5c645218928a,,dat_only,1,,,,,,,moneygm2,good,No-Intro,1
 fc-jp-0583,ザ・ロード・オブ・キング,,"Lord of King, The (Japan)",0,retail,262144,d0eb749f,b351f17c3df091d8bccd7efa0e7f455c,859d4fdf229533a13dd1c75d6785e1f2d3cb2fa9,,dat_only,1,,,,,,,lordking,good,No-Intro,1
 fc-jp-0584,ダブルドラゴンII ザ・リベンジ,,Double Dragon II - The Revenge (Japan),0,retail,262144,a66596d9,eee2f54ddf66907ce9cc366f125a74c3,3cc786f4b1b1e884354106793ce0a1159796c3d3,,dat_only,1,,,,,,,ddragon2j,good,No-Intro,1
-fc-jp-0584,ダブルドラゴンII ザ・リベンジ,,Double Dragon II - The Revenge (World) (Evercade),0,retail,262144,98c1ae3f,ff86b6529a76b49d2cb3efd9f079fde7,8fea9c9e889bfb0ee82286613c694f0866aaa76c,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0584,ダブルドラゴンII ザ・リベンジ,,Double Dragon II - The Revenge (World) (Evercade),0,collection,262144,98c1ae3f,ff86b6529a76b49d2cb3efd9f079fde7,8fea9c9e889bfb0ee82286613c694f0866aaa76c,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0585,バットマン,,Batman (Japan) (En),0,retail,262144,4d7859a9,8d62789736881122e00fe876fedc4a4c,25ad2f34ffb87cffe006f082d121b878ebc91015,,dat_only,1,,,,,,,batmanj,good,No-Intro,1
 fc-jp-0586,悪魔城伝説,,Akumajou Densetsu (Japan),0,retail,393216,e349af38,75dbdf8d0de9b472eed5065bc0fe4129,beb7e005bcbac031ce61613fa47df24ad151e9ab,,dat_only,1,,,,,,,akumaden,good,No-Intro,1
 fc-jp-0586,悪魔城伝説,,Akumajou Densetsu (World) (Ja) (Castlevania Anniversary Collection),0,collection,393216,f27d873b,42066790438359650f4cfcfc23f6b611,d85a25ad8c622f03482bcaa0eb83a83cbac15c79,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0586,悪魔城伝説,,Akumajou Densetsu (Japan) (Virtual Console),0,virtual_console,393216,1ed3caa3,fe0ef30e4f30d872f8a46e7a0684d89f,3adfb6b4d0c522157b428ea989c75bb1616ecb5b,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0587,TM NETWORK LIVE IN POWER BOWL,,TM Network - Live in Power Bowl (Japan),0,retail,262144,69565f13,2a35220514b368553da2332086f81eae,191d43b72a198e9d3d0f6bad918cd71d710595a8,,dat_only,1,,,,,,,livepb,good,No-Intro,1
 fc-jp-0588,マッピーキッズ,,Mappy Kids (Japan),0,retail,262144,35d8c961,a20a7432482e98f165833a9280b2754d,3d115307a560a0552487f6293c5bd7a5899f5e7a,,dat_only,1,,,,,,,mappykid,good,No-Intro,1
-fc-jp-0588,マッピーキッズ,,Mappy Kids (World) (Evercade),0,retail,262144,002c8bf8,4e710af5f30fc8611f6930e2b829ebeb,8706ff2d4683a4897e3c51bf0a8cefb02454b2fb,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0588,マッピーキッズ,,Mappy Kids (World) (Evercade),0,collection,262144,002c8bf8,4e710af5f30fc8611f6930e2b829ebeb,8706ff2d4683a4897e3c51bf0a8cefb02454b2fb,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0589,中国雀士ストーリー 東風,,Chuugoku Janshi Story - Tonfuu (Japan),0,retail,262144,5ab54795,4df01883ed1a888e6f63462efcf6258b,5b767c82a6a3ea307b25f11343e1ba0958b74635,,dat_only,1,,,,,,,tonfuu,good,No-Intro,1
 fc-jp-0590,ヘラクレスの栄光II タイタンの滅亡,,Heracles no Eikou II - Titan no Metsubou (Japan),0,retail,262144,ba766ec6,e0a87420cc0b5fdd3880be9ee1c7c7c2,7c6bed2ec057ba526abd00290a1f935c20bc4770,,dat_only,1,,,,,,,herakl2,good,No-Intro,1
 fc-jp-0591,スーパーラグビー,,Super Rugby (Japan),0,retail,262144,9f5138cb,b8f1d67056244f55daf6f553035e2943,cb22ad7975fe4be7fe576ea6f8f1467415bd2421,,dat_only,1,,,,,,,srugby,good,No-Intro,1
@@ -872,7 +872,7 @@ fc-jp-0669,闇の仕事人 KAGE,,Yami no Shigotonin Kage (Japan),0,retail,262144
 fc-jp-0670,ドラゴンファイター,,Dragon Fighter (Japan) (En),0,retail,262144,4b0dacce,b3917b556c78ae7998274a1bfd753653,5531a47bd1eaa076301f2ac4c93f2387849d4ceb,,dat_only,1,,,,,,,drgnfghtj,good,No-Intro,1
 fc-jp-0671,川のぬし釣り,,Kawa no Nushi Tsuri (Japan),0,retail,262144,f4e5df0e,2e343422ad820a4ad381fcb27e1ad3dc,9693d51f52ca9c94fd6bd769fa377acc571b6d5d,,dat_only,1,,,,,,,kawanus,good,No-Intro,1
 fc-jp-0672,TITAN,,Titan (Japan),0,retail,131072,75901b18,e58716c9ab387572cff50503d55ef473,2bd0f4b345d8eccded95c1899099e8cee0adf967,,dat_only,1,,,,,,,titan,good,No-Intro,1
-fc-jp-0672,TITAN,,Titan (World) (Evercade),0,retail,131072,d76154c7,4202f0f733ae9b6b1415667497f6e725,5d6c3c0cf66c737bd18e52edd25f23b79563c74a,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0672,TITAN,,Titan (World) (Evercade),0,collection,131072,d76154c7,4202f0f733ae9b6b1415667497f6e725,5d6c3c0cf66c737bd18e52edd25f23b79563c74a,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0673,日本一の名監督,,Nihonichi no Mei Kantoku (Japan),0,retail,262144,da690d17,ce81206ff2b16c742bf4445afe72ea4f,45c5816845c047005f5123aaaa220e884c58af72,,dat_only,1,,,,,,,nipponmk,good,No-Intro,1
 fc-jp-0674,ぱられるワールド,,Parallel World (Japan),0,retail,262144,f08e8ef0,1e4decfbc1f93cfce2dabef81ffa234e,3f9d54ef6d7a92d5a0a70c2bfca339486c90d95e,,dat_only,1,,,,,,,paralwld,good,No-Intro,1
 fc-jp-0675,ピーパータイム,,Peepar Time (Japan),0,retail,49152,8f4497ee,15446224589b041257cc769919b5a498,1e81dad3e13866464240032f281466e1f52d0a46,,dat_only,1,,,,,,,peepart,good,No-Intro,1
@@ -1227,9 +1227,9 @@ fc-jp-0979,ロックマン5 ブルースの罠!?,,Rockman 5 - Blues no Wana! (Ja
 fc-jp-0980,将棋名鑑'93,,Shougi Meikan '93 (Japan),0,retail,262144,ae280e20,458e9d44da49bfc3569307150bbb2e26,0a808a7eb907d1690927ad3468679cdd7a9158ad,,dat_only,1,,,,,,,smeik93,good,No-Intro,1
 fc-jp-0981,ちいさなおばけアッチコッチソッチ,,Chiisana Obake - Acchi Socchi Kocchi (Japan) (En),0,retail,262144,5dec84f8,34fbbdcea8d733c67603570693cc916d,a9efca330437cb9c5b516b575cb6851be4003a08,,dat_only,1,,,,,,,chiisana,good,No-Intro,1
 fc-jp-0982,ワギャンランド3,,Wagyan Land 3 (Japan),0,retail,524288,d323b806,9162786a869b583b0726669919840449,3d554f55411ab2ddd1a87e7583e643970db784f3,,dat_only,1,,,,,,,wagyan3,good,No-Intro,1
-fc-jp-0983,妖精物語ロッドランド,,Rod Land (World) (Retro-Bit) (256KiB),0,retail,262144,6a5337c0,fd399aaace5060d3bea6fa1abfa07c92,8086423825c1307c23447ae2d7eb0bd7920eb781,,dat_only,1,,,,,,,,,No-Intro,1
-fc-jp-0983,妖精物語ロッドランド,,Rod Land (World) (Retro-Bit) (512KiB),0,retail,524288,4d021fd8,67a4f41d19dfa5ae5e6c9db19ccaa744,18cfe9feacbc1107b0a00b711ece32b60222990e,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0983,妖精物語ロッドランド,,Yousei Monogatari - Rod Land (Japan),0,retail,131072,0eaa7515,17f9fd7dc35ae7125da454e8813e0dfb,85af386e36fb9a5472ced6bfd1959c91120a0a1b,,dat_only,1,,,,,,,rodlandj,baddump,No-Intro,1
+fc-jp-0983,妖精物語ロッドランド,,Rod Land (World) (Retro-Bit) (256KiB),0,collection,262144,6a5337c0,fd399aaace5060d3bea6fa1abfa07c92,8086423825c1307c23447ae2d7eb0bd7920eb781,,dat_only,1,,,,,,,,,No-Intro,1
+fc-jp-0983,妖精物語ロッドランド,,Rod Land (World) (Retro-Bit) (512KiB),0,collection,524288,4d021fd8,67a4f41d19dfa5ae5e6c9db19ccaa744,18cfe9feacbc1107b0a00b711ece32b60222990e,,dat_only,1,,,,,,,,,No-Intro,1
 fc-jp-0984,キョロちゃんランド,,Kyoro-chan Land (Japan),0,retail,131072,5229fcdd,d9b7bfd1a6d9773e64b0a8b46b43b7f3,f0d4a36b8bac7ed47978ce9c8a308ae0abf0e768,,dat_only,1,,,,,,,kyorolnd,good,No-Intro,1
 fc-jp-0985,ハローキティのおはなばたけ,,Hello Kitty no Ohanabatake (Japan),0,retail,65536,26bb1c8c,7c9f058a09a4dbd3172c9bb3fa2e0430,f763405d61bf894f7919dcf9637dcd8cc07522a9,,dat_only,1,,,,,,,helloko,good,No-Intro,1
 fc-jp-0986,ジャストブリード,,Just Breed (Japan),0,retail,786432,9cbadc25,c138b82de57f616cebbce5a54cf3ecc0,49562c8d5649ce8119e83e9a34d2335d3d43a43e,,dat_only,1,,,,,,,justbred,good,No-Intro,1

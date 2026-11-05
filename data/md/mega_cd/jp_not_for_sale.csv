@@ -1,0 +1,2 @@
+id,title,category,parent_id,model_number,distributor,campaign,route,dist_start,dist_end,quantity,nointro_name,mame_name,sources,notes
+mcd-jp-nfs-0001,ワンダーメガ コレクション,bundled,,,日本ビクター,ワンダーメガ,メガドライブ・メガCD 互換機「ワンダーメガ」本体に付属,1992-01-04,,,WonderMega Collection (Japan) (Rev 2),,https://ja.wikipedia.org/wiki/メガCDのゲームタイトル一覧,配布開始日は Wikipedia「その他」節の日付。Redump には Rev 2 のみある

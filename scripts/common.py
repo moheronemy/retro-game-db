@@ -225,7 +225,7 @@ def load_mame(lists, jp_models=None):
             key = mame_key(lists, lst, s.get("name"))
             info = {i.get("name"): i.get("value") for i in s.findall("info")}
             serial = info.get("serial") or ""
-            if "(Japan" not in desc and "JPN" not in serial and not (jp_models and jp_models(serial)):
+            if not re.search(r"[(,] ?Japan[,)?]", desc) and "JPN" not in serial and not (jp_models and jp_models(serial)):
                 continue
             if re.search(r"prototype|promo|demo|Kiosk|Hot Mario", desc, re.I):
                 continue  # 一般販売品ではないもの（非売品は別途扱う）
@@ -349,7 +349,8 @@ DAT_ROM_EXT = {"Nintendo - Nintendo Entertainment System": ".unh",
 def _dat_games(name):
     """DAT の game ブロックのうち、採る形式の ROM のもの。"""
     ext = DAT_ROM_EXT.get(name)
-    for m in re.finditer(r'game \(\n(.*?)\n\)\n', nointro_dat_text(name), re.S):
+    # 末尾に改行の無い DAT があるので補う（最後の game を落とさないように）
+    for m in re.finditer(r'game \(\n(.*?)\n\)\n', nointro_dat_text(name) + "\n", re.S):
         b = m.group(1)
         if ext and not re.search(r'rom \( name "[^"]*' + re.escape(ext) + '"', b):
             continue

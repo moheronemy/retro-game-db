@@ -104,6 +104,28 @@ def plain(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
+_MONTHS = {m: i for i, m in enumerate(["January", "February", "March", "April", "May", "June", "July", "August",
+                                        "September", "October", "November", "December"], 1)}
+
+
+def dts(s):
+    """{{dts|1988|10|29}}・{{dts|1993|1|14|}}・{{dts|October 29, 1988}} などの日付テンプレートを「1988年10月29日」にする。"""
+    def repl(m):
+        parts = [p.strip() for p in m.group(1).split("|") if p.strip() and "=" not in p]
+        if parts and re.fullmatch(r"\d{4}", parts[0]):
+            nums = [int(p) for p in parts[1:3] if p.isdigit()]
+            return parts[0] + "年" + "".join(f"{n}{u}" for n, u in zip(nums, ("月", "日")))
+        if parts:
+            e = re.fullmatch(r"([A-Z][a-z]+)\s+(\d{1,2}),\s*(\d{4})", parts[0])
+            if e and e.group(1) in _MONTHS:
+                return f"{e.group(3)}年{_MONTHS[e.group(1)]}月{int(e.group(2))}日"
+            e = re.fullmatch(r"([A-Z][a-z]+)\s+(\d{4})", parts[0])
+            if e and e.group(1) in _MONTHS:
+                return f"{e.group(2)}年{_MONTHS[e.group(1)]}月"
+        return ""
+    return re.sub(r"\{\{\s*dts\s*\|([^{}]*)\}\}", repl, s, flags=re.I)
+
+
 def parse_date(s, year=None):
     """「2001年3月21日」等を ISO 形式に。year を渡すと年を省いた「1月15日」にも年を補う（DS の年別ページ）。"""
     if year:
@@ -173,10 +195,11 @@ def table_text(text, table_id):
     return text[i:j + 3]
 
 
-KNOWN_COLUMNS = {"jp", "na", "eu", "title", "publisher", "notes", "sgb", "refs"}
+KNOWN_COLUMNS = {"jp", "na", "eu", "br", "title", "publisher", "notes", "sgb", "refs"}
 
 
-def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, year=None, ref_code=None):
+def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, year=None, ref_code=None,
+               row_filter=None, derive=None):
     """表の各行を読む。columns は先頭からの列の意味（jp=日本の発売日）。日本未発売の行は除く。"""
     rows = []
     in_table = False
@@ -203,7 +226,7 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
             print("skip:", cells, file=sys.stderr)
             continue
         c = dict(zip(columns, cells))
-        date_raw = re.sub(r"<span[^>]*></span>", "", c.get("jp", ""))
+        date_raw = dts(re.sub(r"<span[^>]*></span>", "", c.get("jp", "")))
         date = parse_date(plain(date_raw), year)
         if regional and not date:
             continue  # 日本未発売（{{Unreleased}}）
@@ -230,6 +253,10 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
             m = re.search(ref_code, "||".join(cells), re.I)
             row["ref_code"] = m.group(1).upper() if m else ""
         row.update(extra or {})
+        if row_filter and not row_filter(row):
+            continue
+        for col, fn in (derive or {}).items():
+            row[col] = fn(row)
         rows.append(row)
     return rows
 
@@ -264,7 +291,7 @@ def main():
         page = t.get("page", wcfg.get("page"))
         text = table_text(section(texts[page], t["section"]), t.get("table_id"))
         got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"),
-                         t.get("year"), wcfg.get("ref_code"))
+                         t.get("year"), wcfg.get("ref_code"), t.get("row_filter"), t.get("derive"))
         print(f"  {t['section']}: {len(got)} 行", file=sys.stderr)
         rows += got
     if len(wcfg["tables"]) > 1:

@@ -1,0 +1,121 @@
+title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256,verification,source_count,first_dump_date,rom_chip,label_serial,pcb,save_type,nointro_number,mame_name,mame_status,hash_source,discs
+mcd-jp-0001,ソル・フィース,T-32024,Sol-Feace (Japan),0,retail,4097184,03c0bd53,4af2312c87e675b6adc2fdfad0f19da9,0a9abea4006ed77cd5a578f4d81e68f4ac2e60d2,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0002,ヘビーノバ,T-22014,Heavy Nova (Japan),0,retail,2791824,a282781b,576606112ca40612aa416e020ca8a043,f8da6a1d4e52c3407c386b7344119eca712dfcaf,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0003,ノスタルジア1907,T-77014,Nostalgia 1907 - In North Atlantic Sea (Japan),0,retail,192649968,b1478a7e,c7486db4ca93e65daeb6496da1d6ee95,2228f583dfdc94dc4bbb4c1156bc22848f033b3c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0004,惑星ウッドストック ファンキーホラーバンド,G-6001,Wakusei Woodstock - Funky Horror Band (Japan),0,retail,58030896,15c08675,2792d46d117efe6b19f6f8232db0b18a,3b6eb504b122113442bf5c21fe52e73e006a63ae,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0005,アーネスト・エバンス,T-32014,Earnest Evans (Japan),0,retail,5207328,8438f16a,bed5df283f0eef75864bf0e3118a8130,deaea82171091cce66b1e72212d02b7c692a480d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0006,天下布武 英雄たちの咆哮,T-45024,Tenkafubu - Eiyuutachi no Houkou (Japan),0,retail,120457680,487c1c68,64360ea18706760dd2cf3dae357f507b,e557ae7d6f93702c788153a62921b4c3338aa3bb,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0007,精霊神世紀フェイエリア,T-32034,Seirei Shinseiki - Fhey Area (Japan),0,retail,16285248,da4a8e92,81dc4143875cf21ec45bf4f134d8b804,64b68eb2b0576e24d7e099f2de8fef3f9f756881,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0008,コズミックファンタジーStories,T-49014,Cosmic Fantasy Stories (Japan),0,retail,54244176,eef94b45,9a2bd7ef8f589faa2b4d7ced932d97d9,83cbfee78a39e85b1668cb6e37389d5b921bbd61,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0009,デス・ブリンガー 秘められた紋章,T-49034,Death Bringer (Japan),0,retail,37930704,ef2969c5,81cea4a66acb5552a513f737a5da7e36,11e848751ab37e7819f0a383ac411ccae47a350d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0010,クイズスクランブルスペシャル,G-6003,Quiz Scramble Special (Japan) (Rev B),0,retail,28261632,24f14a3d,29fb55c2c680124eea53ebf03e0f63ec,54d2e8f240a898eb3e0a43a36795db17a6b27c68,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0011,アイルロード,T-32044,Aisle Lord (Japan),0,retail,125029968,d3d71b6b,fe28231e4c08b713b2f778165d4df3b1,ff0a6a94b039474d9aaa7e805d76280b6203c7bd,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0012,魔法の少女シルキーリップ,T-49024,Mahou no Shoujo - Silky Lip (Japan),0,retail,99339072,d0176ba8,04bf78934f6f026a644e505cb83bf5c7,5e04db115f4285bfd91ee3a3efcf313d9285dfbf,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0013,LUNAR ザ・シルバースター,T-45014,Lunar - The Silver Star (Japan),0,retail,32989152,90aa9eef,032f18c634cebfd8b08ca0a00226ac5b,1a812bf6af7f5561d7fe3273ca3473e5477cc368,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0014,SING!! Sega Game Music Presented by B.B. Queens,,Sing!! Sega Game Music Presented by B. B. Queens (Japan),0,retail,1444128,ffade6cf,ac6c2b92af31c7e436ac470999dba1c5,dad24ecf82b142f25a4257fa11f0456bfe76f875,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0015,デトネイター・オーガン,T-28014,Detonator Orgun (Japan),0,retail,48540576,0856b08f,8a509bdb503e76598acb4868f3e91a0d,d013440901c6ef09eb6d2871a9ac504783e3b38e,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0016,プリンス・オブ・ペルシャ,T-60014,Prince of Persia (Japan),0,retail,7933296,a7ef5614,4460f3e2a2279b123dc9a3d6f222956e,0e36af9225234aebd39b0c97e0c1b46ace8bb917,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0017,サンダーストームFX,T-32064,Thunder Storm FX (Japan),0,retail,259446768,5512fd9c,8c1e251eaa509b5a4e22abbafc2a675e,103a73671b8b5aee069d191357eb0ddb77d0161d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0018,ブライ 八玉の勇士伝説,G-6004,Burai - Yatsudama no Yuushi Densetsu (Japan),0,retail,72425136,ebe7837f,9fcd531008fc0997051b925db974e941,5f321c7a162a5967650212cdc7177e5b4497d11e,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0019,ライズ・オブ・ザ・ドラゴン,G-6002,Rise of the Dragon - A Blade Hunter Mystery (Japan),0,retail,178145184,e9c09483,97d0d5ff19e421473f35c1c7623054ff,8453616166778ba5d9a0ad3241b1bddc4d36e4a9,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0020,ワンダードッグ,T-60074,Wonder Dog (Japan),0,retail,32746896,0cbf80c2,8289d6cdf83ce118771cd114c3830cf9,9e00d74fc93760e66c8bd578af38c22a9933c884,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0021,ブラックホールアサルト,T-22024,Black Hole Assault (Japan),0,retail,14055552,d889b03d,0748b3cf07c310062e1007a095d102f9,db6dcaf56313fee37c708da0ca068336cf209376,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0022,プロ野球スーパーリーグCD,G-6010,Pro Yakyuu Super League CD (Japan),0,retail,51685200,069a0e83,44f6f7f980135f518d67d918291ffb3c,b4b130de81d2598ef1211d1061548844ac0177fa,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0023,タイムギャル,T-32114,Time Gal (Japan),0,retail,304652208,1a756c12,93c8bf9ec9c731617b7731ca683dbde5,a9b32854daf11d8cd1701f009dda7e3205c81531,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0024,電忍アレスタ,T-66014,Dennin Aleste - Nobunaga and His Ninja Force (Japan),0,retail,15005760,2bba56f5,05a96a84ad6979212f70d88fa9d1b78d,af3f90534f5da5feb7ea385c8e4c2c59a0083b07,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0025,アフターバーナーIII,T-68014,After Burner III (Japan),0,retail,7890960,069f1cbb,83823b83fad5a100c0736e94da6a00e7,7c953b026a90ff857444ae40b6455cfb3e23e3f5,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0026,ロードブラスターFX,T-32124,Road Blaster FX (Japan),0,retail,317806944,6f7b2d24,792d39ba731e4a7304156a2a625e894c,0d82d86145ee05d186fd558ddad3587e2fd59311,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0027,ぎゅわんぶらあ自己中心派2 激闘!東京マージャンランド編,T-45044,Gyuwambler Jiko Chuushinha 2 - Gekitou! Tokyo Mahjongland-hen (Japan),0,retail,33762960,502bf08e,57efa2b086f2df5d2e5afeaa46c5b84e,372201037eb9a6838e2555a21c0b4c18941622b5,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0028,天舞メガCDスペシャル,T-32084,Tenbu Mega CD Special (Japan),0,retail,216478080,c4127fc0,12d35ec36984e02a4f981555117a3f46,de825368b887f9dd3dbdcafff962f5417d1c9fdb,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0029,カプコンのクイズ殿様の野望,T-44024,Quiz Tonosama no Yabou (Japan),0,retail,498555792,ac72da73,22332d5cbf209225aa39f8e897864166,2e4af9ff5ea45f3266572126489cedd742cf83af,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0030,サイキック・ディテクティブ・シリーズVol.3 AYA,T-84024,Psychic Detective Series Vol. 3 - Aya (Japan),0,retail,37479120,0e1fd623,b78a31746267796c0652b15cea1694a0,b360c16c7aa6b058defa7805e3b9a7a1540f93e8,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0031,ゆみみみっくす,T-45034,Yumimi Mix (Japan),0,retail,197299872,e93a646f,b058037d0389bd6936d7e2597b1d956f,b8ff15077bb9a6fa6a347d3a2a8d1e112ba2f8d4,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0032,シムアース,G-6008,SimEarth (Japan),0,retail,8768256,0781b2ba,cb9c91a206a088d96d5c0348d72eade9,fb962e7ffcd0b312f34b96cd7406edc002118287,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0033,ニンジャウォーリアーズ,T-11024,"Ninja Warriors, The (Japan)",0,retail,14253120,8a73fefe,1f97984bb3db90c0ae2bbe9ceae0ca4a,9413f576d603be6407398a756d8ab84e67b504b1,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0034,ウルフチャイルド,T-60104,Wolfchild (Japan),0,retail,11343696,e2e83143,35d8c0bf7066af36e5b34f571ffd9790,c7f3b4ce936fb6bfcfd87b3de5260744876079c3,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0035,ジャガーXJ220,T-60094,"Jaguar XJ220 (Japan) (En,Ja)",0,retail,12042240,3ebc3c2e,50b6cac0d04e9e054810c82440e21b56,fd5ca711664bb9f53b6018754496766f08adf26b,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0036,アネット再び,T-32104,Annett Futatabi (Japan),0,retail,36162000,782fb71c,991aae43ece16e5114d55a23da4aaf3c,8956537788b29f2089dfce80e5827c3784dfbd2e,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0037,ファイナルファイトCD,G-6013,Final Fight CD (Japan),0,retail,28209888,0539a47e,9fd03b1512df908a6e0a4346d42d8c38,8dcdb61aa8e8886994a7a6d0c1cb8925b7ff99c9,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0037,ファイナルファイトCD,G-6013,Final Fight CD (Japan) (Rev A),0,retail,28209888,b6c923fd,c71e008781206d903cc3ab9767f38045,e02dec273e65733350a5e32078004ff3a888ed51,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0038,SEGA CLASSIC ARCADE COLLECTION,G-6012,Sega Classic Arcade Collection - Limited Edition (Japan),0,retail,25149936,a65db4ba,fbb25208230e66d223312749715476bc,8cccc706236ba5827598fa1b3b46ad9d03968ee8,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0039,SWITCH,G-6009,Switch (Japan),0,retail,253884288,09aceef5,7ed241d359e1bbbc3500a4b1a9e807df,8464cdd35abfe18cbd5d43b5b3edc360fffb294d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0040,らんま1/2 白蘭愛歌,T-25014,Ranma 1-2 - Byakuranaika (Japan),0,retail,49519008,a92a2dc5,e6e73110def2034820c01e7b21a71129,f287acbe76ce14f5c6338043a2959be3f0c809b8,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0041,三國志III,T-76014,Sangokushi III (Japan),0,retail,11160240,5e0d844c,418f3328ad881671153aa09b0d90651d,4847cf1abba6d4ebafbcb827019c3167960c824d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0042,デバステイター,T-32074,Devastator (Japan),0,retail,189074928,55438f4a,8c9c320abce9ce03aab6e28e9ae43f08,a69278fd7bf07f64ecc6aa6cd4afe89e878f5874,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0043,ナイトストライカー,T-11014,"Night Striker (Japan, Korea)",0,retail,15605520,184fb14e,3e8b3de18a504a9aeaa92659705f8bc1,26f2a87bed43f37133a4577db1132f6ece4ed19b,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0044,幻影都市 -ILLUSION CITY-,T-51014,Gen'ei Toshi - Illusion City (Japan),0,retail,18444384,28912bb9,f5adbf35a21ca721913387190d20c14b,bf4e575ed114975108273b57e7f65c349ee129b8,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0045,メガシュヴァルツシルト,G-6020,Mega Schwarzschild (Japan),0,retail,12484416,99908b1a,9ca5dcc8493f6279d64d6895c2d5127d,7242f537d9415c26bc4022c7a249e1688cc2ce9b,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0046,Aランクサンダー 誕生編,T-49064,A-Rank Thunder - Tanjou-hen (Japan),0,retail,158381328,c8f62b3e,f7805641870b3a9f7a8333fbbab3ef9b,34fb0b8859807b0ffbdd86aaafd2b22a7553f9da,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0047,ダイナミックカントリークラブ,G-6017,Dynamic Country Club (Japan),0,retail,13556928,aecc9427,1617f01de109cf3d11facf36fd2b885a,a086252f510acb95e2ab29b2ac111a3f66281c12,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0048,聖魔伝説3×3EYES,G-6007,"Seima Densetsu 3x3 Eyes (Japan, Korea)",0,retail,310675680,4811e91c,f6eabf5bf2d3d4f5bee4a0c993571fc6,82a6c23332a3b64b0342385df5a499ae4417e827,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0049,アークスI・II・III,T-32094,"Arcus I, II, III (Japan)",0,retail,112562016,80ca04cb,2a9b1a701d8e663567bc13eda501786a,51259a405d43c5b976929c443b64fd28cfea692d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0050,サイボーグ009,T-49054,Cyborg 009 (Japan),0,retail,15694896,4fc4da73,0e2d21ca51dfc8804477323cb5888608,f66a809d58fe833cafa2067f6154a9d0b0bd164e,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0051,シルフィード,T-45054,Silpheed (Japan),0,retail,369174624,4d419bdf,6c3d5f72e0e585010e70396f4a01fc6e,48070d950351b4d01730049c90b20a2055b83e5a,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0052,バリ・アーム,T-43024,Bari-Arm (Japan),0,retail,16849728,af764474,b085a96a1f51fd4f29900af0bd1f86fd,805003e27212c103478fe3d04ef28c794712394e,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0053,江川卓のスーパーリーグCD,G-6019,Egawa Suguru no Super League CD (Japan),0,retail,41446944,ef4adeb8,4f3ca407667d0fbf5da84e4259484b58,dbe6feb4d22bcf5529ab8cbec7bacf05d2fe6c59,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0054,慶応遊撃隊,T-60114,Keiou Yuugekitai (Japan),0,retail,77853552,8586c1e7,ff783f66afe6f480976aaa2dd3390bdc,843ec18f57d20c87f3ab58f164413502eafb2453,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0055,雀豪ワールドカップ,T-60124,Jangou World Cup (Japan),0,retail,33146736,ee6b68a0,e79e7a6f0b34b1ae9016adb5b8c3209c,eb2752abda5d85a5c65861901450bbc3c8ab087f,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0056,笑ゥせぇるすまん,G-6006,Warau Salesman (Japan),0,retail,353251584,4175b830,a849844819bda782314cade7469408e8,f8386ae9882e7c317a943a4f26edf90c4ccabb14,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0057,サンダーホーク,T-60134,Thunderhawk (Japan),0,retail,104504064,590bda55,36f154edb9cf31a50c8d7441675ec315,ed973b667ef3c52cce40025b7504ae90e27b171f,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0058,ウイニングポスト,T-76044,Winning Post (Japan),0,retail,10252368,db23bafd,7001bb7e42eb07ca67f022a0abdf2d10,5b2127d52fa0e5fe10fe8a0a798fada544ad7410,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0059,ソニック・ザ・ヘッジホッグCD,G-6021,Sonic the Hedgehog CD (Japan),0,retail,129592848,4c9fb365,5595a2f1bc28f045fee385ffc074581b,bd33f07167eb25372975143483b27927cf13e2db,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0060,モンキー・アイランド ユーレイ海賊大騒動!,T-60044,"Secret of Monkey Island, The (Japan)",0,retail,18355008,0d235795,8506ae70b4e52be90f9536dfae76bae5,89dc84608fb8defb2c86334021e96486bc3fb5b3,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0061,蒼き狼と白き牝鹿・元朝秘史,,Aoki Ookami to Shiroki Mejika - Genchou Hishi (Japan),0,retail,11461296,ad6c8bb3,b8bf818ca574ab412192149be13a7e45,352bb457c69649f35e32f31d673f2af3e1978d1a,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0062,Vay 流星の鎧,T-44014,Vay - Ryuusei no Yoroi (Japan),0,retail,122294592,e080738e,a8b804e9a19cfcce042daecdcfaacf01,95f96a6605aa8efee811e2f38ea940339849a0ce,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0063,リーサルエンフォーサーズ,T-95014,Lethal Enforcers (Japan),0,retail,10097136,b1c0d36b,4d2018c000bb5bd30a1d34e693706375,792d1ed67d4cee8ee47de97f3b40260deb641080,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0064,ダークウィザード 蘇りし闇の魔導士,G-6005,Dark Wizard - Yomigaerishi Yami no Madoushi (Japan),0,retail,413505120,d1af4ab4,77ed85fa93dbd2edddecabe576aa333b,6baf5aa10645f53c23f68772274eac6878cf9f0a,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0065,アルスラーン戦記,G-6028,Arslan Senki (Japan),0,retail,25291056,60439a43,bafb633e2303feddb6aec8b6d47c1bf5,009d5f85e327b7a76133057c81f9c9c029362899,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0066,ナイトトラップ,G-6025,Night Trap (Japan),0,retail,615875904;514587024,17744c64;36d7aa8c,678c22e1bf0e1cb0d85c1794a4b51f7f;fbcea0d89b19052d5e7bb15ae5a42d70,c82bade82dc2096e86c06eef7028181dd6be4ea6;2ed23d43e44daa37bbfa83b0e1255dc66005fd03,;,dat_only,1,,,,,,,,,Redump,2
+mcd-jp-0067,マイト アンド マジックIII,T-68024,Might and Magic III - Isles of Terra (Japan),0,retail,25625040,40557244,16ac44fda75238670c6797d7c4c2f197,eb5a7c2619eb311ef8f629108e7ec065d85fd6ca,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0068,アルシャーク,T-92014,Alshark (Japan),0,retail,27377280,a073d994,18eb8ee1409b4be9ff5415961dee0470,3c6bc5f9f62228d7eba24ef41155f6e393c1e665,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0069,ザ・サード ワールド ウォー,T-22034,"IIIrd World War, The (Japan)",0,retail,175906080,ec170ea8,d5e3a2274a7f59c006c4fa21620f7114,e55989d33a7752e3bfa625dfec2d883df3dd8a35,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0070,夢見館の物語,G-6027,Yumemi Yakata no Monogatari (Japan),0,retail,625389744,e491e189,fcc0915d6bb80c64c81b65bc0a943366,483aa4469a9e579ed99803c5eb9cf70d1f15f836,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0071,サイキック・ディテクティブ・シリーズVol.4 オルゴール,T-84034,Psychic Detective Series Vol. 4 - Orgel (Japan),0,retail,160916784,9d1e207d,90e98b8ba70892313b2bd08be133c37d,e33c3aa9690460a4a7c9a50a4724ea0781a0d879,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0072,戦国伝承,T-24034,Sengoku Denshou (Japan),0,retail,14994000,4446f30c,92f3679caef678768cf89ba2c35511ea,48034f45d92ce51cb47c08d2cc21aa5e88850afe,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0073,いしいひさいちの大政界,G-6016,Ishii Hisaichi no Daiseikai (Japan),0,retail,8881152,59f69097,5ac75658e78de488fb8ce7acedc2b16e,7d69081509b0b5b357f48e6897854543a7024538,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0074,真・女神転生,T-44044,Shin Megami Tensei (Japan),0,retail,68633712,4fbbcf95,9a2e80e589edeed02d68e98573960965,9cd64728e64eac2b257e98864c563d816bcd5920,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0075,マイクロコズム,T-60164,Microcosm (Japan),0,retail,274203216,440ce76f,59217fdda2e08e148dd2b5a92197c2a6,7afdb8b11739ecaa68166c7a5f6cf93a5b6f111c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0076,ゲームのかんづめ VOL.1,G-6032,Game no Kandume Vol. 1 (Japan),0,retail,11416608,1babe750,474eaf9a9df9fda11ddeb65d3766e54b,6fffef93a9264868e0e7a4f345e1e386c2d9db5f,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0077,ゲームのかんづめ VOL.2,G-6033,Game no Kandume Vol. 2 (Japan),0,retail,9041088,b02c2f00,2349e12ff841e23d89aa60a553140a2c,01bb8e772b0b9a2264c6203b228471286c5496f6,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0078,F1サーカスCD,T-71014,F1 Circus CD (Japan),0,retail,16995552,4100652e,c2feb14f613059ed48d55cb8ac8c35ad,6c2b721b384128142f1d0d805a7c4515fd3d2bc0,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0079,ハイムドール,,Heimdall (Japan),0,retail,25881408,b07c3ddd,b3d5eba5e723a75eb50406400f87e2f6,974f697aae57a8aa77a6c3186537dc6c92e3db1e,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0080,AX-101,G-6031,AX-101 (Japan),0,retail,615817104,03cbf674,cb1e01076185d819f0bec8350fc1744b,616da93bfe4c511dcab19bbbf3aebcac4876a2ee,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0081,ウイングコマンダー,G-6011,Wing Commander (Japan),0,retail,425876640,bd623044,a1152b7783c99de340f679d51adef71a,87c0d88e6193b8d3314b3f004b0dafa0bf5c130f,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0082,ダンジョンマスターII スカルキープ,T-60144,Dungeon Master II - Skullkeep (Japan),0,retail,13636896,a130d0d7,5beba35f7a51771e7ac93fe7a1072d07,081d0189915af1b825ea9f0e583886699036686d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0083,信長の野望・覇王伝,T-76024,Nobunaga no Yabou - Haouden (Japan),0,retail,10101840,a511c733,0df283f1869df86b28ef8417acd72e99,4a1fd38d00e4c815e782784746527de417481eff,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0084,ぽっぷるメイル,G-6029,PopfulMail (Japan),0,retail,349281408,da0db5b4,bcb0d7ef81f3045471a5cafb1fa9486f,c290da2671d57dfb111f3ac98c15410a9b7f663c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0085,うる星やつら 〜ディア マイ フレンズ〜,T-45064,Urusei Yatsura - Dear My Friends (Japan),0,retail,383653536,187ce23e,1ab5d472269e913271273e17277bf9f2,d23db09fa11b81f4463c7f11df942a9fd9c3286c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0086,バトルファンタジー,T-22044,Battle Fantasy (Japan) (Rev A),0,retail,21499632,86074e4b,f252f521025fce0f9ee54f4d49910e70,1967b086e5d451af6cc818a8c83d98870a316ecc,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0087,爆伝 アンバランスゾーン,T-145014,Bakuden - The Unbalanced Zone (Japan),0,retail,254886240,191734fb,419c030412118bdd8306c2935c077c18,d14e05572ffcb2a420e71acb4b46cc7896cec517,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0088,アイ・オブ・ザ・ビホルダー,T-75014,Eye of the Beholder (Japan),0,retail,26594064,edf01fa1,09b252f2cd00977c3f447c9cfe5c7fe6,94abf4f66038810a6f0120dbd61bc873bacf68ec,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0089,ヘブンリーシンフォニー,G-6034,Heavenly Symphony - Formula One World Championship 1993 (Japan),0,retail,202761216,41aafac7,03900ce1266499ce0726375a28b19443,22ed2b1b687244aab837681d560dae69ad0aa421,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0090,仮面ライダーZO,,Kamen Rider ZO (Japan),0,retail,449996400,a21571de,27d6778504375d324b1a267813ecd4fa,1e9f137b00fffd580ef38bb52db47684a7f610d6,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0091,ロードス島戦記 英雄戦争,G-6024,Record of Lodoss War (Japan),0,retail,190392048,1112c998,4c9a7b6cade7e914b1748217f914a0b7,b5dd848c6dec9b4b0e8353b89044a99ad730f94f,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0092,ドラゴンズレア,G-6035,"Dragon's Lair (Japan) (En,Ja,Fr,De,It)",0,retail,607935552,280750dd,732454475da47a4ebdaa293d28beea77,230d58d92549e984295ddc797b4efa29481e2ce0,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0093,モータルコンバット完全版,T-81014,Mortal Kombat Kanzenban (Japan),0,retail,37516752,4e1e3619,2d61162f4882cb2bbf8fe39f35a3bb3b,8c498a7923b41f2e4f0a32766bbf2f8889991fdd,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0094,WWFマニア・ツアー,T-81024,WWF Mania Tour - WWF - Rage in the Cage (Japan),0,retail,244424544,5ea20193,ba48a73897f9adebf5c306d8cfbf6f0d,7eac082765283034734726107cc4b2a20f4fcebf,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0095,シャイニング・フォースCD,G-6036,Shining Force CD (Japan),0,retail,68664288,4dd14b8b,69af24db276b31ba129221b84784fbb3,fb4e9e87f76ed8ced4ae3d7e3703824858eabf6e,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0096,シャドー・オブ・ザ・ビーストII 獣神の呪縛,T-60034,Shadow of the Beast II - Juushin no Jubaku (Japan),0,retail,29976240,0330e73d,845ef4ae5c7d29b28f32bc06d39fa904,f1e4a7d0924af808f5d2de587b28b89db01c267c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0097,スター・ウォーズ レベルアサルト,T-60174,Star Wars - Rebel Assault (Japan),0,retail,395248896,e49d72d3,6f288dcc1ad1c31c81725a0d0a502f1c,2e6997e434b03e9cdaf453ced97adb4d9cf00cae,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0098,ジュラシック・パーク,G-6038,Jurassic Park (Japan),0,retail,190462608,594224f9,beab8dceaf5b375a13e921337061c66e,4e4d1a773f2d6f265752190433f6e76f6a2132eb,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0099,キャプテン翼,T-36014,Captain Tsubasa (Japan),0,retail,174511344,bfb3238b,0b855e1f4d00e679e9d138c3e803ad15,f2d3094e34d1492066f7ae5a08e22675c9064bd8,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0100,バトルコープス,T-60194,Battlecorps (Japan),0,retail,90721344,21f17127,a0bc2f4df4e9d3b77929ddd42a20b4cd,10e1bdf28f43bf4115a27eec3a2e41b88adfa138,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0101,スターブレード,T-14014,Starblade (Japan),0,retail,466669728,239f44d6,08310a292745ddf3d4d35a277d7c4c11,d12d78a06c1f136333086dc729bb35f1a1b61850,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0102,アフターハルマゲドン外伝 魔獣闘将伝エクリプス,G-6026,After Armageddon Gaiden - Majuu Toushouden Eclipse (Japan),0,retail,7538160,ebfa34c8,2d9bf2a5f2af1163dc466e9e8bfeb89e,68d54d51960d357de9e4018aa3324ecd13272135,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0103,リーサルエンフォーサーズII ザ・ウエスタン,T-95034,Lethal Enforcers II - The Western (Japan),0,retail,14845824,a3ccfcbb,a5107424fce478b0ec32fb2adfcf9e7f,163a466dd8cfcdc76e219d3e5f2a3574b2397796,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0104,NBAジャム,T-81034,NBA Jam (Japan),0,retail,51292416,0d88b173,0e8ffd5c64c26c8fde67921b5780a511,ffe28a724a9afaf773cd093d06ef37c088a1cb70,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0105,トムキャットアレイ,G-6039,Tomcat Alley (Japan),0,retail,532316400,ff0aca25,5564b9af7be56be307d01c107bc126eb,06675a0f4dfbb8b053859d358b9c6ceee699049d,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0106,ルナ エターナルブルー,T-45074,Lunar - Eternal Blue (Japan),0,retail,458849328,c445ce6d,0d1d15ea1e3b97f4f0a16c3dc2f4ee70,35429a7ae98a21de1176ba810911a65b2966beb9,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0106,ルナ エターナルブルー,T-45074,Lunar - Eternal Blue (Japan) (Rev A),0,retail,458849328,5916fe49,3ea0fd4913d26d78ccb78f5ddda67b63,54b9a37b898a0e14b632bf68269b74215842e5a5,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0107,ソウルスター,T-60184,SoulStar (Japan),0,retail,105811776,43c7ede4,f1093f555719de2a70321c15e856fd37,2ce9931f444cd78923ef8b0705b69ffd39f864ca,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0108,エコー・ザ・ドルフィンCD,G-6041,Ecco the Dolphin CD (Japan) (Disc 1) (Ecco the Dolphin),0,retail,59616144,2885ba0a,ab223ab33e5e97818697beacb59e08b7,c6c742bbdf6f6663b5e82ceef0941f0f4c1b2bd1,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0108,エコー・ザ・ドルフィンCD,G-6041,Ecco the Dolphin CD (Japan) (Disc 2) (Ecco the Dolphin II),0,retail,150495072,b4165033,ffc496e2eedd3c415027e38f6569c9d3,ffdb25edec9c4a52e599093126bd09164d988816,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0109,大封神伝,T-60024,Daihoushinden (Japan),0,retail,386308944,5dd7bba0,8c7997950dc85fe021686690c9aedf91,a5a81460d835e8407a3805bd6d57954ce9c6f914,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0110,ダブルスイッチ,G-6040,Double Switch (Japan),0,retail,632636256,e642ce5a,d610174faff4295f62c92e855aa6d450,42885bf83d3a163fb8dab9ae113f89684ae2769c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0111,プライズファイター,G-6037,Prize Fighter (Japan),0,retail,398005440;468791232,5b1c87d5;5681125a,49c6de3c3323d648f1e2a3c69db630bb;255a271ac06e92f7c0dde69ada0dc460,f0176225f2aebac2ef8edfe56d8ed267060ac758;6513e21fe06613c52d428414e350136717e06b7f,;,dat_only,1,,,,,,,,,Redump,2
+mcd-jp-0112,餓狼伝説SPECIAL,T-60214,Garou Densetsu Special (Japan),0,retail,15826608,9cab4019,c04b109e873a3b82023c0137b3515d13,afe22536c271b2845e1688bbe9e79abb0ea1035c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0113,ファーレンハイト,G-6043,Fahrenheit (Japan),0,retail,593534256,f2bc9334,a96f6d3fb1a6b022b6aba5b49ab3cd19,4dfa3f0021f9c4193a3a03e14e580c91cad90a75,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0114,サージカルストライク,G-6044,Surgical Strike (Japan),0,retail,447752592,de3ed309,88698ed8db9ba7b756a7fa383dc5e017,e51626f37222cc849f3aafe59e25f31ebf33f87c,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-0115,シャドウラン,T-66024,Shadowrun (Japan),0,retail,218696016,04f1bc85,27ed6d15549a8d9cdce6f61f98e2d844,7942f4fbed5827290ee627b194105fa2ef906201,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-nfs-0001,ワンダーメガ コレクション,,WonderMega Collection (Japan) (Rev 2),2,not_for_sale,67032000,45fdc758,65d7c6e8652c1f16a9ba89778ac230df,a46fded5443bedf88dbd4c0f99b358f9dffe11e7,,dat_only,1,,,,,,,,,Redump,1
+mcd-jp-nr-h4a18f112,Sega CD Demo (Japan) (Proto),,Sega CD Demo (Japan) (Proto),0,prototype,36658272,871d72b8,84c3703cecf18f1236f2326da4c9903c,c1f148ec5b4b98021a956674a95a4cd48ef6dd15,,dat_only,1,,,,,,,,,Redump,1
