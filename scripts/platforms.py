@@ -126,6 +126,26 @@ def _gc_normalize_code(c):
     return m.group(1) if m else ""
 
 
+def _wii_models(text):
+    """'RVL-RSPJ-JPN'、'RVL-P-RSPJ(JPN)'、'RVL-SFWJ-JPN-B0' などを 'RVL-RSPJ-JPN' にそろえる。"""
+    out = []
+    for m in re.finditer(r"\bRVL-(?:P-)?([A-Z0-9]{3}J)(?![A-Z0-9])", text.upper()):
+        model = f"RVL-{m.group(1)}-JPN"
+        if model not in out:
+            out.append(model)
+    return out
+
+
+def _wii_code(model):
+    m = re.fullmatch(r"RVL-([A-Z0-9]{3}J)-JPN", model or "")
+    return m.group(1) if m else ""
+
+
+def _wii_normalize_code(c):
+    m = re.search(r"RVL-([A-Z0-9]{3}J)", c or "")
+    return m.group(1) if m else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -272,6 +292,48 @@ PLATFORMS = {
             "interval": 5,
             "cache_dir": "maru-chang-gc",
             "model": lambda code: f"{code}-JPN" if re.fullmatch(r"DOL-[A-Z0-9]{3}J", code) else "",
+        },
+        "maru_date_only": True,
+        "tax_inclusive_from": "2004-04-01",
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # Wii（ディスクソフト）。Wiiウェアは別リスト、バーチャルコンソール・Wiiチャンネルは対象外
+    "wii": {
+        "name": "Wii",
+        "dir": ROOT / "data" / "wii",
+        "id_prefix": "wii-jp",
+        "wikipedia": {
+            "tables": [
+                {"page": "Wiiのゲームタイトル一覧", "section": "発売されたタイトル",
+                 "table_id": "softwarelist", "columns": ("jp", "na", "eu", "title", "publisher", "notes")},
+            ],
+        },
+        "extra_lists": {
+            "wiiware": {
+                "out": "jp_wiiware.csv",
+                "id_suffix": "wiiware",
+                "tables": [{"page": "Wiiウェアのゲームタイトル一覧", "section": "配信されたタイトル",
+                            "columns": ("jp", "title", "publisher", "blocks", "wifi", "classic_controller", "notes")}],
+            },
+        },
+        "madb_platforms": ["Wii"],
+        "mame_lists": [],
+        "nointro_dats": ["redump:Nintendo - Wii"],
+        "nointro_export": ["Wii (Redump)"],
+        "nointro_export_fallback": {"Wii (Redump)": "redump:Nintendo - Wii"},
+        "models_from": _wii_models,
+        "models_from_serial": _wii_models,
+        "code_of": _wii_code,
+        "normalize_code": _wii_normalize_code,
+        "maru": {
+            "url": "https://maru-chang.com/gamedb/gamelist.php/Wiilineup/{page}",
+            "pages": 28,          # 1,372 件（バーチャルコンソール・Wiiウェア・チャンネルを含む）
+            "interval": 5,
+            "cache_dir": "maru-chang-wii",
+            "require_model": True,
+            # ディスクソフト（型番 RVL-R*** / RVL-S***）だけを型番つきで使う
+            "model": lambda code: f"{code}-JPN" if re.fullmatch(r"RVL-[RS][A-Z0-9]{2}J", code) else "",
         },
         "maru_date_only": True,
         "tax_inclusive_from": "2004-04-01",

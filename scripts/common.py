@@ -63,8 +63,15 @@ def fetch(url, path):
 
 # ---------------------------------------------------------------- normalize
 
+_KANJI_NUM = {"一": "1", "二": "2", "三": "3", "四": "4", "五": "5", "六": "6", "七": "7", "八": "8", "九": "9",
+              "十": "10"}
+
+
 def norm(s):
     s = unicodedata.normalize("NFKC", s).lower()
+    # 「第一巻」「第2弾」などを数字だけにそろえる（例: 「火の鳥1」と「火の鳥 第一巻」）
+    s = re.sub(r"第([一二三四五六七八九十]|\d+)(巻|弾|章|話|号)",
+               lambda m: _KANJI_NUM.get(m.group(1), m.group(1)), s)
     return re.sub(r"[\s・･~〜～\-－―:：!！?？.,、。&＆'\"“”「」『』()（）\[\]【】/+＋☆★♪®×x]", "", s)
 
 
@@ -101,7 +108,9 @@ def parse_price(s):
 
 
 def tax_rate(date):
-    """発売日時点の消費税率（1989-04-01 に3%、1997-04-01 に5%）。"""
+    """発売日時点の消費税率（1989-04-01 に3%、1997-04-01 に5%、2014-04-01 に8%）。"""
+    if date and date >= "2014-04-01":
+        return 0.08
     if date and date >= "1997-04-01":
         return 0.05
     if date and date >= "1989-04-01":
@@ -341,10 +350,20 @@ def load_maru(cfg):
                 path.write_bytes(r.read())
             time.sleep(cfg.get("interval", 5))  # 個人サイトなのでアクセス間隔を空ける
         t = path.read_text(encoding="utf-8", errors="replace")
-        for m in re.finditer(r'<tr id="[^"]+" class="line\d">(.*?)<td class="code">([^<]*)</td>', t, re.S):
-            body, code = m.group(1), m.group(2).strip()
-            mon = re.search(r'class="month">(\d{4})年(\d{1,2})月', body)
-            day = re.search(r'class="day">(\d{1,2})日', body)
+        # 1件は <tr id="…"> から次の <tr id="…"> まで（行の class が "line1" 以外のこともあるので id で区切る）
+        starts = [m.start() for m in re.finditer(r'<tr id="', t)] + [len(t)]
+        for a, b in zip(starts, starts[1:]):
+            seg = t[a:b]
+            m = re.match(r'<tr id="([^"]+)"[^>]*>(.*?)<td class="code">([^<]*)</td>', seg, re.S)
+            if not m:
+                continue
+            row_id, body, code = m.group(1), m.group(2), m.group(3).strip()
+            # 他社ソフトは型番欄にメーカー独自の商品番号（例: NCS89006）が入り、任天堂の型番は行の id にある
+            if not cfg["model"](code) and cfg["model"](row_id):
+                code = row_id
+            # 日付欄は class="month" のほか class="ndate month" のこともある
+            mon = re.search(r'class="[^"]*\bmonth">(\d{4})年(\d{1,2})月', body)
+            day = re.search(r'class="[^"]*\bday">(\d{1,2})日', body)
             title = re.search(r'class="title">(.*?)</div>', body, re.S)
             title = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", title.group(1)))).strip() if title else ""
             price = re.search(r'class="price">(.*?)</div>', body, re.S)
@@ -365,7 +384,10 @@ def load_maru(cfg):
                 "tax": ("税込" if pm.group(2) else "税抜") if pm else "",
                 "not_for_sale": ptxt.strip().startswith("非売品"),
             })
-    return [m for m in out if not m["not_for_sale"]]
+    out = [m for m in out if not m["not_for_sale"]]
+    if cfg.get("require_model"):  # 型番がディスクソフトの形式のものだけ（Wii のチャンネル・VC 等を除く）
+        out = [m for m in out if m["model"]]
+    return out
 
 
 def match_maru(rows, maru, overrides, code_of=None, date_only=False):
@@ -393,18 +415,28 @@ def match_maru(rows, maru, overrides, code_of=None, date_only=False):
             m = min(cands, key=lambda m: days(r["release_date"], m["date"]) or 0)
             result[r["_i"]] = m
             used.add(m["key"])
+    # タイトルでの照合: 同じ発売日の候補との類似度が高い組から順に割り当てる（行の順に取ると、
+    # 同日に似た題名が並ぶシリーズ物で先の行が別の行の正解を奪うため）。1位と2位が拮抗する行は割り当てない。
+    pairs = []
     for r in rows:
         if r["_i"] in result:
             continue
         # 行のタイトルに加えて、照合済みの MADB の別表記（英字タイトルなど）でも比べる
         names = [r["title"]] + list(r.get("_alt_titles") or [])
-        cands = [(max(sim(n, m["label"]) for n in names), m) for m in maru
-                 if m["key"] not in used and m["date"] == r["release_date"]]
+        cands = sorted(((max(sim(n, m["label"]) for n in names), m) for m in maru
+                        if m["key"] not in used and m["date"] == r["release_date"]), key=lambda c: -c[0])
         cands = [c for c in cands if c[0] >= 0.6]
-        if cands:
-            m = max(cands, key=lambda c: c[0])[1]
-            result[r["_i"]] = m
-            used.add(m["key"])
+        if not cands:
+            continue
+        if len(cands) > 1 and cands[0][0] < 0.95 and cands[0][0] - cands[1][0] < 0.05:
+            continue
+        pairs.append((cands[0][0], r["_i"], cands[0][1]["key"]))  # 各行はいちばん近い候補だけ（取られたら諦める）
+    pairs.sort(key=lambda p: -p[0])
+    for sc, i, k in pairs:
+        if i in result or k in used:
+            continue
+        result[i] = by_key[k]
+        used.add(k)
     if date_only:
         # 最後に、同じ発売日に照合されていない行と maru-chang のエントリが1件ずつだけ残っていれば組にする
         # （maru-chang が英字表記・Wikipedia が日本語表記で類似度が出ない場合。要確認として扱う）

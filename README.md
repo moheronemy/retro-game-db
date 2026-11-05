@@ -9,8 +9,9 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 |---|---|---|---|---|---|
 | ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（997 行） |
 | ゲームボーイ／ゲームボーイカラー (GB/GBC) | [`data/gb/jp_titles.csv`](data/gb/jp_titles.csv) | 1,245 | 1,194 | 1,199 | [`data/gb/jp_rom_dumps.csv`](data/gb/jp_rom_dumps.csv)（1,375 行） |
-| ニンテンドーDS (DS) | [`data/ds/jp_titles.csv`](data/ds/jp_titles.csv) | 1,840 | 1,800 | 1,829 | [`data/ds/jp_rom_dumps.csv`](data/ds/jp_rom_dumps.csv)（2,074 行） |
+| ニンテンドーDS (DS) | [`data/ds/jp_titles.csv`](data/ds/jp_titles.csv) | 1,840 | 1,796 | 1,830 | [`data/ds/jp_rom_dumps.csv`](data/ds/jp_rom_dumps.csv)（2,071 行） |
 | ニンテンドー ゲームキューブ (GC) | [`data/gc/jp_titles.csv`](data/gc/jp_titles.csv) | 276 | 272 | 274 | [`data/gc/jp_rom_dumps.csv`](data/gc/jp_rom_dumps.csv)（366 行） |
+| Wii | [`data/wii/jp_titles.csv`](data/wii/jp_titles.csv) | 461 | 461 | 461 | [`data/wii/jp_rom_dumps.csv`](data/wii/jp_rom_dumps.csv)（496 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -18,6 +19,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GB/GBC | [`jp_not_for_sale.csv`](data/gb/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/gb/jp_non_retail.csv)（92 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/gb/jp_nintendo_power.csv)（153 件） |
 | DS | [`jp_not_for_sale.csv`](data/ds/jp_not_for_sale.csv)（13 件） | [`jp_non_retail.csv`](data/ds/jp_non_retail.csv)（35 件） | DSiウェア [`jp_dsiware.csv`](data/ds/jp_dsiware.csv)（493 件） |
 | GC | [`jp_not_for_sale.csv`](data/gc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/gc/jp_non_retail.csv)（62 件） | |
+| Wii | [`jp_not_for_sale.csv`](data/wii/jp_not_for_sale.csv)（4 件） | （0 件） | Wiiウェア [`jp_wiiware.csv`](data/wii/jp_wiiware.csv)（210 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -343,6 +345,41 @@ Wikipedia「ニンテンドーDSのゲームタイトル一覧」の「非売品
 Redump の `Taikenban`（体験版）・`Special Taiken Disc`・ムービー体験版は配布経路が確認できていないため載せていない。
 非売品の `category` に `preorder`（予約特典）を加えた。
 
+## Wii
+
+Wii 用ディスクソフトとして日本で発売されたもの（2006年12月〜2015年）。`id` は `wii-jp-<連番>`（発売順）。
+Wiiウェアは別リスト、バーチャルコンソールと Wii チャンネルは対象外。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「Wiiのゲームタイトル一覧」（日本の発売日がある行。本文の年別件数どおり 461 件） |
+| 型番・価格の補完と照合、発売日の照合 | maru-chang.com Wii ソフトラインナップ（1,372 件のうち、型番が `RVL-R***` / `RVL-S***` のディスクソフトだけを使う） |
+| 価格 | メディア芸術データベース（機種「Wii」） |
+| 型番の検証・ハッシュ | Redump DAT（libretro-database 収録の `Nintendo - Wii.dat`） |
+
+- 型番・価格・吸い出しは 461 件すべてにある。
+- maru-chang が英字表記の作品は、同じ発売日に双方 1 件ずつ残ったもので照合し（45 件、要確認レポートに出る）、
+  同日に複数並ぶもの 12 件は [`data/wii/overrides/matches.csv`](data/wii/overrides/matches.csv) で手動対応した。
+- 同梱版でしか売られていない作品（Wii Fit のバランスWiiボード同梱など）は同梱版の価格のまま。MADB の価格が maru-chang より
+  3 割以上高いもの 11 件はスペシャルパック・本体同梱パック等とみて maru-chang の価格にしている（太鼓の達人Wii、
+  ギターヒーロー3 は周辺機器同梱が通常版の可能性があり要確認）。
+- 2014年4月以降の発売分は消費税 8% で換算する。
+
+### 非売品（`jp_not_for_sale.csv`）・別リスト
+
+Wikipedia の「非売品」節の 4 件：AQUARIUS BASEBALL（アクエリアスのキャンペーン景品）、ザ・ワールド・オブ・ゴールデンエッグス
+NISSAN NOTE オリジナルバージョン（日産ノート試乗キャンペーン景品）、エキサイト猛マシン（クラブニンテンドー景品）、
+天空の機士ロデア（Wii U 用ソフトの初回生産分特典として同梱された Wii 版）。
+
+Redump の `Taikenban`（7 件）・`Otameshiban`（1 件）は配布経路が確認できていないため別リストに載せていない（別リストは 0 件）。
+
+### Wiiウェア（`jp_wiiware.csv`）
+
+Wikipedia「Wiiウェアのゲームタイトル一覧」の 210 件（本文は 211 タイトルで、1 件は同ページの非売品節）。
+`release_date` は配信開始日、`blocks` は必要ブロック数、`wifi` は Wi-Fi 対応、`classic_controller` はクラシックコントローラ対応。
+
 ## 再生成
 
 ```sh
@@ -363,6 +400,11 @@ python3 scripts/build_dumps.py ds
 python3 scripts/fetch_wikipedia_list.py gc
 python3 scripts/enrich.py gc                   # maru-chang は 5 秒間隔で 6 ページ取得
 python3 scripts/build_dumps.py gc
+
+python3 scripts/fetch_wikipedia_list.py wii
+python3 scripts/fetch_wikipedia_list.py wii --list wiiware  # → data/wii/jp_wiiware.csv
+python3 scripts/enrich.py wii                  # maru-chang は 5 秒間隔で 28 ページ取得
+python3 scripts/build_dumps.py wii
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。
