@@ -74,7 +74,7 @@ def main():
                 d[col] = o[col]
 
     madb = C.load_madb(cfg["madb_platforms"])
-    mame = C.load_mame(cfg["mame_lists"])
+    mame = C.load_mame(cfg["mame_lists"], cfg.get("mame_jp_models"))
     nointro = nointro_models(cfg)
     maru = C.load_maru(cfg["maru"]) if cfg.get("maru") else None
     print(f"MADB: {len(madb)} 件 / MAME 日本版: {len(mame)} 件"
@@ -137,6 +137,8 @@ def main():
             issues.append("型番がNo-Introに無い")
         if ma and ma["model"] and model and ma["model"] != model:
             issues.append(f"型番不一致 maru-chang={ma['model']}")
+        if cfg.get("check_row"):
+            issues += cfg["check_row"]({**r, "model_number": model})
 
         # ---- 価格: MADB を基本に、maru-chang で補完・訂正する
         date0 = r["release_date"]

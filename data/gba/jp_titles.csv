@@ -86,7 +86,7 @@ gba-jp-0084,2001-10-25,ヒカルの碁,コナミ,AGB-AHKJ-JPN,5800,税抜,,ヒ�
 gba-jp-0085,2001-10-25,なかよし麻雀 かぶリーチ,コナミ,AGB-AKPJ-JPN,5800,税抜,,なかよし麻雀 かぶリーチ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,なかよし麻雀 かぶリーチ,M752825,nakamahj,AGB-AKPJ
 gba-jp-0086,2001-10-26,どこでも対局 役満アドバンス,任天堂,AGB-AYAJ-JPN,4800,税抜,,役満 (任天堂),Wikipedia+MADB+maru-chang,MADB+maru-chang+No-Intro,maru-chang,,M723168,,AGB-AYAJ
 gba-jp-0087,2001-10-26,なかよしペットアドバンスシリーズ1 かわいいハムスター,エム・ティー・オー,AGB-AH7J-JPN,5200,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,なかよしペットアドバンスシリーズ1 かわいいハムスター,M734288,nakapet1,AGB-AH7J
-gba-jp-0088,2001-10-26,ファランクス,コトブキシステム,AGB-APXJ-JPN,4980,税抜,同名スーパーファミコン用ソフトの移植版で、当初は2001年9月に発売される予定だった,ファランクス (ゲーム),Wikipedia+MADB+maru-chang,MADB+maru-chang+No-Intro,MADB+maru-chang,PHALANX,M723169,,AGB-APXJ
+gba-jp-0088,2001-10-26,ファランクス,コトブキシステム,AGB-APXJ-JPN,4980,税抜,同名スーパーファミコン用ソフトの移植版で、当初は2001年9月に発売される予定だった,ファランクス (ゲーム),Wikipedia+MADB+MAME+maru-chang,MAME+MADB+maru-chang+No-Intro,MADB+maru-chang,PHALANX,M723169,phalanxj,AGB-APXJ
 gba-jp-0089,2001-11-01,ジュラシック・パークIII 失われた遺伝子,コナミ,AGB-ADNJ-JPN,5800,税抜,映画『ジュラシック・パークIII 』のゲーム化で、アクションゲームパートとパズルゲームパートに分かれている,ジュラシック・パークIII,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,ジュラシックパーク3  失われた遺伝子,M734126,jpark3dfj,AGB-ADNJ
 gba-jp-0090,2001-11-15,友情のビクトリーゴール 4V4嵐 GET THE GOAL!!,コナミ,AGB-A4VJ-JPN,5800,税抜,漫画『GET THE GOAL!! 4V4嵐』のゲーム化で、任天堂スペースワールド2001出展時点では「友情のビクトリーゴール4V4嵐」という仮称が割り振られていた,友情のビクトリーゴール 4V4嵐 GET THE GOAL!!,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,友情のビクトリーゴール4v4嵐 GET THE GOAL!!,M766440,yuju4v4,AGB-A4VJ
 gba-jp-0091,2001-11-22,Adventure of TOKYO DisneySEA,コナミ,AGB-ADEJ-JPN,5800,税抜,テーマパーク・東京ディズニーシーを題材としたアドベンチャーゲーム,東京ディズニーシー,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,Adventure of TOKYO Disney SEA,M737167,advtokyo,AGB-ADEJ
@@ -179,7 +179,7 @@ gba-jp-0177,2002-04-19,ひつじのキモチ。,カプコン,AGB-AHIJ-JPN,4800,�
 gba-jp-0178,2002-04-19,大好きテディ,エム・ティー・オー,AGB-ATDJ-JPN,5480,税抜,,大好きテディ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,大好きテディ,M763992,daisuktd,AGB-ATDJ
 gba-jp-0179,2002-04-19,黒ひげのくるっとジントリ,トミー,AGB-AKUJ-JPN,4800,税抜,,黒ひげのくるっとジントリ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,黒ひげのくるっとジントリ,M761419,kurokrtt,AGB-AKUJ
 gba-jp-0180,2002-04-19,黒ひげのゴルフしようよ,トミー,AGB-AGOJ-JPN,4800,税抜,,ゴルフしようよ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,黒ひげのゴルフしようよ,M761420,kurogolf,AGB-AGOJ
-gba-jp-0181,2002-04-25,ウイ・イレ,コナミ,AGB-AEWJ-JPN,5800,税抜,,ウイニングイレブン,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,ウイ・イレ,M745553,,AGB-AEWJ
+gba-jp-0181,2002-04-25,ウイ・イレ,コナミ,AGB-AEWJ-JPN,5800,税抜,,ウイニングイレブン,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,ウイ・イレ,M745553,uiire,AGB-AEWJ
 gba-jp-0182,2002-04-25,テニスの王子様 ジーニアス・ボーイズ・アカデミー,コナミ,AGB-ATIJ-JPN,4800,税抜,,テニスの王子様 (ゲーム),Wikipedia+MAME+maru-chang,MAME+maru-chang+No-Intro,maru-chang,,,tenoujgb,AGB-ATIJ
 gba-jp-0183,2002-04-26,おしゃべりインコ倶楽部,アルファ・ユニット,AGB-AICJ-JPN,4800,税抜,,おしゃべりインコ倶楽部,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,おしゃべりインコ倶楽部,M746286,oshaberi,AGB-AICJ
 gba-jp-0184,2002-04-26,アドバンスGT2,エム・ティー・オー,AGB-A2GJ-JPN,4800,税抜,,アドバンスGT2,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,アドバンスGT2,M744931,advangt2,AGB-A2GJ
@@ -418,7 +418,7 @@ gba-jp-0416,2003-07-24,シャイニング・ソウルII,セガ,AGB-AU2J-JPN,5980
 gba-jp-0417,2003-07-25,真・女神転生 デビルチルドレン パズルdeコール!,アトラス,AGB-A8ZJ-JPN,4800,税抜,,真・女神転生 デビルチルドレン パズルdeコール!,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,真・女神転生 デビルチルドレン パズルdeコール!,M762874,shinmtpz,AGB-A8ZJ
 gba-jp-0418,2003-07-25,Onimusha Tactics,カプコン,AGB-A6OJ-JPN,4800,税抜,,鬼武者タクティクス,Wikipedia+MADB+MAME+maru-chang,MAME+MADB+maru-chang+No-Intro,maru-chang,,M720361,onimushaj,AGB-A6OJ
 gba-jp-0419,2003-07-25,トップギア・ラリーSP,コトブキシステム,AGB-AYEJ-JPN,4800,税抜,,トップギア・ラリーSP,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,トップギア・ラリーSP,M752236,topgrallj,AGB-AYEJ
-gba-jp-0420,2003-07-25,わんニャンどうぶつ病院 〜☆動物のお医者さん育成ゲーム☆〜,TDKコア,AGB-BWDJ-JPN,4800,税抜,,わんニャンどうぶつ病院 〜☆動物のお医者さん育成ゲーム☆〜,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,わんニャンどうぶつ病院 ～☆動物のお医者さん育成ゲーム☆～,M759514,,AGB-BWDJ
+gba-jp-0420,2003-07-25,わんニャンどうぶつ病院 〜☆動物のお医者さん育成ゲーム☆〜,TDKコア,AGB-BWDJ-JPN,4800,税抜,,わんニャンどうぶつ病院 〜☆動物のお医者さん育成ゲーム☆〜,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,わんニャンどうぶつ病院 ～☆動物のお医者さん育成ゲーム☆～,M759514,wannyan,AGB-BWDJ
 gba-jp-0421,2003-07-25,名探偵コナン 〜狙われた探偵〜,バンプレスト,AGB-AC4J-JPN,4800,税抜,,名探偵コナン,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,名探偵コナン ～狙われた探偵～,M766306,mconannt,AGB-AC4J
 gba-jp-0422,2003-08-01,ポケモンピンボール ルビー&サファイア,ポケモン,AGB-BPPJ-JPN,4800,税抜,『ポケモンピンボール』の後継作 ゲームボーイプレーヤー両対応ソフト,ポケモンピンボール ルビー&サファイア,Wikipedia+MADB+MAME+maru-chang,MAME+No-Intro,MADB+maru-chang,ポケモンピンボール ルビー＆サファイア,M756346,pokepinbja,AGB-APPJ
 gba-jp-0423,2003-08-01,アラジン,カプコン,AGB-AJ6J-JPN,4800,税抜,,アラジン (1992年の映画),Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,アラジン,M745073,aladdinj,AGB-AJ6J
@@ -719,8 +719,8 @@ gba-jp-0717,2005-06-30,桃太郎電鉄G ゴールド・デッキを作れ!,ハ�
 gba-jp-0718,2005-07-07,レゴ スター・ウォーズ,アイドス,AGB-BLWJ-JPN,5040,税込,,レゴ スター・ウォーズ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,レゴ®スター・ウォーズ,M758790,legoswrj,AGB-BLWJ
 gba-jp-0719,2005-07-07,エレメンタル ジェレイド 〜封印されし謳〜,トミー,AGB-BEJJ-JPN,5040,税込,,エレメンタル ジェレイド,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,エレメンタル ジェレイド ～封印されし謳～,M746163,elemgerd,AGB-BEJJ
 gba-jp-0720,2005-07-21,BLEACH アドバンス 紅に染まる尸魂界,セガ,AGB-BLEJ-JPN,5040,税込,,BLEACH アドバンス 紅に染まる尸魂界,Wikipedia+MADB+MAME+maru-chang,MAME+MADB+maru-chang+No-Intro,MADB+maru-chang,BLEACHアドバンス 紅に染まる尸魂界,M720081,bleach,AGB-BLEJ
-gba-jp-0721,2005-07-21,キム・ポッシブル#ゲーム,ディースリー・パブリッシャー,AGB-BKMJ-JPN,5040,税込,,キム・ポッシブル,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,キム・ポッシブル,M747151,kimpossj,AGB-BKMJ
-gba-jp-0722,2005-07-21,リロ・アンド・スティッチ#ゲーム,ディースリー・パブリッシャー,AGB-BLSJ-JPN,5040,税込,,リロ・アンド・スティッチ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,リロ アンド スティッチ,M758579,lilostchj,AGB-BLSJ
+gba-jp-0721,2005-07-21,キム・ポッシブル,ディースリー・パブリッシャー,AGB-BKMJ-JPN,5040,税込,,キム・ポッシブル,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,キム・ポッシブル,M747151,kimpossj,AGB-BKMJ
+gba-jp-0722,2005-07-21,リロ・アンド・スティッチ,ディースリー・パブリッシャー,AGB-BLSJ-JPN,5040,税込,,リロ・アンド・スティッチ,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,リロ アンド スティッチ,M758579,lilostchj,AGB-BLSJ
 gba-jp-0723,2005-07-21,機動劇団はろ一座 ハロのぷよぷよ,バンダイ,AGB-BH6J-JPN,5040,税込,『機動戦士ガンダム』に『ぷよぷよ』のシステムを合わせた作品,機動劇団はろ一座,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,機動劇団はろ一座 ハロのぷよぷよ,M760551,kidopuyo,AGB-BH6J
 gba-jp-0724,2005-07-28,新・ボクらの太陽 逆襲のサバタ,コナミ,AGB-U33J-JPN,5229,税込,『続・ボクらの太陽 ～太陽少年ジャンゴ～』の続編,新・ボクらの太陽,Wikipedia+MADB+MAME+maru-chang,MAME+MADB+maru-chang+No-Intro,MADB+maru-chang,新ボクらの太陽 逆襲のサバタ,M720080,sboktai,AGB-U33J
 gba-jp-0725,2005-07-28,ふたりはプリキュア Max Heart マジ?マジ?!ファイトdeINじゃない,バンダイ,AGB-BFMJ-JPN,5040,税込,,ふたりはプリキュア,Wikipedia+MADB+MAME+maru-chang,MAME+maru-chang+No-Intro,MADB+maru-chang,ふたりはプリキュアMaxHeart マジ?マジ! ?ファイトde INじゃない,M755328,futarimh,AGB-BFMJ

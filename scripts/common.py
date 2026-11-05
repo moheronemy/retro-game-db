@@ -74,7 +74,13 @@ def sim(a, b):
         return 0.0
     if a == b:
         return 1.0
-    return difflib.SequenceMatcher(None, a, b).ratio()
+    r = difflib.SequenceMatcher(None, a, b).ratio()
+    # 片方がもう一方の先頭に含まれる（副題の有無だけが違う）場合は底上げする
+    # 例: 「フリップル」と「フリップル AN EXCITING CUBE GAME」
+    short, long_ = sorted((a, b), key=len)
+    if len(short) >= 4 and long_.startswith(short):
+        r = max(r, 0.75)
+    return r
 
 
 def days(a, b):
@@ -187,24 +193,31 @@ def mame_xml(name):
     return fetch(MAME_URL.format(name=name), CACHE / f"mame_{name}.xml")
 
 
-def load_mame(lists):
-    """MAME ソフトウェアリストの日本版（一般販売品）を読む。"""
+def load_mame(lists, jp_models=None):
+    """MAME ソフトウェアリストの日本版（一般販売品）を読む。
+    jp_models を渡すと、説明に (Japan) が無くても（例: 'Tetris (World)'）シリアルに日本版の型番があれば含める。"""
     out = []
     for lst in lists:
         for s in ET.parse(mame_xml(lst)).getroot().findall("software"):
             desc = s.findtext("description") or ""
+            key = mame_key(lists, lst, s.get("name"))
             info = {i.get("name"): i.get("value") for i in s.findall("info")}
             serial = info.get("serial") or ""
-            if "(Japan" not in desc and "JPN" not in serial:
+            if "(Japan" not in desc and "JPN" not in serial and not (jp_models and jp_models(serial)):
                 continue
             if re.search(r"prototype|promo|demo|Kiosk|Hot Mario", desc, re.I):
                 continue  # 一般販売品ではないもの（非売品は別途扱う）
             rel = info.get("release") or ""
-            date = f"{rel[:4]}-{rel[4:6]}-{rel[6:8]}" if re.fullmatch(r"\d{8}", rel) else ""
-            titles = [t for t in (info.get("alt_title"), re.sub(r"\s*\(.*$", "", desc)) if t]
+            # '19890614' のほか '19890614 (JPN)' のような注記付きもある
+            rm = re.match(r"(\d{4})(\d{2})(\d{2})(?:$|\s)", rel)
+            date = f"{rm.group(1)}-{rm.group(2)}-{rm.group(3)}" if rm else ""
+            alt = info.get("alt_title") or ""
+            if "(Japan)" in alt:  # 'メトロイド2 リターン・オブ・サムス (Japan), …(China)' のような複数表記
+                alt = next(a for a in alt.split(", ") if "(Japan)" in a).replace("(Japan)", "").strip()
+            titles = [t for t in (alt, re.sub(r"\s*\(.*$", "", desc)) if t]
             out.append({
-                "key": s.get("name"),
-                "label": info.get("alt_title") or desc,
+                "key": key,
+                "label": alt or desc,
                 "date": date,
                 "titles": titles,
                 "serial": serial,
@@ -216,18 +229,28 @@ def load_mame(lists):
     return [m for m in out if not m["clone"] or (m["serial"], m["date"]) not in parents]
 
 
-def mame_roots(lists):
-    return [ET.parse(mame_xml(lst)).getroot() for lst in lists]
+def mame_key(lists, lst, name):
+    """ソフト名は MAME のリストごとに一意なので、2つ目以降のリストは「リスト名:ソフト名」にする
+    （例: gameboy と gbcolor の両方に 'supchinf' がある）。"""
+    return name if lst == lists[0] else f"{lst}:{name}"
+
+
+def mame_software(lists):
+    """キー → software 要素。"""
+    out = {}
+    for lst in lists:
+        for s in ET.parse(mame_xml(lst)).getroot().findall("software"):
+            out[mame_key(lists, lst, s.get("name"))] = s
+    return out
 
 
 def mame_crcs(lists):
-    """CRC → [(ソフト名, 状態)]。"""
+    """CRC → [(キー, 状態)]。"""
     out = {}
-    for root in mame_roots(lists):
-        for s in root.findall("software"):
-            for rom in s.iter("rom"):
-                if rom.get("crc"):
-                    out.setdefault(rom.get("crc").lower(), []).append((s.get("name"), rom.get("status") or "good"))
+    for key, s in mame_software(lists).items():
+        for rom in s.iter("rom"):
+            if rom.get("crc"):
+                out.setdefault(rom.get("crc").lower(), []).append((key, rom.get("status") or "good"))
     return out
 
 

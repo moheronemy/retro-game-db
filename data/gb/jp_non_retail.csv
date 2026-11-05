@@ -1,0 +1,93 @@
+id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
+gb-jp-nr-1626,ポケットモンスター 金（イベント体験版）,event_demo,cartridge,gb-jp-0910,,Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced),"No-Intro: Demo, Spaceworld 1997",third_party
+gb-jp-nr-1627,ポケットモンスター 金（イベント体験版）,event_demo,cartridge,gb-jp-0910,,Pocket Monsters Kin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug),"No-Intro: Demo, Spaceworld 1997, Debug",third_party
+gb-jp-nr-1624,ポケットモンスター 銀（イベント体験版）,event_demo,cartridge,gb-jp-0911,,Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced),"No-Intro: Demo, Spaceworld 1997",third_party
+gb-jp-nr-1625,ポケットモンスター 銀（イベント体験版）,event_demo,cartridge,gb-jp-0911,,Pocket Monsters Gin (Japan) (Demo) (Spaceworld 1997) (SGB Enhanced) (Debug),"No-Intro: Demo, Spaceworld 1997, Debug",third_party
+gb-jp-nr-2381,サッカーボーイ（開発版）,beta,cartridge,gb-jp-0053,,Soccer Boy (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-1610,コスモタンク（開発版）,beta,cartridge,gb-jp-0061,,Cosmo Tank (Japan) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-1738,ツインビーだ!（開発版）,beta,cartridge,gb-jp-0098,,TwinBee da!! (Japan) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-1638,GO!GO!TANK（開発版）,beta,cartridge,gb-jp-0114,,Go! Go! Tank (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-1609,ロックマンワールド（開発版）,beta,cartridge,gb-jp-0202,,Rockman World (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-1777,ティーンエイジ・ミュータント・ニンジャ・タートルズ（開発版）,beta,cartridge,gb-jp-0226,,Teenage Mutant Ninja Turtles 2 (Japan) (En) (Beta) (1991-05-20),No-Intro: Beta,third_party
+gb-jp-nr-1781,タイニー・トゥーンズ（開発版）,beta,cartridge,gb-jp-0262,,Tiny Toon Adventures (Japan) (Beta) (1991-07-16),No-Intro: Beta,third_party
+gb-jp-nr-1832,ナノノート（開発版）,beta,cartridge,gb-jp-0312,,Nanonote (Japan) (Rev 1) (Beta),No-Intro: Beta,third_party
+gb-jp-nr-2473,GBバスケットボール（開発版）,beta,cartridge,gb-jp-0382,,GB Basketball (Japan) (En) (Beta) (1992-12-10),No-Intro: Beta,trusted_dump
+gb-jp-nr-2598,ポピュラス外伝（開発版）,beta,cartridge,gb-jp-0396,,Populous Gaiden (Japan) (En) (Beta) (1993-02-15),No-Intro: Beta,trusted_dump
+gb-jp-nr-1791,鈴木亜久里のF-1スーパードライビング（開発版）,beta,cartridge,gb-jp-0397,,Suzuki Aguri no F-1 Super Driving (Japan) (Beta),No-Intro: Beta,third_party
+gb-jp-nr-2456,鉄球ファイト! ザ・グレイトバトル外伝（開発版）,beta,cartridge,gb-jp-0413,,Tekkyu Fight! - The Great Battle Gaiden (Japan) (Beta) (1993-04-12),No-Intro: Beta,trusted_dump
+gb-jp-nr-1843,ONI IV 鬼神の血族（開発版）,beta,cartridge,gb-jp-0460,,Oni IV - Kijin no Ketsuzoku (Japan) (Rev 1) (Beta),No-Intro: Beta,third_party
+gb-jp-nr-1562,詰将棋 神吉五段（開発版）,beta,cartridge,gb-jp-0520,,Tsumeshougi - Kanki Godan (Japan) (Beta) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-2525,マリオのピクロス（開発版）,beta,cartridge,gb-jp-0552,,Mario no Picross (Japan) (Beta) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-0242,超魔神英雄伝ワタル まぜっこモンスター（開発版）,beta,cartridge,gb-jp-0692,,Chou Mashin Eiyuu Den Wataru - Mazekko Monster (Japan) (Beta) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-2323,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-06-15) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-2324,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-06-15) (GB Compatible) (Alt),No-Intro: Beta,trusted_dump
+gb-jp-nr-1589,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-06-30) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-1590,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-05T180056) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-1593,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-05T215532) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-1594,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-07) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-1595,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-14T022124) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-2325,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-07-14T181500) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-2326,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Beta) (1998-11-09) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-2316,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-02) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-2317,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-03) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-2318,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-04) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-2320,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-07) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-2322,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-07) (SGB Enhanced) (Alt 2),No-Intro: Beta,trusted_dump
+gb-jp-nr-2321,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-08-07) (SGB Enhanced) (Alt),No-Intro: Beta,trusted_dump
+gb-jp-nr-2319,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-09-04) (SGB Enhanced),No-Intro: Beta,trusted_dump
+gb-jp-nr-2335,ゼルダの伝説 夢をみる島DX（開発版）,beta,cartridge,gb-jp-0786,AZLJ,Zelda no Densetsu - Yume o Miru Shima DX (Japan) (Rev 2) (Beta) (1999-09-22) (SGB Enhanced) (GB Compatible),No-Intro: Beta,trusted_dump
+gb-jp-nr-1562,ムーミンの大冒険（開発版）,beta,cartridge,gb-jp-1017,,Moomin no Daibouken (Japan) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-2563,昆虫博士3（開発版）,beta,cartridge,gb-jp-1204,AF2J,Konchuu Hakase 3 (Japan) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-2568,ポケットクッキング（開発版）,beta,cartridge,gb-jp-1213,APJJ,Pocket Cooking (Japan) (Beta),No-Intro: Beta,third_party
+gb-jp-nr-1660,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!（開発版）,beta,cartridge,gb-jp-1251,,Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 1),No-Intro: Beta 1,third_party
+gb-jp-nr-1661,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!（開発版）,beta,cartridge,gb-jp-1251,,Nakayoshi Cooking Series 5 - Cake o Tsukurou (Japan) (Beta 2),No-Intro: Beta 2,third_party
+gb-jp-nr-1648,わたしのレストラン（開発版）,beta,cartridge,gb-jp-1253,,Watashi no Restaurant (Japan) (Beta 1),No-Intro: Beta 1,third_party
+gb-jp-nr-1649,わたしのレストラン（開発版）,beta,cartridge,gb-jp-1253,,Watashi no Restaurant (Japan) (Beta 2),No-Intro: Beta 2,third_party
+gb-jp-nr-1650,わたしのレストラン（開発版）,beta,cartridge,gb-jp-1253,,Watashi no Restaurant (Japan) (Beta 3),No-Intro: Beta 3,third_party
+gb-jp-nr-1604,From TV animation ONE PIECE 幻のグランドライン冒険記!（開発版）,beta,cartridge,gb-jp-1254,,From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (Beta 1) (SGB Enhanced) (GB Compatible),No-Intro: Beta 1,third_party
+gb-jp-nr-1605,From TV animation ONE PIECE 幻のグランドライン冒険記!（開発版）,beta,cartridge,gb-jp-1254,,From TV Animation One Piece - Maboroshi no Grand Line Boukenki! (Japan) (Beta 2) (SGB Enhanced) (GB Compatible),No-Intro: Beta 2,third_party
+gb-jp-nr-1554,ドラゴンボールZ 伝説の超戦士たち（開発版）,beta,cartridge,gb-jp-1256,,Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan) (Beta),No-Intro: Beta,trusted_dump
+gb-jp-nr-1553,ドラゴンボールZ 伝説の超戦士たち（開発版）,beta,cartridge,gb-jp-1256,,Dragon Ball Z - Densetsu no Chou Senshi-tachi (Japan) (Beta) (All Unlocked),No-Intro: Beta,trusted_dump
+gb-jp-nr-1653,漢字BOY3（開発版）,beta,cartridge,gb-jp-1259,,Kanji Boy 3 (Japan) (Beta),No-Intro: Beta,third_party
+gb-jp-nr-1683,F-1 World Grand Prix (Japan) (En) (Beta 1),beta,cartridge,,,F-1 World Grand Prix (Japan) (En) (Beta 1),No-Intro: Beta 1,third_party
+gb-jp-nr-1602,F-1 World Grand Prix (Japan) (En) (Beta 2),beta,cartridge,,,F-1 World Grand Prix (Japan) (En) (Beta 2),No-Intro: Beta 2,third_party
+gb-jp-nr-1540,Game Boy Wars Pocket Tactics (Japan) (Beta),beta,cartridge,,,Game Boy Wars Pocket Tactics (Japan) (Beta),No-Intro: Beta,third_party
+gb-jp-nr-1655,Oni IV (Japan) (Beta),beta,cartridge,,,Oni IV (Japan) (Beta),No-Intro: Beta,third_party
+gb-jp-nr-1533,プリンス・オブ・ペルシャ（試作品）,prototype,cartridge,gb-jp-0303,,"Prince of Persia (Japan) (En,Ja) (Proto) (GB Compatible)",No-Intro: Proto,third_party
+gb-jp-nr-1644,トップギア・ポケット2（試作品）,prototype,cartridge,gb-jp-0927,,Top Gear Pocket 2 (Japan) (Rev 1) (Proto) (Rumble Version),No-Intro: Proto,third_party
+gb-jp-nr-1587,爆走戦記メタルウォーカーGB 〜鋼鉄の友情〜（試作品）,prototype,cartridge,gb-jp-0935,,Bakusou Senki Metal Walker GB - Koutetsu no Yuujou (Japan) (Rev 1) (Proto) (GB Compatible),No-Intro: Proto,third_party
+gb-jp-nr-1601,ダンジョンセイバー（試作品）,prototype,cartridge,gb-jp-1041,,Dungeon Savior (Japan) (Rev 1) (Proto) (SGB Enhanced) (GB Compatible),No-Intro: Proto,third_party
+gb-jp-nr-1592,カードキャプターさくら 〜友枝小学校大運動会〜（試作品）,prototype,cartridge,gb-jp-1072,,Cardcaptor Sakura - Tomoeda Shougakkou Daiundoukai (Japan) (Rev 1) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1597,でじこの麻雀パーティー（試作品）,prototype,cartridge,gb-jp-1107,,Dejiko no Mahjong Party (Japan) (Rev 1) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1598,真・女神転生 デビルチルドレン 白の書（試作品）,prototype,cartridge,gb-jp-1202,,Shin Megami Tensei Devil Children - Shiro no Sho (Japan) (Rev 1) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1511,Billiard Club (Japan) (Proto),prototype,cartridge,,,Billiard Club (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1665,Catwoman (Japan) (Proto),prototype,cartridge,,,Catwoman (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1820,CutThroat Island (Japan) (En) (Proto),prototype,cartridge,,,CutThroat Island (Japan) (En) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1847,Donkey Kong Land 2 (Japan) (Proto) (SGB Enhanced),prototype,cartridge,,,Donkey Kong Land 2 (Japan) (Proto) (SGB Enhanced),No-Intro: Proto,third_party
+gb-jp-nr-1713,"Flintstones, The - King Rock Treasure Island (Japan) (Proto)",prototype,cartridge,,,"Flintstones, The - King Rock Treasure Island (Japan) (Proto)",No-Intro: Proto,third_party
+gb-jp-nr-1518,Ganso! Doubutsu Uranai GB + Renai Uranai Puzzle (Japan) (Proto),prototype,cartridge,,,Ganso! Doubutsu Uranai GB + Renai Uranai Puzzle (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-2616,Get!! Loto Club (Japan) (Proto) (GB Compatible),prototype,cartridge,,BGCJ,Get!! Loto Club (Japan) (Proto) (GB Compatible),No-Intro: Proto,trusted_dump
+gb-jp-nr-1500,Gimmick Land (Japan) (Proto),prototype,cartridge,,,Gimmick Land (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1862,Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Nanmon no Sho (Japan) (Proto) (IE Institute),prototype,cartridge,,,Goukaku Boy GOLD - Shikakui Atama o Maruku Suru - Nanmon no Sho (Japan) (Proto) (IE Institute),No-Intro: Proto,third_party
+gb-jp-nr-1521,Grand Casino (Japan) (Proto),prototype,cartridge,,,Grand Casino (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1501,Hajimari no Mori (Japan) (Proto),prototype,cartridge,,,Hajimari no Mori (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1864,Hello Kitty - Pocket Camera (Japan) (Proto) (SGB Enhanced),prototype,cartridge,,,Hello Kitty - Pocket Camera (Japan) (Proto) (SGB Enhanced),No-Intro: Proto,third_party
+gb-jp-nr-1671,Jaguar Mishin Sashi Senyou Soft - Kirby Family (Japan) (Proto),prototype,cartridge,,,Jaguar Mishin Sashi Senyou Soft - Kirby Family (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1714,"Jetsons, The - Robot Panic (Japan) (Proto)",prototype,cartridge,,,"Jetsons, The - Robot Panic (Japan) (Proto)",No-Intro: Proto,third_party
+gb-jp-nr-1502,Jibaku-kun - Rei no Itsuki no Kajitsu (Japan) (Proto),prototype,cartridge,,,Jibaku-kun - Rei no Itsuki no Kajitsu (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1672,Kanji Shishuu (Japan) (Proto),prototype,cartridge,,,Kanji Shishuu (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1702,Kick Attack (Japan) (Proto),prototype,cartridge,,,Kick Attack (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1559,Klustar (Japan) (Proto 1) (1998-10-01) (GB Compatible),prototype,cartridge,,,Klustar (Japan) (Proto 1) (1998-10-01) (GB Compatible),No-Intro: Proto 1,trusted_dump
+gb-jp-nr-1503,Klustar (Japan) (Proto 2) (1999-09-28) (GB Compatible),prototype,cartridge,,,Klustar (Japan) (Proto 2) (1999-09-28) (GB Compatible),No-Intro: Proto 2,third_party
+gb-jp-nr-1522,"Little Mermaid II, The - Pinball Frenzy (Japan) (Proto)",prototype,cartridge,,,"Little Mermaid II, The - Pinball Frenzy (Japan) (Proto)",No-Intro: Proto,third_party
+gb-jp-nr-1705,Momoiro Zousan (Japan) (Proto),prototype,cartridge,,,Momoiro Zousan (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1821,NFL Quarterback Club 96 (Japan) (En) (Proto),prototype,cartridge,,,NFL Quarterback Club 96 (Japan) (En) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-0891,Pocket no Naka no Oukoku (Japan) (Proto),prototype,cartridge,,,Pocket no Naka no Oukoku (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1505,Pokemon Picross (Japan) (Proto) (SGB Enhanced) (GB Compatible),prototype,cartridge,,AKVJ,Pokemon Picross (Japan) (Proto) (SGB Enhanced) (GB Compatible),No-Intro: Proto,third_party
+gb-jp-nr-1528,Space-Net - Cosmo Neo (Japan) (Proto),prototype,cartridge,,,Space-Net - Cosmo Neo (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1676,Speedy Gonzales - Aztec Adventure (Japan) (Proto) (GB Compatible),prototype,cartridge,,,Speedy Gonzales - Aztec Adventure (Japan) (Proto) (GB Compatible),No-Intro: Proto,third_party
+gb-jp-nr-1712,Sutte Hakkun (Japan) (Proto) (SGB Enhanced),prototype,cartridge,,,Sutte Hakkun (Japan) (Proto) (SGB Enhanced),No-Intro: Proto,third_party
+gb-jp-nr-1506,Sutte Hakkun GB (Japan) (Proto) (SGB Enhanced) (GB Compatible),prototype,cartridge,,,Sutte Hakkun GB (Japan) (Proto) (SGB Enhanced) (GB Compatible),No-Intro: Proto,third_party
+gb-jp-nr-1530,Tony Hawk's Pro Skater (Japan) (Proto),prototype,cartridge,,,Tony Hawk's Pro Skater (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1709,Wily & Right no Rockboard - That's Paradise (Japan) (Proto),prototype,cartridge,,,Wily & Right no Rockboard - That's Paradise (Japan) (Proto),No-Intro: Proto,third_party
+gb-jp-nr-1729,Zool (Japan) (En) (Proto),prototype,cartridge,,,Zool (Japan) (En) (Proto),No-Intro: Proto,third_party

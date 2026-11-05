@@ -19,6 +19,7 @@ import urllib.request
 from pathlib import Path
 
 import platforms as P
+from common import ROOT
 
 API = "https://ja.wikipedia.org/w/api.php"
 UA = "retro-game-db/0.1 (https://github.com/moheronemy/retro-game-db)"
@@ -30,7 +31,7 @@ def fetch_wikitext(page):
         "format": "json", "redirects": 1,
     })
     req = urllib.request.Request(f"{API}?{q}", headers={"User-Agent": UA})
-    for wait in (2, 4, 8, 16, None):
+    for wait in (5, 15, 30, 60, None):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 d = json.load(r)["parse"]
@@ -112,15 +113,46 @@ def parse_date(s):
     m = re.search(r"(\d{4})年(\d{1,2})月", s)
     if m:
         return "%s-%02d" % (m.group(1), int(m.group(2)))
+    m = re.fullmatch(r"\s*(\d{4})年\s*", s)
+    if m:
+        return m.group(1)
     return ""
+
+
+def split_top(s, sep="|"):
+    """[[...]] / {{...}} の中を無視して sep で分割する。"""
+    parts, buf, depth, i = [], [], 0, 0
+    while i < len(s):
+        two = s[i:i + 2]
+        if two in ("[[", "{{"):
+            depth += 1; buf.append(two); i += 2; continue
+        if two in ("]]", "}}") and depth:
+            depth -= 1; buf.append(two); i += 2; continue
+        if s[i] == sep and depth == 0:
+            parts.append("".join(buf)); buf = []; i += 1; continue
+        buf.append(s[i]); i += 1
+    parts.append("".join(buf))
+    return parts
 
 
 def first_line(s):
     """「日本題<br />英題」や {{ubl|日本題|英題}} の先頭（日本の表記）を取り出す。"""
-    m = re.match(r"\s*\{\{\s*ubl\s*\|([^|}]*)", s, re.I)
+    m = re.match(r"\s*\{\{\s*ubl\s*\|", s, re.I)
     if m:
-        return m.group(1)
+        end = s.rfind("}}")
+        args = split_top(s[m.end():end if end > m.end() else len(s)])
+        return args[0] if args else ""
     return re.split(r"<br\s*/?>", s)[0]
+
+
+def title_text(s):
+    """タイトル欄の表示文字列。表示名のないリンク [[記事名]] は記事名がそのまま出るため、
+    「#節名」と末尾の曖昧さ回避「 (…)」を取り除く（例: [[ボクシング (1990年のゲーム)]] → ボクシング）。"""
+    def repl(m):
+        target = m.group(1).split("#")[0].strip()
+        return re.sub(r"\s+\([^()]*\)$", "", target)
+    s = re.sub(r"\[\[([^\]|]+)\]\]", repl, s)
+    return plain(s)
 
 
 def interlang(s):
@@ -171,10 +203,12 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None):
             continue  # 日本未発売（{{Unreleased}}）
         title_raw, pub_raw = c.get("title", ""), c.get("publisher", "")
         if regional:
-            title_raw, pub_raw = first_line(interlang(title_raw)), first_line(pub_raw)
+            # 元の表に「|||発売元」のような区切りの誤記があるため先頭の「|」を落とす
+            title_raw = first_line(interlang(title_raw)).lstrip("|")
+            pub_raw = first_line(pub_raw.lstrip("|"))
         row = {
             "release_date": date,
-            "title": plain(title_raw),
+            "title": title_text(title_raw),
             "publisher": plain(pub_raw),
             "notes": plain(c.get("notes", "")),
             "wikipedia_article": link_target(title_raw),
@@ -191,6 +225,7 @@ def main():
     ap.add_argument("platform")
     ap.add_argument("--wikitext", help="保存済みwikitextファイルを使う（1ページの機種のみ）")
     ap.add_argument("--out")
+    ap.add_argument("--refresh", action="store_true", help=".cache/wikipedia/ の保存済み本文を使わず取り直す")
     a = ap.parse_args()
     cfg = P.get(a.platform)
     wcfg = cfg["wikipedia"]
@@ -200,8 +235,14 @@ def main():
         if a.wikitext:
             texts[page], rev = Path(a.wikitext).read_text(encoding="utf-8"), None
         else:
-            texts[page], rev = fetch_wikitext(page)
-            time.sleep(3)
+            cache = ROOT / ".cache" / "wikipedia" / f"{page}.wiki"
+            if cache.exists() and not a.refresh:
+                texts[page], rev = cache.read_text(encoding="utf-8"), "cached"
+            else:
+                texts[page], rev = fetch_wikitext(page)
+                cache.parent.mkdir(parents=True, exist_ok=True)
+                cache.write_text(texts[page], encoding="utf-8")
+                time.sleep(5)
         print(f"{page}: revid={rev}", file=sys.stderr)
     rows = []
     for t in wcfg["tables"]:
