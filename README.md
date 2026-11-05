@@ -7,7 +7,10 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 
 | 機種 | タイトル一覧 | 件数 | 型番 | 価格 | ROM 吸い出し一覧 |
 |---|---|---|---|---|---|
-| ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（792 タイトル・947 行） |
+| ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（986 行） |
+
+GBA ではほかに、非売品の一覧 [`data/gba/jp_not_for_sale.csv`](data/gba/jp_not_for_sale.csv)（5 件）と、
+店頭体験版・開発版・試作品の一覧 [`data/gba/jp_non_retail.csv`](data/gba/jp_non_retail.csv)（35 件）がある。
 
 ## GBA
 
@@ -92,25 +95,68 @@ ONE PIECE は MAME の誤記（`BO8J` → 正しくは数字の `B08J`）だっ�
 - ファミコンミニ17 高橋名人の冒険島 は MADB の値（4,900円税抜）が誤記と判断し、手動で 2,000円（税込）にしている
 - 廉価版（追加要素なし）は Wikipedia の方針により含まない
 
-## ROM 吸い出し一覧（`jp_rom_dumps.csv`）
+## 非売品（`jp_not_for_sale.csv`）
 
-No-Intro の DB Export から、タイトルごとの吸い出し（ハッシュ・リビジョン）を 1 吸い出し 1 行で収録する。
-ROM そのものは扱わない。試作・体験版・販促品・非公式品は別製品として除外している（非売品は別途まとめる予定）。
+一般の人の手に渡ったが販売されなかったカートリッジ（懸賞の景品、他機種ソフトの同梱品、株主優待など）。
+**出典で配布経路まで確認できたものだけ**を載せる（配布時期が不明でも経路が確認できれば載せる）。
+手で管理するファイルで、`id` は安定 ID。
 
 | 列 | 内容 |
 |---|---|
-| `title_id` / `title` | `jp_titles.csv` の `id` / タイトル |
+| `id` | `gba-jp-nfs-<連番>` |
+| `title` | タイトル |
+| `category` | `prize`（懸賞・キャンペーン景品）/ `bundled`（他機種ソフトの同梱品）/ `shareholder`（株主優待） |
+| `parent_id` | 対応する製品版の `jp_titles.csv` の `id`（あれば） |
+| `model_number` | 型番（ゲームコード） |
+| `distributor` / `campaign` / `route` | 配布元 / キャンペーン名 / 配布経路 |
+| `dist_start` / `dist_end` | 配布・応募の開始日 / 終了日（不明は空） |
+| `quantity` | 配布数（当選数など） |
+| `nointro_name` / `mame_name` | 吸い出し一覧と結びつけるための No-Intro 名 / MAME 名 |
+| `sources` | 出典 URL（`;` 区切り） |
+| `notes` | 補足 |
+
+次の候補は配布経路を出典で確認できなかったため載せていない：ロックマンエグゼ3 BLACK（No-Intro の Promo 版）、
+妖怪道 サクリコーンキャンペーン特別版、遊☆戯☆王デュエルモンスターズ5 エキスパート1 体験版。
+カードe / カードe+ のカードは別プロジェクトとして対象外。
+
+## 店頭体験版・開発版・試作品（`jp_non_retail.csv`）
+
+No-Intro の DB Export から `scripts/build_gba_dumps.py` が生成する。
+
+| 区分（`category`） | 載せる条件 | 件数 |
+|---|---|---|
+| `store_demo` 店頭体験版 | No-Intro が店頭試遊用（Kiosk）と記録したもの。`media` が `gc_download` はゲームキューブの試遊台から GBA に送るもの、`cartridge` は体験版カートリッジ | 14 |
+| `beta` 開発版 | No-Intro の Beta | 12 |
+| `prototype` 試作品 | No-Intro の Proto（未発売作品・配布用機材を含む） | 7 |
+| `tech_demo` 技術デモ | 開発キット付属のサンプル | 2 |
+
+- 配布経路の記録がない体験版（ヒカルの碁 体験版など）と、非公式品・後年の自主制作は載せない。
+- `id` は `gba-jp-nr-<No-Intro のアーカイブ番号>`。`parent_id` は No-Intro 名が製品版と一致するもので対応づける
+  （開発版・試作品はゲームコードを別作品と共有していることがあるため、コードは使わない）。
+  名前が一致しないものは [`data/gba/overrides/non_retail_parents.csv`](data/gba/overrides/non_retail_parents.csv) で補う。
+- タイトルは対応する製品版がある場合「製品版タイトル（店頭体験版）」のように付け、無い場合は No-Intro 名のまま。
+
+## ROM 吸い出し一覧（`jp_rom_dumps.csv`）
+
+No-Intro の DB Export から、タイトルごとの吸い出し（ハッシュ・リビジョン）を 1 吸い出し 1 行で収録する。
+ROM そのものは扱わない。製品版に加えて、非売品・店頭体験版・開発版・試作品の吸い出しも同じファイルに入れ、
+`title_id` の接頭辞（`gba-jp-` / `gba-jp-nfs-` / `gba-jp-nr-`）と `dump_kind` で区別する。
+
+| 列 | 内容 |
+|---|---|
+| `title_id` / `title` | `jp_titles.csv` / `jp_not_for_sale.csv` / `jp_non_retail.csv` の `id` / タイトル |
 | `game_code` | ROM ヘッダのゲームコード（日米共通カートリッジは ROM 内が `xxxA`、型番は `xxxJ`） |
 | `dump_name` | No-Intro の名前 |
 | `revision` | リビジョン（`0` / `1` / `2`）。ROM チップ刻印の末尾（`AGB-XXXJ-0` / `-1`）と一致する。パッケージのラベル型番では見分けられない |
-| `dump_kind` | `retail`（当時のカートリッジ）/ `virtual_console` / `collection`（後年の収録版） |
+| `dump_kind` | `retail`（当時のカートリッジ）/ `virtual_console` / `collection`（後年の収録版）/ `not_for_sale` / `store_demo` / `beta` / `prototype` / `tech_demo` |
 | `size` / `crc32` / `md5` / `sha1` / `sha256` | ROM のサイズ（バイト）とハッシュ。SHA256 は No-Intro の吸い出し記録があるものだけ |
-| `verification` | `trusted_dump`（No-Intro が確認）/ `third_party`（外部提供）/ `trusted_modification` / `undocumented`（2001〜2003年ごろに出回った吸い出しの記録だけで、吸い出し元の記録なし） |
+| `verification` | `mame_only`（No-Intro に無く MAME のみ）/ `trusted_dump`（No-Intro が確認）/ `third_party`（外部提供）/ `trusted_modification` / `undocumented`（2001〜2003年ごろに出回った吸い出しの記録だけで、吸い出し元の記録なし） |
 | `source_count` / `first_dump_date` | 吸い出し記録の数 / 最初の吸い出し日 |
 | `rom_chip` / `label_serial` / `pcb` | ROM チップ刻印 / カートリッジのラベル型番 / 基板番号（記録があるもの） |
 | `save_type` | セーブ方式（EEPROM / SRAM / Flash とライブラリ版） |
 | `nointro_number` | No-Intro のアーカイブ番号 |
 | `mame_name` / `mame_status` | 同じ CRC を持つ MAME のソフト名と状態 |
+| `hash_source` | ハッシュの出典（`No-Intro` / `MAME`） |
 
 製品版の吸い出しがあるのは 792 / 793 タイトル（GREMLiNS のみ無し）。製品版の吸い出しは 858 行で、Rev 0 が 783、Rev 1 が 71、Rev 2 が 4。
 MAME と CRC が合わないものの多くは、ファミコンミニの ROM サイズの数え方（MAME 4MB / No-Intro 1MB）か、
@@ -121,7 +167,7 @@ MAME が 2003〜2007年ごろの古い外部提供の吸い出しを使ってい
 ```sh
 python3 scripts/fetch_wikipedia_list.py gba   # Wikipedia → data/gba/wikipedia_titles.csv
 python3 scripts/enrich_gba.py                 # 型番・価格を付与 → data/gba/jp_titles.csv
-python3 scripts/build_gba_dumps.py            # ROM 吸い出し一覧 → data/gba/jp_rom_dumps.csv
+python3 scripts/build_gba_dumps.py            # ROM 吸い出し一覧・別リスト → jp_rom_dumps.csv / jp_non_retail.csv
 ```
 
 - `enrich_gba.py` は MADB・MAME・No-Intro DAT・maru-chang のデータを `.cache/` にダウンロードして再利用する。

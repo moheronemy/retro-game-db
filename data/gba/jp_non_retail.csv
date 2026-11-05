@@ -1,0 +1,36 @@
+id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
+gba-jp-nr-x062,パワプロクンポケット5（店頭体験版）,store_demo,cartridge,gba-jp-0351,,Power Pro Kun Pocket 5 (Japan) (Demo) (Kiosk),"No-Intro: Demo, Kiosk",
+gba-jp-nr-2901,メイド イン ワリオ（店頭体験版）,store_demo,gc_download,gba-jp-0371,,"Made in Wario (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-2903,逆転裁判3（店頭体験版）,store_demo,gc_download,gba-jp-0500,A3GJ,"Gyakuten Saiban 3 (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-x095,星のカービィ 鏡の大迷宮（店頭体験版）,store_demo,gc_download,gba-jp-0538,,"Hoshi no Kirby - Kagami no Daimeikyuu (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-2991,シレン・モンスターズ ネットサル（店頭体験版）,store_demo,gc_download,gba-jp-0541,ANVJ,"Shiren Monsters - Netsal (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-x433,NARUTO -ナルト- 最強忍者 大結集2（店頭体験版）,store_demo,gc_download,gba-jp-0547,,"Naruto - Saikyou Ninja Daikesshuu 2 (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-x432,マリオvs.ドンキーコング（店頭体験版）,store_demo,gc_download,gba-jp-0564,BM5J,"Mario vs. Donkey Kong (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-x431,ソニックアドバンス3（店頭体験版）,store_demo,gc_download,gba-jp-0566,B3SJ,"Sonic Advance 3 (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-x429,とっとこハム太郎 ハムハムスポーツ（店頭体験版）,store_demo,gc_download,gba-jp-0573,B85J,"Tottoko Hamutarou - Hamu-Hamu Sports (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-2992,NARUTO -ナルト- ナルトRPG〜受けつがれし火の意志〜（店頭体験版）,store_demo,gc_download,gba-jp-0585,BNRJ,"Naruto RPG - Uketsugareshi Hi no Ishi (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-x428,スーパーマリオボール（店頭体験版）,store_demo,gc_download,gba-jp-0614,,"Super Mario Ball (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-2899,球闘士バトローラーエックス（店頭体験版）,store_demo,gc_download,gba-jp-0630,,"Vattroller X - Taikenban (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-x430,ゼルダの伝説 ふしぎのぼうし（店頭体験版）,store_demo,gc_download,gba-jp-0631,BZMJ,"Zelda no Densetsu - Fushigi no Boushi (Japan) (Demo) (Kiosk, GameCube)","No-Intro: Demo, Kiosk, GameCube",trusted_dump
+gba-jp-nr-2836,リズム天国（店頭体験版）,store_demo,cartridge,gba-jp-0791,BZLJ,Rhythm Tengoku (Japan) (Demo) (Kiosk),"No-Intro: Demo, Kiosk",trusted_dump
+gba-jp-nr-x049,THE KING OF FIGHTERS EX NEO BLOOD（開発版）,beta,cartridge,gba-jp-0133,,"King of Fighters EX, The - NeoBlood (Japan) (Beta)",No-Intro: Beta,third_party
+gba-jp-nr-x042,GUILTY GEAR X ADVANCE EDITION（開発版）,beta,cartridge,gba-jp-0138,,Guilty Gear X - Advance Edition (Japan) (Beta),No-Intro: Beta,third_party
+gba-jp-nr-2911,おしゃべりインコ倶楽部（開発版）,beta,cartridge,gba-jp-0183,AICJ,Oshaberi Inko Club (Japan) (Beta),No-Intro: Beta,trusted_dump
+gba-jp-nr-3049,とっとこハム太郎3 ラブラブ大冒険でちゅ（開発版）,beta,cartridge,gba-jp-0198,,Tottoko Hamutarou 3 - Love Love Daibouken Dechu (Japan) (Beta),No-Intro: Beta,trusted_dump
+gba-jp-nr-2889,真・女神転生デビルチルドレン 闇の書（開発版）,beta,cartridge,gba-jp-0288,AC5J,Shin Megami Tensei Devil Children - Yami no Sho (Japan) (Beta),No-Intro: Beta,trusted_dump
+gba-jp-nr-2915,From TV animation ONE PIECE めざせ!キングオブベリー（開発版）,beta,cartridge,gba-jp-0376,,From TV Animation One Piece - Mezase! King of Berry (Japan) (Beta),No-Intro: Beta,trusted_dump
+gba-jp-nr-x102,ファイアーエムブレム 烈火の剣（開発版）,beta,cartridge,gba-jp-0389,AFEJ,Fire Emblem - Rekka no Ken (Japan) (Beta 1),No-Intro: Beta 1,third_party
+gba-jp-nr-x103,ファイアーエムブレム 烈火の剣（開発版）,beta,cartridge,gba-jp-0389,AFEJ,Fire Emblem - Rekka no Ken (Japan) (Beta 2),No-Intro: Beta 2,third_party
+gba-jp-nr-3269,魔探偵ロキRAGNAROK 〜幻想のラビリンス〜（開発版）,beta,cartridge,gba-jp-0448,A63J,Matantei Loki Ragnarok - Gensou no Labyrinth (Japan) (Beta) (Debug),"No-Intro: Beta, Debug",trusted_dump
+gba-jp-nr-x104,ファイアーエムブレム 聖魔の光石（開発版）,beta,cartridge,gba-jp-0622,AE7J,Fire Emblem - Seima no Kouseki (Japan) (Beta),No-Intro: Beta,third_party
+gba-jp-nr-x326,メタルスラッグアドバンス（開発版）,beta,cartridge,gba-jp-0637,,Metal Slug Advance (Japan) (Beta),No-Intro: Beta,trusted_dump
+gba-jp-nr-x217,通勤ヒトフデ（開発版）,beta,cartridge,gba-jp-0741,,Tsuukin Hitofude (Japan) (Beta),No-Intro: Beta,trusted_dump
+gba-jp-nr-z001,ゾイドサーガII（試作品）,prototype,cartridge,gba-jp-0380,AZ2J,Zoids Saga II (Japan) (Rev 1) (Proto),No-Intro: Proto,trusted_dump
+gba-jp-nr-2900,Commandos 2 (Japan) (Proto),prototype,cartridge,,,Commandos 2 (Japan) (Proto),No-Intro: Proto,trusted_dump
+gba-jp-nr-2840,Dark Empire (Japan) (Proto),prototype,cartridge,,ALHJ,Dark Empire (Japan) (Proto),No-Intro: Proto,trusted_dump
+gba-jp-nr-3177,Get's!! Loto Club (Japan) (Proto),prototype,cartridge,,,Get's!! Loto Club (Japan) (Proto),No-Intro: Proto,trusted_dump
+gba-jp-nr-2909,Mechanic Mechanica (Japan) (Proto),prototype,cartridge,,,Mechanic Mechanica (Japan) (Proto),No-Intro: Proto,trusted_dump
+gba-jp-nr-x325,Metal Slug - Super Vehicle-001 (Japan) (En) (Proto),prototype,cartridge,,,Metal Slug - Super Vehicle-001 (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+gba-jp-nr-x128,Pokemon - Slot 2 Distribution (Japan) (Proto),prototype,cartridge,,B5BJ,Pokemon - Slot 2 Distribution (Japan) (Proto),No-Intro: Proto,trusted_dump
+gba-jp-nr-x112,Yoshi Sample (Japan) (En) (SDK 3.0) (Tech Demo),tech_demo,cartridge,,AGBJ,Yoshi Sample (Japan) (En) (SDK 3.0) (Tech Demo),"No-Intro: SDK 3.0, Tech Demo",third_party
+gba-jp-nr-x111,Yoshi Sample (Japan) (En) (Tech Demo),tech_demo,cartridge,,,Yoshi Sample (Japan) (En) (Tech Demo),No-Intro: Tech Demo,undocumented
