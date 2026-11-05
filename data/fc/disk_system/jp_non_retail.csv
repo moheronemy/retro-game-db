@@ -1,0 +1,15 @@
+id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
+fds-jp-nr-m002,惑星アトン外伝,event_demo,disk,,WAG,Wakusei Aton Gaiden (Japan) (National Tax Agency Demo),Wikipedia: 1990年11月 国税庁。「暮らしと税金展」や全国の税務署で遊べた,dat_only
+fds-jp-nr-h5c0d4182,Air Fortress (Japan) (Proto),prototype,disk,,RAM,Air Fortress (Japan) (Proto),No-Intro: Proto,dat_only
+fds-jp-nr-h09f6f90b,Aliens - Alien 2 (Japan) (Proto),prototype,disk,,,Aliens - Alien 2 (Japan) (Proto),No-Intro: Proto,dat_only
+fds-jp-nr-h27df122d,Balloon Fight (Japan) (En) (Proto),prototype,disk,,BFD,Balloon Fight (Japan) (En) (Proto),No-Intro: Proto,dat_only
+fds-jp-nr-he870c2c7,Battle Battle League (Japan) (Proto) (Disk 1),prototype,disk,,,Battle Battle League (Japan) (Proto),No-Intro: Proto,dat_only
+fds-jp-nr-hf3654b4c,Gomoku Narabe (Japan) (Proto),prototype,disk,,GOD,Gomoku Narabe (Japan) (Proto),No-Intro: Proto,dat_only
+fds-jp-nr-h9b35ebd2,"Money Game, The (Japan) (Proto)",prototype,disk,,TMG,"Money Game, The (Japan) (Proto)",No-Intro: Proto,dat_only
+fds-jp-nr-hb82df033,Nomura no Famicom Trade (Japan) (Proto) (FTAJ),prototype,disk,,FTA,Nomura no Famicom Trade (Japan) (Proto) (FTAJ),No-Intro: Proto,dat_only
+fds-jp-nr-h3a7da695,Nomura no Famicom Trade (Japan) (Proto) (FTBJ),prototype,disk,,FTB,Nomura no Famicom Trade (Japan) (Proto) (FTBJ),No-Intro: Proto,dat_only
+fds-jp-nr-ha4afb1c8,Nomura no Famicom Trade (Japan) (Proto) (FTEJ),prototype,disk,,FTE,Nomura no Famicom Trade (Japan) (Proto) (FTEJ),No-Intro: Proto,dat_only
+fds-jp-nr-h53eb199e,Shanghai (Japan) (Proto),prototype,disk,,DZN,Shanghai (Japan) (Proto),No-Intro: Proto,dat_only
+fds-jp-nr-hb692751c,Shanghai II (Japan) (Proto) (Dragon Layout),prototype,disk,,ILE,Shanghai II (Japan) (Proto) (Dragon Layout),No-Intro: Proto,dat_only
+fds-jp-nr-h13da8bca,Shanghai II (Japan) (Proto) (Scorpion Layout),prototype,disk,,ILE,Shanghai II (Japan) (Proto) (Scorpion Layout),No-Intro: Proto,dat_only
+fds-jp-nr-m001,FMCカードチェッカー,business,disk,,CHK,FMC Disk Card Checker Ver 1.3 (Japan) (Rev 2) (Developer Card),Wikipedia: 1987年8月頃 ディスクライター設置店に配布したエラーチェック用の業務用ディスクカード,dat_only

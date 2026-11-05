@@ -125,8 +125,10 @@ def net_price(yen, tax, date=""):
 
 # ---------------------------------------------------------------- matching
 
-def match(rows, src, overrides, col):
-    """rows の各行に src の1件を割り当てる（貪欲法・重複割り当てなし）。"""
+def match(rows, src, overrides, col, date_only=False):
+    """rows の各行に src の1件を割り当てる（貪欲法・重複割り当てなし）。
+    date_only なら、残った行と候補が同じ発売日にちょうど1件ずつのとき、題名が似ていなくても組にする
+    （FC の『ダブルドラゴン』と MAME の『双截龍』のような表記違い。要確認レポートに出す）。"""
     by_key = {s["key"]: s for s in src}
     result = {}
     used = set()
@@ -155,6 +157,17 @@ def match(rows, src, overrides, col):
             continue
         result[i] = (by_key[k], sc, "auto")
         used.add(k)
+    if date_only:
+        left_rows, left_src = {}, {}
+        for r in rows:
+            if r["_i"] not in result:
+                left_rows.setdefault(r["release_date"], []).append(r)
+        for x in src:
+            if x["key"] not in used and x["date"]:
+                left_src.setdefault(x["date"], []).append(x)
+        for date, rs in left_rows.items():
+            if len(rs) == 1 and len(left_src.get(date, [])) == 1:
+                result[rs[0]["_i"]] = (left_src[date][0], 0, "date_only")
     return result
 
 
@@ -253,13 +266,67 @@ def mame_software(lists):
     return out
 
 
+def _gf2_times(mat, vec):
+    out, i = 0, 0
+    while vec:
+        if vec & 1:
+            out ^= mat[i]
+        vec >>= 1
+        i += 1
+    return out
+
+
+def crc32_combine(crc1, crc2, len2):
+    """crc32(A + B) を crc32(A)、crc32(B)、len(B) から求める（zlib の crc32_combine と同じ）。"""
+    if len2 <= 0:
+        return crc1
+    odd = [0xEDB88320] + [1 << i for i in range(31)]
+    even = [_gf2_times(odd, odd[i]) for i in range(32)]
+    odd = [_gf2_times(even, even[i]) for i in range(32)]
+    while True:
+        even = [_gf2_times(odd, odd[i]) for i in range(32)]
+        if len2 & 1:
+            crc1 = _gf2_times(even, crc1)
+        len2 >>= 1
+        if not len2:
+            break
+        odd = [_gf2_times(even, even[i]) for i in range(32)]
+        if len2 & 1:
+            crc1 = _gf2_times(odd, crc1)
+        len2 >>= 1
+        if not len2:
+            break
+    return crc1 ^ crc2
+
+
+def _mame_joined_crc(s):
+    """FC のように ROM がチップ別（prg / chr）に分かれているとき、つなげた ROM 全体（ヘッダーなし）の CRC。"""
+    roms = []
+    for area in ("prg", "chr"):
+        for d in s.iter("dataarea"):
+            if d.get("name") == area:
+                roms += [r for r in d.findall("rom") if r.get("crc")]
+    if len(roms) < 2 or any(r.get("loadflag") for r in roms):
+        return None
+    crc = int(roms[0].get("crc"), 16)
+    for r in roms[1:]:
+        crc = crc32_combine(crc, int(r.get("crc"), 16), int(r.get("size"), 0))
+    return f"{crc:08x}"
+
+
 def mame_crcs(lists):
-    """CRC → [(キー, 状態)]。"""
+    """CRC → [(キー, 状態)]。チップ別の ROM は、つなげた全体の CRC も登録する。"""
     out = {}
     for key, s in mame_software(lists).items():
+        status = "good"
         for rom in s.iter("rom"):
             if rom.get("crc"):
                 out.setdefault(rom.get("crc").lower(), []).append((key, rom.get("status") or "good"))
+            if rom.get("status") in ("baddump", "nodump"):
+                status = rom.get("status")
+        joined = _mame_joined_crc(s)
+        if joined:
+            out.setdefault(joined, []).append((key, status))
     return out
 
 
@@ -274,12 +341,26 @@ def nointro_dat_text(name):
     return fetch(url, CACHE / f"{prefix}_{safe}.dat").read_text(encoding="utf-8")
 
 
+# 1つのゲームに複数の形式の ROM を載せている DAT で採る形式（FC はヘッダーなし、ディスクシステムは .fds）
+DAT_ROM_EXT = {"Nintendo - Nintendo Entertainment System": ".unh",
+               "Nintendo - Family Computer Disk System": ".fds"}
+
+
+def _dat_games(name):
+    """DAT の game ブロックのうち、採る形式の ROM のもの。"""
+    ext = DAT_ROM_EXT.get(name)
+    for m in re.finditer(r'game \(\n(.*?)\n\)\n', nointro_dat_text(name), re.S):
+        b = m.group(1)
+        if ext and not re.search(r'rom \( name "[^"]*' + re.escape(ext) + '"', b):
+            continue
+        yield b
+
+
 def load_nointro_dat(names):
     """libretro 版 No-Intro DAT: 名前 → (ゲームコード, サイズ, CRC, MD5, SHA1)。"""
     out = {}
     for name in names:
-        for m in re.finditer(r'game \(\n(.*?)\n\)\n', nointro_dat_text(name), re.S):
-            b = m.group(1)
+        for b in _dat_games(name):
             gname = re.search(r'name "([^"]+)"', b).group(1)
             rom = re.search(r'rom \( (.*?) \)', b).group(1)
             g = lambda k: (re.search(k + r' "?([^" ]+)"?', rom) or [None, ""])[1]
@@ -292,9 +373,7 @@ def nointro_dat_as_export(dat_name):
     """DB Export が無いときの代わりに、libretro 版 DAT から DB Export と同じ形の XML を組み立てる。
     吸い出し記録（確認区分・ROM チップ刻印など）は無いので、確認区分は dat_only になる。"""
     root = ET.Element("root")
-    text = nointro_dat_text(dat_name)
-    for m in re.finditer(r'game \(\n(.*?)\n\)\n', text, re.S):
-        b = m.group(1)
+    for b in _dat_games(dat_name):
         name = re.search(r'name "([^"]+)"', b).group(1)
         rom = re.search(r'rom \( (.*?) \)', b).group(1)
         g = lambda k: (re.search(k + r' "?([^" ]+)"?', rom) or [None, ""])[1]

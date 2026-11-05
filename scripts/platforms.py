@@ -187,6 +187,29 @@ def _sfc_media(row):
     return "sufami_turbo" if row.get("title", "").startswith("スーファミターボ専用") else "cartridge"
 
 
+def _fc_models(text):
+    """FC・ディスクシステムの型番。会社ごとに形式がばらばら（'HVC-ZL'、'BAN-HDR'、'IF-02'、'FMC-ZEL' など）なので
+    表記のまま取り出す。MAME が独自に付けたもの（'DATACH-…'、'BA-KARAOKE-…'）は型番ではないので除く。"""
+    out = []
+    for tok in re.split(r"[\s/,、／;・]+", (text or "").upper()):
+        tok = tok.strip("()（）[]")
+        if (re.fullmatch(r"[A-Z0-9]+(?:-[A-Z0-9.]+)+", tok) and not re.match(r"DATACH-|BA-KARAOKE|NES-", tok)
+                and not re.search(r"-(USA|CAN|EEC|EUR|NOE|FRG|FRA|GBR|UKV|ESP|ITA|SCN|AUS|HOL)$", tok)):
+            if tok not in out:
+                out.append(tok)
+    return out
+
+
+def _fds_channel(row):
+    """Wikipedia の「販路」列: 書=書き換え専用、パ=パッケージ販売専用、空欄=両方。"""
+    v = row.get("d_channel", "")
+    return "rewrite_only" if "書" in v else "package_only" if "パ" in v else "both"
+
+
+def _circle(col):
+    return lambda row: "yes" if re.search(r"[○◯〇]", row.get(col, "")) else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -398,6 +421,66 @@ PLATFORMS = {
         "nintendo_power": {"page": "ニンテンドウパワーのゲームタイトル一覧", "section": "スーパーファミコン"},
     },
     # Wii（ディスクソフト）。Wiiウェアは別リスト、バーチャルコンソール・Wiiチャンネルは対象外
+    # ファミリーコンピュータ（ROM カセット）。ディスクシステムは別リスト（機種キー fds、data/fc/disk_system/）。
+    # 型番は会社ごとの表記のまま。ハッシュは iNES ヘッダーを除いた ROM 本体（No-Intro の .unh）
+    "fc": {
+        "name": "ファミリーコンピュータ",
+        "dir": ROOT / "data" / "fc",
+        "id_prefix": "fc-jp",
+        "wikipedia": {
+            "tables": [
+                {"page": "ファミリーコンピュータのゲームタイトル一覧", "section": "発売されたタイトル",
+                 "table_id": "softwarelist", "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs")},
+            ],
+        },
+        "madb_platforms": ["ファミリーコンピュータ"],
+        "madb_media": ("", "ディスクカード"),
+        "mame_lists": ["nes", "nes_datach", "nes_kstudio"],
+        "mame_jp_models": _fc_models,   # 'Super Mario Bros. (World)' のように日米共通のもの（シリアルに HVC-SM）
+        "dump_world": True,
+        "nointro_dats": ["Nintendo - Nintendo Entertainment System"],
+        "nointro_export": ["Nintendo Entertainment System (Headerless) (DB Export)"],
+        "nointro_export_fallback": {
+            "Nintendo Entertainment System (Headerless) (DB Export)": "Nintendo - Nintendo Entertainment System"},
+        "models_from": _fc_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルが無い
+        "code_of": lambda m: "",               # ROM にゲームコードが無い（吸い出しは名前・CRC で結びつける）
+        "normalize_code": lambda c: "",
+        "tax_free_before": "1989-04-01",
+        "match_date_only": True,
+    },
+    # ファミリーコンピュータ ディスクシステム（FC の別リスト）。ハッシュは .fds（No-Intro。.qd は採らない）
+    "fds": {
+        "name": "ディスクシステム",
+        "dir": ROOT / "data" / "fc" / "disk_system",
+        "id_prefix": "fds-jp",
+        "wikipedia": {
+            "tables": [
+                {"page": "ファミリーコンピュータ ディスクシステムのゲームタイトル一覧", "section": "発売されたタイトル",
+                 "table_id": "softwarelist",
+                 "columns": ("jp", "title", "publisher", "d_port", "d_single", "d_channel", "notes")},
+            ],
+        },
+        "extra_columns": ["sales_channel", "port_of_cartridge", "single_sided"],
+        "derive": {"sales_channel": _fds_channel, "port_of_cartridge": _circle("d_port"),
+                   "single_sided": _circle("d_single")},
+        "madb_platforms": ["ファミリーコンピュータ"],
+        "madb_media": ("ディスクカード", ""),   # パッケージ版の価格（書き換え料金の出典は無い）
+        "mame_lists": ["famicom_flop"],
+        "mame_jp_models": lambda s: [s] if s else [],   # 説明に (Japan) が無い（全て日本のソフト）
+        "nointro_dats": ["Nintendo - Family Computer Disk System"],
+        "nointro_export": ["Family Computer Disk System (FDS) (DB Export)"],
+        "nointro_export_fallback": {
+            "Family Computer Disk System (FDS) (DB Export)": "Nintendo - Family Computer Disk System"},
+        "models_from": _fc_models,
+        "models_from_serial": lambda s: [],   # DAT のシリアルはディスク内のゲームコード（'GFJE'）で型番ではない
+        # ディスク内のゲームコードの先頭3文字は、たいてい型番の末尾と同じ（'SSD-ADA' ↔ 'ADA'、'FSC-GFJE' ↔ 'GFJE'）
+        "code_of": lambda m: m.split("-")[-1][:3] if m and "-" in m else "",
+        "normalize_code": lambda c: c[:3] if re.fullmatch(r"[A-Z0-9]{3,4}", c) else "",
+        "media": "disk",
+        "tax_free_before": "1989-04-01",
+        "match_date_only": True,
+    },
     "wii": {
         "name": "Wii",
         "dir": ROOT / "data" / "wii",

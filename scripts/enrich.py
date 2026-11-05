@@ -87,13 +87,16 @@ def main():
                 d[col] = o[col]
 
     madb = C.load_madb(cfg["madb_platforms"])
+    if cfg.get("madb_media"):  # 同じ機種名でカセットとディスクカードが混在する（FC）
+        inc, exc = cfg["madb_media"]
+        madb = [x for x in madb if (not inc or inc in x["media_format"]) and not (exc and exc in x["media_format"])]
     mame = C.load_mame(cfg["mame_lists"], cfg.get("mame_jp_models"))
     nointro = nointro_models(cfg)
     maru = C.load_maru(cfg["maru"]) if cfg.get("maru") else None
     print(f"MADB: {len(madb)} 件 / MAME 日本版: {len(mame)} 件"
           + (f" / maru-chang: {len(maru)} 件" if maru is not None else ""), file=sys.stderr)
-    m_madb = C.match(rows, madb, overrides, "madb_id")
-    m_mame = C.match(rows, mame, overrides, "mame_name")
+    m_madb = C.match(rows, madb, overrides, "madb_id", cfg.get("match_date_only", False))
+    m_mame = C.match(rows, mame, overrides, "mame_name", cfg.get("match_date_only", False))
     models_from = cfg["models_from"]
 
     for r in rows:
@@ -122,7 +125,10 @@ def main():
             issues.append(f"MADB低スコア{md_sc:.2f}")
         if mm_how == "auto" and mm_sc < C.REVIEW_SIM:
             issues.append(f"MAME低スコア{mm_sc:.2f}")
-        if not md and md_how != "manual":
+        for name, src, how in (("MADB", md, md_how), ("MAME", mm, mm_how)):
+            if how == "date_only":
+                issues.append(f"{name}同日1件のみで照合（{src['label']}）")
+        if not md and md_how != "manual" and cfg["madb_platforms"]:
             issues.append("MADB未照合")
         if not mm and mm_how != "manual" and cfg["mame_lists"]:
             issues.append("MAME未照合")
@@ -185,6 +191,8 @@ def main():
             else:
                 issues.append(f"価格不一致 MADB={yen}{tax} maru-chang={my}{mt}")
 
+        if yen and cfg.get("tax_free_before") and date0 < cfg["tax_free_before"]:
+            tax = "税なし"   # 消費税導入（1989年4月）前の発売
         # ---- 発売日: 一致した出典を記録する（Wikipedia が基準）
         date = ov.get("release_date_fix") or date0
         dsrc = ["manual"] if ov.get("release_date_fix") else ["Wikipedia"]

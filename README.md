@@ -14,6 +14,8 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | Wii | [`data/wii/jp_titles.csv`](data/wii/jp_titles.csv) | 461 | 461 | 461 | [`data/wii/jp_rom_dumps.csv`](data/wii/jp_rom_dumps.csv)（496 行） |
 | NINTENDO 64 (N64) | [`data/n64/jp_titles.csv`](data/n64/jp_titles.csv) | 198 | 198 | 144 | [`data/n64/jp_rom_dumps.csv`](data/n64/jp_rom_dumps.csv)（245 行） |
 | スーパーファミコン (SFC) | [`data/sfc/jp_titles.csv`](data/sfc/jp_titles.csv) | 1,422 | 1,384 | 1,324 | [`data/sfc/jp_rom_dumps.csv`](data/sfc/jp_rom_dumps.csv)（1,606 行） |
+| ファミリーコンピュータ (FC) | [`data/fc/jp_titles.csv`](data/fc/jp_titles.csv) | 1,053 | 1,029 | 367 | [`data/fc/jp_rom_dumps.csv`](data/fc/jp_rom_dumps.csv)（1,320 行） |
+| ディスクシステム (FC の別リスト) | [`data/fc/disk_system/jp_titles.csv`](data/fc/disk_system/jp_titles.csv) | 198 | 182 | 23 | [`data/fc/disk_system/jp_rom_dumps.csv`](data/fc/disk_system/jp_rom_dumps.csv)（288 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -24,6 +26,8 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | Wii | [`jp_not_for_sale.csv`](data/wii/jp_not_for_sale.csv)（4 件） | （0 件） | Wiiウェア [`jp_wiiware.csv`](data/wii/jp_wiiware.csv)（210 件） |
 | N64 | （未調査・0 件） | [`jp_non_retail.csv`](data/n64/jp_non_retail.csv)（5 件） | 64DD [`jp_64dd.csv`](data/n64/jp_64dd.csv)（10 件） |
 | SFC | [`jp_not_for_sale.csv`](data/sfc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/sfc/jp_non_retail.csv)（9 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/sfc/jp_nintendo_power.csv)（179 件） |
+| FC | [`jp_not_for_sale.csv`](data/fc/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/fc/jp_non_retail.csv)（9 件） | |
+| ディスクシステム | [`jp_not_for_sale.csv`](data/fc/disk_system/jp_not_for_sale.csv)（4 件） | [`jp_non_retail.csv`](data/fc/disk_system/jp_non_retail.csv)（14 件） | |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -450,6 +454,70 @@ No-Intro の `Sample`・`Auto Demo`・`Enhancement Chip` は製品版から除�
 GB と同じ形式の別リスト（179 件、うち書き換え専用 26 件）。No-Intro の `(NP)` の吸い出し 50 件のうち 48 件を
 対応づけた（書き換え専用タイトルは [`data/sfc/overrides/np_dump_matches.csv`](data/sfc/overrides/np_dump_matches.csv)）。
 
+## FC
+
+ファミリーコンピュータ（ROM カセット）として日本で発売されたソフト（1983〜1994年）。`id` は `fc-jp-<連番>`（発売順）。
+ディスクシステムは別リスト（[`data/fc/disk_system/`](data/fc/disk_system/)、`id` は `fds-jp-<連番>`）。
+非ライセンス品（当時のもの・後年の同人ソフト）とファミコン通信アダプタ用カードは対象外。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「ファミリーコンピュータのゲームタイトル一覧」（日本の発売日がある行。本文の記載どおり 1,053 件、年別件数も一致）、「ファミリーコンピュータ ディスクシステムのゲームタイトル一覧」（198 件、年別件数も一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「ファミリーコンピュータ」。カセット 415 件・ディスクカード 26 件しかない） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/nes.xml`・`nes_datach.xml`・`nes_kstudio.xml`、ディスクは `famicom_flop.xml` |
+| ハッシュ | No-Intro DAT（libretro 収録の NES・Famicom Disk System。DB Export は未取得） |
+
+- 周辺機器の専用・同梱ソフト（データック、カラオケスタジオ、ファミリートレーナー、ロボット、ファミリーベーシックなど）は本リストに含む。
+- 型番は会社ごとに形式が違う（`HVC-SM`、`NAM-NXV-4900`、`TFC-KD-4900`、`IF-02` など）ため、表記のまま載せる。
+  優先順位は他機種と同じく MAME → MADB。両者で表記が違うもの（MAME `NAM-NXV-4900`／MADB `NXV-4900` など 30 件）は
+  要確認レポートに出している。MAME が独自に付けた番号（`DATACH-…` など）は採らない。
+- 価格は MADB にあるものだけ（FC 367 件、ディスク 23 件。他は空欄）。1989年3月以前の発売は `price_tax` を `税なし` とした。
+- 題名の表記が出典ごとに大きく違う（『ダブルドラゴン』と MAME の『双截龍』など）ため、FC では同じ発売日に照合できていない行と
+  候補がちょうど1件ずつ残ったときに組にしている（要確認レポートに「同日1件のみで照合」と出す。誤りの 2 件は
+  `overrides/matches.csv` で外した）。
+- 発売日: MADB と MAME がそろって Wikipedia と異なるものが 5 件ある（ロードランナー 1984-07-20 → 両出典は 07-31、
+  バンゲリング ベイ、激突四駆バトル、井崎脩五郎の競馬必勝学、テクモボウル）。現時点では修正せず要確認レポートに出している。
+
+### ハッシュ
+
+- FC は iNES ヘッダーを除いた ROM 本体（No-Intro の `.unh`）のハッシュ。ヘッダー付き（`.nes`）は載せない。
+- FC の ROM にはゲームコードが無く、No-Intro の DAT にもシリアルが無いため、吸い出しとタイトルは
+  MAME のチップ別（PRG・CHR）の CRC をつないだ CRC、No-Intro 名、手動対応（`overrides/dump_matches.csv`）で結びつけた。
+  『スーパーマリオブラザーズ』など日米共通の `(World)` の吸い出しも含む。製品版の吸い出しがあるのは 1,052/1,053 件
+  （無いのは『ベストプレープロ野球 新データ』）。
+- ディスクシステムは `.fds`（`.qd` は載せない）。ディスク内のゲームコードの先頭3文字と型番の末尾（`SSD-ADA` ↔ `ADA`）で
+  結びつけ、198 件すべてに吸い出しがある。ディスクの版（No-Intro の `DV n`）は `revision` 列に `DV 2` のように入れる。
+  書き換えで作られたディスク（`Disk Writer`）は製品版の別の吸い出しとして同じタイトルに結びつけている。
+
+### ディスクシステム（`data/fc/disk_system/jp_titles.csv`）
+
+本リストと同じ列に、Wikipedia の表の列から次を加えた。
+
+| 列 | 内容 |
+|---|---|
+| `sales_channel` | `both`（書き換え・パッケージ両方、154 件）／`rewrite_only`（書き換え専用、34 件）／`package_only`（パッケージ販売専用、10 件） |
+| `port_of_cartridge` | ROM カセット版からの移植なら `yes` |
+| `single_sided` | 片面ソフトなら `yes` |
+
+価格（`price_yen`）は MADB のパッケージ版の価格。書き換え料金の出典は無い。
+
+### 非売品（`jp_not_for_sale.csv`）・別リスト
+
+Wikipedia の「非売品」節（FC 10 行・ディスク 5 行）を振り分けた。それ以外の調査は後回し
+（No-Intro には『Tag Team Pro-Wrestling Special』『安田火災 セーフティラリー』の Not for Resale 版などもある）。
+
+| 振り分け先 | 内容 |
+|---|---|
+| FC 非売品（9 件） | NHK学園 スペーススクール 算数 4〜6年 上下（6 件・`educational`）、SPACE COLLEGE（`educational`）、ドンキーコングJR.&算数レッスン（ファミコンテレビC1 同梱・`bundled`）、ファミリースクール（第一生命の販促品・`promotional`） |
+| ディスク非売品（4 件） | オールナイトニッポン スーパーマリオブラザーズ、ゴルフJAPANコースの景品（チャンピオンズコース・プロフェッショナルコースの2種）、プライズカード ゴルフスペシャルコース（いずれも `prize`） |
+| ディスク別リスト | FMCカードチェッカー（`business`）、惑星アトン外伝（国税庁の展示・税務署で遊べた。`event_demo`） |
+| 対象外 | ファミコレADV シュタインズ・ゲート（2018年・配布なし）、Nintendo Campus Challenge／Nintendo World Championships（北米の大会用） |
+
+吸い出しがあるのは、NHK学園は 3 本（5年上・6年上・6年下）。ゴルフJAPANコースの景品は No-Intro のシリアル `GSJE` が
+プロフェッショナルコースに当たる。別リストにはほかに試作品（FC 9 件・ディスク 12 件）。
+
 ## 再生成
 
 ```sh
@@ -485,6 +553,13 @@ python3 scripts/fetch_wikipedia_list.py sfc
 python3 scripts/enrich.py sfc                  # ニンテンドウパワー書き換え専用タイトルはここで除く
 python3 scripts/build_nintendo_power.py sfc
 python3 scripts/build_dumps.py sfc
+
+python3 scripts/fetch_wikipedia_list.py fc
+python3 scripts/enrich.py fc
+python3 scripts/build_dumps.py fc
+python3 scripts/fetch_wikipedia_list.py fds    # ディスクシステム → data/fc/disk_system/
+python3 scripts/enrich.py fds
+python3 scripts/build_dumps.py fds
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。

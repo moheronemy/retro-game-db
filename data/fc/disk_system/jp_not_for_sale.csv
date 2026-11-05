@@ -1,0 +1,5 @@
+id,title,category,parent_id,model_number,distributor,campaign,route,dist_start,dist_end,quantity,nointro_name,mame_name,sources,notes
+fds-jp-nfs-0001,オールナイトニッポン スーパーマリオブラザーズ,prize,,,任天堂・ニッポン放送,オールナイトニッポン,ラジオ番組『オールナイトニッポン』のリスナーへの配布（限定生産）,1986,,,All Night Nippon Super Mario Bros. (Japan) (En) (Promo),,https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ディスクシステムのゲームタイトル一覧,生産は1986年12月。リスナーへの配布開始時期は不明
+fds-jp-nfs-0002,ゴルフJAPANコース オリジナルゴルフコース（チャンピオンズコース）,prize,,,任天堂,ゴルフJAPANコース,大会の上位100名に配布したゴールデンディスクカード,1987,,100,,,https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ディスクシステムのゲームタイトル一覧,ID: GTJE。タイトル画面に入賞者の氏名が入る
+fds-jp-nfs-0003,ゴルフJAPANコース オリジナルゴルフコース（プロフェッショナルコース）,prize,,,任天堂,ゴルフJAPANコース,大会の入賞者5000名に配布したゴールデンディスクカード,1987,,5000,Golf - Japan Course (Japan) (Prize Card),,https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ディスクシステムのゲームタイトル一覧,ID: GSJE（No-Intro のシリアルと一致）。タイトル画面が「入賞」
+fds-jp-nfs-0004,プライズカード ゴルフスペシャルコース,prize,,,任天堂,ゴルフUSコース,大会参加者等の一部に景品として配布したゴールデンディスクカード,1987,,,Golf - Special Course (Japan) (Prize Card),,https://ja.wikipedia.org/wiki/ファミリーコンピュータ_ディスクシステムのゲームタイトル一覧,

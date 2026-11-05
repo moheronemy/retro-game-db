@@ -40,9 +40,17 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      r"|Possible Proto|Test Program|Special Version( \d+)?|NP"
                      r"|Club Nintendo|Not for Resale|Multiplayer|Save Data|Nintendo Game Seminar.*|DS Broadcast"
                      r"|Taikenban|Tentou Taikenban|Jitsuen-you Sample|Special Taiken Disc|Movie Demo Disc|Demo Eizou"
-                     r"|Club Nintendo Genteiban|Auto Demo|Enhancement Chip)$")
+                     r"|Club Nintendo Genteiban|Auto Demo|Enhancement Chip"
+                     # FC: ファミコンボックス（ホテル等の業務用）、ファミリーベーシックのプログラム、景品・業務用ディスク、
+                     # 非公式品（Hacker）、後年の書籍付録・配信版など
+                     r"|FamicomBox|Family BASIC|Menu Cart|EPROM|Digital|Disc|Sansai Mook|Ending Credits Program"
+                     r"|Not For Resale|Shouhin Golf Tournament US Course|Hacker|SA-0\d+( \d+)? PCB"
+                     r"|Prize Card|Developer Card|National Tax Agency Demo)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
-COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$")  # GameCube: GC 用ソフトに収録された ROM（N64）
+COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$"
+                        r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
+                        r"|^XBOX$|^Classic Mini$|^Namco Anthology \d$|^Project EGG$|^Collector's Edition$"
+                        r"|^Game & Watch - Super Mario Bros\.$")  # GameCube: GC 用ソフトに収録された ROM（N64）
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
                 ("Third Party", "third_party"), ("DAT", "dat_only")]
 
@@ -94,7 +102,7 @@ def japanese_title(name):
 def merge_discs(rows):
     """複数枚組（No-Intro / Redump 名の '(Disc 1)' '(Disc A)' など）を1行にまとめる。
     サイズ・ハッシュ・確認区分などはディスク順に ';' でつなぎ、discs 列に枚数を入れる。"""
-    disc_re = re.compile(r" \(Disc [0-9A-Z]+\)")
+    disc_re = re.compile(r" \(Dis[ck] [0-9A-Z]+\)")
     groups, order = {}, []
     for r in rows:
         key = (r["title_id"], r["dump_kind"], disc_re.sub("", r["dump_name"]))
@@ -161,6 +169,8 @@ def dump_info(g, ref, mame):
                    if s.find("details") is not None and s.find("details").get("d_date"))
     rev = next((m.group(1) for t in tags for m in [re.fullmatch(r"Rev (\d+)", t)] if m), None)
     ver = next((t for t in tags if re.fullmatch(r"v\d+(\.\d+)*", t)), None)
+    dv = re.search(r"\((DV [\d, ]+)\)", name)   # ディスクシステムのディスクの版（例: DV 2）
+    ver = ver or (dv.group(1) if dv else None)
     save = re.search(r'"Save Type":"([^"]*)"', arch.get("details") or "")
     mm = mame.get((h["crc"] or "").lower(), [])
     return {
@@ -227,14 +237,18 @@ def main():
     rows, non_retail, pending, unmatched, np_games = [], [], [], [], []
     for name, g in games.items():
         arch = g.find("archive")
-        if "Japan" not in (arch.get("region") or ""):
-            continue
+        region = arch.get("region") or ""
+        if "Japan" not in region and not (cfg.get("dump_world") and ("World" in region or "(World)" in name)):
+            continue   # FC は日米共通の '(World)' も対象（例: Super Mario Bros. (World)）
         tags = tags_of(name)
         ref = dat.get(name)
         codes = game_codes(g, ref, cfg)
+        world_only = "Japan" not in region
 
         # ---- 別リスト（A2〜A4）。対応する製品版は製品版の処理後に決める
         cat = non_retail_category(name, tags)
+        if cat and world_only:
+            continue   # '(World)' の試作品などは日本のものと限らない（自主制作ソフトが多い）
         if cat:
             pending.append((name, g, ref, codes, cat))
             continue
@@ -249,13 +263,13 @@ def main():
         if any(EXCLUDE.match(t) for t in tags) or "Taikenban" in name:
             continue
         targets = [t for c in sorted(codes) for t in by_code.get(c, [])]
+        if name in manual:   # 手動の対応はゲームコードより優先（同じコードの別作品がある場合）
+            targets = [title_by_id[manual[name]]]
+            codes = codes or {code_of(t["model_number"]) for t in targets} - {""}
         if not targets and ref:
             # コードがどこにも無い場合は、同じ CRC を持つ MAME エントリ経由でタイトルに結びつける
             names = {n for n, _ in mame.get(ref["crc"], [])}
             targets = [t for t in titles if t["mame_name"] and t["mame_name"] in names]
-            codes = {code_of(t["model_number"]) for t in targets}
-        if not targets and name in manual:
-            targets = [title_by_id[manual[name]]]
             codes = {code_of(t["model_number"]) for t in targets}
         if not targets:
             unmatched.append((name, g, ref, codes, tags))
@@ -325,7 +339,7 @@ def main():
             retail_by_base.setdefault(base(r["dump_name"]), set()).add(r["title_id"])
     labels = {"store_demo": "店頭体験版", "event_demo": "イベント体験版", "beta": "開発版", "prototype": "試作品",
               "tech_demo": "技術デモ", "business": "業務用"}
-    disc_re = re.compile(r" \(Disc [0-9A-Z]+\)")
+    disc_re = re.compile(r" \(Dis[ck] [0-9A-Z]+\)")
     seen_nr = set()
     for name, g, ref, codes, cat in pending:
         parent = nr_parents.get(name)
