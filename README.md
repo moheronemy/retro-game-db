@@ -10,12 +10,14 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（997 行） |
 | ゲームボーイ／ゲームボーイカラー (GB/GBC) | [`data/gb/jp_titles.csv`](data/gb/jp_titles.csv) | 1,245 | 1,194 | 1,199 | [`data/gb/jp_rom_dumps.csv`](data/gb/jp_rom_dumps.csv)（1,375 行） |
 | ニンテンドーDS (DS) | [`data/ds/jp_titles.csv`](data/ds/jp_titles.csv) | 1,840 | 1,800 | 1,829 | [`data/ds/jp_rom_dumps.csv`](data/ds/jp_rom_dumps.csv)（2,074 行） |
+| ニンテンドー ゲームキューブ (GC) | [`data/gc/jp_titles.csv`](data/gc/jp_titles.csv) | 276 | 272 | 274 | [`data/gc/jp_rom_dumps.csv`](data/gc/jp_rom_dumps.csv)（366 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
 | GBA | [`jp_not_for_sale.csv`](data/gba/jp_not_for_sale.csv)（5 件） | [`jp_non_retail.csv`](data/gba/jp_non_retail.csv)（35 件） | |
 | GB/GBC | [`jp_not_for_sale.csv`](data/gb/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/gb/jp_non_retail.csv)（92 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/gb/jp_nintendo_power.csv)（153 件） |
 | DS | [`jp_not_for_sale.csv`](data/ds/jp_not_for_sale.csv)（13 件） | [`jp_non_retail.csv`](data/ds/jp_non_retail.csv)（35 件） | DSiウェア [`jp_dsiware.csv`](data/ds/jp_dsiware.csv)（493 件） |
+| GC | [`jp_not_for_sale.csv`](data/gc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/gc/jp_non_retail.csv)（62 件） | |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -305,6 +307,42 @@ Wikipedia「ニンテンドーDSのゲームタイトル一覧」の「非売品
 `release_date` は配信開始日、`blocks` は必要ブロック数、`3ds` はニンテンドー3DS での扱い（○△□×）。
 2009年は本文「全170タイトル」に対し表は 169 行。ハッシュ（No-Intro の DSi (Digital)）は未収録。
 
+## GC
+
+ニンテンドー ゲームキューブ用として日本で発売されたソフト（2001〜2006年）。`id` は `gc-jp-<連番>`（発売順）。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「ニンテンドー ゲームキューブのゲームタイトル一覧」（日本の発売日がある行。本文の記載どおり 275 件） |
+| 型番・価格の補完と照合、発売日の照合 | maru-chang.com ゲームキューブ ソフトラインナップ（282 タイトル。6 ページ） |
+| 価格 | メディア芸術データベース（機種「ニンテンドーゲームキューブ」） |
+| 型番の検証・ハッシュ | Redump DAT（libretro-database 収録の `metadat/redump/Nintendo - GameCube.dat`） |
+
+- 本リストは 276 件。Wikipedia の 275 件に、周辺機器に同梱されたソフト「ゲームボーイプレーヤー スタートアップディスク」
+  （単体では販売されていないため価格なし）を [`data/gc/overrides/extra_titles.csv`](data/gc/overrides/extra_titles.csv) で加えた。
+- 型番は `DOL-XXXJ-JPN`（Redump のシリアル `DL-DOL-XXXJ-JPN` もこの形にそろえる）。
+- maru-chang は英字タイトルが多く、24 件は「同じ発売日に双方 1 件ずつ残ったもの」で照合している（要確認レポートに出る）。
+- MADB の価格が maru-chang より 3 割以上高いものは本体・周辺機器との同梱版等の価格とみて maru-chang の価格にしている
+  （どうぶつの森+ の DX パック、テイルズ オブ シンフォニアの同梱版など。DS にも同じ規則を適用）。
+
+### 吸い出し一覧
+
+光ディスクなのでハッシュは Redump。Redump 本家（redump.org）には現在接続できないため libretro 収録の Redump DAT を使っており、
+確認区分は `dat_only`。複数枚組（バイオハザード、バイオハザード0 など）は 1 行にまとめ、`discs` 列に枚数、
+`size`・`crc32` などはディスク順に `;` でつないでいる（`discs` 列は全機種共通で、カートリッジは 1）。
+
+### 非売品・別リスト
+
+| 振り分け先 | 内容 |
+|---|---|
+| 非売品（3 件） | ゼルダの伝説 時のオカリナGC（風のタクト予約特典）、パックマンvs.（R:レーシング･エボリューション同梱・クラブニンテンドー入会キャンペーン）、ゼルダコレクション（クラブニンテンドー景品） |
+| 別リスト `store_demo`（62 件） | 月刊任天堂店頭デモ（2002〜2006年、54 号分）、店頭実演用サンプル（Redump の `Jitsuen-you Sample`）、店頭体験版 |
+
+Redump の `Taikenban`（体験版）・`Special Taiken Disc`・ムービー体験版は配布経路が確認できていないため載せていない。
+非売品の `category` に `preorder`（予約特典）を加えた。
+
 ## 再生成
 
 ```sh
@@ -321,6 +359,10 @@ python3 scripts/fetch_wikipedia_list.py ds
 python3 scripts/fetch_wikipedia_list.py ds --list dsiware   # → data/ds/jp_dsiware.csv
 python3 scripts/enrich.py ds                   # maru-chang は 5 秒間隔で 48 ページ取得
 python3 scripts/build_dumps.py ds
+
+python3 scripts/fetch_wikipedia_list.py gc
+python3 scripts/enrich.py gc                   # maru-chang は 5 秒間隔で 6 ページ取得
+python3 scripts/build_dumps.py gc
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。

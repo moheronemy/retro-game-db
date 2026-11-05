@@ -63,6 +63,11 @@ def main():
     data = cfg["dir"]
 
     rows = expand_groups(C.read_csv(data / "wikipedia_titles.csv"), data / "overrides" / "group_expansions.csv")
+    # Wikipedia の一覧に無いが本リストに含めるタイトル（周辺機器に同梱されたソフトなど）
+    extra = C.read_csv(data / "overrides" / "extra_titles.csv")
+    if extra:
+        rows = sorted(rows + [{k: v for k, v in e.items() if k != "source"} for e in extra],
+                      key=lambda r: r["release_date"])
     if cfg.get("nintendo_power"):
         # ニンテンドウパワーの書き換え専用タイトルは別リスト（jp_nintendo_power.csv）で扱う
         import build_nintendo_power as NP
@@ -166,6 +171,10 @@ def main():
         elif my and yen:
             if abs(C.net_price(yen, tax, date0) - C.net_price(my, mt, date0)) <= 1:
                 price_src = "MADB+maru-chang"
+            elif C.net_price(yen, tax, date0) > 1.3 * C.net_price(my, mt, date0):
+                # MADB が maru-chang より3割以上高い → 本体・周辺機器との同梱版などの価格とみて通常版の価格に置き換える
+                issues.append(f"MADBの価格（{yen}{tax}・{package}）を同梱版等とみて maru-chang の価格に置換")
+                yen, tax, price_src, package = my, mt, "maru-chang", ""
             elif C.VARIANT.search(package) and not C.VARIANT.search(r["title"]):
                 # MADB が限定版・廉価版・同梱版などの価格だった → 通常版の価格に置き換える
                 yen, tax, price_src, package = my, mt, "maru-chang", ""

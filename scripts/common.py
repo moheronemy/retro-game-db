@@ -255,9 +255,14 @@ def mame_crcs(lists):
 
 
 def nointro_dat_text(name):
-    url = NOINTRO_DAT_URL.format(name=urllib.request.quote(name))
+    """libretro-database 収録の DAT。'redump:Nintendo - GameCube' のように 'redump:' を付けると Redump の DAT。"""
+    group = "no-intro"
+    if name.startswith("redump:"):
+        group, name = "redump", name[len("redump:"):]
+    url = NOINTRO_DAT_URL.replace("/no-intro/", f"/{group}/").format(name=urllib.request.quote(name))
     safe = re.sub(r"[^A-Za-z0-9]+", "_", name).strip("_").lower()
-    return fetch(url, CACHE / f"nointro_{safe}.dat").read_text(encoding="utf-8")
+    prefix = "nointro" if group == "no-intro" else group
+    return fetch(url, CACHE / f"{prefix}_{safe}.dat").read_text(encoding="utf-8")
 
 
 def load_nointro_dat(names):

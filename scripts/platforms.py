@@ -105,6 +105,27 @@ _DS_PAGE = "ニンテンドーDSのゲームタイトル一覧 ({})"
 _DSIWARE_PAGE = "ニンテンドーDSiウェアのタイトル一覧"
 _DSIWARE_SECTIONS = {2008: 14, 2009: 170, 2010: 177, 2011: 59, 2012: 39, 2013: 14, 2014: 7, 2015: 14}
 
+def _gc_models(text):
+    """'DOL-GENJ-JPN'、'DOL-P-GENJ(JPN)'、Redump の 'DL-DOL-GENJ-JPN' を 'DOL-GENJ-JPN' にそろえる。"""
+    out = []
+    for m in re.finditer(r"(?:\bDL-)?\bDOL-(?:P-)?([A-Z0-9]{3}J)(?![A-Z0-9])", text.upper()):
+        model = f"DOL-{m.group(1)}-JPN"
+        if model not in out:
+            out.append(model)
+    return out
+
+
+def _gc_code(model):
+    m = re.fullmatch(r"DOL-([A-Z0-9]{3}J)-JPN", model or "")
+    return m.group(1) if m else ""
+
+
+def _gc_normalize_code(c):
+    """Redump のシリアル（'DL-DOL-GENJ-JPN'）からゲームコードを取り出す。"""
+    m = re.search(r"DOL-([A-Z0-9]{3}J)", c or "")
+    return m.group(1) if m else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -223,6 +244,39 @@ PLATFORMS = {
             "model": lambda code: f"{code}-JPN" if re.fullmatch(r"(?:NTR|TWL)-[A-Z0-9]{3}J", code) else "",
         },
         "tax_inclusive_from": "2004-04-01",
+    },
+    # ニンテンドー ゲームキューブ。光ディスクなのでハッシュは Redump
+    "gc": {
+        "name": "ニンテンドー ゲームキューブ",
+        "dir": ROOT / "data" / "gc",
+        "id_prefix": "gc-jp",
+        "wikipedia": {
+            "tables": [
+                {"page": "ニンテンドー ゲームキューブのゲームタイトル一覧", "section": "発売されたタイトル",
+                 "table_id": "softwarelist", "columns": ("jp", "na", "eu", "title", "publisher", "notes")},
+            ],
+        },
+        "madb_platforms": ["ニンテンドーゲームキューブ"],
+        "mame_lists": [],
+        "nointro_dats": ["redump:Nintendo - GameCube"],
+        # Redump には No-Intro のような DB Export が無いので、libretro 収録の Redump DAT を使う
+        "nointro_export": ["GameCube (Redump)"],
+        "nointro_export_fallback": {"GameCube (Redump)": "redump:Nintendo - GameCube"},
+        "models_from": _gc_models,
+        "models_from_serial": _gc_models,
+        "code_of": _gc_code,
+        "normalize_code": _gc_normalize_code,
+        "maru": {
+            "url": "https://maru-chang.com/gamedb/gamelist.php/GClineup/{page}",
+            "pages": 6,
+            "interval": 5,
+            "cache_dir": "maru-chang-gc",
+            "model": lambda code: f"{code}-JPN" if re.fullmatch(r"DOL-[A-Z0-9]{3}J", code) else "",
+        },
+        "maru_date_only": True,
+        "tax_inclusive_from": "2004-04-01",
+        "hash_source": "Redump",
+        "media": "disc",
     },
 }
 

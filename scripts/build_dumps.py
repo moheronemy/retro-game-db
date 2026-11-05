@@ -23,6 +23,7 @@
 """
 import argparse
 import csv
+import hashlib
 import re
 import sys
 import xml.etree.ElementTree as ET
@@ -37,7 +38,9 @@ import platforms as P  # noqa: E402
 EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|Pirate|Unl|Aftermarket|Debug"
                      r"|Tech Demo|SDK.*|Hot Mario Campaign|Rewritable Cartridge|DS Expansion Cartridge"
                      r"|Possible Proto|Test Program|Special Version( \d+)?|NP"
-                     r"|Club Nintendo|Not for Resale|Multiplayer|Save Data|Nintendo Game Seminar.*|DS Broadcast)$")
+                     r"|Club Nintendo|Not for Resale|Multiplayer|Save Data|Nintendo Game Seminar.*|DS Broadcast"
+                     r"|Taikenban|Tentou Taikenban|Jitsuen-you Sample|Special Taiken Disc|Movie Demo Disc|Demo Eizou"
+                     r"|Club Nintendo Genteiban)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$")
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
@@ -64,6 +67,8 @@ def non_retail_category(name, tags):
         return None
     if any(t.startswith("Kiosk") for t in tags) or "DS Broadcast" in tags:
         return "store_demo"   # DS Broadcast は店頭の DS ステーションで配信された体験版
+    if {"Jitsuen-you Sample", "Tentou Taikenban"} & set(tags) or name.startswith("Gekkan Nintendo Tentou Demo"):
+        return "store_demo"   # GC の店頭実演用サンプル・店頭体験版・月刊任天堂店頭デモ
     if "Demo" in tags and any(t.startswith("Spaceworld") for t in tags):
         return "event_demo"   # 任天堂スペースワールド等の展示会用
     if any(re.fullmatch(r"Beta( \d+)?", t) for t in tags):
@@ -73,6 +78,48 @@ def non_retail_category(name, tags):
     if "Tech Demo" in tags:
         return "tech_demo"
     return None
+
+
+def japanese_title(name):
+    """対応する製品版が無い別リストの行の表示名。月刊任天堂店頭デモは日本語にする。"""
+    m = re.match(r"Gekkan Nintendo Tentou Demo (\d{4})\.(\d{1,2})\.(\d{1,2})( Zoukangou)?", name)
+    if m:
+        return f"月刊任天堂店頭デモ {m.group(1)}年{int(m.group(2))}月{int(m.group(3))}日号" + ("（増刊号）" if m.group(4) else "")
+    m = re.match(r"Gekkan Nintendo Tentou Demo (\d{4})-(\d{4}) Nenmatsunenshigou", name)
+    if m:
+        return f"月刊任天堂店頭デモ {m.group(1)}-{m.group(2)} 年末年始号"
+    return name
+
+
+def merge_discs(rows):
+    """複数枚組（No-Intro / Redump 名の '(Disc 1)' '(Disc A)' など）を1行にまとめる。
+    サイズ・ハッシュ・確認区分などはディスク順に ';' でつなぎ、discs 列に枚数を入れる。"""
+    disc_re = re.compile(r" \(Disc [0-9A-Z]+\)")
+    groups, order = {}, []
+    for r in rows:
+        key = (r["title_id"], r["dump_kind"], disc_re.sub("", r["dump_name"]))
+        if key not in groups:
+            groups[key] = []
+            order.append(key)
+        groups[key].append(r)
+    out = []
+    for key in order:
+        g = groups[key]
+        if len(g) == 1 or not all(disc_re.search(r["dump_name"]) for r in g):
+            for r in g:
+                out.append({**r, "discs": "1"})
+            continue
+        g.sort(key=lambda r: disc_re.search(r["dump_name"]).group(0))
+        merged = dict(g[0])
+        merged["dump_name"] = key[2]
+        for col in ("size", "crc32", "md5", "sha1", "sha256", "verification", "rom_chip", "label_serial",
+                    "first_dump_date", "nointro_number", "mame_name", "mame_status"):
+            vals = [r.get(col, "") for r in g]
+            merged[col] = ";".join(vals) if len(set(vals)) > 1 or col in ("size", "crc32", "md5", "sha1", "sha256") \
+                else vals[0]
+        merged["discs"] = str(len(g))
+        out.append(merged)
+    return out
 
 
 def tags_of(name):
@@ -278,17 +325,33 @@ def main():
             retail_by_base.setdefault(base(r["dump_name"]), set()).add(r["title_id"])
     labels = {"store_demo": "店頭体験版", "event_demo": "イベント体験版", "beta": "開発版", "prototype": "試作品",
               "tech_demo": "技術デモ", "business": "業務用"}
+    disc_re = re.compile(r" \(Disc [0-9A-Z]+\)")
+    seen_nr = set()
     for name, g, ref, codes, cat in pending:
         parent = nr_parents.get(name)
         if parent is None:
             cands = retail_by_base.get(base(name), set())
             parent = next(iter(cands)) if len(cands) == 1 else ""
         info = dump_info(g, ref, mame)
-        nr_id = f"{cfg['id_prefix']}-nr-{g.find('archive').get('number')}"
-        title = f"{title_by_id[parent]['title']}（{labels[cat]}）" if parent else name
+        number = g.find("archive").get("number")
+        if not number:
+            # libretro DAT から組み立てた場合はアーカイブ番号が無いので、名前（ディスク番号を除く）のハッシュを使う
+            number = "h" + hashlib.sha1(disc_re.sub("", name).encode("utf-8")).hexdigest()[:8]
+        nr_id = f"{cfg['id_prefix']}-nr-{number}"
+        title = f"{title_by_id[parent]['title']}（{labels[cat]}）" if parent else japanese_title(name)
+        if disc_re.search(name):  # 複数枚組は1行（吸い出しは merge_discs でまとめる）
+            key = disc_re.sub("", name)
+            if key in seen_nr:
+                info = dump_info(g, ref, mame)
+                if info:
+                    rows.append({"title_id": nr_id, "title": title, "game_code": "/".join(sorted(codes)),
+                                 "dump_kind": cat, **info})
+                continue
+            seen_nr.add(key)
+            name = key
         non_retail.append({
             "id": nr_id, "title": title, "category": cat,
-            "media": "gc_download" if any("GameCube" in t for t in tags_of(name)) else "cartridge",
+            "media": "gc_download" if any("GameCube" in t for t in tags_of(name)) else cfg.get("media", "cartridge"),
             "parent_id": parent, "game_code": "/".join(sorted(codes)), "nointro_name": name,
             "evidence": "No-Intro: " + ", ".join(t for t in tags_of(name)
                                                  if re.match(r"Demo|Kiosk|GameCube|Spaceworld|Beta|Proto|Debug|Tech Demo|SDK", t)),
@@ -327,6 +390,12 @@ def main():
         if info:
             rows.append({"title_id": n["id"], "title": n["title"], "game_code": code_of(n["model_number"]),
                          "dump_kind": "not_for_sale", **info})
+
+    rows = merge_discs(rows)
+    if cfg.get("hash_source"):
+        for r in rows:
+            if r["hash_source"] == "No-Intro":
+                r["hash_source"] = cfg["hash_source"]
 
     kind_order = {"retail": 0, "collection": 1, "virtual_console": 2, "not_for_sale": 3, "nintendo_power": 4,
                   "store_demo": 5, "event_demo": 6, "beta": 7, "prototype": 8, "tech_demo": 9, "business": 10}
