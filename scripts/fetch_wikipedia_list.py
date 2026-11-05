@@ -26,22 +26,20 @@ UA = "retro-game-db/0.1 (https://github.com/moheronemy/retro-game-db)"
 
 
 def fetch_wikitext(page):
-    q = urllib.parse.urlencode({
-        "action": "parse", "page": page, "prop": "wikitext|revid",
-        "format": "json", "redirects": 1,
-    })
-    req = urllib.request.Request(f"{API}?{q}", headers={"User-Agent": UA})
-    for wait in (5, 15, 30, 60, None):
+    """ページ本文（wikitext）を取得する。API はアクセス制限（429）がかかりやすいため action=raw を使う。
+    版番号は返らないので "raw" とする。"""
+    url = "https://ja.wikipedia.org/w/index.php?" + urllib.parse.urlencode(
+        {"title": page, "action": "raw", "redirect": "yes"})
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    for wait in (30, 90, 180, None):
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
-                d = json.load(r)["parse"]
-            break
+                return r.read().decode("utf-8"), "raw"
         except urllib.error.HTTPError as e:
             if e.code != 429 or wait is None:
                 raise
             print(f"HTTP 429, retry in {wait}s", file=sys.stderr)
             time.sleep(wait)
-    return d["wikitext"]["*"], d.get("revid")
 
 
 def section(wikitext, name):
@@ -106,7 +104,12 @@ def plain(s):
     return re.sub(r"\s+", " ", s).strip()
 
 
-def parse_date(s):
+def parse_date(s, year=None):
+    """「2001年3月21日」等を ISO 形式に。year を渡すと年を省いた「1月15日」にも年を補う（DS の年別ページ）。"""
+    if year:
+        m = re.search(r"^\s*(\d{1,2})月\s*(\d{1,2})日?", s)
+        if m and "年" not in s:
+            return "%s-%02d-%02d" % (year, int(m.group(1)), int(m.group(2)))
     m = re.search(r"(\d{4})年(\d{1,2})月(\d{1,2})日", s)
     if m:
         return "%s-%02d-%02d" % (m.group(1), int(m.group(2)), int(m.group(3)))
@@ -151,7 +154,7 @@ def title_text(s):
     def repl(m):
         target = m.group(1).split("#")[0].strip()
         return re.sub(r"\s+\([^()]*\)$", "", target)
-    s = re.sub(r"\[\[([^\]|]+)\]\]", repl, s)
+    s = re.sub(r"\[\[([^\]|]+)\]\]", repl, interlang(s))
     return plain(s)
 
 
@@ -170,7 +173,10 @@ def table_text(text, table_id):
     return text[i:j + 3]
 
 
-def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None):
+KNOWN_COLUMNS = {"jp", "na", "eu", "title", "publisher", "notes", "sgb", "refs"}
+
+
+def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, year=None, ref_code=None):
     """表の各行を読む。columns は先頭からの列の意味（jp=日本の発売日）。日本未発売の行は除く。"""
     rows = []
     in_table = False
@@ -198,9 +204,11 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None):
             continue
         c = dict(zip(columns, cells))
         date_raw = re.sub(r"<span[^>]*></span>", "", c.get("jp", ""))
-        date = parse_date(plain(date_raw))
+        date = parse_date(plain(date_raw), year)
         if regional and not date:
             continue  # 日本未発売（{{Unreleased}}）
+        if year and not date:
+            print("日付なし:", plain(date_raw)[:30], plain(c.get("title", ""))[:30], file=sys.stderr)
         title_raw, pub_raw = c.get("title", ""), c.get("publisher", "")
         if regional:
             # 元の表に「|||発売元」のような区切りの誤記があるため先頭の「|」を落とす
@@ -215,6 +223,12 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None):
         }
         if "sgb" in columns:
             row["sgb"] = "yes" if re.search(r"[○◯〇]", c.get("sgb", "")) else ""
+        for col in columns:  # 表固有の列（DSiウェアの必要ブロック数など）はそのまま文字列で持つ
+            if col not in KNOWN_COLUMNS:
+                row[col] = plain(c.get(col, ""))
+        if ref_code:  # 脚注の公式サイト URL に含まれるゲームコード（例: nintendo.co.jp/ds/software/aifj/）
+            m = re.search(ref_code, "||".join(cells), re.I)
+            row["ref_code"] = m.group(1).upper() if m else ""
         row.update(extra or {})
         rows.append(row)
     return rows
@@ -226,9 +240,10 @@ def main():
     ap.add_argument("--wikitext", help="保存済みwikitextファイルを使う（1ページの機種のみ）")
     ap.add_argument("--out")
     ap.add_argument("--refresh", action="store_true", help=".cache/wikipedia/ の保存済み本文を使わず取り直す")
+    ap.add_argument("--list", help="本リスト以外の一覧（platforms.py の extra_lists。例: dsiware）")
     a = ap.parse_args()
     cfg = P.get(a.platform)
-    wcfg = cfg["wikipedia"]
+    wcfg = cfg["wikipedia"] if not a.list else cfg["extra_lists"][a.list]
     pages = {t.get("page", wcfg.get("page")) for t in wcfg["tables"]}
     texts = {}
     for page in sorted(pages):
@@ -248,14 +263,16 @@ def main():
     for t in wcfg["tables"]:
         page = t.get("page", wcfg.get("page"))
         text = table_text(section(texts[page], t["section"]), t.get("table_id"))
-        got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"))
+        got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"),
+                         t.get("year"), wcfg.get("ref_code"))
         print(f"  {t['section']}: {len(got)} 行", file=sys.stderr)
         rows += got
     if len(wcfg["tables"]) > 1:
         rows.sort(key=lambda r: r["release_date"])  # 複数の表をまとめるときは発売日順（同日は表の順）
+    prefix = cfg["id_prefix"] + (f"-{wcfg['id_suffix']}" if a.list else "")
     for i, r in enumerate(rows, 1):
-        r["id"] = f"{cfg['id_prefix']}-{i:04d}"
-    out = Path(a.out) if a.out else cfg["dir"] / "wikipedia_titles.csv"
+        r["id"] = f"{prefix}-{i:04d}"
+    out = Path(a.out) if a.out else cfg["dir"] / (wcfg["out"] if a.list else "wikipedia_titles.csv")
     out.parent.mkdir(parents=True, exist_ok=True)
     fields = ["id", "release_date", "title", "publisher", "notes", "wikipedia_article"] + \
         [k for k in (rows[0] if rows else {}) if k not in ("id", "release_date", "title", "publisher", "notes",

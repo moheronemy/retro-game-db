@@ -36,11 +36,12 @@ import platforms as P  # noqa: E402
 # 別の製品として扱うもの（試作・体験版・販促品・非公式など）。非売品は別途まとめる
 EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|Pirate|Unl|Aftermarket|Debug"
                      r"|Tech Demo|SDK.*|Hot Mario Campaign|Rewritable Cartridge|DS Expansion Cartridge"
-                     r"|Possible Proto|Test Program|Special Version( \d+)?|NP)$")
+                     r"|Possible Proto|Test Program|Special Version( \d+)?|NP"
+                     r"|Club Nintendo|Not for Resale|Multiplayer|Save Data|Nintendo Game Seminar.*|DS Broadcast)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$")
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
-                ("Third Party", "third_party")]
+                ("Third Party", "third_party"), ("DAT", "dat_only")]
 
 
 def dump_kind(tags):
@@ -61,8 +62,8 @@ def non_retail_category(name, tags):
     """
     if any(re.match(r"^(Unl|Pirate|Aftermarket)$", t) for t in tags):
         return None
-    if any(t.startswith("Kiosk") for t in tags):
-        return "store_demo"
+    if any(t.startswith("Kiosk") for t in tags) or "DS Broadcast" in tags:
+        return "store_demo"   # DS Broadcast は店頭の DS ステーションで配信された体験版
     if "Demo" in tags and any(t.startswith("Spaceworld") for t in tags):
         return "event_demo"   # 任天堂スペースワールド等の展示会用
     if any(re.fullmatch(r"Beta( \d+)?", t) for t in tags):
@@ -162,7 +163,8 @@ def main():
     exports = cfg["nointro_export"] if isinstance(cfg["nointro_export"], list) else [cfg["nointro_export"]]
     games, versions = {}, []
     for pattern in exports:  # GB/GBC のように複数の DB Export を合わせる機種がある
-        root, ver = C.load_nointro_export(pattern, a.export if len(exports) == 1 else None)
+        fb = cfg.get("nointro_export_fallback", {}).get(pattern)
+        root, ver = C.load_nointro_export(pattern, a.export if len(exports) == 1 else None, fb)
         versions.append(ver)
         for g in root.iter("game"):
             games.setdefault(g.get("name"), g)
@@ -275,7 +277,7 @@ def main():
         if r["dump_kind"] == "retail":
             retail_by_base.setdefault(base(r["dump_name"]), set()).add(r["title_id"])
     labels = {"store_demo": "店頭体験版", "event_demo": "イベント体験版", "beta": "開発版", "prototype": "試作品",
-              "tech_demo": "技術デモ"}
+              "tech_demo": "技術デモ", "business": "業務用"}
     for name, g, ref, codes, cat in pending:
         parent = nr_parents.get(name)
         if parent is None:
@@ -296,6 +298,22 @@ def main():
             rows.append({"title_id": nr_id, "title": title, "game_code": "/".join(sorted(codes)),
                          "dump_kind": cat, **info})
 
+    # ---- 別リストの手動追加分（No-Intro の印では拾えないイベント体験版・業務用ソフトなど）
+    for m in C.read_csv(DATA / "overrides" / "non_retail_manual.csv"):
+        non_retail.append({"id": m["id"], "title": m["title"], "category": m["category"], "media": m["media"],
+                           "parent_id": m["parent_id"], "game_code": "", "nointro_name": m["nointro_name"],
+                           "evidence": m["evidence"], "verification": ""})
+        g = games.get(m["nointro_name"]) if m["nointro_name"] else None
+        if g is not None:
+            ref = dat.get(m["nointro_name"])
+            info = dump_info(g, ref, mame)
+            codes = game_codes(g, ref, cfg)
+            non_retail[-1]["game_code"] = "/".join(sorted(codes))
+            non_retail[-1]["verification"] = info["verification"] if info else ""
+            if info:
+                rows.append({"title_id": m["id"], "title": m["title"], "game_code": "/".join(sorted(codes)),
+                             "dump_kind": m["category"], **info})
+
     # ---- 非売品の本リスト（A1）
     for n in C.read_csv(DATA / "jp_not_for_sale.csv"):
         info = None
@@ -311,12 +329,13 @@ def main():
                          "dump_kind": "not_for_sale", **info})
 
     kind_order = {"retail": 0, "collection": 1, "virtual_console": 2, "not_for_sale": 3, "nintendo_power": 4,
-                  "store_demo": 5, "event_demo": 6, "beta": 7, "prototype": 8, "tech_demo": 9}
+                  "store_demo": 5, "event_demo": 6, "beta": 7, "prototype": 8, "tech_demo": 9, "business": 10}
     rows.sort(key=lambda r: (r["title_id"], kind_order[r["dump_kind"]], r["revision"], r["dump_name"]))
     cols = ["title_id", "title", "game_code", "dump_name", "revision", "dump_kind"]
     rows = [{**{c: r[c] for c in cols}, **{k: v for k, v in r.items() if k not in cols}} for r in rows]
     C.write_csv(DATA / "jp_rom_dumps.csv", rows)
-    non_retail.sort(key=lambda r: (["store_demo", "event_demo", "beta", "prototype", "tech_demo"].index(r["category"]),
+    non_retail.sort(key=lambda r: (["store_demo", "event_demo", "beta", "prototype", "tech_demo", "business"]
+                                   .index(r["category"]),
                                    r["parent_id"] or "~", r["nointro_name"]))
     C.write_csv(DATA / "jp_non_retail.csv", non_retail)
 

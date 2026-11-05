@@ -1,0 +1,14 @@
+id,title,category,parent_id,model_number,distributor,campaign,route,dist_start,dist_end,quantity,nointro_name,mame_name,sources,notes
+ds-jp-nfs-0001,ゲーム&ウオッチコレクション,prize,,,任天堂,クラブニンテンドー,クラブニンテンドーの会員特典（ポイント交換・プラチナ会員特典）,,,,"Game & Watch Collection (Japan) (En,Ja) (Club Nintendo)",,http://club.nintendo.jp/present/itempop_02.html;https://ja.wikipedia.org/wiki/ニンテンドーDSのゲームタイトル一覧,
+ds-jp-nfs-0002,ゲーム&ウオッチコレクション2,prize,,,任天堂,クラブニンテンドー,クラブニンテンドーの会員特典,,,,Game & Watch Collection 2 (Japan) (Club Nintendo),,http://club.nintendo.jp/present/itempop_20.html;https://game.watch.impress.co.jp/docs/20080905/clubn.htm,
+ds-jp-nfs-0003,チンクルのバルーンファイトDS,prize,,,任天堂,クラブニンテンドー 2006年度プラチナ会員特典,クラブニンテンドーの2006年度プラチナ会員特典,,,,Tingle no Balloon Fight DS (Japan) (Club Nintendo),,https://game.watch.impress.co.jp/docs/20070112/cnin.htm,
+ds-jp-nfs-0004,絶叫戦士サケブレイン,prize,,,任天堂,クラブニンテンドー,クラブニンテンドーのポイント交換景品,,,,Zekkyou Senshi Sakebrain (Japan) (Club Nintendo),,http://club.nintendo.jp/present/P062/index.html;https://game.watch.impress.co.jp/docs/20070704/sakebu.htm,マルチプレイ専用ソフト
+ds-jp-nfs-0005,逆転裁判事典,bundled,,,カプコン,,『逆転裁判4』限定版に同梱,,,,Gyakuten Saiban Jiten (Japan),,https://ja.wikipedia.org/wiki/ニンテンドーDSのゲームタイトル一覧,
+ds-jp-nfs-0006,ANAオリジナル ご当地検定DS,prize,,,スパイク,ANA NIPPON2 SPRINGキャンペーン（2007年）,キャンペーン対象の搭乗者に抽選でニンテンドーDS Lite本体と共にプレゼント,2007,,,ANA Original - Gotouchi Kentei DS (Japan) (Not for Resale),,http://www.ana.co.jp/pr/07-0103/pdf/07-009-1.pdf,製品版『ご当地検定DS』の内容を一部変更したもの
+ds-jp-nfs-0007,トレジャークエスト 〜江ノ島・龍神の宝箱の巻〜,event,,,ラッセル,宝探し専門サイト「赤い鳥」主催のイベント,2008年1月〜2月に江ノ島で開催されたイベント用ソフト,2008-01,2008-02,,,,http://www.akai-tori.com/quest/;https://shonan.keizai.biz/headline/432/,
+ds-jp-nfs-0008,パーフェクト漢字計算マスターDS,supplement,,,ベネッセコーポレーション,,『チャレンジ5年生』2011年4月号特別付録,2011-04,,,,,http://www.good-feel.co.jp/ja/product.php;https://ja.wikipedia.org/wiki/ニンテンドーDSのゲームタイトル一覧,No-Intro の「5-Nen Kanji Keisan Nigate Hunter DS (Not for Resale)」と同一かは未確認のため吸い出しは結びつけていない
+ds-jp-nfs-0009,4教科パーフェクトクリアDS,supplement,,,ベネッセコーポレーション,,『チャレンジ6年生』2011年4月号特別付録,2011-04,,,4 Kyouka Perfect Clear DS (Japan) (Not for Resale),,http://www.good-feel.co.jp/ja/product.php,
+ds-jp-nfs-0010,中学準備5教科カンペキDS,supplement,,,ベネッセコーポレーション,,『中学準備チャレンジ』2012年1月号特別付録,2012-01,,,,,https://ja.wikipedia.org/wiki/ニンテンドーDSのゲームタイトル一覧,No-Intro にはゲームコードの異なる2種（TACJ / TCJJ）があり、どちらが付録版かは未確認のため吸い出しは結びつけていない
+ds-jp-nfs-0011,4教科パーフェクトクリアDS 英語音声つき,supplement,,,ベネッセコーポレーション,,『チャレンジ6年生』2012年4月号特別付録,2012-04,,,4 Kyouka Perfect Clear DS - Eigo Onsei Tsuki (Japan) (Not for Resale),,http://www.good-feel.co.jp/ja/product.php,
+ds-jp-nfs-0012,ポケモンカードゲームあそびかたDS,bundled,,,ポケモン,,2011年8月5日発売の『ポケモンカードゲームBW はじめてセット+（プラス）』に同梱されたチュートリアルソフト,2011-08-05,,,Pokemon Card Game - Asobikata DS (Japan),,http://www.pokemon-card.com/products/bw/entry_plus.html,
+ds-jp-nfs-0013,君に届け スペシャル,bundled,,,バンダイナムコゲームス,,2011年4月7日発売の『君に届け 〜伝えるキモチ〜 スペシャルパック』に同梱された編集ソフト,2011-04-07,,,Kimi ni Todoke - Special (Japan),,https://ja.wikipedia.org/wiki/ニンテンドーDSのゲームタイトル一覧,

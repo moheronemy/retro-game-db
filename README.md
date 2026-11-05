@@ -9,11 +9,13 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 |---|---|---|---|---|---|
 | ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（997 行） |
 | ゲームボーイ／ゲームボーイカラー (GB/GBC) | [`data/gb/jp_titles.csv`](data/gb/jp_titles.csv) | 1,245 | 1,194 | 1,199 | [`data/gb/jp_rom_dumps.csv`](data/gb/jp_rom_dumps.csv)（1,375 行） |
+| ニンテンドーDS (DS) | [`data/ds/jp_titles.csv`](data/ds/jp_titles.csv) | 1,840 | 1,800 | 1,829 | [`data/ds/jp_rom_dumps.csv`](data/ds/jp_rom_dumps.csv)（2,074 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
 | GBA | [`jp_not_for_sale.csv`](data/gba/jp_not_for_sale.csv)（5 件） | [`jp_non_retail.csv`](data/gba/jp_non_retail.csv)（35 件） | |
 | GB/GBC | [`jp_not_for_sale.csv`](data/gb/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/gb/jp_non_retail.csv)（92 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/gb/jp_nintendo_power.csv)（153 件） |
+| DS | [`jp_not_for_sale.csv`](data/ds/jp_not_for_sale.csv)（13 件） | [`jp_non_retail.csv`](data/ds/jp_non_retail.csv)（35 件） | DSiウェア [`jp_dsiware.csv`](data/ds/jp_dsiware.csv)（493 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -245,6 +247,64 @@ No-Intro で `Possible Proto`（試作品の可能性）・`Sample`・`Test Prog
 No-Intro の `(NP)` の吸い出し（28 件）は `jp_rom_dumps.csv` に `dump_kind = nintendo_power` で入れる（26 件を対応づけ。
 書き換え専用タイトルは [`data/gb/overrides/np_dump_matches.csv`](data/gb/overrides/np_dump_matches.csv) で手動対応）。
 
+## DS
+
+ニンテンドーDS / DS Lite / DSi 用として日本で発売されたソフト（2004年12月〜2012年）。`id` は `ds-jp-<連番>`（発売順）。
+
+| 列（DS 固有） | 内容 |
+|---|---|
+| `compat` | `ds`（1,805）/ `dsi_enhanced`（DSi の機能に対応、35）/ `dsi_only`（DSi 専用カートリッジ。No-Intro に日本版の登録が無く 0） |
+| `ref_code` | Wikipedia の脚注にある任天堂公式サイトの URL から拾ったゲームコード（型番の補完と maru-chang との照合に使う） |
+
+`compat` は No-Intro の分類で決める（DSi の DAT にあれば `dsi_only`、DS の DAT で `NDSi Enhanced` なら `dsi_enhanced`）。
+型番の `TWL-` は DSi 対応・DSi 専用の両方に使われているため判定には使わない。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「ニンテンドーDSのゲームタイトル一覧」の年別 6 ページ（2004-05 / 2006 / 2007 / 2008 / 2009 / 2010 / 2011-12）。表の発売日は年を省いているため、節の年を補う |
+| 型番・価格の補完と照合、発売日の照合 | maru-chang.com DS ソフトラインナップ（2,354 タイトル。48 ページ） |
+| 価格 | メディア芸術データベース（機種「ニンテンドーDS」） |
+| 型番の検証・ハッシュ | No-Intro DAT（libretro-database 収録の DS / DSi） |
+
+MAME には DS のソフトウェアリストがほぼ無いため使わない。照合は Wikipedia・MADB・maru-chang の 3 つ。
+
+- 件数は 1,840 件で、親ページ本文の記載（全 1,840 タイトル）と一致する。
+- maru-chang は英字タイトル（例: FINAL FANTASY III）で載せていることが多い。型番・Wikipedia 脚注のゲームコード・
+  MADB の別表記で照合し、それでも合わないものは「同じ発売日に双方 1 件ずつ残ったもの」を組にしている（37 件。
+  要確認レポートに「maru-chang同日1件のみで照合」と出る。目視ではすべて正しい組だった）。
+- 型番なし 40 件（得点力学習DS シリーズなど、どの出典にも型番が無いもの）、価格なし 11 件。
+
+### 吸い出し一覧
+
+No-Intro DB Export（DS / DSi）は取得できていないため、libretro 版 DAT で代用している。ハッシュ（CRC32・MD5・SHA1）・
+サイズ・リビジョンはあるが、確認区分は `dat_only` で、SHA256・ROM チップ刻印・セーブ方式は無い。
+（DAT-o-MATIC から自動アクセスを制限されたため。DB Export を `.cache/nointro-db/` に置けば同じスクリプトで差し替わる。）
+
+No-Intro の印の扱い: `DS Broadcast`（店頭の DS ステーションで配信された体験版）は店頭体験版、`Club Nintendo` と
+`Not for Resale` は非売品・業務用の各リストで扱い、製品版からは除く。`Multiplayer`（ダウンロードプレイの子機データ）と
+`Save Data` は対象外。
+
+### 非売品（`jp_not_for_sale.csv`）・別リスト
+
+Wikipedia「ニンテンドーDSのゲームタイトル一覧」の「非売品」節（出典付き）を次のように振り分けた。
+
+| 振り分け先 | 内容 |
+|---|---|
+| 非売品（A1, 13 件） | クラブニンテンドー限定 4（ゲーム&ウオッチコレクション 1・2 など）、限定版・セット同梱品 3（逆転裁判事典など）、ANA のキャンペーン景品、江ノ島のイベント用ソフト、進研ゼミの付録 4 |
+| 別リスト `event_demo`（3 件） | LEVEL 5 PREMIUM SILVER / GOLD / Platinum（東京ゲームショウ等で無料配布された体験版） |
+| 別リスト `business`（3 件） | マクドナルドの従業員研修ソフト 2、介護事業所向けケア記録ソフト（すぐろくDS） |
+
+非売品の `category` は GBA の 3 種に加えて `event`（イベント用ソフト）と `supplement`（雑誌・通信教育の付録）を使う。
+別リストの手動追加分は [`data/ds/overrides/non_retail_manual.csv`](data/ds/overrides/non_retail_manual.csv)。
+
+### DSiウェア（`jp_dsiware.csv`）
+
+ダウンロード専用ソフトの別リスト（Wikipedia「ニンテンドーDSiウェアのタイトル一覧」、2008〜2015年配信、493 件）。
+`release_date` は配信開始日、`blocks` は必要ブロック数、`3ds` はニンテンドー3DS での扱い（○△□×）。
+2009年は本文「全170タイトル」に対し表は 169 行。ハッシュ（No-Intro の DSi (Digital)）は未収録。
+
 ## 再生成
 
 ```sh
@@ -256,6 +316,11 @@ python3 scripts/fetch_wikipedia_list.py gb
 python3 scripts/enrich.py gb                   # ニンテンドウパワー書き換え専用タイトルはここで除く
 python3 scripts/build_nintendo_power.py gb     # → data/gb/jp_nintendo_power.csv（enrich の後に実行）
 python3 scripts/build_dumps.py gb
+
+python3 scripts/fetch_wikipedia_list.py ds
+python3 scripts/fetch_wikipedia_list.py ds --list dsiware   # → data/ds/jp_dsiware.csv
+python3 scripts/enrich.py ds                   # maru-chang は 5 秒間隔で 48 ページ取得
+python3 scripts/build_dumps.py ds
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。

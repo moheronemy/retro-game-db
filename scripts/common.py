@@ -133,8 +133,8 @@ def match(rows, src, overrides, col):
             continue
         for s in src:
             d = days(r["release_date"], s["date"])
-            if d is None:
-                continue
+            if d is None or d > NEAR_DAYS:
+                continue   # 採用条件（同日、または ±NEAR_DAYS）に入らない候補は類似度を計算しない
             sc = max(sim(r["title"], t) for t in s["titles"])
             if VARIANT.search(s["label"]) and not VARIANT.search(r["title"]):
                 sc -= VARIANT_PENALTY
@@ -274,11 +274,38 @@ def load_nointro_dat(names):
     return out
 
 
-def load_nointro_export(pattern, path=None):
-    """No-Intro DB Export（DAT-o-MATIC から手動で取得する zip / xml）を読む。"""
+def nointro_dat_as_export(dat_name):
+    """DB Export が無いときの代わりに、libretro 版 DAT から DB Export と同じ形の XML を組み立てる。
+    吸い出し記録（確認区分・ROM チップ刻印など）は無いので、確認区分は dat_only になる。"""
+    root = ET.Element("root")
+    text = nointro_dat_text(dat_name)
+    for m in re.finditer(r'game \(\n(.*?)\n\)\n', text, re.S):
+        b = m.group(1)
+        name = re.search(r'name "([^"]+)"', b).group(1)
+        rom = re.search(r'rom \( (.*?) \)', b).group(1)
+        g = lambda k: (re.search(k + r' "?([^" ]+)"?', rom) or [None, ""])[1]
+        region = (re.search(r'region "([^"]+)"', b) or [None, ""])[1]
+        if "Japan" in name:
+            region = region or "Japan"
+        game = ET.SubElement(root, "game", name=name)
+        ET.SubElement(game, "archive", region=region, number="", details="")
+        src = ET.SubElement(game, "source")
+        ET.SubElement(src, "details", section="DAT")
+        ET.SubElement(src, "file", size=g("size"), crc32=g("crc").lower(), md5=g("md5").lower(),
+                      sha1=g("sha1").lower(), serial=g("serial"))
+    return root
+
+
+def load_nointro_export(pattern, path=None, fallback_dat=None):
+    """No-Intro DB Export（DAT-o-MATIC から手動で取得する zip / xml）を読む。
+    無ければ fallback_dat（libretro 版 DAT の名前）から組み立てる。"""
     if path is None:
         found = sorted((CACHE / "nointro-db").glob(f"*{pattern}*"))
         if not found:
+            if fallback_dat:
+                print(f"No-Intro DB Export（{pattern}）が無いため libretro 版 DAT（{fallback_dat}）を使う",
+                      file=__import__("sys").stderr)
+                return nointro_dat_as_export(fallback_dat), f"libretro DAT ({fallback_dat})"
             raise SystemExit(f"No-Intro DB Export（{pattern}）が見つかりません。"
                              ".cache/nointro-db/ に置くか --export で指定してください")
         path = found[-1]
@@ -336,12 +363,15 @@ def load_maru(cfg):
     return [m for m in out if not m["not_for_sale"]]
 
 
-def match_maru(rows, maru, overrides):
-    """型番が同じものを優先し、型番が無い行はタイトル＋発売日で照合する。"""
+def match_maru(rows, maru, overrides, code_of=None, date_only=False):
+    """型番が同じものを優先し、型番が無い行はタイトル＋発売日で照合する。
+    code_of を渡すと型番の接頭辞を無視してゲームコードで比べる（DS の NTR-/TWL- の違いを吸収）。
+    行に ref_code（Wikipedia の脚注から拾ったゲームコード）があればそれでも照合する。"""
     by_key = {m["key"]: m for m in maru}
+    key_of = code_of or (lambda x: x)
     by_model = {}
     for m in maru:
-        by_model.setdefault(m["model"], []).append(m)
+        by_model.setdefault(key_of(m["model"]), []).append(m)
     result, used = {}, set()
     for r in rows:
         o = overrides.get((r["release_date"], r["title"]), {}).get("maru_code")
@@ -349,9 +379,10 @@ def match_maru(rows, maru, overrides):
             result[r["_i"]] = by_key.get(o) if o != "-" else None
             used.add(o)
     for r in rows:
-        if r["_i"] in result or not r["model_number"]:
+        k = key_of(r["model_number"]) if r["model_number"] else r.get("ref_code", "")
+        if r["_i"] in result or not k:
             continue
-        cands = [m for m in by_model.get(r["model_number"], []) if m["key"] not in used]
+        cands = [m for m in by_model.get(k, []) if m["key"] not in used]
         cands = [m for m in cands if (days(r["release_date"], m["date"]) or 0) <= NEAR_DAYS]
         if cands:
             m = min(cands, key=lambda m: days(r["release_date"], m["date"]) or 0)
@@ -360,11 +391,28 @@ def match_maru(rows, maru, overrides):
     for r in rows:
         if r["_i"] in result:
             continue
-        cands = [(sim(r["title"], m["label"]), m) for m in maru
+        # 行のタイトルに加えて、照合済みの MADB の別表記（英字タイトルなど）でも比べる
+        names = [r["title"]] + list(r.get("_alt_titles") or [])
+        cands = [(max(sim(n, m["label"]) for n in names), m) for m in maru
                  if m["key"] not in used and m["date"] == r["release_date"]]
         cands = [c for c in cands if c[0] >= 0.6]
         if cands:
             m = max(cands, key=lambda c: c[0])[1]
             result[r["_i"]] = m
             used.add(m["key"])
+    if date_only:
+        # 最後に、同じ発売日に照合されていない行と maru-chang のエントリが1件ずつだけ残っていれば組にする
+        # （maru-chang が英字表記・Wikipedia が日本語表記で類似度が出ない場合。要確認として扱う）
+        left_rows, left_maru = {}, {}
+        for r in rows:
+            if r["_i"] not in result and r["release_date"]:
+                left_rows.setdefault(r["release_date"], []).append(r)
+        for m in maru:
+            if m["key"] not in used and m["date"]:
+                left_maru.setdefault(m["date"], []).append(m)
+        for d, rs in left_rows.items():
+            ms = left_maru.get(d, [])
+            if len(rs) == 1 and len(ms) == 1:
+                result[rs[0]["_i"]] = ms[0]
+                rs[0]["_maru_date_only"] = True
     return result

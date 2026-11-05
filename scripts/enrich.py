@@ -108,6 +108,7 @@ def main():
             srcs.append("MAME")
         if model and model in madb_codes:
             srcs.append("MADB")
+        r["_alt_titles"] = (md["titles"] if md else []) + (mm["titles"] if mm else [])
         r.update({"model_number": model, "_model_srcs": srcs, "_md": md, "_mm": mm,
                   "madb_id": md["key"] if md else "", "mame_name": mm["key"] if mm else ""})
 
@@ -118,7 +119,7 @@ def main():
             issues.append(f"MAME低スコア{mm_sc:.2f}")
         if not md and md_how != "manual":
             issues.append("MADB未照合")
-        if not mm and mm_how != "manual":
+        if not mm and mm_how != "manual" and cfg["mame_lists"]:
             issues.append("MAME未照合")
         if md and md_how == "auto" and C.VARIANT.search(md["label"]) and not C.VARIANT.search(r["title"]):
             issues.append("MADBが通常版以外の可能性")
@@ -126,7 +127,8 @@ def main():
             issues.append(f"型番不一致 MAME={mame_codes[0]} MADB={'/'.join(madb_codes)}")
         r["_issues"] = issues
 
-    m_maru = C.match_maru(rows, maru, overrides) if maru is not None else {}
+    m_maru = C.match_maru(rows, maru, overrides, cfg.get("code_of") if cfg.get("ref_code_models") else None,
+                          cfg.get("maru_date_only", False)) if maru is not None else {}
     report = []
     for r in rows:
         md, mm, ma = r["_md"], r["_mm"], m_maru.get(r["_i"])
@@ -137,6 +139,10 @@ def main():
         model, srcs = r["model_number"], r["_model_srcs"]
         if not model and ma and ma["model"]:
             model = ma["model"]
+        if not model and r.get("ref_code") and cfg.get("ref_code_models"):
+            model = cfg["ref_code_models"](r["ref_code"])
+        if model and r.get("ref_code") and cfg.get("code_of") and cfg["code_of"](model) == r["ref_code"]:
+            srcs.append("Wikipedia")
         if model and ma and ma["model"] == model:
             srcs.append("maru-chang")
         if model and model in nointro:
@@ -180,7 +186,11 @@ def main():
                 issues.append(f"発売日不一致 {name}={src['date']}")
         if maru is not None and not ma and not ov.get("maru_code"):
             issues.append("maru-chang未照合")
+        if r.get("_maru_date_only"):
+            issues.append(f"maru-chang同日1件のみで照合（{ma['label']}）")
 
+        for col, fn in cfg.get("derive", {}).items():  # 型番などから決まる列（DS の compat）
+            r[col] = fn({**r, "model_number": model})
         r.update({
             "release_date": date, "release_date_sources": "+".join(dsrc),
             "model_number": model, "model_number_source": "+".join(srcs),
