@@ -42,7 +42,7 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      r"|Taikenban|Tentou Taikenban|Jitsuen-you Sample|Special Taiken Disc|Movie Demo Disc|Demo Eizou"
                      r"|Club Nintendo Genteiban)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
-COLLECTION = re.compile(r"Collection$|^Pokemon Box$")
+COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$")  # GameCube: GC 用ソフトに収録された ROM（N64）
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
                 ("Third Party", "third_party"), ("DAT", "dat_only")]
 

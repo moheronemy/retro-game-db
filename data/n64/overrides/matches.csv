@@ -1,0 +1,4 @@
+release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,release_date_fix,comment
+1997-12-26,遙かなるオーガスタ MASTERS'98,,harukana,,,,,,MAMEの日本語名は「マスターズ'98 〜遥かなるオーガスタ〜」
+1998-12-18,キングヒル64 エクストリームスノーボーディング,,kinghill,,,,,,MAMEの発売日（1999-12-18）は年の誤り
+1998-10-30,CITY TOUR GRANDPRIX 全日本GT選手権,,,,NUS-NGTJ-JPN,,,,MAME に日本版が無い。No-Intro「City-Tour GP - Zen-Nihon GT Senshuken (Japan)」のゲームコード NGTJ

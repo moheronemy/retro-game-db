@@ -146,6 +146,21 @@ def _wii_normalize_code(c):
     return m.group(1) if m else ""
 
 
+def _n64_models(text):
+    """'NUS-NSMJ-JPN'、'NUS-P-NSMJ(JPN)' などを 'NUS-NSMJ-JPN' にそろえる。64DD は NUD-。"""
+    out = []
+    for m in re.finditer(r"\b(NUS|NUD)-(?:P-)?([A-Z0-9]{3}J)(?![A-Z0-9])", text.upper()):
+        model = f"{m.group(1)}-{m.group(2)}-JPN"
+        if model not in out:
+            out.append(model)
+    return out
+
+
+def _n64_code(model):
+    m = re.fullmatch(r"(?:NUS|NUD)-([A-Z0-9]{3}J)-JPN", model or "")
+    return m.group(1) if m else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -297,6 +312,36 @@ PLATFORMS = {
         "tax_inclusive_from": "2004-04-01",
         "hash_source": "Redump",
         "media": "disc",
+    },
+    # NINTENDO 64。64DD のソフトは別リスト（jp_64dd.csv）
+    "n64": {
+        "name": "NINTENDO 64",
+        "dir": ROOT / "data" / "n64",
+        "id_prefix": "n64-jp",
+        "wikipedia": {
+            "tables": [
+                {"page": "NINTENDO 64のゲームタイトル一覧", "section": "発売されたNINTENDO 64のタイトル",
+                 "table_id": "softwarelist", "columns": ("jp", "na", "eu", "title", "publisher", "notes")},
+            ],
+        },
+        "extra_lists": {
+            "64dd": {
+                "out": "jp_64dd.csv",
+                "id_suffix": "64dd",
+                "tables": [{"page": "NINTENDO 64のゲームタイトル一覧", "section": "発売された64DDのタイトル",
+                            "columns": ("jp", "title", "publisher", "notes")}],
+            },
+        },
+        "madb_platforms": ["NINTENDO 64"],
+        "mame_lists": ["n64"],
+        "mame_jp_models": _n64_models,
+        "nointro_dats": ["Nintendo - Nintendo 64"],
+        "nointro_export": ["Nintendo 64 (DB Export)"],
+        "nointro_export_fallback": {"Nintendo 64 (DB Export)": "Nintendo - Nintendo 64"},
+        "models_from": _n64_models,
+        "models_from_serial": lambda s: [f"NUS-{s}-JPN"] if re.fullmatch(r"[A-Z0-9]{3}J", s) else [],
+        "code_of": _n64_code,
+        "normalize_code": _gba_normalize_code,
     },
     # Wii（ディスクソフト）。Wiiウェアは別リスト、バーチャルコンソール・Wiiチャンネルは対象外
     "wii": {

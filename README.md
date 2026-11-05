@@ -12,6 +12,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ニンテンドーDS (DS) | [`data/ds/jp_titles.csv`](data/ds/jp_titles.csv) | 1,840 | 1,796 | 1,830 | [`data/ds/jp_rom_dumps.csv`](data/ds/jp_rom_dumps.csv)（2,071 行） |
 | ニンテンドー ゲームキューブ (GC) | [`data/gc/jp_titles.csv`](data/gc/jp_titles.csv) | 276 | 272 | 274 | [`data/gc/jp_rom_dumps.csv`](data/gc/jp_rom_dumps.csv)（366 行） |
 | Wii | [`data/wii/jp_titles.csv`](data/wii/jp_titles.csv) | 461 | 461 | 461 | [`data/wii/jp_rom_dumps.csv`](data/wii/jp_rom_dumps.csv)（496 行） |
+| NINTENDO 64 (N64) | [`data/n64/jp_titles.csv`](data/n64/jp_titles.csv) | 198 | 198 | 144 | [`data/n64/jp_rom_dumps.csv`](data/n64/jp_rom_dumps.csv)（245 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -20,6 +21,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | DS | [`jp_not_for_sale.csv`](data/ds/jp_not_for_sale.csv)（13 件） | [`jp_non_retail.csv`](data/ds/jp_non_retail.csv)（35 件） | DSiウェア [`jp_dsiware.csv`](data/ds/jp_dsiware.csv)（493 件） |
 | GC | [`jp_not_for_sale.csv`](data/gc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/gc/jp_non_retail.csv)（62 件） | |
 | Wii | [`jp_not_for_sale.csv`](data/wii/jp_not_for_sale.csv)（4 件） | （0 件） | Wiiウェア [`jp_wiiware.csv`](data/wii/jp_wiiware.csv)（210 件） |
+| N64 | （未調査・0 件） | [`jp_non_retail.csv`](data/n64/jp_non_retail.csv)（5 件） | 64DD [`jp_64dd.csv`](data/n64/jp_64dd.csv)（10 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -380,6 +382,32 @@ Redump の `Taikenban`（7 件）・`Otameshiban`（1 件）は配布経路が�
 Wikipedia「Wiiウェアのゲームタイトル一覧」の 210 件（本文は 211 タイトルで、1 件は同ページの非売品節）。
 `release_date` は配信開始日、`blocks` は必要ブロック数、`wifi` は Wi-Fi 対応、`classic_controller` はクラシックコントローラ対応。
 
+## N64
+
+NINTENDO 64 用として日本で発売されたソフト（1996〜2001年）。`id` は `n64-jp-<連番>`（発売順）。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「NINTENDO 64のゲームタイトル一覧」（本文の記載どおり 198 件。スーパーマリオ64 とウエーブレース64 の振動パック対応バージョンを別の行として含む） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「NINTENDO 64」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/n64.xml` |
+| 型番の検証・ハッシュ | No-Intro DAT（libretro 収録の `Nintendo - Nintendo 64.dat`。DB Export は未取得） |
+
+- maru-chang には N64 の一覧が無いため、照合は Wikipedia・MADB・MAME の 3 つ。
+- 型番は `NUS-XXXJ-JPN`。198 件すべてにあり（MAME で照合できない 3 件は [`data/n64/overrides/matches.csv`](data/n64/overrides/matches.csv)
+  で補った。うち CITY TOUR GRANDPRIX は No-Intro のゲームコード）。
+- 価格は MADB だけが出典のため 144 件。54 件は価格なし。発売は 1997年3月までが消費税 3%、以降 5% で、すべて税抜表示の時代。
+- 周辺機器同梱ソフト（ピカチュウげんきでチュウ＋VRS など）は本リストに含む。
+- 非売品は未調査（Wikipedia の一覧に非売品の節が無いため、各作品の記事の確認が必要）。
+- No-Intro の `GameCube`（GC 用『ゼルダコレクション』等に収録された ROM）は `collection` として扱う。
+
+### 64DD（`jp_64dd.csv`）
+
+64DD（磁気ディスクドライブ）用ソフト 10 件の別リスト（Wikipedia の「発売された64DDのタイトル」）。
+ランドネットディスク（通信サービス用）を含む。ハッシュ（No-Intro の 64DD DAT）は未収録。
+
 ## 再生成
 
 ```sh
@@ -405,6 +433,11 @@ python3 scripts/fetch_wikipedia_list.py wii
 python3 scripts/fetch_wikipedia_list.py wii --list wiiware  # → data/wii/jp_wiiware.csv
 python3 scripts/enrich.py wii                  # maru-chang は 5 秒間隔で 28 ページ取得
 python3 scripts/build_dumps.py wii
+
+python3 scripts/fetch_wikipedia_list.py n64
+python3 scripts/fetch_wikipedia_list.py n64 --list 64dd   # → data/n64/jp_64dd.csv
+python3 scripts/enrich.py n64
+python3 scripts/build_dumps.py n64
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。
