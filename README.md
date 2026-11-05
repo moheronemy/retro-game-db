@@ -7,10 +7,15 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 
 | 機種 | タイトル一覧 | 件数 | 型番 | 価格 | ROM 吸い出し一覧 |
 |---|---|---|---|---|---|
-| ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（986 行） |
+| ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（997 行） |
+| ゲームボーイ／ゲームボーイカラー (GB/GBC) | [`data/gb/jp_titles.csv`](data/gb/jp_titles.csv) | 1,245 | 1,194 | 1,199 | [`data/gb/jp_rom_dumps.csv`](data/gb/jp_rom_dumps.csv)（1,375 行） |
 
-GBA ではほかに、非売品の一覧 [`data/gba/jp_not_for_sale.csv`](data/gba/jp_not_for_sale.csv)（5 件）と、
-店頭体験版・開発版・試作品の一覧 [`data/gba/jp_non_retail.csv`](data/gba/jp_non_retail.csv)（35 件）がある。
+| 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
+|---|---|---|---|
+| GBA | [`jp_not_for_sale.csv`](data/gba/jp_not_for_sale.csv)（5 件） | [`jp_non_retail.csv`](data/gba/jp_non_retail.csv)（35 件） | |
+| GB/GBC | [`jp_not_for_sale.csv`](data/gb/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/gb/jp_non_retail.csv)（92 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/gb/jp_nintendo_power.csv)（153 件） |
+
+各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
 ## GBA
 
@@ -162,13 +167,98 @@ ROM そのものは扱わない。製品版に加えて、非売品・店頭体�
 MAME と CRC が合わないものの多くは、ファミコンミニの ROM サイズの数え方（MAME 4MB / No-Intro 1MB）か、
 MAME が 2003〜2007年ごろの古い外部提供の吸い出しを使っているもの。
 
+## GB/GBC
+
+ゲームボーイ・ゲームボーイカラーは 1 本のリストにまとめ、`compat` 列でカートリッジの種類を区別する。
+
+| `compat` | 種類 | 件数 |
+|---|---|---|
+| `gb` | ゲームボーイ専用（灰カートリッジ） | 781 |
+| `gbc_compatible` | ゲームボーイカラー対応（黒カートリッジ。モノクロ機でも動く） | 213 |
+| `gbc_only` | ゲームボーイカラー専用（透明カートリッジ） | 251 |
+
+`sgb` 列はスーパーゲームボーイ対応（`yes`）を示す（366 件）。`id` は `gb-jp-<連番>`（発売順）。
+
+### 出典
+
+| 用途 | 出典 | 版 |
+|---|---|---|
+| タイトル・発売日・発売元・SGB 対応 | ja.wikipedia「[ゲームボーイのゲームタイトル一覧](https://ja.wikipedia.org/wiki/ゲームボーイのゲームタイトル一覧)」（GB 専用）、「[ゲームボーイカラーのゲームタイトル一覧](https://ja.wikipedia.org/wiki/ゲームボーイカラーのゲームタイトル一覧)」（カラー対応・カラー専用の 2 表） | oldid=111571037 / 111419004 |
+| 価格（・型番の補助） | メディア芸術データベース（機種「ゲームボーイ」。GBC も含む） | GBA と同じ |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/gameboy.xml` / `hash/gbcolor.xml` | master |
+| ハッシュ・リビジョン | No-Intro DB Export（Game Boy / Game Boy Color） | 20261031-010415 / 20261102-232700 |
+| ニンテンドウパワー | ja.wikipedia「[ニンテンドウパワーのゲームタイトル一覧](https://ja.wikipedia.org/wiki/ニンテンドウパワーのゲームタイトル一覧)」ゲームボーイの表 | 2026-11-05 取得 |
+
+maru-chang には GB/GBC の一覧が無いため、照合は Wikipedia・MADB・MAME の 3 つで行う。
+
+### 件数について
+
+Wikipedia の 3 つの表から日本で発売された行（日本の発売日が `{{Unreleased}}` でない行）を取り出すと 1,260 件で、
+各ページ本文の記載（GB 781・カラー対応 223・カラー専用 256）と一致する。このうちニンテンドウパワーの
+書き換え専用タイトル 15 件（スーパーマリオブラザーズDX、バルーンファイトGB、Loppi パズルマガジンなど）は
+別リストに移したため、本リストは 1,245 件。
+
+発売日が年月まで（`YYYY-MM`）・年まで（`YYYY`）しか分からない行がある（ドラえもんのスタディボーイ 1〜6）。
+
+### 型番
+
+型番の形式は時期で異なる。
+
+- 初期: `DMG-TRA`、`DMG-WQJ` のような 3 文字（末尾が地域で、日本版は `A` または `J`）
+- 後期: `DMG-ACCJ-JPN`（GB 専用・カラー対応）、`CGB-BDLJ-JPN`（カラー専用）
+
+カラー対応は `DMG-`、カラー専用は `CGB-` で始まるのが通例で、外れる 4 件（ゴルフ王、ドン・キホーテが行く、
+とっとこハム太郎 ともだち大作戦でちゅ、DDR GB3）は要確認レポートに出している。
+
+GB の ROM の大半にはゲームコードが無く、No-Intro の DAT にもシリアルがほとんど無いため、型番の検証と
+吸い出しとの対応づけは MAME 経由（CRC・英語名）が中心になる。型番なしは 51 件、価格なしは 46 件。
+
+### 価格の税
+
+1989年4月に消費税（3%）、1997年4月に 5% になったため、税込・税抜の換算は発売日時点の税率で行う。
+
+### 非売品（`jp_not_for_sale.csv`）
+
+基準は GBA と同じ（出典で配布経路まで確認できたもののみ）。現時点では Wikipedia「ゲームボーイカラーのゲームタイトル一覧」の
+「その他」に出典付きで載っている 2 件（ボンバーマンMAX アインバージョン、同 完全データバージョン）。
+各作品の Wikipedia 記事からの洗い出しは、Wikipedia 側のアクセス制限のため未実施。
+
+### 店頭体験版・開発版・試作品（`jp_non_retail.csv`）
+
+GBA の区分に加えて `event_demo`（展示会用の体験版。No-Intro の `Spaceworld 1997` の印。ポケットモンスター金・銀）がある。
+No-Intro で `Possible Proto`（試作品の可能性）・`Sample`・`Test Program` とされたものは、区分が確かでないため載せない。
+
+### ニンテンドウパワー（`jp_nintendo_power.csv`）
+
+ローソン等の端末でフラッシュカートリッジに書き込む書き換えサービスで提供されたタイトル。1 行 = 1 書き換えタイトル。
+
+| 列 | 内容 |
+|---|---|
+| `id` | `gb-jp-np-<連番>`（一覧の順） |
+| `np_date` | 書き換え開始日 |
+| `title` / `publisher` | タイトル / 発売元 |
+| `np_only` | `yes` は通常版のカートリッジが発売されなかった書き換え専用タイトル（15 件） |
+| `retail_date` / `parent_id` | 通常版の発売日 / `jp_titles.csv` の対応する `id` |
+| `flash_blocks` / `save_blocks` | 書き込みに使うブロック数（F）/ セーブ用のブロック数（B） |
+| `sheet_no` / `product_no` | 遊び方シート番号 / 商品番号 |
+
+No-Intro の `(NP)` の吸い出し（28 件）は `jp_rom_dumps.csv` に `dump_kind = nintendo_power` で入れる（26 件を対応づけ。
+書き換え専用タイトルは [`data/gb/overrides/np_dump_matches.csv`](data/gb/overrides/np_dump_matches.csv) で手動対応）。
+
 ## 再生成
 
 ```sh
 python3 scripts/fetch_wikipedia_list.py gba   # Wikipedia → data/gba/wikipedia_titles.csv
 python3 scripts/enrich.py gba                  # 型番・価格を付与 → data/gba/jp_titles.csv
 python3 scripts/build_dumps.py gba             # ROM 吸い出し一覧・別リスト → jp_rom_dumps.csv / jp_non_retail.csv
+
+python3 scripts/fetch_wikipedia_list.py gb
+python3 scripts/enrich.py gb                   # ニンテンドウパワー書き換え専用タイトルはここで除く
+python3 scripts/build_nintendo_power.py gb     # → data/gb/jp_nintendo_power.csv（enrich の後に実行）
+python3 scripts/build_dumps.py gb
 ```
+
+- Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。
 
 - スクリプトは機種名（`gba` など）を引数に取る。機種ごとの設定（Wikipedia のページと表の列、
   MADB の機種名、MAME のリスト、No-Intro の DAT 名、型番の形式など）は `scripts/platforms.py` にあり、
@@ -178,6 +268,7 @@ python3 scripts/build_dumps.py gba             # ROM 吸い出し一覧・別リ
 - `build_dumps.py` が使う No-Intro DB Export は、利用規約への同意が必要なため自動取得しない。
   [DAT-o-MATIC](https://datomatic.no-intro.org/) で規約に同意し、Download → Nintendo - Game Boy Advance →
   「DB」の Prepare → Download!! で得た zip を `.cache/nointro-db/` に置く（または `--export` で指定）。
+  GB/GBC は Game Boy と Game Boy Color の 2 つを置く。
 
 ## ライセンス
 

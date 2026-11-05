@@ -119,6 +119,7 @@ PLATFORMS = {
         "code_of": _gb_code,
         "normalize_code": _gb_normalize_code,
         "check_row": _gb_check,
+        "nintendo_power": {"page": "ニンテンドウパワーのゲームタイトル一覧", "section": "ゲームボーイ"},
     },
 }
 

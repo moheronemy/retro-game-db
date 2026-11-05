@@ -63,6 +63,14 @@ def main():
     data = cfg["dir"]
 
     rows = expand_groups(C.read_csv(data / "wikipedia_titles.csv"), data / "overrides" / "group_expansions.csv")
+    if cfg.get("nintendo_power"):
+        # ニンテンドウパワーの書き換え専用タイトルは別リスト（jp_nintendo_power.csv）で扱う
+        import build_nintendo_power as NP
+        np_rows = NP.parse_np(cfg)
+        dropped = [r for r in rows if NP.is_np_only_row(r, np_rows)]
+        rows = [r for r in rows if not NP.is_np_only_row(r, np_rows)]
+        print(f"ニンテンドウパワー書き換え専用として除外: {len(dropped)} 件 "
+              f"（{', '.join(r['title'] for r in dropped)}）", file=sys.stderr)
     for i, r in enumerate(rows):
         r["_i"] = i
     overrides = {}

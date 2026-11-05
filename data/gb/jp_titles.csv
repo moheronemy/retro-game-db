@@ -960,302 +960,287 @@ gb-jp-0958,2000-02-24,メタファイトEX,サンソフト,gbc_only,,CGB-A5MJ-JP
 gb-jp-0959,2000-02-24,プロ麻雀 兵（つわもの）GB2,カルチャーブレーン,gbc_only,,CGB-BMWJ-JPN,3900,税抜,,プロ麻雀 兵（つわもの）GB2,Wikipedia+MADB+MAME,MAME,MADB,プロ麻雀「兵」GB2,M755899,gbcolor:mjtsuwa2
 gb-jp-0960,2000-02-24,本格花札GB,アルトロン,gbc_only,,CGB-AH3J-JPN,4500,税抜,,本格花札GB,Wikipedia+MADB+MAME,MAME,MADB,本格花札GB,M765887,gbcolor:honkhana
 gb-jp-0961,2000-02-24,メタモード,コーエー,gbc_only,,CGB-BTMJ-JPN,3980,税抜,,メタモード,Wikipedia+MADB+MAME,MAME,MADB,メタモード,M757487,gbcolor:metamode
-gb-jp-0962,2000-03-01,スーパーマリオブラザーズデラックス,任天堂,gbc_only,,CGB-AHYJ-JPN,1000,税抜,ファミリーコンピュータ用ソフト『スーパーマリオブラザーズ』の移植版 ニンテンドウパワー書き換え専用,スーパーマリオブラザーズデラックス,Wikipedia+MADB+MAME,MAME,MADB,スーパーマリオブラザーズDX,M749671,gbcolor:smbdxja
-gb-jp-0963,2000-03-10,突撃!パッパラ隊,J・ウィング,gbc_compatible,yes,DMG-APHJ-JPN,4500,税抜,,突撃!パッパラ隊,Wikipedia+MADB+MAME,MAME+MADB,MADB,突撃! パッパラ隊,M723913,gbcolor:totsuge
-gb-jp-0964,2000-03-10,ドラえもんメモリーズ のび太の想い出大冒険,エポック社,gbc_compatible,,DMG-BDMJ-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんメモリーズ のび太の想い出大冒険,M752377,gbcolor:doramemo
-gb-jp-0965,2000-03-10,メダロット カードロボトル カブトバージョン,イマジニア,gbc_compatible,yes,DMG-A8CJ-JPN,3980,税抜,メダロットが題材のカードゲームのコンピュータゲーム化,メダロット カードロボトル カブトバージョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,メダロット カードロボトル カブト バージョン,M723911,gbcolor:medarcka
-gb-jp-0966,2000-03-10,メダロット カードロボトル クワガタバージョン,イマジニア,gbc_compatible,yes,DMG-A9CJ-JPN,3980,税抜,メダロットが題材のカードゲームのコンピュータゲーム化,メダロット カードロボトル クワガタバージョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,メダロット カードロボトル クワガタ バージョン 初回限定版,M723912,gbcolor:medarcku
-gb-jp-0967,2000-03-10,野球シミュレーション ポケットプロ野球,エポック社,gbc_only,,CGB-BPPJ-JPN,3980,税抜,,野球シミュレーション ポケットプロ野球,Wikipedia+MADB+MAME,MAME,MADB,野球シミュレーション ポケットプロ野球,M766402,gbcolor:pockyak
-gb-jp-0968,2000-03-17,合格ボーイシリーズ □いアタマを○くする 常識の書,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 常識の書,M734595,
-gb-jp-0969,2000-03-17,合格ボーイシリーズ □いアタマを○くする 難問の書,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 難問の書,M734599,
-gb-jp-0970,2000-03-17,パズループ,カプコン,gbc_compatible,,DMG-BPZJ-JPN,3800,税抜,,パズループ,Wikipedia+MADB+MAME,MAME,MADB,パズループ,M753783,gbcolor:puzzloop
-gb-jp-0971,2000-03-17,シルバニアメロディー 〜森のなかまと踊りましょ!〜,エポック社,gbc_compatible,yes,DMG-BMKJ-JPN,3980,税抜,ゲームボーイカラーにおける「シルバニアファミリー」のゲーム化第2作目,シルバニアメロディー 〜森のなかまと踊りましょ!〜,Wikipedia+MADB+MAME,MAME,MADB,シルバニアメロディー ～森のなかまと踊りましょ～,M749427,gbcolor:sylvmel
-gb-jp-0972,2000-03-17,RPGツクールGB,アスキー,gbc_only,,CGB-A2QJ-JPN,4800,税抜,ゲームボーイカラーにおけるRPGツクール第1作目,RPGツクールGB,Wikipedia+MADB+MAME,MAME,MADB,RPGツクールGB,M742012,gbcolor:rpgtsuku
-gb-jp-0973,2000-03-17,ハムスターパラダイス2（ちゅー）,アトラス,gbc_only,,CGB-BHMJ-JPN,3980,税抜,,ハムスターパラダイス2（ちゅー）,Wikipedia+MADB+MAME,MAME,MADB,ハムスターパラダイス2,M754271,gbcolor:hamstpa2
-gb-jp-0974,2000-03-17,ポケットプロレス パーフェクトレスラー,J・ウィング,gbc_only,,CGB-AJVJ-JPN,3980,税抜,,ポケットプロレス パーフェクトレスラー,Wikipedia+MADB+MAME,MAME,MADB,ポケットプロレス パーフェクトレスラー,M756260,gbcolor:pockprow
-gb-jp-0975,2000-03-17,マクロス7 銀河のハートを奮わせろ!!,エポック社,gbc_only,,CGB-BM7J-JPN,3980,税抜,テレビアニメ『マクロス7』のゲーム化,マクロスシリーズ (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,マクロス7 銀河のハートを奮わせろ!!,M756738,gbcolor:macross7
-gb-jp-0976,2000-03-21,ワリオランド3 不思議なオルゴール,任天堂,gbc_only,,,3800,税抜,,ワリオランド3 不思議なオルゴール,Wikipedia+MADB,,MADB,ワリオランド3 不思議なオルゴール,M759453,
-gb-jp-0977,2000-03-23,サイボーグクロちゃん 〜デビル復活!!〜,コナミ,gbc_only,,CGB-BSKJ-JPN,4500,税抜,漫画『サイボーグクロちゃん』のゲーム化,サイボーグクロちゃん 〜デビル復活!!〜,Wikipedia+MADB+MAME,MAME,MADB,サイボーグクロちゃん ～デビル復活～,M748720,gbcolor:cyborgku
-gb-jp-0978,2000-03-24,さるパンチャー,タイトー,gbc_compatible,yes,DMG-BSPJ-JPN,3980,税抜,,さるパンチャー,Wikipedia+MADB+MAME,MAME+MADB,MADB,さるパンチャー,M723892,gbcolor:sarupnch
-gb-jp-0979,2000-03-24,じゃがいぬくん,ビクターインタラクティブソフトウェア,gbc_compatible,,DMG-B39J-JPN,3800,税抜,,じゃがいぬくん,Wikipedia+MADB+MAME,MAME,MADB,じゃがいぬくん,M749230,gbcolor:jagainu
-gb-jp-0980,2000-03-24,なかよしペットシリーズ2 かわいいウサギ,エム・ティー・オー,gbc_compatible,,DMG-B7UJ-JPN,3980,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ2 かわいいウサギ,M734297,gbcolor:nakapet2
-gb-jp-0981,2000-03-24,爆球連発!!スーパービーダマン 激誕!ライジングヴァルキリー!!,タカラ,gbc_compatible,yes,DMG-A4RJ-JPN,4500,税抜,漫画およびアニメ『爆球連発!!スーパービーダマン』のゲーム化,爆球連発!!スーパービーダマン 激誕!ライジングヴァルキリー!!,Wikipedia+MADB+MAME,MAME,MADB,爆球連発!! スーパービーダマン 激誕! ライジングヴァルキリー!!,M765362,gbcolor:bakukyuu
-gb-jp-0982,2000-03-24,ターザン,シスコンエンタテイメント,gbc_only,,CGB-BTHJ-JPN,4300,税抜,アニメ映画『ターザン』のゲーム化,ターザン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ディズニーズ ターザン,M751489,gbcolor:tarzanj
-gb-jp-0983,2000-03-24,レイマン,ユービーアイソフト,gbc_only,,CGB-BURJ-JPN,4200,税抜,レイマンシリーズの一つ,レイマン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,レイマン ミスターダークの罠,M758723,gbcolor:raymanj
-gb-jp-0984,2000-03-30,パワプロクンポケット2,コナミ,gbc_compatible,yes,DMG-BPWJ-JPN,4500,税抜,,パワプロクンポケット2,Wikipedia+MADB+MAME,MAME,MADB,パワプロクンポケット2,M754485,gbcolor:powrpkp2
-gb-jp-0985,2000-03-30,バトルフィッシャーズ,コナミ,gbc_only,,CGB-BBAJ-JPN,4500,税抜,,バトルフィッシャーズ,Wikipedia+MADB+MAME,MAME,MADB,バトルフィッシャーズ,M754201,gbcolor:batlfish
-gb-jp-0986,2000-03-30,ポップンミュージックGB,コナミ,gbc_only,,CGB-BPMJ-JPN,4300,税抜,Pop'n musicシリーズの一つ,ポップンミュージックGB,Wikipedia+MADB+MAME,MAME,MADB,ポップンミュージックGB,M756431,gbcolor:popngb
-gb-jp-0987,2000-03-31,アルルの冒険 まほうのジュエル,コンパイル,gbc_compatible,yes,DMG-BRBJ-JPN,4200,税抜,ぷよぷよシリーズのアルル・ナジャが主人公,アルルの冒険 まほうのジュエル,Wikipedia+MADB+MAME,MAME,MADB,アルルの冒険 まほうのジュエル,M745170,gbcolor:arle
-gb-jp-0988,2000-03-31,名探偵コナン 奇岩島秘宝伝説,バンプレスト,gbc_compatible,yes,DMG-A5BJ-JPN,4500,税抜,ゲームボーイカラーにおける『名探偵コナン』が題材のゲーム第2作目,名探偵コナン 奇岩島秘宝伝説,Wikipedia+MADB+MAME,MAME+MADB,MADB,名探偵コナン 奇岩島秘宝伝説,M723870,gbcolor:mconankh
-gb-jp-0989,2000-03-31,トリックボーダーグランプリ,アテナ,gbc_only,,CGB-BTBJ-JPN,3800,税抜,,トリックボーダーグランプリ,Wikipedia+MADB+MAME,MAME,MADB,トリックボーダーグランプリ,M752695,gbcolor:trickbrdj
-gb-jp-0990,2000-03-31,スノボーチャンピオン,ボトムアップ,gbc_only,,CGB-B5CJ-JPN,3980,税抜,,スノボーチャンピオン,Wikipedia+MADB+MAME,MAME,MADB,スノボーチャンピオン,M750131,gbcolor:snobochm
-gb-jp-0991,2000-03-31,必殺パチンコBOY CRモンスターハウス,サンソフト,gbc_only,,CGB-BHPJ-JPN,3980,税抜,,必殺パチンコBOY CRモンスターハウス,Wikipedia+MADB+MAME,MAME,MADB,必殺パチンコBOY CRモンスターハウス,M765480,gbcolor:pachiboy
-gb-jp-0992,2000-04-07,VSレミングス,J・ウィング,gbc_only,,CGB-ALEJ-JPN,4500,税抜,『レミングス』と『』をまとめた作品,VSレミングス,Wikipedia+MADB+MAME,MAME,MADB,VSレミングス,M743762,gbcolor:vslemmin
-gb-jp-0993,2000-04-13,遊☆戯☆王 モンスターカプセルGB,コナミ,gbc_compatible,yes,DMG-AYCJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画『遊☆戯☆王』が題材のゲーム第1作目,遊☆戯☆王 モンスターカプセルGB,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 モンスターカプセルGB,M766501,gbcolor:yugimcap
-gb-jp-0994,2000-04-14,聖牌伝説,ギャップス,gbc_compatible,yes,DMG-AEOJ-JPN,2800,税抜,,聖牌伝説,Wikipedia+MADB+MAME,MAME,MADB,聖牌伝説,M763282,gbcolor:seihaiunk
-gb-jp-0995,2000-04-21,DXモノポリーGB,タカラ,gbc_compatible,yes,DMG-BMPJ-JPN,3980,税抜,ゲームボーイカラーにおけるボードゲーム『モノポリー』のゲーム化第2作目,DXモノポリーGB,Wikipedia+MADB+MAME,MAME,MADB,DXモノポリーGB,M738690,gbcolor:dxmono
-gb-jp-0996,2000-04-21,バッグス・バニー クレイジーキャッスル4,KEMCO,gbc_only,,CGB-AO4J-JPN,3980,税抜,クレイジーキャッスルシリーズ第4作目,バッグス・バニー クレイジーキャッスル4,Wikipedia+MADB+MAME,MAME,MADB,バックス・バニー クレイジーキャッスル4,M753988,gbcolor:bugsbcc4j
-gb-jp-0997,2000-04-21,バーガーパラダイス インターナショナル,ギャップス,gbc_only,,CGB-AEYJ-JPN,2980,税抜,バーガーバーガーシリーズの一つ,バーガーパラダイス インターナショナル,Wikipedia+MADB+MAME,MAME,MADB,バーガーパラダイス インターナショナル,M753339,gbcolor:burgerpi
-gb-jp-0998,2000-04-27,メタルギア ゴーストバベル,コナミ,gbc_only,,CGB-BMGJ-JPN,4500,税抜,メタルギアシリーズのスピンオフで、シリーズ初の携帯ゲーム機向け作品,メタルギア ゴーストバベル,Wikipedia+MADB+MAME,MAME,MADB,メタルギア ゴーストバベル,M757528,gbcolor:mgsj
-gb-jp-0999,2000-04-28,パズルボブル4,アルトロン,gbc_compatible,,DMG-AA4J-JPN,3800,税抜,,パズルボブル4,Wikipedia+MADB+MAME,MAME,MADB,パズルボブル4,M753822,gbcolor:pbobble4
-gb-jp-1000,2000-04-28,漢字deパズル,エム・ティー・オー,gbc_compatible,,DMG-BKAJ-JPN,4200,税抜,,漢字deパズル,Wikipedia+MADB+MAME,MAME,MADB,漢字deパズル,M760501,gbcolor:kanjipzl
-gb-jp-1001,2000-04-28,競馬場へ行こう! ワイド,ヘクト,gbc_compatible,,DMG-ASCJ-JPN,3980,税抜,,競馬場へ行こう!,Wikipedia+MADB+MAME,MAME,MADB,競馬場へ行こう! ワイド,M760728,gbcolor:keibajou
-gb-jp-1002,2000-04-28,ディノブリーダー4,J・ウィング,gbc_compatible,yes,DMG-A4DJ-JPN,4800,税抜,,ディノブリーダー4,Wikipedia+MADB+MAME,MAME+MADB,MADB,ディノブリーダー4,M723836,gbcolor:dinobrd4
-gb-jp-1003,2000-04-28,大工の源さん 〜カチカチのトンカチがカチ〜,バイオックス,gbc_compatible,yes,DMG-BGNJ-JPN,3980,税抜,大工の源さんシリーズの一つ,大工の源さん 〜カチカチのトンカチがカチ〜,Wikipedia+MADB+MAME,MAME,MADB,大工の源さん～カチカチのトンカチがカチ～,M763995,gbcolor:daikugen
-gb-jp-1004,2000-04-28,麻雀女王,童,gbc_compatible,yes,DMG-A56J-JPN,3980,税抜,,麻雀女王,Wikipedia+MADB+MAME,MAME,MADB,麻雀女王,M766120,gbcolor:mjjoo
-gb-jp-1005,2000-04-28,ロードランナー ドムドム団のやぼう,エクシング・エンタテイメント,gbc_compatible,,DMG-BXLJ-JPN,3980,税抜,ロードランナーシリーズの一つ,ロードランナー ドムドム団のやぼう,Wikipedia+MADB+MAME,MAME,MADB,ロードランナー ドムドム団のやぼう,M758967,gbcolor:ldrun
-gb-jp-1006,2000-04-28,ドラえもんのクイズボーイ,小学館,gbc_only,,CGB-BQBJ-JPN,3800,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのクイズボーイ,M752373,gbcolor:doraqzb
-gb-jp-1007,2000-04-28,フェレット物語 ディア・マイ・フェレット,カルチャーブレーン,gbc_only,,CGB-BBIJ-JPN,3900,税抜,,フェレット物語 ディア・マイ・フェレット,Wikipedia+MADB+MAME,MAME+MADB,MADB,フェレット物語 ディア・マイ・フレンド,M723835,gbcolor:ferret
-gb-jp-1008,2000-05-19,ゲームコンビニ21,スターフィッシュ,gbc_compatible,,DMG-BG2J-JPN,3980,税抜,,ゲームコンビニ21,Wikipedia+MADB+MAME,MAME,MADB,GAMEコンビニ21,M739416,gbcolor:gameconv
-gb-jp-1009,2000-05-26,タイトーメモリアル バブルボブル,ジョルダン,gbc_compatible,yes,DMG-BJBJ-JPN,3980,税抜,,バブルボブル,Wikipedia+MADB+MAME,MAME,MADB,タイトーメモリアル バブルボブル,M750847,gbcolor:bublboblj
-gb-jp-1010,2000-05-26,タイトーメモリアル チェイスH.Q.,ジョルダン,gbc_compatible,yes,DMG-BJCJ-JPN,3980,税抜,,チェイスH.Q.,Wikipedia+MADB+MAME,MAME,MADB,タイトーメモリアル チェイスH.Q.,M750846,gbcolor:chasehqj
-gb-jp-1011,2000-06-02,大貝獣物語 ポヨンのダンジョンルーム2,ハドソン,gbc_only,,CGB-BP2J-JPN,3980,税抜,,大貝獣物語 ポヨンのダンジョンルーム2,Wikipedia+MADB+MAME,MAME,MADB,ポヨンのダンジョンルーム2,M756495,gbcolor:poyondr2
-gb-jp-1012,2000-06-10,ビックリマン2000 チャージングカードGB,イマジニア,gbc_compatible,yes,DMG-BC2J-JPN,3980,税抜,ビックリマン (シール)14代目「ビックリマン2000」が題材,ビックリマン2000 チャージングカードGB,Wikipedia+MADB+MAME,MAME+MADB,MADB,ビックリマン2000 チャージングカードGB 初回限定版,M723803,gbcolor:bikkuri
-gb-jp-1013,2000-06-15,HUNTER×HUNTER ハンターの系譜,コナミ,gbc_only,,CGB-BHHJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画およびアニメ『HUNTER×HUNTER』のゲーム化第1作目,HUNTER×HUNTER ハンターの系譜,Wikipedia+MADB+MAME,MAME,MADB,HUNTER×HUNTER ハンターの系譜,M739867,gbcolor:hxhhunke
-gb-jp-1014,2000-06-29,ミスタードリラー,ナムコ,gbc_only,,CGB-BMDJ-JPN,3800,税抜,同名アーケードゲームの移植版,ミスタードリラー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ミスタードリラー,M723777,gbcolor:mrdrillrja
-gb-jp-1015,2000-06-30,おじゃる丸 〜満願神社の縁日でおじゃる!〜,エム・ティー・オー,gbc_compatible,,DMG-BOJJ-JPN,4200,税抜,ゲームボーイカラーにおけるテレビアニメ『おじゃる丸』のゲーム第1作目,おじゃる丸 〜満願神社の縁日でおじゃる!〜,Wikipedia+MADB+MAME,MAME,MADB,おじゃる丸～満願神社の縁日でおじゃる! ～,M746293,gbcolor:ojarumam
-gb-jp-1016,2000-06-30,漢字BOY2,J・ウィング,gbc_compatible,yes,DMG-A2CJ-JPN,4800,税抜,,漢字BOY,Wikipedia+MADB+MAME,MAME,MADB,漢字BOY2,M760499,gbcolor:kanjibo2
-gb-jp-1017,2000-06-30,ムーミンの大冒険,サンソフト,gbc_only,,CGB-A36J-JPN,3980,税抜,ムーミンが題材,ムーミンの大冒険,Wikipedia+MADB+MAME,MAME,MADB,ムーミンの大冒険,M757420,gbcolor:moominj
-gb-jp-1018,2000-06-30,井出洋介の麻雀教室GB,アテナ,gbc_only,,CGB-BIMJ-JPN,3980,税抜,井出洋介の名を冠した麻雀ゲーム,井出洋介の麻雀教室GB,Wikipedia+MADB+MAME,MAME,MADB,井出洋介の麻雀教室GB,M759675,gbcolor:ideyumjk
-gb-jp-1019,2000-07-01,対戦 詰将棋,アテナ,gbc_compatible,,DMG-BTSJ-JPN,,,ニンテンドウパワー書き換え専用,,Wikipedia+MAME,MAME,,,,gbcolor:ttshogi
-gb-jp-1020,2000-07-04,いつでもパチンコGB CRモンスターハウス,タムソフト,gbc_only,,,3980,税抜,,CRモンスターハウス,Wikipedia+MADB,,MADB,いつでもパチンコGB CRモンスターハウス,M745399,
-gb-jp-1021,2000-07-06,ワールドサッカーGB2000,コナミ,gbc_only,,CGB-BWSJ-JPN,4500,税抜,,ワールドサッカーGB2000,Wikipedia+MADB+MAME,MAME,MADB,ワールドサッカーGB2000,M759336,gbcolor:wsoccr2k
-gb-jp-1022,2000-07-07,あつめてあそぶ くまのプーさん 〜もりのたからもの〜,トミー,gbc_only,,CGB-BPUJ-JPN,3980,税抜,キャラクター・くまのプーさんが題材,あつめてあそぶ くまのプーさん 〜もりのたからもの〜,Wikipedia+MADB+MAME,MAME,MADB,あつめてあそぶ くまのプーさん ～もりのたからもの～,M744919,gbcolor:poohadvj
-gb-jp-1023,2000-07-13,がんばれ!ニッポン! オリンピック2000,コナミ,gbc_only,,CGB-B3HJ-JPN,4500,税抜,ハイパーオリンピック関連タイトル,がんばれ!ニッポン! オリンピック2000,Wikipedia+MADB+MAME,MAME+MADB,MADB,がんばれ! ニッポン! オリンピック2000,M723760,gbcolor:olymp2k
-gb-jp-1024,2000-07-13,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,コナミ,gbc_only,,CGB-BY3J-JPN,4500,税抜,ゲームボーイカラーにおける遊戯王シリーズ第3弾であり、初めて日本国外で発売,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,Wikipedia+MADB+MAME,MAME,MADB,遊☆戯☆王 デュエルモンスターズ3 三聖戦神降臨 初回限定版,M723759,gbcolor:yugidm3
-gb-jp-1025,2000-07-14,おじゃる丸 〜月夜が池のたからもの〜,サクセス,gbc_compatible,,DMG-BORJ-JPN,3980,税抜,ゲームボーイカラーにおけるテレビアニメ『おじゃる丸』のゲーム第2作目,おじゃる丸 〜月夜が池のたからもの〜,Wikipedia+MADB+MAME,MAME,MADB,おじゃる丸 ～月夜が池のたからもの～,M746290,gbcolor:ojarumat
-gb-jp-1026,2000-07-14,ドカポン?! ミレニアムクエスト,アスミック・エース エンタテインメント,gbc_compatible,yes,DMG-BDKJ-JPN,3980,税抜,ドカポンシリーズの一つである、一人用のダンジョンRPG,ドカポン?! ミレニアムクエスト,Wikipedia+MADB+MAME,MAME,MADB,ドカポン?! ミレニアムクエスト,M752092,gbcolor:dokapon
-gb-jp-1027,2000-07-19,サバイバルキッズ2 脱出!!双子島!,コナミ,gbc_compatible,yes,DMG-B2VJ-JPN,4500,税抜,,サバイバルキッズ,Wikipedia+MADB+MAME,MAME,MADB,サバイバルキッズ2 脱出!! 双子島!,M748840,gbcolor:survkid2
-gb-jp-1028,2000-07-19,ハローキティのスウィートアドベンチャー 〜ダニエルくんにあいたい〜,イマジニア,gbc_compatible,yes,DMG-BKTJ-JPN,3980,税抜,ゲームボーイカラーにおけるハローキティが題材のゲーム第4作目,ハローキティのスウィートアドベンチャー 〜ダニエルくんにあいたい〜,Wikipedia+MADB+MAME,MAME,MADB,ハローキティのスウィートアドベンチャー ～ダニエルくんにあいたい～,M754424,gbcolor:helloksa
-gb-jp-1029,2000-07-19,ディアダニエルのスウィートアドベンチャー 〜キティちゃんをさがして〜,イマジニア,gbc_compatible,yes,,3980,税抜,,ディアダニエルのスウィートアドベンチャー 〜キティちゃんをさがして〜,Wikipedia+MADB,,MADB,ディアダニエルのスウィートアドベンチャー～キティちゃんをさがして～,M751421,
-gb-jp-1030,2000-07-21,データナビプロ野球,ナウプロダクション,gbc_only,,CGB-A89J-JPN,4300,税抜,,データナビプロ野球,Wikipedia+MADB+MAME,MAME,MADB,データナビプロ野球,M751611,gbcolor:dnyakyu
-gb-jp-1031,2000-07-21,爆走デコトラ伝説GBスペシャル 男度胸の天下統一,KID,gbc_only,,CGB-BDBJ-JPN,3980,税抜,爆走デコトラ伝説シリーズの一つ,爆走デコトラ伝説GBスペシャル 男度胸の天下統一,Wikipedia+MADB+MAME,MAME,MADB,爆走デコトラ伝説GBスペシャル 男度胸の天下統一,M765375,gbcolor:bakusodd
-gb-jp-1032,2000-07-23,メダロット3 カブトバージョン,イマジニア,gbc_only,,CGB-B32J-JPN,4300,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット3 カブトバージョン,M757655,gbcolor:medar3ka
-gb-jp-1033,2000-07-23,メダロット3 クワガタバージョン,イマジニア,gbc_only,,CGB-B33J-JPN,4300,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット3 クワガタバージョン,M757656,gbcolor:medar3ku
-gb-jp-1034,2000-07-28,華蘭虎龍学園 〜花札・麻雀〜,J・ウィング,gbc_only,,,4800,税抜,,華蘭虎龍学園 〜花札・麻雀〜,Wikipedia+MADB,,MADB,華蘭虎龍学園 ～花札・麻雀～,M760247,
-gb-jp-1035,2000-07-28,サクラ大戦GB 檄・花組入隊!,メディアファクトリー,gbc_only,,CGB-BRJJ-JPN,4800,税抜,,サクラ大戦GB 檄・花組入隊!,Wikipedia+MADB+MAME,MAME,MADB,サクラ大戦GB 檄・花組入隊! ポケットサクラパック,M748811,gbcolor:sakura
-gb-jp-1036,2000-07-31,バルーンファイトGB,任天堂,gbc_compatible,yes,,3300,税抜,ニンテンドウパワーのGBメモリカートリッジに予め書き込まれた状態〈プリライト〉で発売。『Balloon Kid』のカラー対応等パワーアップバージョン。,バルーンファイトGB,Wikipedia+MADB,,MADB,バルーンファイトGB プリライト版,M754347,
-gb-jp-1037,2000-08-01,カラムー町は大さわぎ！〜おかわりっ！〜,スターフィッシュ,gbc_compatible,yes,DMG-BOOJ-JPN,,,ニンテンドウパワー書き換え専用 『カラムー町は大さわぎ! 〜ポリンキーズとおかしな仲間たち〜』からステージを変更,,Wikipedia+MAME,MAME,,,,gbcolor:karamuok
-gb-jp-1038,2000-08-03,ダンスダンスレボリューションGB,コナミ,gbc_only,,CGB-BDGJ-JPN,4800,税抜,アーケードゲーム『Dance Dance Revolution』の移植版,ダンスダンスレボリューションGB,Wikipedia+MADB+MAME,MAME,MADB,ダンスダンスレボリューションGB,M751142,gbcolor:ddr
-gb-jp-1039,2000-08-04,ゾイド -ZOIDS- 邪神復活!〜ジェノブレイカー編〜,トミー,gbc_compatible,yes,DMG-BGZJ-JPN,4500,税抜,,ゾイド -ZOIDS- 邪神復活!〜ジェノブレイカー編〜,Wikipedia+MADB+MAME,MAME,MADB,ゾイド 邪神復活! ～ジェノブレイカー編～,M750513,gbcolor:zoidsjas
-gb-jp-1040,2000-08-04,ソウルゲッター 〜放課後冒険RPG〜,マイクロキャビン,gbc_compatible,,DMG-AL9J-JPN,3980,税抜,,ソウルゲッター 〜放課後冒険RPG〜,Wikipedia+MADB+MAME,MAME,MADB,ソウルゲッター ～放課後冒険RPG～,M750542,gbcolor:soulget
-gb-jp-1041,2000-08-04,ダンジョンセイバー,J・ウィング,gbc_compatible,yes,DMG-ADWJ-JPN,4800,税抜,,ダンジョンセイバー,Wikipedia+MADB+MAME,MAME,MADB,ダンジョンセイバー,M751123,gbcolor:dsavior
-gb-jp-1042,2000-08-04,マジカルチェイスGB 〜見習い魔法使い 賢者の谷へ〜,マイクロキャビン,gbc_only,,CGB-AIFJ-JPN,3480,税抜,PCエンジン用ソフト『マジカルチェイス』の移植版,マジカルチェイスGB 〜見習い魔法使い 賢者の谷へ〜,Wikipedia+MADB+MAME,MAME,MADB,マジカルチェイスGB ～見習い魔法使い 賢者の谷へ～,M756771,gbcolor:magchase
-gb-jp-1043,2000-08-04,ぞくぞくヒーローズ,メディアファクトリー,gbc_only,,CGB-BZHJ-JPN,5980,税抜,,ぞくぞくヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ぞくぞくヒーローズ,M750579,gbcolor:zokzok
-gb-jp-1044,2000-08-04,ぬし釣りアドベンチャー カイトの冒険,ビクターインタラクティブソフトウェア,gbc_only,,CGB-VVJJ-JPN,4200,税抜,ぬし釣りシリーズの一つ,ぬし釣りアドベンチャー カイトの冒険,Wikipedia+MADB+MAME,MAME,MADB,ぬし釣りアドベンチャー カイトの冒険,M753173,gbcolor:nushiadv
-gb-jp-1045,2000-08-04,ラブひなポケット,マーベラスエンターテイメント,gbc_only,,CGB-BPHJ-JPN,4300,税抜,ゲームボーイカラーにおける漫画およびアニメ『ラブひな』のゲーム化第1作目,ラブひなポケット,Wikipedia+MADB+MAME,MAME,MADB,ラブひなポケット,M758335,gbcolor:lovehina
-gb-jp-1046,2000-08-10,筋肉番付GB2 〜目指せ!マッスルチャンピオン!〜,コナミ,gbc_compatible,yes,DMG-B6KJ-JPN,4500,税抜,ゲームボーイカラーにおけるテレビ番組『筋肉番付』のゲーム化第2作目,筋肉番付GB2 〜目指せ!マッスルチャンピオン!〜,Wikipedia+MADB+MAME,MAME,MADB,筋肉番付GB2 ～目指せ! マッスルチャンピオン～,M760804,gbcolor:kinnibn2
-gb-jp-1047,2000-08-11,海底伝説!! トレジャーワールド,ダズ,gbc_compatible,,DMG-BDTJ-JPN,3980,税抜,,海底伝説!! トレジャーワールド,Wikipedia+MADB+MAME,MAME,MADB,海底伝説!! トレジャーワールド,M760371,gbcolor:kaiteide
-gb-jp-1048,2000-08-11,所さんの世田谷カントリークラブ,ナツメ,gbc_compatible,,DMG-BGBJ-JPN,3980,税抜,,所さんの世田谷カントリークラブ,Wikipedia+MADB+MAME,MAME,MADB,所さんの世田谷カントリークラブ,M762221,gbcolor:tokoro
-gb-jp-1049,2000-08-11,谷村ひとし流パチンコ攻略大作戦 ドン・キホーテが行く,アトラス,gbc_compatible,yes,CGB-BDHJ-JPN,4500,税抜,,谷村ひとし流パチンコ攻略大作戦,Wikipedia+MADB+MAME,MAME,MADB,ドン・キホーテが行く,M752751,gbcolor:donqix
-gb-jp-1050,2000-08-11,トゥイティー世界一周 80匹の猫をさがせ!,KEMCO,gbc_only,,CGB-BTWJ-JPN,4200,税抜,キャラクター・トゥイティーが題材,トゥイティー世界一周 80匹の猫をさがせ!,Wikipedia+MADB+MAME,MAME,MADB,トゥイティー世界一周 80匹の猫をさがせ!,M752024,gbcolor:tweetyj
-gb-jp-1051,2000-08-11,K.O. -ザ・プロボクシング-,アルトロン,gbc_only,,CGB-BKOJ-JPN,4500,税抜,,K.O. -ザ・プロボクシング-,Wikipedia+MADB+MAME,MAME,MADB,K.O. ～ザ・プロボクシング～,M740075,gbcolor:koprobox
-gb-jp-1052,2000-08-11,実戦に役立つ詰碁,ポニーキャニオン,gbc_only,,CGB-BJTJ-JPN,3980,税抜,,実戦に役立つ詰碁,Wikipedia+MADB+MAME,MAME,MADB,実践に役立つ詰碁,M762027,gbcolor:jissen
-gb-jp-1053,2000-08-11,なかよしペットシリーズ3 かわいい仔犬,エム・ティー・オー,gbc_only,,CGB-B7IJ-JPN,3980,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ3 かわいい仔犬,M734298,gbcolor:nakapet3
-gb-jp-1054,2000-08-11,パーフェクトチョロQ,タカラ,gbc_only,,CGB-BPQJ-JPN,3980,税抜,チョロQシリーズの一つ,パーフェクトチョロQ,Wikipedia+MADB+MAME,MAME,MADB,パーフェクトチョロQ,M753445,gbcolor:pchoroq
-gb-jp-1055,2000-08-11,ベイブレード FIGHTING TOURNAMENT,ハドソン,gbc_only,,CGB-BBVJ-JPN,3980,税抜,ゲームボーイにおけるベイブレードシリーズ第2作目,ベイブレード FIGHTING TOURNAMENT,Wikipedia+MADB+MAME,MAME,MADB,ベイブレードFIGHTING TOURNAMENT,M755965,gbcolor:beyblade
-gb-jp-1056,2000-08-23,コロコロカービィ,任天堂,gbc_only,,CGB-KKKJ-JPN,4500,税抜,動きセンサー対応 ゲームボーイアドバンスSP非対応,コロコロカービィ,Wikipedia+MADB+MAME,MAME+MADB,MADB,コロコロカービィ,M723711,gbcolor:korokoro
-gb-jp-1057,2000-09-07,ポップンミュージックGB アニメーションメロディ,コナミ,gbc_only,,CGB-BPAJ-JPN,,,pop'n musicシリーズの一つ,ポップンミュージックGB アニメーションメロディ,Wikipedia+MADB+MAME,MAME+MADB,,,M723683,gbcolor:popngbam
-gb-jp-1058,2000-09-08,とっとこハム太郎 ともだち大作戦でちゅ,任天堂,gbc_only,,DMG-BHTJ-JPN,3800,税抜,ゲームボーイカラーにおける『とっとこハム太郎』のキャラクターゲーム第1作目,とっとこハム太郎 ともだち大作戦でちゅ,Wikipedia+MADB+MAME,MAME,MADB,とっとこハム太郎 ともだち大作戦でちゅ,M723682,gbcolor:tottokh
-gb-jp-1059,2000-09-21,ポケモンでパネポン,任天堂,gbc_only,,CGB-BPNJ-JPN,3800,税抜,『ポケットモンスター』の世界観と『パネルでポン』のシステムをあわせた作品,ポケモンでパネポン,Wikipedia+MADB+MAME,MAME,MADB,ポケモンでパネポン,M756339,gbcolor:pokepuzlj
-gb-jp-1060,2000-09-22,ハムスター倶楽部 あわせてチュー,ジョルダン,gbc_only,,CGB-BJHJ-JPN,3980,税抜,漫画『ハムスター倶楽部』を題材とした落ちものパズル,ハムスター倶楽部 あわせてチュー,Wikipedia+MADB+MAME,MAME,MADB,ハムスター倶楽部 あわせてチュー,M754276,gbcolor:hamstcla
-gb-jp-1061,2000-09-22,ぼくのキャンプ場,ナグザット,gbc_only,,CGB-BDPJ-JPN,3980,税抜,キャンプ場を題材とした経営シミュレーション,ぼくのキャンプ場,Wikipedia+MADB+MAME,MAME,MADB,ぼくのキャンプ場,M756168,gbcolor:bokucamp
-gb-jp-1062,2000-09-22,ぽけっとぷよぷよ〜ん,コンパイル,gbc_only,,CGB-BPYJ-JPN,3980,税抜,『ぷよぷよ〜ん』の移植版,ぽけっとぷよぷよ〜ん,Wikipedia+MADB+MAME,MAME,MADB,ぽけっとぷよぷよ～ん,M756258,gbcolor:poktpuyn
-gb-jp-1063,2000-09-28,パズルデショーブヨ! ウータマちゃん,ナグザット,gbc_compatible,,DMG-BKUJ-JPN,3800,税抜,,パズルデショーブヨ! ウータマちゃん,Wikipedia+MADB,MAME,MADB,パズルデショーブヨ! ウータマちゃん,M753805,gbcolor:puzlshou
-gb-jp-1064,2000-09-28,ビートマニアGB ガッチャミックス2,コナミ,gbc_only,,CGB-B3GJ-JPN,4300,税抜,ビートマニアGBシリーズ第3弾で、当初は「ビートマニアGB3 NET JAM」という題名だった。 この時点ではモバイルGBアダプタによるメール機能や追加コンテンツのついたカラオケソフトになる予定だったが、最終的には通信機能を大幅に縮小した,ビートマニアGB ガッチャミックス2,Wikipedia+MADB+MAME,MAME,MADB,ビートマニアGB ガッチャミックス2,M754547,gbcolor:bmanigb3
-gb-jp-1065,2000-09-29,スペースインベーダーX,タイトー,gbc_compatible,,DMG-BSIJ-JPN,3980,税抜,,スペースインベーダー,Wikipedia+MADB+MAME,MAME,MADB,スペースインベーダー X,M750203,gbcolor:spaceinvx
-gb-jp-1066,2000-09-29,ソロモン,テクモ,gbc_only,,CGB-BSOJ-JPN,4300,税抜,モンスターファームシリーズの1作品で、システムはテクモの別作品『ソロモンの鍵』をベースとしている,ソロモン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,ソロ・モン,M723649,gbcolor:solomon
-gb-jp-1067,2000-09-29,牧場物語GB3 ボーイ・ミーツ・ガール,ビクターインタラクティブソフトウェア,gbc_only,,CGB-BWAJ-JPN,4200,税抜,,牧場物語GB3 ボーイ・ミーツ・ガール,Wikipedia+MADB+MAME,MAME,MADB,牧場物語GB3 ボーイ・ミーツ・ガール,M765876,gbcolor:bokujom3
-gb-jp-1068,2000-09-29,エレベーターアクションEX,アルトロン,gbc_only,,CGB-BEXJ-JPN,4500,税込,ゲームボーイ版『エレベーターアクション』の移植版,エレベーターアクションEX,Wikipedia+MADB+MAME,MAME,MADB,エレベーターアクションEX,M746160,gbcolor:elevatorj
-gb-jp-1069,2000-09-29,ゴン太のおきらく大冒険,レイアップ,gbc_only,,CGB-B54J-JPN,3980,税抜,サンライズのマスコットキャラクター・ゴン太を題材としたアドベンチャーゲーム,ゴン太のおきらく大冒険,Wikipedia+MADB+MAME,MAME,MADB,ゴン太のおきらく大冒険,M748465,gbcolor:gonta
-gb-jp-1070,2000-09-29,新世紀エヴァンゲリオン 麻雀補完計画,キングレコード,gbc_only,,CGB-BQRJ-JPN,3980,税抜,アニメ『新世紀エヴァンゲリオン』が題材の麻雀ゲーム,新世紀エヴァンゲリオン 麻雀補完計画,Wikipedia+MADB+MAME,MAME,MADB,新世紀エヴァンゲリオン 麻雀補完計画,M762621,gbcolor:evangeln
-gb-jp-1071,2000-10-01,F-1 World Grand Prix,ビデオシステム,gbc_only,,,1000,税込,日本はニンテンドウパワー書き換え専用,,Wikipedia+MADB,,MADB,F-1 WORLD GRAND PRIX,M738954,
-gb-jp-1072,2000-10-06,カードキャプターさくら 〜友枝小学校大運動会〜,エム・ティー・オー,gbc_only,,CGB-BS7J-JPN,4200,税抜,ゲームボーイカラーにおける『カードキャプターさくら』のゲーム化第2作目,カードキャプターさくら 〜友枝小学校大運動会〜,Wikipedia+MADB+MAME,MAME,MADB,カードキャプターさくら ～友枝小学校大運動会～,M746527,gbcolor:ccsakuto
-gb-jp-1073,2000-10-06,スーパードール・リカちゃん 〜きせかえ大作戦〜,ヴィアール・ワン,gbc_only,,CGB-BSLJ-JPN,4300,税抜,着せ替え人形リカちゃんが題材,スーパードール・リカちゃん 〜きせかえ大作戦〜,Wikipedia+MADB+MAME,MAME,MADB,スーパードール・リカちゃん ～きせかえ大作戦～,M749538,gbcolor:sdoll
-gb-jp-1074,2000-10-19,サイボーグクロちゃん 〜ホワイトウッズの逆襲〜,コナミ,gbc_only,,CGB-BSBJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画『サイボーグクロちゃん』のゲーム化第2作目,サイボーグクロちゃん 〜ホワイトウッズの逆襲〜,Wikipedia+MADB+MAME,MAME,MADB,サイボーグクロちゃん2 ～ホワイトウッズの逆襲～,M748721,gbcolor:cyborgk2
-gb-jp-1075,2000-10-20,ロックマンX サイバーミッション,カプコン,gbc_compatible,,DMG-BRXJ-JPN,3980,税抜,スーパーファミコン用ソフト『ロックマンX』を基にした作品,ロックマンX サイバーミッション,Wikipedia+MADB+MAME,MAME,MADB,ロックマンX サイバーミッション,M759146,gbcolor:rockmnx
-gb-jp-1076,2000-10-21,怪人ゾナー,任天堂,gbc_compatible,yes,DMG-BKZJ-JPN,3800,税抜,,怪人ゾナー,Wikipedia+MADB+MAME,MAME,MADB,怪人ゾナー,M760324,gbcolor:phantomz
-gb-jp-1077,2000-10-27,合格ボーイシリーズ □いアタマを○くする 図形の達人,イマジニア,gb,,DMG-BZ4J-JPN,3800,税抜,,,Wikipedia+MADB+MAME,MAME,MADB,合格ボーイシリーズ □いアタマを○くする 図形の達人,M734583,gbsshika
-gb-jp-1078,2000-10-27,JETでGO!,アルトロン,gbc_only,,CGB-BJEJ-JPN,4500,税抜,,JETでGO!,Wikipedia+MADB+MAME,MAME,MADB,JETでGO!,M739994,gbcolor:jetdego
-gb-jp-1079,2000-11-01,マリオテニスGB,任天堂,gbc_only,,CGB-BM8J-JPN,3800,税抜,,マリオテニスGB,Wikipedia+MADB+MAME,MAME+MADB,MADB,マリオテニスGB,M723619,gbcolor:mariotenj
-gb-jp-1080,2000-11-03,携帯電獣テレファング スピードバージョン,スマイルソフト,gbc_compatible,,DMG-BTZJ-JPN,4700,税抜,,携帯電獣テレファング,Wikipedia+MADB+MAME,MAME,MADB,携帯電獣テレファング スピードバージョン,M760962,gbcolor:telefngs
-gb-jp-1081,2000-11-03,携帯電獣テレファング パワーバージョン,スマイルソフト,gbc_compatible,,DMG-BTXJ-JPN,4700,税抜,,携帯電獣テレファング,Wikipedia+MADB+MAME,MAME,MADB,携帯電獣テレファング パワーバージョン,M760963,gbcolor:telefngp
-gb-jp-1082,2000-11-03,血と汗と涙の高校野球,J・ウィング,gbc_only,,CGB-BBJJ-JPN,4800,税抜,,血と汗と涙の高校野球,Wikipedia+MADB+MAME,MAME,MADB,血と汗と涙の高校野球,M761030,gbcolor:chitoase
-gb-jp-1083,2000-11-10,テイルズ オブ ファンタジア なりきりダンジョン,ナムコ,gbc_compatible,yes,DMG-AN6J-JPN,4500,税抜,,テイルズ オブ ファンタジア なりきりダンジョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,テイルズオブファンタジア なりきり ダンジョン,M723606,gbcolor:tophant
-gb-jp-1084,2000-11-16,ダンスダンスレボリューションGB2,コナミ,gbc_only,,CGB-BD2J-JPN,4800,税抜,ゲームボーイカラーにおけるDance Dance Revolutionシリーズ第2作目 専用コントローラ同梱,ダンスダンスレボリューションGB2,Wikipedia+MADB+MAME,MAME+MADB,MADB,Dance Dance Revolution GB2,M720594,gbcolor:ddr2
-gb-jp-1085,2000-11-17,真・女神転生デビルチルドレン 〜黒の書〜,アトラス,gbc_compatible,yes,DMG-BHEJ-JPN,4300,税抜,『女神転生』シリーズの外伝,真・女神転生 デビルチルドレン 黒の書・赤の書,Wikipedia+MADB+MAME,MAME,MADB,真・女神転生 デビルチルドレン ～黒の書～,M762872,gbcolor:shinmtk
-gb-jp-1086,2000-11-17,真・女神転生デビルチルドレン 〜赤の書〜,アトラス,gbc_compatible,yes,DMG-BHNJ-JPN,4300,税抜,『女神転生』シリーズの外伝,真・女神転生 デビルチルドレン 黒の書・赤の書,Wikipedia+MADB+MAME,MAME,MADB,真・女神転生 デビルチルドレン ～赤の書～,M762873,gbcolor:shinmta
-gb-jp-1087,2000-11-17,ドキドキ伝説 魔法陣グルグル,エニックス,gbc_only,,CGB-B96J-JPN,5900,税抜,同名テレビアニメのゲーム化,ドキドキ伝説 魔法陣グルグル (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ドキドキ伝説 魔法陣グルグル,M752116,gbcolor:dokidoki
-gb-jp-1088,2000-11-21,モンスタータクティクス,任天堂,gbc_only,,CGB-BMFJ-JPN,3800,税抜,,モンスタータクティクス,Wikipedia+MADB+MAME,MAME+MADB,MADB,モンスタータクティクス,M723596,gbcolor:kakurenb
-gb-jp-1089,2000-11-22,エアフォースデルタ,コナミ,gbc_only,,CGB-BDLJ-JPN,4300,税抜,,エアフォースデルタ,Wikipedia+MADB+MAME,MAME,MADB,エアフォースデルタ,M745939,gbcolor:airforcdj
-gb-jp-1090,2000-11-22,グリンチ,コナミ,gbc_only,,CGB-BUGJ-JPN,4500,税抜,,グリンチ,Wikipedia+MADB+MAME,MAME,MADB,グリンチ,M747734,gbcolor:grinchj
-gb-jp-1091,2000-11-22,コマンドマスター,エニックス,gbc_only,,CGB-KCEJ-JPN,5900,税抜,,コマンドマスター,Wikipedia+MADB+MAME,MAME,MADB,コマンドマスター,M748378,gbcolor:commandm
-gb-jp-1092,2000-11-22,ポップンミュージックGB ディズニーチューンズ,コナミ,gbc_only,,CGB-BPDJ-JPN,4500,税抜,Pop'n musicシリーズの一つ,ポップンミュージックGB ディズニーチューンズ,Wikipedia+MADB+MAME,MAME,MADB,ポップンミュージックGB ディズニーチューンズ,M756432,gbcolor:popngbdt
-gb-jp-1093,2000-11-23,それいけ!アンパンマン 〜5つの塔の王様〜,タム,gbc_only,,CGB-BS2J-JPN,4300,税抜,ゲームボーイカラーにおけるテレビアニメ『それいけ!アンパンマン』のゲーム化第2作目,それいけ!アンパンマン 〜5つの塔の王様〜,Wikipedia+MADB+MAME,MAME,MADB,それいけ!! アンパンマン ～5つの塔の王様～,M750723,gbcolor:anpan5to
-gb-jp-1094,2000-11-24,仙界異闇録 準提大戦 〜TVアニメーション「仙界伝封神演義」より〜,バンプレスト,gbc_compatible,yes,DMG-BHSJ-JPN,3980,税抜,テレビアニメ『仙界伝封神演義』のゲーム化,仙界異闇録 準提大戦 〜TVアニメーション「仙界伝封神演義」より〜,Wikipedia+MADB+MAME,MAME,MADB,仙界異聞録 準提大戦 ～TVアニメーション「仙界伝封神演義」より～,M763373,gbcolor:senkai
-gb-jp-1095,2000-11-24,メダロット3 パーツコレクション 〜Zからの超戦場〜,イマジニア,gbc_only,,CGB-B3PJ-JPN,4300,税抜,,メダロット,Wikipedia+MADB+MAME,MAME,MADB,メダロット3 パーツコレクション ～Zからの超戦場～,M757657,gbcolor:medar3cl
-gb-jp-1096,2000-11-30,ハムナプトラ 失われた砂漠の都,コナミ,gbc_only,,CGB-BUMJ-JPN,4300,税抜,,ハムナプトラ 失われた砂漠の都,Wikipedia+MADB+MAME,MAME,MADB,ハムナプトラ ～失われた砂漠の都～,M754290,gbcolor:hamunapt
-gb-jp-1097,2000-12-01,ドナルドダック デイジーを救え!,Ubiソフト,gbc_only,,CGB-BUDJ-JPN,4300,税抜,キャラクター・ドナルドダックが題材,ドナルドダック デイジーを救え!,Wikipedia+MADB+MAME,MAME,MADB,ドナルドダック デイジーを救え!,M752261,gbcolor:donalddj
-gb-jp-1098,2000-12-01,GBハロボッツ,サンライズインタラクティブ,gbc_only,,CGB-BHRJ-JPN,4800,税抜,,ハロボッツ,Wikipedia+MADB+MAME,MAME,MADB,GBハロボッツ,M739425,gbcolor:harobots
-gb-jp-1099,2000-12-01,スーパーミメルGB ミメルベアのハッピーメールタウン,トミー,gbc_only,,CGB-BHAJ-JPN,3980,税抜,,ミメル,Wikipedia+MADB+MAME,MAME,MADB,スーパーミメルGB ミメルベアのハッピーメールタウン,M749688,gbcolor:smemail
-gb-jp-1100,2000-12-01,六門天外モンコレナイトGB,角川書店,gbc_only,,CGB-BKDJ-JPN,4300,税抜,テレビアニメ『六門天外モンコレナイト』のゲーム化 任天堂スペースワールド2000に出展した時点では2000年11月に発売が予定されていた。,六門天外モンコレナイトGB,Wikipedia+MADB+MAME,MAME,MADB,六門天外モンコレナイトGB,M766878,gbcolor:rokumon
-gb-jp-1101,2000-12-02,Piaキャロットへようこそ!!2.2,NECインターチャネル,gbc_only,,CGB-B22J-JPN,5300,税抜,,Piaキャロットへようこそ!!2.2,Wikipedia+MADB+MAME,MAME,MADB,Piaキャロットへようこそ!! 2.2,M741551,gbcolor:picarro2
-gb-jp-1102,2000-12-07,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記 海馬デッキ,コナミ,gbc_only,,CGB-BY5J-JPN,4800,税抜,,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 デュエルモンスターズ4 最強決闘者戦記 海馬デッキ,M766496,gbcolor:yugidm4k
-gb-jp-1103,2000-12-07,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記 城之内デッキ,コナミ,gbc_only,,CGB-BY6J-JPN,4800,税抜,,,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 デュエルモンスターズ4 最強決闘者戦記 城之内デッキ,M766497,gbcolor:yugidm4j
-gb-jp-1104,2000-12-07,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記 遊戯デッキ,コナミ,gbc_only,,CGB-BY4J-JPN,4800,税抜,,,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 デュエルモンスターズ4 最強決闘者戦記 遊戯デッキ,M766498,gbcolor:yugidm4y
-gb-jp-1105,2000-12-08,ゲームボーイ ドラゴンクエストIII そして伝説へ…,エニックス,gbc_only,,CGB-BD3J-JPN,6400,税抜,,ドラゴンクエストIII そして伝説へ…,Wikipedia+MADB+MAME,MAME,MADB,ゲームボーイ ドラゴンクエスト3  そして伝説へ…,M734065,gbcolor:dquest3
-gb-jp-1106,2000-12-08,だぁ!だぁ!だぁ! とつぜん★カードでバトルで占いで!?,ビデオシステム,gbc_only,,CGB-BDOJ-JPN,4500,税抜,漫画およびアニメ『だぁ!だぁ!だぁ!』のゲーム化,だぁ!だぁ!だぁ! とつぜん★カードでバトルで占いで!?,Wikipedia+MADB+MAME,MAME,MADB,だぁ! だぁ! だぁ! とつぜん★カードでバトルで占いで! ?,M750757,gbcolor:daadaada
-gb-jp-1107,2000-12-08,でじこの麻雀パーティー,キングレコード,gbc_only,,CGB-BQSJ-JPN,3980,税抜,キャラクターのデ・ジ・キャラットが題材,でじこの麻雀パーティー,Wikipedia+MADB+MAME,MAME+MADB,MADB,でじこの麻雀パーティー,M723549,gbcolor:dejikomj
-gb-jp-1108,2000-12-08,電車でGO!2,サイバーフロント,gbc_only,,CGB-B82J-JPN,5200,税抜,アーケードゲーム『電車でGO!2高速編』の移植版 任天堂スペースワールド2000出展の時点では2000年12月10日に発売が予定されていた,電車でGO!2,Wikipedia+MADB+MAME,MAME,MADB,電車でGO! 2,M764681,gbcolor:dendego2
-gb-jp-1109,2000-12-14,ポケットモンスター クリスタルバージョン,任天堂,gbc_only,,CGB-BXTJ-JPN,3800,税抜,『ポケットモンスター 金・銀』の別バージョンで、女性主人公やアニメーションなどが追加,ポケットモンスター 金・銀,Wikipedia+MADB+MAME,MAME,MADB,ポケットモンスター クリスタルバージョン,M756280,gbcolor:pokecrysj
-gb-jp-1110,2000-12-15,攻めCOMダンジョン ドルルルアーガ,ナムコ,gbc_compatible,,DMG-BV6J-JPN,4500,税抜,『ドルアーガの塔』関連作品,攻めCOMダンジョン ドルルルアーガ,Wikipedia+MADB+MAME,MAME+MADB,MADB,攻めCOMダンジョン ドルルルアーガ,M723526,gbcolor:semecom
-gb-jp-1111,2000-12-15,ハムスター倶楽部2,ジョルダン,gbc_compatible,,DMG-BJNJ-JPN,4300,税抜,,ハムスター倶楽部,Wikipedia+MADB+MAME,MAME,MADB,ハムスター倶楽部2,M754278,gbcolor:hamstcl2
-gb-jp-1112,2000-12-15,なかよしクッキングシリーズ1 おいしいケーキ屋さん,エム・ティー・オー,gbc_only,,CGB-B7CJ-JPN,3980,税抜,,なかよしクッキングシリーズ1 おいしいケーキ屋さん,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ1 おいしいケーキ屋さん,M734283,gbcolor:ncook1
-gb-jp-1113,2000-12-15,ハムスターパラダイス3,アトラス,gbc_only,,CGB-BH3J-JPN,4300,税抜,,ハムスターパラダイス3,Wikipedia+MADB+MAME,MAME,MADB,ハムスターパラダイス3,M754272,gbcolor:hamstpa3
-gb-jp-1114,2000-12-16,金田一少年の事件簿 〜10年目の招待状〜,バンプレスト,gbc_compatible,yes,DMG-BKSJ-JPN,3980,税抜,漫画『金田一少年の事件簿』を原作とするノベルゲームであり、任天堂スペースワールド2000出展の時点では2000年11月に発売する予定だった,金田一少年の事件簿 〜10年目の招待状〜,Wikipedia+MADB+MAME,MAME,MADB,金田一少年の事件簿 ～10年目の招待状～,M760868,gbcolor:kindajik
-gb-jp-1115,2000-12-20,ドラえもんのスタディボーイ 九九ゲーム,小学館,gbc_only,,CGB-BQQJ-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのスタディボーイ 九九ゲーム,M723524,gbcolor:dorakuku
-gb-jp-1116,2000-12-21,がんばれゴエモン〜星空士ダイナマイッツあらわる!!〜,コナミ,gbc_only,,CGB-BEKJ-JPN,4800,税抜,,がんばれゴエモン〜星空士ダイナマイッツあらわる!!〜,Wikipedia+MADB+MAME,MAME,MADB,がんばれゴエモン ～星空士ダイナマイッツあらわる!! ～,M746950,gbcolor:ggoemdyn
-gb-jp-1117,2000-12-22,かわいいペットショップ物語2,タイトー,gbc_compatible,,DMG-BMNJ-JPN,4200,税抜,,ペットショップ物語,Wikipedia+MADB+MAME,MAME,MADB,かわいいペットショップ物語2,M746826,gbcolor:kawaipt2a
-gb-jp-1118,2000-12-22,パズルボブル ミレニアム,アルトロン,gbc_only,,CGB-BP5J-JPN,4200,税抜,アーケードゲーム『パズルボブル4』の移植版,パズルボブル ミレニアム,Wikipedia+MADB+MAME,MAME,MADB,パズルボブル ミレニアム,M753818,gbcolor:pbobblem
-gb-jp-1119,2000-12-22,飛龍の拳列伝GB,カルチャーブレーン,gbc_only,,,3980,税抜,飛龍の拳シリーズの一つ,飛龍の拳列伝GB,Wikipedia+MADB,,MADB,飛龍の拳列伝GB,M765447,
-gb-jp-1120,2000-12-22,ウィザードリィ エンパイア 〜復活の杖〜,スターフィッシュ,gbc_only,,CGB-BFTJ-JPN,3980,税抜,ウィザードリィシリーズの一つ,ウィザードリィ エンパイア 〜復活の杖〜,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ エンパイア ～復活の杖～,M745575,gbcolor:wizarde2
-gb-jp-1121,2000-12-22,グランディア パラレルトリッパーズ,ハドソン,gbc_only,,CGB-BGEJ-JPN,4500,税抜,『グランディア』関連作品で、任天堂スペースワールド2000出展の時点では2000年12月15日に発売が予定されていた,グランディア パラレルトリッパーズ,Wikipedia+MADB+MAME,MAME,MADB,グランディア パラレルトリッパーズ,M747623,gbcolor:grandia
-gb-jp-1122,2000-12-22,シルバニアファミリー2 〜色づく森のファンタジー〜,エポック社,gbc_only,,CGB-BLVJ-JPN,3980,税抜,『シルバニアファミリー 〜おとぎの国のペンダント〜』の続編,シルバニアファミリー2 〜色づく森のファンタジー〜,Wikipedia+MADB+MAME,MAME,MADB,シルバニアファミリー2 ～色づく森のファンタジー～,M749424,gbcolor:sylvan2
-gb-jp-1123,2001-01-01,あにまるぶり〜だ〜4,J・ウィング,gbc_only,,CGB-A4AJ-JPN,4800,税抜,,あにまるぶり〜だ〜4,Wikipedia+MADB+MAME,MAME,MADB,あにまるぶり～だ～ 4,M744983,gbcolor:animalb4
-gb-jp-1124,2001-01-01,桃太郎伝説1→2,ハドソン,gbc_only,,,4300,税抜,『桃太郎伝説ターボ』と『桃太郎伝説II』を合わせて移植,桃太郎伝説1→2,Wikipedia+MADB,,MADB,桃太郎伝説1→2,M764837,
-gb-jp-1125,2001-01-12,ドラえもんのスタディボーイ 学習漢字ゲーム,小学館,gbc_only,,CGB-BGKJ-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのスタディーボーイ 学習漢字ゲーム,M752375,gbcolor:dorakang
-gb-jp-1126,2001-01-21,ドンキーコング2001,任天堂,gbc_only,,CGB-BDDJ-JPN,3800,税抜,スーパーファミコン用ソフト『スーパードンキーコング』の移植版,ドンキーコング2001,Wikipedia+MADB+MAME,MAME,MADB,ドンキーコング2001,M752774,gbcolor:dkong2k1
-gb-jp-1127,2001-01-26,ブレイブサーガ 新章 アスタリア,タカラ,gbc_only,,CGB-BBSJ-JPN,4700,税抜,,ブレイブサーガ 新章 アスタリア,Wikipedia+MADB+MAME,MAME,MADB,ブレイブサーガ新章 アスタリア,M755780,gbcolor:bravesag
-gb-jp-1128,2001-01-26,ラブひなパーティ,マーベラスエンターテイメント,gbc_only,,CGB-BLHJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画およびアニメ『ラブひな』のゲーム化第2作目,ラブひなパーティ,Wikipedia+MADB+MAME,MAME,MADB,ラブひなパーティー,M758334,gbcolor:lovehpty
-gb-jp-1129,2001-02-02,サムライキッド,コーエー,gbc_only,,CGB-BS5J-JPN,3980,税抜,,サムライキッド,Wikipedia+MADB+MAME,MAME,MADB,サムライキッド,M748855,gbcolor:samurai
-gb-jp-1130,2001-02-08,おはスタ ダンスダンスレボリューションGB,コナミ,gbc_only,,CGB-BD5J-JPN,4800,税抜,Dance Dance Revolutionシリーズにおける『おはスタ』とのコラボレーション,おはスタ ダンスダンスレボリューションGB,Wikipedia+MADB+MAME,MAME,MADB,おはスタ ダンスダンスレボリューションGB,M746370,gbcolor:ohasuddr
-gb-jp-1131,2001-02-09,へろへろくん,イマジニア,gbc_only,,CGB-BH9J-JPN,4800,税抜,同名漫画が題材,へろへろくん (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,へろへろくん,M756079,gbcolor:herohero
-gb-jp-1132,2001-02-09,勝負師伝説 哲也 新宿天運編,アテナ,gbc_only,,CGB-BGYJ-JPN,4700,税抜,漫画『哲也-雀聖と呼ばれた男』のアニメ『勝負師伝説 哲也』のゲーム化,勝負師伝説 哲也 新宿天運編,Wikipedia+MADB+MAME,MAME,MADB,勝負師伝説 哲也 新宿天運編,M762252,gbcolor:gamblert
-gb-jp-1133,2001-02-16,ぽっぷんぽっぷ,ジョルダン,gbc_only,,CGB-BJPJ-JPN,3800,税抜,シューティングゲーム要素のあるパズルゲーム,ぽっぷんぽっぷ,Wikipedia+MADB+MAME,MAME,MADB,ぽっぷんぽっぷ,M756412,gbcolor:popnpopj
-gb-jp-1134,2001-02-16,なかよしペットシリーズ4 かわいい子猫,エム・ティー・オー,gbc_only,,CGB-B7NJ-JPN,4200,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ4 かわいい子猫,M734299,gbcolor:nakapet4
-gb-jp-1135,2001-02-22,筋肉番付GB3 新世紀サバイバル列伝!,コナミ,gbc_only,,CGB-B7KJ-JPN,4800,税抜,ゲームボーイカラーにおけるテレビ番組『筋肉番付』のゲーム化第3作目,筋肉番付GB3 新世紀サバイバル列伝!,Wikipedia+MADB+MAME,MAME,MADB,筋肉番付GB3 ～新世紀サバイバル列伝! ～,M760805,gbcolor:kinnibn3
-gb-jp-1136,2001-02-23,ポケットキング,ナムコ,gbc_compatible,yes,DMG-AV5J-JPN,4500,税抜,『キングオブキングス』関連作品,ポケットキング,Wikipedia+MADB+MAME,MAME,MADB,ポケットキング,M756237,gbcolor:pockking
-gb-jp-1137,2001-02-23,フロントライン The Next Mission,アルトロン,gbc_only,,CGB-BFRJ-JPN,4200,税抜,アーケードゲーム『フロントライン』の移植版,フロントライン The Next Mission,Wikipedia+MADB+MAME,MAME,MADB,フロントライン ～The Next Mission～,M755882,gbcolor:frontlin
-gb-jp-1138,2001-02-23,ウィザードリィ,アスキー,gbc_only,,CGB-BWIJ-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では2000年秋に発売される予定だった,ウィザードリィ 狂王の試練場,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ,M745568,gbcolor:wizardry
-gb-jp-1139,2001-02-23,ウィザードリィII リルガミンの遺産,アスキー,gbc_only,,CGB-BW2J-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では2000年秋に発売される予定だった,ウィザードリィIII リルガミンの遺産,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ2  リルガミンの遺跡,M733968,gbcolor:wizardr2
-gb-jp-1140,2001-02-23,ウィザードリィIII ダイヤモンドの騎士,アスキー,gbc_only,,CGB-BW3J-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では2000年秋に発売される予定だった,ウィザードリィII ダイヤモンドの騎士,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ3  ダイヤモンドの騎士,M733969,gbcolor:wizardr3
-gb-jp-1141,2001-02-23,笑う犬の冒険GB SILLY GO LUCKY!,カプコン,gbc_only,,CGB-BWBJ-JPN,4300,税抜,テレビ番組『笑う犬の冒険』が題材,笑う犬の冒険GB SILLY GO LUCKY!,Wikipedia+MADB+MAME,MAME,MADB,笑う犬の冒険GB SILLY GO LUCKY!,M762330,gbcolor:warauinu
-gb-jp-1142,2001-02-23,ちっちゃいエイリアン,クリーチャーズ,gbc_only,,CGB-VCAJ-JPN,4800,税抜,,ちっちゃいエイリアン,Wikipedia+MADB+MAME,MAME,MADB,ちっちゃいエイリアン,M751200,gbcolor:cheechai
-gb-jp-1143,2001-02-23,スーパーロボットピンボール,メディアファクトリー,gbc_only,,CGB-BSUJ-JPN,4500,税抜,スーパーロボットシリーズを題材としたデジタルピンボール,スーパーロボットピンボール,Wikipedia+MADB+MAME,MAME,MADB,スーパーロボットピンボール,M749713,gbcolor:srobopin
-gb-jp-1144,2001-02-27,ゼルダの伝説 ふしぎの木の実 〜時空の章〜,任天堂,gbc_only,,CGB-AZ8J-JPN,3800,税抜,カプコンとの共同制作,ゼルダの伝説 ふしぎの木の実,Wikipedia+MADB+MAME,MAME+MADB,MADB,ゼルダの伝説 ふしぎの木の実 時空の章,M723441,gbcolor:zeldajik
-gb-jp-1145,2001-02-27,ゼルダの伝説 ふしぎの木の実 〜大地の章〜,任天堂,gbc_only,,CGB-AZ7J-JPN,3800,税抜,,ゼルダの伝説 ふしぎの木の実,Wikipedia+MADB+MAME,MAME+MADB,MADB,ゼルダの伝説 ふしぎの木の実 大地の章,M723440,gbcolor:zeldadai
-gb-jp-1146,2001-03-02,ザ・ブラックオニキス,タイトー,gbc_only,,CGB-BBOJ-JPN,4500,税抜,同名PCゲームの移植版,ザ・ブラックオニキス,Wikipedia+MADB+MAME,MAME,MADB,ザ・ブラックオニキス,M748606,gbcolor:blckonyx
-gb-jp-1147,2001-03-09,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 ルカの旅立ち,エニックス,gbc_compatible,yes,DMG-BQLJ-JPN,6400,税抜,,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 ルカの旅立ち,M727939,gbcolor:dqm2ra
-gb-jp-1148,2001-03-09,コトバトル 天外の守人,アルファドリーム,gbc_only,,CGB-BAJJ-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では「コトバトル」という仮称が割り振られており、2000年冬に発売が予定されていた。,コトバトル 天外の守人,Wikipedia+MADB+MAME,MAME,MADB,コトバトル,M748295,gbcolor:kotobatt
-gb-jp-1149,2001-03-09,無敵王トライゼノン,マーベラスエンターテイメント,gbc_only,,CGB-BZNJ-JPN,4800,税抜,同名テレビアニメのゲーム化,無敵王トライゼノン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,無敵王トライゼノン,M723425,gbcolor:trizenon
-gb-jp-1150,2001-03-15,ウッディウッドペッカーのゴー!ゴー!レーシング,コナミ,gbc_only,,CGB-BWRJ-JPN,4500,税抜,ゲームボーイカラーにおけるウッディー・ウッドペッカーが題材のゲーム第1作目,ウッディウッドペッカーのゴー!ゴー!レーシング,Wikipedia+MADB+MAME,MAME,MADB,ウッディウッドペッカーのゴー! ゴー! レーシング,M745855,gbcolor:woodyracj
-gb-jp-1151,2001-03-15,ダンスダンスレボリューションGB3,コナミ,gbc_only,,DMG-BD6J-JPN,4800,税抜,ゲームボーイカラーにおけるDance Dance Revolutionシリーズ第4作目,Dance Dance Revolution,Wikipedia+MADB+MAME,MAME,MADB,ダンスダンスレボリューションGB3,M751144,gbcolor:ddr3
-gb-jp-1152,2001-03-16,ドラえもん きみとペットの物語,エポック社,gbc_compatible,,DMG-BRDJ-JPN,4300,税抜,,ドラえもん きみとペットの物語,Wikipedia+MADB+MAME,MAME,MADB,ドラえもん きみとペットの物語,M752341,gbcolor:dorapetm
-gb-jp-1153,2001-03-16,スペースネット コスモブルー,イマジニア,gbc_only,,,4500,税抜,任天堂スペースワールド2000に出展した時点では「スペースネット SN-01」という仮称が割り振られており、2000年12月1日に発売される予定だった,スペースネット コスモブルー,Wikipedia+MADB,,MADB,スペースネット コスモブルー,M750219,
-gb-jp-1154,2001-03-16,スペースネット コスモレッド,イマジニア,gbc_only,,CGB-BREJ-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では「スペースネット SN-02」という仮称が割り振られており、2000年12月1日に発売される予定だった,スペースネット コスモレッド,Wikipedia+MADB+MAME,MAME,MADB,スペースネット コスモレッド,M750220,gbcolor:spacentr
-gb-jp-1155,2001-03-23,忍たま乱太郎 忍術学園に入学しようの段,アスク,gbc_only,,CGB-BNAJ-JPN,4500,税抜,テレビアニメ『忍たま乱太郎』のゲーム化,忍たま乱太郎 忍術学園に入学しようの段,Wikipedia+MADB+MAME,MAME,MADB,忍たま乱太郎 ～忍術学園に入学しようの段～,M765128,gbcolor:nintama
-gb-jp-1156,2001-03-23,メダロット4 カブトバージョン,イマジニア,gbc_only,,CGB-B4MJ-JPN,4500,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット4 カブトバージョン,M757658,gbcolor:medar4ka
-gb-jp-1157,2001-03-23,メダロット4 クワガタバージョン,イマジニア,gbc_only,,CGB-B4NJ-JPN,4500,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット4 クワガタバージョン,M757659,gbcolor:medar4ku
-gb-jp-1158,2001-03-23,砂漠の四神 幻想魔伝 最遊記,J・ウィング,gbc_only,,CGB-BGSJ-JPN,4980,税抜,漫画・最遊記シリーズのゲーム化,砂漠の四神 幻想魔伝 最遊記,Wikipedia+MADB+MAME,MAME,MADB,幻想魔伝 最遊記 砂漠の四神,M761172,gbcolor:gmsayuki
-gb-jp-1159,2001-03-23,おしゃれ日記,ビクターインタラクティブソフトウェア,gbc_only,,CGB-B23J-JPN,4200,税抜,,おしゃれ日記,Wikipedia+MADB+MAME,MAME,MADB,おしゃれ日記,M746310,gbcolor:kisekae2
-gb-jp-1160,2001-03-28,ポケモンカードGB2 GR団参上!,ポケモン,gbc_only,,CGB-BP7J-JPN,3900,税抜,『ポケモンカードGB』シリーズ第2作目,ポケモンカードGB,Wikipedia+MADB+MAME,MAME,MADB,ポケモンカードGB2 GR団参上!,M756333,gbcolor:pokecrd2
-gb-jp-1161,2001-03-29,ダンスダンスレボリューションGB ディズニーミックス,コナミ,gbc_only,,CGB-BD7J-JPN,4800,税抜,ゲームボーイカラーにおけるDance Dance Revolutionシリーズ第5作目,ダンスダンスレボリューションGB ディズニーミックス,Wikipedia+MADB+MAME,MAME,MADB,ダンスダンスレボリューションGB ディズニーミックス,M751143,gbcolor:ddrdisny
-gb-jp-1162,2001-03-30,合格ボーイシリーズ □いアタマを○くする 漢字の達人,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 漢字の達人,M734585,
-gb-jp-1163,2001-03-30,合格ボーイシリーズ □いアタマを○くする 計算の達人,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 計算の達人,M734587,
-gb-jp-1164,2001-03-30,ストリートファイターALPHA,カプコン,gbc_only,,CGB-BFZJ-JPN,4300,税抜,アーケードゲーム『ストリートファイターZERO』の移植版,ストリートファイターALPHA,Wikipedia+MADB+MAME,MAME,MADB,ストリートファイター ALPHA,M750066,gbcolor:sfaj
-gb-jp-1165,2001-03-30,アニマスターGB,メディアファクトリー,gbc_only,,CGB-BNMJ-JPN,3980,税抜,ドリームキャスト用タイトル『アニマスター』の移植版,アニマスターGB,Wikipedia+MADB+MAME,MAME,MADB,アニマスター GB,M744981,gbcolor:animasta
-gb-jp-1166,2001-04-12,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 イルの冒険,エニックス,gbc_compatible,yes,DMG-BQIJ-JPN,6400,税抜,元々は『ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 ルカの旅立ち』と同時発売される予定だったが、発売直前に不具合が判明したため、延期となった,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 イルの冒険,M723371,gbcolor:dqm2i
-gb-jp-1167,2001-04-12,クロスハンター エックス・ハンター・バージョン,ゲームビレッジ,gbc_only,,CGB-BC9J-JPN,4800,税抜,,クロスハンター,Wikipedia+MADB+MAME,MAME,MADB,クロスハンター ～エックス・ハンター・バージョン～,M747868,gbcolor:xhunterx
-gb-jp-1168,2001-04-12,クロスハンター トレジャー・ハンター・バージョン,ゲームビレッジ,gbc_only,,CGB-BC7J-JPN,4800,税抜,,クロスハンター,Wikipedia+MADB+MAME,MAME,MADB,クロスハンター ～トレジャー・ハンター・バージョン～,M747869,gbcolor:xhuntert
-gb-jp-1169,2001-04-12,クロスハンター モンスター・ハンター・バージョン,ゲームビレッジ,gbc_only,,CGB-BC8J-JPN,4800,税抜,,クロスハンター,Wikipedia+MADB+MAME,MAME,MADB,クロスハンター ～モンスター・ハンター・バージョン～,M747870,gbcolor:xhunterm
-gb-jp-1170,2001-04-12,HUNTER×HUNTER 禁断の秘宝,コナミ,gbc_only,,CGB-BHKJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画およびアニメ『HUNTER×HUNTER』のゲーム化第2作目,HUNTER×HUNTER 禁断の秘宝,Wikipedia+MADB+MAME,MAME,MADB,HUNTER×HUNTER 禁断の秘宝,M739869,gbcolor:hxhkindn
-gb-jp-1171,2001-04-14,ハローキティとディアダニエルのドリームアドベンチャー,イマジニア,gbc_only,,CGB-BK8J-JPN,4500,税抜,ゲームボーイカラーにおけるハローキティが題材のゲーム第5作目,ハローキティとディアダニエルのドリームアドベンチャー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ハローキティとディアダニエルのドリームアドベンチャー,M723370,gbcolor:hellokdd
-gb-jp-1172,2001-04-20,なかよしクッキングシリーズ2 おいしいパン屋さん,エム・ティー・オー,gbc_only,,CGB-B7PJ-JPN,4200,税抜,,なかよしクッキングシリーズ2 おいしいパン屋さん,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ2 おいしいパン屋さん,M734284,gbcolor:ncook2
-gb-jp-1173,2001-04-21,とっとこハム太郎2 ハムちゃんず大集合でちゅ,任天堂,gbc_only,,CGB-B86J-JPN,3800,税抜,ゲームボーイカラーにおける『とっとこハム太郎』のキャラクターゲーム第2作目,とっとこハム太郎2 ハムちゃんず大集合でちゅ,Wikipedia+MADB+MAME,MAME,MADB,とっとこハム太郎2 ハムちゃんず大集合でちゅ,M752223,gbcolor:tottokh2
-gb-jp-1174,2001-04-25,おいでラスカル,タム,gbc_only,,CGB-BLSJ-JPN,4500,税込,アニメ『あらいぐまラスカル』のゲーム化,おいでラスカル,Wikipedia+MADB+MAME,MAME,MADB,おいでラスカル,M746203,gbcolor:oiderasc
-gb-jp-1175,2001-04-27,From TV animation ONE PIECE 夢のルフィ海賊団誕生!,バンプレスト,gbc_compatible,yes,DMG-BLUJ-JPN,4500,税抜,テレビアニメ『From TV animation ONE PIECE』を基にしたコンピュータRPGで、任天堂スペースワールド2000出展の時点では2000年冬に発売が予定されていた。,From TV animation ONE PIECE 夢のルフィ海賊団誕生!,Wikipedia+MADB+MAME,MAME,MADB,From TV animation ONE PIECE 夢のルフィ海賊団誕生!,M739348,gbcolor:onepyume
-gb-jp-1176,2001-04-27,X-MEN MUTANT ACADEMY,サクセス,gbc_only,,CGB-BXAJ-JPN,3980,税抜,X-メンシリーズの一つ,X-MEN MUTANT ACADEMY,Wikipedia+MADB+MAME,MAME+MADB,MADB,X-MEN MUTANT ACADEMY,M723351,gbcolor:xmenmaj
-gb-jp-1177,2001-04-27,SPIDER-MAN,サクセス,gbc_only,,CGB-BSEJ-JPN,,,,スパイダーマン (2000年のゲーム),Wikipedia+MAME,MAME,,,,gbcolor:spidermnj
-gb-jp-1178,2001-04-27,なかよしペットシリーズ5 かわいいハムスター2,エム・ティー・オー,gbc_only,,CGB-B2HJ-JPN,4200,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ5 かわいいハムスター2,M734300,gbcolor:nakapet5
-gb-jp-1179,2001-04-27,雀級生 〜コスプレ★パラダイス〜,エルフ,gbc_only,,CGB-BHGJ-JPN,4800,税抜,,雀級生 〜コスプレ★パラダイス〜,Wikipedia+MADB+MAME,MAME,MADB,雀級生 ～コスプレ★パラダイス～,M763138,gbcolor:jankyus
-gb-jp-1180,2001-04-27,ぐるぐるタウンはなまるくん,J・ウィング,gbc_only,,CGB-BHJJ-JPN,4980,税抜,同名テレビアニメのゲーム化,ぐるぐるタウンはなまるくん (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ぐるぐるタウン はなまるくん,M747746,gbcolor:guruguth
-gb-jp-1181,2001-04-27,DX人生ゲーム,タカラ,gbc_only,,CGB-BZGJ-JPN,4500,税抜,,人生ゲーム,Wikipedia+MADB+MAME,MAME,MADB,DX人生ゲーム,M738691,gbcolor:dxjinsei
-gb-jp-1182,2001-05-01,大刀,ケムコ,gbc_only,,CGB-A22J-JPN,,,任天堂スペースワールド2000に出展した時点では「大刀（DAIKATANA）GB」という仮称が割り振られており、2000年10月31日に発売が予定されていた。 ニンテンドウパワー書き換え専用 PC / ニンテンドウ64向けに発売された同名作品とは内容が異なる,大刀 (ゲーム),Wikipedia+MAME,MAME,,,,gbcolor:daikatanj
-gb-jp-1183,2001-05-01,バットマンビヨンド,ケムコ,gbc_only,,CGB-BTKJ-JPN,1000,税抜,ニンテンドウパワー書き換え専用,バットマンビヨンド,Wikipedia+MADB+MAME,MAME,MADB,バットマン ビヨンド,M754036,gbcolor:batmanbej
-gb-jp-1184,2001-05-11,モバイルゴルフ,任天堂,gbc_only,,,5800,税抜,モバイルアダプタGB同梱,モバイルゴルフ,Wikipedia+MADB,,MADB,モバイルゴルフ モバイルアダプタGBセット,M757891,
-gb-jp-1185,2001-05-25,DT Lords of Genomes,メディアファクトリー,gbc_compatible,yes,DMG-BBDJ-JPN,4500,税抜,元々はゲームボーイ用ソフトとして開発されており、64DDとも連動する予定だったが、ランドネット終了に伴い内容が変更された,DT Lords of Genomes,Wikipedia+MADB+MAME,MAME+MADB,MADB,DT Lords of Genomes,M723328,gbcolor:dtlords
-gb-jp-1186,2001-06-01,名探偵コナン 呪われた航路,バンプレスト,gbc_compatible,yes,DMG-BC3J-JPN,4500,税抜,ゲームボーイカラーにおける『名探偵コナン』のゲーム化第3作目,名探偵コナン 呪われた航路,Wikipedia+MADB+MAME,MAME,MADB,名探偵コナン 呪われた航路,M766316,gbcolor:mconannk
-gb-jp-1187,2001-06-15,ZOIDS 〜白銀の獣機神ライガーゼロ〜,トミー,gbc_only,,CGB-BZ2J-JPN,4500,税抜,,ZOIDS 〜白銀の獣機神ライガーゼロ〜,Wikipedia+MADB+MAME,MAME,MADB,ZOIDS ～白銀の獣機神 ライガーゼロ～,M744221,gbcolor:zoidsshi
-gb-jp-1188,2001-06-20,スヌーピーテニス,アンフォグラムハドソン,gbc_only,,CGB-BS9J-JPN,3900,税抜,,スヌーピーテニス,Wikipedia+MADB+MAME,MAME,MADB,スヌーピーテニス,M750120,gbcolor:snoopytnj
-gb-jp-1189,2001-06-28,スターオーシャン ブルースフィア,エニックス,gbc_compatible,yes,DMG-BO2J-JPN,5800,税抜,スターオーシャンシリーズの外伝作品で、『スターオーシャン セカンドストーリー』の後日譚にあたる,スターオーシャン ブルースフィア,Wikipedia+MADB+MAME,MAME,MADB,スターオーシャン ブルースフィア,M749932,gbcolor:starocbs
-gb-jp-1190,2001-06-29,なかよしクッキングシリーズ3 たのしいお弁当,エム・ティー・オー,gbc_only,,CGB-B7BJ-JPN,4200,税抜,,なかよしクッキングシリーズ3 たのしいお弁当,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ3 たのしいお弁当,M734285,gbcolor:ncook3
-gb-jp-1191,2001-06-29,ガイアマスターDUEL カードアタッカーズ,カプコン,gbc_only,,CGB-BGIJ-JPN,4300,税抜,PlayStation用ソフト『ガイアマスター』の移植版,ガイアマスターDUEL カードアタッカーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ガイアマスターDUEL カードアタッカーズ,M723295,gbcolor:gaiamast
-gb-jp-1192,2001-07-01,こぐるぐるぐる～ぐるぐるとなかよし～,スティング,gbc_compatible,,DMG-BKGJ-JPN,1000,税抜,任天堂スペースワールド2000出展の時点では「ぐるぐるとなかよし」という題名で2000年12月に発売が予定されていた ニンテンドウパワー書き換え専用タイトルであり、通常カートリッジでの発売も予定されていた,,Wikipedia+MADB+MAME,MAME,MADB,こぐるぐるぐる ～ぐるぐるとなかよし～,M748223,gbcolor:kogurugu
-gb-jp-1193,2001-07-01,波乗り野郎!,ナツメ,gbc_only,,CGB-BNYJ-JPN,,,ニンテンドウパワー書き換え専用,波乗り野郎!,Wikipedia+MAME,MAME,,,,gbcolor:naminori
-gb-jp-1194,2001-07-12,ネットでゲット ミニゲーム＠100,コナミ,gbc_only,,CGB-BMVJ-JPN,5800,税抜,,ネットでゲット ミニゲーム＠100,Wikipedia+MADB+MAME,MAME,MADB,ネットでゲットミニゲーム@100,M753266,gbcolor:netdeget
-gb-jp-1195,2001-07-13,データナビプロ野球2,ナウプロダクション,gbc_only,,CGB-B8QJ-JPN,4300,税抜,,データナビプロ野球2,Wikipedia+MADB+MAME,MAME,MADB,データナビプロ野球2,M751612,gbcolor:dnyakyu2
-gb-jp-1196,2001-07-19,ロックマンX2 ソウルイレイザー,カプコン,gbc_only,,CGB-BXRJ-JPN,3980,税抜,,ロックマンX2 ソウルイレイザー,Wikipedia+MADB+MAME,MAME,MADB,ロックマンX2 ソウルイレイザー,M759151,gbcolor:rockmnx2
-gb-jp-1197,2001-07-19,つりいこっ!!,アスキー,gbc_only,,CGB-BAFJ-JPN,4500,税抜,,つりいこっ!!,Wikipedia+MADB+MAME,MAME,MADB,つりいこっ!!,M751387,gbcolor:tsuriiko
-gb-jp-1198,2001-07-20,Jリーグエキサイトステージ タクティクス,エポック社,gbc_only,,CGB-AJEJ-JPN,4300,税抜,,Jリーグエキサイトステージ タクティクス,Wikipedia+MADB+MAME,MAME,MADB,Jリーグエキサイトステージ タクティクス,M740063,gbcolor:jlexcstt
-gb-jp-1199,2001-07-20,うちゅう人田中太郎でRPGツクールGB2,エンターブレイン,gbc_only,,CGB-B3QJ-JPN,5200,税抜,漫画『うちゅう人 田中太郎』とタイアップした、ゲームボーイカラーにおけるRPGツクール第2作目,うちゅう人田中太郎でRPGツクールGB2,Wikipedia+MADB+MAME,MAME,MADB,うちゅう人田中太郎でRPGツクールGB2,M745849,gbcolor:rpgtsuk2
-gb-jp-1200,2001-07-20,マクドナルド物語,TDKコア,gbc_only,,CGB-BI9J-JPN,4500,税抜,,マクドナルド物語,Wikipedia+MADB+MAME,MAME,MADB,マクドナルド物語,M756725,gbcolor:mcdonald
-gb-jp-1201,2001-07-26,超GALS! 寿蘭,コナミ,gbc_only,,CGB-BGLJ-JPN,4800,税抜,ゲームボーイカラーにおけるテレビアニメ『超GALS!寿蘭』のゲーム化第1作目,超GALS! 寿蘭 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,超GALS! 寿蘭,M764359,gbcolor:sgals
-gb-jp-1202,2001-07-27,真・女神転生 デビルチルドレン 白の書,アトラス,gbc_only,,CGB-BHWJ-JPN,4500,税抜,,真・女神転生 デビルチルドレン 白の書,Wikipedia+MADB+MAME,MAME,MADB,真・女神転生 デビルチルドレン 白の書,M762879,gbcolor:shinmts
-gb-jp-1203,2001-07-27,真・女神転生トレーディングカード カードサマナー,エンターブレイン,gbc_only,,CGB-BT8J-JPN,5200,税抜,,真・女神転生トレーディングカード,Wikipedia+MADB+MAME,MAME+MADB,MADB,真・女神転生トレーディングカード カードサマナー 初回特典,M723261,gbcolor:shinmtcd
-gb-jp-1204,2001-07-27,昆虫博士3,J・ウィング,gbc_only,,CGB-A3KJ-JPN,4980,税抜,,昆虫博士3,Wikipedia+MADB+MAME,MAME,MADB,昆虫博士3,M761457,gbcolor:konchuh3
-gb-jp-1205,2001-07-27,花より男子 ANOTHER LOVE STORY,TDKコア,gbc_only,,CGB-B87J-JPN,4500,税抜,漫画『花より男子』のゲーム化,花より男子 ANOTHER LOVE STORY,Wikipedia+MADB+MAME,MAME+MADB,MADB,花より男子 ANOTHER LOVE STORY,M723262,gbcolor:hanayori
-gb-jp-1206,2001-07-27,不思議のダンジョン 風来のシレンGB2 砂漠の魔城,チュンソフト,gbc_only,,CGB-AFMJ-JPN,4500,税抜,当初発売予定日は2001年7月19日,不思議のダンジョン 風来のシレンGB2 砂漠の魔城,Wikipedia,MAME,MADB,不思議のダンジョン 風来のシレンGB2 砂漠の魔城,M723275,gbcolor:furaish2
-gb-jp-1207,2001-07-27,水木しげるの新・妖怪伝,プライムシステム,gbc_only,,,4800,税抜,漫画家水木しげるの名を冠したカードゲーム,水木しげるの新・妖怪伝,Wikipedia+MADB,,MADB,水木しげるの新・妖怪伝,M763096,
-gb-jp-1208,2001-07-27,爆転シュート ベイブレード,ブロッコリー,gbc_only,,CGB-BB3J-JPN,4800,税抜,漫画『爆転シュート ベイブレード外伝 ベイブレード大地』の主人公・皇大地が主役,爆転シュート ベイブレード (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,爆転シュート ベイブレード,M765381,gbcolor:bsbeybld
-gb-jp-1209,2001-08-01,Loppiパズルマガジン かんがえるパズル創刊号,サクセス,gbc_compatible,,DMG-B61J-JPN,600,税抜,ニンテンドウパワー書き換え専用,,Wikipedia+MADB+MAME,MAME,MADB,Loppiパズルマガジン かんがえるパズル創刊号,M740372,gbcolor:kangpzls
-gb-jp-1210,2001-08-10,バッドばつ丸 ロボバトル,イマジニア,gbc_only,,CGB-BBRJ-JPN,4500,税抜,キャラクター・バッドばつ丸が題材,バッドばつ丸 ロボバトル,Wikipedia+MADB+MAME,MAME,MADB,バッドばつ丸 ロボバトル,M754024,gbcolor:badbadtz
-gb-jp-1211,2001-08-10,ちびまる子ちゃん 町内みんなでゲームだよ!,エポック社,gbc_only,,CGB-BCNJ-JPN,4300,税抜,テレビアニメ『ちびまる子ちゃん』のゲーム化,ちびまる子ちゃん 町内みんなでゲームだよ!,Wikipedia+MADB+MAME,MAME,MADB,ちびまる子ちゃん ご町内みんなでゲームだよ!,M751211,gbcolor:chibim
-gb-jp-1212,2001-08-10,ニセモン パズルdaモン,プライムシステム,gbc_only,,CGB-BNPJ-JPN,4800,税込,,ニセモン パズルdaモン,Wikipedia+MADB+MAME,MAME,MADB,ニセモン パズルdeモン,M753092,gbcolor:nisemon
-gb-jp-1213,2001-08-24,ポケットクッキング,J・ウィング,gbc_only,,CGB-APJJ-JPN,4800,税抜,任天堂スペースワールド2000出展の時点では2000年10月に発売が予定されていた,ポケットクッキング,Wikipedia+MADB+MAME,MAME,MADB,ポケットクッキング,M756238,gbcolor:pockcook
-gb-jp-1214,2001-08-30,ゲームボーイウォーズ3,ハドソン,gbc_only,,CGB-BWWJ-JPN,3800,税抜,『ゲームボーイウォーズ2』の続編,ゲームボーイウォーズ3,Wikipedia+MADB+MAME,MAME,MADB,ゲームボーイウォーズ3,M747992,gbcolor:gbwars3
-gb-jp-1215,2001-09-01,Loppiパズルマガジン ひらめくパズル創刊号,サクセス,gbc_compatible,,DMG-B51J-JPN,600,税抜,ニンテンドウパワー書き換え専用,,Wikipedia+MADB+MAME,MAME,MADB,Loppiパズルマガジン ひらめくパズル創刊号,M740375,gbcolor:hirapzls
-gb-jp-1216,2001-09-07,エストポリス伝記 よみがえる伝説,タイトー,gbc_only,,CGB-BLCJ-JPN,4800,税抜,『エストポリス伝記II』の続編,エストポリス伝記 よみがえる伝説,Wikipedia+MADB+MAME,MAME,MADB,エストポリス伝記 ～よみがえる伝説～,M746078,gbcolor:estpolis
-gb-jp-1217,2001-09-07,全日本少年サッカー大会 めざせ日本一!,サクセス,gbc_only,,CGB-BJFJ-JPN,4800,税抜,,全日本少年サッカー大会 めざせ日本一!,Wikipedia+MADB+MAME,MAME,MADB,全日本少年サッカー大会 めざせ日本一!,M763709,gbcolor:znsst
-gb-jp-1218,2001-09-10,ジャガーミシン刺しゅう専用ソフト MARIO FAMILY,ジャガーインターナショナルコーポレーション,gbc_only,,CGB-BJMJ-JPN,,,ゲームボーイカラー対応ミシン「ヌオット」専用ソフト,ジャガーミシン刺しゅう専用ソフト MARIO FAMILY,Wikipedia,MAME,,,,gbcolor:mariofam
-gb-jp-1219,2001-09-21,ハムスター倶楽部 おしえまチュー,ジョルダン,gbc_only,,CGB-BJSJ-JPN,4300,税抜,『ハムスター倶楽部』を題材としたクイズゲーム,ハムスター倶楽部 おしえまチュー,Wikipedia+MADB+MAME,MAME,MADB,ハムスター倶楽部 おしえまチュー,M754277,gbcolor:hamstclo
-gb-jp-1220,2001-09-28,ハムスターパラダイス4,アトラス,gbc_only,,CGB-BCUJ-JPN,4500,税抜,,ハムスターパラダイス4,Wikipedia+MADB+MAME,MAME,MADB,ハムスターパラダイス4,M754273,gbcolor:hamstpa4
-gb-jp-1221,2001-10-01,Loppiパズルマガジン かんがえるパズル第2号,サクセス,gbc_compatible,,DMG-B62J-JPN,600,税抜,ニンテンドウパワー書き換え専用,,Wikipedia+MADB+MAME,MAME,MADB,Loppiパズルマガジン かんがえるパズル第2号,M740373,gbcolor:kangpzl2
-gb-jp-1222,2001-10-12,激走!ダンガンレーサー 音速バスターDANGUN弾,イマジニア,gbc_only,,CGB-BDJJ-JPN,4600,税抜,ミニカー・ダンガンレーサーのコンピュータゲーム化,激走!ダンガンレーサー 音速バスターDANGUN弾,Wikipedia+MADB+MAME,MAME,MADB,激走! ダンガンレーサー 音速バスター DANGUN弾,M761000,gbcolor:dangunrc
-gb-jp-1223,2001-10-12,きかんしゃトーマス ソドーとうのなかまたち,タム,gbc_only,,CGB-BBWJ-JPN,4800,税抜,テレビ番組『きかんしゃトーマス』のゲーム化で、任天堂スペースワールド2001出展の時点では2001年9月28日に発売される予定だった。,きかんしゃトーマス ソドーとうのなかまたち,Wikipedia+MADB+MAME,MAME,MADB,きかんしゃトーマス ソドーとうのなかまたち,M747019,gbcolor:kikathom
-gb-jp-1224,2001-10-26,ドキ×ドキさせて!!,ビクターインタラクティブソフトウェア,gbc_only,,,4200,税抜,男性アイドルグループとの恋愛を描いた作品,ドキ×ドキさせて!!,Wikipedia+MADB,,MADB,ドキ×ドキさせて!!,M752104,
-gb-jp-1225,2001-11-01,Loppiパズルマガジン ひらめくパズル第2号,サクセス,gbc_compatible,,DMG-B52J-JPN,600,税抜,ニンテンドウパワー書き換え専用,,Wikipedia+MADB+MAME,MAME,MADB,Loppiパズルマガジン ひらめくパズル第2号,M740376,gbcolor:hirapzl2
-gb-jp-1226,2001-11-01,仰天人間バトシーラー ドクトル・ガイの野望,コナミ,gbc_only,,CGB-BB6J-JPN,4800,税抜,シール付きチョコレート『仰天人間バトシーラー』を基にした漫画・アニメのゲーム化,仰天人間バトシーラー ドクトル・ガイの野望,Wikipedia+MADB+MAME,MAME,MADB,仰天人間バトシーラー ～ドクトル・ガイの野望～,M760758,gbcolor:docguy
-gb-jp-1227,2001-11-02,バグサイト アルファ,スマイルソフト,gbc_only,,CGB-BAUJ-JPN,4800,税抜,専用周辺機器「バグセンサー」を同梱した初回限定版あり,バグサイト アルファ,Wikipedia+MADB+MAME,MAME,MADB,バグサイト・アルファ,M753720,gbcolor:networka
-gb-jp-1228,2001-11-02,バグサイト ベータ,スマイルソフト,gbc_only,,CGB-BBUJ-JPN,4800,税抜,専用周辺機器「バグセンサー」を同梱した初回限定版あり,バグサイト ベータ,Wikipedia+MADB+MAME,MAME,MADB,バグサイト・ベータ,M753721,gbcolor:networkb
-gb-jp-1229,2001-11-16,なかよしクッキングシリーズ4 たのしいデザート,エム・ティー・オー,gbc_only,,CGB-B3DJ-JPN,4200,税抜,,なかよしクッキングシリーズ4 たのしいデザート,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ4 たのしいデザート,M734286,gbcolor:ncook4
-gb-jp-1230,2001-11-22,チキチキマシン猛レース,シスコンエンタテイメント,gbc_only,,CGB-AW9J-JPN,3600,税抜,同名アニメのゲーム化,チキチキマシン猛レース (2000年のゲーム),Wikipedia+MADB+MAME,MAME,MADB,チキチキマシン猛レース,M751192,gbcolor:chikirac
-gb-jp-1231,2001-12-01,Loppiパズルマガジン かんがえるパズル第3号,サクセス,gbc_compatible,,DMG-B63J-JPN,600,税抜,ニンテンドウパワー書き換え専用,,Wikipedia+MADB+MAME,MAME,MADB,Loppiパズルマガジン かんがえるパズル第3号,M740374,gbcolor:kangpzl3
-gb-jp-1232,2001-12-01,ハリー・ポッターと賢者の石,エレクトロニック・アーツ・スクウェア,gbc_only,,CGB-BHVJ-JPN,4800,税抜,同名映画のゲーム化,ハリー・ポッターと賢者の石 (ゲームボーイカラー),Wikipedia+MADB+MAME,MAME,MADB,ハリー・ポッターと賢者の石,M754328,gbcolor:hpotkenj
-gb-jp-1233,2001-12-06,サクラ大戦GB2 サンダーボルト作戦,セガ,gbc_only,,CGB-BQYJ-JPN,5800,税抜,,サクラ大戦GB2 サンダーボルト作戦,Wikipedia+MADB+MAME,MAME+MADB,MADB,サクラ大戦GB2 サンダーボルト作戦,M723114,gbcolor:sakura2
-gb-jp-1234,2001-12-13,ミニー&フレンズ 夢の国をさがして,ハドソン,gbc_only,,CGB-BYKJ-JPN,4800,税抜,ミニーマウスなどが登場するゲーム,ミニー&フレンズ 夢の国をさがして,Wikipedia+MADB+MAME,MAME,MADB,ミニー＆フレンズ ～夢の国をさがして～,M757260,gbcolor:minnie
-gb-jp-1235,2001-12-14,ルーニー・テューンズコレクター マーシャンクエスト!,シスコンエンタテイメント,gbc_only,,CGB-ALMJ-JPN,3700,税抜,,ルーニー・テューンズコレクター マーシャンクエスト!,Wikipedia+MADB+MAME,MAME,MADB,ルーニー・テューンズコレクター マーシャンクエスト!,M758616,gbcolor:looneymaj
-gb-jp-1236,2001-12-14,メダロット5 すすたけ村の転校生 カブト,イマジニア,gbc_only,,CGB-B5MJ-JPN,4800,税抜,,メダロット5 すすたけ村の転校生,Wikipedia+MADB+MAME,MAME,MADB,メダロット5 すすたけ村の転校生 カブト,M757660,gbcolor:medar5ka
-gb-jp-1237,2001-12-14,メダロット5 すすたけ村の転校生 クワガタ,イマジニア,gbc_only,,CGB-B5NJ-JPN,4800,税抜,,メダロット5 すすたけ村の転校生,Wikipedia+MADB+MAME,MAME,MADB,メダロット5 すすたけ村の転校生 クワガタ,M757661,gbcolor:medar5ku
-gb-jp-1238,2001-12-21,きせかえハムスター,ビクターインタラクティブソフトウェア,gbc_only,,CGB-BKHJ-JPN,4200,税抜,,きせかえハムスター,Wikipedia+MADB+MAME,MAME,MADB,きせかえハムスター,M747031,gbcolor:kisekae3
-gb-jp-1239,2001-12-21,シャーマンキング 超・占事略決 ふんばり編,キングレコード,gbc_only,,CGB-BQUJ-JPN,3980,税抜,漫画およびテレビアニメ『シャーマンキング』のゲーム化,シャーマンキング 超・占事略決 ふんばり編,Wikipedia+MADB+MAME,MAME,MADB,シャーマンキング 超・占事略決 ふんばり編,M749197,gbcolor:shamcrdf
-gb-jp-1240,2001-12-21,シャーマンキング 超・占事略決 メラメラ編,キングレコード,gbc_only,,CGB-BQVJ-JPN,3980,税抜,,シャーマンキング 超・占事略決 メラメラ編,Wikipedia+MADB+MAME,MAME,MADB,シャーマンキング 超・占事略決 メラメラ編,M749198,gbcolor:shamcrdm
-gb-jp-1241,2001-12-21,シルバニアファミリー3 星ふる夜のすなどけい,エポック社,gbc_only,,CGB-BL3J-JPN,4300,税抜,『シルバニアファミリー2 〜色づく森のファンタジー〜』の続編,シルバニアファミリー3 星ふる夜のすなどけい,Wikipedia+MADB+MAME,MAME,MADB,シルバニアファミリー3 星ふる夜のすなどけい,M749425,gbcolor:sylvan3
-gb-jp-1242,2001-12-21,わたしのキッチン,キラット,gbc_only,,CGB-BKRJ-JPN,3980,税抜,,わたしのキッチン,Wikipedia+MADB+MAME,MAME,MADB,わたしのキッチン,M759440,gbcolor:watashik
-gb-jp-1243,2001-12-24,将棋3,ポニーキャニオン,gbc_compatible,,DMG-B9SJ-JPN,4800,税抜,,将棋3,Wikipedia+MADB+MAME,MAME,MADB,将棋3,M762268,gbcolor:shougi3
-gb-jp-1244,2002-01-01,Loppiパズルマガジン ひらめくパズル第3号,サクセス,gbc_compatible,,DMG-B53J-JPN,600,税抜,ニンテンドウパワー書き換え専用,,Wikipedia+MADB+MAME,MAME,MADB,Loppiパズルマガジン ひらめくパズル第3号,M740377,gbcolor:hirapzl3
-gb-jp-1245,2002-02-07,超GALS! 寿蘭2 〜ミラクル→ゲッティング〜,コナミ,gbc_only,,CGB-BGUJ-JPN,4800,税抜,ゲームボーイカラーにおけるテレビアニメ『超GALS!寿蘭』のゲーム化第2作目,超GALS! 寿蘭2 〜ミラクル→ゲッティング〜,Wikipedia+MADB+MAME,MAME,MADB,超GALS! 寿蘭2 ～ミラクル→ゲッティング～,M764360,gbcolor:sgals2
-gb-jp-1246,2002-02-21,Dr.リンにきいてみて! 恋のリン風水!,ハドソン,gbc_only,,CGB-BDFJ-JPN,3980,税抜,テレビアニメ『Dr.リンにきいてみて!』のゲーム化,Dr.リンにきいてみて! 恋のリン風水!,Wikipedia+MADB+MAME,MAME,MADB,Dr. リンにきいてみて! 恋のリン風水,M738601,gbcolor:drrin
-gb-jp-1247,2002-03-02,ハローキティのハッピーハウス,エム・ティー・オー,gbc_only,,CGB-BK7J-JPN,4500,税抜,ゲームボーイカラーにおけるハローキティが題材のゲーム第6作目,ハローキティのハッピーハウス,Wikipedia+MADB+MAME,MAME,MADB,ハローキティのハッピーハウス,M754428,gbcolor:hellokhh
-gb-jp-1248,2002-03-08,モン★スタートラベラー,タイトー,gbc_only,,CGB-BFVJ-JPN,4300,税抜,,モン★スタートラベラー,Wikipedia+MADB+MAME,MAME,MADB,モン★スタートラベラー,M757898,gbcolor:monstrvl
-gb-jp-1249,2002-03-29,BIOHAZARD GAIDEN,カプコン,gbc_only,,CGB-BIOJ-JPN,,,バイオハザードの番外編,BIOHAZARD GAIDEN,Wikipedia+MAME,MAME,,,,gbcolor:biohazg
-gb-jp-1250,2002-03-29,あざらし戦隊イナズマ 〜どきどき大作戦!?〜,オメガ・プロジェクト,gbc_only,,CGB-BOAJ-JPN,3980,税抜,,あざらし戦隊イナズマ 〜どきどき大作戦!?〜,Wikipedia+MADB+MAME,MAME,MADB,あざらし戦隊イナズマ ～どきどき大作戦! ?～,M744840,gbcolor:azarashi
-gb-jp-1251,2002-04-05,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!,エム・ティー・オー,gbc_only,,CGB-B3CJ-JPN,4200,税抜,,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!,M734287,gbcolor:ncook5
-gb-jp-1252,2002-04-18,冒険!ドンドコ島,グローバル・A・エンタテインメント,gbc_only,,CGB-BDVJ-JPN,4300,税抜,,冒険!ドンドコ島,Wikipedia+MADB+MAME,MAME,MADB,冒険!! ドンドコ島,M765794,gbcolor:bouken
-gb-jp-1253,2002-04-26,わたしのレストラン,キラット,gbc_only,,CGB-BWNJ-JPN,3980,税抜,,わたしのレストラン,Wikipedia+MADB+MAME,MAME,MADB,わたしのレストラン,M759445,gbcolor:watashir
-gb-jp-1254,2002-06-28,From TV animation ONE PIECE 幻のグランドライン冒険記!,バンプレスト,gbc_compatible,yes,DMG-BZOJ-JPN,4500,税抜,『ONE PIECE 夢のルフィ海賊団誕生!』の続編。,ONE PIECE,Wikipedia+MADB+MAME,MAME,MADB,From TV animation ONE PIECE 幻のグランドライン冒険記!,M739346,gbcolor:onepglin
-gb-jp-1255,2002-07-26,昆虫ファイターズ,デジタルキッズ,gbc_only,,CGB-BZZJ-JPN,4200,税抜,,昆虫ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,昆虫ファイターズ,M761450,gbcolor:konchufg
-gb-jp-1256,2002-08-09,ドラゴンボールZ 伝説の超戦士たち,バンプレスト,gbc_only,,CGB-BBZJ-JPN,4500,税抜,,ドラゴンボールZ 伝説の超戦士たち,Wikipedia+MADB+MAME,MAME,MADB,ドラゴンボールZ 伝説の超戦士たち,M752583,gbcolor:dbzj
-gb-jp-1257,2002-08-09,ハムスター物語GB+マジハームの魔法少女,カルチャーブレーン,gbc_only,,CGB-B8MJ-JPN,3980,税抜,,ハムスター物語GB+マジハームの魔法少女,Wikipedia+MADB+MAME,MAME,MADB,ハムスター物語GB+マジハームの魔法少女,M754288,gbcolor:hamstmon
-gb-jp-1258,2002-10-04,ドラえもんのクイズボーイ2,小学館,gbc_only,,CGB-BQ7J-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのクイズボーイ2,M752374,gbcolor:doraqzb2
-gb-jp-1259,2003-06-05,漢字BOY3,J・ウィング,gbc_only,,CGB-BK3J-JPN,4800,税抜,,漢字BOY,Wikipedia+MADB+MAME,MAME,MADB,漢字BOY3,M760500,gbcolor:kanjibo3
-gb-jp-1260,2003-07-18,ドラえもんのスタディボーイ かんじよみかきマスター,小学館,gbc_only,,CGB-BKYJ-JPN,3980,税抜,日本における最後のゲームボーイカラー用ソフト,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのスタディボーイ かんじよみかきマスター,M752376,gbcolor:dorakany
+gb-jp-0962,2000-03-10,突撃!パッパラ隊,J・ウィング,gbc_compatible,yes,DMG-APHJ-JPN,4500,税抜,,突撃!パッパラ隊,Wikipedia+MADB+MAME,MAME+MADB,MADB,突撃! パッパラ隊,M723913,gbcolor:totsuge
+gb-jp-0963,2000-03-10,ドラえもんメモリーズ のび太の想い出大冒険,エポック社,gbc_compatible,,DMG-BDMJ-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんメモリーズ のび太の想い出大冒険,M752377,gbcolor:doramemo
+gb-jp-0964,2000-03-10,メダロット カードロボトル カブトバージョン,イマジニア,gbc_compatible,yes,DMG-A8CJ-JPN,3980,税抜,メダロットが題材のカードゲームのコンピュータゲーム化,メダロット カードロボトル カブトバージョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,メダロット カードロボトル カブト バージョン,M723911,gbcolor:medarcka
+gb-jp-0965,2000-03-10,メダロット カードロボトル クワガタバージョン,イマジニア,gbc_compatible,yes,DMG-A9CJ-JPN,3980,税抜,メダロットが題材のカードゲームのコンピュータゲーム化,メダロット カードロボトル クワガタバージョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,メダロット カードロボトル クワガタ バージョン 初回限定版,M723912,gbcolor:medarcku
+gb-jp-0966,2000-03-10,野球シミュレーション ポケットプロ野球,エポック社,gbc_only,,CGB-BPPJ-JPN,3980,税抜,,野球シミュレーション ポケットプロ野球,Wikipedia+MADB+MAME,MAME,MADB,野球シミュレーション ポケットプロ野球,M766402,gbcolor:pockyak
+gb-jp-0967,2000-03-17,合格ボーイシリーズ □いアタマを○くする 常識の書,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 常識の書,M734595,
+gb-jp-0968,2000-03-17,合格ボーイシリーズ □いアタマを○くする 難問の書,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 難問の書,M734599,
+gb-jp-0969,2000-03-17,パズループ,カプコン,gbc_compatible,,DMG-BPZJ-JPN,3800,税抜,,パズループ,Wikipedia+MADB+MAME,MAME,MADB,パズループ,M753783,gbcolor:puzzloop
+gb-jp-0970,2000-03-17,シルバニアメロディー 〜森のなかまと踊りましょ!〜,エポック社,gbc_compatible,yes,DMG-BMKJ-JPN,3980,税抜,ゲームボーイカラーにおける「シルバニアファミリー」のゲーム化第2作目,シルバニアメロディー 〜森のなかまと踊りましょ!〜,Wikipedia+MADB+MAME,MAME,MADB,シルバニアメロディー ～森のなかまと踊りましょ～,M749427,gbcolor:sylvmel
+gb-jp-0971,2000-03-17,RPGツクールGB,アスキー,gbc_only,,CGB-A2QJ-JPN,4800,税抜,ゲームボーイカラーにおけるRPGツクール第1作目,RPGツクールGB,Wikipedia+MADB+MAME,MAME,MADB,RPGツクールGB,M742012,gbcolor:rpgtsuku
+gb-jp-0972,2000-03-17,ハムスターパラダイス2（ちゅー）,アトラス,gbc_only,,CGB-BHMJ-JPN,3980,税抜,,ハムスターパラダイス2（ちゅー）,Wikipedia+MADB+MAME,MAME,MADB,ハムスターパラダイス2,M754271,gbcolor:hamstpa2
+gb-jp-0973,2000-03-17,ポケットプロレス パーフェクトレスラー,J・ウィング,gbc_only,,CGB-AJVJ-JPN,3980,税抜,,ポケットプロレス パーフェクトレスラー,Wikipedia+MADB+MAME,MAME,MADB,ポケットプロレス パーフェクトレスラー,M756260,gbcolor:pockprow
+gb-jp-0974,2000-03-17,マクロス7 銀河のハートを奮わせろ!!,エポック社,gbc_only,,CGB-BM7J-JPN,3980,税抜,テレビアニメ『マクロス7』のゲーム化,マクロスシリーズ (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,マクロス7 銀河のハートを奮わせろ!!,M756738,gbcolor:macross7
+gb-jp-0975,2000-03-21,ワリオランド3 不思議なオルゴール,任天堂,gbc_only,,,3800,税抜,,ワリオランド3 不思議なオルゴール,Wikipedia+MADB,,MADB,ワリオランド3 不思議なオルゴール,M759453,
+gb-jp-0976,2000-03-23,サイボーグクロちゃん 〜デビル復活!!〜,コナミ,gbc_only,,CGB-BSKJ-JPN,4500,税抜,漫画『サイボーグクロちゃん』のゲーム化,サイボーグクロちゃん 〜デビル復活!!〜,Wikipedia+MADB+MAME,MAME,MADB,サイボーグクロちゃん ～デビル復活～,M748720,gbcolor:cyborgku
+gb-jp-0977,2000-03-24,さるパンチャー,タイトー,gbc_compatible,yes,DMG-BSPJ-JPN,3980,税抜,,さるパンチャー,Wikipedia+MADB+MAME,MAME+MADB,MADB,さるパンチャー,M723892,gbcolor:sarupnch
+gb-jp-0978,2000-03-24,じゃがいぬくん,ビクターインタラクティブソフトウェア,gbc_compatible,,DMG-B39J-JPN,3800,税抜,,じゃがいぬくん,Wikipedia+MADB+MAME,MAME,MADB,じゃがいぬくん,M749230,gbcolor:jagainu
+gb-jp-0979,2000-03-24,なかよしペットシリーズ2 かわいいウサギ,エム・ティー・オー,gbc_compatible,,DMG-B7UJ-JPN,3980,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ2 かわいいウサギ,M734297,gbcolor:nakapet2
+gb-jp-0980,2000-03-24,爆球連発!!スーパービーダマン 激誕!ライジングヴァルキリー!!,タカラ,gbc_compatible,yes,DMG-A4RJ-JPN,4500,税抜,漫画およびアニメ『爆球連発!!スーパービーダマン』のゲーム化,爆球連発!!スーパービーダマン 激誕!ライジングヴァルキリー!!,Wikipedia+MADB+MAME,MAME,MADB,爆球連発!! スーパービーダマン 激誕! ライジングヴァルキリー!!,M765362,gbcolor:bakukyuu
+gb-jp-0981,2000-03-24,ターザン,シスコンエンタテイメント,gbc_only,,CGB-BTHJ-JPN,4300,税抜,アニメ映画『ターザン』のゲーム化,ターザン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ディズニーズ ターザン,M751489,gbcolor:tarzanj
+gb-jp-0982,2000-03-24,レイマン,ユービーアイソフト,gbc_only,,CGB-BURJ-JPN,4200,税抜,レイマンシリーズの一つ,レイマン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,レイマン ミスターダークの罠,M758723,gbcolor:raymanj
+gb-jp-0983,2000-03-30,パワプロクンポケット2,コナミ,gbc_compatible,yes,DMG-BPWJ-JPN,4500,税抜,,パワプロクンポケット2,Wikipedia+MADB+MAME,MAME,MADB,パワプロクンポケット2,M754485,gbcolor:powrpkp2
+gb-jp-0984,2000-03-30,バトルフィッシャーズ,コナミ,gbc_only,,CGB-BBAJ-JPN,4500,税抜,,バトルフィッシャーズ,Wikipedia+MADB+MAME,MAME,MADB,バトルフィッシャーズ,M754201,gbcolor:batlfish
+gb-jp-0985,2000-03-30,ポップンミュージックGB,コナミ,gbc_only,,CGB-BPMJ-JPN,4300,税抜,Pop'n musicシリーズの一つ,ポップンミュージックGB,Wikipedia+MADB+MAME,MAME,MADB,ポップンミュージックGB,M756431,gbcolor:popngb
+gb-jp-0986,2000-03-31,アルルの冒険 まほうのジュエル,コンパイル,gbc_compatible,yes,DMG-BRBJ-JPN,4200,税抜,ぷよぷよシリーズのアルル・ナジャが主人公,アルルの冒険 まほうのジュエル,Wikipedia+MADB+MAME,MAME,MADB,アルルの冒険 まほうのジュエル,M745170,gbcolor:arle
+gb-jp-0987,2000-03-31,名探偵コナン 奇岩島秘宝伝説,バンプレスト,gbc_compatible,yes,DMG-A5BJ-JPN,4500,税抜,ゲームボーイカラーにおける『名探偵コナン』が題材のゲーム第2作目,名探偵コナン 奇岩島秘宝伝説,Wikipedia+MADB+MAME,MAME+MADB,MADB,名探偵コナン 奇岩島秘宝伝説,M723870,gbcolor:mconankh
+gb-jp-0988,2000-03-31,トリックボーダーグランプリ,アテナ,gbc_only,,CGB-BTBJ-JPN,3800,税抜,,トリックボーダーグランプリ,Wikipedia+MADB+MAME,MAME,MADB,トリックボーダーグランプリ,M752695,gbcolor:trickbrdj
+gb-jp-0989,2000-03-31,スノボーチャンピオン,ボトムアップ,gbc_only,,CGB-B5CJ-JPN,3980,税抜,,スノボーチャンピオン,Wikipedia+MADB+MAME,MAME,MADB,スノボーチャンピオン,M750131,gbcolor:snobochm
+gb-jp-0990,2000-03-31,必殺パチンコBOY CRモンスターハウス,サンソフト,gbc_only,,CGB-BHPJ-JPN,3980,税抜,,必殺パチンコBOY CRモンスターハウス,Wikipedia+MADB+MAME,MAME,MADB,必殺パチンコBOY CRモンスターハウス,M765480,gbcolor:pachiboy
+gb-jp-0991,2000-04-07,VSレミングス,J・ウィング,gbc_only,,CGB-ALEJ-JPN,4500,税抜,『レミングス』と『』をまとめた作品,VSレミングス,Wikipedia+MADB+MAME,MAME,MADB,VSレミングス,M743762,gbcolor:vslemmin
+gb-jp-0992,2000-04-13,遊☆戯☆王 モンスターカプセルGB,コナミ,gbc_compatible,yes,DMG-AYCJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画『遊☆戯☆王』が題材のゲーム第1作目,遊☆戯☆王 モンスターカプセルGB,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 モンスターカプセルGB,M766501,gbcolor:yugimcap
+gb-jp-0993,2000-04-14,聖牌伝説,ギャップス,gbc_compatible,yes,DMG-AEOJ-JPN,2800,税抜,,聖牌伝説,Wikipedia+MADB+MAME,MAME,MADB,聖牌伝説,M763282,gbcolor:seihaiunk
+gb-jp-0994,2000-04-21,DXモノポリーGB,タカラ,gbc_compatible,yes,DMG-BMPJ-JPN,3980,税抜,ゲームボーイカラーにおけるボードゲーム『モノポリー』のゲーム化第2作目,DXモノポリーGB,Wikipedia+MADB+MAME,MAME,MADB,DXモノポリーGB,M738690,gbcolor:dxmono
+gb-jp-0995,2000-04-21,バッグス・バニー クレイジーキャッスル4,KEMCO,gbc_only,,CGB-AO4J-JPN,3980,税抜,クレイジーキャッスルシリーズ第4作目,バッグス・バニー クレイジーキャッスル4,Wikipedia+MADB+MAME,MAME,MADB,バックス・バニー クレイジーキャッスル4,M753988,gbcolor:bugsbcc4j
+gb-jp-0996,2000-04-21,バーガーパラダイス インターナショナル,ギャップス,gbc_only,,CGB-AEYJ-JPN,2980,税抜,バーガーバーガーシリーズの一つ,バーガーパラダイス インターナショナル,Wikipedia+MADB+MAME,MAME,MADB,バーガーパラダイス インターナショナル,M753339,gbcolor:burgerpi
+gb-jp-0997,2000-04-27,メタルギア ゴーストバベル,コナミ,gbc_only,,CGB-BMGJ-JPN,4500,税抜,メタルギアシリーズのスピンオフで、シリーズ初の携帯ゲーム機向け作品,メタルギア ゴーストバベル,Wikipedia+MADB+MAME,MAME,MADB,メタルギア ゴーストバベル,M757528,gbcolor:mgsj
+gb-jp-0998,2000-04-28,パズルボブル4,アルトロン,gbc_compatible,,DMG-AA4J-JPN,3800,税抜,,パズルボブル4,Wikipedia+MADB+MAME,MAME,MADB,パズルボブル4,M753822,gbcolor:pbobble4
+gb-jp-0999,2000-04-28,漢字deパズル,エム・ティー・オー,gbc_compatible,,DMG-BKAJ-JPN,4200,税抜,,漢字deパズル,Wikipedia+MADB+MAME,MAME,MADB,漢字deパズル,M760501,gbcolor:kanjipzl
+gb-jp-1000,2000-04-28,競馬場へ行こう! ワイド,ヘクト,gbc_compatible,,DMG-ASCJ-JPN,3980,税抜,,競馬場へ行こう!,Wikipedia+MADB+MAME,MAME,MADB,競馬場へ行こう! ワイド,M760728,gbcolor:keibajou
+gb-jp-1001,2000-04-28,ディノブリーダー4,J・ウィング,gbc_compatible,yes,DMG-A4DJ-JPN,4800,税抜,,ディノブリーダー4,Wikipedia+MADB+MAME,MAME+MADB,MADB,ディノブリーダー4,M723836,gbcolor:dinobrd4
+gb-jp-1002,2000-04-28,大工の源さん 〜カチカチのトンカチがカチ〜,バイオックス,gbc_compatible,yes,DMG-BGNJ-JPN,3980,税抜,大工の源さんシリーズの一つ,大工の源さん 〜カチカチのトンカチがカチ〜,Wikipedia+MADB+MAME,MAME,MADB,大工の源さん～カチカチのトンカチがカチ～,M763995,gbcolor:daikugen
+gb-jp-1003,2000-04-28,麻雀女王,童,gbc_compatible,yes,DMG-A56J-JPN,3980,税抜,,麻雀女王,Wikipedia+MADB+MAME,MAME,MADB,麻雀女王,M766120,gbcolor:mjjoo
+gb-jp-1004,2000-04-28,ロードランナー ドムドム団のやぼう,エクシング・エンタテイメント,gbc_compatible,,DMG-BXLJ-JPN,3980,税抜,ロードランナーシリーズの一つ,ロードランナー ドムドム団のやぼう,Wikipedia+MADB+MAME,MAME,MADB,ロードランナー ドムドム団のやぼう,M758967,gbcolor:ldrun
+gb-jp-1005,2000-04-28,ドラえもんのクイズボーイ,小学館,gbc_only,,CGB-BQBJ-JPN,3800,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのクイズボーイ,M752373,gbcolor:doraqzb
+gb-jp-1006,2000-04-28,フェレット物語 ディア・マイ・フェレット,カルチャーブレーン,gbc_only,,CGB-BBIJ-JPN,3900,税抜,,フェレット物語 ディア・マイ・フェレット,Wikipedia+MADB+MAME,MAME+MADB,MADB,フェレット物語 ディア・マイ・フレンド,M723835,gbcolor:ferret
+gb-jp-1007,2000-05-19,ゲームコンビニ21,スターフィッシュ,gbc_compatible,,DMG-BG2J-JPN,3980,税抜,,ゲームコンビニ21,Wikipedia+MADB+MAME,MAME,MADB,GAMEコンビニ21,M739416,gbcolor:gameconv
+gb-jp-1008,2000-05-26,タイトーメモリアル バブルボブル,ジョルダン,gbc_compatible,yes,DMG-BJBJ-JPN,3980,税抜,,バブルボブル,Wikipedia+MADB+MAME,MAME,MADB,タイトーメモリアル バブルボブル,M750847,gbcolor:bublboblj
+gb-jp-1009,2000-05-26,タイトーメモリアル チェイスH.Q.,ジョルダン,gbc_compatible,yes,DMG-BJCJ-JPN,3980,税抜,,チェイスH.Q.,Wikipedia+MADB+MAME,MAME,MADB,タイトーメモリアル チェイスH.Q.,M750846,gbcolor:chasehqj
+gb-jp-1010,2000-06-02,大貝獣物語 ポヨンのダンジョンルーム2,ハドソン,gbc_only,,CGB-BP2J-JPN,3980,税抜,,大貝獣物語 ポヨンのダンジョンルーム2,Wikipedia+MADB+MAME,MAME,MADB,ポヨンのダンジョンルーム2,M756495,gbcolor:poyondr2
+gb-jp-1011,2000-06-10,ビックリマン2000 チャージングカードGB,イマジニア,gbc_compatible,yes,DMG-BC2J-JPN,3980,税抜,ビックリマン (シール)14代目「ビックリマン2000」が題材,ビックリマン2000 チャージングカードGB,Wikipedia+MADB+MAME,MAME+MADB,MADB,ビックリマン2000 チャージングカードGB 初回限定版,M723803,gbcolor:bikkuri
+gb-jp-1012,2000-06-15,HUNTER×HUNTER ハンターの系譜,コナミ,gbc_only,,CGB-BHHJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画およびアニメ『HUNTER×HUNTER』のゲーム化第1作目,HUNTER×HUNTER ハンターの系譜,Wikipedia+MADB+MAME,MAME,MADB,HUNTER×HUNTER ハンターの系譜,M739867,gbcolor:hxhhunke
+gb-jp-1013,2000-06-29,ミスタードリラー,ナムコ,gbc_only,,CGB-BMDJ-JPN,3800,税抜,同名アーケードゲームの移植版,ミスタードリラー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ミスタードリラー,M723777,gbcolor:mrdrillrja
+gb-jp-1014,2000-06-30,おじゃる丸 〜満願神社の縁日でおじゃる!〜,エム・ティー・オー,gbc_compatible,,DMG-BOJJ-JPN,4200,税抜,ゲームボーイカラーにおけるテレビアニメ『おじゃる丸』のゲーム第1作目,おじゃる丸 〜満願神社の縁日でおじゃる!〜,Wikipedia+MADB+MAME,MAME,MADB,おじゃる丸～満願神社の縁日でおじゃる! ～,M746293,gbcolor:ojarumam
+gb-jp-1015,2000-06-30,漢字BOY2,J・ウィング,gbc_compatible,yes,DMG-A2CJ-JPN,4800,税抜,,漢字BOY,Wikipedia+MADB+MAME,MAME,MADB,漢字BOY2,M760499,gbcolor:kanjibo2
+gb-jp-1016,2000-06-30,ムーミンの大冒険,サンソフト,gbc_only,,CGB-A36J-JPN,3980,税抜,ムーミンが題材,ムーミンの大冒険,Wikipedia+MADB+MAME,MAME,MADB,ムーミンの大冒険,M757420,gbcolor:moominj
+gb-jp-1017,2000-06-30,井出洋介の麻雀教室GB,アテナ,gbc_only,,CGB-BIMJ-JPN,3980,税抜,井出洋介の名を冠した麻雀ゲーム,井出洋介の麻雀教室GB,Wikipedia+MADB+MAME,MAME,MADB,井出洋介の麻雀教室GB,M759675,gbcolor:ideyumjk
+gb-jp-1018,2000-07-04,いつでもパチンコGB CRモンスターハウス,タムソフト,gbc_only,,,3980,税抜,,CRモンスターハウス,Wikipedia+MADB,,MADB,いつでもパチンコGB CRモンスターハウス,M745399,
+gb-jp-1019,2000-07-06,ワールドサッカーGB2000,コナミ,gbc_only,,CGB-BWSJ-JPN,4500,税抜,,ワールドサッカーGB2000,Wikipedia+MADB+MAME,MAME,MADB,ワールドサッカーGB2000,M759336,gbcolor:wsoccr2k
+gb-jp-1020,2000-07-07,あつめてあそぶ くまのプーさん 〜もりのたからもの〜,トミー,gbc_only,,CGB-BPUJ-JPN,3980,税抜,キャラクター・くまのプーさんが題材,あつめてあそぶ くまのプーさん 〜もりのたからもの〜,Wikipedia+MADB+MAME,MAME,MADB,あつめてあそぶ くまのプーさん ～もりのたからもの～,M744919,gbcolor:poohadvj
+gb-jp-1021,2000-07-13,がんばれ!ニッポン! オリンピック2000,コナミ,gbc_only,,CGB-B3HJ-JPN,4500,税抜,ハイパーオリンピック関連タイトル,がんばれ!ニッポン! オリンピック2000,Wikipedia+MADB+MAME,MAME+MADB,MADB,がんばれ! ニッポン! オリンピック2000,M723760,gbcolor:olymp2k
+gb-jp-1022,2000-07-13,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,コナミ,gbc_only,,CGB-BY3J-JPN,4500,税抜,ゲームボーイカラーにおける遊戯王シリーズ第3弾であり、初めて日本国外で発売,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,Wikipedia+MADB+MAME,MAME,MADB,遊☆戯☆王 デュエルモンスターズ3 三聖戦神降臨 初回限定版,M723759,gbcolor:yugidm3
+gb-jp-1023,2000-07-14,おじゃる丸 〜月夜が池のたからもの〜,サクセス,gbc_compatible,,DMG-BORJ-JPN,3980,税抜,ゲームボーイカラーにおけるテレビアニメ『おじゃる丸』のゲーム第2作目,おじゃる丸 〜月夜が池のたからもの〜,Wikipedia+MADB+MAME,MAME,MADB,おじゃる丸 ～月夜が池のたからもの～,M746290,gbcolor:ojarumat
+gb-jp-1024,2000-07-14,ドカポン?! ミレニアムクエスト,アスミック・エース エンタテインメント,gbc_compatible,yes,DMG-BDKJ-JPN,3980,税抜,ドカポンシリーズの一つである、一人用のダンジョンRPG,ドカポン?! ミレニアムクエスト,Wikipedia+MADB+MAME,MAME,MADB,ドカポン?! ミレニアムクエスト,M752092,gbcolor:dokapon
+gb-jp-1025,2000-07-19,サバイバルキッズ2 脱出!!双子島!,コナミ,gbc_compatible,yes,DMG-B2VJ-JPN,4500,税抜,,サバイバルキッズ,Wikipedia+MADB+MAME,MAME,MADB,サバイバルキッズ2 脱出!! 双子島!,M748840,gbcolor:survkid2
+gb-jp-1026,2000-07-19,ハローキティのスウィートアドベンチャー 〜ダニエルくんにあいたい〜,イマジニア,gbc_compatible,yes,DMG-BKTJ-JPN,3980,税抜,ゲームボーイカラーにおけるハローキティが題材のゲーム第4作目,ハローキティのスウィートアドベンチャー 〜ダニエルくんにあいたい〜,Wikipedia+MADB+MAME,MAME,MADB,ハローキティのスウィートアドベンチャー ～ダニエルくんにあいたい～,M754424,gbcolor:helloksa
+gb-jp-1027,2000-07-19,ディアダニエルのスウィートアドベンチャー 〜キティちゃんをさがして〜,イマジニア,gbc_compatible,yes,,3980,税抜,,ディアダニエルのスウィートアドベンチャー 〜キティちゃんをさがして〜,Wikipedia+MADB,,MADB,ディアダニエルのスウィートアドベンチャー～キティちゃんをさがして～,M751421,
+gb-jp-1028,2000-07-21,データナビプロ野球,ナウプロダクション,gbc_only,,CGB-A89J-JPN,4300,税抜,,データナビプロ野球,Wikipedia+MADB+MAME,MAME,MADB,データナビプロ野球,M751611,gbcolor:dnyakyu
+gb-jp-1029,2000-07-21,爆走デコトラ伝説GBスペシャル 男度胸の天下統一,KID,gbc_only,,CGB-BDBJ-JPN,3980,税抜,爆走デコトラ伝説シリーズの一つ,爆走デコトラ伝説GBスペシャル 男度胸の天下統一,Wikipedia+MADB+MAME,MAME,MADB,爆走デコトラ伝説GBスペシャル 男度胸の天下統一,M765375,gbcolor:bakusodd
+gb-jp-1030,2000-07-23,メダロット3 カブトバージョン,イマジニア,gbc_only,,CGB-B32J-JPN,4300,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット3 カブトバージョン,M757655,gbcolor:medar3ka
+gb-jp-1031,2000-07-23,メダロット3 クワガタバージョン,イマジニア,gbc_only,,CGB-B33J-JPN,4300,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット3 クワガタバージョン,M757656,gbcolor:medar3ku
+gb-jp-1032,2000-07-28,華蘭虎龍学園 〜花札・麻雀〜,J・ウィング,gbc_only,,,4800,税抜,,華蘭虎龍学園 〜花札・麻雀〜,Wikipedia+MADB,,MADB,華蘭虎龍学園 ～花札・麻雀～,M760247,
+gb-jp-1033,2000-07-28,サクラ大戦GB 檄・花組入隊!,メディアファクトリー,gbc_only,,CGB-BRJJ-JPN,4800,税抜,,サクラ大戦GB 檄・花組入隊!,Wikipedia+MADB+MAME,MAME,MADB,サクラ大戦GB 檄・花組入隊! ポケットサクラパック,M748811,gbcolor:sakura
+gb-jp-1034,2000-08-03,ダンスダンスレボリューションGB,コナミ,gbc_only,,CGB-BDGJ-JPN,4800,税抜,アーケードゲーム『Dance Dance Revolution』の移植版,ダンスダンスレボリューションGB,Wikipedia+MADB+MAME,MAME,MADB,ダンスダンスレボリューションGB,M751142,gbcolor:ddr
+gb-jp-1035,2000-08-04,ゾイド -ZOIDS- 邪神復活!〜ジェノブレイカー編〜,トミー,gbc_compatible,yes,DMG-BGZJ-JPN,4500,税抜,,ゾイド -ZOIDS- 邪神復活!〜ジェノブレイカー編〜,Wikipedia+MADB+MAME,MAME,MADB,ゾイド 邪神復活! ～ジェノブレイカー編～,M750513,gbcolor:zoidsjas
+gb-jp-1036,2000-08-04,ソウルゲッター 〜放課後冒険RPG〜,マイクロキャビン,gbc_compatible,,DMG-AL9J-JPN,3980,税抜,,ソウルゲッター 〜放課後冒険RPG〜,Wikipedia+MADB+MAME,MAME,MADB,ソウルゲッター ～放課後冒険RPG～,M750542,gbcolor:soulget
+gb-jp-1037,2000-08-04,ダンジョンセイバー,J・ウィング,gbc_compatible,yes,DMG-ADWJ-JPN,4800,税抜,,ダンジョンセイバー,Wikipedia+MADB+MAME,MAME,MADB,ダンジョンセイバー,M751123,gbcolor:dsavior
+gb-jp-1038,2000-08-04,マジカルチェイスGB 〜見習い魔法使い 賢者の谷へ〜,マイクロキャビン,gbc_only,,CGB-AIFJ-JPN,3480,税抜,PCエンジン用ソフト『マジカルチェイス』の移植版,マジカルチェイスGB 〜見習い魔法使い 賢者の谷へ〜,Wikipedia+MADB+MAME,MAME,MADB,マジカルチェイスGB ～見習い魔法使い 賢者の谷へ～,M756771,gbcolor:magchase
+gb-jp-1039,2000-08-04,ぞくぞくヒーローズ,メディアファクトリー,gbc_only,,CGB-BZHJ-JPN,5980,税抜,,ぞくぞくヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ぞくぞくヒーローズ,M750579,gbcolor:zokzok
+gb-jp-1040,2000-08-04,ぬし釣りアドベンチャー カイトの冒険,ビクターインタラクティブソフトウェア,gbc_only,,CGB-VVJJ-JPN,4200,税抜,ぬし釣りシリーズの一つ,ぬし釣りアドベンチャー カイトの冒険,Wikipedia+MADB+MAME,MAME,MADB,ぬし釣りアドベンチャー カイトの冒険,M753173,gbcolor:nushiadv
+gb-jp-1041,2000-08-04,ラブひなポケット,マーベラスエンターテイメント,gbc_only,,CGB-BPHJ-JPN,4300,税抜,ゲームボーイカラーにおける漫画およびアニメ『ラブひな』のゲーム化第1作目,ラブひなポケット,Wikipedia+MADB+MAME,MAME,MADB,ラブひなポケット,M758335,gbcolor:lovehina
+gb-jp-1042,2000-08-10,筋肉番付GB2 〜目指せ!マッスルチャンピオン!〜,コナミ,gbc_compatible,yes,DMG-B6KJ-JPN,4500,税抜,ゲームボーイカラーにおけるテレビ番組『筋肉番付』のゲーム化第2作目,筋肉番付GB2 〜目指せ!マッスルチャンピオン!〜,Wikipedia+MADB+MAME,MAME,MADB,筋肉番付GB2 ～目指せ! マッスルチャンピオン～,M760804,gbcolor:kinnibn2
+gb-jp-1043,2000-08-11,海底伝説!! トレジャーワールド,ダズ,gbc_compatible,,DMG-BDTJ-JPN,3980,税抜,,海底伝説!! トレジャーワールド,Wikipedia+MADB+MAME,MAME,MADB,海底伝説!! トレジャーワールド,M760371,gbcolor:kaiteide
+gb-jp-1044,2000-08-11,所さんの世田谷カントリークラブ,ナツメ,gbc_compatible,,DMG-BGBJ-JPN,3980,税抜,,所さんの世田谷カントリークラブ,Wikipedia+MADB+MAME,MAME,MADB,所さんの世田谷カントリークラブ,M762221,gbcolor:tokoro
+gb-jp-1045,2000-08-11,谷村ひとし流パチンコ攻略大作戦 ドン・キホーテが行く,アトラス,gbc_compatible,yes,CGB-BDHJ-JPN,4500,税抜,,谷村ひとし流パチンコ攻略大作戦,Wikipedia+MADB+MAME,MAME,MADB,ドン・キホーテが行く,M752751,gbcolor:donqix
+gb-jp-1046,2000-08-11,トゥイティー世界一周 80匹の猫をさがせ!,KEMCO,gbc_only,,CGB-BTWJ-JPN,4200,税抜,キャラクター・トゥイティーが題材,トゥイティー世界一周 80匹の猫をさがせ!,Wikipedia+MADB+MAME,MAME,MADB,トゥイティー世界一周 80匹の猫をさがせ!,M752024,gbcolor:tweetyj
+gb-jp-1047,2000-08-11,K.O. -ザ・プロボクシング-,アルトロン,gbc_only,,CGB-BKOJ-JPN,4500,税抜,,K.O. -ザ・プロボクシング-,Wikipedia+MADB+MAME,MAME,MADB,K.O. ～ザ・プロボクシング～,M740075,gbcolor:koprobox
+gb-jp-1048,2000-08-11,実戦に役立つ詰碁,ポニーキャニオン,gbc_only,,CGB-BJTJ-JPN,3980,税抜,,実戦に役立つ詰碁,Wikipedia+MADB+MAME,MAME,MADB,実践に役立つ詰碁,M762027,gbcolor:jissen
+gb-jp-1049,2000-08-11,なかよしペットシリーズ3 かわいい仔犬,エム・ティー・オー,gbc_only,,CGB-B7IJ-JPN,3980,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ3 かわいい仔犬,M734298,gbcolor:nakapet3
+gb-jp-1050,2000-08-11,パーフェクトチョロQ,タカラ,gbc_only,,CGB-BPQJ-JPN,3980,税抜,チョロQシリーズの一つ,パーフェクトチョロQ,Wikipedia+MADB+MAME,MAME,MADB,パーフェクトチョロQ,M753445,gbcolor:pchoroq
+gb-jp-1051,2000-08-11,ベイブレード FIGHTING TOURNAMENT,ハドソン,gbc_only,,CGB-BBVJ-JPN,3980,税抜,ゲームボーイにおけるベイブレードシリーズ第2作目,ベイブレード FIGHTING TOURNAMENT,Wikipedia+MADB+MAME,MAME,MADB,ベイブレードFIGHTING TOURNAMENT,M755965,gbcolor:beyblade
+gb-jp-1052,2000-08-23,コロコロカービィ,任天堂,gbc_only,,CGB-KKKJ-JPN,4500,税抜,動きセンサー対応 ゲームボーイアドバンスSP非対応,コロコロカービィ,Wikipedia+MADB+MAME,MAME+MADB,MADB,コロコロカービィ,M723711,gbcolor:korokoro
+gb-jp-1053,2000-09-07,ポップンミュージックGB アニメーションメロディ,コナミ,gbc_only,,CGB-BPAJ-JPN,,,pop'n musicシリーズの一つ,ポップンミュージックGB アニメーションメロディ,Wikipedia+MADB+MAME,MAME+MADB,,,M723683,gbcolor:popngbam
+gb-jp-1054,2000-09-08,とっとこハム太郎 ともだち大作戦でちゅ,任天堂,gbc_only,,DMG-BHTJ-JPN,3800,税抜,ゲームボーイカラーにおける『とっとこハム太郎』のキャラクターゲーム第1作目,とっとこハム太郎 ともだち大作戦でちゅ,Wikipedia+MADB+MAME,MAME,MADB,とっとこハム太郎 ともだち大作戦でちゅ,M723682,gbcolor:tottokh
+gb-jp-1055,2000-09-21,ポケモンでパネポン,任天堂,gbc_only,,CGB-BPNJ-JPN,3800,税抜,『ポケットモンスター』の世界観と『パネルでポン』のシステムをあわせた作品,ポケモンでパネポン,Wikipedia+MADB+MAME,MAME,MADB,ポケモンでパネポン,M756339,gbcolor:pokepuzlj
+gb-jp-1056,2000-09-22,ハムスター倶楽部 あわせてチュー,ジョルダン,gbc_only,,CGB-BJHJ-JPN,3980,税抜,漫画『ハムスター倶楽部』を題材とした落ちものパズル,ハムスター倶楽部 あわせてチュー,Wikipedia+MADB+MAME,MAME,MADB,ハムスター倶楽部 あわせてチュー,M754276,gbcolor:hamstcla
+gb-jp-1057,2000-09-22,ぼくのキャンプ場,ナグザット,gbc_only,,CGB-BDPJ-JPN,3980,税抜,キャンプ場を題材とした経営シミュレーション,ぼくのキャンプ場,Wikipedia+MADB+MAME,MAME,MADB,ぼくのキャンプ場,M756168,gbcolor:bokucamp
+gb-jp-1058,2000-09-22,ぽけっとぷよぷよ〜ん,コンパイル,gbc_only,,CGB-BPYJ-JPN,3980,税抜,『ぷよぷよ〜ん』の移植版,ぽけっとぷよぷよ〜ん,Wikipedia+MADB+MAME,MAME,MADB,ぽけっとぷよぷよ～ん,M756258,gbcolor:poktpuyn
+gb-jp-1059,2000-09-28,パズルデショーブヨ! ウータマちゃん,ナグザット,gbc_compatible,,DMG-BKUJ-JPN,3800,税抜,,パズルデショーブヨ! ウータマちゃん,Wikipedia+MADB,MAME,MADB,パズルデショーブヨ! ウータマちゃん,M753805,gbcolor:puzlshou
+gb-jp-1060,2000-09-28,ビートマニアGB ガッチャミックス2,コナミ,gbc_only,,CGB-B3GJ-JPN,4300,税抜,ビートマニアGBシリーズ第3弾で、当初は「ビートマニアGB3 NET JAM」という題名だった。 この時点ではモバイルGBアダプタによるメール機能や追加コンテンツのついたカラオケソフトになる予定だったが、最終的には通信機能を大幅に縮小した,ビートマニアGB ガッチャミックス2,Wikipedia+MADB+MAME,MAME,MADB,ビートマニアGB ガッチャミックス2,M754547,gbcolor:bmanigb3
+gb-jp-1061,2000-09-29,スペースインベーダーX,タイトー,gbc_compatible,,DMG-BSIJ-JPN,3980,税抜,,スペースインベーダー,Wikipedia+MADB+MAME,MAME,MADB,スペースインベーダー X,M750203,gbcolor:spaceinvx
+gb-jp-1062,2000-09-29,ソロモン,テクモ,gbc_only,,CGB-BSOJ-JPN,4300,税抜,モンスターファームシリーズの1作品で、システムはテクモの別作品『ソロモンの鍵』をベースとしている,ソロモン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,ソロ・モン,M723649,gbcolor:solomon
+gb-jp-1063,2000-09-29,牧場物語GB3 ボーイ・ミーツ・ガール,ビクターインタラクティブソフトウェア,gbc_only,,CGB-BWAJ-JPN,4200,税抜,,牧場物語GB3 ボーイ・ミーツ・ガール,Wikipedia+MADB+MAME,MAME,MADB,牧場物語GB3 ボーイ・ミーツ・ガール,M765876,gbcolor:bokujom3
+gb-jp-1064,2000-09-29,エレベーターアクションEX,アルトロン,gbc_only,,CGB-BEXJ-JPN,4500,税込,ゲームボーイ版『エレベーターアクション』の移植版,エレベーターアクションEX,Wikipedia+MADB+MAME,MAME,MADB,エレベーターアクションEX,M746160,gbcolor:elevatorj
+gb-jp-1065,2000-09-29,ゴン太のおきらく大冒険,レイアップ,gbc_only,,CGB-B54J-JPN,3980,税抜,サンライズのマスコットキャラクター・ゴン太を題材としたアドベンチャーゲーム,ゴン太のおきらく大冒険,Wikipedia+MADB+MAME,MAME,MADB,ゴン太のおきらく大冒険,M748465,gbcolor:gonta
+gb-jp-1066,2000-09-29,新世紀エヴァンゲリオン 麻雀補完計画,キングレコード,gbc_only,,CGB-BQRJ-JPN,3980,税抜,アニメ『新世紀エヴァンゲリオン』が題材の麻雀ゲーム,新世紀エヴァンゲリオン 麻雀補完計画,Wikipedia+MADB+MAME,MAME,MADB,新世紀エヴァンゲリオン 麻雀補完計画,M762621,gbcolor:evangeln
+gb-jp-1067,2000-10-06,カードキャプターさくら 〜友枝小学校大運動会〜,エム・ティー・オー,gbc_only,,CGB-BS7J-JPN,4200,税抜,ゲームボーイカラーにおける『カードキャプターさくら』のゲーム化第2作目,カードキャプターさくら 〜友枝小学校大運動会〜,Wikipedia+MADB+MAME,MAME,MADB,カードキャプターさくら ～友枝小学校大運動会～,M746527,gbcolor:ccsakuto
+gb-jp-1068,2000-10-06,スーパードール・リカちゃん 〜きせかえ大作戦〜,ヴィアール・ワン,gbc_only,,CGB-BSLJ-JPN,4300,税抜,着せ替え人形リカちゃんが題材,スーパードール・リカちゃん 〜きせかえ大作戦〜,Wikipedia+MADB+MAME,MAME,MADB,スーパードール・リカちゃん ～きせかえ大作戦～,M749538,gbcolor:sdoll
+gb-jp-1069,2000-10-19,サイボーグクロちゃん 〜ホワイトウッズの逆襲〜,コナミ,gbc_only,,CGB-BSBJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画『サイボーグクロちゃん』のゲーム化第2作目,サイボーグクロちゃん 〜ホワイトウッズの逆襲〜,Wikipedia+MADB+MAME,MAME,MADB,サイボーグクロちゃん2 ～ホワイトウッズの逆襲～,M748721,gbcolor:cyborgk2
+gb-jp-1070,2000-10-20,ロックマンX サイバーミッション,カプコン,gbc_compatible,,DMG-BRXJ-JPN,3980,税抜,スーパーファミコン用ソフト『ロックマンX』を基にした作品,ロックマンX サイバーミッション,Wikipedia+MADB+MAME,MAME,MADB,ロックマンX サイバーミッション,M759146,gbcolor:rockmnx
+gb-jp-1071,2000-10-21,怪人ゾナー,任天堂,gbc_compatible,yes,DMG-BKZJ-JPN,3800,税抜,,怪人ゾナー,Wikipedia+MADB+MAME,MAME,MADB,怪人ゾナー,M760324,gbcolor:phantomz
+gb-jp-1072,2000-10-27,合格ボーイシリーズ □いアタマを○くする 図形の達人,イマジニア,gb,,DMG-BZ4J-JPN,3800,税抜,,,Wikipedia+MADB+MAME,MAME,MADB,合格ボーイシリーズ □いアタマを○くする 図形の達人,M734583,gbsshika
+gb-jp-1073,2000-10-27,JETでGO!,アルトロン,gbc_only,,CGB-BJEJ-JPN,4500,税抜,,JETでGO!,Wikipedia+MADB+MAME,MAME,MADB,JETでGO!,M739994,gbcolor:jetdego
+gb-jp-1074,2000-11-01,マリオテニスGB,任天堂,gbc_only,,CGB-BM8J-JPN,3800,税抜,,マリオテニスGB,Wikipedia+MADB+MAME,MAME+MADB,MADB,マリオテニスGB,M723619,gbcolor:mariotenj
+gb-jp-1075,2000-11-03,携帯電獣テレファング スピードバージョン,スマイルソフト,gbc_compatible,,DMG-BTZJ-JPN,4700,税抜,,携帯電獣テレファング,Wikipedia+MADB+MAME,MAME,MADB,携帯電獣テレファング スピードバージョン,M760962,gbcolor:telefngs
+gb-jp-1076,2000-11-03,携帯電獣テレファング パワーバージョン,スマイルソフト,gbc_compatible,,DMG-BTXJ-JPN,4700,税抜,,携帯電獣テレファング,Wikipedia+MADB+MAME,MAME,MADB,携帯電獣テレファング パワーバージョン,M760963,gbcolor:telefngp
+gb-jp-1077,2000-11-03,血と汗と涙の高校野球,J・ウィング,gbc_only,,CGB-BBJJ-JPN,4800,税抜,,血と汗と涙の高校野球,Wikipedia+MADB+MAME,MAME,MADB,血と汗と涙の高校野球,M761030,gbcolor:chitoase
+gb-jp-1078,2000-11-10,テイルズ オブ ファンタジア なりきりダンジョン,ナムコ,gbc_compatible,yes,DMG-AN6J-JPN,4500,税抜,,テイルズ オブ ファンタジア なりきりダンジョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,テイルズオブファンタジア なりきり ダンジョン,M723606,gbcolor:tophant
+gb-jp-1079,2000-11-16,ダンスダンスレボリューションGB2,コナミ,gbc_only,,CGB-BD2J-JPN,4800,税抜,ゲームボーイカラーにおけるDance Dance Revolutionシリーズ第2作目 専用コントローラ同梱,ダンスダンスレボリューションGB2,Wikipedia+MADB+MAME,MAME+MADB,MADB,Dance Dance Revolution GB2,M720594,gbcolor:ddr2
+gb-jp-1080,2000-11-17,真・女神転生デビルチルドレン 〜黒の書〜,アトラス,gbc_compatible,yes,DMG-BHEJ-JPN,4300,税抜,『女神転生』シリーズの外伝,真・女神転生 デビルチルドレン 黒の書・赤の書,Wikipedia+MADB+MAME,MAME,MADB,真・女神転生 デビルチルドレン ～黒の書～,M762872,gbcolor:shinmtk
+gb-jp-1081,2000-11-17,真・女神転生デビルチルドレン 〜赤の書〜,アトラス,gbc_compatible,yes,DMG-BHNJ-JPN,4300,税抜,『女神転生』シリーズの外伝,真・女神転生 デビルチルドレン 黒の書・赤の書,Wikipedia+MADB+MAME,MAME,MADB,真・女神転生 デビルチルドレン ～赤の書～,M762873,gbcolor:shinmta
+gb-jp-1082,2000-11-17,ドキドキ伝説 魔法陣グルグル,エニックス,gbc_only,,CGB-B96J-JPN,5900,税抜,同名テレビアニメのゲーム化,ドキドキ伝説 魔法陣グルグル (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ドキドキ伝説 魔法陣グルグル,M752116,gbcolor:dokidoki
+gb-jp-1083,2000-11-21,モンスタータクティクス,任天堂,gbc_only,,CGB-BMFJ-JPN,3800,税抜,,モンスタータクティクス,Wikipedia+MADB+MAME,MAME+MADB,MADB,モンスタータクティクス,M723596,gbcolor:kakurenb
+gb-jp-1084,2000-11-22,エアフォースデルタ,コナミ,gbc_only,,CGB-BDLJ-JPN,4300,税抜,,エアフォースデルタ,Wikipedia+MADB+MAME,MAME,MADB,エアフォースデルタ,M745939,gbcolor:airforcdj
+gb-jp-1085,2000-11-22,グリンチ,コナミ,gbc_only,,CGB-BUGJ-JPN,4500,税抜,,グリンチ,Wikipedia+MADB+MAME,MAME,MADB,グリンチ,M747734,gbcolor:grinchj
+gb-jp-1086,2000-11-22,コマンドマスター,エニックス,gbc_only,,CGB-KCEJ-JPN,5900,税抜,,コマンドマスター,Wikipedia+MADB+MAME,MAME,MADB,コマンドマスター,M748378,gbcolor:commandm
+gb-jp-1087,2000-11-22,ポップンミュージックGB ディズニーチューンズ,コナミ,gbc_only,,CGB-BPDJ-JPN,4500,税抜,Pop'n musicシリーズの一つ,ポップンミュージックGB ディズニーチューンズ,Wikipedia+MADB+MAME,MAME,MADB,ポップンミュージックGB ディズニーチューンズ,M756432,gbcolor:popngbdt
+gb-jp-1088,2000-11-23,それいけ!アンパンマン 〜5つの塔の王様〜,タム,gbc_only,,CGB-BS2J-JPN,4300,税抜,ゲームボーイカラーにおけるテレビアニメ『それいけ!アンパンマン』のゲーム化第2作目,それいけ!アンパンマン 〜5つの塔の王様〜,Wikipedia+MADB+MAME,MAME,MADB,それいけ!! アンパンマン ～5つの塔の王様～,M750723,gbcolor:anpan5to
+gb-jp-1089,2000-11-24,仙界異闇録 準提大戦 〜TVアニメーション「仙界伝封神演義」より〜,バンプレスト,gbc_compatible,yes,DMG-BHSJ-JPN,3980,税抜,テレビアニメ『仙界伝封神演義』のゲーム化,仙界異闇録 準提大戦 〜TVアニメーション「仙界伝封神演義」より〜,Wikipedia+MADB+MAME,MAME,MADB,仙界異聞録 準提大戦 ～TVアニメーション「仙界伝封神演義」より～,M763373,gbcolor:senkai
+gb-jp-1090,2000-11-24,メダロット3 パーツコレクション 〜Zからの超戦場〜,イマジニア,gbc_only,,CGB-B3PJ-JPN,4300,税抜,,メダロット,Wikipedia+MADB+MAME,MAME,MADB,メダロット3 パーツコレクション ～Zからの超戦場～,M757657,gbcolor:medar3cl
+gb-jp-1091,2000-11-30,ハムナプトラ 失われた砂漠の都,コナミ,gbc_only,,CGB-BUMJ-JPN,4300,税抜,,ハムナプトラ 失われた砂漠の都,Wikipedia+MADB+MAME,MAME,MADB,ハムナプトラ ～失われた砂漠の都～,M754290,gbcolor:hamunapt
+gb-jp-1092,2000-12-01,ドナルドダック デイジーを救え!,Ubiソフト,gbc_only,,CGB-BUDJ-JPN,4300,税抜,キャラクター・ドナルドダックが題材,ドナルドダック デイジーを救え!,Wikipedia+MADB+MAME,MAME,MADB,ドナルドダック デイジーを救え!,M752261,gbcolor:donalddj
+gb-jp-1093,2000-12-01,GBハロボッツ,サンライズインタラクティブ,gbc_only,,CGB-BHRJ-JPN,4800,税抜,,ハロボッツ,Wikipedia+MADB+MAME,MAME,MADB,GBハロボッツ,M739425,gbcolor:harobots
+gb-jp-1094,2000-12-01,スーパーミメルGB ミメルベアのハッピーメールタウン,トミー,gbc_only,,CGB-BHAJ-JPN,3980,税抜,,ミメル,Wikipedia+MADB+MAME,MAME,MADB,スーパーミメルGB ミメルベアのハッピーメールタウン,M749688,gbcolor:smemail
+gb-jp-1095,2000-12-01,六門天外モンコレナイトGB,角川書店,gbc_only,,CGB-BKDJ-JPN,4300,税抜,テレビアニメ『六門天外モンコレナイト』のゲーム化 任天堂スペースワールド2000に出展した時点では2000年11月に発売が予定されていた。,六門天外モンコレナイトGB,Wikipedia+MADB+MAME,MAME,MADB,六門天外モンコレナイトGB,M766878,gbcolor:rokumon
+gb-jp-1096,2000-12-02,Piaキャロットへようこそ!!2.2,NECインターチャネル,gbc_only,,CGB-B22J-JPN,5300,税抜,,Piaキャロットへようこそ!!2.2,Wikipedia+MADB+MAME,MAME,MADB,Piaキャロットへようこそ!! 2.2,M741551,gbcolor:picarro2
+gb-jp-1097,2000-12-07,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記 海馬デッキ,コナミ,gbc_only,,CGB-BY5J-JPN,4800,税抜,,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 デュエルモンスターズ4 最強決闘者戦記 海馬デッキ,M766496,gbcolor:yugidm4k
+gb-jp-1098,2000-12-07,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記 城之内デッキ,コナミ,gbc_only,,CGB-BY6J-JPN,4800,税抜,,,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 デュエルモンスターズ4 最強決闘者戦記 城之内デッキ,M766497,gbcolor:yugidm4j
+gb-jp-1099,2000-12-07,遊☆戯☆王デュエルモンスターズ4 最強決闘者戦記 遊戯デッキ,コナミ,gbc_only,,CGB-BY4J-JPN,4800,税抜,,,Wikipedia+MADB+MAME,MAME,MADB,遊戯王 デュエルモンスターズ4 最強決闘者戦記 遊戯デッキ,M766498,gbcolor:yugidm4y
+gb-jp-1100,2000-12-08,ゲームボーイ ドラゴンクエストIII そして伝説へ…,エニックス,gbc_only,,CGB-BD3J-JPN,6400,税抜,,ドラゴンクエストIII そして伝説へ…,Wikipedia+MADB+MAME,MAME,MADB,ゲームボーイ ドラゴンクエスト3  そして伝説へ…,M734065,gbcolor:dquest3
+gb-jp-1101,2000-12-08,だぁ!だぁ!だぁ! とつぜん★カードでバトルで占いで!?,ビデオシステム,gbc_only,,CGB-BDOJ-JPN,4500,税抜,漫画およびアニメ『だぁ!だぁ!だぁ!』のゲーム化,だぁ!だぁ!だぁ! とつぜん★カードでバトルで占いで!?,Wikipedia+MADB+MAME,MAME,MADB,だぁ! だぁ! だぁ! とつぜん★カードでバトルで占いで! ?,M750757,gbcolor:daadaada
+gb-jp-1102,2000-12-08,でじこの麻雀パーティー,キングレコード,gbc_only,,CGB-BQSJ-JPN,3980,税抜,キャラクターのデ・ジ・キャラットが題材,でじこの麻雀パーティー,Wikipedia+MADB+MAME,MAME+MADB,MADB,でじこの麻雀パーティー,M723549,gbcolor:dejikomj
+gb-jp-1103,2000-12-08,電車でGO!2,サイバーフロント,gbc_only,,CGB-B82J-JPN,5200,税抜,アーケードゲーム『電車でGO!2高速編』の移植版 任天堂スペースワールド2000出展の時点では2000年12月10日に発売が予定されていた,電車でGO!2,Wikipedia+MADB+MAME,MAME,MADB,電車でGO! 2,M764681,gbcolor:dendego2
+gb-jp-1104,2000-12-14,ポケットモンスター クリスタルバージョン,任天堂,gbc_only,,CGB-BXTJ-JPN,3800,税抜,『ポケットモンスター 金・銀』の別バージョンで、女性主人公やアニメーションなどが追加,ポケットモンスター 金・銀,Wikipedia+MADB+MAME,MAME,MADB,ポケットモンスター クリスタルバージョン,M756280,gbcolor:pokecrysj
+gb-jp-1105,2000-12-15,攻めCOMダンジョン ドルルルアーガ,ナムコ,gbc_compatible,,DMG-BV6J-JPN,4500,税抜,『ドルアーガの塔』関連作品,攻めCOMダンジョン ドルルルアーガ,Wikipedia+MADB+MAME,MAME+MADB,MADB,攻めCOMダンジョン ドルルルアーガ,M723526,gbcolor:semecom
+gb-jp-1106,2000-12-15,ハムスター倶楽部2,ジョルダン,gbc_compatible,,DMG-BJNJ-JPN,4300,税抜,,ハムスター倶楽部,Wikipedia+MADB+MAME,MAME,MADB,ハムスター倶楽部2,M754278,gbcolor:hamstcl2
+gb-jp-1107,2000-12-15,なかよしクッキングシリーズ1 おいしいケーキ屋さん,エム・ティー・オー,gbc_only,,CGB-B7CJ-JPN,3980,税抜,,なかよしクッキングシリーズ1 おいしいケーキ屋さん,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ1 おいしいケーキ屋さん,M734283,gbcolor:ncook1
+gb-jp-1108,2000-12-15,ハムスターパラダイス3,アトラス,gbc_only,,CGB-BH3J-JPN,4300,税抜,,ハムスターパラダイス3,Wikipedia+MADB+MAME,MAME,MADB,ハムスターパラダイス3,M754272,gbcolor:hamstpa3
+gb-jp-1109,2000-12-16,金田一少年の事件簿 〜10年目の招待状〜,バンプレスト,gbc_compatible,yes,DMG-BKSJ-JPN,3980,税抜,漫画『金田一少年の事件簿』を原作とするノベルゲームであり、任天堂スペースワールド2000出展の時点では2000年11月に発売する予定だった,金田一少年の事件簿 〜10年目の招待状〜,Wikipedia+MADB+MAME,MAME,MADB,金田一少年の事件簿 ～10年目の招待状～,M760868,gbcolor:kindajik
+gb-jp-1110,2000-12-20,ドラえもんのスタディボーイ 九九ゲーム,小学館,gbc_only,,CGB-BQQJ-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのスタディボーイ 九九ゲーム,M723524,gbcolor:dorakuku
+gb-jp-1111,2000-12-21,がんばれゴエモン〜星空士ダイナマイッツあらわる!!〜,コナミ,gbc_only,,CGB-BEKJ-JPN,4800,税抜,,がんばれゴエモン〜星空士ダイナマイッツあらわる!!〜,Wikipedia+MADB+MAME,MAME,MADB,がんばれゴエモン ～星空士ダイナマイッツあらわる!! ～,M746950,gbcolor:ggoemdyn
+gb-jp-1112,2000-12-22,かわいいペットショップ物語2,タイトー,gbc_compatible,,DMG-BMNJ-JPN,4200,税抜,,ペットショップ物語,Wikipedia+MADB+MAME,MAME,MADB,かわいいペットショップ物語2,M746826,gbcolor:kawaipt2a
+gb-jp-1113,2000-12-22,パズルボブル ミレニアム,アルトロン,gbc_only,,CGB-BP5J-JPN,4200,税抜,アーケードゲーム『パズルボブル4』の移植版,パズルボブル ミレニアム,Wikipedia+MADB+MAME,MAME,MADB,パズルボブル ミレニアム,M753818,gbcolor:pbobblem
+gb-jp-1114,2000-12-22,飛龍の拳列伝GB,カルチャーブレーン,gbc_only,,,3980,税抜,飛龍の拳シリーズの一つ,飛龍の拳列伝GB,Wikipedia+MADB,,MADB,飛龍の拳列伝GB,M765447,
+gb-jp-1115,2000-12-22,ウィザードリィ エンパイア 〜復活の杖〜,スターフィッシュ,gbc_only,,CGB-BFTJ-JPN,3980,税抜,ウィザードリィシリーズの一つ,ウィザードリィ エンパイア 〜復活の杖〜,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ エンパイア ～復活の杖～,M745575,gbcolor:wizarde2
+gb-jp-1116,2000-12-22,グランディア パラレルトリッパーズ,ハドソン,gbc_only,,CGB-BGEJ-JPN,4500,税抜,『グランディア』関連作品で、任天堂スペースワールド2000出展の時点では2000年12月15日に発売が予定されていた,グランディア パラレルトリッパーズ,Wikipedia+MADB+MAME,MAME,MADB,グランディア パラレルトリッパーズ,M747623,gbcolor:grandia
+gb-jp-1117,2000-12-22,シルバニアファミリー2 〜色づく森のファンタジー〜,エポック社,gbc_only,,CGB-BLVJ-JPN,3980,税抜,『シルバニアファミリー 〜おとぎの国のペンダント〜』の続編,シルバニアファミリー2 〜色づく森のファンタジー〜,Wikipedia+MADB+MAME,MAME,MADB,シルバニアファミリー2 ～色づく森のファンタジー～,M749424,gbcolor:sylvan2
+gb-jp-1118,2001-01-01,あにまるぶり〜だ〜4,J・ウィング,gbc_only,,CGB-A4AJ-JPN,4800,税抜,,あにまるぶり〜だ〜4,Wikipedia+MADB+MAME,MAME,MADB,あにまるぶり～だ～ 4,M744983,gbcolor:animalb4
+gb-jp-1119,2001-01-01,桃太郎伝説1→2,ハドソン,gbc_only,,,4300,税抜,『桃太郎伝説ターボ』と『桃太郎伝説II』を合わせて移植,桃太郎伝説1→2,Wikipedia+MADB,,MADB,桃太郎伝説1→2,M764837,
+gb-jp-1120,2001-01-12,ドラえもんのスタディボーイ 学習漢字ゲーム,小学館,gbc_only,,CGB-BGKJ-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのスタディーボーイ 学習漢字ゲーム,M752375,gbcolor:dorakang
+gb-jp-1121,2001-01-21,ドンキーコング2001,任天堂,gbc_only,,CGB-BDDJ-JPN,3800,税抜,スーパーファミコン用ソフト『スーパードンキーコング』の移植版,ドンキーコング2001,Wikipedia+MADB+MAME,MAME,MADB,ドンキーコング2001,M752774,gbcolor:dkong2k1
+gb-jp-1122,2001-01-26,ブレイブサーガ 新章 アスタリア,タカラ,gbc_only,,CGB-BBSJ-JPN,4700,税抜,,ブレイブサーガ 新章 アスタリア,Wikipedia+MADB+MAME,MAME,MADB,ブレイブサーガ新章 アスタリア,M755780,gbcolor:bravesag
+gb-jp-1123,2001-01-26,ラブひなパーティ,マーベラスエンターテイメント,gbc_only,,CGB-BLHJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画およびアニメ『ラブひな』のゲーム化第2作目,ラブひなパーティ,Wikipedia+MADB+MAME,MAME,MADB,ラブひなパーティー,M758334,gbcolor:lovehpty
+gb-jp-1124,2001-02-02,サムライキッド,コーエー,gbc_only,,CGB-BS5J-JPN,3980,税抜,,サムライキッド,Wikipedia+MADB+MAME,MAME,MADB,サムライキッド,M748855,gbcolor:samurai
+gb-jp-1125,2001-02-08,おはスタ ダンスダンスレボリューションGB,コナミ,gbc_only,,CGB-BD5J-JPN,4800,税抜,Dance Dance Revolutionシリーズにおける『おはスタ』とのコラボレーション,おはスタ ダンスダンスレボリューションGB,Wikipedia+MADB+MAME,MAME,MADB,おはスタ ダンスダンスレボリューションGB,M746370,gbcolor:ohasuddr
+gb-jp-1126,2001-02-09,へろへろくん,イマジニア,gbc_only,,CGB-BH9J-JPN,4800,税抜,同名漫画が題材,へろへろくん (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,へろへろくん,M756079,gbcolor:herohero
+gb-jp-1127,2001-02-09,勝負師伝説 哲也 新宿天運編,アテナ,gbc_only,,CGB-BGYJ-JPN,4700,税抜,漫画『哲也-雀聖と呼ばれた男』のアニメ『勝負師伝説 哲也』のゲーム化,勝負師伝説 哲也 新宿天運編,Wikipedia+MADB+MAME,MAME,MADB,勝負師伝説 哲也 新宿天運編,M762252,gbcolor:gamblert
+gb-jp-1128,2001-02-16,ぽっぷんぽっぷ,ジョルダン,gbc_only,,CGB-BJPJ-JPN,3800,税抜,シューティングゲーム要素のあるパズルゲーム,ぽっぷんぽっぷ,Wikipedia+MADB+MAME,MAME,MADB,ぽっぷんぽっぷ,M756412,gbcolor:popnpopj
+gb-jp-1129,2001-02-16,なかよしペットシリーズ4 かわいい子猫,エム・ティー・オー,gbc_only,,CGB-B7NJ-JPN,4200,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ4 かわいい子猫,M734299,gbcolor:nakapet4
+gb-jp-1130,2001-02-22,筋肉番付GB3 新世紀サバイバル列伝!,コナミ,gbc_only,,CGB-B7KJ-JPN,4800,税抜,ゲームボーイカラーにおけるテレビ番組『筋肉番付』のゲーム化第3作目,筋肉番付GB3 新世紀サバイバル列伝!,Wikipedia+MADB+MAME,MAME,MADB,筋肉番付GB3 ～新世紀サバイバル列伝! ～,M760805,gbcolor:kinnibn3
+gb-jp-1131,2001-02-23,ポケットキング,ナムコ,gbc_compatible,yes,DMG-AV5J-JPN,4500,税抜,『キングオブキングス』関連作品,ポケットキング,Wikipedia+MADB+MAME,MAME,MADB,ポケットキング,M756237,gbcolor:pockking
+gb-jp-1132,2001-02-23,フロントライン The Next Mission,アルトロン,gbc_only,,CGB-BFRJ-JPN,4200,税抜,アーケードゲーム『フロントライン』の移植版,フロントライン The Next Mission,Wikipedia+MADB+MAME,MAME,MADB,フロントライン ～The Next Mission～,M755882,gbcolor:frontlin
+gb-jp-1133,2001-02-23,ウィザードリィ,アスキー,gbc_only,,CGB-BWIJ-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では2000年秋に発売される予定だった,ウィザードリィ 狂王の試練場,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ,M745568,gbcolor:wizardry
+gb-jp-1134,2001-02-23,ウィザードリィII リルガミンの遺産,アスキー,gbc_only,,CGB-BW2J-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では2000年秋に発売される予定だった,ウィザードリィIII リルガミンの遺産,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ2  リルガミンの遺跡,M733968,gbcolor:wizardr2
+gb-jp-1135,2001-02-23,ウィザードリィIII ダイヤモンドの騎士,アスキー,gbc_only,,CGB-BW3J-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では2000年秋に発売される予定だった,ウィザードリィII ダイヤモンドの騎士,Wikipedia+MADB+MAME,MAME,MADB,ウィザードリィ3  ダイヤモンドの騎士,M733969,gbcolor:wizardr3
+gb-jp-1136,2001-02-23,笑う犬の冒険GB SILLY GO LUCKY!,カプコン,gbc_only,,CGB-BWBJ-JPN,4300,税抜,テレビ番組『笑う犬の冒険』が題材,笑う犬の冒険GB SILLY GO LUCKY!,Wikipedia+MADB+MAME,MAME,MADB,笑う犬の冒険GB SILLY GO LUCKY!,M762330,gbcolor:warauinu
+gb-jp-1137,2001-02-23,ちっちゃいエイリアン,クリーチャーズ,gbc_only,,CGB-VCAJ-JPN,4800,税抜,,ちっちゃいエイリアン,Wikipedia+MADB+MAME,MAME,MADB,ちっちゃいエイリアン,M751200,gbcolor:cheechai
+gb-jp-1138,2001-02-23,スーパーロボットピンボール,メディアファクトリー,gbc_only,,CGB-BSUJ-JPN,4500,税抜,スーパーロボットシリーズを題材としたデジタルピンボール,スーパーロボットピンボール,Wikipedia+MADB+MAME,MAME,MADB,スーパーロボットピンボール,M749713,gbcolor:srobopin
+gb-jp-1139,2001-02-27,ゼルダの伝説 ふしぎの木の実 〜時空の章〜,任天堂,gbc_only,,CGB-AZ8J-JPN,3800,税抜,カプコンとの共同制作,ゼルダの伝説 ふしぎの木の実,Wikipedia+MADB+MAME,MAME+MADB,MADB,ゼルダの伝説 ふしぎの木の実 時空の章,M723441,gbcolor:zeldajik
+gb-jp-1140,2001-02-27,ゼルダの伝説 ふしぎの木の実 〜大地の章〜,任天堂,gbc_only,,CGB-AZ7J-JPN,3800,税抜,,ゼルダの伝説 ふしぎの木の実,Wikipedia+MADB+MAME,MAME+MADB,MADB,ゼルダの伝説 ふしぎの木の実 大地の章,M723440,gbcolor:zeldadai
+gb-jp-1141,2001-03-02,ザ・ブラックオニキス,タイトー,gbc_only,,CGB-BBOJ-JPN,4500,税抜,同名PCゲームの移植版,ザ・ブラックオニキス,Wikipedia+MADB+MAME,MAME,MADB,ザ・ブラックオニキス,M748606,gbcolor:blckonyx
+gb-jp-1142,2001-03-09,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 ルカの旅立ち,エニックス,gbc_compatible,yes,DMG-BQLJ-JPN,6400,税抜,,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 ルカの旅立ち,M727939,gbcolor:dqm2ra
+gb-jp-1143,2001-03-09,コトバトル 天外の守人,アルファドリーム,gbc_only,,CGB-BAJJ-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では「コトバトル」という仮称が割り振られており、2000年冬に発売が予定されていた。,コトバトル 天外の守人,Wikipedia+MADB+MAME,MAME,MADB,コトバトル,M748295,gbcolor:kotobatt
+gb-jp-1144,2001-03-09,無敵王トライゼノン,マーベラスエンターテイメント,gbc_only,,CGB-BZNJ-JPN,4800,税抜,同名テレビアニメのゲーム化,無敵王トライゼノン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,無敵王トライゼノン,M723425,gbcolor:trizenon
+gb-jp-1145,2001-03-15,ウッディウッドペッカーのゴー!ゴー!レーシング,コナミ,gbc_only,,CGB-BWRJ-JPN,4500,税抜,ゲームボーイカラーにおけるウッディー・ウッドペッカーが題材のゲーム第1作目,ウッディウッドペッカーのゴー!ゴー!レーシング,Wikipedia+MADB+MAME,MAME,MADB,ウッディウッドペッカーのゴー! ゴー! レーシング,M745855,gbcolor:woodyracj
+gb-jp-1146,2001-03-15,ダンスダンスレボリューションGB3,コナミ,gbc_only,,DMG-BD6J-JPN,4800,税抜,ゲームボーイカラーにおけるDance Dance Revolutionシリーズ第4作目,Dance Dance Revolution,Wikipedia+MADB+MAME,MAME,MADB,ダンスダンスレボリューションGB3,M751144,gbcolor:ddr3
+gb-jp-1147,2001-03-16,ドラえもん きみとペットの物語,エポック社,gbc_compatible,,DMG-BRDJ-JPN,4300,税抜,,ドラえもん きみとペットの物語,Wikipedia+MADB+MAME,MAME,MADB,ドラえもん きみとペットの物語,M752341,gbcolor:dorapetm
+gb-jp-1148,2001-03-16,スペースネット コスモブルー,イマジニア,gbc_only,,,4500,税抜,任天堂スペースワールド2000に出展した時点では「スペースネット SN-01」という仮称が割り振られており、2000年12月1日に発売される予定だった,スペースネット コスモブルー,Wikipedia+MADB,,MADB,スペースネット コスモブルー,M750219,
+gb-jp-1149,2001-03-16,スペースネット コスモレッド,イマジニア,gbc_only,,CGB-BREJ-JPN,4500,税抜,任天堂スペースワールド2000に出展した時点では「スペースネット SN-02」という仮称が割り振られており、2000年12月1日に発売される予定だった,スペースネット コスモレッド,Wikipedia+MADB+MAME,MAME,MADB,スペースネット コスモレッド,M750220,gbcolor:spacentr
+gb-jp-1150,2001-03-23,忍たま乱太郎 忍術学園に入学しようの段,アスク,gbc_only,,CGB-BNAJ-JPN,4500,税抜,テレビアニメ『忍たま乱太郎』のゲーム化,忍たま乱太郎 忍術学園に入学しようの段,Wikipedia+MADB+MAME,MAME,MADB,忍たま乱太郎 ～忍術学園に入学しようの段～,M765128,gbcolor:nintama
+gb-jp-1151,2001-03-23,メダロット4 カブトバージョン,イマジニア,gbc_only,,CGB-B4MJ-JPN,4500,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット4 カブトバージョン,M757658,gbcolor:medar4ka
+gb-jp-1152,2001-03-23,メダロット4 クワガタバージョン,イマジニア,gbc_only,,CGB-B4NJ-JPN,4500,税抜,,メダロット (ゲーム イッキ編),Wikipedia+MADB+MAME,MAME,MADB,メダロット4 クワガタバージョン,M757659,gbcolor:medar4ku
+gb-jp-1153,2001-03-23,砂漠の四神 幻想魔伝 最遊記,J・ウィング,gbc_only,,CGB-BGSJ-JPN,4980,税抜,漫画・最遊記シリーズのゲーム化,砂漠の四神 幻想魔伝 最遊記,Wikipedia+MADB+MAME,MAME,MADB,幻想魔伝 最遊記 砂漠の四神,M761172,gbcolor:gmsayuki
+gb-jp-1154,2001-03-23,おしゃれ日記,ビクターインタラクティブソフトウェア,gbc_only,,CGB-B23J-JPN,4200,税抜,,おしゃれ日記,Wikipedia+MADB+MAME,MAME,MADB,おしゃれ日記,M746310,gbcolor:kisekae2
+gb-jp-1155,2001-03-28,ポケモンカードGB2 GR団参上!,ポケモン,gbc_only,,CGB-BP7J-JPN,3900,税抜,『ポケモンカードGB』シリーズ第2作目,ポケモンカードGB,Wikipedia+MADB+MAME,MAME,MADB,ポケモンカードGB2 GR団参上!,M756333,gbcolor:pokecrd2
+gb-jp-1156,2001-03-29,ダンスダンスレボリューションGB ディズニーミックス,コナミ,gbc_only,,CGB-BD7J-JPN,4800,税抜,ゲームボーイカラーにおけるDance Dance Revolutionシリーズ第5作目,ダンスダンスレボリューションGB ディズニーミックス,Wikipedia+MADB+MAME,MAME,MADB,ダンスダンスレボリューションGB ディズニーミックス,M751143,gbcolor:ddrdisny
+gb-jp-1157,2001-03-30,合格ボーイシリーズ □いアタマを○くする 漢字の達人,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 漢字の達人,M734585,
+gb-jp-1158,2001-03-30,合格ボーイシリーズ □いアタマを○くする 計算の達人,イマジニア,gb,,,3800,税抜,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 計算の達人,M734587,
+gb-jp-1159,2001-03-30,ストリートファイターALPHA,カプコン,gbc_only,,CGB-BFZJ-JPN,4300,税抜,アーケードゲーム『ストリートファイターZERO』の移植版,ストリートファイターALPHA,Wikipedia+MADB+MAME,MAME,MADB,ストリートファイター ALPHA,M750066,gbcolor:sfaj
+gb-jp-1160,2001-03-30,アニマスターGB,メディアファクトリー,gbc_only,,CGB-BNMJ-JPN,3980,税抜,ドリームキャスト用タイトル『アニマスター』の移植版,アニマスターGB,Wikipedia+MADB+MAME,MAME,MADB,アニマスター GB,M744981,gbcolor:animasta
+gb-jp-1161,2001-04-12,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 イルの冒険,エニックス,gbc_compatible,yes,DMG-BQIJ-JPN,6400,税抜,元々は『ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 ルカの旅立ち』と同時発売される予定だったが、発売直前に不具合が判明したため、延期となった,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドラゴンクエストモンスターズ2 マルタのふしぎな鍵 イルの冒険,M723371,gbcolor:dqm2i
+gb-jp-1162,2001-04-12,クロスハンター エックス・ハンター・バージョン,ゲームビレッジ,gbc_only,,CGB-BC9J-JPN,4800,税抜,,クロスハンター,Wikipedia+MADB+MAME,MAME,MADB,クロスハンター ～エックス・ハンター・バージョン～,M747868,gbcolor:xhunterx
+gb-jp-1163,2001-04-12,クロスハンター トレジャー・ハンター・バージョン,ゲームビレッジ,gbc_only,,CGB-BC7J-JPN,4800,税抜,,クロスハンター,Wikipedia+MADB+MAME,MAME,MADB,クロスハンター ～トレジャー・ハンター・バージョン～,M747869,gbcolor:xhuntert
+gb-jp-1164,2001-04-12,クロスハンター モンスター・ハンター・バージョン,ゲームビレッジ,gbc_only,,CGB-BC8J-JPN,4800,税抜,,クロスハンター,Wikipedia+MADB+MAME,MAME,MADB,クロスハンター ～モンスター・ハンター・バージョン～,M747870,gbcolor:xhunterm
+gb-jp-1165,2001-04-12,HUNTER×HUNTER 禁断の秘宝,コナミ,gbc_only,,CGB-BHKJ-JPN,4500,税抜,ゲームボーイカラーにおける漫画およびアニメ『HUNTER×HUNTER』のゲーム化第2作目,HUNTER×HUNTER 禁断の秘宝,Wikipedia+MADB+MAME,MAME,MADB,HUNTER×HUNTER 禁断の秘宝,M739869,gbcolor:hxhkindn
+gb-jp-1166,2001-04-14,ハローキティとディアダニエルのドリームアドベンチャー,イマジニア,gbc_only,,CGB-BK8J-JPN,4500,税抜,ゲームボーイカラーにおけるハローキティが題材のゲーム第5作目,ハローキティとディアダニエルのドリームアドベンチャー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ハローキティとディアダニエルのドリームアドベンチャー,M723370,gbcolor:hellokdd
+gb-jp-1167,2001-04-20,なかよしクッキングシリーズ2 おいしいパン屋さん,エム・ティー・オー,gbc_only,,CGB-B7PJ-JPN,4200,税抜,,なかよしクッキングシリーズ2 おいしいパン屋さん,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ2 おいしいパン屋さん,M734284,gbcolor:ncook2
+gb-jp-1168,2001-04-21,とっとこハム太郎2 ハムちゃんず大集合でちゅ,任天堂,gbc_only,,CGB-B86J-JPN,3800,税抜,ゲームボーイカラーにおける『とっとこハム太郎』のキャラクターゲーム第2作目,とっとこハム太郎2 ハムちゃんず大集合でちゅ,Wikipedia+MADB+MAME,MAME,MADB,とっとこハム太郎2 ハムちゃんず大集合でちゅ,M752223,gbcolor:tottokh2
+gb-jp-1169,2001-04-25,おいでラスカル,タム,gbc_only,,CGB-BLSJ-JPN,4500,税込,アニメ『あらいぐまラスカル』のゲーム化,おいでラスカル,Wikipedia+MADB+MAME,MAME,MADB,おいでラスカル,M746203,gbcolor:oiderasc
+gb-jp-1170,2001-04-27,From TV animation ONE PIECE 夢のルフィ海賊団誕生!,バンプレスト,gbc_compatible,yes,DMG-BLUJ-JPN,4500,税抜,テレビアニメ『From TV animation ONE PIECE』を基にしたコンピュータRPGで、任天堂スペースワールド2000出展の時点では2000年冬に発売が予定されていた。,From TV animation ONE PIECE 夢のルフィ海賊団誕生!,Wikipedia+MADB+MAME,MAME,MADB,From TV animation ONE PIECE 夢のルフィ海賊団誕生!,M739348,gbcolor:onepyume
+gb-jp-1171,2001-04-27,X-MEN MUTANT ACADEMY,サクセス,gbc_only,,CGB-BXAJ-JPN,3980,税抜,X-メンシリーズの一つ,X-MEN MUTANT ACADEMY,Wikipedia+MADB+MAME,MAME+MADB,MADB,X-MEN MUTANT ACADEMY,M723351,gbcolor:xmenmaj
+gb-jp-1172,2001-04-27,SPIDER-MAN,サクセス,gbc_only,,CGB-BSEJ-JPN,,,,スパイダーマン (2000年のゲーム),Wikipedia+MAME,MAME,,,,gbcolor:spidermnj
+gb-jp-1173,2001-04-27,なかよしペットシリーズ5 かわいいハムスター2,エム・ティー・オー,gbc_only,,CGB-B2HJ-JPN,4200,税抜,,なかよしペットシリーズ,Wikipedia+MADB+MAME,MAME,MADB,なかよしペットシリーズ5 かわいいハムスター2,M734300,gbcolor:nakapet5
+gb-jp-1174,2001-04-27,雀級生 〜コスプレ★パラダイス〜,エルフ,gbc_only,,CGB-BHGJ-JPN,4800,税抜,,雀級生 〜コスプレ★パラダイス〜,Wikipedia+MADB+MAME,MAME,MADB,雀級生 ～コスプレ★パラダイス～,M763138,gbcolor:jankyus
+gb-jp-1175,2001-04-27,ぐるぐるタウンはなまるくん,J・ウィング,gbc_only,,CGB-BHJJ-JPN,4980,税抜,同名テレビアニメのゲーム化,ぐるぐるタウンはなまるくん (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ぐるぐるタウン はなまるくん,M747746,gbcolor:guruguth
+gb-jp-1176,2001-04-27,DX人生ゲーム,タカラ,gbc_only,,CGB-BZGJ-JPN,4500,税抜,,人生ゲーム,Wikipedia+MADB+MAME,MAME,MADB,DX人生ゲーム,M738691,gbcolor:dxjinsei
+gb-jp-1177,2001-05-11,モバイルゴルフ,任天堂,gbc_only,,,5800,税抜,モバイルアダプタGB同梱,モバイルゴルフ,Wikipedia+MADB,,MADB,モバイルゴルフ モバイルアダプタGBセット,M757891,
+gb-jp-1178,2001-05-25,DT Lords of Genomes,メディアファクトリー,gbc_compatible,yes,DMG-BBDJ-JPN,4500,税抜,元々はゲームボーイ用ソフトとして開発されており、64DDとも連動する予定だったが、ランドネット終了に伴い内容が変更された,DT Lords of Genomes,Wikipedia+MADB+MAME,MAME+MADB,MADB,DT Lords of Genomes,M723328,gbcolor:dtlords
+gb-jp-1179,2001-06-01,名探偵コナン 呪われた航路,バンプレスト,gbc_compatible,yes,DMG-BC3J-JPN,4500,税抜,ゲームボーイカラーにおける『名探偵コナン』のゲーム化第3作目,名探偵コナン 呪われた航路,Wikipedia+MADB+MAME,MAME,MADB,名探偵コナン 呪われた航路,M766316,gbcolor:mconannk
+gb-jp-1180,2001-06-15,ZOIDS 〜白銀の獣機神ライガーゼロ〜,トミー,gbc_only,,CGB-BZ2J-JPN,4500,税抜,,ZOIDS 〜白銀の獣機神ライガーゼロ〜,Wikipedia+MADB+MAME,MAME,MADB,ZOIDS ～白銀の獣機神 ライガーゼロ～,M744221,gbcolor:zoidsshi
+gb-jp-1181,2001-06-20,スヌーピーテニス,アンフォグラムハドソン,gbc_only,,CGB-BS9J-JPN,3900,税抜,,スヌーピーテニス,Wikipedia+MADB+MAME,MAME,MADB,スヌーピーテニス,M750120,gbcolor:snoopytnj
+gb-jp-1182,2001-06-28,スターオーシャン ブルースフィア,エニックス,gbc_compatible,yes,DMG-BO2J-JPN,5800,税抜,スターオーシャンシリーズの外伝作品で、『スターオーシャン セカンドストーリー』の後日譚にあたる,スターオーシャン ブルースフィア,Wikipedia+MADB+MAME,MAME,MADB,スターオーシャン ブルースフィア,M749932,gbcolor:starocbs
+gb-jp-1183,2001-06-29,なかよしクッキングシリーズ3 たのしいお弁当,エム・ティー・オー,gbc_only,,CGB-B7BJ-JPN,4200,税抜,,なかよしクッキングシリーズ3 たのしいお弁当,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ3 たのしいお弁当,M734285,gbcolor:ncook3
+gb-jp-1184,2001-06-29,ガイアマスターDUEL カードアタッカーズ,カプコン,gbc_only,,CGB-BGIJ-JPN,4300,税抜,PlayStation用ソフト『ガイアマスター』の移植版,ガイアマスターDUEL カードアタッカーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ガイアマスターDUEL カードアタッカーズ,M723295,gbcolor:gaiamast
+gb-jp-1185,2001-07-12,ネットでゲット ミニゲーム＠100,コナミ,gbc_only,,CGB-BMVJ-JPN,5800,税抜,,ネットでゲット ミニゲーム＠100,Wikipedia+MADB+MAME,MAME,MADB,ネットでゲットミニゲーム@100,M753266,gbcolor:netdeget
+gb-jp-1186,2001-07-13,データナビプロ野球2,ナウプロダクション,gbc_only,,CGB-B8QJ-JPN,4300,税抜,,データナビプロ野球2,Wikipedia+MADB+MAME,MAME,MADB,データナビプロ野球2,M751612,gbcolor:dnyakyu2
+gb-jp-1187,2001-07-19,ロックマンX2 ソウルイレイザー,カプコン,gbc_only,,CGB-BXRJ-JPN,3980,税抜,,ロックマンX2 ソウルイレイザー,Wikipedia+MADB+MAME,MAME,MADB,ロックマンX2 ソウルイレイザー,M759151,gbcolor:rockmnx2
+gb-jp-1188,2001-07-19,つりいこっ!!,アスキー,gbc_only,,CGB-BAFJ-JPN,4500,税抜,,つりいこっ!!,Wikipedia+MADB+MAME,MAME,MADB,つりいこっ!!,M751387,gbcolor:tsuriiko
+gb-jp-1189,2001-07-20,Jリーグエキサイトステージ タクティクス,エポック社,gbc_only,,CGB-AJEJ-JPN,4300,税抜,,Jリーグエキサイトステージ タクティクス,Wikipedia+MADB+MAME,MAME,MADB,Jリーグエキサイトステージ タクティクス,M740063,gbcolor:jlexcstt
+gb-jp-1190,2001-07-20,うちゅう人田中太郎でRPGツクールGB2,エンターブレイン,gbc_only,,CGB-B3QJ-JPN,5200,税抜,漫画『うちゅう人 田中太郎』とタイアップした、ゲームボーイカラーにおけるRPGツクール第2作目,うちゅう人田中太郎でRPGツクールGB2,Wikipedia+MADB+MAME,MAME,MADB,うちゅう人田中太郎でRPGツクールGB2,M745849,gbcolor:rpgtsuk2
+gb-jp-1191,2001-07-20,マクドナルド物語,TDKコア,gbc_only,,CGB-BI9J-JPN,4500,税抜,,マクドナルド物語,Wikipedia+MADB+MAME,MAME,MADB,マクドナルド物語,M756725,gbcolor:mcdonald
+gb-jp-1192,2001-07-26,超GALS! 寿蘭,コナミ,gbc_only,,CGB-BGLJ-JPN,4800,税抜,ゲームボーイカラーにおけるテレビアニメ『超GALS!寿蘭』のゲーム化第1作目,超GALS! 寿蘭 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,超GALS! 寿蘭,M764359,gbcolor:sgals
+gb-jp-1193,2001-07-27,真・女神転生 デビルチルドレン 白の書,アトラス,gbc_only,,CGB-BHWJ-JPN,4500,税抜,,真・女神転生 デビルチルドレン 白の書,Wikipedia+MADB+MAME,MAME,MADB,真・女神転生 デビルチルドレン 白の書,M762879,gbcolor:shinmts
+gb-jp-1194,2001-07-27,真・女神転生トレーディングカード カードサマナー,エンターブレイン,gbc_only,,CGB-BT8J-JPN,5200,税抜,,真・女神転生トレーディングカード,Wikipedia+MADB+MAME,MAME+MADB,MADB,真・女神転生トレーディングカード カードサマナー 初回特典,M723261,gbcolor:shinmtcd
+gb-jp-1195,2001-07-27,昆虫博士3,J・ウィング,gbc_only,,CGB-A3KJ-JPN,4980,税抜,,昆虫博士3,Wikipedia+MADB+MAME,MAME,MADB,昆虫博士3,M761457,gbcolor:konchuh3
+gb-jp-1196,2001-07-27,花より男子 ANOTHER LOVE STORY,TDKコア,gbc_only,,CGB-B87J-JPN,4500,税抜,漫画『花より男子』のゲーム化,花より男子 ANOTHER LOVE STORY,Wikipedia+MADB+MAME,MAME+MADB,MADB,花より男子 ANOTHER LOVE STORY,M723262,gbcolor:hanayori
+gb-jp-1197,2001-07-27,不思議のダンジョン 風来のシレンGB2 砂漠の魔城,チュンソフト,gbc_only,,CGB-AFMJ-JPN,4500,税抜,当初発売予定日は2001年7月19日,不思議のダンジョン 風来のシレンGB2 砂漠の魔城,Wikipedia,MAME,MADB,不思議のダンジョン 風来のシレンGB2 砂漠の魔城,M723275,gbcolor:furaish2
+gb-jp-1198,2001-07-27,水木しげるの新・妖怪伝,プライムシステム,gbc_only,,,4800,税抜,漫画家水木しげるの名を冠したカードゲーム,水木しげるの新・妖怪伝,Wikipedia+MADB,,MADB,水木しげるの新・妖怪伝,M763096,
+gb-jp-1199,2001-07-27,爆転シュート ベイブレード,ブロッコリー,gbc_only,,CGB-BB3J-JPN,4800,税抜,漫画『爆転シュート ベイブレード外伝 ベイブレード大地』の主人公・皇大地が主役,爆転シュート ベイブレード (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,爆転シュート ベイブレード,M765381,gbcolor:bsbeybld
+gb-jp-1200,2001-08-10,バッドばつ丸 ロボバトル,イマジニア,gbc_only,,CGB-BBRJ-JPN,4500,税抜,キャラクター・バッドばつ丸が題材,バッドばつ丸 ロボバトル,Wikipedia+MADB+MAME,MAME,MADB,バッドばつ丸 ロボバトル,M754024,gbcolor:badbadtz
+gb-jp-1201,2001-08-10,ちびまる子ちゃん 町内みんなでゲームだよ!,エポック社,gbc_only,,CGB-BCNJ-JPN,4300,税抜,テレビアニメ『ちびまる子ちゃん』のゲーム化,ちびまる子ちゃん 町内みんなでゲームだよ!,Wikipedia+MADB+MAME,MAME,MADB,ちびまる子ちゃん ご町内みんなでゲームだよ!,M751211,gbcolor:chibim
+gb-jp-1202,2001-08-10,ニセモン パズルdaモン,プライムシステム,gbc_only,,CGB-BNPJ-JPN,4800,税込,,ニセモン パズルdaモン,Wikipedia+MADB+MAME,MAME,MADB,ニセモン パズルdeモン,M753092,gbcolor:nisemon
+gb-jp-1203,2001-08-24,ポケットクッキング,J・ウィング,gbc_only,,CGB-APJJ-JPN,4800,税抜,任天堂スペースワールド2000出展の時点では2000年10月に発売が予定されていた,ポケットクッキング,Wikipedia+MADB+MAME,MAME,MADB,ポケットクッキング,M756238,gbcolor:pockcook
+gb-jp-1204,2001-08-30,ゲームボーイウォーズ3,ハドソン,gbc_only,,CGB-BWWJ-JPN,3800,税抜,『ゲームボーイウォーズ2』の続編,ゲームボーイウォーズ3,Wikipedia+MADB+MAME,MAME,MADB,ゲームボーイウォーズ3,M747992,gbcolor:gbwars3
+gb-jp-1205,2001-09-07,エストポリス伝記 よみがえる伝説,タイトー,gbc_only,,CGB-BLCJ-JPN,4800,税抜,『エストポリス伝記II』の続編,エストポリス伝記 よみがえる伝説,Wikipedia+MADB+MAME,MAME,MADB,エストポリス伝記 ～よみがえる伝説～,M746078,gbcolor:estpolis
+gb-jp-1206,2001-09-07,全日本少年サッカー大会 めざせ日本一!,サクセス,gbc_only,,CGB-BJFJ-JPN,4800,税抜,,全日本少年サッカー大会 めざせ日本一!,Wikipedia+MADB+MAME,MAME,MADB,全日本少年サッカー大会 めざせ日本一!,M763709,gbcolor:znsst
+gb-jp-1207,2001-09-10,ジャガーミシン刺しゅう専用ソフト MARIO FAMILY,ジャガーインターナショナルコーポレーション,gbc_only,,CGB-BJMJ-JPN,,,ゲームボーイカラー対応ミシン「ヌオット」専用ソフト,ジャガーミシン刺しゅう専用ソフト MARIO FAMILY,Wikipedia,MAME,,,,gbcolor:mariofam
+gb-jp-1208,2001-09-21,ハムスター倶楽部 おしえまチュー,ジョルダン,gbc_only,,CGB-BJSJ-JPN,4300,税抜,『ハムスター倶楽部』を題材としたクイズゲーム,ハムスター倶楽部 おしえまチュー,Wikipedia+MADB+MAME,MAME,MADB,ハムスター倶楽部 おしえまチュー,M754277,gbcolor:hamstclo
+gb-jp-1209,2001-09-28,ハムスターパラダイス4,アトラス,gbc_only,,CGB-BCUJ-JPN,4500,税抜,,ハムスターパラダイス4,Wikipedia+MADB+MAME,MAME,MADB,ハムスターパラダイス4,M754273,gbcolor:hamstpa4
+gb-jp-1210,2001-10-12,激走!ダンガンレーサー 音速バスターDANGUN弾,イマジニア,gbc_only,,CGB-BDJJ-JPN,4600,税抜,ミニカー・ダンガンレーサーのコンピュータゲーム化,激走!ダンガンレーサー 音速バスターDANGUN弾,Wikipedia+MADB+MAME,MAME,MADB,激走! ダンガンレーサー 音速バスター DANGUN弾,M761000,gbcolor:dangunrc
+gb-jp-1211,2001-10-12,きかんしゃトーマス ソドーとうのなかまたち,タム,gbc_only,,CGB-BBWJ-JPN,4800,税抜,テレビ番組『きかんしゃトーマス』のゲーム化で、任天堂スペースワールド2001出展の時点では2001年9月28日に発売される予定だった。,きかんしゃトーマス ソドーとうのなかまたち,Wikipedia+MADB+MAME,MAME,MADB,きかんしゃトーマス ソドーとうのなかまたち,M747019,gbcolor:kikathom
+gb-jp-1212,2001-10-26,ドキ×ドキさせて!!,ビクターインタラクティブソフトウェア,gbc_only,,,4200,税抜,男性アイドルグループとの恋愛を描いた作品,ドキ×ドキさせて!!,Wikipedia+MADB,,MADB,ドキ×ドキさせて!!,M752104,
+gb-jp-1213,2001-11-01,仰天人間バトシーラー ドクトル・ガイの野望,コナミ,gbc_only,,CGB-BB6J-JPN,4800,税抜,シール付きチョコレート『仰天人間バトシーラー』を基にした漫画・アニメのゲーム化,仰天人間バトシーラー ドクトル・ガイの野望,Wikipedia+MADB+MAME,MAME,MADB,仰天人間バトシーラー ～ドクトル・ガイの野望～,M760758,gbcolor:docguy
+gb-jp-1214,2001-11-02,バグサイト アルファ,スマイルソフト,gbc_only,,CGB-BAUJ-JPN,4800,税抜,専用周辺機器「バグセンサー」を同梱した初回限定版あり,バグサイト アルファ,Wikipedia+MADB+MAME,MAME,MADB,バグサイト・アルファ,M753720,gbcolor:networka
+gb-jp-1215,2001-11-02,バグサイト ベータ,スマイルソフト,gbc_only,,CGB-BBUJ-JPN,4800,税抜,専用周辺機器「バグセンサー」を同梱した初回限定版あり,バグサイト ベータ,Wikipedia+MADB+MAME,MAME,MADB,バグサイト・ベータ,M753721,gbcolor:networkb
+gb-jp-1216,2001-11-16,なかよしクッキングシリーズ4 たのしいデザート,エム・ティー・オー,gbc_only,,CGB-B3DJ-JPN,4200,税抜,,なかよしクッキングシリーズ4 たのしいデザート,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ4 たのしいデザート,M734286,gbcolor:ncook4
+gb-jp-1217,2001-11-22,チキチキマシン猛レース,シスコンエンタテイメント,gbc_only,,CGB-AW9J-JPN,3600,税抜,同名アニメのゲーム化,チキチキマシン猛レース (2000年のゲーム),Wikipedia+MADB+MAME,MAME,MADB,チキチキマシン猛レース,M751192,gbcolor:chikirac
+gb-jp-1218,2001-12-01,ハリー・ポッターと賢者の石,エレクトロニック・アーツ・スクウェア,gbc_only,,CGB-BHVJ-JPN,4800,税抜,同名映画のゲーム化,ハリー・ポッターと賢者の石 (ゲームボーイカラー),Wikipedia+MADB+MAME,MAME,MADB,ハリー・ポッターと賢者の石,M754328,gbcolor:hpotkenj
+gb-jp-1219,2001-12-06,サクラ大戦GB2 サンダーボルト作戦,セガ,gbc_only,,CGB-BQYJ-JPN,5800,税抜,,サクラ大戦GB2 サンダーボルト作戦,Wikipedia+MADB+MAME,MAME+MADB,MADB,サクラ大戦GB2 サンダーボルト作戦,M723114,gbcolor:sakura2
+gb-jp-1220,2001-12-13,ミニー&フレンズ 夢の国をさがして,ハドソン,gbc_only,,CGB-BYKJ-JPN,4800,税抜,ミニーマウスなどが登場するゲーム,ミニー&フレンズ 夢の国をさがして,Wikipedia+MADB+MAME,MAME,MADB,ミニー＆フレンズ ～夢の国をさがして～,M757260,gbcolor:minnie
+gb-jp-1221,2001-12-14,ルーニー・テューンズコレクター マーシャンクエスト!,シスコンエンタテイメント,gbc_only,,CGB-ALMJ-JPN,3700,税抜,,ルーニー・テューンズコレクター マーシャンクエスト!,Wikipedia+MADB+MAME,MAME,MADB,ルーニー・テューンズコレクター マーシャンクエスト!,M758616,gbcolor:looneymaj
+gb-jp-1222,2001-12-14,メダロット5 すすたけ村の転校生 カブト,イマジニア,gbc_only,,CGB-B5MJ-JPN,4800,税抜,,メダロット5 すすたけ村の転校生,Wikipedia+MADB+MAME,MAME,MADB,メダロット5 すすたけ村の転校生 カブト,M757660,gbcolor:medar5ka
+gb-jp-1223,2001-12-14,メダロット5 すすたけ村の転校生 クワガタ,イマジニア,gbc_only,,CGB-B5NJ-JPN,4800,税抜,,メダロット5 すすたけ村の転校生,Wikipedia+MADB+MAME,MAME,MADB,メダロット5 すすたけ村の転校生 クワガタ,M757661,gbcolor:medar5ku
+gb-jp-1224,2001-12-21,きせかえハムスター,ビクターインタラクティブソフトウェア,gbc_only,,CGB-BKHJ-JPN,4200,税抜,,きせかえハムスター,Wikipedia+MADB+MAME,MAME,MADB,きせかえハムスター,M747031,gbcolor:kisekae3
+gb-jp-1225,2001-12-21,シャーマンキング 超・占事略決 ふんばり編,キングレコード,gbc_only,,CGB-BQUJ-JPN,3980,税抜,漫画およびテレビアニメ『シャーマンキング』のゲーム化,シャーマンキング 超・占事略決 ふんばり編,Wikipedia+MADB+MAME,MAME,MADB,シャーマンキング 超・占事略決 ふんばり編,M749197,gbcolor:shamcrdf
+gb-jp-1226,2001-12-21,シャーマンキング 超・占事略決 メラメラ編,キングレコード,gbc_only,,CGB-BQVJ-JPN,3980,税抜,,シャーマンキング 超・占事略決 メラメラ編,Wikipedia+MADB+MAME,MAME,MADB,シャーマンキング 超・占事略決 メラメラ編,M749198,gbcolor:shamcrdm
+gb-jp-1227,2001-12-21,シルバニアファミリー3 星ふる夜のすなどけい,エポック社,gbc_only,,CGB-BL3J-JPN,4300,税抜,『シルバニアファミリー2 〜色づく森のファンタジー〜』の続編,シルバニアファミリー3 星ふる夜のすなどけい,Wikipedia+MADB+MAME,MAME,MADB,シルバニアファミリー3 星ふる夜のすなどけい,M749425,gbcolor:sylvan3
+gb-jp-1228,2001-12-21,わたしのキッチン,キラット,gbc_only,,CGB-BKRJ-JPN,3980,税抜,,わたしのキッチン,Wikipedia+MADB+MAME,MAME,MADB,わたしのキッチン,M759440,gbcolor:watashik
+gb-jp-1229,2001-12-24,将棋3,ポニーキャニオン,gbc_compatible,,DMG-B9SJ-JPN,4800,税抜,,将棋3,Wikipedia+MADB+MAME,MAME,MADB,将棋3,M762268,gbcolor:shougi3
+gb-jp-1230,2002-02-07,超GALS! 寿蘭2 〜ミラクル→ゲッティング〜,コナミ,gbc_only,,CGB-BGUJ-JPN,4800,税抜,ゲームボーイカラーにおけるテレビアニメ『超GALS!寿蘭』のゲーム化第2作目,超GALS! 寿蘭2 〜ミラクル→ゲッティング〜,Wikipedia+MADB+MAME,MAME,MADB,超GALS! 寿蘭2 ～ミラクル→ゲッティング～,M764360,gbcolor:sgals2
+gb-jp-1231,2002-02-21,Dr.リンにきいてみて! 恋のリン風水!,ハドソン,gbc_only,,CGB-BDFJ-JPN,3980,税抜,テレビアニメ『Dr.リンにきいてみて!』のゲーム化,Dr.リンにきいてみて! 恋のリン風水!,Wikipedia+MADB+MAME,MAME,MADB,Dr. リンにきいてみて! 恋のリン風水,M738601,gbcolor:drrin
+gb-jp-1232,2002-03-02,ハローキティのハッピーハウス,エム・ティー・オー,gbc_only,,CGB-BK7J-JPN,4500,税抜,ゲームボーイカラーにおけるハローキティが題材のゲーム第6作目,ハローキティのハッピーハウス,Wikipedia+MADB+MAME,MAME,MADB,ハローキティのハッピーハウス,M754428,gbcolor:hellokhh
+gb-jp-1233,2002-03-08,モン★スタートラベラー,タイトー,gbc_only,,CGB-BFVJ-JPN,4300,税抜,,モン★スタートラベラー,Wikipedia+MADB+MAME,MAME,MADB,モン★スタートラベラー,M757898,gbcolor:monstrvl
+gb-jp-1234,2002-03-29,BIOHAZARD GAIDEN,カプコン,gbc_only,,CGB-BIOJ-JPN,,,バイオハザードの番外編,BIOHAZARD GAIDEN,Wikipedia+MAME,MAME,,,,gbcolor:biohazg
+gb-jp-1235,2002-03-29,あざらし戦隊イナズマ 〜どきどき大作戦!?〜,オメガ・プロジェクト,gbc_only,,CGB-BOAJ-JPN,3980,税抜,,あざらし戦隊イナズマ 〜どきどき大作戦!?〜,Wikipedia+MADB+MAME,MAME,MADB,あざらし戦隊イナズマ ～どきどき大作戦! ?～,M744840,gbcolor:azarashi
+gb-jp-1236,2002-04-05,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!,エム・ティー・オー,gbc_only,,CGB-B3CJ-JPN,4200,税抜,,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!,Wikipedia+MADB+MAME,MAME,MADB,なかよしクッキングシリーズ5 こむぎちゃんのケーキをつくろう!,M734287,gbcolor:ncook5
+gb-jp-1237,2002-04-18,冒険!ドンドコ島,グローバル・A・エンタテインメント,gbc_only,,CGB-BDVJ-JPN,4300,税抜,,冒険!ドンドコ島,Wikipedia+MADB+MAME,MAME,MADB,冒険!! ドンドコ島,M765794,gbcolor:bouken
+gb-jp-1238,2002-04-26,わたしのレストラン,キラット,gbc_only,,CGB-BWNJ-JPN,3980,税抜,,わたしのレストラン,Wikipedia+MADB+MAME,MAME,MADB,わたしのレストラン,M759445,gbcolor:watashir
+gb-jp-1239,2002-06-28,From TV animation ONE PIECE 幻のグランドライン冒険記!,バンプレスト,gbc_compatible,yes,DMG-BZOJ-JPN,4500,税抜,『ONE PIECE 夢のルフィ海賊団誕生!』の続編。,ONE PIECE,Wikipedia+MADB+MAME,MAME,MADB,From TV animation ONE PIECE 幻のグランドライン冒険記!,M739346,gbcolor:onepglin
+gb-jp-1240,2002-07-26,昆虫ファイターズ,デジタルキッズ,gbc_only,,CGB-BZZJ-JPN,4200,税抜,,昆虫ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,昆虫ファイターズ,M761450,gbcolor:konchufg
+gb-jp-1241,2002-08-09,ドラゴンボールZ 伝説の超戦士たち,バンプレスト,gbc_only,,CGB-BBZJ-JPN,4500,税抜,,ドラゴンボールZ 伝説の超戦士たち,Wikipedia+MADB+MAME,MAME,MADB,ドラゴンボールZ 伝説の超戦士たち,M752583,gbcolor:dbzj
+gb-jp-1242,2002-08-09,ハムスター物語GB+マジハームの魔法少女,カルチャーブレーン,gbc_only,,CGB-B8MJ-JPN,3980,税抜,,ハムスター物語GB+マジハームの魔法少女,Wikipedia+MADB+MAME,MAME,MADB,ハムスター物語GB+マジハームの魔法少女,M754288,gbcolor:hamstmon
+gb-jp-1243,2002-10-04,ドラえもんのクイズボーイ2,小学館,gbc_only,,CGB-BQ7J-JPN,3980,税抜,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのクイズボーイ2,M752374,gbcolor:doraqzb2
+gb-jp-1244,2003-06-05,漢字BOY3,J・ウィング,gbc_only,,CGB-BK3J-JPN,4800,税抜,,漢字BOY,Wikipedia+MADB+MAME,MAME,MADB,漢字BOY3,M760500,gbcolor:kanjibo3
+gb-jp-1245,2003-07-18,ドラえもんのスタディボーイ かんじよみかきマスター,小学館,gbc_only,,CGB-BKYJ-JPN,3980,税抜,日本における最後のゲームボーイカラー用ソフト,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんのスタディボーイ かんじよみかきマスター,M752376,gbcolor:dorakany

@@ -175,7 +175,7 @@ def main():
     nr_parents = {m["nointro_name"]: m["parent_id"]
                   for m in C.read_csv(DATA / "overrides" / "non_retail_parents.csv")}
 
-    rows, non_retail, pending, unmatched = [], [], [], []
+    rows, non_retail, pending, unmatched, np_games = [], [], [], [], []
     for name, g in games.items():
         arch = g.find("archive")
         if "Japan" not in (arch.get("region") or ""):
@@ -188,6 +188,12 @@ def main():
         cat = non_retail_category(name, tags)
         if cat:
             pending.append((name, g, ref, codes, cat))
+            continue
+
+        # ---- ニンテンドウパワー版（No-Intro の (NP)）は別リストに結びつける
+        if "NP" in tags:
+            if not any(re.match(r"Proto|Possible Proto|Beta|Demo", t) for t in tags):
+                np_games.append((name, g, ref, codes, tags))
             continue
 
         # ---- 製品版（jp_titles.csv）
@@ -233,6 +239,33 @@ def main():
         if info:
             rows.append({"title_id": t["id"], "title": t["title"], "game_code": "/".join(sorted(codes)),
                          "dump_kind": dump_kind(tags), **info})
+
+    # ---- ニンテンドウパワー版: No-Intro 名の本体が製品版と同じなら、その製品版を parent_id に持つ行へ。
+    # 書き換え専用タイトルは overrides/np_dump_matches.csv（dump_name → np の id）で対応づける
+    np_list = C.read_csv(DATA / "jp_nintendo_power.csv")
+    np_by_parent = {}
+    for n in np_list:
+        if n["parent_id"]:
+            np_by_parent.setdefault(n["parent_id"], []).append(n)
+    np_manual = {m["dump_name"]: m["np_id"] for m in C.read_csv(DATA / "overrides" / "np_dump_matches.csv")}
+    np_by_id = {n["id"]: n for n in np_list}
+    np_linked = 0
+    for name, g, ref, codes, tags in np_games:
+        targets = []
+        if name in np_manual:
+            targets = [np_by_id[np_manual[name]]]
+        else:
+            cands = title_by_base.get(base(name), set())
+            if len(cands) == 1:
+                targets = np_by_parent.get(next(iter(cands)), [])
+        info = dump_info(g, ref, mame) if len(targets) == 1 else None
+        if info:
+            n = targets[0]
+            rows.append({"title_id": n["id"], "title": n["title"], "game_code": "/".join(sorted(codes)),
+                         "dump_kind": "nintendo_power", **info})
+            np_linked += 1
+    if np_games:
+        print(f"ニンテンドウパワー版の吸い出し: {np_linked}/{len(np_games)} 件を別リストに対応", file=sys.stderr)
 
     # ---- 別リスト（A2〜A4）
     # 開発版・試作品はゲームコードを別作品と共有していることがある（例: 烈火の剣の開発版が封印の剣のコード）ため、
