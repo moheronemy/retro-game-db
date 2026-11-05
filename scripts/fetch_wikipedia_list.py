@@ -200,7 +200,7 @@ KNOWN_COLUMNS = {"jp", "na", "eu", "br", "title", "publisher", "notes", "sgb", "
 
 
 def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, year=None, ref_code=None,
-               row_filter=None, derive=None):
+               row_filter=None, derive=None, strip_title_mark=None):
     """表の各行を読む。columns は先頭からの列の意味（jp=日本の発売日）。日本未発売の行は除く。"""
     rows = []
     in_table = False
@@ -288,6 +288,8 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
             if isinstance(v, str):
                 row[k] = v.replace("\ue000", "<").replace("\ue001", ">")
         row.update(extra or {})
+        if strip_title_mark and row["title"].endswith(strip_title_mark):
+            row["title"] = row["title"][: -len(strip_title_mark)].strip()
         if row_filter and not row_filter(row):
             continue
         for col, fn in (derive or {}).items():
@@ -326,7 +328,8 @@ def main():
         page = t.get("page", wcfg.get("page"))
         text = table_text(section(texts[page], t["section"]), t.get("table_id"))
         got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"),
-                         t.get("year"), wcfg.get("ref_code"), t.get("row_filter"), t.get("derive"))
+                         t.get("year"), wcfg.get("ref_code"), t.get("row_filter"), t.get("derive"),
+                         t.get("strip_title_mark"))
         print(f"  {t['section']}: {len(got)} 行", file=sys.stderr)
         rows += got
     for r in rows:   # 表の発売日の欄が空・誤っている行の補正（platforms.py の date_fixes。根拠はそこに書く）

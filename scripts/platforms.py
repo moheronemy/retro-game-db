@@ -318,6 +318,26 @@ def _ps_code(serial):
     return m[0] if m else ""
 
 
+def _ps3_models(text):
+    """PS3 の日本版の型番（'BLJM-60001'、'BLJS-10001'、'BCJS-30001'、配信の 'NPJA-00001' など）。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z])(BLJM|BLJS|BCJS|BCJM|BLJX|BCJX|BCJB|NPJA|NPJB)[- _]?(\d{5})", (text or "").upper()):
+        c = f"{m.group(1)}-{m.group(2)}"
+        if c not in out:
+            out.append(c)
+    return out
+
+
+def _ps3_code(serial):
+    m = _ps3_models(serial)
+    return m[0] if m else ""
+
+
+def _mark(col):
+    """一覧の「●=対応、○=専用」の列を 'yes' / 'only' に。"""
+    return lambda row: "only" if "○" in row.get(col, "") else "yes" if "●" in row.get(col, "") else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -782,6 +802,40 @@ PLATFORMS = {
         "nointro_dats": ["redump:Sony - PlayStation 2"],
         "nointro_export": ["Sony - PlayStation 2 (Redump)"],
         "nointro_export_fallback": {"Sony - PlayStation 2 (Redump)": "redump:Sony - PlayStation 2"},
+        "hash_source": "Redump",
+        "media": "disc",
+        "tax_inclusive_from": "2004-04-01",
+    },
+    # PlayStation 3。配信専用タイトルは jp_psn.csv（--list psn）。online / stereo3d は一覧の「オ」「3」列
+    "ps3": {
+        "name": "PlayStation 3",
+        "dir": ROOT / "data" / "ps3",
+        "id_prefix": "ps3-jp",
+        "wikipedia": {"tables": [{"page": "PlayStation 3のゲームタイトル一覧", "section": "パッケージタイトル",
+                                  "columns": ("jp", "title", "publisher", "d_online", "d_3d", "notes", "refs"),
+                                  # タイトルのリンクの後に説明の無い「*」が付いている
+                                  "strip_title_mark": "*"}]},
+        "extra_lists": {
+            "psn": {
+                "out": "jp_psn.csv",
+                "id_suffix": "psn",
+                "tables": [{"page": "PlayStation 3のゲームタイトル一覧", "section": "配信専用タイトル",
+                            "columns": ("jp", "title", "publisher", "d_online", "notes", "refs"),
+                            "derive": {"online": _mark("d_online")}, "strip_title_mark": "*"}],
+            },
+        },
+        "extra_columns": ["online", "stereo3d"],
+        "derive": {"online": _mark("d_online"), "stereo3d": _mark("d_3d")},
+        "madb_platforms": ["プレイステーション3"],
+        "madb_filter": lambda x: "ダウンロード" not in x["media_format"],
+        "mame_lists": [],
+        "models_from": _ps3_models,
+        "models_from_serial": lambda s: [c for c in [_ps3_code(s)] if c],
+        "code_of": _ps3_code,
+        "normalize_code": _ps3_code,
+        "nointro_dats": ["redump:Sony - PlayStation 3"],
+        "nointro_export": ["Sony - PlayStation 3 (Redump)"],
+        "nointro_export_fallback": {"Sony - PlayStation 3 (Redump)": "redump:Sony - PlayStation 3"},
         "hash_source": "Redump",
         "media": "disc",
         "tax_inclusive_from": "2004-04-01",

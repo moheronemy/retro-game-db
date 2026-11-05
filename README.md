@@ -23,6 +23,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,072 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（2,376 行） |
 | PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 906 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,071 行） |
+| PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -41,6 +42,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
 | PS | （未調査・0 件） | （0 件） | |
 | PS2 | （未調査・0 件） | [`jp_non_retail.csv`](data/ps2/jp_non_retail.csv)（店頭体験版 19 件） | |
+| PS3 | （未調査・0 件） | （0 件） | 配信専用 [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -694,6 +696,28 @@ PlayStation 2 として日本で発売されたソフト（2000〜2013年）。`
   （`Tentou-you Taikenban`・`Tentou Taikenban`）は別リストの `store_demo`、その他の体験版（`Taikenban`）は載せない。
 - 非売品（Wikipedia「非売品」節のマクドナルドオリジナル ハッピーディスクを含む）と CERO 年齢区分は後回し。
 
+## PS3
+
+PlayStation 3 のパッケージソフトとして日本で発売されたもの（2006〜2018年）。`id` は `ps3-jp-<連番>`（発売順）。
+配信専用タイトルは別リスト [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件。ハッシュなし）。ゲームアーカイブス等の旧作配信は対象外。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・オンライン・3D | ja.wikipedia「PlayStation 3のゲームタイトル一覧」の「パッケージタイトル」「配信専用タイトル」の表（本文の記載は 976 件で、表は 982 行。廉価版は載っていない） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「プレイステーション3」。ダウンロードコンテンツは除く） |
+| ハッシュ | Redump DAT（libretro 収録の Sony PlayStation 3） |
+
+| 列 | 内容 |
+|---|---|
+| `online` | 一覧の「オ」列。`yes`＝オンラインプレイ対応（451 件）、`only`＝オンライン専用（20 件） |
+| `stereo3d` | 一覧の「3」列。`yes`＝3D 立体視対応（46 件） |
+
+- 型番（`BLJM-60001`・`BLJS-10001`・`BCJS-30001` など）の出典は MADB の 148 件だけで、型番があるのは 97 件。
+  吸い出しは型番で結びつけるので、製品版の吸い出しがあるのも 96 件（型番・価格・ハッシュが無いことは許容。合意済み）。
+- 価格は 857 件。MADB の表記（税込・税抜）のまま。
+- 一覧のタイトルの後に付いている説明の無い「*」は除いた。
+- 非売品と CERO 年齢区分は後回し。
+
 ## 再生成
 
 ```sh
@@ -764,6 +788,11 @@ python3 scripts/build_dumps.py ps
 python3 scripts/fetch_wikipedia_list.py ps2
 python3 scripts/enrich.py ps2
 python3 scripts/build_dumps.py ps2
+
+python3 scripts/fetch_wikipedia_list.py ps3
+python3 scripts/fetch_wikipedia_list.py ps3 --list psn   # 配信専用 → data/ps3/jp_psn.csv
+python3 scripts/enrich.py ps3
+python3 scripts/build_dumps.py ps3
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。
