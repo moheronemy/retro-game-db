@@ -139,6 +139,26 @@ def main():
             issues.append(f"型番不一致 MAME={mame_codes[0]} MADB={'/'.join(madb_codes)}")
         r["_issues"] = issues
 
+    if cfg.get("psxdc"):
+        # MADB・MAME で型番が決まらない行を psxdatacenter.com のデータで補う（PS1 は発売日つき、PS2 は題名だけ）
+        import psxdc
+        entries = psxdc.load_ps1(models_from) if cfg["psxdc"] == "ps1" else psxdc.load_ps2(models_from)
+        used_models = {r["model_number"] for r in rows if r["model_number"]}
+        no_model = [r for r in rows if not r["model_number"]]
+        m_px = psxdc.match(no_model, entries, used_models, by_date=cfg["psxdc"] == "ps1")
+        for r in no_model:
+            hit = m_px.get(r["_i"])
+            if not hit:
+                continue
+            e, sc, how = hit
+            r["model_number"] = e["key"]
+            r["_model_srcs"].append("psxdatacenter")
+            if how == "date_only":
+                r["_issues"].append(f"psxdatacenter同日1件のみで型番を照合（{e['label']}）")
+            elif sc < 0.7:
+                r["_issues"].append(f"psxdatacenter低スコア{sc:.2f}で型番を照合（{e['label']}）")
+        print(f"psxdatacenter: {len(entries)} 件から型番 {len(m_px)} 件を補完", file=sys.stderr)
+
     m_maru = C.match_maru(rows, maru, overrides, cfg.get("code_of") if cfg.get("ref_code_models") else None,
                           cfg.get("maru_date_only", False)) if maru is not None else {}
     report = []

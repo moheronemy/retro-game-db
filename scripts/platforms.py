@@ -764,6 +764,7 @@ PLATFORMS = {
         "madb_platforms": ["プレイステーション"],
         "mame_lists": ["psx"],
         "mame_partial": True,   # MAME の psx リストは日本版の3分の1ほどしか無いので「MAME未照合」は報告しない
+        "psxdc": "ps1",   # psxdatacenter.com の作品別ページ（発売日つき）で型番を補う
         "mame_jp_models": _ps_models,
         "models_from": _ps_models,
         "models_from_serial": lambda s: [c for c in [_ps_code(s)] if c],
@@ -795,6 +796,7 @@ PLATFORMS = {
                          "2011年（全6タイトル）", "2013年（全1タイトル）")]},
         "madb_platforms": ["プレイステーション2"],
         "mame_lists": [],
+        "psxdc": "ps2",   # psxdatacenter.com の一覧（題名だけで照合）で型番を補う
         "models_from": _ps_models,
         "models_from_serial": lambda s: [c for c in [_ps_code(s)] if c],
         "code_of": _ps_code,

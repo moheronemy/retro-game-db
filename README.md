@@ -22,7 +22,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 656 | 418 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（727 行） |
 | セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,072 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（2,376 行） |
-| PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 906 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,071 行） |
+| PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,140 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,304 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
@@ -687,8 +687,10 @@ PlayStation 2 として日本で発売されたソフト（2000〜2013年）。`
 | 価格（・型番の補助） | メディア芸術データベース（機種「プレイステーション2」） |
 | ハッシュ | Redump DAT（libretro 収録の Sony PlayStation 2） |
 
-- MAME に PS2 のソフトウェアリストは無いため、型番の出典は MADB だけで、型番があるのは 906 件（許容。合意済み）。
-  吸い出しは Redump のシリアル（型番）で結びつけるので、製品版の吸い出しがあるのも 886 件にとどまる。
+- MAME に PS2 のソフトウェアリストは無いため、型番は MADB（906 件）と psxdatacenter.com の日本版一覧（234 件）から取り、
+  型番があるのは 1,140 件（無いものは許容。合意済み）。psxdatacenter には日本語の題名も発売日も無いので、Wikipedia の題名を
+  pykakasi でローマ字にして、とても似ていて（0.85 以上）ほかに候補の無いものだけ採った（`model_number_source` が `psxdatacenter`）。
+  吸い出しは Redump のシリアル（型番）で結びつけるので、製品版の吸い出しがあるのは 1,108 件。
 - 価格は 2,689 件（無いものは許容）。2004年4月以降は総額表示（`税込`）。
 - 型番の形式は PS と同じ（`SLPM-66213` など。複数枚組は先頭ディスク）。
 - Wikipedia の表で発売日の欄が空の『ドラゴンクエストVIII』は、作品の記事の 2004年11月27日にした（`platforms.py` の `date_fixes`）。
@@ -785,6 +787,7 @@ python3 scripts/fetch_wikipedia_list.py ps     # 年別 9 ページ
 python3 scripts/enrich.py ps
 python3 scripts/build_dumps.py ps
 
+python3 scripts/fetch_psxdatacenter.py          # psxdatacenter.com（PS1・PS2 の型番）。2 秒間隔、PS1 は約 3〜4 時間
 python3 scripts/fetch_wikipedia_list.py ps2
 python3 scripts/enrich.py ps2
 python3 scripts/build_dumps.py ps2
