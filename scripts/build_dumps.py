@@ -45,7 +45,7 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      # 非公式品（Hacker）、後年の書籍付録・配信版など
                      r"|FamicomBox|Family BASIC|Menu Cart|EPROM|Digital|Disc|Sansai Mook|Ending Credits Program"
                      r"|Not For Resale|Shouhin Golf Tournament US Course|Hacker|SA-0\d+( \d+)? PCB"
-                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On|Hibaihin|Demo \d+)$")
+                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On|Hibaihin|Demo \d+|Java Tea Original)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$"
                         r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
