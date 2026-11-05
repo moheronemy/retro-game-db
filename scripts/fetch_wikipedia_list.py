@@ -204,6 +204,7 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
     """表の各行を読む。columns は先頭からの列の意味（jp=日本の発売日）。日本未発売の行は除く。"""
     rows = []
     in_table = False
+    carry = {}   # 列番号 → (rowspan で続く値, 残り行数)
     regional = "na" in columns
     for block in re.split(r"^\|-.*$", text, flags=re.M):
         lines = []
@@ -228,6 +229,29 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
         # 「卒業 &#12316;Graduation&#12316;」「トージャム&amp;アール」。&lt; &gt; は HTML タグとして消されないよう
         # 私用領域の文字にしておき、最後に < > に戻す（『谷川浩司の将棋指南II &lt;名人への道&gt;』）
         cells = [html.unescape(x.replace("&lt;", "\ue000").replace("&gt;", "\ue001")) for x in cells]
+        # rowspan="n" のセルは次の n-1 行の同じ列にも入れる（『ぽけかの』3作の発売元・備考など）
+        filled, col = [], 0
+        own = list(cells)   # この行に実際に書かれたセル（脚注からのゲームコードはこれだけから拾う）
+        queue = list(cells)
+        while queue or any(k >= col for k in carry):
+            if col in carry:
+                val, left = carry[col]
+                filled.append(val)
+                carry[col] = (val, left - 1)
+                if left - 1 <= 0:
+                    del carry[col]
+            elif queue:
+                cell = queue.pop(0)
+                m = re.match(r'\s*rowspan="?(\d+)"?[^|\[\]{}]*\|(.*)$', cell, re.S)
+                if m:
+                    cell = m.group(2)
+                    if int(m.group(1)) > 1:
+                        carry[col] = (cell, int(m.group(1)) - 1)
+                filled.append(cell)
+            else:
+                break
+            col += 1
+        cells = filled
         if len(cells) < 3:
             print("skip:", cells, file=sys.stderr)
             continue
@@ -257,7 +281,7 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
             if col not in KNOWN_COLUMNS:
                 row[col] = plain(c.get(col, ""))
         if ref_code:  # 脚注の公式サイト URL に含まれるゲームコード（例: nintendo.co.jp/ds/software/aifj/）
-            m = re.search(ref_code, "||".join(cells), re.I)
+            m = re.search(ref_code, "||".join(own), re.I)
             row["ref_code"] = m.group(1).upper() if m else ""
         for k, v in row.items():
             if isinstance(v, str):

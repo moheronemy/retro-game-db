@@ -131,7 +131,7 @@ def main():
                 issues.append(f"{name}同日1件のみで照合（{src['label']}）")
         if not md and md_how != "manual" and cfg["madb_platforms"]:
             issues.append("MADB未照合")
-        if not mm and mm_how != "manual" and cfg["mame_lists"]:
+        if not mm and mm_how != "manual" and cfg["mame_lists"] and not cfg.get("mame_partial"):
             issues.append("MAME未照合")
         if md and md_how == "auto" and C.VARIANT.search(md["label"]) and not C.VARIANT.search(r["title"]):
             issues.append("MADBが通常版以外の可能性")

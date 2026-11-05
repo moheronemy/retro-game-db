@@ -20,7 +20,8 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 110 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
 | スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
 | PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 656 | 418 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（727 行） |
-| セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,169 行） |
+| セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
+| PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,072 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（2,376 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -37,6 +38,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | メガCD | [`jp_not_for_sale.csv`](data/md/mega_cd/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/md/mega_cd/jp_non_retail.csv)（1 件） | |
 | PCE | [`jp_not_for_sale.csv`](data/pce/jp_not_for_sale.csv)（15 件） | [`jp_non_retail.csv`](data/pce/jp_non_retail.csv)（1 件） | 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） |
 | SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
+| PS | （未調査・0 件） | （0 件） | |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -645,6 +647,30 @@ BIG THANKS スーパー競輪（競輪50周年記念イベントの来場者に�
 
 Redump の `(Java Tea Original)` は製品版『バーチャファイターキッズ』に結びつけない（非売品として扱う）。
 
+## PS
+
+PlayStation（初代）として日本で発売されたソフト（1994〜2004年）。`id` は `ps-jp-<連番>`（発売順）。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「PlayStationのゲームタイトル一覧」の年別 9 ページ（全 3,289 件。各ページの記載件数の合計と一致）。再販の廉価版（PlayStation the Best など）は載っていないが、SIMPLE1500 など最初から廉価で出たシリーズや一部の廉価レーベル（本格派DE1,300円、Major Wave など）は載っている |
+| 価格（・型番の補助） | メディア芸術データベース（機種「プレイステーション」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/psx.xml`（日本版は約 1,000 件と一部だけ） |
+| ハッシュ | Redump DAT（libretro 収録の Sony PlayStation。データトラック） |
+
+- 型番は表記のまま（SCE `SCPS-10001`、他社 `SLPS-01234`・`SLPM-86001` など）。複数枚組は先頭ディスクの型番で、枚数は
+  吸い出し一覧の `discs` 列。型番があるのは 2,072 件にとどまる（MADB の型番欄が空のものが多く、MAME の収録も少ないため）。
+- 吸い出しは Redump のシリアル（型番）で結びつけるので、型番の無いタイトルには吸い出しも付かない（製品版の吸い出しがあるのは 2,041 件）。
+  名前での手動対応は行っていない。
+- 価格は 2,809 件。消費税は発売日に応じて 3%・5%、2004年4月以降は総額表示。
+- 再販の印（`PlayStation the Best`、`PSone Books`、`Major Wave`、`Honkakuha de 1300`、`Artdink Best Choice` など）の吸い出しは `collection`。
+  体験版（`Demo n`・`Taikenban`）は製品版に結びつけない。
+- 要確認レポートでは、MAME の収録が少ないため「MAME未照合」は出さない。MADB と MAME がそろって Wikipedia と異なる発売日は
+  2 件（くるみミラクル、プリズムコート）。
+- 非売品・体験版の調査は後回し（Wikipedia に「非売品」節が無い）。
+
 ## 再生成
 
 ```sh
@@ -707,6 +733,10 @@ python3 scripts/build_dumps.py pce
 python3 scripts/fetch_wikipedia_list.py ss
 python3 scripts/enrich.py ss
 python3 scripts/build_dumps.py ss
+
+python3 scripts/fetch_wikipedia_list.py ps     # 年別 9 ページ
+python3 scripts/enrich.py ps
+python3 scripts/build_dumps.py ps
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。

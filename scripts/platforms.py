@@ -301,6 +301,23 @@ def _age_rating(row):
     return "X" if "X指定" in n else "18+" if "18歳以上推奨" in n else ""
 
 
+def _ps_models(text):
+    """PS1 の日本版の型番（SCE 'SCPS-10001'、他社 'SLPS-01234' / 'SLPM-86001'、ほか 'SIPS-'・'PAPX-' など）。
+    複数枚組の範囲表記（'SLPS-01234~6'）や Redump のディスク番号付き（'SLPS-01234-5'）からは先頭の型番を取る。
+    海外版（SLUS・SLES・SCES など）は採らない。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z])(SCPS|SLPS|SLPM|SCPM|SIPS|PAPX|SCZS|SLKA)[- ]?(\d{5})", (text or "").upper()):
+        c = f"{m.group(1)}-{m.group(2)}"
+        if c not in out:
+            out.append(c)
+    return out
+
+
+def _ps_code(serial):
+    m = _ps_models(serial)
+    return m[0] if m else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -711,6 +728,33 @@ PLATFORMS = {
         "nointro_export_fallback": {"Sega - Saturn (Redump)": "redump:Sega - Saturn"},
         "hash_source": "Redump",
         "media": "disc",
+    },
+    # PlayStation（初代）。Wikipedia の年別ページ（再販の廉価版は載っていない）。型番は複数枚組でも先頭ディスクのもの
+    "ps": {
+        "name": "PlayStation",
+        "dir": ROOT / "data" / "ps",
+        "id_prefix": "ps-jp",
+        "wikipedia": {"tables": [
+            {"page": "PlayStationのゲームタイトル一覧 (1994年-1995年)", "section": "1994年（全17タイトル）", "year": "1994"},
+            {"page": "PlayStationのゲームタイトル一覧 (1994年-1995年)", "section": "1995年（全132タイトル）", "year": "1995"},
+        ] + [{"page": f"PlayStationのゲームタイトル一覧 ({y}年)", "section": f"{y}年", "year": str(y)}
+             for y in range(1996, 2003)] + [
+            {"page": "PlayStationのゲームタイトル一覧 (2003年-2004年)", "section": "2003年-2004年"},
+        ]},
+        "madb_platforms": ["プレイステーション"],
+        "mame_lists": ["psx"],
+        "mame_partial": True,   # MAME の psx リストは日本版の3分の1ほどしか無いので「MAME未照合」は報告しない
+        "mame_jp_models": _ps_models,
+        "models_from": _ps_models,
+        "models_from_serial": lambda s: [c for c in [_ps_code(s)] if c],
+        "code_of": _ps_code,
+        "normalize_code": _ps_code,
+        "nointro_dats": ["redump:Sony - PlayStation"],
+        "nointro_export": ["Sony - PlayStation (Redump)"],
+        "nointro_export_fallback": {"Sony - PlayStation (Redump)": "redump:Sony - PlayStation"},
+        "hash_source": "Redump",
+        "media": "disc",
+        "tax_inclusive_from": "2004-04-01",
     },
     "wii": {
         "name": "Wii",
