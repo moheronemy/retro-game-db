@@ -23,6 +23,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,072 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（2,376 行） |
 | PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,140 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,304 行） |
+| ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
@@ -42,6 +43,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
 | PS | （未調査・0 件） | （0 件） | |
 | PS2 | （未調査・0 件） | [`jp_non_retail.csv`](data/ps2/jp_non_retail.csv)（店頭体験版 19 件） | |
+| GG | （未調査・0 件） | （0 件） | |
 | PS3 | （未調査・0 件） | （0 件） | 配信専用 [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
@@ -720,6 +722,25 @@ PlayStation 3 のパッケージソフトとして日本で発売されたもの
 - 一覧のタイトルの後に付いている説明の無い「*」は除いた。
 - 非売品と CERO 年齢区分は後回し。
 
+## GG
+
+ゲームギアとして日本で発売されたソフト（1990〜1996年）。`id` は `gg-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「ゲームギアのゲームタイトル一覧」（セガ公式の一覧が出典。日本 196 件、本文と一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「ゲームギア」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/gamegear.xml` |
+| ハッシュ | No-Intro DAT（libretro 収録の Sega Game Gear） |
+
+- 非ライセンス品・マスターシステムのソフト（コンバーター経由）・TV チューナーは対象外。キッズギア同梱版は通常版と同じ行。
+- 本体同梱でしか売られなかった『なぞぷよ』は本リストに入れ、価格は同梱版のもの。キャラクターパック（本体同梱版）は単体版の行に含めた。
+- 型番は表記のまま（セガ `G-3327`、ライセンシー `T-44017`）。MAME の並記からは日本版を取り、再販の名作コレクションの型番は採らない。
+- No-Intro にシリアルが無いので、吸い出しは MAME の CRC・名前・手動対応（13 件）で結びつけた。製品版の吸い出しが無いのは
+  『T2 ジャッジメントディ』の 1 件。日米共通の `(World)` などの吸い出しも含む。
+- 『颯爽少年英雄伝 コカ・コーラキッド』の景品のプラスワンセット（本体とのセット）は別のソフトではないので非売品リストに入れていない
+  （Wikipedia の備考に記載）。その他の非売品の調査は後回し。
+
 ## 再生成
 
 ```sh
@@ -786,6 +807,10 @@ python3 scripts/build_dumps.py ss
 python3 scripts/fetch_wikipedia_list.py ps     # 年別 9 ページ
 python3 scripts/enrich.py ps
 python3 scripts/build_dumps.py ps
+
+python3 scripts/fetch_wikipedia_list.py gg
+python3 scripts/enrich.py gg
+python3 scripts/build_dumps.py gg
 
 python3 scripts/fetch_psxdatacenter.py          # psxdatacenter.com（PS1・PS2 の型番）。2 秒間隔、PS1 は約 3〜4 時間
 python3 scripts/fetch_wikipedia_list.py ps2

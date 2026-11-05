@@ -1,0 +1,215 @@
+title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256,verification,source_count,first_dump_date,rom_chip,label_serial,pcb,save_type,nointro_number,mame_name,mame_status,hash_source,discs
+gg-jp-0001,コラムス,,Columns (Japan) (En),0,retail,32768,f3ca6676,680682aaa9b7eae0642e4b9c4ef80f59,8b39ba23132af102b8dc313c5c1c211f4a4f27e1,,dat_only,1,,,,,,,columnsj1,good,No-Intro,1
+gg-jp-0001,コラムス,,Columns (Japan) (En) (Rev A),0,retail,32768,ac37e092,36b33d28235b4c9439ab0f62ab1c97c4,d83fd16bd23c51750555a692535daa171ed41af0,,dat_only,1,,,,,,,columnsj,good,No-Intro,1
+gg-jp-0002,スーパーモナコGP,,"Super Monaco GP (Japan, Korea) (En)",0,retail,131072,4f686c4a,1d0840170b529de631517efc05d6168e,2a61491785ad56f5bdc504c994f36ee8ea9dcf68,,dat_only,1,,,,,,,smgpj,good,No-Intro,1
+gg-jp-0003,ペンゴ,,Pengo (Japan) (En),0,retail,32768,ce863dba,95cea3a33a3f5915942904b4817b2010,5883e2d19ab7126d52abc177a97d44bc88c319de,,dat_only,1,,,,,,,pengoj,good,No-Intro,1
+gg-jp-0004,斬GEAR,,Zan Gear (Japan),0,retail,131072,141aaf96,ab36b9930a91dd9955c8e60af16ea22f,115074a58606720755364eaf0a4bc60aabf18f94,,dat_only,1,,,,,,,zangear,good,No-Intro,1
+gg-jp-0005,対戦麻雀 好牌,,Taisen Mahjong HaoPai (Japan),0,retail,131072,cf9c607c,75427fd442d09b606bf2970c2bbec8b2,9cd50acaab1c2452e5a231e1a5646c3c38b50d9c,,dat_only,1,,,,,,,taisnmj,good,No-Intro,1
+gg-jp-0006,ワンダーボーイ,,Wonder Boy (Japan) (En),0,retail,131072,9977fcb3,917c3e4f4c50d6506e64e2f05b945d9c,7ff0f0757c7b2e84d99a4291656d74a20ec2651d,,dat_only,1,,,,,,,wboyj,good,No-Intro,1
+gg-jp-0007,G-LOC AIR BATTLE,,G-LOC - Air Battle (Japan),0,retail,131072,2333f615,28962f99e33c4f7fb8e513b539fb28f0,ed32016476e40fde06d8a1a9777875b75d49adf6,,dat_only,1,,,,,,,glocj1,good,No-Intro,1
+gg-jp-0007,G-LOC AIR BATTLE,,G-LOC - Air Battle (Japan) (Rev 1),1,retail,131072,33237f50,d8c531467266d86139d0ec4d3cc79439,033c65e52011fd6b9be86ecb0f5d8209dbbdbbca,,dat_only,1,,,,,,,glocj,good,No-Intro,1
+gg-jp-0008,倉庫番,,Soukoban (Japan) (En),0,retail,131072,0f3e3840,0a98b767910b054ca3c5263eba3bfbdc,e5865a22dc3a9714160ef14bc59d510502d39b97,,dat_only,1,,,,,,,sokoban,good,No-Intro,1
+gg-jp-0009,ドラゴンクリスタル ツラニの迷宮,,Dragon Crystal - Tsurani no Meikyuu (Japan),0,retail,131072,89f12e1e,da0b9e94ffb9c3930501c7a7a90fbf18,ea323c4ac28d7762277039450c341d0f025093d8,,dat_only,1,,,,,,,dcrystalj,good,No-Intro,1
+gg-jp-0009,ドラゴンクリスタル ツラニの迷宮,,Dragon Crystal - Tsurani no Meikyuu (Japan) (Virtual Console),0,virtual_console,131072,9c8534ec,e6d6fdb864d7878b7b444c7200b84b7c,df135dd54638e2ce1f18d670c98b0313484d70bc,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0010,上海II,,Shanghai II (Japan) (En),0,retail,131072,2ae8c75f,a9d1712dca313ba021844f62eec8a08c,5180891ec0ae08d784dd89222d9ffd7f88a59691,,dat_only,1,,,,,,,shangh2a,good,No-Intro,1
+gg-jp-0010,上海II,,Shanghai II (Japan) (En) (Rev A),0,retail,131072,81314249,c228d31cf77bd03ac457e2d22f5b2bd1,82210b387344aaebae8cf03029967cd0c906beff,,dat_only,1,,,,,,,shangh2,good,No-Intro,1
+gg-jp-0011,THEプロ野球'91,,"Pro Yakyuu '91, The (Japan)",0,retail,131072,6d3a10d3,f9ae1762ed006c001e811fe6f072abb7,804cfac0a7578c3fd625f0084a24afa26a2dc015,,dat_only,1,,,,,,,proyak91,good,No-Intro,1
+gg-jp-0012,パックマン,,Pac-Man (Japan) (En),0,retail,131072,a16c5e58,e6985998d25d6c4fe36c2b8041244bb4,d78b6aac927692f1b67e6a4b7494e2c7e709ae17,,dat_only,1,,,,,,,pacmanj,good,No-Intro,1
+gg-jp-0012,パックマン,,Pac-Man (World),0,retail,65536,85595c91,9aa58142a94b8554a8baa4f7c364948d,5121090c765d59c0443c6368becfbf77842c1b32,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0013,サイキック・ワールド,,Psychic World (Japan),0,retail,131072,afcc7828,a764b44555aadb48c519e7c85bdf7895,1c0074c811ed4eb369be31c1bc7d851e40ae8797,,dat_only,1,,,,,,,psychicwj,good,No-Intro,1
+gg-jp-0014,ポップブレイカー,,Pop Breaker (Japan) (En),0,retail,131072,71deba5a,e0e2fbd5834c04574795c923b0147f39,9c358504d3c106dd62bd8981132b47cdb95903de,,dat_only,1,,,,,,,popbreak,good,No-Intro,1
+gg-jp-0015,ジャンクション,,Junction (Japan) (En),0,retail,131072,a8ef36a7,7dd2ef762d2284a0e551447a9ee11458,70cac7959d29903ad22316e9f5edf60834381d27,,dat_only,1,,,,,,,junctionj,good,No-Intro,1
+gg-jp-0016,ウッディポップ,,Woody Pop (Japan) (En),0,retail,32768,9c0e5a04,c017baf7fa0de71219dfab91caa59f8f,9e7defda6873b7bca5650fad4426a6fb443522d8,,dat_only,1,,,,,,,woodypop1,good,No-Intro,1
+gg-jp-0017,タイトーチェイスH.Q.,,Taito Chase H.Q. (Japan) (En),0,retail,131072,7bb81e3d,3cd1a4c27e330bba7703ee22ac83b856,b757b45a07ae6530443862e0eca547e16c23b4a3,,dat_only,1,,,,,,,chasehqj,good,No-Intro,1
+gg-jp-0018,タロットの館,,Tarot no Yakata (Japan),0,retail,131072,57834c03,0ac77a4b8ef41442d5bfa2148be8efcd,b8b45b2e59f5d3239984205c120421923d833505,,dat_only,1,,,,,,,tarot,good,No-Intro,1
+gg-jp-0019,ヘッドバスター,,Head Buster (Japan),0,retail,131072,7e689995,aa52a741b2952c3713ab791e659c37b5,51432c7892d87b31f5f3216d3ef01eadc591b768,,dat_only,1,,,,,,,headbust,good,No-Intro,1
+gg-jp-0020,ミッキーマウスのキャッスル・イリュージョン,,Mickey Mouse no Castle Illusion (Japan) (En),0,retail,262144,9942b69b,290056bcb4303d3c53ea7b6aa2a268a7,d2580137c641192d7faa98dbf8c715623e7d0bed,,dat_only,1,,,,,,,castlillj,good,No-Intro,1
+gg-jp-0021,デビリッシュ,,Devilish (Japan) (En),0,retail,131072,25db174f,bc3b402b546b9561c79e3373aee97a9c,5b1d4295920ebe4d6d9b9610764939b2aaa6c598,,dat_only,1,,,,,,,devilishj,good,No-Intro,1
+gg-jp-0022,キネティックコネクション,,Kinetic Connection (Japan) (En),0,retail,131072,4af7f2aa,3393b5a16edd56194b1bb869e6324cb1,7447e0ad5e8e14c3ae05a274d393ca34de044855,,dat_only,1,,,,,,,kineticc,good,No-Intro,1
+gg-jp-0023,ギアスタジアム,,Gear Stadium (Japan),0,retail,131072,0e300223,681b18412b7861c02c2c7110114a3216,10124c1ca517fa933ca0488f288d205b0cc80d9c,,dat_only,1,,,,,,,gearstad,good,No-Intro,1
+gg-jp-0024,スーパーゴルフ,,Super Golf (Japan) (En),0,retail,131072,528cbbce,f2b5123b3614388677c9c15adaaa8d64,9ecb48513621086ec6d5bffa1375914f21f393e4,,dat_only,1,,,,,,,supgolfj,good,No-Intro,1
+gg-jp-0025,The GG忍,,"GG Shinobi, The (Japan) (En)",0,retail,262144,83926bd1,21d2e4e7c508e6abbb12bb96c7aac868,c5e1c2329f94f0804140792a3e3d5be2ac0d5d0d,,dat_only,1,,,,,,,shinobij,good,No-Intro,1
+gg-jp-0026,スクウィーク,,Skweek (Japan),0,retail,131072,3d9c92c7,1a796dfa3b3b9010d259506ddc4a43a6,0788c35636abba46beb01acebfd1697cdb54161c,,dat_only,1,,,,,,,skweek,good,No-Intro,1
+gg-jp-0027,紫禁城,,Shikinjou (Japan) (En),0,retail,131072,9c5c7f53,a952a843a123092aafbeb37b428ef6ff,bf36130b1be4bce6c6eb7b87db00d420797c3611,,dat_only,1,,,,,,,shikinjo,good,No-Intro,1
+gg-jp-0028,マッピー,,Mappy (Japan),0,retail,131072,01d2dd2a,a15c5219f766d516d1b8d9a09b9a2bb4,44d0b857d88a293da47dc161115422d830d81302,,dat_only,1,,,,,,,mappy,good,No-Intro,1
+gg-jp-0029,琉球,,Ryuukyuu (Japan),0,retail,131072,95efd52b,5a43e20c816435a080a601b0ddacaa44,ffaa1c97c64aec30176254f1ef655c06c63e1b53,,dat_only,1,,,,,,,ryukyu,good,No-Intro,1
+gg-jp-0030,ハレーウォーズ,,Halley Wars (Japan) (En),0,retail,131072,def5a5d0,9b26a17f41f2f0dc508d0815945e2634,1c9932f592bb12e61acf597985e0bd5041e45da5,,dat_only,1,,,,,,,halleywj,good,No-Intro,1
+gg-jp-0031,がんばれゴルビー!,,Ganbare Gorby! (Japan),0,retail,131072,a1f2f4a1,4d965f99be3edd9593af1c365d6a2653,cd3e8910a99bf6717e63aed3aa212ead0597e5cd,,dat_only,1,,,,,,,ggorby,good,No-Intro,1
+gg-jp-0032,まじかる☆タルるートくん,,Magical Taruruuto-kun (Japan),0,retail,131072,6e1cc23c,3af0c6ddf5f00a493e1f159fcedc0933,40fae12f1d565849158ff87700e25d6967038867,,dat_only,1,,,,,,,mtaruru,good,No-Intro,1
+gg-jp-0033,マジカルパズル ポピルズ,,Magical Puzzle Popils (World),0,retail,131072,cf6d7bc5,e496ff2196c372f4d6111538950d25ca,fb939f0810d0763b9abaeec1a2bfbabacaad5441,,dat_only,1,,,,,,,magiclpp,good,No-Intro,1
+gg-jp-0034,ファンタジーゾーンGear オパオパJr.の冒険,,"Fantasy Zone (Japan, Europe) (En)",0,retail,131072,d69097e8,4c6c42493b5af22540e6c2014d2c367a,5951d500d6f53b0537f045adb85d94068a838f32,,dat_only,1,,,,,,,fantzone,good,No-Intro,1
+gg-jp-0035,グリフォン,,Griffin (Japan) (En),0,retail,131072,a93e8b0f,00299a180a9edef575a228a1cef65318,b479d977533398cef21ef9ff7cd8fc81bdbfa488,,dat_only,1,,,,,,,griffin,good,No-Intro,1
+gg-jp-0036,ワギャンランド,,Wagyan Land (Japan),0,retail,262144,29e697b2,8334e0d55380dd78eba5311cda6635de,6b74f3fddabd52ac6bb1b812043537154f8a43c5,,dat_only,1,,,,,,,wagyan,good,No-Intro,1
+gg-jp-0037,アウトラン,,"OutRun (Japan, Korea) (En)",0,retail,131072,d58cb27c,6d6fba255ce324e80915f65f5d27cb14,284a68102eb71958a3553626ea3dd56485453300,,dat_only,1,,,,,,,outrunj,good,No-Intro,1
+gg-jp-0038,エターナルレジェンド 永遠の伝説,,Eternal Legend (Japan),0,retail,262144,04302bbd,c58d6291da8a4919328b8f42be8640a7,717b4e33cf3956e4194b912533bf1b7bf9d20725,,dat_only,1,,,,,,,eternleg,good,No-Intro,1
+gg-jp-0039,ラスタン・サーガ,,Rastan Saga (Japan) (En),0,retail,262144,9c76fb3a,fd82af26ebbed24f57c4eea8eddf3136,96bf8a67919218aac91fb74cde80a16f90df77d5,,dat_only,1,,,,,,,rastan,good,No-Intro,1
+gg-jp-0040,パット&パター,,"Putt & Putter (Japan, Korea) (En)",0,retail,131072,407ac070,1ebb46ce09cc88c6ddb62f6318e958a4,2d4a72e6f5db344240c2a65141b08e57a4b52416,,dat_only,1,,,,,,,puttputtj,good,No-Intro,1
+gg-jp-0041,対戦型大戦略G,,Taisen-gata Daisenryaku G (Japan),0,retail,262144,7b7717b8,4e17f98922ed08b1e9654af31abed5f3,d290bba12f4b7341c3ce2a00be8b8d7e548327e1,,dat_only,1,,,,,,,daisenrg,good,No-Intro,1
+gg-jp-0042,ギャラガ'91,,Galaga '91 (Japan) (En),0,retail,131072,0593ba24,c50bc608d2f6708e255e98c324e93a13,7cd59fc473b9b1a1fdd659fdec2ae6cb1d3f471a,,dat_only,1,,,,,,,galaga91,good,No-Intro,1
+gg-jp-0043,忍者外伝,,Ninja Gaiden (Japan),0,retail,131072,20ef017a,51458678cbdc2405483b202786512afe,acedddaa928a96085544440c2bec2685a6cdf501,,dat_only,1,,,,,,,ngaidenj,good,No-Intro,1
+gg-jp-0044,アックス=バトラー ゴールデンアックス伝説,,Ax Battler - Golden Axe Densetsu (Japan),0,retail,262144,dfcf555f,2aa1025039e174f7e5168ce09cde3113,ff7931d3461c69ffc3a82d892ae3bb3bb00788b3,,dat_only,1,,,,,,,axbattlrj,good,No-Intro,1
+gg-jp-0045,クニちゃんのゲーム天国,,Kuni-chan no Game Tengoku (Japan),0,retail,262144,398f2358,9bfe375432a88a9615fca2e90385151e,497f137e0f33b45a1560f51ca06b2bfaef51484a,,dat_only,1,,,,,,,kunichan,good,No-Intro,1
+gg-jp-0046,ベルリンの壁,,Berlin no Kabe (Japan),0,retail,262144,325b1797,b185db77aa6a448eb9b8c60f1cab8f27,1d58d3d8b957d33bab8b50ae60dc0c31eafc08af,,dat_only,1,,,,,,,berlin,good,No-Intro,1
+gg-jp-0047,アーリエル クリスタル伝説,,Arliel - Crystal Densetsu (Japan),0,retail,262144,35fa3f68,45e0159738cbbaaf9f2ef7cc2ad02fcd,75a04fa483fccd12a52aa18e494d542f4486577f,,dat_only,1,,,,,,,arliel,good,No-Intro,1
+gg-jp-0048,ドナルドダックのラッキーダイム,,Donald Duck no Lucky Dime (Japan),0,retail,262144,2d98bd87,d2930d3316e293700d2cedc4125cb9a3,ee70ac64973775adc2063a8cdff203965f2e7e1d,,dat_only,1,,,,,,,donaldld,good,No-Intro,1
+gg-jp-0049,ヘビーウェイトチャンプ,,Heavy Weight Champ (Japan),0,retail,131072,beed9150,b963441c5edad8396b857a9ad8448995,7cfd703ebdab4b2665f402adeac0060740615b6c,,dat_only,1,,,,,,,heavyw,good,No-Intro,1
+gg-jp-0050,フレイ 〜修行編〜,,Fray - Shugyou Hen (Japan),0,retail,262144,e123d9b8,ed0d0917984f2cc8aa560c1bf55eb95f,0dc770773f651718881ce17a87f145e2f0b02fb1,,dat_only,1,,,,,,,fray,good,No-Intro,1
+gg-jp-0051,ソニック・ザ・ヘッジホッグ,,"Sonic The Hedgehog (Japan, USA) (En)",0,retail,262144,3e31cb8c,8a95b36139206a5ba13a38bb626aee25,8923295c96b2e05da0a83a827fd709b033fc7332,,dat_only,1,,,,,,,sonicj,good,No-Intro,1
+gg-jp-0051,ソニック・ザ・ヘッジホッグ,,Sonic The Hedgehog (World) (Rev A),0,retail,262144,d163356e,b1de7027824c434ce8de59782705f5c9,7dbbbca2229e74fcb8f90ec794aa6e5cb168e489,,dat_only,1,,,,,,,sonic,good,No-Intro,1
+gg-jp-0051,ソニック・ザ・ヘッジホッグ,,Sonic The Hedgehog (World) (Rev A) (Virtual Console),0,virtual_console,262144,c2572208,37a20d660517de6a07b4981c253439ef,da410b0f00cd0b3a70c3e18c83d0d71609d8ea43,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0052,スペースハリアー,,Space Harrier (World),0,retail,131072,600c15b3,cd3809b8d6d32144c45de8e102623aa0,d00b8ff195d4423f2a344490eb34156017f4ee64,,dat_only,1,,,,,,,sharrier,good,No-Intro,1
+gg-jp-0053,GGアレスタ,,GG Aleste (Japan) (En),0,retail,262144,1b80a75b,43301e7c15fe11f66b29b00e6ec47a52,4c13dc3601a1702692c35eb6c89f0e09ab966f69,,dat_only,1,,,,,,,ggaleste,good,No-Intro,1
+gg-jp-0053,GGアレスタ,,GG Aleste (Japan) (En) (Aleste Collection),0,collection,262144,0a49407d,d652ab08184bc3439220c79fe7c36a60,16f97080c3464d013c2c18b8e3357bb850e1c51c,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0054,ポケット雀荘,,Pocket Jansou (Japan),0,retail,131072,cc90c723,7b46859570e339e54c41a921d1096585,5949695ae82b796d4cc141fcb57d01463e1b0ec6,,dat_only,1,,,,,,,pocketj,good,No-Intro,1
+gg-jp-0055,ファンタシースターアドベンチャー,,Phantasy Star Adventure (Japan),0,retail,131072,1a51579d,8fad420b7dc93cd7ed10bfc54ec04f07,fdd940556f7d3af14979dbf057809d5a22e46d8e,,dat_only,1,,,,,,,pstaradv,good,No-Intro,1
+gg-jp-0056,エイリアンシンドローム,,Alien Syndrome (Japan) (En),0,retail,131072,ffe4ed47,df495096e2d7ff9e2c13945e2a2bacba,b72e54493bfa7f13883a608bcf8c9f315dd490ca,,dat_only,1,,,,,,,aliensynj,good,No-Intro,1
+gg-jp-0057,バスターボール,,Buster Ball (Japan),0,retail,131072,7cb079d0,f7a8e4770c519175794522f66d42b27d,5d67f38ec0c2e577a7ad88915849da696ad162aa,,dat_only,1,,,,,,,busterb,good,No-Intro,1
+gg-jp-0058,モンスターワールドII ドラゴンの罠,,Monster World II - Dragon no Wana (Japan),0,retail,262144,ea89e0e7,8e6934c31498569302ff3119c2496043,5c4d25432512852f48f22280544bd7d034aab744,,dat_only,1,,,,,,,mworld2,good,No-Intro,1
+gg-jp-0059,超プロ野球'92,,Hyper Pro Yakyuu '92 (Japan),0,retail,131072,056cae74,8ec099b2001155815841e2911c9bab9f,245699bff66440b1e4483e8d68e468bbc3ba6ab3,,dat_only,1,,,,,,,hypyak92,good,No-Intro,1
+gg-jp-0060,ジョー・モンタナ フットボール,,"Joe Montana Football (Japan, Brazil) (En) (Rev 1)",1,retail,262144,4a98678b,5227e282029d0e31bb16949b52a041ba,253196b98d83b910c289b0211b6de025c66c916c,,dat_only,1,,,,,,,joemontj,good,No-Intro,1
+gg-jp-0061,ひょっこりひょうたん島 ひょうたん島の大航海,,Hyokkori Hyoutan-jima - Hyoutan-jima no Daikoukai (Japan),0,retail,131072,42389270,59adaabdde5bbff98cd59892e484b695,0b0270060342f4e79d58104a85a7be04426683bd,,dat_only,1,,,,,,,hyokkohj,good,No-Intro,1
+gg-jp-0062,エアリアルアサルト,,Aerial Assault (World),0,retail,131072,3e549b7a,b6fb54e60f8992daaa35e98a712ff2cb,cbdbaaeb62a8483d9d5a8757b0f19233dfb9b416,,dat_only,1,,,,,,,aerialas,good,No-Intro,1
+gg-jp-0062,エアリアルアサルト,,Aerial Assault (World) (Rev 1),1,retail,131072,04fe6dde,f1dee7875668c536f0434217a67ba2f4,2a91ab5817938dddf2724df2dfd95a3bc6f5156d,,dat_only,1,,,,,,,aerialasj,good,No-Intro,1
+gg-jp-0063,ぎゅわんぶらあ自己中心派,,Gambler Jiko Chuushinha (Japan),0,retail,262144,423803a7,03f04a22e61460682aa1c7cba84565d2,ec26aa5f41f8abf1c0fa911c2031ac422f6280a6,,dat_only,1,,,,,,,gambler,good,No-Intro,1
+gg-jp-0064,オリンピックゴールド,,"Olympic Gold (Japan, USA, Brazil) (En,Fr,De,Es,It,Nl,Pt,Sv)",0,retail,262144,a2f9c7af,d52c5db48882c0c126572a0cdeb5f472,b7e5ae436ccaa9984297b0c14969922d189cb10c,,dat_only,1,,,,,,,olympglda,good,No-Intro,1
+gg-jp-0065,炎の闘球児 ドッジ弾平,,Honoo no Toukyuuji - Dodge Danpei (Japan),0,retail,131072,dfa805a0,a299b81a9a5455bfff538f669a5e7a0d,66032cc214d728b2f1c59ad2934277e378b36865,,dat_only,1,,,,,,,ddanpei,good,No-Intro,1
+gg-jp-0066,アイルトン・セナ スーパーモナコGP II,,Ayrton Senna's Super Monaco GP II (Japan),0,retail,262144,661faeff,2fb31a42d550a5c9006956f208db4866,44f2c2bfa6ab57c1fd533996a5e404ebaa07264b,,dat_only,1,,,,,,,smgp2j,good,No-Intro,1
+gg-jp-0066,アイルトン・セナ スーパーモナコGP II,,Ayrton Senna's Super Monaco GP II (Japan) (Rev 1),1,retail,262144,7687ce09,446648545205739966e9db4d1f56a41e,70f911386d48362669e7d0076a53aaa2f91140c3,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0067,シャダム・クルセイダー 〜遙かなる王国〜,,Shadam Crusader - Harukanaru Oukoku (Japan),0,retail,524288,09f9ed60,dfea773be248f6aa84eacab911ac9316,de4b546f61dd32106247d38643849f6aaeeedb07,,dat_only,1,,,,,,,shadam,good,No-Intro,1
+gg-jp-0068,ファンタシースター外伝,,Phantasy Star Gaiden (Japan),0,retail,262144,a942514a,54be96ca21885145108f1c02e4d88eba,914f1e693f396794a37b5d99acaf5db54fe529c2,,dat_only,1,,,,,,,pstargdn,good,No-Intro,1
+gg-jp-0069,バットマン・リターンズ,,Batman Returns (World),0,retail,262144,7ac4a3ca,1e8cfd2f30e9ad733f602cf2de696ba9,85994b2f506c7bded0b02a59d96b1d949e48d518,,dat_only,1,,,,,,,batmanrn,good,No-Intro,1
+gg-jp-0070,イン ザ ウエイク オブ バンパイア,,In the Wake of Vampire (Japan) (En),0,retail,262144,dab0f265,a999c2f72c71c22be50e343e54ff4d73,da5116b7ed890f35506c5b33c5c9716f528169b1,,dat_only,1,,,,,,,wakevamp,good,No-Intro,1
+gg-jp-0070,イン ザ ウエイク オブ バンパイア,,In the Wake of Vampire (Japan) (En) (Virtual Console),0,virtual_console,262144,036e03f8,3dcb0e5020d6d9d650a7196fdfe8c5ac,2ee1aac941829ae172c4913383d14faa8acd09d5,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0071,チャックロック,,Chuck Rock (World),0,retail,262144,191b1ed8,86a3221d3d74133c84f658939fd6e928,2b08a3231c0504d86caca74c8508d85c8ef6a86a,,dat_only,1,,,,,,,chuckrck,good,No-Intro,1
+gg-jp-0072,ソニック・ザ・ヘッジホッグ2,,Sonic The Hedgehog 2 (World),0,retail,524288,95a18ec7,9c64846563d8b9a24400471322e53fb5,dabb452e416b4fa9cb83d8ddd307c2a32c3a1a7f,,dat_only,1,,,,,,,sonic2,good,No-Intro,1
+gg-jp-0072,ソニック・ザ・ヘッジホッグ2,,Sonic The Hedgehog 2 (World) (Virtual Console),0,virtual_console,524288,850727a0,39332eb123aeb1b906c70948641fe889,ba720d925fbed0d68e1d35f61c6f4fec47708718,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0073,ベア・ナックル 怒りの鉄拳,,Streets of Rage (World),0,retail,262144,3d8bcf1d,1ece7480d21fb862a65233ba126282d3,ca8c8a00ee838e994b2fa17e595ddd40d898cf42,,dat_only,1,,,,,,,sor,good,No-Intro,1
+gg-jp-0074,The GG忍II,,Shinobi II - The Silent Fury (World),0,retail,262144,6201c694,48d741774004eab9c19c1dd43758bf2b,cd57301d16202ea02d9f97bd8b17d71772782c94,,dat_only,1,,,,,,,shinobi2,good,No-Intro,1
+gg-jp-0075,クニちゃんのゲーム天国Part2,,Kuni-chan no Game Tengoku Part 2 (Japan),0,retail,262144,f3774c65,15b1d9419a7529f4791d17ea3b9fa26e,f11af70a52cfd96ad4d03da8ca9227ddd5bcc382,,dat_only,1,,,,,,,kunichn2,good,No-Intro,1
+gg-jp-0076,シャイニング・フォース外伝 〜遠征・邪神の国へ〜,,"Shining Force Gaiden - Ensei, Jashin no Kuni e (Japan)",0,retail,524288,4d1f4699,8eafd80d35251b5d3f07d5cae27241c1,bea1bea94ea745691ad944eaadc8a5576057ed53,,dat_only,1,,,,,,,shinfrcg,good,No-Intro,1
+gg-jp-0077,レミングス,,Lemmings (World),0,retail,262144,0fde7baa,49d07d8b68d59535d9b51ae5efdbbdac,5a79b6fa15b7085fc7062945f0e6d469d49871e1,,dat_only,1,,,,,,,lemmings,good,No-Intro,1
+gg-jp-0078,ウィンブルドン,,Wimbledon (World),0,retail,131072,ce1108fd,05e39eb8dc19c023f4a4fed36c058675,6aa588e0aa93c5c74c80f7044de49933291af4e9,,dat_only,1,,,,,,,wimbled,good,No-Intro,1
+gg-jp-0079,ぷよぷよ,,"Puyo Puyo (Japan) (En,Ja)",0,retail,262144,d173a06f,a5fce989c4fcf6faf37c5a1779df8a22,8ea2e623858221c5d39eb1e0f6532a0b23b00305,,dat_only,1,,,,,,,puyopuyo,good,No-Intro,1
+gg-jp-0080,ミッキーマウスの魔法のクリスタル,,Mickey Mouse no Mahou no Crystal (Japan),0,retail,524288,0117c3df,7813b0846e5f9c3ab5afab1bcb9a1f8b,5cc1a27f801491971e20551b9b9b4388245c0478,,dat_only,1,,,,,,,landillj,good,No-Intro,1
+gg-jp-0081,ドラえもん ノラのすけの野望,,Doraemon - Noranosuke no Yabou (Japan),0,retail,262144,9a8b2c16,e768a7c45f8ea390d6091032fdf6dcbe,6976b170879767889994b1e763a52726aa62ed98,,dat_only,1,,,,,,,ggdora,good,No-Intro,1
+gg-jp-0082,プロ野球GGリーグ,,Pro Yakyuu GG League (Japan),0,retail,262144,2da8e943,527449bc2aac2c8a16853fac63e60af6,bf78122a549ad9b016e3704690c7eea1574af140,,dat_only,1,,,,,,,proyakgg,good,No-Intro,1
+gg-jp-0083,キック アンド ラッシュ,,Kick & Rush (Japan),0,retail,262144,fd14ce00,686cbd73ff62c8decdef3e76890a3e83,d1c04a94a21684be2e83fbd0e0677bbc8ef86f57,,dat_only,1,,,,,,,kickrush,good,No-Intro,1
+gg-jp-0084,トム&ジェリー THE MOVIE,,"Tom and Jerry - The Movie (Japan, Brazil) (En,Ja)",0,retail,262144,a1453efa,ab48136eff306e35ec68ebea10b5559b,25f7e0d4b4416e4f879d289eed638d4018bedb51,,dat_only,1,,,,,,,tomjermvj,good,No-Intro,1
+gg-jp-0085,シャイニング・フォース外伝II 〜邪神の覚醒〜,,Shining Force Gaiden II - Jashin no Kakusei (Japan),0,retail,524288,30374681,8857422e565412a59c77cb29550715e4,2dd374db661315e51e9eedebf346a5a4ded0c3be,,dat_only,1,,,,,,,shinfrg2,good,No-Intro,1
+gg-jp-0086,ああ播磨灘,,Aa Harimanada (Japan),0,retail,524288,1d17d2a0,da0523e29f893fb81e5f2e89b2fb240a,0fa7111fcd98670d4bef725d11e670e14eaaa7eb,,dat_only,1,,,,,,,aaharima,good,No-Intro,1
+gg-jp-0087,ベア・ナックルII 死闘への鎮魂歌,,Streets of Rage 2 (World),0,retail,524288,0b618409,5566e332f860dc0f9da1507fd7feb1cd,2804b355347bda6e2903078ba30ed6b3a289ebba,,dat_only,1,,,,,,,sor2,good,No-Intro,1
+gg-jp-0088,なぞぷよ,,Nazo Puyo (Japan),0,retail,131072,bcce5fd4,1f7f13111353aeb49205bb3fc1697dd8,6ad654e11067ed12437022fcf22b9fea9be7ac46,,dat_only,1,,,,,,,nazopuyo1,good,No-Intro,1
+gg-jp-0088,なぞぷよ,,Nazo Puyo (Japan) (Rev A),0,retail,131072,d8d11f8d,286df90c900f1923a404b617907472c9,7b19e92a85564b166c364d990d9d44f7e1113541,,dat_only,1,,,,,,,nazopuyo,good,No-Intro,1
+gg-jp-0089,ジュラシック・パーク,,Jurassic Park (Japan),0,retail,524288,2f536ae3,5797a3efc5bd691a29cd52e8315da9b9,89486678a6a065c56102296eebc7b25c5ef32d21,,dat_only,1,,,,,,,jparkj,good,No-Intro,1
+gg-jp-0090,GGアレスタII,,"Power Strike II (Japan, Europe) (En)",0,retail,262144,09de1528,d5836ec389ec2c81bd54728b96b87152,e4db2140761b43426024bd08c4372bb9b8979d3d,,dat_only,1,,,,,,,pstrike2,good,No-Intro,1
+gg-jp-0091,アルティメイトサッカー,,"Ultimate Soccer (Japan, Europe, Brazil) (En,Fr,De,Es,It)",0,retail,262144,820965a3,23ed27ebb1ed0f22610e132a3668f06b,7994621926628d2376a75e8d90cd066d48a4d502,,dat_only,1,,,,,,,ultsoccr,good,No-Intro,1
+gg-jp-0092,ソニック&テイルス,,Sonic & Tails (Japan) (En),0,retail,524288,8ac0dade,aac8371d2179295159c73ae2cb92892d,e70228cbde1b54f1520804c6e3c28b4130a68c84,,dat_only,1,,,,,,,sonictls,good,No-Intro,1
+gg-jp-0093,魔導物語I 3つの魔導球,,Madou Monogatari I - 3tsu no Madoukyuu (Japan),0,retail,524288,00c34d94,abca338c5f08d06526d09b70588add2c,5ccd474cefcb8e086e2e1f77c0fdd5c1d2bf82e7,,dat_only,1,,,,,,,madoum1,good,No-Intro,1
+gg-jp-0094,なぞぷよ2,,Nazo Puyo 2 (Japan),0,retail,262144,73939de4,2896235a36c793e99eeb1d18fb2b4a0b,dbd511aff622c618eac0c21de36965b869362dbd,,dat_only,1,,,,,,,nazpuyo2,good,No-Intro,1
+gg-jp-0095,モータルコンバット 神拳降臨伝説,,Mortal Kombat - Shinken Kourin Densetsu (Japan) (En),0,retail,524288,dbff0461,ff2bba2287edbd90a560dbbaab18a260,f28e50f1283d7a2516267a13a16a3e6914ae0a18,,dat_only,1,,,,,,,mkj,good,No-Intro,1
+gg-jp-0096,ドナルドダックの4つの秘宝,,Donald Duck no 4-Tsu no Hihou (Japan),0,retail,524288,4457e7c0,73137355568815f9b5d75ccd5557b203,d5e278b5c68864da7ddfd1f9cfa5b25e462496b0,,dat_only,1,,,,,,,donald42,good,No-Intro,1
+gg-jp-0097,対戦麻雀 好牌2,,Taisen Mahjong HaoPai 2 (Japan),0,retail,524288,20527530,a85490306f09c850ddef0129deaaf9f7,8dfd49a2e740a232efc52ceefc85f51cf292d75e,,dat_only,1,,,,,,,taisnmj2,good,No-Intro,1
+gg-jp-0098,フェイスボール2000,,Faceball 2000 (Japan) (En),0,retail,262144,aaf6f87d,8dcfaa8a12425a56f5de7518b691158b,967c50a5b64adc6da7bc730900c267e45c90053a,,dat_only,1,,,,,,,faceball,good,No-Intro,1
+gg-jp-0099,バトルトード,,"Battletoads (Japan, Europe) (En)",0,retail,262144,cb3cd075,2b4eb4c0fddd1753daac8fd8e043e883,77a284b993c6f60652d88468b836d7a2ee7b4600,,dat_only,1,,,,,,,btoads,good,No-Intro,1
+gg-jp-0100,リディック・ボウ ボクシング,,Riddick Bowe Boxing (Japan) (En),0,retail,262144,a45fffb7,5a1d0daee3dc3582b0c69ec4bcca3ca9,af32ad098a1bf872d5a2cef38105704d3507ed75,,dat_only,1,,,,,,,riddickj,good,No-Intro,1
+gg-jp-0101,ウインターオリンピック,,"Winter Olympics (Japan) (En,Fr,De,Es,It,Pt,Sv,No)",0,retail,524288,d5195a39,527a3eb0197dc9fb519bcb328a62b466,578fc35fe155dca2c9adf17464d23aaf8205148f,,dat_only,1,,,,,,,wintolj,good,No-Intro,1
+gg-jp-0102,バスターファイト,,Buster Fight (Japan),0,retail,262144,a72a1753,a729ed9b55fd8496b807d39c3bb9299e,5c87048082a95acd6bc27b98f85bda731617c739,,dat_only,1,,,,,,,busterf,good,No-Intro,1
+gg-jp-0103,T2ザ・アーケードゲーム,,T2 - The Arcade Game (Japan) (En),0,retail,524288,0b1ba87f,95c43a0846089717fca37c4d26373973,a56fc1154709cae443efeed6e6310cc059396605,,dat_only,1,,,,,,,t2agj,good,No-Intro,1
+gg-jp-0104,マクドナルド ドナルドのマジカルワールド,,"Donald no Magical World (Japan) (En,Ja)",0,retail,524288,87b8b612,34e9b284e61fb9a2cad4878451579295,5f9afdd5720f88f7cc18715f8e50fc5635b15323,,dat_only,1,,,,,,,donaldmw,good,No-Intro,1
+gg-jp-0105,エコー・ザ・ドルフィン,,Ecco the Dolphin (Japan),0,retail,524288,a32eb9d5,a506fc04c7a0dfaf37423ff0a38aeb2e,5f0de698e8e0d4323b36bd78e2bd1af1c3370f3e,,dat_only,1,,,,,,,eccoj,good,No-Intro,1
+gg-jp-0106,ソニックドリフト,,Sonic Drift (Japan) (En),0,retail,524288,68f0a776,8093ef0eeb147f2a938fae3e5a26d8b3,fef5d69093df2d774ed274a4079790f8778577fc,,dat_only,1,,,,,,,sonicdr,good,No-Intro,1
+gg-jp-0107,アラジン,,Aladdin (Japan) (En),0,retail,524288,770e95e1,258abbcd90fe78e19c53c39ce9150106,7ddfd53e91d8220e4238d3994921bf18fe383717,,dat_only,1,,,,,,,aladdinj,good,No-Intro,1
+gg-jp-0108,スクラッチゴルフ,,Scratch Golf (Japan),0,retail,262144,ec0f2c72,ffde26c2f9ab968113f87d1528bfc817,4c1d3b5057702341b5646d0a2fe65a9bda966211,,dat_only,1,,,,,,,scratchgj,good,No-Intro,1
+gg-jp-0109,幽☆遊☆白書 滅びし者の逆襲,,Yu Yu Hakusho - Horobishimono no Gyakushuu (Japan) (En),0,retail,524288,88ebbf9e,8c172cbafa7396077a651f2649d1cbcb,e75803c9241094f7cfe251b99cd370228cc0923c,,dat_only,1,,,,,,,yuyu,good,No-Intro,1
+gg-jp-0110,GPライダー,,GP Rider (Japan) (En),0,retail,524288,7a26ec6a,6427d14da2501e16da16930622ee8846,b1c4315dc4afe58256f3834cff8e94c6b02bc1b6,,dat_only,1,,,,,,,gpriderj,good,No-Intro,1
+gg-jp-0110,GPライダー,,GP Rider (World),0,retail,524288,876e9b72,6fa101fb69da89a922b1b99f36e515bc,7777f091c8b540d3248fd7c0fb21e742af6f0ede,,dat_only,1,,,,,,,gprider,good,No-Intro,1
+gg-jp-0111,タントア〜ル,,Puzzle & Action - Tanto-R (Japan),0,retail,524288,09151743,dcec1000aea3882b218b0cc0aed5a5d8,75f54793ac09e22e0be1864ea16e68b2fb4610ff,,dat_only,1,,,,,,,tantr,good,No-Intro,1
+gg-jp-0112,女神転生外伝 ラストバイブル,,Megami Tensei Gaiden - Last Bible (Japan),0,retail,524288,2e4ec17b,ab54600e28d866558323381f74fe2749,d98332eba27fd4a0db82d551a54bee4fdccf41a2,,dat_only,1,,,,,,,lastbibl,good,No-Intro,1
+gg-jp-0113,NBAジャム,,NBA Jam (Japan) (En),0,retail,524288,a49e9033,8aab7b6664b91dd272165997b6fd0161,e7c040a58c8d35bf5b5b556b2d3c55e7a5eb0550,,dat_only,1,,,,,,,nbajamj,good,No-Intro,1
+gg-jp-0114,魔導物語II アルル16才,,Madou Monogatari II - Arle 16-Sai (Japan),0,retail,524288,12eb2287,81a57f26b7a1ccaa21bf7678b3596cb2,deead79fa4cb2e87652a9c8a76f2a7174f48f37a,,dat_only,1,,,,,,,madoum2,good,No-Intro,1
+gg-jp-0115,エイリアン3,,Alien 3 (Japan) (En),0,retail,262144,06f6eebb,25decd5633847246b38fb9188496d2c8,f09885d76ea7af75fb605261a08143d3ccdc4ca8,,dat_only,1,,,,,,,alien3j,good,No-Intro,1
+gg-jp-0116,ワールドダービー,,World Derby (Japan),0,retail,524288,1e81861f,d8939b64458faf174cdc1241f777cb59,af96e8d9470df941c7c356cc9b6e143a3c44dd86,,dat_only,1,,,,,,,wderby,good,No-Intro,1
+gg-jp-0117,とられてたまるか!?,,Torarete Tamaruka (Japan),0,retail,524288,5bcf9b97,3ac2d39d5ba4fc04eec9d13f0b1c2b73,fa87ac6b14c4b9eaa91fa8e4550b3c9049dd8ef2,,dat_only,1,,,,,,,torarete,good,No-Intro,1
+gg-jp-0118,アダムス・ファミリー,,"Addams Family, The (World)",0,retail,262144,1d01f999,f4f3211738002369b9ada7a099e33a45,3231d574e5eb0ac3a77b1d65d74f3a581819a9c7,,dat_only,1,,,,,,,addfam,good,No-Intro,1
+gg-jp-0119,ロボコップ3,,RoboCop 3 (World),0,retail,262144,069a0704,ae7121e6ce2831e1b700515b6060acaf,8de7c9ac95b734af9e3fbe5700ac4c6599799702,,dat_only,1,,,,,,,robocop3,good,No-Intro,1
+gg-jp-0120,JリーグGGプロストライカー'94,,J.League GG Pro-Striker '94 (Japan),0,retail,524288,a12a28a0,d4034f6604c5dc04ee06e78b913c47fc,04248e53ce54c9f17daae9885fed87d39f0117b6,,dat_only,1,,,,,,,jleagu94,good,No-Intro,1
+gg-jp-0121,スマッシュT.V.,,Super Smash T.V. (World),0,retail,262144,1006e4e3,d378d5784b82154bdc7b36976a7c7737,85189e29f3f6b94f95723bc75571e9424df119f9,,dat_only,1,,,,,,,smashtv,good,No-Intro,1
+gg-jp-0122,ズールのゆめぼうけん,,Zool no Yume Bouken (Japan) (En),0,retail,262144,e35ef7ed,ff5f8ad2c620e25d2b028f2e1fed2b54,2c799ee084b858cb71cfaa7a3f6d3a4f364b6c43,,dat_only,1,,,,,,,zoolj,good,No-Intro,1
+gg-jp-0123,バートワールド,,"Simpsons, The - Bart vs. the World (World)",0,retail,262144,da7bd5c7,b71c156bb1fcfa6c3c48924a7b3747ff,256672261c9a2d35e10eb06e990e8ebc46fb35c1,,dat_only,1,,,,,,,bartvswd,good,No-Intro,1
+gg-jp-0124,なぞぷよ アルルのルー,,Nazo Puyo - Arle no Roux (Japan),0,retail,262144,54ab42a4,d207c9aca1cc848c363b9f367dd9df3b,20308b7389a9e860697a66510d4925d1af3b769a,,dat_only,1,,,,,,,nazpyoar,good,No-Intro,1
+gg-jp-0125,ダイナマイトヘッディー,,Dynamite Headdy (Japan) (En),0,retail,524288,f6af4b6b,79a0d819e9cddebcb80e28a174ff2005,a8e3f447089537b52e40958c07610bfead82442d,,dat_only,1,,,,,,,dheadj,good,No-Intro,1
+gg-jp-0126,颯爽少年英雄伝 コカ・コーラキッド,,Sassou Shounen Eiyuuden - Coca-Cola Kid (Japan),0,retail,524288,c7598b81,dbede5c20828e3d251b05356d9176c79,e0a6caba7d8433175a3b7f1dfb593f9ca2c67cd1,,dat_only,1,,,,,,,cocakid,good,No-Intro,1
+gg-jp-0127,ポパイのビーチバレーボール,,Popeye no Beach Volleyball (Japan),0,retail,524288,3ef66810,39d854c9902cf8ca34f32767424be8af,921e3922e1b550b6914fb06ba74d4661ef25a89e,,dat_only,1,,,,,,,popeye,good,No-Intro,1
+gg-jp-0128,モータルコンバットII 究極神拳,,Mortal Kombat II (World),0,retail,524288,4b304e0f,159256f5a372f2e409ecb343a3946001,320d2b8b62ef0109621bbe609b02bd8b0769a0b9,,dat_only,1,,,,,,,mk2,good,No-Intro,1
+gg-jp-0129,剣勇伝説YAIBA,,Kenyuu Densetsu Yaiba (Japan),0,retail,524288,d9ce3f4c,d8cb893b1cf1ae9555ad9b7eaad469e0,21b08c5c4b086e169d5f780cafc22c041e19807b,,dat_only,1,,,,,,,yaiba,good,No-Intro,1
+gg-jp-0130,ダンクキッズ,,Dunk Kids (Japan) (En),0,retail,524288,77ed48f5,1d1c50cdbfe605a37d5dcf1250a951df,7525923ba2531d5079d66b2b1156cb5e7d44c66a,,dat_only,1,,,,,,,dunkkids,good,No-Intro,1
+gg-jp-0131,クラッシュ・ダミー スリック坊やの大挑戦,,"Incredible Crash Dummies, The (World)",0,retail,262144,087fc247,4d7fafe13d1aa4c9ea893bd4ec2f8332,6858554fc26f2382a262736854496e11f0925d40,,dat_only,1,,,,,,,crashdum,good,No-Intro,1
+gg-jp-0133,プロ野球GGリーグ'94,,Pro Yakyuu GG League '94 (Japan),0,retail,524288,a1a19135,45d214cd027dee5ce2adfcd6458dec2c,faac2b420cb895aec4216d4c5ce21e5f2a4c4338,,dat_only,1,,,,,,,proyak94,good,No-Intro,1
+gg-jp-0134,幽☆遊☆白書II 激闘!七強の戦い,,Yu Yu Hakusho II - Gekitou! Nanakyou no Tatakai (Japan),0,retail,524288,46ae9159,3ccef570d91851265472c90d523971b4,140efe67e886f52aeda2089a73599f7680c89f24,,dat_only,1,,,,,,,yuyu2,good,No-Intro,1
+gg-jp-0135,モルドリアン 〜光と闇の姉妹〜,,Moldorian - Hikari to Yami no Sister (Japan),0,retail,524288,4d5d15fb,95fb42e84a2b08acce481b0894ea3cea,0dad260b5357b2f61d1452bb73d8321ca53d7262,,dat_only,1,,,,,,,moldoran,good,No-Intro,1
+gg-jp-0136,ソニック&テイルス2,,Sonic & Tails 2 (Japan) (En),0,retail,524288,496bce64,05f5b6201ccece80facaf99fa7cf5a6e,bb14ed43cf815e82f55e79753d0a7c8a24e24e7f,,dat_only,1,,,,,,,sonictl2,good,No-Intro,1
+gg-jp-0137,餓狼伝説スペシャル,,Garou Densetsu Special (Japan),0,retail,524288,9afb6f33,203c6faa7508c8a88ee6b775e365d89c,ec2f11e28bff47d149df1987673f80da08c1af6d,,dat_only,1,,,,,,,garousp,good,No-Intro,1
+gg-jp-0138,イチダントア〜ルGG,,Puzzle & Action - Ichidanto-R (Japan),0,retail,524288,9f64c2bb,7e28dc24cb77accafeaba718917961ec,34f95713ae3fbd91452eb71ce1721ead153517e5,,dat_only,1,,,,,,,ichirgg,good,No-Intro,1
+gg-jp-0139,魔導物語III 究極女王様,,Madou Monogatari III - Kyuukyoku Joou-sama (Japan),0,retail,524288,0a634d79,b8b5305ec2f68d7bb3c9f622a13eba7c,dd590c9086161b1f97573c48720c32cc5506dabc,,dat_only,1,,,,,,,madoum3a,good,No-Intro,1
+gg-jp-0139,魔導物語III 究極女王様,,Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A),0,retail,524288,568f4825,1294c965abdd845f554b30b311dee272,673670f954176ffab28a0280aa49856a457f36b1,,dat_only,1,,,,,,,madoum3,good,No-Intro,1
+gg-jp-0140,SAMURAI SPIRITS,,Samurai Spirits (Japan),0,retail,524288,93fd73dc,71b53a4577065e11453928774a7b64b0,2aaf7b6f9d37275995d4a62bb8a465333d8b0bf4,,dat_only,1,,,,,,,samspir,good,No-Intro,1
+gg-jp-0141,ぷよぷよ通,,Puyo Puyo Tsuu (Japan),0,retail,524288,3ab2393b,7c080a453da2d80add04a3c3d9f264d1,04ea9ff57faeeccd1bbb17490d22313ae94c86d6,,dat_only,1,,,,,,,puyopuy2,good,No-Intro,1
+gg-jp-0141,ぷよぷよ通,,Puyo Puyo Tsuu (Japan) (Virtual Console),0,virtual_console,524288,1095528d,a54d6388dc3cb4303b067a82add93a25,b4c15e8951230c58d3350a2e4a6f998ea5bc87d3,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0142,From TV animation SLAM DUNK 勝利へのスターティング5,,From TV Animation Slam Dunk - Shouri e no Starting 5 (Japan),0,retail,524288,751dad4c,087039a3c04f4a3ae2f09bc258be00d1,bee62a373655d0ef931d8b9a4ed88fb0f4d1a8bc,,dat_only,1,,,,,,,slamdunk,good,No-Intro,1
+gg-jp-0143,魔法騎士レイアース,,Magic Knight Rayearth (Japan),0,retail,524288,8f82a6b9,846d48d0f4024c8094117599d0e1eef1,6c13e3b9bb24eafc1186c5ffa322b1f40c676b3d,,dat_only,1,,,,,,,rayearth,good,No-Intro,1
+gg-jp-0144,フレッド カプルスズ ゴルフ,,Fred Couples Golf (Japan),0,retail,524288,b1196cd7,3a228f1b9d55146445cd981d3949d715,fb7b3c6652c3105497b8254daf063d25519fea61,,dat_only,1,,,,,,,fredcoupj,good,No-Intro,1
+gg-jp-0145,ライオン・キング,,"Lion King, The (Japan)",0,retail,524288,c78b8637,81e5a88e8268a1b5730245a36fac812f,20e01958c3e3de905622c90838cd485a3338d7a4,,dat_only,1,,,,,,,lionkingj,good,No-Intro,1
+gg-jp-0146,ミッキーマウス 伝説の王国,,Mickey Mouse Densetsu no Oukoku - Legend of Illusion (Japan),0,retail,524288,fe12a92f,64bed8e7a263b89144eb68be73cef76c,cdcde96fe2a86fc2c404e7746c8670c44f8e169c,,dat_only,1,,,,,,,legndillj,good,No-Intro,1
+gg-jp-0147,ぎゃんぶるぱにっく,,Gamble Panic (Japan),0,retail,524288,09534742,e0b96e01749b6b44fa53f10a47e3d105,d33cd19676fdb0e6180a24ed406a61cdf30f0065,,dat_only,1,,,,,,,gamble,good,No-Intro,1
+gg-jp-0148,シルヴァンテイル,,Sylvan Tale (Japan),0,retail,524288,45ef2062,6657230e92f13ed98474523efc29d6b3,bec44ab675bcd6b081590d4d52b6af4076c342e6,,dat_only,1,,,,,,,sylvan,good,No-Intro,1
+gg-jp-0149,美少女戦士セーラームーンS,,Bishoujo Senshi Sailor Moon S (Japan),0,retail,524288,fe7374d2,33ca01d639aef0b2fecf2d059175abbe,824e463d0be5c0e81205a475b5ad7e55c366e486,,dat_only,1,,,,,,,sailorms,good,No-Intro,1
+gg-jp-0150,エコー・ザ・ドルフィン2,,Ecco the Dolphin II (Japan),0,retail,524288,ba9cef4f,e4e654aa1730565220120844dad6b444,36095f4c92f6f66ed6bc20d9b96227d6fb0dae5b,,dat_only,1,,,,,,,ecco2j,good,No-Intro,1
+gg-jp-0151,リスター・ザ・シューティングスター,,Ristar (World),0,retail,524288,efe65b3b,06f0a495fbb70fad50246da715f8add7,d0d950097471553b6a96dc9cf0fb14ddb3a7dda2,,dat_only,1,,,,,,,ristar,good,No-Intro,1
+gg-jp-0152,NFLクォーターバッククラブ'95,,NFL Quarterback Club (World),0,retail,524288,61785ed5,c2d0ee20ea58f5bfcfe7ddff05722a2d,ea42bb90eea90a159f8c662743aa59d6dd6f7250,,dat_only,1,,,,,,,nflqb,good,No-Intro,1
+gg-jp-0153,NBAジャム トーナメントエディション,,NBA Jam - Tournament Edition (World),0,retail,524288,86c32e5b,cfb2427a59cf67223e25ab2c46abca3e,c34e318852ca6f52e980c7a63721a145cd167843,,dat_only,1,,,,,,,nbajamte,good,No-Intro,1
+gg-jp-0154,クレヨンしんちゃん 対決!カンタムパニック!!,,Crayon Shin-chan - Taiketsu! Kantam Panic!! (Japan),0,retail,524288,03d28eab,41eec91e3c4e546d93053f2c234517a6,65bcbd89637b8e6837cf36c7f1241eacf85abaa9,,dat_only,1,,,,,,,crayon,good,No-Intro,1
+gg-jp-0155,ロイアル・ストーン 開かれし時の扉,,Royal Stone - Hirakareshi Toki no Tobira (Japan),0,retail,524288,445d7cd2,c05b51ea07c8017a6d12badaea9daf29,c1afca3ac30cb9852f508f5dded7e50e08000f86,,dat_only,1,,,,,,,royalstn,good,No-Intro,1
+gg-jp-0156,タマ&フレンズ 3丁目公園タマリンピック,,Tama & Friends - 3 Choume Kouen Tamalympic (Japan),0,retail,262144,dd1d2ebf,ac7aebc91fc607150ad8dbf286a61e36,c8bf11726a152a88f2b1d900bbd974775a8e608b,,dat_only,1,,,,,,,tamalymp,good,No-Intro,1
+gg-jp-0157,ソニック ドリフト2,,Sonic Drift 2 (World),0,retail,524288,d6e8a305,b39d1e9a40dfd3508ee4003cd28da452,fe597c5cfbbc31e54f2484eb5b33c21c66cf0290,,dat_only,1,,,,,,,sonicdr2,good,No-Intro,1
+gg-jp-0158,SDガンダム WINNER'S HISTORY,,SD Gundam - Winner's History (Japan),0,retail,524288,5e2b39b8,2ff122c0eb474e362cbccfb7c72b1a38,24e217098845ab5a0eb29e9dc6af2e86be1b0a84,,dat_only,1,,,,,,,sdgundam,good,No-Intro,1
+gg-jp-0159,ガンスターヒーローズ,,Gunstar Heroes (Japan),0,retail,524288,c3c52767,c46d46f3ab4873cb1ed7ae8b9b70f2b4,c373d3876659095bb869ff0e4bb7ffc68123cf3e,,dat_only,1,,,,,,,gunstar,good,No-Intro,1
+gg-jp-0160,女神転生外伝 ラストバイブルスペシャル,,Megami Tensei Gaiden - Last Bible Special (Japan),0,retail,524288,4ec30806,aab2b02c831252f6a2eb369df39f7c73,ca597064a8f0dd8221e89655584ec0cc67dbe026,,dat_only,1,,,,,,,lastbibs,good,No-Intro,1
+gg-jp-0161,THE クイズギアファイト!!,,"Quiz Gear Fight!!, The (Japan)",0,retail,524288,736cdb76,3bb4196a872265ce31cd27f5f8800152,6ce8ff78d96a1a0e13997489d1a53b5a57a619c2,,dat_only,1,,,,,,,quizgear,good,No-Intro,1
+gg-jp-0162,TEMPO JR.,,Tempo Jr. (World),0,retail,524288,de466796,d5d52e216698b34a3dbe95d5990c52c8,a2d800d2836a03f81dd8f3dda23cd2d8bfff18a5,,dat_only,1,,,,,,,tempojr,good,No-Intro,1
+gg-jp-0163,テイルスのスカイパトロール,,Tails' Skypatrol (Japan) (En),0,retail,262144,88618afa,ffb364bbaf72881cf7571e7ec388490d,9cb440611e9e3a7957438698fede0978d568a807,,dat_only,1,,,,,,,tailskyp,good,No-Intro,1
+gg-jp-0164,スターゲイト,,Stargate (World),0,retail,262144,fc7c64e4,b24361360667c2730ae9cbe9004b54d0,011fd49600eaef8be7cbe35ab6eeb4e1554d836c,,dat_only,1,,,,,,,stargate,good,No-Intro,1
+gg-jp-0165,トゥルーライズ,,True Lies (World),0,retail,524288,5173b02a,758bfe2baba5d8b518c6f746864bb8d5,7ee525e68b9f3bca2a5bdd6de14711108dcbc288,,dat_only,1,,,,,,,truelies,good,No-Intro,1
+gg-jp-0166,スーパーコラムス,,Super Columns (Japan),0,retail,131072,2a100717,3696ab241bbe66846a0ad00a50ca289b,a1de915b0f10894bedc6ee8f0fd1f2da65bcfa68,,dat_only,1,,,,,,,supercolj,good,No-Intro,1
+gg-jp-0167,シャイニング・フォース外伝 ファイナルコンフリクト,,Shining Force Gaiden - Final Conflict (Japan),0,retail,524288,6019fe5e,35ef27f6b4b4ddc4a6ad6c78db8c890b,0d4bc152e7ae70457fa74f593e064403cd24ab72,,dat_only,1,,,,,,,shinfrgf,good,No-Intro,1
+gg-jp-0167,シャイニング・フォース外伝 ファイナルコンフリクト,,Shining Force Gaiden - Final Conflict (Japan) (Virtual Console),0,virtual_console,524288,eb05c8ec,900fbe67db61b1453c7406fef7426d0e,bfcf28a05fac271bb5777aa4c1f9af9f34d6fe54,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0168,闘え!プロ野球ツインリーグ,,Tatakae! Pro Yakyuu Twin League (Japan),0,retail,524288,bec57602,a438f5c42a849e8224f8d3afe010655e,8c629941ae7077862dd516283c656b5212920936,,dat_only,1,,,,,,,proyaktl,good,No-Intro,1
+gg-jp-0169,忍空,,Ninku (Japan),0,retail,524288,c3056e15,713ae959af3eea55c9a3c5bd36f1ed9d,d22bfa865b34866568f3dd7fccec886170071c81,,dat_only,1,,,,,,,ninku,good,No-Intro,1
+gg-jp-0170,魔法騎士レイアース2 〜making of magic knight〜,,Magic Knight Rayearth 2 - Making of Magic Knight (Japan),0,retail,524288,1c2c2b04,b19256c6716147a9744f5bd528f14450,29615d86057f3323ecda75d47102e77d364f6499,,dat_only,1,,,,,,,rayeart2,good,No-Intro,1
+gg-jp-0171,鬼神童子ZENKI,,Kishin Douji Zenki (Japan),0,retail,524288,7d622bdd,ac6ed281ac8e9d71af186602951cfd7a,0fb3530633070551f3d5a04839fc42babc092fbd,,dat_only,1,,,,,,,zenki,good,No-Intro,1
+gg-jp-0172,FIFAインターナショナル・サッカー,,FIFA International Soccer (Japan),0,retail,524288,78159325,6b60449b8c589aa2361ff6e67eae18f6,70385b99320f91fef54ea88123761af9d7ff54c5,,dat_only,1,,,,,,,fifaj,good,No-Intro,1
+gg-jp-0173,テイルスアドベンチャー,,"Tails Adventure (World) (En,Ja)",0,retail,524288,5bb6e5d6,a8bdb1beed088ff83c725c5af6b85e1f,da3df145b8e9f2a2e680d2c92939084d4530ed90,,dat_only,1,,,,,,,tailsadv,good,No-Intro,1
+gg-jp-0173,テイルスアドベンチャー,,"Tails Adventure (World) (En,Ja) (Virtual Console)",0,virtual_console,524288,a354ea49,c2fe111a6e569ec6d58b9ecc32de0e12,8a3c327b328def981779ce436df7857578c01883,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0174,ギアスタジアム平成版,,Gear Stadium Heiseiban (Japan),0,retail,131072,a0530664,7befead333e6898caab966affb5e6f83,210fef406c4fe8e0ed995f92ea7597e8f1b7f91c,,dat_only,1,,,,,,,gearstah,good,No-Intro,1
+gg-jp-0175,バットマン フォーエヴァー,,Batman Forever (World),0,retail,524288,618b19e2,6e8f14a7ab173cac90317d390ff8d63b,775ecf7ba87345c2f89f0e9d6e55544db8878786,,dat_only,1,,,,,,,batmanf,good,No-Intro,1
+gg-jp-0176,フォアマン フォーリアル,,"Foreman for Real (Japan, USA) (En)",0,retail,524288,d46d5685,50d9e83b34b960d296f59cf08f8170c6,d7109dc1db52bb4828a01b433a4b2993ac2e59e1,,dat_only,1,,,,,,,foreman,good,No-Intro,1
+gg-jp-0177,忍空外伝 ヒロユキ大活劇,,Ninku Gaiden - Hiroyuki Daikatsugeki (Japan),0,retail,524288,9140f239,e9b45d6455e0753b8e0e825a36458253,23003e39918f855bd37f58b7b8840960cc82196a,,dat_only,1,,,,,,,ninkug,good,No-Intro,1
+gg-jp-0178,ソニックラビリンス,,Sonic Labyrinth (World),0,retail,524288,5550173b,aa6598585b2cdb92a14476beeb34991b,e24bf33d8d5a79f371485f20f207b6b26f5b341e,,dat_only,1,,,,,,,soniclab,good,No-Intro,1
+gg-jp-0178,ソニックラビリンス,,Sonic Labyrinth (World) (Virtual Console),0,virtual_console,524288,b531a09e,27c46dadda7bd6d04bd7863975cdde39,77b7a4972725c605346cb441ad0b532bff21065d,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0179,Jリーグサッカー ドリームイレブン,,J.League Soccer - Dream Eleven (Japan),0,retail,524288,abddf0eb,2b4ba7d870b8a57e769f9e0cb605c536,bed727b732712f115ddc4dc5fd873e6cd3787b62,,dat_only,1,,,,,,,jleague,good,No-Intro,1
+gg-jp-0180,魔導物語A ドキドキばけ〜しょん,,Madou Monogatari A - Dokidoki Vacation (Japan),0,retail,524288,7ec95282,ab0d1eb20ac63a984d874a885ca2588d,c027aa76fe0e09a2d1b982eea0df2c8b687aadf7,,dat_only,1,,,,,,,madouma,good,No-Intro,1
+gg-jp-0181,野茂英雄のワールドシリーズベースボール,,Nomo Hideo no World Series Baseball (Japan),0,retail,524288,4ed45bda,e9f8abb1eea7fb9d7f3fdf4efec986a1,127a7e6706f6d9b129d5cf0dd2bb417e9b108748,,dat_only,1,,,,,,,nomowsb,good,No-Intro,1
+gg-jp-0182,ゴジラ 怪獣大進撃,,Gojira - Kaijuu Daishingeki (Japan),0,retail,524288,4cf97801,e550267f3ae767bed5d0e2a126f44a10,ff3e8905635a02eb85556146225020b52506424c,,dat_only,1,,,,,,,godzilla,good,No-Intro,1
+gg-jp-0183,スーパー桃太郎電鉄III,,Super Momotarou Dentetsu III (Japan),0,retail,524288,b731bb80,d8f9cfde4aca117781a931d4fa73feaf,f62e0e433987f97143282d2526490cd45f3e7185,,dat_only,1,,,,,,,smomo3,good,No-Intro,1
+gg-jp-0184,忍空2 〜天空龍への道〜,,Ninku 2 - Tenkuuryuu-e no Michi (Japan),0,retail,524288,06247dd2,da36e835210b7f05ba2973f343a8c300,fd6452974da734fcd4292cb0cd728a0ac9aef714,,dat_only,1,,,,,,,ninku2,good,No-Intro,1
+gg-jp-0185,LUNAR さんぽする学園,,Lunar - Sanposuru Gakuen (Japan),0,retail,524288,58459edd,72cea1d3e02b74f10293aff3f2677683,1b0cc847d31956d843cadab7d86a2f434220301e,,dat_only,1,,,,,,,lunar,good,No-Intro,1
+gg-jp-0186,ばくばくアニマル 世界飼育係選手権,,Baku Baku Animal - Sekai Shiikugakari Senshu-ken (Japan),0,retail,262144,7174b802,55b9b96f12e1786dc293a1c45768f013,270e071342adb41406568e171df4959656ed02bf,,dat_only,1,,,,,,,bakubakuj,good,No-Intro,1
+gg-jp-0187,バーチャファイターMini,,Virtua Fighter Mini (Japan),0,retail,1048576,c05657f8,8f31e2b715d06b960fa294746e8bd1de,b0622ef2e58fc38af35ead0a632babc4bfe49e86,,dat_only,1,,,,,,,vfmini,good,No-Intro,1
+gg-jp-0188,怪盗セイント・テール,,Kaitou Saint Tail (Japan),0,retail,524288,937fd52b,bbf7dcb006a49c087ee71a3684a5a339,3e4e7ec4a4ce5d48baed7d583ede8bb9f92a44a6,,dat_only,1,,,,,,,sainttal,good,No-Intro,1
+gg-jp-0189,ドラえもん ワクワクポケットパラダイス,,Doraemon - Waku Waku Pocket Paradise (Japan),0,retail,524288,733292a6,5dae999e98312e4cb5962041ddea351f,495816dbd49560cf02e841b53bd996456078c36b,,dat_only,1,,,,,,,doraemon,good,No-Intro,1
+gg-jp-0190,ねこ大すき!,,Neko Daisuki! (Japan),0,retail,524288,3679be80,b61753da244f213df3d0be198f8b7cbb,c83fd440895ceb50e4da2ab9db2a29ac21555e9d,,dat_only,1,,,,,,,nekodais,good,No-Intro,1
+gg-jp-0191,パズルボブル,,Puzzle Bobble (Japan),0,retail,262144,8e54ee04,1713eceba681849be8e36f5f62654405,15568554cf6474e1ad64401217b702a048113a2d,,dat_only,1,,,,,,,pbobble,good,No-Intro,1
+gg-jp-0192,GGポートレート ゆうきあきら,,GG Portrait - Yuuki Akira (Japan),0,retail,524288,51159f8f,82d3c23cf9617174aa47bed8e76438df,4cbb453663665a06e986a6ab015a041463b48373,,dat_only,1,,,,,,,ggport1,good,No-Intro,1
+gg-jp-0193,GGポートレート パイ・チェン,,GG Portrait - Pai Chan (Japan),0,retail,524288,695cc120,3dbd51ce27c7eeee98aaeccdb96affb6,cf752897523814951401994c95de299cd42fdb50,,dat_only,1,,,,,,,ggport,good,No-Intro,1
+gg-jp-0194,パンツァードラグーンMINI,,Panzer Dragoon Mini (Japan) (En),0,retail,524288,e9783cea,4d0d6d25dfef7e1a509d828f157d515f,c1498f68acb234f46ab6f443f484a48ebd183f0f,,dat_only,1,,,,,,,panzer,good,No-Intro,1
+gg-jp-0195,ペット倶楽部 いぬ大すき!,,Pet Club - Inu Daisuki! (Japan),0,retail,524288,b42d8430,2abadeb0084af850778053b181f97a59,0c0bcfd06084419e7c5921f92ccb0f977058c5a3,,dat_only,1,,,,,,,inudais,good,No-Intro,1
+gg-jp-0196,G・ソニック,,Sonic Blast (World),0,retail,1048576,031b9da9,56e1561d981a9a7c240cdd8d5580ccf0,11241be4082f6f9d057488ae75ccdd482f623f8c,,dat_only,1,,,,,,,sonicbls,good,No-Intro,1

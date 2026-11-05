@@ -338,6 +338,20 @@ def _mark(col):
     return lambda row: "only" if "○" in row.get(col, "") else "yes" if "●" in row.get(col, "") else ""
 
 
+def _gg_models(text):
+    """ゲームギアの型番（セガ 'G-3327'、ライセンシー 'T-44017'）。MAME の並記からは日本版（'(JPN)' 付きがあればそれ）を取り、
+    再販の名作コレクション（'(Meisaku Collection)'）の型番は採らない。"""
+    parts = [p for p in re.split(r",", text or "") if "Meisaku" not in p]
+    if any("JPN" in p for p in parts):
+        parts = [p for p in parts if "JPN" in p]
+    out = []
+    for p in parts:
+        for m in re.finditer(r"(?<![A-Z0-9-])([GT]-\d{4,6})(?!\d)", p.upper()):
+            if m.group(1) not in out:
+                out.append(m.group(1))
+    return out
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -841,6 +855,27 @@ PLATFORMS = {
         "hash_source": "Redump",
         "media": "disc",
         "tax_inclusive_from": "2004-04-01",
+    },
+    # ゲームギア
+    "gg": {
+        "name": "ゲームギア",
+        "dir": ROOT / "data" / "gg",
+        "id_prefix": "gg-jp",
+        "wikipedia": {"tables": [{"page": "ゲームギアのゲームタイトル一覧", "section": "発売されたタイトル",
+                                  "table_id": "softwarelist",
+                                  "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs")}]},
+        "madb_platforms": ["ゲームギア"],
+        "mame_lists": ["gamegear"],
+        "mame_jp_models": _gg_models,   # 日米共通の "(World)" など（米国版の型番は数字だけなので含まれない）
+        "nointro_dats": ["Sega - Game Gear"],
+        "nointro_export": ["Sega - Game Gear (DB Export)"],
+        "nointro_export_fallback": {"Sega - Game Gear (DB Export)": "Sega - Game Gear"},
+        "models_from": _gg_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルが無い
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "dump_world": True,
+        "tax_free_before": "1989-04-01",
     },
     "wii": {
         "name": "Wii",
