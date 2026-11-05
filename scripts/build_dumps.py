@@ -45,13 +45,13 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      # 非公式品（Hacker）、後年の書籍付録・配信版など
                      r"|FamicomBox|Family BASIC|Menu Cart|EPROM|Digital|Disc|Sansai Mook|Ending Credits Program"
                      r"|Not For Resale|Shouhin Golf Tournament US Course|Hacker|SA-0\d+( \d+)? PCB"
-                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On)$")
+                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On|Hibaihin)$")
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$"
                         r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
                         r"|^XBOX$|^Classic Mini$|^Namco Anthology \d$|^Project EGG$|^Collector's Edition$"
                         r"|^Game & Watch - Super Mario Bros\.$|^Evercade$|^Retro-Bit$|^Disney Classic Games$"
-                        r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Mega 6$")
+                        r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Mega 6$|^PC Engine Mini$")
 # GameCube: GC 用ソフトに収録された ROM（N64）
 ONLINE = re.compile(r"^(Sega Game Toshokan|Sega Channel)$")   # MD の通信配信版（ゲーム図書館・セガチャンネル）
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
@@ -141,9 +141,9 @@ def tags_of(name):
 
 def game_codes(g, ref, cfg):
     files = [f for s in g.findall("source") for f in s.findall("file")]
-    codes = {f.get("serial") for f in files if f.get("serial")}
+    codes = {c for f in files if f.get("serial") for c in f.get("serial").split(";")}
     if ref and ref["serial"]:
-        codes.add(ref["serial"])
+        codes.update(ref["serial"].split(";"))
     return {c2 for c in codes for c2 in [cfg["normalize_code"](c)] if c2}
 
 
@@ -229,12 +229,21 @@ def main():
         root, ver = C.load_nointro_export(pattern, a.export if len(exports) == 1 else None, fb)
         versions.append(ver)
         for g in root.iter("game"):
-            games.setdefault(g.get("name"), g)
+            name = g.get("name")
+            if name in games and fb and fb.startswith("redump:") and games[name] is not g:
+                # 別の DAT に同名の吸い出しがある（PCE の HuCARD 版と CD 版の『ドラえもん のび太のドラビアンナイト』）。
+                # 名前に [2] などを付けて両方残す
+                n = 2
+                while f"{name} [{n}]" in games:
+                    n += 1
+                name = f"{name} [{n}]"
+                g.set("name", name)
+            games.setdefault(name, g)
     version = " / ".join(versions)
     dat = C.load_nointro_dat(cfg["nointro_dats"])
     mame = C.mame_crcs(cfg["mame_lists"])
     mame_sw = C.mame_software(cfg["mame_lists"])
-    # 自動で結びつかない吸い出しの手動対応（dump_name → title_id）
+    # 自動で結びつかない吸い出しの手動対応（dump_name → title_id。'-' は製品版に結びつけない）
     manual = {m["dump_name"]: m["title_id"] for m in C.read_csv(DATA / "overrides" / "dump_matches.csv")}
     nr_parents = {m["nointro_name"]: m["parent_id"]
                   for m in C.read_csv(DATA / "overrides" / "non_retail_parents.csv")}
@@ -268,6 +277,8 @@ def main():
         if any(EXCLUDE.match(t) for t in tags) or "Taikenban" in name:
             continue
         targets = [t for c in sorted(codes) for t in by_code.get(c, [])]
+        if manual.get(name) == "-":
+            continue   # 製品版に結びつけない（非売品の付録が製品版と同じシリアルを持つ場合など）
         if name in manual:   # 手動の対応はゲームコードより優先（同じコードの別作品がある場合）
             targets = [title_by_id[manual[name]]]
             codes = codes or {code_of(t["model_number"]) for t in targets} - {""}

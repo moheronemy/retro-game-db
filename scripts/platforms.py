@@ -252,6 +252,29 @@ _MD_TABLE = {"page": "メガドライブのゲームタイトル一覧", "sectio
              "table_id": "softwarelist", "columns": ("jp", "na", "eu", "br", "title", "publisher", "notes")}
 
 
+def _pce_models(text):
+    """PCエンジンの型番（'HC62005'、'H49G-1001'、'NAPR-1051'、'HCD0008'、'TJCD1018' など。会社ごとに形式が違う）。
+    MAME の 'TICD6006 (R-660034)' のような括弧内の別番号や、'HCD0012 / HCD0011 (w/ audio CD)' の2つ目は採らない。"""
+    out = []
+    for part in re.split(r"[,/;]", re.sub(r"\([^)]*\)", "", (text or "").upper())):
+        for m in re.finditer(r"(?<![A-Z0-9-])([A-Z][A-Z0-9]{1,4}[- ]?\d{3,6}[A-Z]?)(?![A-Z0-9])", part):
+            if m.group(1) not in out:
+                out.append(m.group(1))
+    return out
+
+
+def _pce_key(model):
+    """型番のハイフン・空白の有無の違い（'NAPR-1051' と 'NAPR1051'）を照合では同じとみなす。"""
+    return re.sub(r"[- ]", "", model or "")
+
+
+_PCE_FORMATS = {"HC": "hucard", "SG": "supergrafx", "CR": "cd_rom2", "SC": "super_cd_rom2", "AC": "arcade_card"}
+
+
+def _pce_format(row):
+    return "/".join(_PCE_FORMATS[c] for c in re.findall(r"HC|SG|CR|SC|AC", row.get("d_format", "")))
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -597,6 +620,48 @@ PLATFORMS = {
         "code_of": lambda m: "",
         "normalize_code": lambda c: "",
         "dump_world": True,
+    },
+    # PCエンジン。HuCARD と CD-ROM は1つのリストで format 列で区別する（Wikipedia の「規格」列）。
+    # Wikipedia「その他」節（販売経路が分からない幼児向けソフト）は jp_other.csv（--list other）
+    "pce": {
+        "name": "PCエンジン",
+        "dir": ROOT / "data" / "pce",
+        "id_prefix": "pce-jp",
+        "wikipedia": {"tables": [
+            {"page": "PCエンジンのゲームタイトル一覧", "section": "発売されたタイトル", "table_id": table_id,
+             "columns": ("jp", "na", "title", "publisher", "d_format", "genre", "notes", "refs")}
+            for table_id in ("softwarelist", "softwarelist2")]},
+        "extra_lists": {
+            "other": {
+                "out": "jp_other.csv",
+                "id_suffix": "other",
+                "tables": [{"page": "PCエンジンのゲームタイトル一覧", "section": "その他",
+                            "columns": ("jp", "title", "publisher", "d_format", "notes", "refs"),
+                            "derive": {"format": _pce_format}}],
+            },
+        },
+        "extra_columns": ["format", "genre"],
+        "derive": {"format": _pce_format},
+        "madb_platforms": ["PCエンジン"],
+        "mame_lists": ["pce", "sgx", "pcecd"],
+        "mame_all_japanese": ["pce", "sgx"],   # 日本版だけのリスト（説明に地域が無い）
+        "models_from": _pce_models,
+        "models_from_serial": lambda s: _pce_models(s),
+        "model_key": _pce_key,
+        # 型番の No-Intro・Redump での確認は CD だけ（HuCARD の DAT にはシリアルが無い）
+        "nointro_model_check": lambda r: "cd" in r.get("format", "") or "arcade" in r.get("format", ""),
+        "nointro_dats": ["NEC - PC Engine - TurboGrafx 16", "NEC - PC Engine SuperGrafx",
+                         "redump:NEC - PC Engine CD - TurboGrafx-CD"],
+        "nointro_export": ["NEC - PC Engine - TurboGrafx 16 (DB Export)", "NEC - PC Engine SuperGrafx (DB Export)",
+                           "NEC - PC Engine CD (Redump)"],
+        "nointro_export_fallback": {
+            "NEC - PC Engine - TurboGrafx 16 (DB Export)": "NEC - PC Engine - TurboGrafx 16",
+            "NEC - PC Engine SuperGrafx (DB Export)": "NEC - PC Engine SuperGrafx",
+            "NEC - PC Engine CD (Redump)": "redump:NEC - PC Engine CD - TurboGrafx-CD"},
+        # CD は Redump のシリアル（レーベル面の型番）で結びつける。HuCARD は DAT にシリアルが無い
+        "code_of": _pce_key,
+        "normalize_code": _pce_key,
+        "tax_free_before": "1989-04-01",
     },
     "wii": {
         "name": "Wii",

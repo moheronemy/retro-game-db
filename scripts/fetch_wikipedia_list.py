@@ -8,6 +8,7 @@
     python3 scripts/fetch_wikipedia_list.py gba --wikitext saved.wiki  # 保存済みwikitextから再生成（1ページの機種のみ）
 """
 import argparse
+import html
 import csv
 import json
 import re
@@ -222,11 +223,17 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
         cells = []
         for ln in lines:
             cells.extend(split_cells(ln))
+        # 並べ替え用の隠し文字（<span style="display:none">し26</span>）を除く
+        cells = [re.sub(r'<span style="display:\s*none;?">[^<]*</span>', "", x) for x in cells]
+        # 「卒業 &#12316;Graduation&#12316;」「トージャム&amp;アール」。&lt; &gt; は HTML タグとして消されないよう
+        # 私用領域の文字にしておき、最後に < > に戻す（『谷川浩司の将棋指南II &lt;名人への道&gt;』）
+        cells = [html.unescape(x.replace("&lt;", "\ue000").replace("&gt;", "\ue001")) for x in cells]
         if len(cells) < 3:
             print("skip:", cells, file=sys.stderr)
             continue
         c = dict(zip(columns, cells))
         date_raw = dts(re.sub(r"<span[^>]*></span>", "", c.get("jp", "")))
+        date_raw = re.sub(r"\{\{\s*nowrap\s*\|([^{}]*)\}\}", r"\1", date_raw, flags=re.I)
         date = parse_date(plain(date_raw), year)
         if regional and not date:
             continue  # 日本未発売（{{Unreleased}}）
@@ -252,6 +259,9 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
         if ref_code:  # 脚注の公式サイト URL に含まれるゲームコード（例: nintendo.co.jp/ds/software/aifj/）
             m = re.search(ref_code, "||".join(cells), re.I)
             row["ref_code"] = m.group(1).upper() if m else ""
+        for k, v in row.items():
+            if isinstance(v, str):
+                row[k] = v.replace("\ue000", "<").replace("\ue001", ">")
         row.update(extra or {})
         if row_filter and not row_filter(row):
             continue

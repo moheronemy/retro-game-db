@@ -19,6 +19,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | メガドライブ (MD) | [`data/md/jp_titles.csv`](data/md/jp_titles.csv) | 422 | 407 | 398 | [`data/md/jp_rom_dumps.csv`](data/md/jp_rom_dumps.csv)（524 行） |
 | メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 110 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
 | スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
+| PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 656 | 418 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（727 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -33,6 +34,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ディスクシステム | [`jp_not_for_sale.csv`](data/fc/disk_system/jp_not_for_sale.csv)（4 件） | [`jp_non_retail.csv`](data/fc/disk_system/jp_non_retail.csv)（14 件） | |
 | MD | （未調査・0 件） | [`jp_non_retail.csv`](data/md/jp_non_retail.csv)（7 件） | 配信専用 [`jp_online.csv`](data/md/jp_online.csv)（46 件） |
 | メガCD | [`jp_not_for_sale.csv`](data/md/mega_cd/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/md/mega_cd/jp_non_retail.csv)（1 件） | |
+| PCE | [`jp_not_for_sale.csv`](data/pce/jp_not_for_sale.csv)（15 件） | [`jp_non_retail.csv`](data/pce/jp_non_retail.csv)（1 件） | 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
 
@@ -554,6 +556,53 @@ Wikipedia の「非売品」節（FC 10 行・ディスク 5 行）を振り分�
 - 非売品の調査は後回し（本体の一覧に「非売品」節が無い）。メガCD の「その他」節の 2 件は、ワンダーメガ コレクション
   （ワンダーメガ本体に付属）を非売品（`bundled`）、SING!!（ゲームを収録した市販の音楽アルバム）をメガCD の一覧に追加した。
 
+## PCE
+
+PCエンジンとして日本で発売されたソフト（1987〜1999年）。`id` は `pce-jp-<連番>`（発売順）。HuCARD と CD-ROM は1つのリストで、
+`format` 列で区別する。PC-FX・LD-ROM²（レーザーアクティブ）・北米の TurboGrafx 専用ソフトは対象外。
+
+### 出典
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・規格 | ja.wikipedia「PCエンジンのゲームタイトル一覧」の HuCARD 系・CD-ROM 系の2つの表（日本 666 件。本文の規格別件数と一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「PCエンジン」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/pce.xml`（日本版のみのリスト）・`sgx.xml`・`pcecd.xml` |
+| ハッシュ | No-Intro DAT（libretro 収録の PC Engine・SuperGrafx）、Redump DAT（libretro 収録の PC Engine CD） |
+
+| 列 | 内容 |
+|---|---|
+| `format` | `hucard`（279）／`supergrafx`（スーパーグラフィックス専用、5）／`cd_rom2`（120）／`super_cd_rom2`（252）／`arcade_card`（アーケードカード専用、12）。両対応ソフトはパッケージの表記による（Wikipedia の分類どおり） |
+| `genre` | Wikipedia の「種類」列の略号（ACT・ADV・RPG・SLG・STG など） |
+
+- 668 件 = Wikipedia の 666 件 ＋「体験版・雑誌/ムック付録」節の 2 件。『スーパーCD-ROM²体験ソフト集』（定価 1,000 円）と
+  『スナッチャー パイロットディスク』（安価で発売）は市販品だったので本リストに入れた（`overrides/extra_titles.csv`）。
+- 型番は表記のまま（ハドソン `HC62005`、NEC `H49G-1001`、`NAPR-1051`、CD `HCD0008` など）。ハイフン・空白の有無の違いは照合では
+  同じとみなす。MAME と MADB で違うもの 18 件（MADB の `TPO2008` のような O と 0 の誤記が多い）は要確認レポートに出している。
+- 価格は 418 件（他は空欄）。1989年3月以前の発売は `税なし`。
+- 発売日: MADB と MAME がそろって Wikipedia と異なるものが 6 件（スペースインベーダーズ 復活の日、ゴールデンアックス、
+  ROMカラオケ Vol.5、レミングス、三國志III、聖戦士伝承・雀卓の騎士）。修正せず要確認レポートに出している。
+
+### ハッシュ
+
+- HuCARD・スーパーグラフィックスは No-Intro、CD は Redump のデータトラック（通常 Track 02。libretro 版 DAT に載っている1本）。
+- CD は Redump のシリアル（レーベル面の型番）で結びつける。HuCARD は DAT にシリアルが無いため MAME の CRC・名前・手動対応で結びつけた。
+  製品版の吸い出しが無いのは 3 件（ROMカラオケ Vol.5、パラディオン、真怨霊戦記）。
+- libretro 版 Redump DAT には同名の game が複数あることがある。同じハッシュならシリアルを `;` でつないで1つにまとめ
+  （GC のシリアル違い、PCE CD『うる星やつら』の HCD0011・HCD0012 など）、ハッシュが違えば ROM のファイル名（`(Alt)` など）を名前にして別の吸い出しとして残す。
+  別の DAT に同名がある場合（HuCARD 版と CD 版の『ドラえもん のび太のドラビアンナイト』）は CD 側に ` [2]` を付ける。
+
+### 非売品（`jp_not_for_sale.csv`）・別リスト
+
+| 振り分け先 | 内容 |
+|---|---|
+| 非売品（15 件） | 天外魔境 電々の伝（ハドソン会報誌の定期購読会員などに配布・`member`）、雑誌・ムックの付録 14 件（PCエンジンハイパーカタログ1〜6、DUO-RX 発売記念ハイパーカタログ、DUO COMIC 爆れつハンター、秋山仁の数学ミステリー、でべろスターターキット アセンブラ編・BASIC 編、DEVELO Magazine、PC Engine FAN Special CD-ROM² Vol. 1、もってけたまご。`supplement`） |
+| 別リスト `event_demo`（1 件） | ハイテク王国（ハドソン全国キャラバン大会の会場用。吸い出しは見つからない） |
+| 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） | Wikipedia「その他」節の NECホームエレクトロニクスの幼児向け学習ソフト（あっちこっちどっち など） |
+
+付録の『でべろスターターキット アセンブラ編』は Redump で製品版『ヴァージン・ドリーム』と同じシリアルになっているため、
+`overrides/dump_matches.csv` で製品版に結びつけないようにした（`title_id` が `-`）。その他の非売品（Redump にある『天外魔境 ZIRIA』の非売品版など）の調査は後回し。
+
 ## 再生成
 
 ```sh
@@ -607,6 +656,11 @@ python3 scripts/build_dumps.py mcd
 python3 scripts/fetch_wikipedia_list.py 32x    # スーパー32X → data/md/32x/
 python3 scripts/enrich.py 32x
 python3 scripts/build_dumps.py 32x
+
+python3 scripts/fetch_wikipedia_list.py pce
+python3 scripts/fetch_wikipedia_list.py pce --list other   # 「その他」節 → data/pce/jp_other.csv
+python3 scripts/enrich.py pce
+python3 scripts/build_dumps.py pce
 ```
 
 - Wikipedia のページ本文は `.cache/wikipedia/` に保存して再利用する（取り直すときは `--refresh`）。

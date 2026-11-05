@@ -89,7 +89,7 @@ def main():
     madb = C.load_madb(cfg["madb_platforms"])
     if cfg.get("madb_filter"):  # 同じ機種名で別媒体・別機種が混在する（FC のディスクカード、MD の 32X など）
         madb = [x for x in madb if cfg["madb_filter"](x)]
-    mame = C.load_mame(cfg["mame_lists"], cfg.get("mame_jp_models"))
+    mame = C.load_mame(cfg["mame_lists"], cfg.get("mame_jp_models"), cfg.get("mame_all_japanese", ()))
     nointro = nointro_models(cfg)
     maru = C.load_maru(cfg["maru"]) if cfg.get("maru") else None
     print(f"MADB: {len(madb)} 件 / MAME 日本版: {len(mame)} 件"
@@ -97,6 +97,8 @@ def main():
     m_madb = C.match(rows, madb, overrides, "madb_id", cfg.get("match_date_only", False))
     m_mame = C.match(rows, mame, overrides, "mame_name", cfg.get("match_date_only", False))
     models_from = cfg["models_from"]
+    key = cfg.get("model_key", lambda m: m)   # 照合で同じとみなす型番の表記ゆれ（PCE のハイフン有無など）
+    keys = lambda codes: {key(c) for c in codes}
 
     for r in rows:
         i = r["_i"]
@@ -111,9 +113,9 @@ def main():
         srcs = []
         if ov.get("model_number"):
             srcs.append("manual")
-        if model and model in mame_codes:
+        if model and key(model) in keys(mame_codes):
             srcs.append("MAME")
-        if model and model in madb_codes:
+        if model and key(model) in keys(madb_codes):
             srcs.append("MADB")
         r["_alt_titles"] = (md["titles"] if md else []) + (mm["titles"] if mm else [])
         r.update({"model_number": model, "_model_srcs": srcs, "_md": md, "_mm": mm,
@@ -133,7 +135,7 @@ def main():
             issues.append("MAME未照合")
         if md and md_how == "auto" and C.VARIANT.search(md["label"]) and not C.VARIANT.search(r["title"]):
             issues.append("MADBが通常版以外の可能性")
-        if mame_codes and madb_codes and mame_codes[0] not in madb_codes:
+        if mame_codes and madb_codes and key(mame_codes[0]) not in keys(madb_codes):
             issues.append(f"型番不一致 MAME={mame_codes[0]} MADB={'/'.join(madb_codes)}")
         r["_issues"] = issues
 
@@ -155,9 +157,10 @@ def main():
             srcs.append("Wikipedia")
         if model and ma and ma["model"] == model:
             srcs.append("maru-chang")
-        if model and model in nointro:
+        if model and key(model) in keys(nointro):
             srcs.append("No-Intro")
-        if model and nointro and model not in nointro:
+        check_ni = cfg.get("nointro_model_check", lambda r: True)
+        if model and nointro and key(model) not in keys(nointro) and check_ni({**r, **{c: fn(r) for c, fn in cfg.get("derive", {}).items()}}):
             issues.append("型番がNo-Introに無い")
         if ma and ma["model"] and model and ma["model"] != model:
             issues.append(f"型番不一致 maru-chang={ma['model']}")

@@ -215,7 +215,7 @@ def mame_xml(name):
     return fetch(MAME_URL.format(name=name), CACHE / f"mame_{name}.xml")
 
 
-def load_mame(lists, jp_models=None):
+def load_mame(lists, jp_models=None, all_japanese=()):
     """MAME ソフトウェアリストの日本版（一般販売品）を読む。
     jp_models を渡すと、説明に (Japan) が無くても（例: 'Tetris (World)'）シリアルに日本版の型番があれば含める。"""
     out = []
@@ -225,7 +225,8 @@ def load_mame(lists, jp_models=None):
             key = mame_key(lists, lst, s.get("name"))
             info = {i.get("name"): i.get("value") for i in s.findall("info")}
             serial = info.get("serial") or ""
-            if not re.search(r"[(,] ?Japan[,)?]", desc) and "JPN" not in serial and not (jp_models and jp_models(serial)):
+            if (lst not in all_japanese and not re.search(r"[(,] ?Japan[,)?]", desc) and "JPN" not in serial
+                    and not (jp_models and jp_models(serial))):
                 continue
             if re.search(r"prototype|promo|demo|Kiosk|Hot Mario", desc, re.I):
                 continue  # 一般販売品ではないもの（非売品は別途扱う）
@@ -343,26 +344,69 @@ def nointro_dat_text(name):
 
 # 1つのゲームに複数の形式の ROM を載せている DAT で採る形式（FC はヘッダーなし、ディスクシステムは .fds）
 DAT_ROM_EXT = {"Nintendo - Nintendo Entertainment System": ".unh",
-               "Nintendo - Family Computer Disk System": ".fds"}
+               "Nintendo - Family Computer Disk System": ".fds",
+               "Nintendo - Nintendo 64": ".z64"}   # N64 はビッグエンディアン（.z64）。.v64 は載せない
 
 
 def _dat_games(name):
-    """DAT の game ブロックのうち、採る形式の ROM のもの。"""
+    """DAT の game ブロック。同じ名前で複数の形式の ROM がある場合は採る形式（DAT_ROM_EXT）のものだけ。"""
     ext = DAT_ROM_EXT.get(name)
     # 末尾に改行の無い DAT があるので補う（最後の game を落とさないように）
-    for m in re.finditer(r'game \(\n(.*?)\n\)\n', nointro_dat_text(name) + "\n", re.S):
-        b = m.group(1)
-        if ext and not re.search(r'rom \( name "[^"]*' + re.escape(ext) + '"', b):
-            continue
-        yield b
+    blocks = [m.group(1) for m in re.finditer(r'game \(\n(.*?)\n\)\n', nointro_dat_text(name) + "\n", re.S)]
+    if not ext:
+        return blocks
+    has_ext = lambda b: re.search(r'rom \( name "[^"]*' + re.escape(ext) + '"', b)
+    gname_of = lambda b: re.search(r'name "([^"]+)"', b).group(1)
+    names_with_ext = {gname_of(b) for b in blocks if has_ext(b)}
+    return [b for b in blocks if has_ext(b) or gname_of(b) not in names_with_ext]
+
+
+def _dat_named_games(name):
+    """(一意な名前, ブロック) の一覧。libretro 版 DAT には同名の game が複数あることがある。
+    - 同じハッシュ（Redump の GC・PCE CD でレーベルのシリアル違いだけ）: 1つにまとめ、シリアルは ';' でつなぐ
+    - 違うハッシュ（PCE CD『イースI・II』の '(Alt)' 版など）: それぞれ ROM のファイル名
+      （トラック番号・拡張子を除く）を名前にし、それでも重なるときは [2] などを付ける"""
+    blocks = list(_dat_games(name))
+    gname_of = lambda b: re.search(r'name "([^"]+)"', b).group(1)
+    sha1_of = lambda b: (re.search(r'sha1 ([0-9A-Fa-f]+)', b) or [None, ""])[1].lower()
+    serial_of = lambda b: (re.search(r'rom \(.*?serial "([^"]+)"', b) or [None, ""])[1]
+    groups = {}
+    for b in blocks:
+        groups.setdefault(gname_of(b), []).append(b)
+    out, used = [], set()
+    for gname, bs in groups.items():
+        merged = {}   # sha1 → ブロック（シリアルを足していく）
+        for b in bs:
+            h = sha1_of(b)
+            if h in merged:
+                extra = serial_of(b)
+                if extra and extra not in serial_of(merged[h]).split(";"):
+                    old = serial_of(merged[h])
+                    merged[h] = re.sub(r'(rom \(.*?serial ")([^"]*)(")', lambda m: m.group(1) + (old + ";" if old else "") + extra + m.group(3),
+                                       merged[h], count=1) if old else merged[h].replace(" )", f' serial "{extra}" )', 1)
+                continue
+            merged[h] = b
+        uniq = list(merged.values())
+        for b in uniq:
+            uname = gname
+            if len(uniq) > 1:
+                rom = re.search(r'rom \( name "([^"]+)"', b).group(1)
+                uname = re.sub(r" \(Track \d+\)", "", re.sub(r"\.[A-Za-z0-9]+$", "", rom))
+            n = 2
+            base = uname
+            while uname in used:
+                uname = f"{base} [{n}]"
+                n += 1
+            used.add(uname)
+            out.append((uname, b))
+    return out
 
 
 def load_nointro_dat(names):
     """libretro 版 No-Intro DAT: 名前 → (ゲームコード, サイズ, CRC, MD5, SHA1)。"""
     out = {}
     for name in names:
-        for b in _dat_games(name):
-            gname = re.search(r'name "([^"]+)"', b).group(1)
+        for gname, b in _dat_named_games(name):
             rom = re.search(r'rom \( (.*?) \)', b).group(1)
             g = lambda k: (re.search(k + r' "?([^" ]+)"?', rom) or [None, ""])[1]
             out[gname] = dict(serial=g("serial"), size=g("size"), crc=g("crc").lower(),
@@ -374,8 +418,7 @@ def nointro_dat_as_export(dat_name):
     """DB Export が無いときの代わりに、libretro 版 DAT から DB Export と同じ形の XML を組み立てる。
     吸い出し記録（確認区分・ROM チップ刻印など）は無いので、確認区分は dat_only になる。"""
     root = ET.Element("root")
-    for b in _dat_games(dat_name):
-        name = re.search(r'name "([^"]+)"', b).group(1)
+    for name, b in _dat_named_games(dat_name):
         rom = re.search(r'rom \( (.*?) \)', b).group(1)
         g = lambda k: (re.search(k + r' "?([^" ]+)"?', rom) or [None, ""])[1]
         region = (re.search(r'region "([^"]+)"', b) or [None, ""])[1]

@@ -137,7 +137,7 @@ md-jp-0100,ヴァリスIII,,Valis III (Japan),0,retail,1048576,4d49a166,f22adcdb
 md-jp-0100,ヴァリスIII,,Valis III (World) (Evercade),0,collection,1048576,8a60468e,6549d25af1cf40c18a869f73a19757a4,80dd7740d9fe112e4565add8be32302d484d0996,,dat_only,1,,,,,,,,,No-Intro,1
 md-jp-0100,ヴァリスIII,,Valis III (World) (Retro-Bit),0,collection,2097152,5fc96d96,149c1f47438118630e106e8e351fcbb3,9fdd01d2fb44bb266608eb8a148a5e0e6cb85696,,dat_only,1,,,,,,,valis3_rb,good,No-Intro,1
 md-jp-0101,斬 夜叉円舞曲,,Zan - Yasha Enbukyoku (Japan),0,retail,524288,637fe8f3,13dd1f56c92209bfe200d93d98c7b36a,f1ea9a88233b76e3df32526be0b64fb653c13b7d,,dat_only,1,,,,,,,zanyasha,good,No-Intro,1
-md-jp-0102,シャイニング&amp;ザ・ダクネス,,Shining and the Darkness (Japan),0,retail,1048576,496af51c,380741cee5ff1c89498270d45af7521a,c09ff5bcee1a29a48c65be4ad584708b85ca549b,,dat_only,1,,,,,,,shindarkj,good,No-Intro,1
+md-jp-0102,シャイニング&ザ・ダクネス,,Shining and the Darkness (Japan),0,retail,1048576,496af51c,380741cee5ff1c89498270d45af7521a,c09ff5bcee1a29a48c65be4ad584708b85ca549b,,dat_only,1,,,,,,,shindarkj,good,No-Intro,1
 md-jp-0103,ミッドナイトレジスタンス,,Midnight Resistance (Japan),0,retail,1048576,8f3f6e4d,f02a5c603dd2f07864d5c85d21268d74,b11db9fde0955c8aa0ae2d1a234d3295eda75d12,,dat_only,1,,,,,,,midresj,good,No-Intro,1
 md-jp-0103,ミッドナイトレジスタンス,,Midnight Resistance (World) (Evercade),0,collection,1048576,7600e829,f4e3a8bde41d0da5134a4104f2d794c2,2063068249ee183c47b1c1b9b0c8bb337dbeca51,,dat_only,1,,,,,,,,,No-Intro,1
 md-jp-0104,スーパーエアーウルフ,,Super Airwolf (Japan) (En),0,retail,524288,fa451982,84d0afc448834b369908e3b22ca6d9c2,d24a3d23c9f12eebfbd233fdaab91c4acc362962,,dat_only,1,,,,,,,superair,good,No-Intro,1
@@ -209,7 +209,8 @@ md-jp-0158,ファイティングマスターズ,,"Fighting Masters (Japan, Korea
 md-jp-0159,エグザイル 時の狭間へ,,Exile - Toki no Hazama he (Japan),0,retail,1048576,880bf311,2cda6d2f8dfe3caab1683dd7849b6ba3,14ef77cbf6c023365e168f54456d5486679292ef,,dat_only,1,,,,,,,exilej,good,No-Intro,1
 md-jp-0160,太平記,,NHK Taiga Drama - Taiheiki (Japan),0,retail,1048576,09fbb30e,ce9185671cd9a03b712ed152010d2cf2,67358048fc9bc93d8835af852bc437124e015a61,,dat_only,1,,,,,,,nhktaidr,good,No-Intro,1
 md-jp-0161,アイラブドナルドダック グルジア王の秘宝,,"QuackShot Starring Donald Duck (World) (En,Ja)",0,retail,524288,88c8dd94,a184d044b122b73026b8f4f8fb6bc528,3acacac6c20d9b5f9ddeacb82b82b3039c4e2485,,dat_only,1,,,,,,,quacksht1,good,No-Intro,1
-md-jp-0161,アイラブドナルドダック グルジア王の秘宝,,"QuackShot Starring Donald Duck (World) (En,Ja) (Rev A)",0,retail,1310720,a5c946b3,2282f3810712a6b9acffe0e8e4651570,1b1421f57669e149ccced2d751a6de83ca941932,,dat_only,1,,,,,,,,,No-Intro,1
+md-jp-0161,アイラブドナルドダック グルジア王の秘宝,,"QuackShot Starring Donald Duck (World) (En,Ja) (Rev A)",0,retail,524288,5dd28dd7,ade4e47b0fbd329acaf36efc4f8d637d,ca02845fa49cd46ccb0a4023b91b10695573668e,,dat_only,1,,,,,,,quacksht,good,No-Intro,1
+md-jp-0161,アイラブドナルドダック グルジア王の秘宝,,"QuackShot Starring Donald Duck (World) (En,Ja) (Rev A) (Alt)",0,retail,1310720,a5c946b3,2282f3810712a6b9acffe0e8e4651570,1b1421f57669e149ccced2d751a6de83ca941932,,dat_only,1,,,,,,,,,No-Intro,1
 md-jp-0162,アンデッドライン,,Undead Line (Japan),0,retail,1048576,fb3ca1e6,f7e2e19770ff41441f79d014bc963122,cb9f248bfd19b16ed8a11639a73a6e90fa7ee79e,,dat_only,1,,,,,,,undead,good,No-Intro,1
 md-jp-0163,ダブルドラゴンII,,Double Dragon II - The Revenge (Japan) (En),0,retail,524288,a8bfdbd6,57169954f90bfef473f4952b9633e57a,68dc151ada307ed0ed34f98873e0be5f65f1b573,,dat_only,1,,,,,,,ddragon2,good,No-Intro,1
 md-jp-0164,ダーナ 女神誕生,,Dahna - Megami Tanjou (Japan),0,retail,1048576,4602584f,731b77ec3acab4aaf3b76cd3c8d82a41,da0246a063e6f70933e251b9ae84587fe620d4f0,,dat_only,1,,,,,,,dahna,good,No-Intro,1
@@ -233,7 +234,7 @@ md-jp-0180,港のトレイジア,,Minato no Traysia (Japan),0,retail,1048576,bd8
 md-jp-0181,クルードバスター,,Crude Buster (Japan) (En),0,retail,1048576,affb4b00,1b9cc19019765050293fad86215bead7,9122ef0e920133449266cf437a87a110e0343425,,dat_only,1,,,,,,,crudeb,good,No-Intro,1
 md-jp-0182,ロードブラスターズ,,RoadBlasters (Japan) (En),0,retail,524288,a0015440,9da9f6396e9f2eb34eff3a6dbe573ba4,7127e76ea33512d14cd78e6cac72ff8578454e1e,,dat_only,1,,,,,,,roadblstj,good,No-Intro,1
 md-jp-0183,バトルマニア,,Battle Mania (Japan),0,retail,524288,a76c4a29,2857b7730fb7dbc5f7c1ec1a4ba1b0ee,9886dd39cfd8fe505860fc4d0119aacec7484a4e,,dat_only,1,,,,,,,btlmania,good,No-Intro,1
-md-jp-0184,トージャム&amp;アール,,"ToeJam & Earl (Japan, Europe) (En) (Rev A)",0,retail,1048576,7a588f4b,72dc91fd2c5528b384f082a38db9ddda,85e8d0a4fac591b25b77c35680ac4175976f251b,,dat_only,1,,,,,,,toejam,good,No-Intro,1
+md-jp-0184,トージャム&アール,,"ToeJam & Earl (Japan, Europe) (En) (Rev A)",0,retail,1048576,7a588f4b,72dc91fd2c5528b384f082a38db9ddda,85e8d0a4fac591b25b77c35680ac4175976f251b,,dat_only,1,,,,,,,toejam,good,No-Intro,1
 md-jp-0185,鋼鉄帝国,,Koutetsu Teikoku (Japan),0,retail,1048576,755d0b8a,fb185d5bd814d7d51d3f15c6f20e75f3,7ff88050ae9b2f12afe80432781ba25aa3a15e1c,,dat_only,1,,,,,,,koteteik,good,No-Intro,1
 md-jp-0186,シャイニング・フォース 神々の遺産,,Shining Force - Kamigami no Isan (Japan),0,retail,1572864,9378fbcd,72ab457fd395da1879ed4f6d29b09af1,ef8afbdc9af931d9da34d72efc8a76f0d5f4379d,,dat_only,1,,,,,,,shinfrcej,good,No-Intro,1
 md-jp-0186,シャイニング・フォース 神々の遺産,,"Shining Force - Kamigami no Isan (Japan) (Mega Drive Mini, Genesis Mini)",0,collection,2097152,45416aa9,1c8b419c9b1b7fa60780ff1873a8a2e2,bb9498f75b4025a432c1794a88af9d20331771e1,,dat_only,1,,,,,,,,,No-Intro,1
@@ -303,8 +304,8 @@ md-jp-0237,パワーアスリート,,"Power Athlete (Japan, Korea) (En)",0,retai
 md-jp-0238,サイドポケット,,"Side Pocket (Japan, Korea) (En)",0,retail,1048576,336bbf3e,213899f86e17e95f41498c0b54d702b0,161c1f67b712d8f4f82115877072486832b913fb,,dat_only,1,,,,,,,sidepockj,baddump,No-Intro,1
 md-jp-0239,ランパート,,"Rampart (Japan, Korea) (Ja)",0,retail,524288,16ead64c,5da90e74fafadf44d628848661e5d68d,15f9284da9b27b2803bc53790b51b9dac5185a09,,dat_only,1,,,,,,,rampartj,good,No-Intro,1
 md-jp-0240,中嶋悟監修 F1スーパーライセンス,,Nakajima Satoru Kanshuu - F1 Super License (Japan),0,retail,1048576,8774bc79,aea1ff0445fa53b661ee6a5712ac72fe,ad5456259890bcb32098f82f14a1d5355af83f7e,,dat_only,1,,,,,,,nakaf1sl,good,No-Intro,1
-md-jp-0241,アイラブミッキー&amp;ドナルド ふしぎなマジックボックス,,I Love Mickey and Donald - Fushigi na Magic Box (Japan),0,retail,1048576,cb9ee238,edb74bc08734149bf11b7f5b1a184741,c79935fdeb680a1a2e76db1aef2c6897e6ee8e4d,,dat_only,1,,,,,,,worldillj,good,No-Intro,1
-md-jp-0241,アイラブミッキー&amp;ドナルド ふしぎなマジックボックス,,I Love Mickey and Donald - Fushigi na Magic Box (Japan) (Rev 1),1,retail,1048576,277bdb4c,b44c84ad8ffd258d016538a4a6ce4b2a,849f9707ba7c308a2833368c7fdf5960de78acfd,,dat_only,1,,,,,,,,,No-Intro,1
+md-jp-0241,アイラブミッキー&ドナルド ふしぎなマジックボックス,,I Love Mickey and Donald - Fushigi na Magic Box (Japan),0,retail,1048576,cb9ee238,edb74bc08734149bf11b7f5b1a184741,c79935fdeb680a1a2e76db1aef2c6897e6ee8e4d,,dat_only,1,,,,,,,worldillj,good,No-Intro,1
+md-jp-0241,アイラブミッキー&ドナルド ふしぎなマジックボックス,,I Love Mickey and Donald - Fushigi na Magic Box (Japan) (Rev 1),1,retail,1048576,277bdb4c,b44c84ad8ffd258d016538a4a6ce4b2a,849f9707ba7c308a2833368c7fdf5960de78acfd,,dat_only,1,,,,,,,,,No-Intro,1
 md-jp-0242,ぷよぷよ,,Puyo Puyo (Japan),0,retail,524288,7f26614e,c723d1079157ab78e160b26ac5091d74,02656b5707cf9452d4cf48378ffd3a95dc84e9c5,,dat_only,1,,,,,,,puyopuyo,good,No-Intro,1
 md-jp-0243,パチンコクーニャン,,Pachinko Kuunyan (Japan),0,retail,1048576,9d137e7f,b6eb8070b6f454eecfefc3663576eac5,84c3395c6dc123737d9da94e0392f3f30be59182,,dat_only,1,,,,,,,pachinko,good,No-Intro,1
 md-jp-0244,R.B.I.4.ベースボール,,"R.B.I. Baseball 4 (Japan) (En,Ja)",0,retail,1048576,8f4e1005,544f6ca30c8fb9ca41778632f811abfc,1cde0942bbbc9e88973ee56da06ccaabdcd34805,,dat_only,1,,,,,,,rbibb4j,good,No-Intro,1
