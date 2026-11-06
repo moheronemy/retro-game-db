@@ -387,6 +387,46 @@ def _sms_media(row):
     return ""
 
 
+def _sg_models(text):
+    """SC-3000／SG-1000 の型番。カートリッジ 'G-1033'、マイカード 'C-33'、オセロマルチビジョン 'OM-G004'、
+    SC-3000 の教育用ソフト 'E-101'。MADB の全角（'Ｇ-1011'）やハイフン抜け（'G1033'）もそろえる。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z0-9-])(OM-G|G|C|E)-?(\d{2,4})(?!\d)", unicodedata.normalize("NFKC", text or "").upper()):
+        code = f"{m.group(1)}-{m.group(2)}" if m.group(1) != "OM-G" else f"OM-G{m.group(2)}"
+        if code not in out:
+            out.append(code)
+    return out
+
+
+def _sg_date(row):
+    """発売日の表記（release_date_text）から分かる精度の日付にする。日まであれば YYYY-MM-DD、
+    月まで（上旬・中旬・下旬を含む）なら YYYY-MM、季節・範囲（「11-12月」）・疑問符付きは YYYY。"""
+    t = row.get("release_date_text", "")
+    y = re.match(r"(\d{4})年", t)
+    if not y:
+        return ""
+    if "?" in t or "？" in t:
+        return y.group(1)
+    m = re.fullmatch(r"(\d{4})年(\d{1,2})月(\d{1,2})日", t)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+    m = re.match(r"(\d{4})年(\d{1,2})月", t)
+    return f"{m.group(1)}-{int(m.group(2)):02d}" if m else y.group(1)
+
+
+def _sg_media(row):
+    """媒体の欄（Ca＝ゲームカートリッジ For SC/SG、Mc＝セガ マイカード）。両方に○があるのはカートリッジの後にマイカードで再販されたもの。"""
+    media = [name for col, name in (("ca", "cartridge"), ("mc", "card")) if re.search(r"[○◯〇]", row.get(col, ""))]
+    return ";".join(media)
+
+
+def _sg_card_model(row):
+    """カートリッジの後にマイカードで再販されたものの、マイカードの型番（'C-33'）。"""
+    if "cartridge" not in row.get("media", "") or "card" not in row.get("media", ""):
+        return ""
+    return next((c for c in row.get("_codes", []) if c.startswith("C-") and c != row.get("model_number")), "")
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -909,6 +949,48 @@ PLATFORMS = {
         "models_from_serial": lambda s: [],   # DAT にシリアルが無い
         "code_of": lambda m: "",
         "normalize_code": lambda c: "",
+        "dump_world": True,
+        "tax_free_before": "1989-04-01",
+    },
+    # SC-3000／SG-1000（オセロマルチビジョン用を含む）。system 列で sc_sg / othello_mv（ツクダオリジナル）を区別する。
+    # 発売日は日まで分からないものが多く、分かる精度（YYYY-MM-DD / YYYY-MM / YYYY）にして元の表記を release_date_text に残す
+    "sg1000": {
+        "name": "SC-3000／SG-1000",
+        "dir": ROOT / "data" / "sg1000",
+        "id_prefix": "sg1000-jp",
+        "wikipedia": {"tables": [{
+            "page": "SG-1000のゲームタイトル一覧", "section": "タイトルリスト", "strip_comments": True, "date_text": True,
+            "columns": ("jp", "title", "publisher", "ca", "mc", "notes", "refs"),
+            "row_filter": lambda r: r["release_date_text"] != "",   # {{Unreleased}}（未発売）・{{Unknown}}
+            "derive": {"release_date": _sg_date, "media": _sg_media,
+                       # 表示名の無いリンク [[ドロール_(ゲーム)]] の曖昧さ回避の部分（記事名がそのまま題名になる）
+                       "title": lambda r: re.sub(r"[ _]*[(（]ゲーム[)）]$", "", r["title"]),
+                       "system": lambda r: "othello_mv" if "ツクダ" in r["publisher"] else "sc_sg"},
+        }]},
+        # BASIC ソフト・教育用ソフト（SC-3000 専用。ゲームではない）は jp_non_game.csv（--list non_game）
+        "extra_lists": {
+            "non_game": {
+                "out": "jp_non_game.csv",
+                "id_suffix": "ng",
+                "tables": [{"page": "SG-1000のゲームタイトル一覧", "section": sec, "strip_comments": True,
+                            "date_text": True, "columns": ("jp", "title", "publisher", "ca", "mc", "notes", "refs"),
+                            "row_filter": lambda r: r["release_date_text"] != "",
+                            "derive": {"release_date": _sg_date, "category": lambda r, c=cat: c}}
+                           for sec, cat in (("BASICソフト", "basic"), ("教育用ソフト", "education"))],
+            },
+        },
+        "extra_columns": ["release_date_text", "system", "media", "card_model_number"],
+        "derive": {"card_model_number": _sg_card_model},
+        "madb_platforms": ["SC-3000,SG-1000", "SG-1000,SC-3000", "SEGAマーク3,SC-3000,SG-1000"],
+        "mame_lists": ["sg1000"],
+        "match_undated": 0.8,   # MAME に発売日が無く、Wikipedia も日まで分からないものが多い
+        "models_from": _sg_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルが無い
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": ["Sega - SG-1000"],
+        "nointro_export": ["Sega - SG-1000 (DB Export)"],
+        "nointro_export_fallback": {"Sega - SG-1000 (DB Export)": "Sega - SG-1000"},
         "dump_world": True,
         "tax_free_before": "1989-04-01",
     },

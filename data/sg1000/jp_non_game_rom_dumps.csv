@@ -1,0 +1,21 @@
+title_id,title,mame_name,mame_description,rom_name,size,crc32,sha1,mame_status,hash_source
+sg1000-jp-ng-0001,ミュージック,musicj,Music (Japan),music (jp).bin,32768,2ec28526,a2137e818242e8b361d5d5677797034c55fb1a2d,yes,MAME
+sg1000-jp-ng-0002,中学必修英単語(中学1年生用),chueit1n,Chuugaku Hisshuu Eitango ~ Chuugaku 1-Nen (Japan),chuugaku hisshuu eitango (chuugaku 1-nen) (jp).bin,16384,6ccb297a,63cf03f62516d4228a023fff496f2ffa6581d3dc,yes,MAME
+sg1000-jp-ng-0003,中学必修英作文(中学1年生用),chueis1n,Chuugaku Hisshuu Eisakubun ~ Chuugaku 1-Nen (Japan),chuugaku hisshuu eisakubun (chuugaku 1-nen) (jp).bin,16384,9bafd9e9,0081205a3e2fa9322a348ab8a096c282bbbbcc21,yes,MAME
+sg1000-jp-ng-0003,中学必修英作文(中学1年生用),chueis1na,"Chuugaku Hisshuu Eisakubun ~ Chuugaku 1-Nen (Japan, alt)",chuugaku hisshuu eisakubun (chuugaku 1-nen) (jp) [40k map].bin,40960,975106b6,ebc8544bf8a36840a639bb7a2698f984429f4762,yes,MAME
+sg1000-jp-ng-0004,中学必修英文法(中学1年生用),chueib1n,Chuugaku Hisshuu Eibunpou ~ Chuugaku 1-Nen (Japan),chuugaku hisshuu eibunpou (chuugaku 1-nen) (jp).bin,8192,345c8bc8,eaab51616a87fd29f0383a8b3ea365971bceb56b,yes,MAME
+sg1000-jp-ng-0005,楽しい算数(小学4年生上),tansan4j,Tanoshii Sansu ~ Shougaku 4-Nen Jou (Japan),tanoshii sansuu (shougaku 4-nen jou) (jp).bin,16384,573e04dd,59c7c6d0e373f78961a0e501a533ea271b15abdb,yes,MAME
+sg1000-jp-ng-0005,楽しい算数(小学4年生上),tansan4ja,"Tanoshii Sansu ~ Shougaku 4-Nen Jou (Japan, alt)",tanoshii sansuu (shougaku 4-nen jou) [40k map] (jp).bin,40960,7c400e3b,8a693531a3cfd0cef01d6b2ac900a2c95ff4f75e,yes,MAME
+sg1000-jp-ng-0006,化学(元素記号マスター),kagaku,Kagaku ~ Gensokigou Master (Japan),kagaku (gensokigou master) (jp).bin,8192,f9c81fe1,6b35016742db0a06947c679f41b8130c28d2de7d,yes,MAME
+sg1000-jp-ng-0007,日本史年表,nihonshi,Nihonshi Nenpyou (Japan),nihonshi nenpyou (jp).bin,16384,129d6359,9a9363004d77037a0bbc9a8bcae1bb05138ffc36,yes,MAME
+sg1000-jp-ng-0008,中学必修英単語(中学2年生用),chueit2n,Chuugaku Hisshuu Eitango ~ Chuugaku 2-Nen (Japan),chuugaku hisshuu eitango (chuugaku 2-nen) (jp).bin,16384,8507216b,931b404c809b39a68cdc4b74ad905a008d46143d,yes,MAME
+sg1000-jp-ng-0008,中学必修英単語(中学2年生用),chueit2na,"Chuugaku Hisshuu Eitango ~ Chuugaku 2-Nen (Japan, alt)",chuugaku hisshuu eitango (chuugaku 2-nen) [40k map] (jp).bin,40960,4f599483,09515ce5c8b598020f4c6b97540a7020abb6f596,yes,MAME
+sg1000-jp-ng-0009,中学必修英作文(中学2年生用),chueis2n,Chuugaku Hisshuu Eisakubun ~ Chuugaku 2-Nen (Japan),chuugaku hisshuu eisakubun (chuugaku 2-nen) (jp).bin,16384,581dce41,058f3efd1ae2a0dde4ee2b327a2faea663354411,yes,MAME
+sg1000-jp-ng-0009,中学必修英作文(中学2年生用),chueis2na,"Chuugaku Hisshuu Eisakubun ~ Chuugaku 2-Nen (Japan, alt)",chuugaku hisshuu eisakubun (chuugaku 2-nen) [40k map] (jp).bin,40960,3657b285,312ce1b510a90a96bca63d028e96ed732ab6a043,yes,MAME
+sg1000-jp-ng-0010,中学必修英文法(中学2年生用),chueib2n,Chuugaku Hisshuu Eibunpou ~ Chuugaku 2-Nen (Japan),chuugaku hisshuu eibunpou (chuugaku 2-nen) (jp).bin,8192,d4c473b2,efe8a2852344f094806039019314ebe9c49e53f9,yes,MAME
+sg1000-jp-ng-0014,世界史年表,sekaishi,Sekaishi Nenpyou ~ Monbushou Shidouyouryou Junkyo (Japan),sekaishi nenpyou (jp).bin,16384,3274ee48,388fdff0cf2ad276e07a419239710632c376e1db,yes,MAME
+sg1000-jp-ng-0015,楽しい算数(小学4年生下),tansan4g,Tanoshii Sansu ~ Shougaku 4-Nen Ge (Japan),tanoshii sansuu (shougaku 4-nen ge) (jp).bin,16384,5fde25bb,5500a59f4474833687e7d2d7bbd09cf0fb925684,yes,MAME
+sg1000-jp-ng-0016,楽しい算数(小学5年生下),tansan5g,Tanoshii Sansu ~ Shougaku 5-Nen Ge (Japan),tanoshii sansuu (shougaku 5-nen ge) (jp).bin,16384,6a96978d,751d82119e19d46a20165c8debbfe95b3241a701,yes,MAME
+sg1000-jp-ng-0017,楽しい算数(小学6年生下),tansan6g,Tanoshii Sansu ~ Shougaku 6-Nen Ge (Japan),tanoshii sansuu (shougaku 6-nen ge) (jp).bin,32768,d0d18e70,c3428ec915a172992a7c643da662eb1469cd37d4,yes,MAME
+sg1000-jp-ng-0018,楽しい算数(小学5年生上),tansan5j,Tanoshii Sansuu ~ Shougaku 5-Nen Jou (Japan),tanoshii sansuu (shougaku 5-nen jou) (jp).bin,32768,419d75d5,3d99878e901e0095df7fc6ae2ef0915c9b00dcfb,yes,MAME
+sg1000-jp-ng-0019,楽しい算数(小学6年生上),tansan6j,Tanoshii Sansuu ~ Shougaku 6-Nen Jou (Japan),tanoshii sansuu (shougaku 6-nen jou) (jp).bin,32768,8b5e6e1b,103fcb058b6f9671e5ca969a5cbd4bd171caddc3,yes,MAME

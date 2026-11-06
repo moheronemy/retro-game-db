@@ -96,8 +96,27 @@ def link_target(s):
     return m.group(1).strip() if m else ""
 
 
+def unwrap_plainlist(s):
+    """{{Plainlist|\n* 項目1\n* 項目2\n}} を「項目1 項目2」にする（脚注テンプレートと一緒に消えないように。SG-1000 の備考）。"""
+    while True:
+        m = re.search(r"\{\{\s*[Pp]lainlist\s*\|", s)
+        if not m:
+            return s
+        depth, i = 1, m.end()
+        while i < len(s) and depth:
+            if s.startswith("{{", i):
+                depth, i = depth + 1, i + 2
+            elif s.startswith("}}", i):
+                depth, i = depth - 1, i + 2
+            else:
+                i += 1
+        inner = s[m.end():i - 2] if depth == 0 else s[m.end():]
+        inner = re.sub(r"^\s*\*+\s*", " ", inner, flags=re.M)
+        s = s[:m.start()] + inner + s[i:]
+
+
 def plain(s):
-    s = strip_templates(strip_refs(s))
+    s = strip_templates(strip_refs(unwrap_plainlist(s)))
     s = re.sub(r"\[\[(?:[^\]|]*\|)?([^\]]*)\]\]", r"\1", s)
     s = re.sub(r"<br\s*/?>", " ", s)
     s = re.sub(r"<[^>]+>", "", s)
@@ -200,7 +219,7 @@ KNOWN_COLUMNS = {"jp", "na", "eu", "br", "title", "publisher", "notes", "sgb", "
 
 
 def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, year=None, ref_code=None,
-               row_filter=None, derive=None, strip_title_mark=None):
+               row_filter=None, derive=None, strip_title_mark=None, date_text=False):
     """表の各行を読む。columns は先頭からの列の意味（jp=日本の発売日）。日本未発売の行は除く。"""
     rows = []
     in_table = False
@@ -276,6 +295,8 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
             "notes": plain(c.get("notes", "")),
             "wikipedia_article": link_target(title_raw),
         }
+        if date_text:   # 発売日の欄の表記そのまま（「1986年夏」「1985年12月中旬」など日まで分からないもの）
+            row["release_date_text"] = plain(date_raw)
         if "sgb" in columns:
             row["sgb"] = "yes" if re.search(r"[○◯〇]", c.get("sgb", "")) else ""
         for col in columns:  # 表固有の列（DSiウェアの必要ブロック数など）はそのまま文字列で持つ
@@ -327,9 +348,11 @@ def main():
     for t in wcfg["tables"]:
         page = t.get("page", wcfg.get("page"))
         text = table_text(section(texts[page], t["section"]), t.get("table_id"))
+        if t.get("strip_comments"):   # セルごとに <!--発売時期--> のような注記がある表（SG-1000）
+            text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
         got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"),
                          t.get("year"), wcfg.get("ref_code"), t.get("row_filter"), t.get("derive"),
-                         t.get("strip_title_mark"))
+                         t.get("strip_title_mark"), t.get("date_text", False))
         print(f"  {t['section']}: {len(got)} 行", file=sys.stderr)
         rows += got
     for r in rows:   # 表の発売日の欄が空・誤っている行の補正（platforms.py の date_fixes。根拠はそこに書く）

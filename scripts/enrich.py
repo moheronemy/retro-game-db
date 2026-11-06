@@ -82,7 +82,7 @@ def main():
     for o in C.read_csv(data / "overrides" / "matches.csv"):
         d = overrides.setdefault((o["release_date"], o["title"]), {})
         for col in ("madb_id", "mame_name", "maru_code", "model_number", "price_yen", "price_tax",
-                    "release_date_fix"):
+                    "release_date_fix", *cfg.get("extra_columns", [])):
             if o.get(col):
                 d[col] = o[col]
 
@@ -94,8 +94,8 @@ def main():
     maru = C.load_maru(cfg["maru"]) if cfg.get("maru") else None
     print(f"MADB: {len(madb)} 件 / MAME 日本版: {len(mame)} 件"
           + (f" / maru-chang: {len(maru)} 件" if maru is not None else ""), file=sys.stderr)
-    m_madb = C.match(rows, madb, overrides, "madb_id", cfg.get("match_date_only", False))
-    m_mame = C.match(rows, mame, overrides, "mame_name", cfg.get("match_date_only", False))
+    m_madb = C.match(rows, madb, overrides, "madb_id", cfg.get("match_date_only", False), cfg.get("match_undated"))
+    m_mame = C.match(rows, mame, overrides, "mame_name", cfg.get("match_date_only", False), cfg.get("match_undated"))
     models_from = cfg["models_from"]
     key = cfg.get("model_key", lambda m: m)   # 照合で同じとみなす型番の表記ゆれ（PCE のハイフン有無など）
     keys = lambda codes: {key(c) for c in codes}
@@ -118,6 +118,7 @@ def main():
         if model and key(model) in keys(madb_codes):
             srcs.append("MADB")
         r["_alt_titles"] = (md["titles"] if md else []) + (mm["titles"] if mm else [])
+        r["_codes"] = mame_codes + [c for c in madb_codes if c not in mame_codes]   # 再販版の型番など（SG-1000 のマイカード）
         r.update({"model_number": model, "_model_srcs": srcs, "_md": md, "_mm": mm,
                   "madb_id": md["key"] if md else "", "mame_name": mm["key"] if mm else ""})
 
@@ -223,6 +224,8 @@ def main():
                 dsrc.append(name)
             elif src and src["date"] and C.days(date, src["date"]) is not None:
                 issues.append(f"発売日不一致 {name}={src['date']}")
+            elif src and src["date"] and not C.date_compatible(date, src["date"]):
+                issues.append(f"発売日不一致 {name}={src['date']}")   # 日まで分からない発売日どうし（'1984-12' と '1985'）
         if maru is not None and not ma and not ov.get("maru_code"):
             issues.append("maru-chang未照合")
         if r.get("_maru_date_only"):
@@ -230,6 +233,9 @@ def main():
 
         for col, fn in cfg.get("derive", {}).items():  # 型番などから決まる列（DS の compat）
             r[col] = fn({**r, "model_number": model})
+        for col in cfg.get("extra_columns", []):   # 手動補正（SG-1000 のマイカード再販の型番など）
+            if ov.get(col):
+                r[col] = ov[col]
         r.update({
             "release_date": date, "release_date_sources": "+".join(dsrc),
             "model_number": model, "model_number_source": "+".join(srcs),

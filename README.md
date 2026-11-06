@@ -24,6 +24,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,860 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（3,224 行） |
 | PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,144 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,308 行） |
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
+| SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
 | ワンダースワン／カラー (WS/WSC) | [`data/ws/jp_titles.csv`](data/ws/jp_titles.csv) | 202 | 200 | 181 | [`data/ws/jp_rom_dumps.csv`](data/ws/jp_rom_dumps.csv)（227 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
@@ -46,6 +47,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PS | （未調査・0 件） | （0 件） | |
 | PS2 | （未調査・0 件） | [`jp_non_retail.csv`](data/ps2/jp_non_retail.csv)（店頭体験版 19 件） | |
 | GG | （未調査・0 件） | （0 件） | |
+| SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
 | WS/WSC | [`jp_not_for_sale.csv`](data/ws/jp_not_for_sale.csv)（3 件） | （0 件） | 会場限定販売 [`jp_other.csv`](data/ws/jp_other.csv)（2 件） |
 | PS3 | （未調査・0 件） | （0 件） | 配信専用 [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件） |
@@ -751,6 +753,50 @@ PlayStation 3 のパッケージソフトとして日本で発売されたもの
 - 『颯爽少年英雄伝 コカ・コーラキッド』の景品のプラスワンセット（本体とのセット）は別のソフトではないので非売品リストに入れていない
   （Wikipedia の備考に記載）。その他の非売品の調査は後回し。
 
+## SG
+
+SC-3000・SG-1000（SG-1000II を含む）として日本で発売されたゲームソフト（1983〜1987年）。SG-1000 互換のオセロマルチビジョン用
+（ツクダオリジナル発売）も同じ一覧に載っているので本リストに入れた。`id` は `sg1000-jp-<連番>`（発売順）。
+
+| 列 | 内容 |
+|---|---|
+| `system` | `sc_sg`（セガ発売の SC-3000／SG-1000 用。66 件）/ `othello_mv`（ツクダオリジナル発売のオセロマルチビジョン用。8 件） |
+| `media` | `cartridge`（ゲームカートリッジ For SC/SG）/ `card`（セガ マイカード）/ `cartridge;card`（カートリッジの後にマイカードで再販。5 件） |
+| `card_model_number` | マイカードで再販されたものの、マイカードの型番（`model_number` はカートリッジの型番） |
+| `release_date_text` | Wikipedia の発売時期の表記そのまま |
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売時期・発売元・媒体 | ja.wikipedia「SG-1000のゲームタイトル一覧」の「タイトルリスト」の表（86 行のうち未発売 12 行を除いた 74 件） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「SC-3000,SG-1000」など。12 件で価格は 3 件だけ） |
+| 型番の照合 | MAME ソフトウェアリスト `hash/sg1000.xml`（発売日の記録は無い） |
+| ハッシュ | No-Intro DAT（libretro 収録の Sega SG-1000） |
+
+- 発売時期は日まで分かるものが少ない（『ゲームマシン』の記事などが出典で、セガハード大百科にも明確な発売日が無い）。`release_date` は
+  分かる精度にした: 日まで（6 件）は `YYYY-MM-DD`、月まで（上旬・中旬・下旬を含む。59 件）は `YYYY-MM`、季節（「1986年夏」）・
+  範囲（「1983年11-12月」）・疑問符付きは `YYYY`（9 件）。元の表記は `release_date_text`。
+- 本文の年ごとの本数（1984年のカートリッジ 16 本など）と表の行数が 1 件合わない（表の 1984年のカートリッジは 15 件）。Wikipedia の表のとおりにした。
+- MAME に発売日が無いので、題名がとても似ている（0.8 以上）ものだけを照合し、残りは `overrides/matches.csv` で手動対応した（日本語題名の
+  表記が違うもの、マイカード版・台湾版と区別が必要なものなど 14 件）。
+- 型番は表記のまま（カートリッジ `G-1033`、マイカード `C-33`、オセロマルチビジョン `OM-G004`）。型番が無いのは『ロレッタの肖像』の 1 件
+  （MAME・No-Intro とも収録なし。吸い出しも無い）。
+- 価格は 2 件（倉庫番・チャンピオンシップロードランナー。無いものは許容）。全て消費税導入前の発売なので `税なし`。
+  チャンピオンボクシングの MADB の価格（4,300円）はマイカード版のものなので採らない。
+- 吸い出しは日本版と日本・海外共通の版（`(Japan, Europe)` など）。台湾版は載せない。マイカード再販版は No-Intro で区別されていないので同じ行に含まれる。
+- 未発売・発売不明のタイトル、カセットテープのソフト（MAME の `sc3000_cass`）は対象外。EPマイカード（書き換え可能なマイカードの計画）の
+  対象ラインナップは備考にだけ残る。非売品の調査は後回し（Wikipedia に「非売品」節が無い）。
+
+### BASIC・教育用ソフト（別リスト）
+
+SC-3000 専用の BASIC（7 件）と教育用ソフト（19 件）は `jp_non_game.csv`（`category` が `basic` / `education`）。
+No-Intro に無いため、型番とハッシュは MAME の `hash/sc3000_cart.xml` から取った（`scripts/build_mame_list.py`。対応は
+`overrides/non_game_mame.csv` で手で決めた）。
+
+- 教育用ソフト 16 件に型番（`E-101` など）と吸い出し（`jp_non_game_rom_dumps.csv`。MAME の別版〈40k map など〉を含め 20 行。
+  `hash_source` は `MAME`）がある。
+- BASIC は MAME の版（「BASIC Level 2」「version 1.0b」など）と製品名（Level IIA・IIB など）の対応が決められないため結びつけていない。
+- 物理（運動と力編・エネルギー編）は MAME に無い。発売不明のミュージック(SK)は載せない。
+
 ## SMS
 
 セガ・マークIII とマスターシステムとして日本で発売されたソフト（1985〜1989年）。両機は同じソフトが動くので 1 本のリストにまとめた。
@@ -892,6 +938,12 @@ python3 scripts/build_dumps.py ps
 python3 scripts/fetch_wikipedia_list.py gg
 python3 scripts/enrich.py gg
 python3 scripts/build_dumps.py gg
+
+python3 scripts/fetch_wikipedia_list.py sg1000
+python3 scripts/fetch_wikipedia_list.py sg1000 --list non_game   # BASIC・教育用ソフト → data/sg1000/jp_non_game.csv
+python3 scripts/enrich.py sg1000
+python3 scripts/build_dumps.py sg1000
+python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リストに MAME の型番・ハッシュ
 
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms

@@ -1,0 +1,15 @@
+release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,release_date_fix,card_model_number,comment
+1983,Qバート,,qbert,,,,,,,MAME「Q*bert (Japan, OMV)」（OM-G001。MAME に発売日が無く、題名の表記も違うため自動照合されない。以下同様）
+1984-03,チャンピオンゴルフ,,champglf,,,,,,C-05,カートリッジ版 G-1005（MAME champglf）。マイカード版 C-05 は MAME champglf1
+1984-04,パチンコII,,pachink2,,,,,,,MAME「Pachinko II (Japan)」（G-1029）
+1984-10,チャンピオンボクシング,M727843,champbox,,,,,,C-33,カートリッジ版 G-1033（MAME champbox・MADB M727843）。マイカード版 C-33 は MAME champbox1・MADB M727844（価格 4,300円はマイカード版のもの）
+1984-12,007 ジェイムスボンド,,jb007,,,,,,,MAME「007 James Bond (Japan, v2.7, OMV)」（OM-G008）
+1985-04,コナミのハイパースポーツ,,hyperspt,,,,,,,MAME「Hyper Sports (Japan)」（G-1042）
+1985-04,コナミの新入社員とおるくん,,shinnyus,,,,,,,MAME「Shinnyushain Tooru Kun (Japan)」（G-1041）
+1985-07,どきどきペンギンランド,M728053,dokidoki,,,,,,,MAME「Dokidoki Penguin Land (Japan)」（C-50）
+1985-10,ドロール,,drol,,,,,,,MAME「Drol (Japan)」（C-51）
+1985-12,ヒーロー,,hero,,,,,,,MAME「H.E.R.O. (Japan)」（C-58）
+1983-07,N-サブ,M728281,,,,,,,,MADB「N-SUB」（発売日・型番なし）
+1983-08,サファリハンティング,M728280,,,,,,,,MADB「SAFARI HUNTING」（発売日・型番なし）
+1983-10,チャンピオンベースボール,M727876,,,,,,,,MADB「チャンピオンベースボール」（Ｇ-1011。MADB の発売日は 1983-03-01）
+1984-09-15,ロードランナー,M728282,,,,,,,,MADB「LODE RUNNER」（発売日・型番なし）

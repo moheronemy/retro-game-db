@@ -127,7 +127,12 @@ def net_price(yen, tax, date=""):
 
 # ---------------------------------------------------------------- matching
 
-def match(rows, src, overrides, col, date_only=False):
+def date_compatible(a, b):
+    """日まで分からない発売日（'1984-12'・'1984'）どうしが矛盾しないか。片方が空なら矛盾しないとみなす。"""
+    return not a or not b or a.startswith(b) or b.startswith(a)
+
+
+def match(rows, src, overrides, col, date_only=False, undated_sim=None):
     """rows の各行に src の1件を割り当てる（貪欲法・重複割り当てなし）。
     date_only なら、残った行と候補が同じ発売日にちょうど1件ずつのとき、題名が似ていなくても組にする
     （FC の『ダブルドラゴン』と MAME の『双截龍』のような表記違い。要確認レポートに出す）。"""
@@ -146,6 +151,12 @@ def match(rows, src, overrides, col, date_only=False):
             continue
         for s in src:
             d = days(r["release_date"], s["date"])
+            if d is None and undated_sim and date_compatible(r["release_date"], s["date"]):
+                # 発売日が日まで分からない・出典に発売日が無い（SG-1000）: 題名がとても似ているものだけ
+                sc = max(sim(r["title"], t) for t in s["titles"])
+                if sc >= undated_sim:
+                    pairs.append((sc - 0.5, sc, r["_i"], s["key"]))
+                continue
             if d is None or d > NEAR_DAYS:
                 continue   # 採用条件（同日、または ±NEAR_DAYS）に入らない候補は類似度を計算しない
             sc = max(sim(r["title"], t) for t in s["titles"])
