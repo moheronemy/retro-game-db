@@ -192,6 +192,8 @@ def main():
         for name, src, how in (("MADB", md, md_how), ("MAME", mm, mm_how)):
             if how == "date_only":
                 issues.append(f"{name}同日1件のみで照合（{src['label']}）")
+            elif how == "date_hint":
+                issues.append(f"{name}同日1件のみ・題名の手がかりで照合（{src['label']}）")
         if not md and md_how != "manual" and cfg["madb_platforms"]:
             issues.append("MADB未照合")
         if not mm and mm_how != "manual" and cfg["mame_lists"] and not cfg.get("mame_partial"):

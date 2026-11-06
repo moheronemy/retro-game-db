@@ -35,7 +35,7 @@ pce-jp-0033,1989-03-03,ウィニングショット,データイースト,hucard,
 pce-jp-0034,1989-03-04,ダンジョンエクスプローラー,ハドソン,hucard,ARPG,HC63015,5800,税なし,周辺機器・マルチタップにより、最大5人まで同時プレイできる,ダンジョンエクスプローラー,Wikipedia+MADB+MAME,MAME+MADB,MADB,Dungeon Explorer,M727451,dungexpl
 pce-jp-0035,1989-03-17,アウトライブ,サンソフト,hucard,RPG,SS89001,5600,税なし,,アウトライブ (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,OUT LIVE,M727448,outlive
 pce-jp-0036,1989-03-18,改造町人シュビビンマン,メサイヤ,hucard,ACT,NCS89004,5200,税なし,,改造町人シュビビンマン,Wikipedia+MADB+MAME,MAME,MADB,改造町人シュビビンマン,M727447,shubibi
-pce-jp-0037,1989-03-20,P-47,エイコム,hucard,STG,AC89001,5200,税なし,同名の戦闘機を題材としたシューティングゲーム,P-47 (ゲーム),Wikipedia+MADB,MADB,MADB,P・47,M727446,
+pce-jp-0037,1989-03-20,P-47,エイコム,hucard,STG,AC89001,5200,税なし,同名の戦闘機を題材としたシューティングゲーム,P-47 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,P・47,M727446,p47
 pce-jp-0038,1989-03-23,F-1 PILOT,パック・イン・ビデオ,hucard,RCG,PV1001,6300,税なし,RPG要素のあるレースゲーム,F-1 PILOT,Wikipedia+MADB+MAME,MAME,MADB,F-1 PILOT,M738947,f1pilot
 pce-jp-0039,1989-03-24,死霊戦線,ビクター音楽産業,hucard,ARPG,JC63002,5500,税なし,,死霊戦線,Wikipedia+MADB+MAME,MAME+MADB,MADB,死霊戦線,M727444,shiryo
 pce-jp-0040,1989-03-28,がんばれ! ゴルフボーイズ,メサイヤ,hucard,SPT,NCS89003,5300,税なし,,がんばれ! ゴルフボーイズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,がんばれ! ゴルフボーイズ,M727443,ganbgolf
@@ -63,7 +63,7 @@ pce-jp-0061,1989-07-28,武田信玄,エイコム,hucard,ACT,AC89002,5600,税抜,
 pce-jp-0062,1989-08-04,めぞん一刻,マイクロキャビン,hucard,ADV,MC66680,5900,税抜,同名PCゲームの移植版,めぞん一刻,Wikipedia+MADB+MAME,MAME+MADB,MADB,めぞん一刻,M727386,mikkoku
 pce-jp-0063,1989-08-08,パワーリーグII,ハドソン,hucard,SPT,HC89020,5800,,パワーリーグシリーズ第2弾,パワーリーグ,Wikipedia+MADB+MAME,MAME+MADB,MADB,パワーリーグ 2,M727385,pleag2
 pce-jp-0064,1989-08-10,ブレイクイン,ナグザット,hucard,TBL,NX89002,5500,税抜,PCエンジン初のビリヤードゲーム,ブレイクイン,Wikipedia+MADB+MAME,MAME,MADB,ブレイクイン,M755743,breakin
-pce-jp-0065,1989-08-25,F1ドリーム,NECアベニュー,hucard,RCG,H54G-1005,,,トップビュー形式のレースゲーム,F1ドリーム,Wikipedia+MAME,MAME,,,,f1dream
+pce-jp-0065,1989-08-25,F1ドリーム,NECアベニュー,hucard,RCG,H54G-1005,5400,税抜,トップビュー形式のレースゲーム,F1ドリーム,Wikipedia+MADB+MAME,MAME,MADB,F-1 DREAM,M738946,f1dream
 pce-jp-0066,1989-08-25,ロック・オン,ビッグクラブ,hucard,STG,BG1004,6700,税抜,,ロック・オン (ビッグクラブ),Wikipedia+MADB+MAME,MAME+MADB,MADB,ROCK・ON,M727383,rockon
 pce-jp-0067,1989-08-31,ワンダーボーイIII モンスター・レアー,ハドソン,cd_rom2,STG,HCD9006,,,,ワンダーボーイIII モンスター・レアー,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:mlairj
 pce-jp-0068,1989-09-01,ならず者戦闘部隊 ブラッディウルフ,データイースト,hucard,ACT,DE89003,6500,税抜,同名アーケードゲームの移植版,ならず者戦闘部隊 ブラッディウルフ,Wikipedia+MADB+MAME,MAME,MADB,ならず者戦闘部隊 ブラッディウルフ,M752911,blodwolf
@@ -89,11 +89,11 @@ pce-jp-0087,1989-11-24,ぎゅわんぶらあ自己中心派 激闘36雀士,ハ�
 pce-jp-0088,1989-11-29,バリバリ伝説,タイトー,hucard,RCG,TP01003,6600,税抜,同名漫画のゲーム化,バリバリ伝説,Wikipedia+MADB+MAME,MAME,MADB,バリバリ伝説,M727348,baribari
 pce-jp-0089,1989-11-30,バトルエース,ハドソン,supergrafx,STG,HC89026,6500,,初のSGソフト,バトルエース,Wikipedia+MAME,MAME+MADB,MADB,BATTLE ACE,M727342,sgx:battlace
 pce-jp-0090,1989-12-01,USAプロバスケットボール,エイコム,hucard,SPT,AC89003,5600,税抜,,USAプロバスケットボール,Wikipedia+MADB+MAME,MAME,MADB,USAプロバスケットボール,M743671,usaprobs
-pce-jp-0091,1989-12-01,ミスターヘリの大冒険,アイレム,hucard,STG,IC01002,,,,ミスターヘリの大冒険,Wikipedia+MAME,MAME,,,,mrheli
+pce-jp-0091,1989-12-01,ミスターヘリの大冒険,アイレム,hucard,STG,IC01002,6700,税抜,,ミスターヘリの大冒険,Wikipedia+MADB+MAME,MAME,MADB,Mr. HELIの大冒険,M740843,mrheli
 pce-jp-0092,1989-12-08,忍 -SHINOBI-,アスミック,hucard,ACT,AS01001,6800,税抜,同名アーケードゲームの移植版,忍 -SHINOBI-,Wikipedia+MADB+MAME,MAME,MADB,忍 （SHINOBI）,M765126,shinobi
 pce-jp-0093,1989-12-08,ブルファイト リングの覇者,クリーム,hucard,SPT,CC-01001,6300,税抜,,ブルファイト リングの覇者,Wikipedia+MADB+MAME,MAME,MADB,ブルファイト リングの覇者,M755730,bullfght
 pce-jp-0094,1989-12-15,PC原人,ハドソン,hucard,ACT,HC89024,5800,税抜,雑誌『月刊PCエンジン』に連載されていた4コマ漫画のゲーム化。PC原人シリーズ第1弾,PC原人 (1989年のゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,PC原人,M727333,pcgenj
-pce-jp-0095,1989-12-15,サイドアーム・スペシャル,NECアベニュー,cd_rom2,STG,HACD9002,,,アーケードゲーム『サイドアーム』の移植版で、通常モードとは別にアレンジモードを収録,SIDEARMS HYPER DYNE,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:hyperdyn
+pce-jp-0095,1989-12-15,サイドアーム・スペシャル,NECアベニュー,cd_rom2,STG,HACD9002,5800,,アーケードゲーム『サイドアーム』の移植版で、通常モードとは別にアレンジモードを収録,SIDEARMS HYPER DYNE,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HYPER DYNE SIDE ARMS SPECIAL,M727334,pcecd:hyperdyn
 pce-jp-0096,1989-12-20,これがプロ野球'89,インテック,hucard,SPT,IG89002,5800,税抜,,これがプロ野球,Wikipedia+MADB,MAME+MADB,MADB,これがプロ野球'89,M727329,proyak89
 pce-jp-0097,1989-12-20,ROMKARAOKE VOLUME 3,NECアベニュー,cd_rom2,他,HRCD-9103,,,ECアベニュー版ROMKARAOKEシリーズ第3弾,,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:karaoke3
 pce-jp-0098,1989-12-21,イースI・II,ハドソン,cd_rom2,ARPG,HCD9009,,,PC用ソフト『イース』と『イースII』のアレンジ移植で、ボイスなどを追加 1994年12月16日に名作限定版発売,イースI・II,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727328,pcecd:ys12j
@@ -115,7 +115,7 @@ pce-jp-0113,1990-02-23,虎への道,ビクター音楽産業,hucard,ACT,JC63004,
 pce-jp-0114,1990-02-23,ブロディア,ハドソン,hucard,PZL,HC90027,4500,税抜,同名作品の移植版,ブロディア (コンピュータゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,BLODIA,M727294,blodia
 pce-jp-0115,1990-02-23,ニュージーランドストーリー,タイトー,hucard,ACT,TP02007,6600,,同名アーケードゲームの移植版,ニュージーランドストーリー,Wikipedia+MADB+MAME,MAME+MADB,MADB,THE NEWZEALAND STORY,M727296,tnzs
 pce-jp-0116,1990-02-23,飛装騎兵カイザード,メサイヤ,hucard,SLG,NCS90002,,,,飛装騎兵カイザード,Wikipedia+MADB+MAME,MAME+MADB,,,M727297,xserd
-pce-jp-0117,1990-02-23,西村京太郎ミステリー北斗星の女,ナグザット,cd_rom2,ADV,NXCD9001,,,小説『北斗星の女』を原作とするコマンド選択型アドベンチャーゲーム,西村京太郎ミステリー北斗星の女,Wikipedia+MADB,MADB+No-Intro,,,M727295,
+pce-jp-0117,1990-02-23,西村京太郎ミステリー北斗星の女,ナグザット,cd_rom2,ADV,NXCD9001,,,小説『北斗星の女』を原作とするコマンド選択型アドベンチャーゲーム,西村京太郎ミステリー北斗星の女,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727295,pcecd:nkhokuon
 pce-jp-0118,1990-03-01,パラノイア,ナグザット,hucard,STG,NX90001,5800,税抜,,パラノイア (STG),Wikipedia+MADB+MAME,MAME+MADB,MADB,PARANOIA,M727292,paranoia
 pce-jp-0119,1990-03-02,シティーハンター,サンソフト,hucard,ACT,SS90001,6300,税抜,同名漫画のゲーム化,シティーハンター,Wikipedia+MADB+MAME,MAME,MADB,シティーハンター,M749143,cityhunt
 pce-jp-0120,1990-03-02,謎のマスカレード,メサイヤ,hucard,ADV,NCS90003,,,PCゲーム『琥珀色の遺言』のアレンジ移植,藤堂龍之介探偵日記,Wikipedia+MADB+MAME,MAME+MADB,,,M727290,nazomasq
@@ -141,7 +141,7 @@ pce-jp-0139,1990-04-06,魔動王グランゾート,ハドソン,supergrafx,ACT,H
 pce-jp-0140,1990-04-06,サイコチェイサー,ナグザット,hucard,STG,NX90003,5800,税抜,,サイコチェイサー,Wikipedia+MADB+MAME,MAME+MADB,MADB,PSYCHO CHASER,M727269,psychas
 pce-jp-0141,1990-04-06,ROMカラオケ Vol.3 やっぱしバンド,ビクター音楽産業,cd_rom2,他,JCCD9503,4800,税抜,ROMカラオケシリーズ第3弾で、収録ミニゲームのうち「ビンゴ」は数字の表示機能のみであるため、別途ビンゴカードが必要,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロムロム カラオケ Vol. 3 やっぱしバンド,M759261,pcecd:karao3yb
 pce-jp-0142,1990-04-06,ROMカラオケ Vol.4 ちょいとおとな!?,ビクター音楽産業,cd_rom2,他,JCCD9504,4800,税抜,ROMカラオケシリーズ第4弾,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロムロム カラオケ Vol. 4 ちょいとおとな! ?,M759262,pcecd:karao4co
-pce-jp-0143,1990-04-06,ROMカラオケ Vol.5 カラオケ幕の内,ビクター音楽産業,cd_rom2,他,,4800,税抜,ROMカラオケシリーズ第5弾兼最終作,,Wikipedia+MADB,,MADB,ロムロム カラオケ Vol. 5 カラオケ幕の内,M759263,
+pce-jp-0143,1990-04-06,ROMカラオケ Vol.5 カラオケ幕の内,ビクター音楽産業,cd_rom2,他,JCCD9505,4800,税抜,ROMカラオケシリーズ第5弾兼最終作,,Wikipedia+MADB,Redump+No-Intro,MADB,ロムロム カラオケ Vol. 5 カラオケ幕の内,M759263,
 pce-jp-0144,1990-04-13,パワードリフト,アスミック,hucard,RCG,AS02002,,,同名アーケードゲームの移植版,パワードリフト,Wikipedia+MADB+MAME,MAME+MADB,,,M727260,pdrift
 pce-jp-0145,1990-04-13,上海II,ハドソン,cd_rom2,PZL,HCD0010,,,『上海』の続編で、CD-ROM媒体としては初の上海シリーズ作品でもある,上海 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,,,M727259,pcecd:shangh2
 pce-jp-0146,1990-04-20,ネクロスの要塞,アスク講談社,hucard,RPG,AK90001,,,同名の食玩のゲーム化,ネクロスの要塞 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,,,M727256,necros
@@ -165,7 +165,7 @@ pce-jp-0163,1990-06-29,うる星やつら STAY WITH YOU,ハドソン,cd_rom2,ADV
 pce-jp-0164,1990-06-29,ソル・ビアンカ,メサイヤ,cd_rom2,RPG,NSCD0002,6200,税抜,同名メディアミックスの1作品,ソルビアンカ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SOL・BIANCA,M727230,pcecd:solbianc
 pce-jp-0165,1990-07-06,最後の忍道,アイレム,hucard,ACT,IC02004,7000,税抜,同名アーケードゲームの移植版。,最後の忍道,Wikipedia+MADB+MAME,MAME,MADB,最後の忍道,M761539,saigonin
 pce-jp-0166,1990-07-06,スーパースターソルジャー,ハドソン,hucard,STG,HE-1097,6500,税抜,ファミリーコンピュータ用ソフト『スターソルジャー』の後継作,スーパースターソルジャー,Wikipedia+MADB+MAME,MAME+MADB,MADB,SUPER STAR SOLDIER,M727227,sssoldr
-pce-jp-0167,1990-07-06,ラスタンサーガ2,タイトー,hucard,ACT,TP02012,,,同名アーケードゲームの移植版,ラスタンサーガ,Wikipedia+MAME,MAME,,,,rastan2
+pce-jp-0167,1990-07-06,ラスタンサーガ2,タイトー,hucard,ACT,TP02012,6600,,同名アーケードゲームの移植版,ラスタンサーガ,Wikipedia+MADB+MAME,MAME+MADB,MADB,RASTAN SAGA 2,M727225,rastan2
 pce-jp-0168,1990-07-06,迷宮のエルフィーネ,日本テレネット,cd_rom2,ADV,TJCD0008,6780,税抜,アイドル・西村知美を主題としたアドベンチャーゲーム,迷宮のエルフィーネ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,FAERIE DUST STORY 迷宮のエルフィーネ,M727226,pcecd:elfeen
 pce-jp-0169,1990-07-13,超絶倫人ベラボーマン,ナムコ,hucard,ACT,NC90005,6800,税抜,同名アーケードゲームの移植版,超絶倫人ベラボーマン,Wikipedia+MADB+MAME,MAME+MADB,MADB,超絶倫人 ベラボーマン,M727223,bravoman
 pce-jp-0170,1990-07-20,デビルクラッシュ,ナグザット,hucard,TBL,NX90004,6300,税抜,,デビルクラッシュ,Wikipedia+MADB+MAME,MAME+MADB,MADB,DEVIL CRASH,M727216,devlcrsh
@@ -208,9 +208,9 @@ pce-jp-0206,1990-10-26,ナグザットスタジアム,ナグザット,hucard,SPT
 pce-jp-0207,1990-10-26,琉球,フェイス,hucard,PZL,FA02-005,5400,税抜,ポーカーをモチーフとした落ちものゲーム,琉球 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,琉球,M766668,ryukyu
 pce-jp-0208,1990-11-02,エアロブラスターズ,ハドソン,hucard,STG,HC90038,6500,税抜,アーケードゲーム『エアバスター』の移植版,エアバスター,Wikipedia+MADB+MAME,MAME+MADB,MADB,AERO BLASTER,M727157,aeroblst
 pce-jp-0209,1990-11-02,デコボコ伝説 走るワガマンマー,日本テレネット,cd_rom2,RCG,TJCD0013,,,,デコボコ伝説 走るワガマンマー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727156,pcecd:dekoboko
-pce-jp-0210,1990-11-09,カットビ!宅配くん,トンキンハウス,hucard,ACT,,6500,税抜,,カットビ!宅配くん,Wikipedia+MADB,,MADB,カットビ! 宅配くん,M746687,
+pce-jp-0210,1990-11-09,カットビ!宅配くん,トンキンハウス,hucard,ACT,,6500,税抜,,カットビ!宅配くん,Wikipedia+MADB+MAME,,MADB,カットビ! 宅配くん,M746687,kattobi
 pce-jp-0211,1990-11-23,キックボール,メサイヤ,hucard,SPT,NCS90004,6200,税抜,キックベースを題材としたゲーム,キックボール,Wikipedia+MAME,MAME,MADB,キックボール,M747058,kickball
-pce-jp-0212,1990-11-23,J.B.ハロルドシリーズ マーダークラブ,ハドソン,cd_rom2,ADV,HCD0013,,,PCゲームの移植版,J.B.ハロルドシリーズ,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:jbharoldj
+pce-jp-0212,1990-11-23,J.B.ハロルドシリーズ マーダークラブ,ハドソン,cd_rom2,ADV,HCD0013,6500,税抜,PCゲームの移植版,J.B.ハロルドシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,J.B.ハロルド 殺人倶楽部,M739979,pcecd:jbharoldj
 pce-jp-0213,1990-12-07,ボンバーマン,ハドソン,hucard,ACT,HC90036,5300,税抜,PCエンジンにおけるボンバーマンシリーズ第1弾 マルチタップによって最大5人までプレイ可能 非売品として「ボンバーマン USERS BATTLE」が「対戦ボンバーマン大会」キャンペーンに参加した玩具店に配布された,ボンバーマン (PCエンジン),Wikipedia+MADB+MAME,MAME+MADB,MADB,BOMBER MAN,M727142,bombman
 pce-jp-0214,1990-12-07,サンダーブレード,NECアベニュー,hucard,STG,NAPH-1015,7200,税抜,同名アーケードゲームの移植版,サンダーブレード,Wikipedia+MADB+MAME,MAME+MADB,MADB,Thunder Blade,M727145,tblade
 pce-jp-0215,1990-12-07,バーニングエンジェル,ナグザット,hucard,STG,NX90008,6700,税抜,,バーニングエンジェル,Wikipedia+MADB+MAME,MAME,MADB,バーニングエンジェル,M753434,burnangl
@@ -228,7 +228,7 @@ pce-jp-0226,1990-12-14,ワラビー!!,メサイヤ,hucard,SLG,NCS90005,,,ワラ�
 pce-jp-0227,1990-12-20,バスティール,ヒューマンCR,cd_rom2,SLG,HMCD0001,,,,バスティール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727119,pcecd:vasteelj
 pce-jp-0228,1990-12-21,アウトラン,NECアベニュー,hucard,RCG,NAPH-1016,7200,税抜,同名アーケードゲームの移植版で、ルートは日本国外では稼働していたものが元になっている,アウトラン,Wikipedia+MADB+MAME,MAME+MADB,MADB,Out Run,M727118,outrun
 pce-jp-0229,1990-12-21,クロスワイバー,フェイス,hucard,ACT,FA02-008,6780,,『サイバークロス』の続編,クロスワイバー,Wikipedia+MADB+MAME,MAME+MADB,MADB,クロスワイバー,M727114,xwiber
-pce-jp-0230,1990-12-21,天聖龍（てんせいりゅう）,エイコム,hucard,STG,,,,同名アーケードゲームの移植版,天聖龍,Wikipedia,,,,,
+pce-jp-0230,1990-12-21,天聖龍（てんせいりゅう）,エイコム,hucard,STG,AC90001,,,同名アーケードゲームの移植版,天聖龍,Wikipedia+MAME,MAME,,,,sdragon
 pce-jp-0231,1990-12-21,魔界プリンスどらぼっちゃん,ナグザット,hucard,ACT,NX90007,6700,税抜,ナグザットのマスコットキャラクター・どらぼっちゃんを題材としたアクションゲーム,魔界プリンスどらぼっちゃん,Wikipedia+MADB+MAME,MAME,MADB,魔界プリンスどらぼっちゃん,M765923,makaipri
 pce-jp-0232,1990-12-22,桃太郎伝説II,ハドソン,hucard,RPG,HC90040,7200,税抜,元々はCD-ROM2用ソフトとして企画され、その時点ではSFをモチーフとしたシナリオになる予定だった。 その後、開発方針を変更し、『桃太郎伝説ターボ』の続編として発売された。,桃太郎伝説II,Wikipedia+MADB+MAME,MAME+MADB,MADB,桃太郎伝説2,M727111,momo2
 pce-jp-0233,1990-12-28,ウルトラボックス 第3号,ビクター音楽産業,cd_rom2,,JCCD0603,4800,税抜,,ウルトラボックス,Wikipedia,MADB+No-Intro,MADB,ウルトラボックス 3号,M727108,
@@ -240,7 +240,7 @@ pce-jp-0238,1991-01-25,ガルクライト TDF2,パック・イン・ビデオ,cd
 pce-jp-0239,1991-02-15,パラソルスター,タイトー,hucard,ACT,TP03017,6600,税抜,『バブルボブル』シリーズ第3作,パラソルスター,Wikipedia+MADB+MAME,MAME,MADB,パラソルスター,M754304,parasol
 pce-jp-0240,1991-02-15,クイズアベニュー,NECアベニュー,cd_rom2,QUIZ,NAPR-1013,,,,クイズアベニュー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727096,pcecd:quizaven
 pce-jp-0241,1991-02-15,マスターオブモンスターズ,マイクロキャビン,cd_rom2,SLG,MCCD0002,6500,税抜,同名PCゲームの移植版,マスターオブモンスターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Master of Monsters,M727095,pcecd:mastmons
-pce-jp-0242,1991-02-22,DEAD MOON 月世界の悪夢,T.S.S.,hucard,STG,TS91001,7400,,,DEAD MOON 月世界の悪夢,Wikipedia+MADB,MADB,MADB,DEAD MOON 「月世界の悪夢」,M727091,
+pce-jp-0242,1991-02-22,DEAD MOON 月世界の悪夢,T.S.S.,hucard,STG,TS91001,7400,,,DEAD MOON 月世界の悪夢,Wikipedia+MADB+MAME,MAME+MADB,MADB,DEAD MOON 「月世界の悪夢」,M727091,deadmoon
 pce-jp-0243,1991-02-22,パズルボーイ,日本テレネット,hucard,PZL,TJ03001,6400,,同名ゲームボーイ用ソフトの移植版,パズルボーイ,Wikipedia+MADB+MAME,MAME+MADB,MADB,PUZZLE BOY,M727094,puzzlboy
 pce-jp-0244,1991-02-22,オルディネス,ハドソン,supergrafx,STG,HC91044,,,,オルディネス,Wikipedia+MAME,MAME,,,,sgx:aldynes
 pce-jp-0245,1991-03-01,ファイナルマッチテニス,ヒューマン,hucard,SPT,HM91004,,,,ファイナルマッチテニス,Wikipedia+MADB+MAME,MAME+MADB,,,M727086,finalmt
@@ -258,7 +258,7 @@ pce-jp-0256,1991-03-22,ロードスピリッツ,パック・イン・ビデオ,c
 pce-jp-0257,1991-03-29,TVスポーツフットボール,ビクター音楽産業,hucard,SPT,JC63008,,,TVスポーツシリーズの1作品,TVスポーツフットボール,Wikipedia+MADB+MAME,MAME+MADB,,,M727067,tvfootbl
 pce-jp-0258,1991-03-29,サイレントデバッガーズ,データイースト,hucard,STG,DE90004,6800,税抜,音を頼りに不可視の敵をあぶりだす疑似3Dシューティングゲーム,サイレントデバッガーズ,Wikipedia+MADB+MAME,MAME,MADB,サイレントデバッガーズ,M748726,silentd
 pce-jp-0259,1991-03-29,コラムス,日本テレネット,hucard,PZL,TJ03002,6400,,同名アーケードゲームの移植版,コラムス,Wikipedia+MADB+MAME,MAME+MADB,MADB,COLUMNS,M727057,columns
-pce-jp-0260,1991-03-29,モトローダーII,メサイヤ,hucard,RCG,NCS91002,,,『モトローダー』の続編,モトローダー,Wikipedia+MAME,MAME,,,,motorod2
+pce-jp-0260,1991-03-29,モトローダーII,メサイヤ,hucard,RCG,NCS91002,6500,税抜,『モトローダー』の続編,モトローダー,Wikipedia+MADB+MAME,MAME,MADB,MOTO ROADER 2,M727068,motorod2
 pce-jp-0261,1991-03-29,エグザイル 時の狭間へ,日本テレネット,cd_rom2,ARPG,TJCD1014,,,同名PCゲームの移植版,エグザイル (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727060,pcecd:exilej
 pce-jp-0262,1991-03-29,三国志 英傑天下に臨む,ナグザット,cd_rom2,SLG,NXCD0002,,,漫画『三国志』のゲーム化,三国志 英傑天下に臨む,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727058,pcecd:sangoku
 pce-jp-0263,1991-03-29,ダウンロード2,NECアベニュー,cd_rom2,STG,NAPR-1018,,,『ダウンロード』の続編,ダウンロード2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727059,pcecd:downld2
@@ -383,7 +383,7 @@ pce-jp-0381,1992-04-01,ザ・デビスカップテニス,マイクロワール�
 pce-jp-0382,1992-04-01,ビルダーランド,マイクロワールド,super_cd_rom2,PZL,MWCD2003,,,同名PCゲームの移植版,ビルダーランド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726803,pcecd:buildlnd
 pce-jp-0383,1992-04-02,スーパー雷電,ハドソン,super_cd_rom2,STG,HCD2023,5800,税抜,アーケードゲーム『雷電』の移植版,雷電 (シューティングゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパー雷電,M749814,pcecd:sraiden
 pce-jp-0384,1992-04-03,熱血高校ドッジボール部 PCサッカー編,ナグザット,hucard,SPT,NX92001,6900,税抜,ファミリーコンピュータ用ソフト『熱血高校ドッジボール部 サッカー編』のアレンジ移植,熱血高校ドッジボール部 PCサッカー編,Wikipedia+MADB+MAME,MAME+MADB,MADB,熱血高校ドッジボール部 PCサッカー編,M726801,neksoccr
-pce-jp-0385,1992-04-03,超時空要塞マクロス2036,メサイヤ,super_cd_rom2,STG,NSCD2007,,,CR・SC両対応だが、CRでは一部デモが見られない,超時空要塞マクロス,Wikipedia+MADB,MADB+No-Intro,,,M726802,
+pce-jp-0385,1992-04-03,超時空要塞マクロス2036,メサイヤ,super_cd_rom2,STG,NSCD2007,,,CR・SC両対応だが、CRでは一部デモが見られない,超時空要塞マクロス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726802,pcecd:macr2036
 pce-jp-0386,1992-04-07,源平討魔伝 巻ノ弐,ナムコ,hucard,ACT,NC92002,,,『源平討魔伝』の続編,源平討魔伝 巻ノ弐,Wikipedia+MADB+MAME,MAME+MADB,,,M726798,genpemak
 pce-jp-0387,1992-04-24,雀偵物語2 宇宙探偵ディバン/完結編,アトラス,cd_rom2,TBL,ATCD2004,,,『雀偵物語2 宇宙探偵ディバン/出動編』の続編,雀偵物語,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726791,pcecd:jantei2k
 pce-jp-0388,1992-04-24,スターパロジャー,ハドソン,super_cd_rom2,STG,HCD2024,,,ハドソン作品を題材としたシューティングゲーム,スターパロジャー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726790,pcecd:starparo
@@ -410,7 +410,7 @@ pce-jp-0408,1992-07-31,ザ・キックボクシング,マイクロワールド,s
 pce-jp-0409,1992-07-31,ボナンザブラザーズ,NECアベニュー,super_cd_rom2,ACT,NAPR-2028,6800,税抜,同名アーケードゲームの移植版,ボナンザブラザーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BONANZA BROS .,M726736,pcecd:bnzabros
 pce-jp-0410,1992-08-07,パワーリーグV,ハドソン,hucard,SPT,HC92057,6800,税抜,パワーリーグシリーズ第5弾で、日本野球機構からのライセンスを取得したことで選手の実名表記を実現した,パワーリーグ,Wikipedia+MADB+MAME,MAME+MADB,MADB,パワーリーグ 5,M726728,pleag5
 pce-jp-0411,1992-08-07,ドラゴンナイトII,NECアベニュー,super_cd_rom2,RPG,NAPR-1029,,,同名の成人向けPCゲームの全年齢向け移植版,ドラゴンナイトII,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726720,pcecd:dknight2
-pce-jp-0412,1992-08-07,スナッチャー パイロットディスク,コナミ,super_cd_rom2,,KMCD2001,,,『スナッチャー』の体験版・予告編・BGM を収録。製品版に先駆けて安価で発売（Wikipedia「体験版・雑誌/ムック付録」節から本リストへ）,スナッチャー,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:snatcherpd
+pce-jp-0412,1992-08-07,スナッチャー パイロットディスク,コナミ,super_cd_rom2,,KMCD2001,1500,税抜,『スナッチャー』の体験版・予告編・BGM を収録。製品版に先駆けて安価で発売（Wikipedia「体験版・雑誌/ムック付録」節から本リストへ）,スナッチャー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SNATCHER Pilot Disk,M726729,pcecd:snatcherpd
 pce-jp-0413,1992-08-10,クイズの星,サン電子,super_cd_rom2,QUIZ,SSCD2002,6800,税抜,,クイズの星,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クイズの星,M747393,pcecd:quiznoho
 pce-jp-0414,1992-08-28,ベイビー・ジョー,マイクロワールド,super_cd_rom2,ACT,MWCD2004,7200,税抜,,ベイビー・ジョー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ベイビー・ジョー,M755964,pcecd:babyjo
 pce-jp-0415,1992-08-29,ファージアスの邪皇帝,ヒューマン,super_cd_rom2,RPG,HMCD2003,,,同名読者参加型ゲームのコンピュータゲーム化,ファージアスの邪皇帝,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726714,pcecd:metlfant
@@ -434,7 +434,7 @@ pce-jp-0432,1992-10-10,パワースポーツ,ハドソン,hucard,SPT,HC92058,650
 pce-jp-0433,1992-10-10,クイズ殿様の野望,ハドソン,cd_rom2,QUIZ,HCD2038,6200,税抜,同名アーケードゲームの移植版 CR・SC両対応,クイズ殿様の野望,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クイズ 殿様の野望,M747385,pcecd:quiztono
 pce-jp-0434,1992-10-23,キアイダン00,日本テレネット,super_cd_rom2,STG,TJCD2031,6980,税抜,,キアイダン00,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,キアイダン OO,M726684,pcecd:kiaidan
 pce-jp-0435,1992-10-23,銀河お嬢様伝説ユナ,ハドソン,super_cd_rom2,ADV,HCD2031,,,1995年6月16日に特典ディスクを同梱した「再販版」を発売,銀河お嬢様伝説ユナ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726685,pcecd:yuna
-pce-jp-0436,1992-10-23,スナッチャー,コナミ,super_cd_rom2,ADV,KMCD2002,,,同名PC用ゲームソフトの移植版で、完結編にあたるACT3を収録している,スナッチャー,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:snatcher
+pce-jp-0436,1992-10-23,スナッチャー,コナミ,super_cd_rom2,ADV,KMCD2002,,,同名PC用ゲームソフトの移植版で、完結編にあたるACT3を収録している,スナッチャー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726683,pcecd:snatcher
 pce-jp-0437,1992-11-13,ファイヤープロレスリング3 Legend Bout,ヒューマン,hucard,SPT,HM92006,,,PCエンジンにおけるファイヤープロレスリングシリーズ第3弾,ファイヤープロレスリング3 Legend Bout,Wikipedia+MADB+MAME,MAME+MADB,,,M726675,fireprw3
 pce-jp-0438,1992-11-20,PC原人シリーズ PC電人,ハドソン,hucard,STG,,6500,税抜,PC原人シリーズのスピンオフ,PC原人シリーズ PC電人,Wikipedia+MADB,,MADB,PC原人シリーズ PC電人,M741496,
 pce-jp-0439,1992-11-20,横山光輝 真・三国志,ナグザット,cd_rom2,SLG,NXCD2009,,,漫画『三国志』のゲーム化,横山光輝 真・三国志,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726665,pcecd:shinsang
@@ -464,7 +464,7 @@ pce-jp-0462,1992-12-25,井上麻美 この星にたったひとりのキミ,ハ�
 pce-jp-0463,1992-12-25,ゲイングランドSX,NECアベニュー,super_cd_rom2,ACT,NAPR-1032,7200,税抜,アーケードゲーム『ゲイングランド』のアレンジ移植,ゲイングランド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲイングランドSX,M747931,pcecd:gground
 pce-jp-0464,1992-12-25,サークI・II,日本テレネット,super_cd_rom2,ARPG,TJCD2032,7800,税抜,PCゲーム・サークシリーズのうち第1作と第2作を収録,サーク,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サーク 1・2,M726605,pcecd:xak12
 pce-jp-0465,1992-12-25,超兄貴,メサイヤ,super_cd_rom2,STG,NSCD2013,,,筋肉を題材としたシューティングゲーム,超兄貴,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726606,pcecd:choaniki
-pce-jp-0466,1992-12-28,スーパー麻雀大会,光栄,super_cd_rom2,TBL,KOCD2002,,,光栄のPCエンジン参入作で、古今東西の偉人と麻雀で勝負する内容となっている。 周辺機器・セーブくん対応ソフト,スーパー麻雀大会,Wikipedia+MADB,MADB+No-Intro,,,M726602,
+pce-jp-0466,1992-12-28,スーパー麻雀大会,光栄,super_cd_rom2,TBL,KOCD2002,,,光栄のPCエンジン参入作で、古今東西の偉人と麻雀で勝負する内容となっている。 周辺機器・セーブくん対応ソフト,スーパー麻雀大会,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726602,pcecd:supermjt
 pce-jp-0467,1993-01-08,魔物ハンター妖子 〜遠き呼び声〜,メサイヤ,super_cd_rom2,ADV,NSCD2016,7200,税抜,『魔物ハンター妖子 魔界からの転校生』の後編に当たる作品,魔物ハンター妖子,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,魔物ハンター妖子 遠き呼び声,M726595,pcecd:mamonohu
 pce-jp-0468,1993-01-14,シムアース,ハドソン,super_cd_rom2,SLG,HCD2040,,,シムシリーズの1作品で、ガイア理論に基づき惑星を育てるシミュレーションゲーム,シムアース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726592,pcecd:simearthj
 pce-jp-0469,1993-01-22,メタモジュピター,NECホームエレクトロニクス,super_cd_rom2,STG,HECD2001,6800,税抜,周辺機器・バーチャルクッション対応作品,メタモジュピター,Wikipedia+MADB+MAME,MAME,MADB,メタモジュピター,M757488,pcecd:metamorj
@@ -530,7 +530,7 @@ pce-jp-0528,1993-10-29,マイト・アンド・マジックIII,ハドソン,supe
 pce-jp-0529,1993-10-29,悪魔城ドラキュラX 血の輪廻,コナミ,super_cd_rom2,ACT,KMCD3005,7800,税抜,悪魔城ドラキュラシリーズにおける初のPCエンジン向け作品,悪魔城ドラキュラX 血の輪廻,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,悪魔城ドラキュラX 血の輪廻,M726404,pcecd:draculax
 pce-jp-0530,1993-10-29,GALAXY刑事GAYVAN,インテック,super_cd_rom2,ACT,IGCD3005,,,,GALAXY刑事GAYVAN,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726405,pcecd:galaxyde
 pce-jp-0531,1993-10-29,マジクール,NECホームエレクトロニクス,super_cd_rom2,ARPG,HECD3002,,,,マジクール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726407,pcecd:magicoal
-pce-jp-0532,1993-11-19,ソードマスター,ライトスタッフ,super_cd_rom2,SLG,RSCD3003,,,,ソードマスター,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:swordmst
+pce-jp-0532,1993-11-19,ソードマスター,ライトスタッフ,super_cd_rom2,SLG,RSCD3003,8300,税抜,,ソードマスター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,SWORD MASTER,M743089,pcecd:swordmst
 pce-jp-0533,1993-11-19,ルイン 神の遺産,ビクター音楽産業,super_cd_rom2,ARPG,JCCD3013,,,,ルイン 神の遺産,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726390,pcecd:ruin
 pce-jp-0534,1993-11-26,クイズ DE 学園祭,ナグザット,super_cd_rom2,QUIZ,NXCD3026,,,,クイズ DE 学園祭,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726380,pcecd:quizgaku
 pce-jp-0535,1993-11-26,ただいま勇者募集中,ヒューマン,super_cd_rom2,TBL,HMCD3006,,,,ただいま勇者募集中,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726379,pcecd:tadaima
@@ -561,7 +561,7 @@ pce-jp-0559,1994-02-25,パラディオン,パック・イン・ビデオ,super_c
 pce-jp-0560,1994-02-25,麻雀レモンエンジェル,ナグザット,super_cd_rom2,TBL,NXCD3028,,,テレビアニメ『レモンエンジェル』を題材とした同名アーケードゲームの移植版,麻雀レモンエンジェル,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726305,pcecd:mjlemang
 pce-jp-0561,1994-02-26,ゴジラ 爆闘烈伝,東宝,super_cd_rom2,ACT,TCCD4001,8200,,『ゴジラ』を題材とした対戦型格闘ゲーム,ゴジラ 爆闘烈伝,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゴジラ 爆闘烈伝,M726304,pcecd:godzillaj
 pce-jp-0562,1994-03-04,WIZARDRY III・IV,ナグザット,super_cd_rom2,RPG,NXCD4029,,,,ウィザードリィ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726299,pcecd:wizard34
-pce-jp-0563,1994-03-04,THE ATLAS ルネッサンス ボイジャー,アートディンク,super_cd_rom2,SLG,,,,同名PCゲームの移植版 AC対応,THE ATLAS ルネッサンス ボイジャー,Wikipedia,,,,,
+pce-jp-0563,1994-03-04,THE ATLAS ルネッサンス ボイジャー,アートディンク,super_cd_rom2,SLG,ADCD4002,9800,税抜,同名PCゲームの移植版 AC対応,THE ATLAS ルネッサンス ボイジャー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THE ATLAS Renaissance Voyager,M726297,pcecd:atlas
 pce-jp-0564,1994-03-04,パワーゴルフ2 ゴルファー,ハドソン,super_cd_rom2,SPT,HCD4056,6800,税抜,,パワーゴルフ2 ゴルファー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Power Golf 2 GOLFER,M726298,pcecd:hupga2
 pce-jp-0565,1994-03-12,餓狼伝説2,ハドソン,arcade_card,ACT,HCD4060,,,同名アーケードゲームの移植版で、初のACソフトでもある,餓狼伝説2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726291,pcecd:garou2
 pce-jp-0566,1994-03-25,CALIII 完結編,NECアベニュー,super_cd_rom2,ADV,NAPR-1039,,,『CAL II』の続編兼シリーズ完結編,CALIII 完結編,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726269,pcecd:cal3
@@ -615,7 +615,7 @@ pce-jp-0613,1994-11-25,ゲッツェンディーナー,NECホームエレクト�
 pce-jp-0614,1994-11-25,コズミックファンタジー4 銀河少年伝説 激闘編,日本テレネット,super_cd_rom2,RPG,TJCD4040,7600,税抜,『コズミックファンタジー4』の後編部分に当たる,コズミック・ファンタジー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,コズミック・ファンタジー4 銀河少年伝説 激闘編,M726101,pcecd:cosmfn4g
 pce-jp-0615,1994-11-25,新日本プロレスリング'94 バトルフィールドin闘強導夢,フジコム,arcade_card,SPT,FCCD4001,,,,新日本プロレスリング'94 バトルフィールドin闘強導夢,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726102,pcecd:sprowr94
 pce-jp-0616,1994-11-25,美少女戦士セーラームーンcollection,バンプレスト,super_cd_rom2,他,BACD4004,8800,税抜,ビジュアル集とミニゲーム。,美少女戦士セーラームーン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,美少女戦士セーラームーンCollection,M726104,pcecd:sailormc
-pce-jp-0617,1994-12-02,餓狼伝説SPECIAL,ハドソン,arcade_card,ACT,,6900,税抜,同名アーケードゲームの移植版,餓狼伝説スペシャル,Wikipedia+MADB,,MADB,餓狼伝説SPECIAL,M760286,
+pce-jp-0617,1994-12-02,餓狼伝説SPECIAL,ハドソン,arcade_card,ACT,HCD4067,6900,税抜,同名アーケードゲームの移植版,餓狼伝説スペシャル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,餓狼伝説SPECIAL,M760286,pcecd:garousp
 pce-jp-0618,1994-12-09,カードエンジェルス,フジコム,super_cd_rom2,TBL,FCCD4002,8800,税抜,脱衣トランプゲーム,カードエンジェルス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カードエンジェルス,M726080,pcecd:cardangl
 pce-jp-0619,1994-12-16,21エモン めざせ! ホテル王,NECホームエレクトロニクス,hucard,TBL,HE93003,6800,税抜,テレビアニメ『21エモン』のゲーム化で、最後のHuカード用ソフト。,21エモン,Wikipedia+MADB+MAME,MAME,MADB,藤子・F・不二雄の21エモン めざせ! ホテル王,M764876,21emon
 pce-jp-0620,1994-12-16,ロードス島戦記II,ハドソン,super_cd_rom2,RPG,HCD4066,,,『ロードス島戦記』の続編で、シナリオはOVA版を基にしている,ロードス島戦記,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726064,pcecd:lodoss2
@@ -646,12 +646,12 @@ pce-jp-0644,1995-06-16,プリンセスメーカー2,NECホームエレクトロ�
 pce-jp-0645,1995-06-23,レニーブラスター,NECアベニュー,super_cd_rom2,ACT,NAPR-1044,7800,税抜,,レニーブラスター,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,RENNY BLASTER,M725936,pcecd:rennybla
 pce-jp-0646,1995-06-30,風の伝説ザナドゥII,日本ファルコム,super_cd_rom2,ARPG,NFCD5001,9800,税抜,,風の伝説ザナドゥ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,風の伝説 ザナドゥ 2,M725928,pcecd:xanadu2
 pce-jp-0647,1995-06-30,銀河お嬢様伝説ユナ2 永遠のプリンセス,ハドソン,super_cd_rom2,ADV,HCD5075,7800,税抜,銀嬢伝シリーズ第2弾,銀河お嬢様伝説ユナ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,銀河お嬢様伝説ユナ2 永遠のプリンセス,M725933,pcecd:yuna2
-pce-jp-0648,1995-07-28,あすか120%マキシマ バーニングフェスト,NECアベニュー,super_cd_rom2,ACT,NAPR-1049,8200,税抜,PCゲームの移植版,あすか120%,Wikipedia+MADB,MADB+No-Intro,MADB,あすか120％マキシマ バーニングフェスト,M725900,
+pce-jp-0648,1995-07-28,あすか120%マキシマ バーニングフェスト,NECアベニュー,super_cd_rom2,ACT,NAPR-1049,8200,税抜,PCゲームの移植版,あすか120%,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,あすか120％マキシマ バーニングフェスト,M725900,pcecd:asuka120
 pce-jp-0649,1995-07-28,スペースインベーダー ジ・オリジナルゲーム,NECアベニュー,super_cd_rom2,STG,NAPR-1050,6800,税抜,,スペースインベーダー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SPACE INVADERS The Original Game PC Engine version,M725901,pcecd:spaceinv
 pce-jp-0650,1995-08-04,百物語〜ほんとにあった怖い話〜,ハドソン,super_cd_rom2,他,HCD5077,6800,税抜,稲川淳二監修の怪談集,百物語〜ほんとにあった怖い話〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,百物語 ほんとにあった怖い話,M725891,pcecd:hyakumon
 pce-jp-0651,1995-08-11,プライベート・アイ・ドル,NECホームエレクトロニクス,super_cd_rom2,ADV,HECD5019,7800,税抜,AC対応,プライベート・アイ・ドル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Private eye dol,M725889,pcecd:priveyed
 pce-jp-0652,1995-08-11,マージャン・ソード プリンセス・クエスト外伝,ナグザット,super_cd_rom2,TBL,NXCD4031,8800,税抜,AC対応,マージャン・ソード プリンセス・クエスト外伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マージャンソード プリンセスクエスト外伝,M756612,pcecd:mjsword
-pce-jp-0653,1995-09-22,真怨霊戦記,フジコム,super_cd_rom2,ADV,,8500,税抜,PCゲーム『怨霊戦記』のリメイク,真怨霊戦記,Wikipedia+MADB,,MADB,真怨霊戦記,M762923,
+pce-jp-0653,1995-09-22,真怨霊戦記,フジコム,super_cd_rom2,ADV,FCCD5003,8500,税抜,PCゲーム『怨霊戦記』のリメイク,真怨霊戦記,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,真怨霊戦記,M762923,pcecd:shinonry
 pce-jp-0654,1995-09-29,ザ・ティーヴィーショー,ライトスタッフ,super_cd_rom2,ACT,RSCD-4005,6800,税抜,,ザ・ティーヴィーショー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THE TV SHOW,M725849,pcecd:tvshow
 pce-jp-0655,1995-10-13,リンダキューブ,NECホームエレクトロニクス,super_cd_rom2,RPG,HECD5023,7800,税抜,サイコスリラー調のハンティングRPG AC対応,リンダキューブ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,リンダキューブ,M725839,pcecd:linda3
 pce-jp-0656,1995-10-27,将棋データベース 棋友,セタ,super_cd_rom2,TBL,STCD5001,6900,税抜,,将棋データベース 棋友,Wikipedia+MAME,MAME+No-Intro,MADB,将棋データベース 棋友,M762273,pcecd:shougidb

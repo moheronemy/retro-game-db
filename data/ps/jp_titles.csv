@@ -72,7 +72,7 @@ ps-jp-0070,1995-09-15,信長の野望・覇王伝,光栄,,,,SLPS-00106,6800,税�
 ps-jp-0071,1995-09-15,宝魔ハンター ライム Special Collection vol.2,アスミック,,,,SLPS-00085,4900,税抜,,宝魔ハンターライム,Wikipedia+MADB,MADB+No-Intro,MADB,宝魔ハンターライム Special Collection vol.2,M726036,
 ps-jp-0072,1995-09-22,Vテニス,東京書籍,,,,SLPS-00103,5800,税抜,,,Wikipedia+MADB,MADB+No-Intro,MADB,VTennis,M725863,
 ps-jp-0073,1995-09-22,エグゼクター,アークシステムワークス,,,,SLPS-00091,5300,税抜,,,Wikipedia+MADB,MADB+No-Intro,MADB,EXECTOR,M725865,
-ps-jp-0074,1995-09-22,レイマン,ユービーアイソフト,,,,SLPS-00026,,,同名Atari Jaguar用ソフトの移植版。 欧州と北米においてはローンチタイトルとして発売された。,レイマン,Wikipedia+MAME,MAME+No-Intro,,,,raymanj
+ps-jp-0074,1995-09-22,レイマン,ユービーアイソフト,,,,SLPS-00026,5800,税抜,同名Atari Jaguar用ソフトの移植版。 欧州と北米においてはローンチタイトルとして発売された。,レイマン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,RAYMAN,M741824,raymanj
 ps-jp-0075,1995-09-22,METAL JACKET,ポニーキャニオン,,,,SLPS-00008,5800,税抜,,,Wikipedia+MADB,MADB+No-Intro,MADB,Metal Jacket,M725864,
 ps-jp-0076,1995-09-29,EMITバリューパック vol.1時の迷子、vol.2命がけの旅、vol.3私にさよならを,光栄,,,,,,,,EMIT,Wikipedia,,,,,
 ps-jp-0077,1995-09-29,三國志IV,光栄,,,,SCPS-45003,10800,税抜,,三國志IV,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,三國志4,M734616,
@@ -96,7 +96,7 @@ ps-jp-0094,1995-10-27,ダークシード,ギャガ・コミュニケーション
 ps-jp-0095,1995-10-27,戦国サイバー 藤丸地獄変,ソニー・コンピュータエンタテインメント,,,,SCPS-10011,5800,税抜,,戦国サイバー 藤丸地獄変,Wikipedia+MADB,MADB+No-Intro,MADB,戦国サイバー 藤丸地獄変,M725835,
 ps-jp-0096,1995-11-03,ただいま惑星開拓中!,アルトロン,,,,SLPS-00116,5800,税抜,,,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,ただいま惑星開拓中!,M750974,
 ps-jp-0097,1995-11-03,井出洋介の麻雀家族,セタ,,,,SLPS-00058,6500,税抜,,井出洋介,Wikipedia+MADB,MADB+No-Intro,MADB,井出洋介の 麻雀家族,M725832,
-ps-jp-0098,1995-11-03,ビヨンド ザ ビヨンド 〜遥かなるカナーンへ〜,ソニー・コンピュータエンタテインメント,,,,,,,キャメロット開発によるファンタジーRPG。,ビヨンド ザ ビヨンド 〜遥かなるカナーンへ〜,Wikipedia,,,,,
+ps-jp-0098,1995-11-03,ビヨンド ザ ビヨンド 〜遥かなるカナーンへ〜,ソニー・コンピュータエンタテインメント,,,,SCPS-10014,5800,税抜,キャメロット開発によるファンタジーRPG。,ビヨンド ザ ビヨンド 〜遥かなるカナーンへ〜,Wikipedia+MADB,MADB+No-Intro,MADB,Beyond The Beyond ～遥かなるカナーンへ～,M725833,
 ps-jp-0099,1995-11-10,負けるな!魔剣道2,データム・ポリスター,,,,SLPS-00128,5800,税抜,,負けるな!魔剣道,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,負けるな! 魔剣道2,M725830,makerum2
 ps-jp-0100,1995-11-10,海底大戦争,エクシング,,,,SLPS-00086,5800,税抜,,海底大戦争,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,海底大戦争 ～IN THE HUNT,M760370,
 ps-jp-0101,1995-11-17,戦略将棋,エレクトロニックアーツビクター,,,,SLPS-00142,6800,税抜,,,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,戦略将棋 至高の定跡,M763664,
@@ -109,7 +109,7 @@ ps-jp-0107,1995-11-22,オフワールド・インターセプター エクスト
 ps-jp-0108,1995-11-22,AI将棋,ソフトバンク,,,,SLPS-00109,6800,税抜,,AI将棋,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,AI将棋,M737201,
 ps-jp-0109,1995-11-22,ナムコミュージアム VOL.1,ナムコ,,,,SLPS-00107,5800,税抜,『パックマン』などを収録したレトロゲーム集。,ナムコミュージアム,Wikipedia+MADB,MADB+No-Intro,MADB,ナムコミュージアム Vol. 1,M725822,
 ps-jp-0110,1995-11-22,DOUBLE HEADER 燃えろ!!プロ野球'95,ジャレコ,,,,SLPS-00099,5800,税抜,,燃えろ!!プロ野球,Wikipedia+MADB,MADB+No-Intro,MADB,燃えろ!! プロ野球'95 DOUBLE HEADER,M725824,
-ps-jp-0111,1995-12-01,リヴァーシオン,テクノソフト,,,,SLPS-00143,,,,,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-0111,1995-12-01,リヴァーシオン,テクノソフト,,,,SLPS-00143,5800,税抜,,,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,REVERTHION,M741900,
 ps-jp-0112,1995-12-01,Dの食卓 コンプリートグラフィックス,アクレイムジャパン,,,,SLPS-00133,8800,税抜,,Dの食卓,Wikipedia+MADB,MADB+No-Intro,MADB,Dの食卓 COMPLETE GRAPHICS,M725812,
 ps-jp-0113,1995-12-01,Break Thru!,翔泳社,,,,SLPS-00129,5300,税抜,,,Wikipedia+MADB,Redump+No-Intro,MADB,Break Thru!,M737807,
 ps-jp-0114,1995-12-01,パーフェクトゴルフ,セタ,,,,SLPS-00087,7900,税抜,,,Wikipedia+MADB,MADB+No-Intro,MADB,パーフェクトゴルフ,M725813,
@@ -178,7 +178,7 @@ ps-jp-0176,1996-02-09,デストラクション・ダービー,ソニー・コン
 ps-jp-0177,1996-02-16,ロードランナー レジェンドリターンズ,パトラ,,,,SLPS-00182,5800,税抜,,ロードランナー,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,ロードランナー レジェンド・リターンズ,M758968,
 ps-jp-0178,1996-02-16,ドラえもん のび太と復活の星,エポック社,,,,SLPS-00233,5800,税抜,,ドラえもん のび太と復活の星,Wikipedia+MADB+MAME,MAME,MADB,ドラえもん のび太と復活の星,M752344,doraemon
 ps-jp-0179,1996-02-16,サイベリア,インタープレイ,,,,SLPS-00218,5800,税抜,Interplayが開発した3Dシューティングゲーム。,,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,サイベリア,M748716,
-ps-jp-0180,1996-02-16,ハードロックキャブ,アスミック,,,,SLPS-00224,,,,,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-0180,1996-02-16,ハードロックキャブ,アスミック,,,,SLPS-00224,5800,税抜,,,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,HARD ROCK CAB,M739768,
 ps-jp-0181,1996-02-16,パペットズー・ピロミィ,ヒューマン,,,,SLPS-00149,5800,税抜,,パペットズー・ピロミィ,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,パペットズー ピロミィ,M754259,
 ps-jp-0182,1996-02-16,ヴィークル・キャヴァリアー,ヴァンガード,,,,SLPS-00232,5800,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ヴィークル・キャバリアー,M745555,vcavalr
 ps-jp-0183,1996-02-16,スナッチャー,コナミ,,,,SLPS-00154,5800,税抜,同名PCエンジン用ソフトの移植版,スナッチャー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SNATCHER,M725738,snatcher
@@ -196,7 +196,7 @@ ps-jp-0194,1996-03-01,ワールドカップゴルフ,ココナッツジャパン
 ps-jp-0195,1996-03-01,トワイライトシンドローム探索編,ヒューマン,,,,SLPS-00102,5800,税抜,,トワイライトシンドローム,Wikipedia+MADB,MADB+No-Intro,MADB,トワイライトシンドローム ~探索編~,M725719,
 ps-jp-0196,1996-03-01,進め!対戦ぱずるだま,コナミ,,,,SLPS-00255,4800,税抜,,対戦ぱずるだま,Wikipedia+MADB,MADB+No-Intro,MADB,進め! 対戦ぱずるだま,M725724,
 ps-jp-0197,1996-03-01,レボリューションX,アクレイムジャパン,,,,SLPS-00258,5800,税抜,,レボリューションX,Wikipedia+MADB,MADB+No-Intro,MADB,レボリューションX,M725723,
-ps-jp-0198,1996-03-01,ノバストーム,ビクターエンタテインメント,,,,SLPS-00314,,,,ノバストーム,Wikipedia+MAME,MAME+No-Intro,,,,novastrmj
+ps-jp-0198,1996-03-01,ノバストーム,ビクターエンタテインメント,,,,SLPS-00314,6800,税抜,,ノバストーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NOVASTORM,M741328,novastrmj
 ps-jp-0199,1996-03-08,CG昔話 じいさん2度びっくり,アイディアファクトリー,,,,SLPS-00230,5800,税抜,,CG昔話,Wikipedia+MADB,Redump+No-Intro,MADB,CG昔話 じいさん2度びっくり!!,M737922,
 ps-jp-0200,1996-03-08,美少女戦士セーラームーンSuperS 真・主役争奪戦,エンジェル/メガハウス,,,,SLPS-00260,5800,税抜,,美少女戦士セーラームーン (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,美少女戦士セーラームーン SuperS 真・主役争奪戦,M765458,sailorss
 ps-jp-0201,1996-03-08,SANKYO FEVER実践シミュレーション,ティー・イー・エヌ研究所,,,,SLPS-00264,6800,税抜,,SANKYO FEVER,Wikipedia+MADB,MADB+No-Intro,MADB,SANKYO FEVER 実機シミュレーション,M725717,
@@ -236,7 +236,7 @@ ps-jp-0234,1996-03-29,TIZ -Tokyo Insect Zoo-,ゼネラル・エンタテイメ�
 ps-jp-0235,1996-03-29,鉄拳2,ナムコ,,,,SLPS-00300,5800,税抜,,鉄拳2,Wikipedia+MADB,MADB+No-Intro,MADB,鉄拳2,M725691,
 ps-jp-0236,1996-04-12,リング オブ サイアス,アテナ,,,,SLPS-00207,,,,リング オブ サイアス,Wikipedia+MADB,MADB+No-Intro,,,M725683,
 ps-jp-0237,1996-04-12,デッドヒートロード,日本物産,,,,SLPS-00267,5800,税抜,,デッドヒートロード,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,デッドヒートロード,M751805,
-ps-jp-0238,1996-04-12,SLAM DRAGON,ジャレコ,,,,SLPS-00246,,,,SLAM DRAGON,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-0238,1996-04-12,SLAM DRAGON,ジャレコ,,,,SLPS-00246,5800,税抜,,SLAM DRAGON,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,スラムドラゴン,M750314,
 ps-jp-0239,1996-04-12,プレイスタジアム,バンプレスト,,,,SLPS-00239,5800,税抜,,プレイスタジアム,Wikipedia+MADB,MADB+No-Intro,MADB,プレイ スタジアム,M725684,
 ps-jp-0240,1996-04-12,ポテスタス,ネクサスインターラクト,,,,SLPS-00324,6800,税抜,,ポテスタス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,POTESTAS,M725685,potestas
 ps-jp-0241,1996-04-19,めざせ!戦球王,セイブ開発,,,,SLPS-00313,5800,税抜,,めざせ!戦球王,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,めざせ! 戦球王,M757454,mezasenk
@@ -338,7 +338,7 @@ ps-jp-0336,1996-08-02,レイクマスターズ,ネクサスインターラクト
 ps-jp-0337,1996-08-02,オーバーブラッド,リバーヒルソフト,,,,SLPS-00392,5800,税抜,,オーバーブラッド,Wikipedia+MADB,MADB+No-Intro,MADB,Over Blood,M725595,
 ps-jp-0338,1996-08-02,信長の野望 リターンズ,光栄,,,,SLPS-00423,5800,税抜,,信長の野望 (初代),Wikipedia+MADB,MADB+No-Intro,MADB,信長の野望 リターンズ,M725596,
 ps-jp-0339,1996-08-02,モータルコンバット2,アクレイムジャパン,,,,SLPS-00444,5800,税抜,,モータルコンバット,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,モータルコンバット2,M734478,
-ps-jp-0340,1996-08-02,トバルNo.1,スクウェア,,,,SLPS-00400,,,2048年の惑星トバルでの格闘大会を舞台としたアクションゲーム。,トバルNo.1,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-0340,1996-08-02,トバルNo.1,スクウェア,,,,SLPS-00400,,,2048年の惑星トバルでの格闘大会を舞台としたアクションゲーム。,トバルNo.1,Wikipedia+MADB,MADB+No-Intro,,,M725594,
 ps-jp-0341,1996-08-09,Cyber Speed,ギャガ・コミュニケーションズ,,,,SLPS-00396,5800,税抜,,Cyber Speed,Wikipedia+MADB,MADB+No-Intro,MADB,Cyber Speed,M725587,
 ps-jp-0342,1996-08-09,七つの秘館,光栄,,,,SLPS-00410,7800,税抜,,七つの秘館,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,七つの秘館,M761883,nanatsu
 ps-jp-0343,1996-08-09,スラムジャム96 M.J K.A.J,BMGビクター,,,,,,,,スラムジャム96 M.J K.A.J,Wikipedia,,,,,
@@ -347,7 +347,7 @@ ps-jp-0345,1996-08-09,ストリートファイターZERO2,カプコン,,,,SLPS-0
 ps-jp-0346,1996-08-23,トーナメント・リーダー,ビクターエンタテインメント,,,,SLPS-00445,5800,税抜,,トーナメント・リーダー,Wikipedia+MADB,MADB+No-Intro,MADB,トーナメント・リーダー,M725585,
 ps-jp-0347,1996-08-23,提督の決断II,光栄,,,,SLPS-00448,10800,税抜,,提督の決断II,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,提督の決断2,M734785,
 ps-jp-0348,1996-08-23,スタジオP,アジェンダ,,,,SLPS-00403,5800,税抜,,スタジオP,Wikipedia+MADB,MADB+No-Intro,MADB,STUDIO P,M725584,
-ps-jp-0349,1996-08-23,ポエド,ココナッツジャパン エンターテイメント,,,,SLPS-00437,,,,ポエド,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-0349,1996-08-23,ポエド,ココナッツジャパン エンターテイメント,,,,SLPS-00437,5800,税抜,,ポエド,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,PO'ed,M741627,
 ps-jp-0350,1996-08-23,出世麻雀 大接待,キングレコード,,,,SLPS-00276,5800,税抜,,出世麻雀 大接待,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,出世麻雀 大接待,M762154,
 ps-jp-0351,1996-08-23,クリーチャーショック,データイースト,,,,SLPS-00120,,,,クリーチャーショック,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725582,crshock
 ps-jp-0352,1996-08-23,戦乱,エンジェル/メガハウス,,,,SLPS-00427,5800,税抜,,戦乱 (ゲーム),Wikipedia+MADB,MADB+No-Intro,MADB,戦乱,M725581,
@@ -366,7 +366,7 @@ ps-jp-0364,1996-08-30,アーサーとアスタロトの謎魔界村,カプコン
 ps-jp-0365,1996-08-30,CRW/カウンターレボリューション・ウォー,アクレイムジャパン,,,,SLPS-00220,5800,税抜,,CRW/カウンターレボリューション・ウォー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,CRW counter revolution war,M725571,crw
 ps-jp-0366,1996-08-30,鋼鉄霊城 スティールダム,テクノソフト,,,,SLPS-00431,5800,税抜,,鋼鉄霊城 スティールダム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,鋼鉄霊域,M725575,steeldom
 ps-jp-0367,1996-08-30,COOL BOARDERS,ウェッブシステム,,,,SLPS-00456,5800,税抜,,COOL BOARDERS,Wikipedia+MADB,MADB+No-Intro,MADB,COOL BOARDERS EXCITING SNOWBOARD GAME,M725573,
-ps-jp-0368,1996-08-30,謎王,バンダイ,,,,SLPS-00447,,,,謎王,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-0368,1996-08-30,謎王,バンダイ,,,,SLPS-00447,5800,税抜,,謎王,Wikipedia+MADB,MADB+No-Intro,MADB,謎王 NAZO-OH,M725572,
 ps-jp-0369,1996-08-30,風雲悟空忍伝,エイコム,,,,SLPS-00441,5800,税抜,,風雲悟空忍伝,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,風雲悟空忍伝,M765673,gokunind
 ps-jp-0370,1996-09-06,スマッシュコート,ナムコ,,,,SLPS-00450,5800,税抜,,スマッシュコート,Wikipedia+MADB,MADB+No-Intro,MADB,SMASH COURT,M725568,
 ps-jp-0371,1996-09-06,トンズラくん,ソラン,,,,SLPS-00430,5800,税抜,,トンズラくん,Wikipedia+MADB,MADB+No-Intro,MADB,トンズラくん,M725566,
@@ -399,7 +399,7 @@ ps-jp-0397,1996-09-27,ターフウィンド96 武豊競走馬育成ゲーム,ジ
 ps-jp-0398,1996-09-27,王宮の秘宝 テンション,バップ,,,,SLPS-00438,5800,税抜,,王宮の秘宝 テンション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,王宮の秘宝テンション,M725547,tension
 ps-jp-0399,1996-09-27,パワーレンジャーピンボール,バンダイ,,,,,6800,税抜,,パワーレンジャーピンボール,Wikipedia+MADB,,MADB,パワーレンジャー ピンボール,M754472,
 ps-jp-0400,1996-09-27,おーちゃんのお絵かきロジック2,サンソフト,,,,SLPS-00345,4980,税抜,,おーちゃんのお絵かきロジック,Wikipedia+MADB,MADB+No-Intro,MADB,おーちゃんのお絵かきロジック2 カラーもありますわ,M725550,
-ps-jp-0401,1996-09-27,リターン・トゥ・ゾーク,バンダイビジュアル,,,,SLPS-00192,,,,リターン・トゥ・ゾーク,Wikipedia+MAME,MAME+No-Intro,,,,retzork
+ps-jp-0401,1996-09-27,リターン・トゥ・ゾーク,バンダイビジュアル,,,,SLPS-00192,6800,税抜,,リターン・トゥ・ゾーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,RETURN TO ZORK,M741898,retzork
 ps-jp-0402,1996-09-27,インタナショナルMOTOーX,ソフトビジョンインターナショナル,,,,SLPS-00433,5800,税抜,,インタナショナルMOTOーX,Wikipedia+MADB,MADB+No-Intro,MADB,INTERNATIONAL MOTO-X,M725549,
 ps-jp-0403,1996-09-27,伝説のオウガバトル,アートディンク,,,,SLPS-00481,5800,税抜,,伝説のオウガバトル,Wikipedia+MADB,MADB+No-Intro,MADB,伝説のオウガバトル,M725543,
 ps-jp-0404,1996-09-27,炎の15種目アトランタオリンピック,ココナッツジャパン エンターテイメント,,,,SLPS-00465,5800,税抜,,炎の15種目アトランタオリンピック,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,炎の15種目 アトランタ オリンピック,M759919,
@@ -1159,7 +1159,7 @@ ps-jp-1157,1998-03-26,Iceman / Digital Play Stage,ソニー・ミュージック
 ps-jp-1158,1998-03-26,鉄拳3,ナムコ,,,,SLPS-01300,5800,税抜,同名アーケードゲームの移植版に隠しキャラクターやミニゲームなどを追加した作品。,鉄拳3,Wikipedia+MADB,MADB+No-Intro,MADB,鉄拳3,M724910,
 ps-jp-1159,1998-03-26,牌神2,スクウェア,,,,SLPM-86066,5800,税抜,,牌神2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,牌神2,M765255,haishin2
 ps-jp-1160,1998-03-26,ファイアーウーマン纏組,徳間書店,,,,SLPS-01315,7200,税抜,,ファイアーウーマン纏組,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイアーウーマン纏組,M754847,firewomn
-ps-jp-1161,1998-03-29,パラサイト・イヴ,スクウェア,,,,,,,同名小説がモチーフだが、原作とは設定や内容が大幅に異なる。,パラサイト・イヴ (ゲーム),Wikipedia,,,,,
+ps-jp-1161,1998-03-29,パラサイト・イヴ,スクウェア,,,,SLPS-01230,6800,税抜,同名小説がモチーフだが、原作とは設定や内容が大幅に異なる。,パラサイト・イヴ (ゲーム),Wikipedia+MADB,MADB+No-Intro,MADB,parasite eve,M724904,
 ps-jp-1162,1998-04-02,ワンダー3 アーケードギアーズ,エクシング,,,,SLPS-00927,5800,税抜,,ワンダー3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワンダー3 アーケードギアーズ,M759471,wonder3
 ps-jp-1163,1998-04-02,メビウスリンク3D,伊藤忠商事,,,,SLPS-01281,5800,税抜,,メビウスリンク,Wikipedia+MADB,MADB+No-Intro,MADB,Möbius Link 3D,M724895,
 ps-jp-1164,1998-04-02,電波少年的ゲーム,ハドソン,,,,SLPS-01287,4800,税抜,,進め!電波少年,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,電波少年的ゲーム,M724897,denpasho
@@ -1308,7 +1308,7 @@ ps-jp-1306,1998-07-16,ジングルキャッツ,ソニー・ミュージックエ
 ps-jp-1307,1998-07-16,蒼天の白き神の座 GREAT PEAK,ソニー・コンピュータエンタテインメント,,,,SCPS-10058,5800,税抜,,蒼天の白き神の座 GREAT PEAK,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,蒼天の白き神の座 ～GREAT PEAK～,M763813,
 ps-jp-1308,1998-07-16,RapidRacer,ソニー・コンピュータエンタテインメント,,,,SCPS-10060,5800,税抜,,RapidRacer,Wikipedia+MADB,MADB+No-Intro,MADB,Rapid Racer,M724806,
 ps-jp-1309,1998-07-16,ピキーニャ! エクセレンテ,アスキー,,,,SLPS-01345,4800,税抜,,ピキーニャ! エクセレンテ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ピキーニャ! EX,M754581,pikinex
-ps-jp-1310,1998-07-16,ブレイヴフェンサー 武蔵伝,スクウェア,,,,SCPS-45291,,,,ブレイヴフェンサー 武蔵伝,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-1310,1998-07-16,ブレイヴフェンサー 武蔵伝,スクウェア,,,,SLPS-01490,6800,税抜,,ブレイヴフェンサー 武蔵伝,Wikipedia+MADB,MADB+No-Intro,MADB,BRAVE FENCER 武蔵伝,M724801,
 ps-jp-1311,1998-07-23,季節を抱きしめて,ソニー・コンピュータエンタテインメント,,,,SCPS-10056,4800,税抜,「やるドラ」シリーズ第2弾,季節を抱きしめて,Wikipedia+MADB,MADB+No-Intro,MADB,季節を抱きしめて,M724789,
 ps-jp-1312,1998-07-23,全日本プロレス女王伝説,ティー・イー・エヌ研究所,,,,SLPS-01475,5800,税抜,,全日本プロレス女王伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,全日本女子プロレス 女王伝説 ～夢の対抗戦～,M763708,znjpw
 ps-jp-1313,1998-07-23,みさきアグレッシヴ!,翔泳社,,,,SLPS-01474,5800,税抜,,みさきアグレッシヴ!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,みさきアグレッシヴ!,M757190,misakiag
@@ -2004,7 +2004,7 @@ ps-jp-2002,1999-09-14,ロックマン3 Dr.ワイリーの最期!?,カプコン,,
 ps-jp-2003,1999-09-14,プルムイ プルムイ,D3PUBLISHER,,,,SLPS-02163,,,,プルムイ プルムイ,Wikipedia,Redump+No-Intro,,,,
 ps-jp-2004,1999-09-14,レイクマスターズPRO,ネクサスインターラクト,,,,SLPS-02177,5800,税抜,,レイクマスターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,LAKE MASTERS PRO 日本縦断黒鱒紀行,M724219,lakempro
 ps-jp-2005,1999-09-15,ドラゴンクエストキャラクターズ トルネコの大冒険2 不思議のダンジョン,エニックス,,,,SLPM-86293,6800,税抜,『ドラゴンクエストIV 導かれし者たち』の登場人物・トルネコを主題としたローグライクRPG,ドラゴンクエストキャラクターズ トルネコの大冒険2 不思議のダンジョン,Wikipedia+MADB,MADB+No-Intro,MADB,トルネコの大冒険2 不思議のダンジョン,M727959,
-ps-jp-2006,1999-09-18,ウイニングポスト4,コーエー,,,,SLPM-86302,,,,ウイニングポスト4,Wikipedia,psxdatacenter+No-Intro,,,,
+ps-jp-2006,1999-09-18,ウイニングポスト4,コーエー,,,,SLPM-86302,6800,税抜,,ウイニングポスト4,Wikipedia+MADB,MADB+No-Intro,MADB,Winning Post 4,M724214,
 ps-jp-2007,1999-09-22,Goo! Goo! SOUNDY,コナミ,,,,SLPM-86250,4800,税抜,,Goo! Goo! SOUNDY,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Goo! Goo! SOUNDY,M724202,gogosndy
 ps-jp-2008,1999-09-22,BOYS BE…2nd Season,講談社,,,,SLPS-01705,5800,税抜,,BOYS BE…,Wikipedia+MADB,MADB+No-Intro,MADB,BOYS BE… 2nd Season,M724208,
 ps-jp-2009,1999-09-22,PAQA,ソニー・コンピュータエンタテインメント,,,,SCPS-10097,3800,税抜,,PAQA,Wikipedia+MADB,MADB+No-Intro,MADB,PAQA,M724204,
@@ -2334,7 +2334,7 @@ ps-jp-2332,2000-03-04,必殺パチスロステーション3 〜テトラリー�
 ps-jp-2333,2000-03-04,パーフェクトフィッシング(バス釣り),セタ,,,,SLPS-02409,5800,税抜,,パーフェクトフィッシング,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,パーフェクトフィッシング バス釣り,M753446,
 ps-jp-2334,2000-03-04,パーフェクトフィッシング(磯釣り),セタ,,,,SLPS-02410,5800,税抜,,パーフェクトフィッシング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パーフェクトフィッシング 磯釣り,M753447,rockfish
 ps-jp-2335,2000-03-04,聖戦士ダンバイン 聖戦士伝説,バンダイ,,,,SLPS-02390,6800,税抜,,聖戦士ダンバイン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,聖戦士ダンバイン 聖戦士伝説,M763262,dunbine
-ps-jp-2336,2000-03-04,スラッシャーSK8,ウエップシステム,,,,,,,,スラッシャーSK8,Wikipedia,,,,,
+ps-jp-2336,2000-03-04,スラッシャーSK8,ウエップシステム,,,,,4800,税抜,,スラッシャーSK8,Wikipedia+MADB,,MADB,THRASHER SK8,M743355,
 ps-jp-2337,2000-03-09,三洋パチンコパラダイス3,アイレムソフトウェアエンジニアリング,,,,SLPS-02633,3800,税抜,,三洋パチンコパラダイス,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,三洋パチンコパラダイス3,M761643,
 ps-jp-2338,2000-03-09,COOL BOARDERS4,ウエップシステム,,,,SLPS-02527,5800,税抜,,COOL BOARDERS4,Wikipedia+MADB,MADB+No-Intro,MADB,COOL BOARDERS 4,M723915,
 ps-jp-2339,2000-03-09,リズムンフェイス,アスミック・エース エンタテインメント,,,,SLPS-02634,4800,税抜,,リズムンフェイス,Wikipedia+MADB,MADB+No-Intro,MADB,リズムンフェイス,M723914,
@@ -2433,7 +2433,7 @@ ps-jp-2431,2000-05-18,磁石で飛んじゃう!? ピックスの大冒険,アフ
 ps-jp-2432,2000-05-18,実名実況競馬ドリームクラシック,バンダイ,,,,SLPS-02727,5800,税抜,,実名実況競馬ドリームクラシック,Wikipedia+MADB,MADB+No-Intro,MADB,実名実況競馬 ドリームクラシック,M723826,
 ps-jp-2433,2000-05-18,ブリガンダイン グランドエディション,イースリースタッフ/ハーティーロビン,,,,,6800,税抜,,ブリガンダイン,Wikipedia+MADB,,MADB,ブリガンダイン・グランドエディション,M755595,
 ps-jp-2434,2000-05-18,プロ麻雀「兵」3,カルチャーブレーン,,,,SLPS-02659,4980,税抜,,兵 (麻雀ゲーム),Wikipedia+MADB,psxdatacenter,MADB,プロ指南麻雀「兵」3,M755885,
-ps-jp-2435,2000-05-18,バックギャモン2000,アンバランス,,,,,,,,バックギャモン,Wikipedia,,,,,
+ps-jp-2435,2000-05-18,バックギャモン2000,アンバランス,,,,,6800,税抜,,バックギャモン,Wikipedia+MADB,,MADB,BACK GAMMON 2000,M737461,
 ps-jp-2436,2000-05-18,マリオネットカンパニー2,マイクロキャビン,,,,SLPS-02743,6800,税抜,,マリオネットカンパニー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリオネットカンパニー 2 Chu!,M757047,mariont2
 ps-jp-2437,2000-05-18,ビクトリーボクシング,ビクターインタラクティブソフトウエア,,,,SLPS-02740,5800,税抜,,ビクトリーボクシング,Wikipedia+MADB,MADB+No-Intro,MADB,VICTORY BOXING,M723824,
 ps-jp-2438,2000-05-18,コスモウォーリアー零,タイトー,,,,SLPM-86484,6800,税抜,,コスモウォーリアー零,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,コスモウォーリアー零,M723825,cosmowar
@@ -2747,7 +2747,7 @@ ps-jp-2745,2000-12-21,ハムスター物語,カルチャーブレーン,,,,SLPS-
 ps-jp-2746,2000-12-28,パチスロ帝王 〜バトルナイト･アトランチスドーム〜,メディアエンターテイメント,,,,SLPS-03108,4800,税抜,,パチスロ帝王,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パチスロ帝王 ～バトルナイト・アトランチスドーム～,M753889,pslotbk
 ps-jp-2747,2000-12-28,SIMPLE1500シリーズ Vol.51 THE ジグソーパズル,D3パブリッシャー,,,,SLPM-86700,1500,税抜,,SIMPLEシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,THE ジグソーパズル,M723498,ss051jgs
 ps-jp-2748,2000-12-28,ぼくの水族館 アクアパラダイス,ビクターインタラクティブソフトウエア,,,,SLPS-03095,5800,税抜,,アクアパラダイス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アクアパラダイス ～ぼくの水族館,M744577,aquapara
-ps-jp-2749,2000-12-28,ウィザードリィ エンパイア 古の王女,スターフィッシュ/タイトー,,,,,,,,ウィザードリィ エンパイア 古の王女,Wikipedia,,,,,
+ps-jp-2749,2000-12-28,ウィザードリィ エンパイア 古の王女,スターフィッシュ/タイトー,,,,SLPM-86689,5800,税抜,,ウィザードリィ エンパイア 古の王女,Wikipedia+MADB,MADB+No-Intro,MADB,Wizardry EMPIRE 古の王女,M723495,
 ps-jp-2750,2000-12-28,HEIWA Parlor! PRO 不二子におまかせスペシャル,三井物産,,,,SLPS-03105,5200,税抜,,CR不二子におまかせ,Wikipedia+MADB,MADB+No-Intro,MADB,HEIWA Parlor! PRO 不二子にお・ま・か・せ スペシャル,M723497,
 ps-jp-2751,2000-12-28,ミズパックマン メイズマッドネス,ナムコ,,,,SLPM-03000,4800,税抜,,パックマン,Wikipedia+MADB,MADB,MADB,MS.PAC-MAN MAZE MADNESS,M723496,
 ps-jp-2752,2000-12-28,必殺パチンコステーションnow7 マジカルサーカス,サン電子,,,,SLPS-03107,5800,税抜,,マジカルサーカス,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,必殺パチンコステーションnow7 マジカルサーカス,M765502,

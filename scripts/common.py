@@ -133,6 +133,27 @@ def date_compatible(a, b):
     return not a or not b or a.startswith(b) or b.startswith(a)
 
 
+def _numbers(title):
+    import cero
+    return cero._numbers(title)
+
+
+def title_hint(title, cand_titles, cand_label):
+    """同日 1 件ずつの組を採ってよいだけの題名の手がかりがあるか（match の date_hint）。"""
+    import psxdc
+    if VARIANT.search(cand_label) and not VARIANT.search(title):
+        return False
+    for t in cand_titles:
+        t = re.sub(r"\s*~\s.*$", "", t)   # MAME の「日本語題 ~ ローマ字題」
+        a, b = norm(title), norm(t)
+        if not a or not b or _numbers(title) != _numbers(t):
+            continue
+        if (min(len(a), len(b)) >= 2 and (a in b or b in a)) or \
+                difflib.SequenceMatcher(None, psxdc.romaji(title), psxdc.romaji(t)).ratio() >= 0.62:
+            return True
+    return False
+
+
 def match(rows, src, overrides, col, date_only=False, undated_sim=None):
     """rows の各行に src の1件を割り当てる（貪欲法・重複割り当てなし）。
     date_only なら、残った行と候補が同じ発売日にちょうど1件ずつのとき、題名が似ていなくても組にする
@@ -171,6 +192,23 @@ def match(rows, src, overrides, col, date_only=False, undated_sim=None):
             continue
         result[i] = (by_key[k], sc, "auto")
         used.add(k)
+    # 同じ発売日に残った行と候補がちょうど1件ずつで、題名に手がかりがあるもの（ローマ字にした題名が似ている〈0.62 以上〉か、
+    # 片方の題名がもう片方に含まれる）は組にする。題名の中の番号が違うもの・候補だけが限定版などのものは採らない
+    # （『エレベーターアクション』と MAME の『Elevator Action』、『四川省』と『四川省 MATCH MANIA』など。要確認レポートに出す）
+    hint = []
+    left_rows, left_src = {}, {}
+    for r in rows:
+        if r["_i"] not in result:
+            left_rows.setdefault(r["release_date"], []).append(r)
+    for x in src:
+        if x["key"] not in used and x["date"]:
+            left_src.setdefault(x["date"], []).append(x)
+    for date, rs in left_rows.items():
+        if len(rs) == 1 and len(left_src.get(date, [])) == 1:
+            r, x = rs[0], left_src[date][0]
+            if title_hint(r["title"], x["titles"], x["label"]):
+                result[r["_i"]] = (x, 0, "date_hint")
+                used.add(x["key"])
     if date_only:
         left_rows, left_src = {}, {}
         for r in rows:

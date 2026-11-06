@@ -8,39 +8,39 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | 機種 | タイトル一覧 | 件数 | 型番 | 価格 | ROM 吸い出し一覧 |
 |---|---|---|---|---|---|
 | ゲームボーイアドバンス (GBA) | [`data/gba/jp_titles.csv`](data/gba/jp_titles.csv) | 793 | 792 | 792 | [`data/gba/jp_rom_dumps.csv`](data/gba/jp_rom_dumps.csv)（997 行） |
-| ゲームボーイ／ゲームボーイカラー (GB/GBC) | [`data/gb/jp_titles.csv`](data/gb/jp_titles.csv) | 1,245 | 1,194 | 1,199 | [`data/gb/jp_rom_dumps.csv`](data/gb/jp_rom_dumps.csv)（1,375 行） |
-| ニンテンドーDS (DS) | [`data/ds/jp_titles.csv`](data/ds/jp_titles.csv) | 1,840 | 1,796 | 1,830 | [`data/ds/jp_rom_dumps.csv`](data/ds/jp_rom_dumps.csv)（2,071 行） |
+| ゲームボーイ／ゲームボーイカラー (GB/GBC) | [`data/gb/jp_titles.csv`](data/gb/jp_titles.csv) | 1,245 | 1,203 | 1,204 | [`data/gb/jp_rom_dumps.csv`](data/gb/jp_rom_dumps.csv)（1,384 行） |
+| ニンテンドーDS (DS) | [`data/ds/jp_titles.csv`](data/ds/jp_titles.csv) | 1,840 | 1,796 | 1,830 | [`data/ds/jp_rom_dumps.csv`](data/ds/jp_rom_dumps.csv)（2,076 行） |
 | ニンテンドー ゲームキューブ (GC) | [`data/gc/jp_titles.csv`](data/gc/jp_titles.csv) | 276 | 272 | 274 | [`data/gc/jp_rom_dumps.csv`](data/gc/jp_rom_dumps.csv)（366 行） |
 | Wii | [`data/wii/jp_titles.csv`](data/wii/jp_titles.csv) | 461 | 461 | 461 | [`data/wii/jp_rom_dumps.csv`](data/wii/jp_rom_dumps.csv)（496 行） |
-| NINTENDO 64 (N64) | [`data/n64/jp_titles.csv`](data/n64/jp_titles.csv) | 198 | 198 | 144 | [`data/n64/jp_rom_dumps.csv`](data/n64/jp_rom_dumps.csv)（245 行） |
-| スーパーファミコン (SFC) | [`data/sfc/jp_titles.csv`](data/sfc/jp_titles.csv) | 1,422 | 1,384 | 1,324 | [`data/sfc/jp_rom_dumps.csv`](data/sfc/jp_rom_dumps.csv)（1,606 行） |
+| NINTENDO 64 (N64) | [`data/n64/jp_titles.csv`](data/n64/jp_titles.csv) | 198 | 198 | 147 | [`data/n64/jp_rom_dumps.csv`](data/n64/jp_rom_dumps.csv)（246 行） |
+| スーパーファミコン (SFC) | [`data/sfc/jp_titles.csv`](data/sfc/jp_titles.csv) | 1,422 | 1,399 | 1,340 | [`data/sfc/jp_rom_dumps.csv`](data/sfc/jp_rom_dumps.csv)（1,638 行） |
 | ファミリーコンピュータ (FC) | [`data/fc/jp_titles.csv`](data/fc/jp_titles.csv) | 1,053 | 1,029 | 367 | [`data/fc/jp_rom_dumps.csv`](data/fc/jp_rom_dumps.csv)（1,320 行） |
 | ディスクシステム (FC の別リスト) | [`data/fc/disk_system/jp_titles.csv`](data/fc/disk_system/jp_titles.csv) | 198 | 182 | 23 | [`data/fc/disk_system/jp_rom_dumps.csv`](data/fc/disk_system/jp_rom_dumps.csv)（288 行） |
-| メガドライブ (MD) | [`data/md/jp_titles.csv`](data/md/jp_titles.csv) | 422 | 407 | 398 | [`data/md/jp_rom_dumps.csv`](data/md/jp_rom_dumps.csv)（524 行） |
-| メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 110 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
+| メガドライブ (MD) | [`data/md/jp_titles.csv`](data/md/jp_titles.csv) | 422 | 410 | 401 | [`data/md/jp_rom_dumps.csv`](data/md/jp_rom_dumps.csv)（525 行） |
+| メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 111 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
 | スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
-| PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 656 | 418 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（727 行） |
-| セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
-| PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,929 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（3,295 行） |
-| PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,595 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,870 行） |
-| ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
+| PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 661 | 427 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（729 行） |
+| セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,005 | 1,004 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
+| PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,932 | 2,824 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（3,298 行） |
+| PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,597 | 2,694 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,872 行） |
+| ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 190 | 187 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
 | カセットビジョン (CV) | [`data/cv/jp_titles.csv`](data/cv/jp_titles.csv) | 11 | 0 | 11 | （出典なし） |
 | プレイディア | [`data/playdia/jp_titles.csv`](data/playdia/jp_titles.csv) | 33 | 33 | 0 | （出典なし） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
-| PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 824 | 1,357 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（847 行） |
-| ドリームキャスト (DC) | [`data/dc/jp_titles.csv`](data/dc/jp_titles.csv) | 497 | 482 | 411 | [`data/dc/jp_rom_dumps.csv`](data/dc/jp_rom_dumps.csv)（578 行） |
-| Xbox 360 | [`data/x360/jp_titles.csv`](data/x360/jp_titles.csv) | 699 | 58 | 571 | [`data/x360/jp_rom_dumps.csv`](data/x360/jp_rom_dumps.csv)（657 行） |
-| Xbox | [`data/xbox/jp_titles.csv`](data/xbox/jp_titles.csv) | 222 | 60 | 179 | [`data/xbox/jp_rom_dumps.csv`](data/xbox/jp_rom_dumps.csv)（214 行） |
-| 3DO | [`data/3do/jp_titles.csv`](data/3do/jp_titles.csv) | 214 | 208 | 200 | [`data/3do/jp_rom_dumps.csv`](data/3do/jp_rom_dumps.csv)（219 行） |
-| PC-FX | [`data/pcfx/jp_titles.csv`](data/pcfx/jp_titles.csv) | 62 | 61 | 40 | [`data/pcfx/jp_rom_dumps.csv`](data/pcfx/jp_rom_dumps.csv)（65 行） |
+| PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 826 | 1,364 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（848 行） |
+| ドリームキャスト (DC) | [`data/dc/jp_titles.csv`](data/dc/jp_titles.csv) | 497 | 482 | 422 | [`data/dc/jp_rom_dumps.csv`](data/dc/jp_rom_dumps.csv)（578 行） |
+| Xbox 360 | [`data/x360/jp_titles.csv`](data/x360/jp_titles.csv) | 699 | 58 | 590 | [`data/x360/jp_rom_dumps.csv`](data/x360/jp_rom_dumps.csv)（657 行） |
+| Xbox | [`data/xbox/jp_titles.csv`](data/xbox/jp_titles.csv) | 222 | 60 | 186 | [`data/xbox/jp_rom_dumps.csv`](data/xbox/jp_rom_dumps.csv)（214 行） |
+| 3DO | [`data/3do/jp_titles.csv`](data/3do/jp_titles.csv) | 214 | 208 | 204 | [`data/3do/jp_rom_dumps.csv`](data/3do/jp_rom_dumps.csv)（219 行） |
+| PC-FX | [`data/pcfx/jp_titles.csv`](data/pcfx/jp_titles.csv) | 62 | 61 | 41 | [`data/pcfx/jp_rom_dumps.csv`](data/pcfx/jp_rom_dumps.csv)（65 行） |
 | ネオジオ (ROM) | [`data/neogeo/jp_titles.csv`](data/neogeo/jp_titles.csv) | 117 | 115 | 117 | [`data/neogeo/jp_rom_dumps.csv`](data/neogeo/jp_rom_dumps.csv)（ROM チップ 1,449 行・115 タイトル） |
 | ネオジオCD (ネオジオの別リスト) | [`data/neogeo/cd/jp_titles.csv`](data/neogeo/cd/jp_titles.csv) | 97 | 97 | 74 | [`data/neogeo/cd/jp_rom_dumps.csv`](data/neogeo/cd/jp_rom_dumps.csv)（102 行） |
 | ネオジオポケット／カラー (NGP/NGPC) | [`data/ngp/jp_titles.csv`](data/ngp/jp_titles.csv) | 82 | 79 | 82 | [`data/ngp/jp_rom_dumps.csv`](data/ngp/jp_rom_dumps.csv)（92 行） |
 | ワンダースワン／カラー (WS/WSC) | [`data/ws/jp_titles.csv`](data/ws/jp_titles.csv) | 202 | 200 | 181 | [`data/ws/jp_rom_dumps.csv`](data/ws/jp_rom_dumps.csv)（227 行） |
-| PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 511 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（531 行） |
+| PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 511 | 874 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（531 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
@@ -698,7 +698,7 @@ PlayStation（初代）として日本で発売されたソフト（1994〜2004�
 | ハッシュ | Redump DAT（libretro 収録の Sony PlayStation。データトラック） |
 
 - 型番は表記のまま（SCE `SCPS-10001`、他社 `SLPS-01234`・`SLPM-86001` など）。複数枚組は先頭ディスクの型番で、枚数は
-  吸い出し一覧の `discs` 列。型番があるのは 2,929 件（MADB・MAME で 2,072 件、psxdatacenter で 788 件、Redump の題名で 69 件を補完）。
+  吸い出し一覧の `discs` 列。型番があるのは 2,932 件（MADB・MAME で 2,075 件、psxdatacenter で 788 件、Redump の題名で 69 件を補完）。
 - psxdatacenter には日本語の題名が無いので、Wikipedia の題名を pykakasi でローマ字にし、発売日が同じ作品のうち題名が
   十分似ている（0.5 以上）ものだけを採った（`model_number_source` が `psxdatacenter`。0.7 未満は要確認レポートに出す）。
   - SIMPLE1500・SuperLite1500 などのシリーズ物は、共通のシリーズ名だけで似ていると判定されないよう、シリーズ名を除いた
@@ -726,9 +726,9 @@ PlayStation 2 として日本で発売されたソフト（2000〜2013年）。`
 | ハッシュ | Redump DAT（libretro 収録の Sony PlayStation 2） |
 
 - MAME に PS2 のソフトウェアリストは無いため、型番は MADB（906 件）・psxdatacenter.com の日本版一覧（238 件）・
-  Redump の題名とシリアル（451 件。「型番の補完（Redump の題名）」節）から取り、型番があるのは 1,595 件（無いものは許容。合意済み）。psxdatacenter には日本語の題名も発売日も無いので、Wikipedia の題名を
+  Redump の題名とシリアル（451 件。「型番の補完（Redump の題名）」節）から取り、型番があるのは 1,597 件（無いものは許容。合意済み）。psxdatacenter には日本語の題名も発売日も無いので、Wikipedia の題名を
   pykakasi でローマ字にして、とても似ていて（0.85 以上）ほかに候補の無いものだけ採った（`model_number_source` が `psxdatacenter`。シリーズ物の扱いは PS と同じ）。
-  吸い出しは Redump のシリアル（型番）で結びつけるので、製品版の吸い出しがあるのは 1,563 件。
+  吸い出しは Redump のシリアル（型番）で結びつけるので、製品版の吸い出しがあるのは 1,565 件。
 - 価格は 2,689 件（無いものは許容）。2004年4月以降は総額表示（`税込`）。
 - 型番の形式は PS と同じ（`SLPM-66213` など。複数枚組は先頭ディスク）。
 - Wikipedia の表で発売日の欄が空の『ドラゴンクエストVIII』は、作品の記事の 2004年11月27日にした（`platforms.py` の `date_fixes`）。
@@ -758,35 +758,6 @@ PlayStation 3 のパッケージソフトとして日本で発売されたもの
 - 価格は 857 件。MADB の表記（税込・税抜）のまま。
 - 一覧のタイトルの後に付いている説明の無い「*」は除いた。
 - 非売品と CERO 年齢区分は後回し。
-
-### 型番の出典が食い違うとき
-
-型番は 手動 > MAME > MADB > maru-chang の順に採る（機種ごとの節）。ただし採った型番が DAT（No-Intro・Redump）に無く、
-ほかの出典の型番の 1 つだけが DAT にあるときは、DAT にある方を採る（要確認レポートに「型番をDATにあるもの（…）に置換」）。
-MAME の serial で限定版などの印（Genteiban・Shokai・Premium など）が付いた型番は採らない（Redump に限定版しか無いタイトルで限定版の型番にしないため）。
-
-- 置き換えたもの: DS 4 件（MADB の誤記〈`NTR-A02J` と `NTR-AO2J` など〉）、メガCD 3 件（MAME の 1 桁違い〈`T-60154` と `T-60054` など〉。MADB とレーベル面のシリアルが一致）。
-- 『ポケットモンスター ホワイト2』は MADB の型番が前作『ホワイト』のもの（`TWL-IRAJ-JPN`）で、それも DAT にあるため自動では直らず、
-  `overrides/matches.csv` で `TWL-IRDJ-JPN` にした（前作の吸い出しに結びついていたのも直った）。
-- それ以外の「型番不一致 MAME=… MADB=…」（107 件）は MAME の値のまま。MADB の誤記とみられるもの（`O` と `0`、`I` と `1` の取り違え、ハイフン抜け、
-  余分な枝番など）が約 50 件、版違いとみられるもの（限定版・同梱版などの型番）が約 55 件。
-
-### 型番の補完（Redump の題名）
-
-PS・PS2・PS3・PSP・DC・3DO で、MADB・MAME（・psxdatacenter・GameTDB）で型番の決まらない行は、Redump DAT の日本版の題名とシリアルで補う
-（`platforms.py` の `dat_title_models`。ソニー機はディスクのシリアルがそのままパッケージの型番）。
-
-- Wikipedia の題名を pykakasi でローマ字にし、Redump の題名ととても似ていて（PS・PS2・PS3・DC・3DO は 0.85 以上、PSP は 0.75 以上）
-  ほかに候補の無いものだけを採る（`model_number_source` が `Redump`。要確認レポートに Redump の名前と類似度を出す）。
-- Redump は同じ題名に複数のシリアル（初回限定版・the Best・体験版など）があることが多い（PS2 で題名の 37%）。版の印も付いていないことが多いので、
-  次の順に絞り、1 つに決まったものだけを候補にする（行は通常版だけなので、型番も通常版のもの）。
-  1. 廉価版の型番帯を除く（`reissue_serial`。PS `SCPS-91xxx`・`SLPS-91xxx`、PS2 `SLPS-7xxxx`・`SLPM-74xxx`・`SCPS-7xxxx`、
-     PS3 `BLJM-55xxx`・`BCJS-7xxxx`、PSP `UCJS-18xxx`・`ULJM-08xxx`）。Redump に廉価版しか無いタイトルは補わない
-  2. 体験版・店頭用（Taikenban・Demo・Tentou など）を除く
-  3. MADB でほかの商品（別の版）の型番になっているものを除く
-  4. それでも複数なら、名前に版の印（Genteiban・Premium Box など）の無いもの（通常版）だけを残す
-- 複数枚組は Disc 1 のシリアル。
-- 補った件数: PS 69・PS2 451・PS3 229・PSP 524・DC 26・3DO 32。抜き取って確認した範囲（類似度 0.9 未満を中心に）で誤りは無かった。
 
 ## GG
 
@@ -964,9 +935,9 @@ PlayStation Portable のパッケージ（UMD）ソフトとして日本で発�
 - 型番は表記のまま（`ULJM-05001`・`ULJS-00001`・`UCJS-10001` など。MADB の `ULJM 05001` もそろえる）。MADB の型番は約 300 件なので、
   Redump の題名とシリアルで補った（日本語の題名をローマ字にして 0.75 以上似ていてほかに候補の無いもの 524 件。確認した範囲で誤りは無かった。
   「型番の補完（Redump の題名）」節）。廉価版の型番帯でも当初からその型番で出た 2 件（『バイトヘル2000』『天誅4 Plus』）は `overrides/matches.csv` で手動。
-  型番は 824 件で、無いものは許容（合意済み。手動の対応はしていない）。
+  型番は 826 件で、無いものは許容（合意済み）。
 - 価格は 1,357 件（MADB。総額表示）。the Best・限定版・本体同梱版・パックは行にしない。
-- 吸い出しは Redump のシリアル（＝型番）で結びつけ、753 件にある（型番の無いタイトルには付かない）。日本版と日本を含む共通版
+- 吸い出しは Redump のシリアル（＝型番）で結びつけ、806 件にある（型番の無いタイトルには付かない）。日本版と日本を含む共通版
   （`(Japan, Asia)`・`(Japan, Korea)` など）。`v1.01` などは `revision` 列。`PSP the Best`・`Rockstar Classics` は `collection`。
   マイク同梱などの `Doukonban` は同じタイトル。販売経路の記録の無い `Taikenban` は載せない。
 - 非売品は Wikipedia の『みんなのGOLF ポータブル コカ・コーラ スペシャル エディション』（Coke Style キャンペーンで 1,300 人に配布。`prize`。吸い出しあり）。
@@ -1220,6 +1191,51 @@ PC-FX として日本で発売されたソフト（1994〜1998年）。`id` は 
   吸い出しがあるのは後の 2 件。その他の調査は後回し。
 - 「その他」節の会場限定販売の 2 件（TENORI-ON〈岩井俊雄の個展会場〉、ピリオドの無い Dicing Knight〈WWGP2003 最終選考会場〉）は
   `jp_other.csv`（手で管理。`nointro_name` に吸い出し名）。発売されなかったタイトルは対象外。
+
+## 型番と照合（全機種共通）
+
+### 同じ発売日に 1 件ずつ残ったものの照合
+
+Wikipedia の行と MADB・MAME の候補は、発売日が同じ（か近い）ものの題名の類似度で組にする（`scripts/common.py` の `match`）。
+題名の表記が出典で大きく違うもの（『エレベーターアクション』と MAME の『Elevator Action』、『四川省』と『四川省 MATCH MANIA』など）は
+類似度が足りず照合できていなかったので、同じ発売日に照合できていない行と候補がちょうど 1 件ずつ残り、題名に手がかりがあるものも組にした
+（要確認レポートに「…同日1件のみ・題名の手がかりで照合」）。
+
+- 手がかり: ローマ字にした題名（pykakasi）が 0.62 以上似ている、または片方の題名がもう片方に含まれる。
+- 題名の中の番号が違うもの（『実況パワフルプロ野球'94』と『…Pro Yakyuu 4』など）、候補だけが限定版・同梱版などのものは採らない。
+- 試しに手がかりなしで組にしたときの誤り（『スーパーカジノスペシャル』と『EVE burst error 初回限定版』など）は、この条件ですべて外れた。
+  全機種で 255 組増え、目視で誤りは無かった（MAME の日本語題が別作品のもの〈`superedf` の「スーパーエフワンサーカス外伝」など〉は英字の題名で正しく組になっている）。
+- 増えた件数（型番 / 価格）: SFC +15 / +16、GB +9 / +5、PCE +5 / +9、SS +5 / +5、MD +3 / +3、Xbox 360 0 / +19、PS3 0 / +17 など。
+- FC は以前から、題名の手がかりが無くても同日 1 件ずつなら組にしている（FC 節）。
+
+### 型番の出典が食い違うとき
+
+型番は 手動 > MAME > MADB > maru-chang の順に採る（機種ごとの節）。ただし採った型番が DAT（No-Intro・Redump）に無く、
+ほかの出典の型番の 1 つだけが DAT にあるときは、DAT にある方を採る（要確認レポートに「型番をDATにあるもの（…）に置換」）。
+MAME の serial で限定版などの印（Genteiban・Shokai・Premium など）が付いた型番は採らない（Redump に限定版しか無いタイトルで限定版の型番にしないため）。
+
+- 置き換えたもの: DS 4 件（MADB の誤記〈`NTR-A02J` と `NTR-AO2J` など〉）、メガCD 3 件（MAME の 1 桁違い〈`T-60154` と `T-60054` など〉。MADB とレーベル面のシリアルが一致）。
+- 『ポケットモンスター ホワイト2』は MADB の型番が前作『ホワイト』のもの（`TWL-IRAJ-JPN`）で、それも DAT にあるため自動では直らず、
+  `overrides/matches.csv` で `TWL-IRDJ-JPN` にした（前作の吸い出しに結びついていたのも直った）。
+- それ以外の「型番不一致 MAME=… MADB=…」（107 件）は MAME の値のまま。MADB の誤記とみられるもの（`O` と `0`、`I` と `1` の取り違え、ハイフン抜け、
+  余分な枝番など）が約 50 件、版違いとみられるもの（限定版・同梱版などの型番）が約 55 件。
+
+### 型番の補完（Redump の題名）
+
+PS・PS2・PS3・PSP・DC・3DO（と SS・MD・メガCD・PCE）で、MADB・MAME（・psxdatacenter・GameTDB）で型番の決まらない行は、Redump DAT の日本版の題名とシリアルで補う
+（`platforms.py` の `dat_title_models`。ソニー機はディスクのシリアルがそのままパッケージの型番）。
+
+- Wikipedia の題名を pykakasi でローマ字にし、Redump の題名ととても似ていて（PS・PS2・PS3・DC・3DO は 0.85 以上、PSP は 0.75 以上）
+  ほかに候補の無いものだけを採る（`model_number_source` が `Redump`。要確認レポートに Redump の名前と類似度を出す）。
+- Redump は同じ題名に複数のシリアル（初回限定版・the Best・体験版など）があることが多い（PS2 で題名の 37%）。版の印も付いていないことが多いので、
+  次の順に絞り、1 つに決まったものだけを候補にする（行は通常版だけなので、型番も通常版のもの）。
+  1. 廉価版の型番帯を除く（`reissue_serial`。PS `SCPS-91xxx`・`SLPS-91xxx`、PS2 `SLPS-7xxxx`・`SLPM-74xxx`・`SCPS-7xxxx`、
+     PS3 `BLJM-55xxx`・`BCJS-7xxxx`、PSP `UCJS-18xxx`・`ULJM-08xxx`）。Redump に廉価版しか無いタイトルは補わない
+  2. 体験版・店頭用（Taikenban・Demo・Tentou など）を除く
+  3. MADB でほかの商品（別の版）の型番になっているものを除く
+  4. それでも複数なら、名前に版の印（Genteiban・Premium Box など）の無いもの（通常版）だけを残す
+- 複数枚組は Disc 1 のシリアル。
+- 補った件数: PS 69・PS2 451・PS3 229・PSP 524・DC 26・3DO 32・SS 3・MD 1・メガCD 1・PCE 1。抜き取って確認した範囲（類似度 0.9 未満を中心に）で誤りは無かった。
 
 ## CERO 年齢区分
 

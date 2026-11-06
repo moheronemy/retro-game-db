@@ -12,13 +12,13 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1995-07-28,ナイトストライカー,psxdatacenter低スコア0.62で型番を照合（Night Striker）,M752813,ナイトストライカー,1995-07-28,,,
 1995-08-11,グランド・ストローク ADVANCED TENNIS GAME,MADB未照合,,,,,,
 1995-09-08,永世名人,発売日不一致 MADB=1995-09-29,M759802,永世名人,1995-09-29,eisei,永世名人,1995-09-08
-1995-09-22,レイマン,MADB未照合,,,,raymanj,レイマン レイマンよ！エレクトゥーンを救え！~ Rayman - Rayman yo! Electroons o Sukue (Box),1995-09-22
+1995-09-22,レイマン,MADB同日1件のみ・題名の手がかりで照合（RAYMAN）,M741824,RAYMAN,1995-09-22,raymanj,レイマン レイマンよ！エレクトゥーンを救え！~ Rayman - Rayman yo! Electroons o Sukue (Box),1995-09-22
 1995-09-29,EMITバリューパック vol.1時の迷子、vol.2命がけの旅、vol.3私にさよならを,MADB未照合,,,,,,
 1995-09-29,闘魂烈伝 新日本プロレスリング,MADB低スコア0.71,M725851,新日本プロレスリング 闘魂列伝,1995-09-29,,,
 1995-10-13,ハイパーフォーメーションサッカー,MADB低スコア0.73,M739877,HYPER フォーメーションサッカー,1995-10-13,,,
-1995-11-03,ビヨンド ザ ビヨンド 〜遥かなるカナーンへ〜,MADB未照合,,,,,,
+1995-11-03,ビヨンド ザ ビヨンド 〜遥かなるカナーンへ〜,MADB同日1件のみ・題名の手がかりで照合（Beyond The Beyond ～遥かなるカナーンへ～）,M725833,Beyond The Beyond ～遥かなるカナーンへ～,1995-11-03,,,
 1995-11-22,DOUBLE HEADER 燃えろ!!プロ野球'95,MADB低スコア0.57,M725824,燃えろ!! プロ野球'95 DOUBLE HEADER,1995-11-22,,,
-1995-12-01,リヴァーシオン,MADB未照合; psxdatacenter低スコア0.63で型番を照合（Reverthion）,,,,,,
+1995-12-01,リヴァーシオン,MADB同日1件のみ・題名の手がかりで照合（REVERTHION）; psxdatacenter低スコア0.63で型番を照合（Reverthion）,M741900,REVERTHION,1995-12-01,,,
 1995-12-01,Break Thru!,Redumpの題名（Break Thru! (Japan)）から型番を補完（類似度1.00）,M737807,Break Thru!,1995-12-01,,,
 1995-12-08,スノーマン,型番がNo-Introに無い,M725806,スノーマン,1995-12-08,,,
 1995-12-08,オセロワールドII 夢と未知への挑戦,MADB未照合,,,,,,
@@ -39,10 +39,10 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1996-02-16,ロードランナー レジェンドリターンズ,psxdatacenter低スコア0.52で型番を照合（Lode Runner - The Legend Returns）,M758968,ロードランナー レジェンド・リターンズ,1996-02-16,,,
 1996-02-16,ドラえもん のび太と復活の星,型番がNo-Introに無い,M752344,ドラえもん のび太と復活の星,1996-02-16,doraemon,ドラえもん のび太と復活の星,1996-02-16
 1996-02-16,サイベリア,psxdatacenter低スコア0.67で型番を照合（Cyberia）,M748716,サイベリア,1996-02-16,,,
-1996-02-16,ハードロックキャブ,MADB未照合; psxdatacenter低スコア0.64で型番を照合（Hard Rock Cab）,,,,,,
+1996-02-16,ハードロックキャブ,MADB同日1件のみ・題名の手がかりで照合（HARD ROCK CAB）; psxdatacenter低スコア0.64で型番を照合（Hard Rock Cab）,M739768,HARD ROCK CAB,1996-02-16,,,
 1996-02-16,パペットズー・ピロミィ,psxdatacenter低スコア0.62で型番を照合（Puppet Zoo Pilomy）,M754259,パペットズー ピロミィ,1996-02-16,,,
 1996-02-23,ウエルカムハウス,発売日不一致 MADB=1996-02-02,M745710,ウエルカムハウス,1996-02-02,welcomeh,ウエルカムハウス,1996-02-23
-1996-03-01,ノバストーム,MADB未照合,,,,novastrmj,ノバストーム,1996-03-01
+1996-03-01,ノバストーム,MADB同日1件のみ・題名の手がかりで照合（NOVASTORM）,M741328,NOVASTORM,1996-03-01,novastrmj,ノバストーム,1996-03-01
 1996-03-08,CG昔話 じいさん2度びっくり,Redumpの題名（CG Mukashi Banashi - Jiisan 2-do Bikkuri!! (Japan)）から型番を補完（類似度1.00）,M737922,CG昔話 じいさん2度びっくり!!,1996-03-08,,,
 1996-03-08,美少女戦士セーラームーンSuperS 真・主役争奪戦,MAME低スコア0.64,M765458,美少女戦士セーラームーン SuperS 真・主役争奪戦,1996-03-08,sailorss,美少女戦士セーラームーンSuperS 真・主役争奪戦 限定版,1996-03-08
 1996-03-08,卒業R 〜Graduation Real〜,型番がNo-Introに無い,M763854,卒業R Graduation Real,1996-03-08,,,
@@ -54,7 +54,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1996-03-29,アンジェリークスペシャル,MADB低スコア0.54,M725698,アンジェリーク Special,1996-03-29,angspec,アンジェリークスペシャル,1996-03-29
 1996-03-29,NuPa〜ぬうぱ〜,psxdatacenter低スコア0.53で型番を照合（Nupa - Numeric Paint Puzzle）,M741332,NuPa ～ぬうぱ～,1996-03-29,,,
 1996-04-12,デッドヒートロード,psxdatacenter低スコア0.64で型番を照合（Deadheat Road）,M751805,デッドヒートロード,1996-04-12,,,
-1996-04-12,SLAM DRAGON,MADB未照合,,,,,,
+1996-04-12,SLAM DRAGON,MADB同日1件のみ・題名の手がかりで照合（スラムドラゴン）,M750314,スラムドラゴン,1996-04-12,,,
 1996-04-26,Jリーグバーチャルスタジアム96,発売日不一致 MADB=1996-05-05,M725665,J. LEAGUE: Virtual Stadium '96,1996-05-05,,,
 1996-04-26,The・心理ゲーム,MADB低スコア0.71; MAME低スコア0.71,M725680,ザ・心理ゲーム,1996-04-26,shinri,ザ・心理ゲーム,1996-04-26
 1996-05-03,パンドラプロジェクト,MADB未照合; psxdatacenter低スコア0.57で型番を照合（Pandora Project - The Logic Master）,,,,,,
@@ -81,23 +81,23 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1996-07-19,ストライカーズ1945,psxdatacenter低スコア0.67で型番を照合（Strikers 1945）,M750042,ストライカーズ1945,1996-07-19,,,
 1996-07-26,エンジェル グラフィティ,型番不一致 MAME=SLPS-00163 MADB=SLPS-00306,M725601,エンジェルグラフィティ あなたへのプロフィール,1996-07-26,angelgrf,エンジェルグラフィティ あなたへのプロフィール,1996-07-26
 1996-08-02,モータルコンバット2,psxdatacenter低スコア0.64で型番を照合（Mortal Kombat II）,M734478,モータルコンバット2,1996-08-02,,,
-1996-08-02,トバルNo.1,MADB未照合,,,,,,
+1996-08-02,トバルNo.1,MADB同日1件のみ・題名の手がかりで照合（TOBAL No.1）,M725594,TOBAL No.1,1996-08-02,,,
 1996-08-09,スラムジャム96 M.J K.A.J,MADB未照合,,,,,,
 1996-08-09,Fighting Illusion K-1グランプリ,MADB低スコア0.73,M725588,Fighting Illusion ~K-1 GRAND PRIX~,1996-08-09,,,
-1996-08-23,ポエド,MADB未照合,,,,,,
+1996-08-23,ポエド,MADB同日1件のみ・題名の手がかりで照合（PO'ed）,M741627,PO'ed,1996-08-23,,,
 1996-08-30,るぷぷキューブ ルプ★さらだ,MAME低スコア0.58,M725574,るぷぷキューブ -ルプ★さらだ-,1996-08-30,lupsalad,ルプ☆さらだ るぷぷキューブ,1996-08-30
 1996-08-30,プロ麻雀 極PLUS,MAME低スコア0.59,M725570,プロ麻雀 極PLUS,1996-08-30,mjkiwamp,プロ麻雀 極 プラス,1996-08-30
 1996-08-30,蛭子能収大穴競艇,Redumpの題名（Ebisu Yoshikazu no Ooana Kyoutei (Japan)）から型番を補完（類似度0.96）,M765563,蛭子能収の大穴競艇,1996-08-30,,,
 1996-08-30,ソニックウィングス スペシャル,psxdatacenter低スコア0.62で型番を照合（Sonic Wings Special）,M750644,ソニックウィングス スペシャル,1996-08-30,,,
 1996-08-30,鋼鉄霊城 スティールダム,MADB低スコア0.54,M725575,鋼鉄霊域,1996-08-30,steeldom,鋼鉄霊域 (スティールダム),1996-08-30
-1996-08-30,謎王,MADB未照合,,,,,,
+1996-08-30,謎王,MADB同日1件のみ・題名の手がかりで照合（謎王 NAZO-OH）,M725572,謎王 NAZO-OH,1996-08-30,,,
 1996-09-06,ウイングコマンダー3,MADB未照合,,,,,,
 1996-09-13,スーパーカジノスペシャル,MADB未照合; psxdatacenter低スコア0.59で型番を照合（Super Casino Special）,,,,,,
 1996-09-20,POSIT ぽじっと,MADB低スコア0.62,M756379,ぽじっと,1996-09-20,,,
 1996-09-20,アイドル雀士 スーチーパイII Limited,MAME低スコア0.70,M725556,アイドル雀士スーチーパイ 2 Limited,1996-09-20,suchipa2,アイドル雀士スーチーパイII リミテッド,1996-09-20
 1996-09-20,パチンコ大好き,Redumpの題名（Heiwa Pachinko Daisuki (Japan)）から型番を補完（類似度0.88）,M753964,パチンコ大好き,1996-09-20,,,
 1996-09-27,女子高生の放課後・・ぷくんパ,MAME低スコア0.67,M762234,女子高生の放課後…ぷくんパ,1996-09-27,pukunpa,ぷくんパ 女子高生の放課後…,1996-09-27
-1996-09-27,リターン・トゥ・ゾーク,MADB未照合,,,,retzork,リターン・トゥ・ゾーク,1996-09-27
+1996-09-27,リターン・トゥ・ゾーク,MADB同日1件のみ・題名の手がかりで照合（RETURN TO ZORK）,M741898,RETURN TO ZORK,1996-09-27,retzork,リターン・トゥ・ゾーク,1996-09-27
 1996-09-27,インタナショナルMOTOーX,MADB低スコア0.59,M725549,INTERNATIONAL MOTO-X,1996-09-27,,,
 1996-10-04,アンジェリークスペシャルプレミアムBOX,MADB低スコア0.70; psxdatacenter低スコア0.61で型番を照合（Angelique Special [Premium Box]）,M745216,アンジェリークSpecial プレミアムBOX,1996-10-04,,,
 1996-10-04,C1-CIRCUIT,型番不一致 MAME=SLPS-00279 MADB=SLPM-00279,M725531,C1-CIRCUIT,1996-10-04,c1circ,C1 サーキット,1996-10-04
@@ -319,7 +319,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1998-03-26,大阪湾岸バトル,psxdatacenter低スコア0.63で型番を照合（Naniwa Wangan Battle）,M764027,大阪湾岸バトル,1998-03-26,,,
 1998-03-26,ときめきメモリアル ドラマVol.2 彩のラブソング,psxdatacenter低スコア0.70で型番を照合（Tokimeki Memorial Drama Series vol.2 - Irodori no love song）; 型番がNo-Introに無い,M752148,ときめきメモリアル ドラマシリーズVol. 2 彩のラブソング,1998-03-26,,,
 1998-03-26,トランスフォーマー ビーストウォーズ,発売日不一致 MADB=1998-03-19,M752644,トランスフォーマー ビーストウォーズ,1998-03-19,,,
-1998-03-29,パラサイト・イヴ,MADB未照合,,,,,,
+1998-03-29,パラサイト・イヴ,MADB同日1件のみ・題名の手がかりで照合（parasite eve）,M724904,parasite eve,1998-03-29,,,
 1998-04-02,わくわくボウリング,Redumpの題名（Waku Waku Bowling (Japan)）から型番を補完（類似度0.87）,M759438,わくわくボウリング,1998-04-02,,,
 1998-04-02,モータルコンバットトリロジー,MADB未照合; psxdatacenter低スコア0.63で型番を照合（Mortal Kombat Trilogy）,,,,,,
 1998-04-02,水滸伝・天導一〇八星,psxdatacenter低スコア0.57で型番を照合（Suikoden - Tendou 108 Sei）,M763106,水滸伝・天導一〇八星,1998-04-02,,,
@@ -361,7 +361,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1998-07-09,ディアブロ,MADB未照合,,,,,,
 1998-07-16,夜想曲,psxdatacenter低スコア0.62で型番を照合（Akagawa Jirou - Yasoukyoku）,M766390,夜想曲,1998-07-16,,,
 1998-07-16,ピキーニャ! エクセレンテ,MADB低スコア0.59,M754581,ピキーニャ! EX,1998-07-16,pikinex,ピキーニャ エクセレンテ,1998-07-16
-1998-07-16,ブレイヴフェンサー 武蔵伝,MADB未照合,,,,,,
+1998-07-16,ブレイヴフェンサー 武蔵伝,MADB同日1件のみ・題名の手がかりで照合（BRAVE FENCER 武蔵伝）,M724801,BRAVE FENCER 武蔵伝,1998-07-16,,,
 1998-07-30,ハードボイルド,MADB未照合,,,,,,
 1998-07-30,ブリーディングスタッド2,psxdatacenter低スコア0.62で型番を照合（Breeding Stud 2）,M755589,ブリーティングスタッド2,1998-07-30,,,
 1998-07-30,バウンティソード ダブルエッジ,発売日不一致 MADB=1998-07-06,M724816,BOUNTY SWORD DOUBLE EDGE,1998-07-06,,,
@@ -547,7 +547,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1999-09-14,君の気持ち、僕のこころ,型番がNo-Introに無い,M760949,君の気持ち、僕のこころ,1999-09-14,,,
 1999-09-14,ロックマン3 Dr.ワイリーの最期!?,psxdatacenter低スコア0.63で型番を照合（Rockman 3 - Dr Wily no saigo!? [Complete Works]）,M759110,ロックマン3 Dr.ワイリーの最期! ?,1999-09-14,,,
 1999-09-14,プルムイ プルムイ,MADB未照合; Redumpの題名（Purumui Purumui (Japan)）から型番を補完（類似度1.00）,,,,,,
-1999-09-18,ウイニングポスト4,MADB未照合,,,,,,
+1999-09-18,ウイニングポスト4,MADB同日1件のみ・題名の手がかりで照合（Winning Post 4）,M724214,Winning Post 4,1999-09-18,,,
 1999-09-22,Superlite1500シリーズ カード2,MADB低スコア0.62,M742957,SuperLite 1500 シリーズ Vol. 9 あのこどこのこ エンドレスシーズン,1999-09-22,,,
 1999-09-22,アポカリプス,psxdatacenter低スコア0.57で型番を照合（Apocalypse）; 型番がNo-Introに無い,M745031,アポカリプス,1999-09-22,,,
 1999-09-22,バイオハザード3 LAST ESCAPE,MADB低スコア0.58,M724203,BIOHAZARD 3 LAST ESCAPE,1999-09-22,,,
@@ -660,7 +660,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-03-02,ビートマニアアペンド 5thMIX,MAME低スコア0.52; MADB未照合,,,,bm5,ビートマニア アペンド フィフスミックス Time to get down,2000-03-02
 2000-03-04,必殺パチスロステーション3 〜テトラリールへの挑戦〜,psxdatacenter低スコア0.56で型番を照合（Hissatsu Pachi-Slot Station 3）,M765476,必殺パチスロステーション3 テトラリールヘの挑戦,2000-03-04,,,
 2000-03-04,パーフェクトフィッシング(バス釣り),psxdatacenter低スコア0.63で型番を照合（Perfect Fishing Bass Fishing）,M753446,パーフェクトフィッシング バス釣り,2000-03-04,,,
-2000-03-04,スラッシャーSK8,MADB未照合,,,,,,
+2000-03-04,スラッシャーSK8,MADB同日1件のみ・題名の手がかりで照合（THRASHER SK8）,M743355,THRASHER SK8,2000-03-04,,,
 2000-03-16,ParlorプロJr.6,MADB低スコア0.57,M741471,Parlor! PRO ジュニア Vol.6,2000-03-16,,,
 2000-03-23,ザ・心理ゲーム6,psxdatacenter低スコア0.67で型番を照合（The Shinri Game 6）,M748635,ザ・心理ゲーム6,2000-03-23,,,
 2000-03-23,眠ル繭,MADB低スコア0.67,M766212,眠る繭,2000-03-23,nemumayu,眠ル繭,2000-03-23
@@ -689,7 +689,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-05-11,オプションチューニングカーバトル スペックR,MADB低スコア0.74,M741398,OPTION チューニングカーバトル スペックR,2000-05-11,optionsr,オプション チューニングカーバトル スペックR,2000-05-11
 2000-05-18,磁石で飛んじゃう!? ピックスの大冒険,Redumpの題名（Jishaku de Tonjau! Phix no Daibouken (Japan)）から型番を補完（類似度0.89）,M761873,磁石で飛んじゃう! ?ビックスの大冒険,2000-05-18,,,
 2000-05-18,プロ麻雀「兵」3,psxdatacenter低スコア0.56で型番を照合（Pro Mahjong Tsuwamono 3）; 型番がNo-Introに無い,M755885,プロ指南麻雀「兵」3,2000-05-18,,,
-2000-05-18,バックギャモン2000,MADB未照合,,,,,,
+2000-05-18,バックギャモン2000,MADB同日1件のみ・題名の手がかりで照合（BACK GAMMON 2000）,M737461,BACK GAMMON 2000,2000-05-18,,,
 2000-05-18,ビクトリーボクシング,MADB低スコア0.70; MADBが通常版以外の可能性,M723824,VICTORY BOXING,2000-05-18,,,
 2000-05-25,聖ルミナス女学院,psxdatacenter低スコア0.67で型番を照合（St. Luminous Jogakuin）,M763244,聖ルミナス女学院,2000-05-25,,,
 2000-05-25,SuperLite 1500シリーズ CastorolHONDA SuperBike,psxdatacenter低スコア0.51で型番を照合（Castrol Honda Superbike [SuperLite 1500 Series]）,M742946,SuperLite 1500 シリーズ Castrol HONDA SuperbikeRacing,2000-05-25,,,
@@ -825,7 +825,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-12-21,ザ・心理ゲーム9,psxdatacenter低スコア0.67で型番を照合（The Shinri Game 9）,M748637,ザ・心理ゲーム9,2000-12-21,,,
 2000-12-28,SIMPLE1500シリーズ Vol.51 THE ジグソーパズル,MADB低スコア0.51,M723498,THE ジグソーパズル,2000-12-28,ss051jgs,SIMPLE1500シリーズ Vol.51 THE ジグソーパズル,2000-12-28
 2000-12-28,ぼくの水族館 アクアパラダイス,MADB低スコア0.57; MAME低スコア0.57,M744577,アクアパラダイス ～ぼくの水族館,2000-12-28,aquapara,アクアパラダイス ぼくの水族館,2000-12-28
-2000-12-28,ウィザードリィ エンパイア 古の王女,MADB未照合,,,,,,
+2000-12-28,ウィザードリィ エンパイア 古の王女,MADB同日1件のみ・題名の手がかりで照合（Wizardry EMPIRE 古の王女）,M723495,Wizardry EMPIRE 古の王女,2000-12-28,,,
 2000-12-28,ミズパックマン メイズマッドネス,型番がNo-Introに無い,M723496,MS.PAC-MAN MAZE MADNESS,2000-12-28,,,
 2001-01-11,"普及版1,500円シリーズ LOVE★パラ 〜ラブリー東京パラパラ娘〜",MADB低スコア0.74,M723490,LOVE★パラ ラブリー東京パラパラ娘,2001-01-11,,,
 2001-01-18,山佐Digiガイド・ファウスト,MADB低スコア0.64,M723482,YAMASA Digi Gude ファウスト,2001-01-18,,,

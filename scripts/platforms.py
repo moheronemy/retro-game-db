@@ -876,6 +876,7 @@ PLATFORMS = {
         "madb_filter": lambda x: "カートリッジ" in x["media_format"] and not x["product_id"].startswith("GM-"),
         "mame_lists": ["megadriv"],
         "mame_jp_models": _md_jp_models,
+        "dat_title_models": True,   # MADB・MAME で型番の決まらない行は DAT の題名とシリアルで補う
         "nointro_dats": ["Sega - Mega Drive - Genesis"],
         "nointro_export": ["Sega - Mega Drive - Genesis (DB Export)"],
         "nointro_export_fallback": {"Sega - Mega Drive - Genesis (DB Export)": "Sega - Mega Drive - Genesis"},
@@ -900,6 +901,7 @@ PLATFORMS = {
         "madb_filter": lambda x: "カートリッジ" not in x["media_format"],
         "mame_lists": ["megacd"],
         "mame_jp_models": _md_jp_models,
+        "dat_title_models": True,   # MADB・MAME で型番の決まらない行は DAT の題名とシリアルで補う
         "nointro_dats": ["redump:Sega - Mega-CD - Sega CD"],
         "nointro_export": ["Sega - Mega-CD (Redump)"],
         "nointro_export_fallback": {"Sega - Mega-CD (Redump)": "redump:Sega - Mega-CD - Sega CD"},
@@ -962,6 +964,7 @@ PLATFORMS = {
         "model_key": _pce_key,
         # 型番の No-Intro・Redump での確認は CD だけ（HuCARD の DAT にはシリアルが無い）
         "nointro_model_check": lambda r: "cd" in r.get("format", "") or "arcade" in r.get("format", ""),
+        "dat_title_models": True,   # MADB・MAME で型番の決まらない行は DAT の題名とシリアルで補う
         "nointro_dats": ["NEC - PC Engine - TurboGrafx 16", "NEC - PC Engine SuperGrafx",
                          "redump:NEC - PC Engine CD - TurboGrafx-CD"],
         "nointro_export": ["NEC - PC Engine - TurboGrafx 16 (DB Export)", "NEC - PC Engine SuperGrafx (DB Export)",
@@ -992,6 +995,7 @@ PLATFORMS = {
         "models_from_serial": lambda s: [c for c in [_ss_code(s)] if c],
         "code_of": _ss_code,
         "normalize_code": _ss_code,
+        "dat_title_models": True,   # MADB・MAME で型番の決まらない行は DAT の題名とシリアルで補う
         "nointro_dats": ["redump:Sega - Saturn"],
         "nointro_export": ["Sega - Saturn (Redump)"],
         "nointro_export_fallback": {"Sega - Saturn (Redump)": "redump:Sega - Saturn"},

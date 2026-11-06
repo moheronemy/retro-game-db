@@ -63,7 +63,7 @@ neocd-jp-0061,1995-08-25,対戦アイドル麻雀ファイナルロマンス2,�
 neocd-jp-0062,1995-09-27,ザ・キング・オブ・ファイターズ'95,SNK,yes,NGCD-084,,,,ザ・キング・オブ・ファイターズ,Wikipedia,MAME+MADB+No-Intro,,,M725856,kof95
 neocd-jp-0063,1995-10-20,将棋の達人,SNK,yes,ADCD-010,7800,税抜,開発：ADK,将棋の達人,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,将棋の達人 CD-ROM版,M762277,mosyougi
 neocd-jp-0064,1995-10-27,パルスター,SNK,yes,NGCD-089,8800,税抜,,パルスター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パルスター CD-ROM版,M754355,pulstar
-neocd-jp-0065,1995-11-10,ADKワールド,ADK,,ADCD-103,6800,税抜,ネオジオCD専用タイトル,ADKワールド,Wikipedia+MADB,manual+No-Intro,MADB,ADKワールド,M737163,
+neocd-jp-0065,1995-11-10,ADKワールド,ADK,,ADCD-103,6800,税抜,ネオジオCD専用タイトル,ADKワールド,Wikipedia+MADB+MAME,manual+MAME+No-Intro,MADB,ADKワールド,M737163,adkworld
 neocd-jp-0066,1995-11-24,超人学園ゴウカイザー,テクノスジャパン,yes,NGCD-094,,,,超人学園ゴウカイザー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725819,gowcaizr
 neocd-jp-0067,1995-11-24,天外魔境 真伝,ハドソン,yes,NGCD-092,,,,天外魔境 真伝,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725818,kabukikl
 neocd-jp-0068,1995-12-08,ソニックウィングス3,ビデオシステム,yes,NGCD-097,7800,税抜,,ソニックウィングス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ソニックウイングス3 CD-ROM版,M750648,sonicwi3

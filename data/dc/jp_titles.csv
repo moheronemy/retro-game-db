@@ -110,7 +110,7 @@ dc-jp-0108,1999-12-16,信長の野望・烈風伝,コーエー,,,,T-7605M,9800,�
 dc-jp-0109,1999-12-16,ぷよぷよDA! -featuring ELLENA System-,コンパイル,,,,T-6601M,5800,税抜,同名アーケードゲームの移植版,ぷよぷよDA! -featuring ELLENA System-,Wikipedia+MADB,Redump+No-Intro,MADB,ぷよぷよDA! -featuring ELLNA System-,M755410,
 dc-jp-0110,1999-12-16,クリスマスシーマン 〜想いを伝えるもうひとつの方法〜,ビバリウム,,,,T-39403M,980,税抜,1999年12月16日から12月24日までの限定販売 「メッセージキット」と呼ばれるメッセージ作成・送信ディスク（送り手側用）とプレゼントディスク一枚（受け手側用）がセット。「プレゼントディスク」は単体での別売りもされた。,シーマン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クリスマスシーマン ～想いを伝えるもうひとつの方法～ プレゼントディスク,M747690,chrstsmmk
 dc-jp-0111,1999-12-22,バイオハザード2 Value Plus,カプコン,,,,T-1214M,4800,税抜,PlayStation用ソフト『バイオハザード2 』の移植版,バイオハザード2,Wikipedia+MADB,MADB+No-Intro,MADB,BIOHAZARD 2 value plus,M724020,
-dc-jp-0112,1999-12-22,パンツァーフロント,アスキー,,,,T-2102M,,,,パンツァーフロント,Wikipedia,manual+No-Intro,,,,
+dc-jp-0112,1999-12-22,パンツァーフロント,アスキー,,,,T-2102M,6800,税抜,,パンツァーフロント,Wikipedia+MADB,manual+No-Intro,MADB,PANZER FRONT,M741455,
 dc-jp-0113,1999-12-22,悠久幻想曲3 Perpetual Blue,メディアワークス,,,,T-27801M,6800,税抜,,悠久幻想曲,Wikipedia,Redump+No-Intro,MADB,悠久幻想曲3 Perpetual blue,M766469,
 dc-jp-0114,1999-12-23,神機世界エヴォリューション2 〜遠い約束〜,ESP/スティング,,,,T-38703M,,,,神機世界エヴォリューション2 〜遠い約束〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719655,shinevo2
 dc-jp-0115,1999-12-23,Dの食卓2,ワープ,,,,T-30003M,6800,税抜,,Dの食卓2,Wikipedia+MADB+MAME,MAME,MADB,Dの食卓2,M724016,d2j1
@@ -147,7 +147,7 @@ dc-jp-0145,2000-02-24,大神一郎奮闘記 〜サクラ大戦歌謡ショウ「
 dc-jp-0146,2000-03-02,バーチャコップ2,セガ,,,,HDR-0061,2800,税抜,,バーチャコップ,Wikipedia+MADB,MADB+No-Intro,MADB,VIRTUA COP 2,M719257,
 dc-jp-0147,2000-03-09,ガンバード2,カプコン,,,,T-1213M,5800,税抜,,ガンバード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガンバード2,M746932,gunbird2j
 dc-jp-0148,2000-03-16,パズルボブル4,サイバーフロント,,,,T-42301M,3800,税抜,,パズルボブル4,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パズルボブル4,M753823,pbobble4
-dc-jp-0149,2000-03-16,上海ダイナスティ,サクセス,,,,T-9902M,,,,上海 (ゲーム),Wikipedia,manual+No-Intro,,,,
+dc-jp-0149,2000-03-16,上海ダイナスティ,サクセス,,,,T-9902M,4800,税抜,,上海 (ゲーム),Wikipedia+MADB,manual+No-Intro,MADB,上海 DYNASTY,M762337,
 dc-jp-0150,2000-03-23,NBA 2K,セガ,,,,HDR-0069,5800,税抜,,NBA 2K,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,NBA 2K,M719256,nba2kj
 dc-jp-0151,2000-03-23,ヴィジランテ8 〜セカンドバトル〜,シスコンエンタテイメント,,,,T-36501M,5800,税抜,,ヴィジランテ8 〜セカンドバトル〜,Wikipedia+MADB,MADB+No-Intro,MADB,VIGILANTE8 2ND BATTLE,M719255,
 dc-jp-0152,2000-03-23,レイマン海賊船からの脱出!,ユービーアイソフト,,,,T-17703M,5800,税抜,,レイマン海賊船からの脱出!,Wikipedia+MADB,Redump+No-Intro,MADB,レイマン 海賊船からの脱出 !,M758730,
@@ -165,7 +165,7 @@ dc-jp-0163,2000-03-30,プロ麻雀極D,アテナ,,,,T-16801M,4800,税抜,,プロ
 dc-jp-0164,2000-03-30,ワールド・ネバーランド2プラス 〜プルト共和国物語〜,リバーヒルソフト,,,,T-5303M,5800,税抜,,ワールド・ネバーランド,Wikipedia+MADB,manual+No-Intro,MADB,ワールド・ネバーランド2 プラス ～プルト共和国物語～,M759291,
 dc-jp-0165,2000-04-06,スーパーユーロサッカー2000,イマジニア,,,,T-15006M,5800,税抜,,スーパーユーロサッカー2000,Wikipedia+MADB,MADB+No-Intro,MADB,スーパーユーロサッカー 2000,M719249,
 dc-jp-0166,2000-04-06,三国志VI with パワーアップキット,コーエー,,,,T-7607M,9800,税抜,,三國志VI,Wikipedia+MADB,manual+No-Intro,MADB,三國志6with パワーアップキット,M734660,
-dc-jp-0167,2000-04-13,ハローキティの「音なる」メール,セガ,,,,HDR-0065,,,ハローキティを題材としたメールソフト,ハローキティ,Wikipedia+MAME,MAME+No-Intro,,,,hkmail
+dc-jp-0167,2000-04-13,ハローキティの「音なる」メール,セガ,,,,HDR-0065,2800,税抜,ハローキティを題材としたメールソフト,ハローキティ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HELLO KITTY 「音なる」メール,M719248,hkmail
 dc-jp-0168,2000-04-20,さくらももこ劇場コジコジ,マーベラスエンターテイメント,,,,T-40802M,6800,税抜,同名テレビアニメのゲーム化,さくらももこ劇場コジコジ,Wikipedia+MADB,Redump+No-Intro,MADB,さくらももこ劇場 コジコジ,M748781,
 dc-jp-0169,2000-04-27,パワーストーン2,カプコン,,,,T-1218M,5800,税抜,マッチングサービス対応,パワーストーン (ゲーム),Wikipedia+MADB,manual+No-Intro,MADB,POWER STONE 2,M719247,
 dc-jp-0170,2000-04-27,サンバDEアミーゴ,セガ,,,,HDR-0063,5800,税抜,,サンバDEアミーゴ,Wikipedia+MADB,MADB+No-Intro,MADB,サンバ DE アミーゴ,M719246,
@@ -212,7 +212,7 @@ dc-jp-0210,2000-08-10,COOL COOL TOON,SNK,,,,T-3106M,5800,税抜,音楽ゲーム 
 dc-jp-0211,2000-08-10,シーマン 〜禁断のペット〜 （2001年対応版）,ビバリウム,,,,T-39405M,6800,税抜,同名作品の内容改良版,シーマン,Wikipedia+MADB,manual+No-Intro,MADB,シーマン ～禁断のペット～ 2001年対応版,M749034,
 dc-jp-0212,2000-08-10,ジャイアントグラム2000 〜全日本プロレス3 栄光の勇者達〜,セガ,,,,HDR-0101,5800,税抜,,ジャイアントグラム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,GIANT GRAM 2000: 全日本プロレス3 栄光の勇者達,M719221,gram2000
 dc-jp-0213,2000-08-10,ドグウ戦紀 〜覇王〜,ビクターインタラクティブソフトウェア,,,,T-9101M,5800,税抜,異世界を舞台としたシミュレーションゲーム,ドグウ戦紀 〜覇王〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ドグウ戦紀 -覇王-,M719220,dshaou
-dc-jp-0214,2000-08-10,ハローキティのわくわくクッキーズ,セガ,,,,HDR-0090,,,ハローキティを題材としたパズルゲーム,ハローキティ,Wikipedia,manual+No-Intro,,,,
+dc-jp-0214,2000-08-10,ハローキティのわくわくクッキーズ,セガ,,,,HDR-0090,2800,税抜,ハローキティを題材としたパズルゲーム,ハローキティ,Wikipedia+MADB,manual+MADB+No-Intro,MADB,Hello Kitty ワクワククッキーズ,M719219,
 dc-jp-0215,2000-08-10,プロ野球チームであそぼうネット!,セガ,,,,HDR-0091,5800,税抜,,プロ野球チームをつくろう!,Wikipedia+MADB,MADB+No-Intro,MADB,プロ野球チームであそぼうネット!,M719222,
 dc-jp-0216,2000-08-24,プリズマティカリゼーション,アークシステムワークス,,,,T-22002M,,,同名PlayStation用ソフトの移植版,プリズマティカリゼーション,Wikipedia,manual+No-Intro,,,,
 dc-jp-0217,2000-08-24,ルーンキャスター,ノイジア,,,,T-40001M,,,ファンタジーを題材としたリアルタイムシミュレーションゲーム,ルーンキャスター,Wikipedia+MADB,MADB+No-Intro,,,M719218,
@@ -245,12 +245,12 @@ dc-jp-0243,2000-10-26,ジョジョの奇妙な冒険 未来への遺産 for Matc
 dc-jp-0244,2000-10-26,ネオゴールデンログレス,サクセス,,,,T-9904M,3800,税抜,,ネオゴールデンログレス,Wikipedia+MADB,manual+No-Intro,MADB,ネオゴールデンログレス,M753193,
 dc-jp-0245,2000-10-26,平成麻雀荘,マイクロネット,,,,T-2202M,5800,税抜,,平成麻雀荘,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,平成麻雀荘,M765716,heiseimj
 dc-jp-0246,2000-10-31,あつまれ!!ぐるぐる温泉BB,セガ,,,,HDR-0121,2800,税抜,,あつまれ!ぐるぐる温泉,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,あつまれ! ぐるぐる温泉BB,M744909,aggonsenbb
-dc-jp-0247,2000-11-02,L.O.L. 〜LACK OF LOVE〜,アスキー,,,,T-2106M,,,,L.O.L. 〜LACK OF LOVE〜,Wikipedia+MAME,MAME+No-Intro,,,,lol
+dc-jp-0247,2000-11-02,L.O.L. 〜LACK OF LOVE〜,アスキー,,,,T-2106M,6800,税抜,,L.O.L. 〜LACK OF LOVE〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,L.O.L.,M740222,lol
 dc-jp-0248,2000-11-02,ジェットコースタードリーム2,びんぼうソフト,,,,T-41201M,5800,税抜,,ジェットコースタードリーム2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ジェットコースタードリーム2,M749074,jcd2
 dc-jp-0249,2000-11-09,マーズマトリックス,カプコン,,,,T-1238M,5800,税抜,同名アーケードゲームの移植版,マーズマトリックス,Wikipedia+MADB,manual+No-Intro,MADB,MARS MATRIX （マーズマトリックス）,M740577,
 dc-jp-0250,2000-11-09,ドリームスタジオ,セガ,,,,HDR-0114,6800,税抜,3Dアドベンチャーゲーム制作ツール,ドリームスタジオ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Dreamstudio,M719200,drmstdio
 dc-jp-0251,2000-11-09,トリコロールクライシス,ビクターインタラクティブソフトウェア,,,,T-9104M,5800,税抜,,トリコロールクライシス,Wikipedia+MADB,MADB+No-Intro,MADB,TRICOLORE CRISE,M719201,
-dc-jp-0252,2000-11-09,マリオネットハンドラー2,マイクロネット,,,,T-2204M,,,,マリオネットハンドラー2,Wikipedia,manual+No-Intro,,,,
+dc-jp-0252,2000-11-09,マリオネットハンドラー2,マイクロネット,,,,T-2204M,5800,税抜,,マリオネットハンドラー2,Wikipedia+MADB,manual+No-Intro,MADB,Marionette Handler 2,M740576,
 dc-jp-0253,2000-11-16,バイオハザード3 LAST ESCAPE,カプコン,,,,T-1222M,5800,税抜,同名PlayStation用ソフトの移植,バイオハザード3 LAST ESCAPE,Wikipedia+MADB,Redump+No-Intro,MADB,BIOHAZARD 3 LAST ESCAPE,M737566,
 dc-jp-0254,2000-11-16,エアロダンシング F 轟つばさの初飛行,CRI,,,,T-6805M,3800,税抜,,エアロダンシング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エアロダンシングF ～轟つばさの初飛行～,M745951,aerodftthh
 dc-jp-0255,2000-11-16,メルクリウスプリティ 〜end of the century〜,NECインターチャネル,,,,T-20103M,6800,税抜,,メルクリウスプリティ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Mercurius Pretty end of the century,M719199,mercur
@@ -310,7 +310,7 @@ dc-jp-0308,2001-03-29,NBA 2K1,セガ,,,,HDR-0150,5800,税抜,,NBA 2K1,Wikipedia+
 dc-jp-0309,2001-03-29,ILLBLEED,クレイジーゲーム,,,,T-45601M,5800,税抜,バーチャルお化け屋敷ゲーム,ILLBLEED,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ILLBLEED,M739905,illbleedj
 dc-jp-0310,2001-03-29,セガガガ,セガ,,,,HDR-0151,5800,税抜,作中で「アダルトチルドレン」という言葉の使い方について複数の団体の指摘を受け、当該箇所の修正並びに一般発売の延期といった措置が取られた。,セガガガ,Wikipedia+MADB,MADB+No-Intro,MADB,SGGG,M719164,
 dc-jp-0311,2001-03-29,ラブひな スマイルアゲイン,セガ,,,,HDR-0139,8800,税抜,漫画『ラブひな』をゲーム化,ラブひな,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラブひな スマイル・アゲイン,M758333,lhsmile
-dc-jp-0312,2001-04-05,スピリットオブスピード1937,アクレイムジャパン,,,,T-8102M,,,,スピリットオブスピード1937,Wikipedia,manual+No-Intro,,,,
+dc-jp-0312,2001-04-05,スピリットオブスピード1937,アクレイムジャパン,,,,T-8102M,3800,税抜,,スピリットオブスピード1937,Wikipedia+MADB,manual+No-Intro,MADB,SPILIT OF SPEED 1937,M742706,
 dc-jp-0313,2001-04-05,Canvas 〜セピア色のモチーフ〜,NECインターチャネル,,,,T-20108M,7200,税抜,同名PCゲームの移植版,Canvas 〜セピア色のモチーフ〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Canvas ～セピア色のモチーフ～,M737880,canvas
 dc-jp-0314,2001-04-05,es （エス）,テレビ朝日/セガ,,,,T-45501M,6800,税抜,サイコサスペンス・アドベンチャーゲーム,es （エス）,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,es,M723377,es
 dc-jp-0315,2001-04-12,SPORTS JAM,セガ,,,,HDR-0153,5800,税抜,,SPORTS JAM,Wikipedia+MADB,MADB+No-Intro,MADB,SPORTS JAM,M719160,
@@ -322,7 +322,7 @@ dc-jp-0320,2001-04-26,WWF ROYAL RUMBLE,ユークス,,,,T-45101M,3800,税抜,,WWF
 dc-jp-0321,2001-04-26,アドバンスド大戦略2001,セガ,,,,HDR-0158,7800,税抜,,アドバンスド大戦略,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ADVANCED 大戦略 2001,M723353,adai2001
 dc-jp-0322,2001-04-26,KONOHANA:True Report,サクセス,,,,T-9905M,,,,此花,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M719158,konohana
 dc-jp-0323,2001-04-26,HAPPY★LESSON,データム・ポリスター,,,,T-19503M,6800,税抜,,HAPPY★LESSON,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,HAPPY ★ LESSON,M719157,haples
-dc-jp-0324,2001-05-10,デスクリムゾンOX,エコールソフトウェア,,,,T-23202M,,,,デスクリムゾンOX,Wikipedia,manual+No-Intro,,,,
+dc-jp-0324,2001-05-10,デスクリムゾンOX,エコールソフトウェア,,,,T-23202M,5800,税抜,,デスクリムゾンOX,Wikipedia+MADB,manual+No-Intro,MADB,DEATH CRIMSON OX,M738355,
 dc-jp-0325,2001-05-24,NET VERSUS 囲碁,アットマーク,,,,T-45703M,,,ネットワーク接続することでパッケージに収録されていないタイトルを遊ぶことができる,NET VERSUS 囲碁,Wikipedia+MADB+MAME,manual+MADB+No-Intro,,,M719156,nvmahjong
 dc-jp-0326,2001-05-24,NET VERSUS 将棋,アットマーク,,,,T-45707M,1900,税抜,ネットワーク接続することでパッケージに収録されていないタイトルを遊ぶことができる,NET VERSUS 将棋,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NET@VERSUS ネットバーサス 「将棋」,M741148,nvreversi
 dc-jp-0327,2001-05-24,NET VERSUS チェス,アットマーク,,,,T-45704M,1900,税抜,ネットワーク接続することでパッケージに収録されていないタイトルを遊ぶことができる,NET VERSUS チェス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NET@VERSUS チェス,M719154,nvhana
@@ -397,7 +397,7 @@ dc-jp-0395,2001-12-20,吉亜の丘で寝ころんで…,ナグザット（加賀
 dc-jp-0396,2001-12-20,サクラ大戦オンライン 帝都の長い日々,セガ,,,,HDR-0184,5800,税抜,セガのオンラインサービス「open dice」対応のオンラインゲーム,サクラ大戦オンライン,Wikipedia+MADB,MADB+No-Intro,MADB,サクラ大戦オンライン 帝都の長い日々,M719114,
 dc-jp-0397,2001-12-20,サクラ大戦オンライン 巴里の優雅な日々,セガ,,,,HDR-0185,5800,税抜,セガのオンラインサービス「open dice」対応のオンラインゲーム,サクラ大戦オンライン,Wikipedia+MADB,MADB+No-Intro,MADB,サクラ大戦オンライン ～巴里の優雅な日々～,M719115,
 dc-jp-0398,2001-12-27,21 -TwoOne-,プリンセスソフト,,,,T-46504M,6800,税抜,,21 -TwoOne-,Wikipedia+MADB+MAME,manual+MAME+MADB+No-Intro,MADB,21-Two One-,M719112,21twoone
-dc-jp-0399,2002-01-10,ボンバーヘッヘ,フジコムワークトレーディング,,,,T-42903M,,,爆破解体シミュレーション,ボンバーヘッヘ,Wikipedia+MAME,MAME+No-Intro,,,,hehhe
+dc-jp-0399,2002-01-10,ボンバーヘッヘ,フジコムワークトレーディング,,,,T-42903M,5800,税抜,爆破解体シミュレーション,ボンバーヘッヘ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,BOMBER hehhe!,M737781,hehhe
 dc-jp-0400,2002-01-17,ミッシングパーツ ザ・探偵ストリーズ,フォグ,,,,T-36702M,,,,MISSING PARTS the TANTEI STORIES,Wikipedia+MAME,MAME+No-Intro,,,,misspart
 dc-jp-0401,2002-01-24,ボコ夢の達人,フジコムワークトレーディング,,,,T-42904M,3300,税抜,アルバイトを題材としたバラエティゲーム,ボコ夢の達人,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ボコ夢の達人,M756375,bokomu
 dc-jp-0402,2002-01-31,どきどきアイドルスターシーカーRemix,グレフ,,,,T-46701M,4800,税抜,アーケードゲーム『どきどきアイドルスターシーカー』の移植版,どきどきアイドルスターシーカーRemix,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,どきどきアイドルスターシーカーRemix,M719109,dokiidol
@@ -431,7 +431,7 @@ dc-jp-0429,2002-08-08,ザ・キング・オブ・ファイターズ2000,SNKプ�
 dc-jp-0430,2002-08-08,ファーストKISS☆物語II 〜あなたがいるから〜,ブロッコリー,,,,T-46305M,5800,税抜,PC-FX用ソフト『ファーストKiss☆物語』の続編,ファーストKiss☆物語,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ファーストKiss物語 2 あなたがいるから,M719087,frstkiss2
 dc-jp-0431,2002-08-29,Ever17 -the out of infinity-,キッド,,,,T-19716M,6800,税抜,,Ever17 -the out of infinity-,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Ever17 the out of infinity,M719083,ever17
 dc-jp-0432,2002-08-29,SIMPLE2000シリーズDC Vol.01 BITTER SWEET FOOLS THE 恋愛アドベンチャー,ディースリー・パブリッシャー,,,,T-47401M,2000,税抜,,SIMPLEシリーズ,Wikipedia+MADB,MADB+No-Intro,MADB,BITTER SWEET FOOLS,M719084,
-dc-jp-0433,2002-09-05,斑鳩,トレジャー/ESP,,,,T-38706M,,,同名アーケードゲームの移植版,斑鳩 (シューティングゲーム),Wikipedia+MAME,MAME+No-Intro,,,,ikaruga
+dc-jp-0433,2002-09-05,斑鳩,トレジャー/ESP,,,,T-38706M,6800,税抜,同名アーケードゲームの移植版,斑鳩 (シューティングゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,斑鳩 IKARUGA,M765411,ikaruga
 dc-jp-0434,2002-09-12,パンドラの夢,NECインターチャネル,,,,T-20120M,6800,税抜,同名PCゲームの移植版,パンドラの夢,Wikipedia+MADB,Redump+No-Intro,MADB,パンドラの夢,M754526,
 dc-jp-0435,2002-09-26,君が望む永遠,アルケミスト,,,,T-47102M,7400,税抜,同名PCゲームの移植版,君が望む永遠,Wikipedia+MADB,MADB+No-Intro,MADB,君が望む永遠,M719077,
 dc-jp-0436,2002-09-26,SIMPLE2000シリーズDC Vol.02 夏色セレブレーション THE 恋愛シミュレーション,ディースリー・パブリッシャー,,,,T-47404M,2000,税抜,PCゲーム『夏色Celebration』の移植版,SIMPLEシリーズ,Wikipedia+MADB,MADB+No-Intro,MADB,夏色セレブレーション THE 恋愛シミュレーション,M719079,
@@ -440,7 +440,7 @@ dc-jp-0438,2002-09-26,SIMPLE2000シリーズDC Vol.04 おかえりっ! THE 恋�
 dc-jp-0439,2002-09-26,僕と、僕らの夏,キッド,,,,T-19717M,7800,税抜,同名PCゲームの移植版,僕と、僕らの夏,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,僕と、僕らの夏,M719081,bokuto
 dc-jp-0440,2002-10-24,ミッシングパーツ2 ザ・探偵ストーリーズ,フォグ,,,,T-36703M,4800,税抜,,MISSING PARTS the TANTEI STORIES,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,MISSING PARTS 2 the TANTEI stories,M719653,misspart2
 dc-jp-0441,2002-10-24,めい☆ぷる,プリンセスソフト,,,,T-46510M,6800,税抜,同名PCゲームの移植版,めい☆ぷる,Wikipedia+MADB,MADB+No-Intro,MADB,めい☆ぷる,M719076,
-dc-jp-0442,2002-11-21,ルームメイト・麻美・おくさまは女子高生 ディレクターズエディション,データム・ポリスター,,,,T-19508M,,,漫画『おくさまは女子高生』のゲーム化で、『ルームメイト』のシステムが基になっている,おくさまは女子高生,Wikipedia,manual+No-Intro,,,,
+dc-jp-0442,2002-11-21,ルームメイト・麻美・おくさまは女子高生 ディレクターズエディション,データム・ポリスター,,,,T-19508M,6800,税抜,漫画『おくさまは女子高生』のゲーム化で、『ルームメイト』のシステムが基になっている,おくさまは女子高生,Wikipedia+MADB,manual+No-Intro,MADB,ROOMMATE 麻美 -おくさまは女子高生- Director's Edition Director's Edition,M719075,
 dc-jp-0443,2002-11-28,想い出にかわる君 〜Memories Off〜,キッド,,,,T-19718M,6800,税抜,,想い出にかわる君 〜Memories Off〜,Wikipedia+MADB,MADB+No-Intro,MADB,想い出にかわる君 ～Memories Off～,M719074,
 dc-jp-0444,2002-11-28,此花2 〜届かないレクイエム〜,サクセス,,,,T-9906M,3800,税抜,,此花2 〜届かないレクイエム〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,此花2 届かないレクイエム,M719073,konohana2
 dc-jp-0445,2002-12-26,ザ・キング・オブ・ファイターズ2001,SNKプレイモア,,,,T-47304M,5800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB,MADB+No-Intro,MADB,THE KING OF FIGHTERS 2001,M719071,
