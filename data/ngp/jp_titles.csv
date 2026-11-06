@@ -1,0 +1,83 @@
+id,release_date,title,publisher,compat,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+ngp-jp-0001,1998-10-28,キング・オブ・ファイターズR-1,SNK,ngp,NEOP00010,4500,税抜,ローンチタイトル,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ポケット格闘シリーズ キング・オブ・ファイターズ R-1,M756313,kofr1
+ngp-jp-0002,1998-10-28,ネオジオカップ'98,SNK,ngp,NEOP00020,3800,税抜,ローンチタイトル,ネオジオカップ'98 〜THE ROAD TO THE VICTORY〜,Wikipedia+MADB+MAME,MAME,MADB,ポケットスポーツシリーズ ネオジオカップ'98,M756245,neocup98
+ngp-jp-0003,1998-10-28,ベースボールスターズ,SNK,ngp,NEOP00070,3800,税抜,ローンチタイトル,ベースボールスターズ,Wikipedia,MAME,MADB,ポケットスポーツシリーズ ベースボールスターズ,M756246,bstars
+ngp-jp-0004,1998-10-28,ポケットテニス,夢工房,ngp,NEOP00090,3800,税抜,ローンチタイトル。,ポケットテニス,Wikipedia+MADB+MAME,MAME,MADB,ポケットスポーツシリーズ ポケットテニス,M756247,ptennis
+ngp-jp-0005,1998-10-28,めろんちゃんの成長日記,ADK,ngp,NEOP00040,3800,税抜,ローンチタイトル。,めろんちゃんの成長日記,Wikipedia+MADB+MAME,MAME+MADB,MADB,めろんちゃんの成長日記,M724668,melonchn
+ngp-jp-0006,1998-10-28,連結パズル つなげてポンッ!,夢工房,ngp,NEOP00120,3500,税抜,,連結パズル つなげてポンッ!,Wikipedia+MADB+MAME,MAME,MADB,連結パズル つなげてポンッ!,M766870,tsunapn
+ngp-jp-0007,1998-11-20,将棋の達人,ADK,ngp,NEOP00050,3500,税抜,当初はローンチタイトルとして発売される予定だった。,将棋の達人,Wikipedia+MADB+MAME,MAME,MADB,将棋の達人,M762275,shougi
+ngp-jp-0008,1998-12-25,サムライスピリッツ!,SNK,ngp,NEOP00080,4500,税抜,,サムライスピリッツ!,Wikipedia+MADB+MAME,MAME,MADB,ポケット格闘シリーズ サムライスピリッツ!,M756314,samsho
+ngp-jp-0009,1998-12-25,ネオ・チェリーマスター,ダイナ,ngp,NEOP00140,4800,税抜,,ネオ・チェリーマスター,Wikipedia+MADB+MAME,MAME,MADB,ポケットカジノシリーズ ネオ・チェリーマスター,M756230,neocher
+ngp-jp-0010,1999-03-19,キング・オブ・ファイターズR-2,SNK,ngpc_compatible,NEOP00230,4500,税抜,ローンチタイトル。,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,キング・オブ・ファイターズ R-2,M747351,ngpc:kofr2
+ngp-jp-0011,1999-03-19,ネオ・チェリーマスター カラー,ダイナ,ngpc_compatible,NEOP00240,4800,税抜,ローンチタイトル,ネオ・チェリーマスター カラー,Wikipedia+MADB+MAME,MAME,MADB,ネオ・チェリーマスター カラー,M753185,ngpc:neocherc
+ngp-jp-0012,1999-03-19,ネオ・ドラゴンズワイルド,ダイナ,ngpc_compatible,NEOP00150,3200,税抜,ローンチタイトル,ネオ・ドラゴンズワイルド,Wikipedia+MADB+MAME,MAME+MADB,MADB,NEO DRAGON'S WILD,M724435,ngpc:neodrag
+ngp-jp-0013,1999-03-19,ネオ・ミステリーボーナス,ダイナ,ngpc_compatible,NEOP00160,4800,税抜,ローンチタイトル,ネオ・ミステリーボーナス,Wikipedia+MADB+MAME,MAME,MADB,ネオ・ミステリーボーナス,M753188,ngpc:neomystr
+ngp-jp-0014,1999-03-19,ポケットテニス カラー,夢工房,ngpc_compatible,NEOP00280,3200,税抜,ローンチタイトル。 『ドリームキャストFAN』1999年2月12日号掲載時点では「ポケットテニス2」という仮題だった。,ポケットテニス,Wikipedia+MADB+MAME,MAME,MADB,ポケットテニス カラー,M756249,ngpc:ptennisc
+ngp-jp-0015,1999-03-19,ベースボールスターズ カラー,SNK,ngpc_compatible,NEOP00250,3200,税抜,ローンチタイトル。,ベースボールスターズ,Wikipedia+MADB+MAME,MAME,MADB,ベースボールスターズ カラー,M755987,ngpc:bstarsc
+ngp-jp-0016,1999-03-19,連結パズル つなげてポンッ! カラー,夢工房,ngpc_compatible,NEOP00290,2980,税抜,,連結パズル つなげてポンッ! カラー,Wikipedia+MADB+MAME,MAME,MADB,つなげてポンッ! カラー,M751369,ngpc:tsunapnc
+ngp-jp-0017,1999-03-19,将棋の達人 カラー,ADK,ngpc_compatible,NEOP00270,3200,税抜,,将棋の達人,Wikipedia+MADB+MAME,MAME,MADB,将棋の達人 カラー,M762278,ngpc:shougic
+ngp-jp-0018,1999-03-26,パズルボブルミニ,タイトー/SNK,ngpc_compatible,NEOP00200,2980,税抜,,パズルボブル2,Wikipedia+MADB+MAME,MAME,MADB,パズルボブルミニ,M753827,ngpc:pbobblea
+ngp-jp-0019,1999-04-15,ネオジオカップ'98プラス,SNK,ngpc_compatible,NEOP00390,3200,税抜,,ネオジオカップ'98プラス,Wikipedia+MADB+MAME,MAME,MADB,ネオジオカップ'98 プラス,M753198,ngpc:neocuppl
+ngp-jp-0020,1999-04-15,クラッシュローラー,ADK,ngpc_compatible,NEOP00380,3200,税抜,同名アーケードゲームの移植版,クラッシュローラー,Wikipedia+MADB+MAME,MAME,MADB,クラッシュローラー,M747569,ngpc:crushrol
+ngp-jp-0021,1999-04-15,バイオモーターユニトロン,夢工房,ngpc_compatible,NEOP00100,3200,税抜,,バイオモーターユニトロン,Wikipedia+MADB+MAME,MAME+MADB,MADB,バイオモーター・ユニトロン,M724387,ngpc:biomotorj
+ngp-jp-0022,1999-04-22,ネオ・ダービーチャンプ 大予想,ダイナ,ngpc_compatible,NEOP00170,3800,税抜,,ネオ・ダービーチャンプ 大予想,Wikipedia+MAME,MAME+MADB,MADB,NEO DERBY CHAMP 大予想,M724386,ngpc:neoderby
+ngp-jp-0023,1999-04-29,どこでも麻雀,ADK,ngpc_compatible,,3200,税抜,当初はネオジオポケットのローンチタイトルとして発売される予定だった,どこでも麻雀,Wikipedia,,MADB,どこでも麻雀,M752201,
+ngp-jp-0024,1999-05-27,餓狼伝説 ファーストコンタクト,SNK/夢工房,ngpc_compatible,NEOP00110,3800,税抜,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,餓狼伝説 FIRST CONTACT,M760271,ngpc:fatfury
+ngp-jp-0025,1999-05-27,ネオポケプロ野球,SNK/ADK,ngpc_compatible,NEOP00260,3800,税抜,,ネオポケプロ野球,Wikipedia+MADB+MAME,MAME,MADB,ネオポケ プロ野球,M753201,ngpc:neoproyk
+ngp-jp-0026,1999-05-27,メタルスラッグ ファーストミッション,SNK/浮世亭,ngpc_compatible,NEOP00210,3800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ・ファーストミッション,M757584,ngpc:mslug1st
+ngp-jp-0027,1999-06-10,サムライスピリッツ!2,SNK,ngpc_compatible,NEOP00300,3800,税抜,,サムライスピリッツ,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ! 2,M748877,ngpc:samsho2
+ngp-jp-0028,1999-06-24,マジカルドロップ ポケット,データイースト,ngpc_compatible,NEOP00480,3800,税抜,,マジカルドロップ,Wikipedia+MADB+MAME,MAME,MADB,マジカルドロップ ポケット,M756781,ngpc:magdropj
+ngp-jp-0029,1999-07-22,ぷよぷよ通,セガ/SNK,ngpc_compatible,NEOP00410,3800,税抜,,ぷよぷよ通,Wikipedia+MADB+MAME,MAME,MADB,ぷよぷよ通,M755449,ngpc:puyopop
+ngp-jp-0030,1999-07-29,ビッグトーナメントゴルフ,SNK,ngpc_compatible,NEOP00350,3800,税抜,,ビッグトーナメントゴルフ,Wikipedia+MADB,MAME,MADB,ビッグトーナメントゴルフ,M754658,ngpc:neoturfm
+ngp-jp-0031,1999-07-29,上海ミニ,アクティビジョン/SNK,ngpc_compatible,NEOP00400,3800,税抜,,上海 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,上海 mini,M724284,ngpc:shanghai
+ngp-jp-0032,1999-08-19,ダイヴ アラート バーン編,サクノス,ngpc_compatible,NEOP00360,3800,税抜,,ダイヴ アラート,Wikipedia+MADB+MAME,MAME+MADB,MADB,DIVE ALERT バーン編,M724251,ngpc:divealrmj
+ngp-jp-0033,1999-08-19,ダイヴ アラート レベッカ編,サクノス,ngpc_compatible,NEOP00370,3800,税抜,,,Wikipedia+MADB+MAME,MAME+MADB,MADB,DIVE ALERT レベッカ編,M724250,ngpc:divealrbj
+ngp-jp-0034,1999-08-26,パックマン,ナムコ/SNK,ngpc_compatible,NEOP00550,3800,税抜,,パックマン,Wikipedia+MADB+MAME,MAME,MADB,パックマン,M753996,ngpc:pacman
+ngp-jp-0035,1999-10-21,SNK VS. CAPCOM 激突カードファイターズ SNKサポーターズバージョン,カプコン/SNK,ngpc_compatible,NEOP00560,3800,税抜,,SNK VS. CAPCOM 激突カードファイターズ SNKサポーターズバージョン,Wikipedia+MADB+MAME,MAME,MADB,SNK VS. CAPCOM 激突カードファイターズ SNKサポーターズバージョン,M742602,ngpc:svccardsja
+ngp-jp-0036,1999-10-21,SNK VS. CAPCOM 激突カードファイターズ CAPCOMサポーターズバージョン,カプコン/SNK,ngpc_compatible,NEOP00570,3800,税抜,,SNK VS. CAPCOM 激突カードファイターズ CAPCOMサポーターズバージョン,Wikipedia+MADB+MAME,MAME,MADB,SNK VS. CAPCOM 激突カードファイターズ CAPCOMサポーターズバージョン,M742600,ngpc:svccardcj
+ngp-jp-0037,1999-10-21,ビーストバスター 闇の生体兵器,SNK/ノイズファクトリー,ngpc_compatible,NEOP00450,3800,税抜,,ビーストバスター,Wikipedia+MADB+MAME,MAME,MADB,ビーストバスター ～闇の生体兵器～,M754539,ngpc:darkarms
+ngp-jp-0038,1999-10-21,電車でGO!2 ON ネオジオポケット,タイトー/SNK,ngpc_compatible,NEOP00600,4500,税抜,,電車でGO!2高速編,Wikipedia+MADB+MAME,MAME,MADB,電車でGO! 2 ON ネオジオポケット1,M764684,ngpc:dendego2
+ngp-jp-0039,1999-10-21,パチスロ アルゼ王国ポケット ハナビ,アルゼ,ngpc_compatible,NEOP00520,3800,税抜,,パチスロ アルゼ王国ポケット,Wikipedia+MADB+MAME,MAME,MADB,パチスロ アルゼ王国ポケット HANABI,M753858,ngpc:pslothan
+ngp-jp-0040,1999-10-21,ポケットラブif,キッド,ngpc_compatible,NEOP00440,4800,税抜,,ポケットラブif,Wikipedia+MADB+MAME,MAME,MADB,ポケットラブ ～if～,M756299,ngpc:poktlove
+ngp-jp-0041,1999-11-11,つなげてポンッ!2,夢工房,ngpc_only,NEOP00490,3200,税抜,,つなげてポンッ!2,Wikipedia+MADB+MAME,MAME,MADB,つなげてポンッ! 2,M751368,ngpc:tsunapn2
+ngp-jp-0042,1999-11-25,パチンコ必勝ガイド ポケットパーラー,ジャパンヴィステック,ngpc_compatible,NEOP00460,3980,税抜,,パチンコ必勝ガイド ポケットパーラー,Wikipedia+MADB+MAME,MAME,MADB,パチンコ必勝ガイド ポケットパーラー,M753969,ngpc:pachinko
+ngp-jp-0043,1999-12-16,それいけ!!花札道場,ダイナ,ngpc_compatible,NEOP00780,4800,税抜,,それいけ!!花札道場,Wikipedia+MADB+MAME,MAME,MADB,それいけ!! 花札道場,M750725,ngpc:hanadojo
+ngp-jp-0044,1999-12-22,ファーゼライ!,サクノス,ngpc_compatible,NEOP00510,3800,税抜,,ファーゼライ!,Wikipedia,MAME,MADB,ファーゼライ!,M754818,ngpc:faseleij
+ngp-jp-0045,1999-12-22,パーティーメール,ADK,ngpc_compatible,NEOP00320,3200,税抜,,パーティーメール,Wikipedia+MADB+MAME,MAME,MADB,パーティメール,M753402,ngpc:prtymail
+ngp-jp-0046,1999-12-22,頂上決戦 最強ファイターズ SNK VS. CAPCOM,カプコン/SNK,ngpc_only,NEOP00690,4300,税抜,,頂上決戦 最強ファイターズ SNK VS. CAPCOM,Wikipedia+MADB+MAME,MAME,MADB,頂上決戦 最強ファイターズ SNK VS. CAPCOM,M764464,ngpc:svc
+ngp-jp-0047,1999-12-29,ネオ・トゥエンティワン,ダイナ,ngpc_compatible,,3800,税抜,,ネオ・トゥエンティワン,Wikipedia+MADB,,MADB,ネオ トゥエンティワン,M753184,
+ngp-jp-0048,1999-12-29,水木しげるの妖怪写真館,水木プロ/SNK/浮世亭,ngpc_only,NEOP00620,3800,税抜,,水木しげるの妖怪写真館,Wikipedia+MADB+MAME,MAME,MADB,水木しげるの妖怪写真館,M763097,ngpc:mizuki
+ngp-jp-0049,2000-01-20,機甲世紀ユニトロン その序。光り生まれる地より。,夢工房,ngpc_only,NEOP00500,3800,税抜,,機甲世紀ユニトロン その序。光り生まれる地より。,Wikipedia+MADB+MAME,MAME,MADB,機甲世紀 ユニトロン,M760530,ngpc:kikousei
+ngp-jp-0050,2000-01-20,めざせ!漢字王,SNK,ngpc_only,NEOP00630,3980,税抜,,めざせ!漢字王,Wikipedia+MADB+MAME,MAME,MADB,目指せ! 漢字王,M766381,ngpc:mezase
+ngp-jp-0051,2000-01-27,SNK GALS' FIGHTERS,SNK/夢工房,ngpc_only,NEOP00650,3800,税抜,,SNK GALS' FIGHTERS,Wikipedia+MADB+MAME,MAME,MADB,SNK GAL'S FIGHTERS,M742593,ngpc:snkgalsj
+ngp-jp-0052,2000-01-27,ポケットリバーシ,サクセス,ngpc_only,NEOP00790,2980,税抜,,ポケットリバーシ,Wikipedia+MADB+MAME,MAME,MADB,ポケットリバーシ,M756302,ngpc:pockrevj
+ngp-jp-0053,2000-02-10,神機世界エヴォリューション はてしないダンジョン,スティング/ESP,ngpc_only,NEOP00820,3800,税抜,,神機世界エヴォリューション,Wikipedia+MADB+MAME,MAME,MADB,神機世界エヴォリューション ～はてしないダンジョン～,M762948,ngpc:evolutnj
+ngp-jp-0054,2000-02-10,パチスロ アルゼ王国ポケット アステカ,アルゼ,ngpc_only,NEOP00740,3800,税抜,,アステカ (パチスロ),Wikipedia+MADB+MAME,MAME+MADB,MADB,パチスロ アルゼ王国ポケット AZTECA,M723957,ngpc:pslotazt
+ngp-jp-0055,2000-02-24,クールボーダーズ ポケット,ウェップシステム,ngpc_only,NEOP00750,3800,税抜,,クールボーダーズ,Wikipedia+MADB+MAME,MAME,MADB,クールボーダーズ ポケット,M747420,ngpc:coolboar
+ngp-jp-0056,2000-03-09,メタルスラッグ セカンドミッション,SNK/浮世亭,ngpc_only,NEOP00610,3980,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 2ND MISSION,M757559,ngpc:mslug2nd
+ngp-jp-0057,2000-03-09,コイコイ麻雀,ビスコ,ngpc_only,NEOP00910,3800,税抜,,コイコイ麻雀,Wikipedia+MADB+MAME,MAME,MADB,コイコイ麻雀,M748060,ngpc:koikoi
+ngp-jp-0058,2000-03-16,幕末浪漫特別編 月華の剣士 月に咲く華、散りゆく花,SNK/夢工房,ngpc_only,NEOP00640,3800,税抜,,月華の剣士,Wikipedia+MADB+MAME,MAME,MADB,幕末浪漫 特別編 月華の剣士 ～月に咲く花、散りゆく花～,M766185,ngpc:bakumats
+ngp-jp-0059,2000-03-16,パチスロ アルゼ王国ポケット ワードオブライツ,アルゼ,ngpc_only,NEOP00840,3800,税抜,,ワードオブライツ,Wikipedia+MADB+MAME,MAME,MADB,パチスロ アルゼ王国ポケット WARD OF LIGHTS,M753860,ngpc:pslotwrd
+ngp-jp-0060,2000-03-16,ビックリマン2000 ビバ!ポケットフェスチバァ!,セガトイズ,ngpc_only,NEOP00830,3800,税抜,,ビックリマン2000,Wikipedia+MADB+MAME,MAME,MADB,ビックリマン2000 ビバ! ポケットフェスチバァ!,M754668,ngpc:bikkuri
+ngp-jp-0061,2000-03-23,コットン,サクセス,ngpc_compatible,NEOP00800,3800,税抜,,コットン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,コットン,M748293,ngpc:cottonj
+ngp-jp-0062,2000-04-27,おえかきパズル,サクセス,ngpc_only,NEOP00810,2980,税抜,,おえかきパズル,Wikipedia+MADB+MAME,MAME,MADB,おえかきパズル,M746210,ngpc:oekakip
+ngp-jp-0063,2000-04-27,Memories Off Pure,キッド,ngpc_only,NEOP00870,4800,税抜,,Memories Offシリーズ,Wikipedia+MADB+MAME,MAME,MADB,Memories Off Pure,M740629,ngpc:memories
+ngp-jp-0064,2000-05-25,ソニック・ザ・ヘッジホッグ ポケットアドベンチャー,セガ/SNK,ngpc_only,NEOP00590,3800,税抜,,ソニック・ザ・ヘッジホッグ ポケットアドベンチャー,Wikipedia+MADB+MAME,MAME,MADB,ソニック・ザ・ヘッジホッグ ポケットアドベンチャー,M750634,ngpc:sonic
+ngp-jp-0065,2000-05-25,ダイナマイトスラッガー,ADK,ngpc_only,NEOP00710,3800,税抜,,ダイナマイトスラッガー,Wikipedia+MADB+MAME,MAME,MADB,ダイナマイトスラッガー,M750873,ngpc:dynaslug
+ngp-jp-0066,2000-06-06,ガンバレねおぽけくん(仮),SNK,ngpc_only,NEOP00970,3800,税抜,,ガンバレねおぽけくん(仮),Wikipedia,MAME,MADB,ガンバレねおぽけくん（仮）,M746988,ngpc:ganbaren
+ngp-jp-0067,2000-06-22,ネオ・バカラ,ダイナ,ngpc_compatible,,3800,税抜,,ネオ・バカラ,Wikipedia+MADB,,MADB,ネオ・バカラ,M753187,
+ngp-jp-0068,2000-06-22,伝説のオウガバトル外伝 ゼノビアの皇子,クエスト/SNK,ngpc_only,NEOP00850,3800,税抜,,伝説のオウガバトル外伝 ゼノビアの皇子,Wikipedia+MADB+MAME,MAME,MADB,伝説のオウガバトル外伝 ～ゼノビアの皇子～,M764646,ngpc:ogrebatl
+ngp-jp-0069,2000-07-06,ロックマン バトル&ファイターズ,カプコン,ngpc_compatible,NEOP00940,4800,税抜,,ロックマン・ザ・パワーバトル,Wikipedia+MADB,MAME,MADB,ロックマン バトル＆ファイターズ,M759098,ngpc:rockmanb
+ngp-jp-0070,2000-07-06,THE KING OF FIGHTERS バトルDEパラダイス,SNK,ngpc_only,NEOP00920,3800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,THE KING OF FIGHTERS バトル DE パラダイス,M743258,ngpc:kofpara
+ngp-jp-0071,2000-07-20,パチスロ アルゼ王国ポケット ポルカノ2,アルゼ,ngpc_only,NEOP01020,3800,税抜,,ポルカノ2,Wikipedia+MADB+MAME,MAME,MADB,パチスロ アルゼ王国ポケット PORCANO2,M753859,ngpc:pslotpc2
+ngp-jp-0072,2000-08-10,デルタワープ,イオシス,ngpc_only,NEOP01030,3800,税抜,,デルタワープ,Wikipedia+MADB+MAME,MAME,MADB,デルタワープ,M751987,ngpc:deltawrp
+ngp-jp-0073,2000-08-10,クルクルジャム,SNK,ngpc_only,NEOP01000,3800,税抜,,クルクルジャム,Wikipedia+MADB+MAME,MAME,MADB,COOL COOL JAM,M738121,ngpc:coolcoolj
+ngp-jp-0074,2000-10-26,パチスロ アルゼ王国ポケット デルソル2,アルゼ,ngpc_only,NEOP01070,3800,税抜,,デルソル2,Wikipedia+MADB,MAME+MADB,MADB,パチスロ アルゼ王国ポケット DELSOL2,M723632,ngpc:pslotds2
+ngp-jp-0075,2000-11-23,にげロンパ,電脳映像製作所,ngpc_only,NEOP00960,3800,税抜,,にげロンパ,Wikipedia+MADB+MAME,MAME,MADB,にげロンパ,M753027,ngpc:nigeronp
+ngp-jp-0076,2000-11-23,INFINITY Cure.,キッド,ngpc_only,NEOP01090,4800,税抜,,infinity (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,INFINITY cure.,M723587,ngpc:infinity
+ngp-jp-0077,2000-11-23,ビッグバンプロレス,SNK/夢工房,ngpc_only,NEOP00660,3800,税抜,,ビッグバンプロレス,Wikipedia+MADB+MAME,MAME,MADB,ビッグバンプロレス,M754664,ngpc:bigbang
+ngp-jp-0078,2000-12-14,パチスロ アルゼ王国ポケット 大花火,アルゼ,ngpc_only,NEOP01100,3800,税抜,,大花火,Wikipedia+MADB+MAME,MAME+MADB,MADB,パチスロ アルゼ王国ポケット 大花火,M723543,ngpc:pslotooh
+ngp-jp-0079,2001-01-15,パチスロ アルゼ王国ポケット ディーエイチ2,アルゼ,ngpc_only,NEOP01080,3800,税抜,,ディーエイチ2,Wikipedia,MAME+MADB,MADB,パチスロ アルゼ王国ポケット DH2,M723474,ngpc:pslotdk2
+ngp-jp-0080,2001-03-29,スーパーリアル麻雀 プレミアムコレクション,セタ/SNK,ngpc_only,NEOP01110,4250,税抜,,スーパーリアル麻雀,Wikipedia+MADB,MAME,MADB,スーパーリアル麻雀プレミアムコレクション,M749708,ngpc:srmp
+ngp-jp-0081,2001-03-29,パチスロ アルゼ王国ポケット イーカップ,アルゼ,ngpc_only,NEOP01120,3800,税抜,,イーカップ,Wikipedia+MADB,MAME+MADB,MADB,パチスロ アルゼ王国ポケット e-CUP,M723393,ngpc:pslotecp
+ngp-jp-0082,2001-09-13,SNK VS. CAPCOM カードファイターズ2 EXPAND EDITION,カプコン/SNK,ngpc_only,NEOP01160,4500,税抜,,SNK VS. CAPCOM 激突カードファイターズ,Wikipedia+MADB+MAME,MAME,MADB,SNK VS. CAPCOM カードファイターズ2 EXPAND EDITION,M742598,ngpc:svccard2

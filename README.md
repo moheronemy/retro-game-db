@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| ネオジオポケット／カラー (NGP/NGPC) | [`data/ngp/jp_titles.csv`](data/ngp/jp_titles.csv) | 82 | 79 | 82 | [`data/ngp/jp_rom_dumps.csv`](data/ngp/jp_rom_dumps.csv)（92 行） |
 | ワンダースワン／カラー (WS/WSC) | [`data/ws/jp_titles.csv`](data/ws/jp_titles.csv) | 202 | 200 | 181 | [`data/ws/jp_rom_dumps.csv`](data/ws/jp_rom_dumps.csv)（227 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
 
@@ -49,6 +50,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| NGP/NGPC | （未調査・0 件） | （0 件） | |
 | WS/WSC | [`jp_not_for_sale.csv`](data/ws/jp_not_for_sale.csv)（3 件） | （0 件） | 会場限定販売 [`jp_other.csv`](data/ws/jp_other.csv)（2 件） |
 | PS3 | （未調査・0 件） | （0 件） | 配信専用 [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件） |
 
@@ -828,6 +830,37 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## NGP/NGPC
+
+ネオジオポケット・ネオジオポケットカラーは 1 本のリストにまとめ、`compat` 列で区別する。`id` は `ngp-jp-<連番>`（発売順）。
+
+| `compat` | 種類 | 件数 |
+|---|---|---|
+| `ngp` | ネオジオポケット（モノクロ） | 9 |
+| `ngpc_compatible` | ネオジオポケットカラー対応 | 39 |
+| `ngpc_only` | ネオジオポケットカラー専用 | 34 |
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「ネオジオポケットのゲームタイトル一覧」の 3 つの表（日本 82 件。各節の発売年一覧の合計と一致。追加要素の無い廉価版は載っていない） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「ネオジオポケット」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/ngp.xml` / `hash/ngpc.xml` |
+| ハッシュ | No-Intro DAT（libretro 収録の SNK Neo Geo Pocket / Neo Geo Pocket Color） |
+
+- 型番は大文字にそろえた（MAME の `NeoP00010`、MADB の `NEOP00040` → `NEOP00010` の形）。型番が無いのは MAME に日本版の記録が無い
+  『どこでも麻雀』『ネオ・トゥエンティワン』『ネオ・バカラ』の 3 件。型番の形が全地域共通なので、MAME の海外だけの版（`(Europe, USA)` など）は照合に使わない。
+- MADB のネオジオポケットベストコレクション（廉価版）・限定BOX（本体同梱を含む）・キャンペーン版（KOF R-2、バイオモーター ユニトロン）は
+  行にせず、価格は通常版のもの（82 件。全て税抜）。限定版・キャンペーン版の扱いの調査は後回し。
+- 自動で照合できなかったもの（表記の違い、発売日の違い、限定スペシャルBOX が当たる『サムライスピリッツ!』など）は
+  `overrides/matches.csv` で手動対応した（13 件）。
+- 発売日は Wikipedia を採る。MADB・MAME と異なるものは要確認レポートに出す（11 件。『ベースボールスターズ』は Wikipedia がローンチタイトルとして
+  1998年10月28日、MADB・MAME は 1998年11月26日など）。
+- ダイヴ アラート（バーン編・レベッカ編）、カードファイターズ（SNK・CAPCOM サポーターズバージョン）は別タイトル。
+- 吸い出しは日本版と日本を含む共通版（`(Japan, Europe)`・`(World)`）。北米・欧州だけの版、配布経路の記録の無い `(Demo 1)`・`(Demo 2)`、
+  試作品は載せない。`v0B` などの版は `revision` 列。全 82 件に吸い出しがある。MAME と No-Intro で CRC が異なるものが多い
+  （フラッシュメモリの保存領域の違いとみられる）ため、17 件は名前で手動対応した（`overrides/dump_matches.csv`）。
+- 非売品の調査は後回し（Wikipedia に「非売品」節が無い）。発売されなかったタイトルは対象外。
+
 ## WS/WSC
 
 ワンダースワン・ワンダースワンカラーは 1 本のリストにまとめ、`compat` 列で区別する（スワンクリスタル専用のソフトは無い）。
@@ -948,6 +981,10 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py ngp
+python3 scripts/enrich.py ngp
+python3 scripts/build_dumps.py ngp
 
 python3 scripts/fetch_wikipedia_list.py ws
 python3 scripts/enrich.py ws

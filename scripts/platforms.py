@@ -427,6 +427,15 @@ def _sg_card_model(row):
     return next((c for c in row.get("_codes", []) if c.startswith("C-") and c != row.get("model_number")), "")
 
 
+def _ngp_models(text):
+    """ネオジオポケットの型番。MAME は 'NeoP00010'、MADB は 'NEOP00040' と書くので大文字にそろえる。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z0-9])NEOP\d{5}(?!\d)", (text or "").upper()):
+        if m.group(0) not in out:
+            out.append(m.group(0))
+    return out
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1023,6 +1032,33 @@ PLATFORMS = {
         "nointro_export_fallback": {"Sega - Master System - Mark III (DB Export)": "Sega - Master System - Mark III"},
         "dump_world": True,
         "tax_free_before": "1989-04-01",
+    },
+    # ネオジオポケット／ネオジオポケットカラー。compat 列で ngp（モノクロ）/ ngpc_compatible（カラー対応）/ ngpc_only（カラー専用）
+    "ngp": {
+        "name": "ネオジオポケット／ネオジオポケットカラー",
+        "dir": ROOT / "data" / "ngp",
+        "id_prefix": "ngp-jp",
+        "wikipedia": {"tables": [
+            {"page": "ネオジオポケットのゲームタイトル一覧", "section": "ネオジオポケットのタイトル",
+             "columns": ("jp", "title", "publisher", "notes"), "extra": {"compat": "ngp"}},
+            {"page": "ネオジオポケットのゲームタイトル一覧", "section": "ネオジオポケットカラー対応のタイトル",
+             "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs"), "extra": {"compat": "ngpc_compatible"}},
+            {"page": "ネオジオポケットのゲームタイトル一覧", "section": "ネオジオポケットカラー専用のタイトル",
+             "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs"), "extra": {"compat": "ngpc_only"}},
+        ]},
+        "extra_columns": ["compat"],
+        "madb_platforms": ["ネオジオポケット"],
+        "mame_lists": ["ngp", "ngpc"],
+        "mame_jp_models": _ngp_models,   # 日本を含む共通版 '(World)'
+        "models_from": _ngp_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルが無い
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": ["SNK - Neo Geo Pocket", "SNK - Neo Geo Pocket Color"],
+        "nointro_export": ["SNK - Neo Geo Pocket (DB Export)", "SNK - Neo Geo Pocket Color (DB Export)"],
+        "nointro_export_fallback": {"SNK - Neo Geo Pocket (DB Export)": "SNK - Neo Geo Pocket",
+                                    "SNK - Neo Geo Pocket Color (DB Export)": "SNK - Neo Geo Pocket Color"},
+        "dump_world": True,
     },
     # ワンダースワン／ワンダースワンカラー（スワンクリスタル専用ソフトは無い）。1本のリストにまとめ、compat 列で
     # ws（モノクロ）/ wsc_compatible（カラー対応）/ wsc_only（カラー専用）を区別する

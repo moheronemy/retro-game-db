@@ -241,6 +241,9 @@ def load_mame(lists, jp_models=None, all_japanese=()):
             if (lst not in all_japanese and not re.search(r"[(,] ?Japan[,)?]", desc) and "JPN" not in serial
                     and not (jp_models and jp_models(serial))):
                 continue
+            if (jp_models and not re.search(r"Japan|World", desc)
+                    and re.search(r"\([^()]*\b(?:USA|Europe|Asia|Korea|Brazil|Taiwan)\b[^()]*\)", desc)):
+                continue   # 型番の形が全地域共通の機種（ネオジオポケットの 'NeoP00930'）の海外だけの版
             if re.search(r"prototype|promo|demo|Kiosk|Hot Mario", desc, re.I):
                 continue  # 一般販売品ではないもの（非売品は別途扱う）
             if lst in all_japanese and re.search(r"\((?:Asia|Korea|Hong Kong)", desc):

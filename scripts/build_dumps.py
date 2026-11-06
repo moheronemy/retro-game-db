@@ -181,7 +181,8 @@ def dump_info(g, ref, mame):
     dates = sorted(s.find("details").get("d_date") for s in sources
                    if s.find("details") is not None and s.find("details").get("d_date"))
     rev = next((m.group(1) for t in tags for m in [re.fullmatch(r"Rev ([0-9A-Z]+)", t)] if m), None)
-    ver = next((t for t in tags if re.fullmatch(r"v\d+(\.\d+)*", t)), None)
+    # 'v1.01' のほか、ネオジオポケットカラーの 16 進 2 桁の版（'v0B'・'vA1'）
+    ver = next((t for t in tags if re.fullmatch(r"v\d+(\.\d+)*|v[0-9A-F]{2}", t)), None)
     dv = re.search(r"\((DV [\d, ]+)\)", name)   # ディスクシステムのディスクの版（例: DV 2）
     ver = ver or (dv.group(1) if dv else None)
     save = re.search(r'"Save Type":"([^"]*)"', arch.get("details") or "")
