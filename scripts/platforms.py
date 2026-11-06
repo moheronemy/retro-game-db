@@ -522,6 +522,17 @@ _X360_DERIVE = {
 }
 
 
+def _dc_models(text):
+    """ドリームキャストの型番。セガ 'HDR-0001'（'HADR-0092' も）、ライセンシー 'T-1201M'・'T-46701M'、セガのその他 '610-7055'。
+    Redump の枚数付き（'T-1210M-0'）からは型番だけを取る。"""
+    out = []
+    t = unicodedata.normalize("NFKC", text or "").upper()
+    for m in re.finditer(r"(?<![A-Z0-9-])(HA?DR-\d{4}|T-\d{4,5}M|610-\d{4})(?![0-9])", t):
+        if m.group(1) not in out:
+            out.append(m.group(1))
+    return out
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1219,6 +1230,30 @@ PLATFORMS = {
         "nointro_export": ["NEC - PC-FX (Redump)"],
         "nointro_export_fallback": {"NEC - PC-FX (Redump)": "redump:NEC - PC-FX"},
         "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # ドリームキャスト
+    "dc": {
+        "name": "ドリームキャスト",
+        "dir": ROOT / "data" / "dc",
+        "id_prefix": "dc-jp",
+        "wikipedia": {"tables": [{"page": "ドリームキャストのゲームタイトル一覧", "section": "発売されたタイトル",
+                                  "table_id": "softwarelist",
+                                  "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs")}]},
+        "madb_platforms": ["ドリームキャスト"],
+        "mame_lists": ["dc"],
+        "mame_jp_models": _dc_models,
+        "models_from": _dc_models,
+        "models_from_serial": _dc_models,
+        "code_of": lambda m: m or "",
+        "normalize_code": lambda c: (_dc_models(c) or [""])[0],
+        "dat_title_models": True,   # MADB・MAME で型番の決まらない行は Redump の題名とシリアルで補う
+        "nointro_dats": ["redump:Sega - Dreamcast"],
+        "nointro_export": ["Sega - Dreamcast (Redump)"],
+        "nointro_export_fallback": {"Sega - Dreamcast (Redump)": "redump:Sega - Dreamcast"},
+        "dump_world": True,
+        "tax_inclusive_from": "2004-04-01",
         "hash_source": "Redump",
         "media": "disc",
     },

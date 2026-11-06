@@ -39,7 +39,7 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      r"|Tech Demo|SDK.*|Hot Mario Campaign|Rewritable Cartridge|DS Expansion Cartridge"
                      r"|Possible Proto|Test Program|Special Version( \d+)?|NP"
                      r"|Club Nintendo|Not for Resale|Multiplayer|Save Data|Nintendo Game Seminar.*|DS Broadcast"
-                     r"|Taikenban( \d+)?|Tentou Taikenban|Tentou-you Taikenban|Jitsuen-you Sample|Special Taiken Disc|Movie Demo Disc|Demo Eizou"
+                     r"|Taikenban( \d+)?|Tentou Taikenban|Tentou-you Taikenban|Tentou-you Demo Movie|Jitsuen-you Sample|Special Taiken Disc|Movie Demo Disc|Demo Eizou"
                      r"|Club Nintendo Genteiban|Auto Demo|Enhancement Chip"
                      # FC: ファミコンボックス（ホテル等の業務用）、ファミリーベーシックのプログラム、景品・業務用ディスク、
                      # 非公式品（Hacker）、後年の書籍付録・配信版など
@@ -55,7 +55,7 @@ COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Co
                         r"|^PlayStation the Best.*|^PSone Books$|^Major Wave$|^Artdink Best Choice$|^Honkakuha de 1300$"
                         r"|^GameVillage The Best$|^Culture Publishers$|^Fukyuuban$|^PlayStation 2 the Best.*|^PlayStation 3 the Best.*")
 # GameCube: GC 用ソフトに収録された ROM（N64）
-ONLINE = re.compile(r"^(Sega Game Toshokan|Sega Channel)$")   # MD の通信配信版（ゲーム図書館・セガチャンネル）
+ONLINE = re.compile(r"^(Sega Game Toshokan|Sega Channel|@barai)$")   # DC の @barai はネットワーク経由の課金で遊ぶ版   # MD の通信配信版（ゲーム図書館・セガチャンネル）
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),
                 ("Third Party", "third_party"), ("DAT", "dat_only")]
 
@@ -82,7 +82,7 @@ def non_retail_category(name, tags):
         return None
     if any(t.startswith("Kiosk") for t in tags) or "DS Broadcast" in tags:
         return "store_demo"   # DS Broadcast は店頭の DS ステーションで配信された体験版
-    if {"Jitsuen-you Sample", "Tentou Taikenban", "Tentou-you Taikenban"} & set(tags) or name.startswith("Gekkan Nintendo Tentou Demo"):
+    if {"Jitsuen-you Sample", "Tentou Taikenban", "Tentou-you Taikenban", "Tentou-you Demo Movie"} & set(tags) or name.startswith("Gekkan Nintendo Tentou Demo"):
         return "store_demo"   # GC の店頭実演用サンプル・店頭体験版・月刊任天堂店頭デモ
     if "Demo" in tags and any(t.startswith("Spaceworld") for t in tags):
         return "event_demo"   # 任天堂スペースワールド等の展示会用

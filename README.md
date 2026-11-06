@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| ドリームキャスト (DC) | [`data/dc/jp_titles.csv`](data/dc/jp_titles.csv) | 497 | 481 | 411 | [`data/dc/jp_rom_dumps.csv`](data/dc/jp_rom_dumps.csv)（578 行） |
 | Xbox 360 | [`data/x360/jp_titles.csv`](data/x360/jp_titles.csv) | 699 | 58 | 571 | [`data/x360/jp_rom_dumps.csv`](data/x360/jp_rom_dumps.csv)（657 行） |
 | Xbox | [`data/xbox/jp_titles.csv`](data/xbox/jp_titles.csv) | 222 | 60 | 179 | [`data/xbox/jp_rom_dumps.csv`](data/xbox/jp_rom_dumps.csv)（214 行） |
 | 3DO | [`data/3do/jp_titles.csv`](data/3do/jp_titles.csv) | 214 | 208 | 200 | [`data/3do/jp_rom_dumps.csv`](data/3do/jp_rom_dumps.csv)（219 行） |
@@ -56,6 +57,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
 | Xbox 360 | （未調査・0 件） | （0 件） | ダウンロード専売 [`jp_download.csv`](data/x360/jp_download.csv)（24 件） |
 | Xbox | （未調査・0 件） | （0 件） | |
 | 3DO | （調査中・0 件） | （0 件） | |
@@ -842,6 +844,31 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## DC
+
+ドリームキャストとして日本で発売されたソフト（1998〜2007年）。`id` は `dc-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「ドリームキャストのゲームタイトル一覧」の表から、日本の発売日のある行（497 件。本文の年ごとの本数と一致。出典はセガハード大百科） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「ドリームキャスト」。670 件） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/dc.xml` |
+| ハッシュ | Redump DAT（libretro 収録の Sega - Dreamcast） |
+
+- 型番は表記のまま（セガ `HDR-0001`、ライセンシー `T-1201M`、セガのその他 `610-7055`）。MADB・MAME で決まらないものは Redump のレーベル面の
+  シリアルで補った（自動 25 件。手動は `overrides/matches.csv`）。Redump に同じ題名で型番が 2 つあるもの（初回限定版と通常版とみられる。
+  『シェンムーII』『パンドラの夢』など 13 件）は通常版を決められないので型番を空にし、吸い出しだけ名前で結びつけた（`overrides/dump_matches.csv`）。
+  型番は 481 件。
+- 価格は 411 件（MADB。2004年4月以降は総額表示）。ドリコレ（廉価版）・限定版・本体などとのセット・同梱版は行にしない。
+- 吸い出しは Redump のシリアル（＝型番）で結びつけ、495 件にある。日本版と日本を含む共通版。複数枚組は 1 行。`@barai`（ネットワーク経由の
+  課金で遊ぶ版。エターナルアルカディア・ハンドレッドソード）は `dump_kind` が `online`。吸い出しが無いのは『サクラ大戦』（2000年版）と
+  『パチンコの殿堂 CRエナジー』。
+- 店頭体験版（`Tentou Taikenban`・`Tentou-you Taikenban`・`Tentou-you Demo Movie`）は別リストの `store_demo`（22 件）。販売経路の記録の無い
+  体験版（`Taikenban`）は載せない。東京ゲームショウのディスク・ドリームパスポート・雑誌付録（ドリマガGD など）・トヨタの「ドリキャッチ」・
+  JRA PAT などの調査は後回し。
+- 非売品は Wikipedia の『ハローキティのガーデンパニック』（「Hello Kitty ドリームキャストセット」に付属。`bundled`）の 1 件。
+- 年齢区分は後回し。非ライセンスタイトル（2007年以降の同人・インディー）・発売されなかったタイトルは対象外。
+
 ## Xbox 360
 
 Xbox 360 のパッケージソフトとして日本で発売されたもの（2005〜2021年）。`id` は `x360-jp-<連番>`（発売順）。
@@ -1145,6 +1172,10 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py dc
+python3 scripts/enrich.py dc
+python3 scripts/build_dumps.py dc
 
 python3 scripts/fetch_wikipedia_list.py x360
 python3 scripts/fetch_wikipedia_list.py x360 --list download   # ダウンロード専売 → data/x360/jp_download.csv
