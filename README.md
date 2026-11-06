@@ -27,6 +27,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
 | カセットビジョン (CV) | [`data/cv/jp_titles.csv`](data/cv/jp_titles.csv) | 11 | 0 | 11 | （出典なし） |
+| スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 771 | 1,357 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（781 行） |
 | ドリームキャスト (DC) | [`data/dc/jp_titles.csv`](data/dc/jp_titles.csv) | 497 | 481 | 411 | [`data/dc/jp_rom_dumps.csv`](data/dc/jp_rom_dumps.csv)（578 行） |
@@ -862,6 +863,25 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - 型番・ハッシュは出典が無く空欄（カセットごとにマイコンを内蔵した作りで、MAME・No-Intro に記録が無い）。
 - 販売中止の『グランドチャンピオン』は対象外。
 
+## SCV
+
+エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売時期・通し番号・キャッチフレーズ | ja.wikipedia「スーパーカセットビジョン用ソフト」（表ではなく作品ごとの節。30 件で、本体の記事の「30タイトル」と一致） |
+| ハッシュ | No-Intro DAT（libretro 収録の Epoch - Super Cassette Vision） |
+
+- 作品ごとの節は `fetch_wikipedia_list.py` の `per_section`（節の見出しが題名、節の冒頭の「1984年7月発売」が発売時期）で読む。
+- 発売日は分かる精度（`YYYY-MM`、季節・範囲〈「1985年秋」「1985年末 - 1986年初頭ごろ」〉は最初の年、ドラゴンボールのみ日まで）で、
+  元の表記は `release_date_text`。『ベーシック入門』（BASIC 言語ソフト）は発売時期の記述が無く空欄。
+- `cassette_no` はカセットの通し番号（節の順番。記事の注記に「節の番号はゲームカセットの通し番号に合わせてある」とある）。
+- `catchphrase` は各カセットのキャッチフレーズ（記事にあるもの。25 件）。
+- 価格・型番は出典が無く空欄（MADB に項目が無く、MAME `hash/scv.xml` にも型番・発売日が無い）。
+- 吸い出しは全 30 件にある。MAME に日本語の題名が無いため、No-Intro の名前で手動対応した（`overrides/dump_matches.csv`）。
+  日本版と日仏共通版。フランスだけの版は載せない。
+- 発売中止の 3 作品は対象外。非売品の調査は後回し。
+
 ## VB
 
 バーチャルボーイとして日本で発売されたソフト（1995年）。`id` は `vb-jp-<連番>`（発売順）。
@@ -1232,6 +1252,10 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py scv  # 作品ごとの節の記事
+python3 scripts/enrich.py scv
+python3 scripts/build_dumps.py scv
 
 python3 scripts/fetch_wikipedia_list.py vb   # バーチャルボーイ（本体の記事の表）
 python3 scripts/enrich.py vb

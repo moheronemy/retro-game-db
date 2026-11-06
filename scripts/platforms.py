@@ -561,6 +561,20 @@ def _vb_models(text):
     return out
 
 
+def _scv_date(row):
+    """スーパーカセットビジョンの発売時期の表記（「1984年7月」「1985年秋」「1985年末 - 1986年初頭ごろ」「1986年9月27日」）を
+    分かる精度の日付にする。範囲・季節は最初の年。"""
+    t = row.get("release_date_text", "")
+    m = re.match(r"(\d{4})年(\d{1,2})月(\d{1,2})日", t)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}-{int(m.group(3)):02d}"
+    m = re.match(r"(\d{4})年(\d{1,2})月", t)
+    if m:
+        return f"{m.group(1)}-{int(m.group(2)):02d}"
+    m = re.match(r"(\d{4})年", t)
+    return m.group(1) if m else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1260,6 +1274,29 @@ PLATFORMS = {
         "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
         "hash_source": "Redump",
         "media": "disc",
+    },
+    # スーパーカセットビジョン（エポック社）。一覧の記事は作品ごとの節（表ではない）。cassette_no はカセットの通し番号
+    "scv": {
+        "name": "スーパーカセットビジョン",
+        "dir": ROOT / "data" / "scv",
+        "id_prefix": "scv-jp",
+        "wikipedia": {"tables": [{
+            "page": "スーパーカセットビジョン用ソフト", "section": "", "per_section": True,
+            "skip": ("未発売タイトル", "脚注"), "extra": {"publisher": "エポック社"},
+            "derive": {"release_date": _scv_date, "cassette_no": lambda r: r["no"]},
+        }]},
+        "extra_columns": ["release_date_text", "cassette_no", "catchphrase"],
+        "madb_platforms": [],
+        "mame_lists": ["scv"],
+        "mame_all_japanese": ["scv"],
+        "match_undated": 0.8,   # MAME に発売日が無い
+        "models_from": lambda t: [],
+        "models_from_serial": lambda s: [],
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": ["Epoch - Super Cassette Vision"],
+        "nointro_export": ["Epoch - Super Cassette Vision (DB Export)"],
+        "nointro_export_fallback": {"Epoch - Super Cassette Vision (DB Export)": "Epoch - Super Cassette Vision"},
     },
     # バーチャルボーイ（一覧の記事が無く、本体の記事の「ソフトウェア」節の表）。capacity は容量
     "vb": {

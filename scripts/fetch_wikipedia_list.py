@@ -319,6 +319,23 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
     return rows
 
 
+def parse_sections(text, skip=(), year_text=True):
+    """作品ごとに節がある記事（スーパーカセットビジョン用ソフト）を読む。節の見出しが題名、節の冒頭の「1984年7月発売」が発売時期。
+    節の順番を no 列に入れる（カセットの通し番号に合わせてあると記事の注記にある）。"""
+    rows = []
+    for m in re.finditer(r"^==\s*([^=].*?)\s*==\s*\n(.*)$", text, re.M):
+        title, first = m.group(1).strip(), m.group(2)
+        if title in skip:
+            continue
+        first = re.sub(r"<!--.*?-->", "", first)
+        d = re.match(r"(.{0,40}?)発売", plain(first))
+        catch = re.search(r"取扱説明書のタイトルには「([^」]*)」と添えられている", first)
+        rows.append({"release_date": "", "title": title, "publisher": "", "notes": "",
+                     "wikipedia_article": "", "release_date_text": d.group(1).strip() if d else "",
+                     "no": str(len(rows) + 1), "catchphrase": catch.group(1) if catch else ""})
+    return rows
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("platform")
@@ -347,6 +364,15 @@ def main():
     rows = []
     for t in wcfg["tables"]:
         page = t.get("page", wcfg.get("page"))
+        if t.get("per_section"):
+            got = parse_sections(texts[page], t.get("skip", ()))
+            for r in got:
+                r.update(t.get("extra") or {})
+                for col, fn in (t.get("derive") or {}).items():
+                    r[col] = fn(r)
+            print(f"  作品ごとの節: {len(got)} 件", file=sys.stderr)
+            rows += got
+            continue
         text = table_text(section(texts[page], t["section"]), t.get("table_id"))
         if t.get("strip_comments"):   # セルごとに <!--発売時期--> のような注記がある表（SG-1000）
             text = re.sub(r"<!--.*?-->", "", text, flags=re.S)

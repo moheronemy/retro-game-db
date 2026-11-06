@@ -1,0 +1,32 @@
+title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256,verification,source_count,first_dump_date,rom_chip,label_serial,pcb,save_type,nointro_number,mame_name,mame_status,hash_source,discs
+scv-jp-0001,アストロウォーズ,,"Astro Wars - Invaders from Space (Japan, France) (En)",0,retail,8192,2dbdb166,5c0a8b9e0ae3bdc62cf758c8de3c621c,53a9a308b6f0bcb2137704f70657698719551b5e,,dat_only,1,,,,,,,astrwrs,good,No-Intro,1
+scv-jp-0002,アストロウォーズII バトルインギャラクシー,,Astro Wars II - Battle in Galaxy (Japan) (En),0,retail,8192,34781de1,28b41f62cefae2524f6ae1b980d054d7,b419f2fccf3b2fbd360da2833064d2ea8bd6500b,,dat_only,1,,,,,,,astrwrs2,good,No-Intro,1
+scv-jp-0003,スーパーゴルフ,,Super Golf (Japan) (En),0,retail,16384,0c0581c9,734091f00d410fc4251f0aae7d47e4c1,2d3ab09907a4a9c5d66306f316c7211f498cbcc2,,dat_only,1,,,,,,,suprgolf,good,No-Intro,1
+scv-jp-0004,スーパー麻雀,,Real Graphic Mahjongg (Japan),0,retail,16384,d3d9106c,c9e1042402b5a0ff6f75b737fec8a08a,7190ff2944c1ffbde6866e720417b86b3844ffa2,,dat_only,1,,,,,,,rgmahjon,good,No-Intro,1
+scv-jp-0005,スーパーベースボール,,Super Baseball (Japan) (En),0,retail,16384,56f1c473,c800d70c4a1f9600407d8392b9455015,37a1dce6c1921950c588d6492cd1b57feb615175,,dat_only,1,,,,,,,baseball,good,No-Intro,1
+scv-jp-0006,パンチボーイ,,Punch Boy (Japan) (En),0,retail,16384,4107f03a,7c10f8df512ce0bbfad7505ccca88827,e7391c71ba7deede3db22191ea058ccf429d7bb5,,dat_only,1,,,,,,,punchboy,good,No-Intro,1
+scv-jp-0007,エレベーターファイト,,Elevator Fight (Japan) (En),0,retail,16384,72dd6031,3ac6b89ba13e57100d522921abb7319c,8b2c185408309ee1e75d40299c003041db17b133,,dat_only,1,,,,,,,elevfght,good,No-Intro,1
+scv-jp-0008,ルパン三世,,Lupin Sansei (Japan) (En),0,retail,16384,16d7eb4a,e1547118cf5a9e88825408f12550b890,62698c7c9d9723f74214626a4211a3c3f34e9dd5,,dat_only,1,,,,,,,lupin3,good,No-Intro,1
+scv-jp-0009,ネビュラ,,Nebula (Japan) (En),0,retail,16384,5e6a4caf,e86aab083fc9722f8a44b356139522c2,699eaf434e73a42e71adf52426b22f0dd85e2897,,dat_only,1,,,,,,,nebula,good,No-Intro,1
+scv-jp-0009,ネビュラ,,Nebula (Japan) (En) (Alt),0,retail,16384,efb4bdcd,ac629947980bbd14478c29c1645efa41,94a4b9a92d6f9a5f4a68721be4cc35920ca32628,,dat_only,1,,,,,,,nebulaa,good,No-Intro,1
+scv-jp-0010,ウィリーレーサー,,"Wheelie Racer (Japan, France) (En)",0,retail,16384,9d9b29db,ef4ab0300b9e056d1ba9873b63a1b6cf,479f767384e7b7bfe58eeadd67dbe642fe8a2fcf,,dat_only,1,,,,,,,wheelrcr,good,No-Intro,1
+scv-jp-0011,バルダーダッシュ,,Boulder Dash (Japan) (En),0,retail,16384,e045884c,4471a0938102c21a49635d3e4efb61bc,55942e5b7824314b072b7b40c6b72db0d5404189,,dat_only,1,,,,,,,bdash,good,No-Intro,1
+scv-jp-0012,マイナー2049,,Miner 2049er (Japan) (En),0,retail,16384,b0ffc6e2,f4a3f4f5a08a15ec62a32e959a528eac,0414878f4aedade180b273257497c1d11cdccb2f,,dat_only,1,,,,,,,mine2049,good,No-Intro,1
+scv-jp-0013,スーパーサッカー,,Super Soccer (Japan) (En),0,retail,16384,590eeefd,5cd60ad0a9bfb818db9c4e5accc05537,951ecd2a1d2e7d900c13e91ff028723a9df9e60e,,dat_only,1,,,,,,,soccera,good,No-Intro,1
+scv-jp-0014,コミックサーカス,,Comic Circus (Japan) (En),0,retail,16384,ea55faed,ec261a6208094fceb7a4f8cc60db24b4,2e4ceb2bf68d26c263c3d1c63f7e2143ef2355bc,,dat_only,1,,,,,,,comicirc,good,No-Intro,1
+scv-jp-0015,ルネ・ヴァン・ダールの星占い ミルキープリンセス,,Milky Princess (Japan) (En),0,retail,32768,b2457990,9449bddc1056d51c7147dc2e6329d2ed,b6234f99e474abd87a22a4b691b66bcb12e664cb,,dat_only,1,,,,,,,milkyprn,good,No-Intro,1
+scv-jp-0016,ポップ&チップス,,Pop & Chips (Japan) (En),0,retail,32768,cc4fb04d,e2488c33d92ef9985e6b62b45644303c,5979abd6051d531eafe1ea3b37c97ce2e3e97f8e,,dat_only,1,,,,,,,popchips,good,No-Intro,1
+scv-jp-0017,熱血カンフーロード,,Kung Fu Road (Japan) (En),0,retail,8192,a895375a,4b2f0e32943ed64561a03e267d6f3fd9,644ab7c7fb85d0d80aa3a416b0a5359d395e48a3,,dat_only,1,,,,,,,kungfurd,good,No-Intro,1
+scv-jp-0018,スタースピーダー,,Star Speeder (Japan) (En),0,retail,8192,7978c4a6,19c339d88cef61bde7048409828a42e7,6bb5ff3946867fa7adb6561dc084ef5a7a92c507,,dat_only,1,,,,,,,starspdr,good,No-Intro,1
+scv-jp-0019,トントンボール,,Ton Ton Ball (Japan) (En),0,retail,16384,7f873bfa,622cbb0451fbf82b9b7834c5ca589443,093235ac2234c4c4e78a2addaab780d7a2cbe004,,dat_only,1,,,,,,,ttball,good,No-Intro,1
+scv-jp-0020,スーパーサンスーピューター,,Sansupyuta (Japan) (En),0,retail,32768,6e7e01b5,05f2b3b1a5e450c8ead224c3ebf5b75f,dc05257c831cffa5ec66302c88e1d45a92c6dc9c,,dat_only,1,,,,,,,sansupyu,good,No-Intro,1
+scv-jp-0021,将棋入門,,Shougi Nyuumon (Japan),0,retail,32768,84005c4c,b248fff8526d5c3cfba82a6e036815ca,bd6681013dbbae94c03e501932836db07943468e,,dat_only,1,,,,,,,shogi,good,No-Intro,1
+scv-jp-0022,ドラえもん,,Doraemon (Japan) (En),0,retail,32768,d2de91a6,3ac9c39b019a81fabb1e26f75292827c,6aba5ee3d08afad222bec9a176c2607829fa5cc6,,dat_only,1,,,,,,,doraemon,good,No-Intro,1
+scv-jp-0023,ベーシック入門,,Basic Nyuumon (Japan) (En),0,retail,32768,ca965c2b,6da4e79f9dd60abe222ae8f95023ad48,c68e2b81dec2c83e2aa5626c8df4011eada45245,,dat_only,1,,,,,,,basic,good,No-Intro,1
+scv-jp-0024,ドラゴンスレイヤー,,Dragon Slayer (Japan) (En),0,retail,32768,5971940f,9c688c8f43b142a84b90181d717df6d2,c6e67e05d365fa81d3d9a3ad66d41bfeb1c3dd0d,,dat_only,1,,,,,,,dslayer,good,No-Intro,1
+scv-jp-0025,乱闘プロレス,,Professional Wrestling (Japan) (En),0,retail,131072,5b1fb2a8,44d432cb0093a1992beb806a68e7aaad,55fe356c04ce3db83cb3148d867cc8b8060cbb48,,dat_only,1,,,,,,,prowrest,good,No-Intro,1
+scv-jp-0026,ワイワイモンスターランド,,Wai Wai Monster Land (Japan) (En),0,retail,131072,3ac28fe0,64d6268aebabedb1552c2cd565ec32a7,5ae7796ad35a7c537de11ebd3cfe3868d67235a1,,dat_only,1,,,,,,,y2mnstld,good,No-Intro,1
+scv-jp-0027,ドラゴンボール ドラゴン大秘境,,Dragon Ball - Dragon Dai Hikyou (Japan) (En),0,retail,131072,ea251664,6d11d49390d0946501b39d9f9688ae9d,bd3791ed43a2019a255152e3fc0d8a663cb9567a,,dat_only,1,,,,,,,dball,good,No-Intro,1
+scv-jp-0028,マッピー,,Mappy (Japan) (En),0,retail,32768,605829bb,801619e946eb962fe13f4582751c7588,70dc025ab3f32e18fd6f373dc47c9aa7fb9d48f0,,dat_only,1,,,,,,,mappy,good,No-Intro,1
+scv-jp-0029,スカイキッド,,Sky Kid (Japan) (En),0,retail,65536,f49f2085,9b6dd35dd278bcfaa98d4ecf531654cf,7342fe10d38c79ed12fbfa94b5fd4bf1266c2571,,dat_only,1,,,,,,,skykid,good,No-Intro,1
+scv-jp-0030,ポールポジションII,,Pole Position II (Japan) (En),0,retail,131072,cb69903d,78249cfb10962347a8001ba102992503,472900d7b7fa6cdf30014731dcc925ef5ca65499,,dat_only,1,,,,,,,polepos2,good,No-Intro,1
