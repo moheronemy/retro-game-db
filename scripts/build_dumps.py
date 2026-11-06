@@ -53,7 +53,7 @@ COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Co
                         r"|^Game & Watch - Super Mario Bros\.$|^Evercade$|^Retro-Bit$|^Disney Classic Games$"
                         r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Sega 3D Classics$|^Mega 6$|^PC Engine Mini$|^Satakore$"
                         r"|^PlayStation the Best.*|^PSone Books$|^Major Wave$|^Artdink Best Choice$|^Honkakuha de 1300$"
-                        r"|^GameVillage The Best$|^Culture Publishers$|^Fukyuuban$|^PlayStation 2 the Best.*|^PlayStation 3 the Best.*")
+                        r"|^GameVillage The Best$|^PSP [Tt]he Best$|^Rockstar Classics$|^Culture Publishers$|^Fukyuuban$|^PlayStation 2 the Best.*|^PlayStation 3 the Best.*")
 # GameCube: GC 用ソフトに収録された ROM（N64）
 ONLINE = re.compile(r"^(Sega Game Toshokan|Sega Channel|@barai)$")   # DC の @barai はネットワーク経由の課金で遊ぶ版   # MD の通信配信版（ゲーム図書館・セガチャンネル）
 VERIFICATION = [("Trusted Dump", "trusted_dump"), ("Trusted Modification", "trusted_modification"),

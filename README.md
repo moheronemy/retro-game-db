@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 771 | 1,357 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（781 行） |
 | ドリームキャスト (DC) | [`data/dc/jp_titles.csv`](data/dc/jp_titles.csv) | 497 | 481 | 411 | [`data/dc/jp_rom_dumps.csv`](data/dc/jp_rom_dumps.csv)（578 行） |
 | Xbox 360 | [`data/x360/jp_titles.csv`](data/x360/jp_titles.csv) | 699 | 58 | 571 | [`data/x360/jp_rom_dumps.csv`](data/x360/jp_rom_dumps.csv)（657 行） |
 | Xbox | [`data/xbox/jp_titles.csv`](data/xbox/jp_titles.csv) | 222 | 60 | 179 | [`data/xbox/jp_rom_dumps.csv`](data/xbox/jp_rom_dumps.csv)（214 行） |
@@ -57,6 +58,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
 | Xbox 360 | （未調査・0 件） | （0 件） | ダウンロード専売 [`jp_download.csv`](data/x360/jp_download.csv)（24 件） |
 | Xbox | （未調査・0 件） | （0 件） | |
@@ -844,6 +846,29 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## PSP
+
+PlayStation Portable のパッケージ（UMD）ソフトとして日本で発売されたもの（2004〜2016年）。`id` は `psp-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・DL 欄 | ja.wikipedia「PlayStation Portableのゲームタイトル一覧」の表から、日本の発売日のある行（1,564 件。うちパッケージ 1,460 件で、本文の表と一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「プレイステーション・ポータブル」の媒体「UMD」。2,621 件） |
+| ハッシュ | Redump DAT（libretro 収録の Sony - PlayStation Portable。UMD） |
+
+- 本リストはパッケージの 1,460 件。「DL」欄が ▲・△ の配信専用 104 件は別リスト `jp_download.csv`（`--list download`。ハッシュは後回し）。
+- `vita_compat` は PS Vita で遊べる（DL 欄の ●・○。774 件）、`umd_passport` は UMD Passport 対応（●。381 件）。
+- 型番は表記のまま（`ULJM-05001`・`ULJS-00001`・`UCJS-10001` など。MADB の `ULJM 05001` もそろえる）。MADB の型番は約 300 件なので、
+  Redump の題名とシリアルで補った（日本語の題名をローマ字にして 0.75 以上似ていてほかに候補の無いもの 473 件。確認した範囲で誤りは無かった）。
+  型番は 771 件で、無いものは許容（合意済み。手動の対応はしていない）。
+- 価格は 1,357 件（MADB。総額表示）。the Best・限定版・本体同梱版・パックは行にしない。
+- 吸い出しは Redump のシリアル（＝型番）で結びつけ、753 件にある（型番の無いタイトルには付かない）。日本版と日本を含む共通版
+  （`(Japan, Asia)`・`(Japan, Korea)` など）。`v1.01` などは `revision` 列。`PSP the Best`・`Rockstar Classics` は `collection`。
+  マイク同梱などの `Doukonban` は同じタイトル。販売経路の記録の無い `Taikenban` は載せない。
+- 非売品は Wikipedia の『みんなのGOLF ポータブル コカ・コーラ スペシャル エディション』（Coke Style キャンペーンで 1,300 人に配布。`prize`。吸い出しあり）。
+  No-Intro（配信版）の店頭デモ（`Kiosk Demo`）などは後回し。
+- CERO の年齢区分は後回し。発売されなかったタイトルは対象外。
+
 ## DC
 
 ドリームキャストとして日本で発売されたソフト（1998〜2007年）。`id` は `dc-jp-<連番>`（発売順）。
@@ -1172,6 +1197,11 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py psp
+python3 scripts/fetch_wikipedia_list.py psp --list download   # 配信専用 → data/psp/jp_download.csv
+python3 scripts/enrich.py psp
+python3 scripts/build_dumps.py psp
 
 python3 scripts/fetch_wikipedia_list.py dc
 python3 scripts/enrich.py dc

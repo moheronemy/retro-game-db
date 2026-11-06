@@ -169,7 +169,10 @@ def main():
         entries = []
         for name in cfg["nointro_dats"]:
             for block in C.nointro_dat_text(name).split("game (")[1:]:
-                gname = re.search(r'name "([^"]+)"', block).group(1)
+                gm = re.search(r'name "([^"]+)"', block)
+                if not gm:
+                    continue
+                gname = gm.group(1)
                 if not re.search(r"\((?:[^()]*, )?(?:Japan|World)(?:, [^()]*)?\)", gname):
                     continue
                 serials = [m for s_ in re.findall(r'serial "([^"]+)"', block) for m in models_from(s_)]
@@ -178,7 +181,8 @@ def main():
                     entries.append({"key": serials[0], "serials": serials, "titles": [title], "date": "", "label": gname})
         used_models = {r["model_number"] for r in rows if r["model_number"]}
         no_model = [r for r in rows if not r["model_number"]]
-        m_dt = psxdc.match(no_model, entries, used_models, by_date=False)
+        m_dt = psxdc.match(no_model, entries, used_models, by_date=False,
+                           strict_sim=cfg.get("dat_title_sim", 0.85))   # 機種ごとに調整（PSP は 0.75 でも誤りが無かった）
         for r in no_model:
             hit = m_dt.get(r["_i"])
             if hit:

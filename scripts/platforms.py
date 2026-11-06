@@ -533,6 +533,24 @@ def _dc_models(text):
     return out
 
 
+def _psp_models(text):
+    """PSP の日本版の型番（'ULJM-05001'・'ULJS-00001'・'UCJS-10001'・'UCJM'・'UCJB'・'UCJX' など）。MADB の 'ULJM 05001'・'ULJM05001'
+    もそろえる。日本・アジア共通の UMD に並ぶアジア版の型番（'ULAS-'・'UCAS-'）、配信版（'NPJH-'）は採らない。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z])(U[CL]J[A-Z])[- ]?(\d{5})(?!\d)", unicodedata.normalize("NFKC", text or "").upper()):
+        code = f"{m.group(1)}-{m.group(2)}"
+        if code not in out:
+            out.append(code)
+    return out
+
+
+_PSP_COLUMNS = ("jp", "na", "eu", "title", "publisher", "dl", "notes", "refs")
+_PSP_DERIVE = {
+    "vita_compat": lambda r: "yes" if re.search(r"[●○▲]", r.get("dl", "")) else "",   # PS Vita で遊べる
+    "umd_passport": lambda r: "yes" if "●" in r.get("dl", "") else "",
+}
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1230,6 +1248,41 @@ PLATFORMS = {
         "nointro_export": ["NEC - PC-FX (Redump)"],
         "nointro_export_fallback": {"NEC - PC-FX (Redump)": "redump:NEC - PC-FX"},
         "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # PSP。本リストはパッケージ（UMD）。配信専用（「DL」欄の ▲・△）は別リスト jp_download.csv（--list download）
+    "psp": {
+        "name": "PlayStation Portable",
+        "dir": ROOT / "data" / "psp",
+        "id_prefix": "psp-jp",
+        "wikipedia": {"tables": [{
+            "page": "PlayStation Portableのゲームタイトル一覧", "section": "発売されたタイトル", "table_id": "softwarelist",
+            "columns": _PSP_COLUMNS, "row_filter": lambda r: not re.search(r"[▲△]", r.get("dl", "")), "derive": _PSP_DERIVE}]},
+        "extra_lists": {
+            "download": {
+                "out": "jp_download.csv",
+                "id_suffix": "dl",
+                "tables": [{"page": "PlayStation Portableのゲームタイトル一覧", "section": "発売されたタイトル",
+                            "table_id": "softwarelist", "columns": _PSP_COLUMNS,
+                            "row_filter": lambda r: bool(re.search(r"[▲△]", r.get("dl", ""))), "derive": _PSP_DERIVE}],
+            },
+        },
+        "extra_columns": ["vita_compat", "umd_passport"],
+        "madb_platforms": ["プレイステーション・ポータブル"],
+        "madb_filter": lambda x: x["media_format"] == "UMD",
+        "mame_lists": [],
+        "models_from": _psp_models,
+        "models_from_serial": _psp_models,
+        "code_of": lambda m: m or "",
+        "normalize_code": lambda c: (_psp_models(c) or [""])[0],
+        "dat_title_models": True,   # MADB で型番の決まらない行は Redump の題名とシリアルで補う（決まらないものは許容）
+        "dat_title_sim": 0.75,
+        "nointro_dats": ["redump:Sony - PlayStation Portable"],
+        "nointro_export": ["Sony - PlayStation Portable (Redump)"],
+        "nointro_export_fallback": {"Sony - PlayStation Portable (Redump)": "redump:Sony - PlayStation Portable"},
+        "dump_world": True,
+        "tax_inclusive_from": "2004-04-01",
         "hash_source": "Redump",
         "media": "disc",
     },
