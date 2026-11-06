@@ -1,0 +1,17 @@
+id,release_date,title,publisher,model_number,mame_serial,release_date_sources,mame_name
+pippin-jp-sys-0001,1996,Pippin Navigator CD,バンダイ,BDB-001,BDB-001 (Disk 6 vol.1),MAME（年のみ）,navcd
+pippin-jp-sys-0002,1996,Pippin Network CD,バンダイ,BDB-002,BDB-002 (Disk 6 vol.1),MAME（年のみ）,netcd
+pippin-jp-sys-0003,1996,TV Works - Word Paint Mail（Ver. 1.0）,バンダイ,BDB-003,BDB-003 (Disk 6 vol.1),MAME（年のみ）,tvworks
+pippin-jp-sys-0004,1996,Internet Kit,バンダイ,BDB-004,BDB-004 (Disk 6 vol.1),MAME（年のみ）,interkit
+pippin-jp-sys-0005,1996,アットマークタウン（Ver. 1.0）,バンダイ,BDB-005,BDB-005 (Disk 6 vol.1),MAME（年のみ）,atmtown
+pippin-jp-sys-0006,1996,Franky Online,バンダイ,BDB-006,BDB-006 (Disk 6 vol.1),MAME（年のみ）,franky
+pippin-jp-sys-0007,1996,Pippin Title CD-ROM Catalog: Vol. I: 1996.3,バンダイ,BDB-007,BDB-007,MAME（年のみ）,catalog
+pippin-jp-sys-0008,1996,Pippin Navigator CD（Ver. 1.1）,バンダイ,BDB-008,BDB-008 (Disk 4 vol.1),MAME（年のみ）,navcd11
+pippin-jp-sys-0009,1996,TV Works（Ver. 2.0）,バンダイ,BDB-009,BDB-009 (Disk 4 vol.1),MAME（年のみ）,tvwrks2
+pippin-jp-sys-0010,1996,Pippin Network CD（Ver. 2.0）,バンダイ,BDB-011,BDB-011 (Disk 4 vol.1),MAME（年のみ）,netcd2
+pippin-jp-sys-0011,1996,Internet Kit（Ver. 2.0）,バンダイ,BDB-012,BDB-012 (Disk 6 vol.1.1),MAME（年のみ）,interkt2
+pippin-jp-sys-0012,1996,TV Works（Ver. 2.1）,バンダイ,BDB-013,BDB-013 (Disk 6 vol.1.1),MAME（年のみ）,tvwrks21
+pippin-jp-sys-0013,1996,Pippin Network CD（Ver. 2.1）,バンダイ,BDB-014,BDB-014 (Disk 6 vol.1.1),MAME（年のみ）,netcd21
+pippin-jp-sys-0014,1996,TV Works（Ver. POP）,バンダイ,BDB-020,BDB-020,MAME（年のみ）,tvwrksp
+pippin-jp-sys-0015,1996,アットマークタウン（Ver. 2.0）,バンダイ,BDB-022,BDB-022,MAME（年のみ）,atmtown2
+pippin-jp-sys-0016,1996,WebViewer With Microsoft Internet Explorer 3.0 for Macintosh,,BDB-026,BDB-026,MAME（年のみ）,webview

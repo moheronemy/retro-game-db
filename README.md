@@ -28,6 +28,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
 | カセットビジョン (CV) | [`data/cv/jp_titles.csv`](data/cv/jp_titles.csv) | 11 | 0 | 11 | （出典なし） |
 | プレイディア | [`data/playdia/jp_titles.csv`](data/playdia/jp_titles.csv) | 33 | 33 | 0 | （出典なし） |
+| ピピンアットマーク | [`data/pippin/jp_titles.csv`](data/pippin/jp_titles.csv) | 52 | 50 | 0 | [`data/pippin/jp_rom_dumps.csv`](data/pippin/jp_rom_dumps.csv)（54 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 826 | 1,364 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（848 行） |
@@ -63,6 +64,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
 | プレイディア | [`jp_not_for_sale.csv`](data/playdia/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/playdia/jp_non_retail.csv)（店頭販促用 1 件） | |
+| ピピンアットマーク | （未調査・0 件） | （0 件） | 本体同梱・通信用ディスク [`jp_system_discs.csv`](data/pippin/jp_system_discs.csv)（16 件。吸い出し [`jp_system_discs_rom_dumps.csv`](data/pippin/jp_system_discs_rom_dumps.csv) 19 行） |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -882,6 +884,33 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストの `store_demo`（どちらも手で管理）。経路の記述の無い 4 件は後回し。
 - 業務用の「みちゃ王」用ディスクは対象外。
 
+## ピピンアットマーク
+
+バンダイ・デジタル・エンタテインメントと Apple のピピンアットマーク（1996年発売）用のソフト。`id` は `pippin-jp-<連番>`（発売年 → 型番の順。
+発売年の分からないものは最後）。`scripts/build_pippin.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・型番・発売年・発売元・ハッシュ | MAME ソフトウェアリスト `hash/pippin.xml`（日本版の製品版 50 件。CHD の sha1） |
+| タイトル・ジャンル（補助） | ja.wikipedia「ピピンアットマーク」の「対応ソフト」（23 件。最後が「ほか」で全件ではない） |
+
+- **全件ではない**。MADB に機種が無く、Wikipedia の一覧も一部だけなので、MAME と Wikipedia を合わせた 52 件にとどまる。型番の番号
+  （`BDE-10003`〜`BDE-10038`、`BDS-20001`〜`BDS-20033` など）には欠番が 25 あり（BDE 15・BDS 10）、出典に無いタイトルがあるとみられるが、推測では埋めない。
+- 本リストは製品版（型番 `BDE-…`〈バンダイ〉・`BDS-…`〈他社〉）。ゲームに限らず実用・教育・写真集なども含める（合意済み）。
+  Wikipedia にだけあって MAME に無い 2 件（『LULU』『ごきげんママのおまかせダイアリー』）は、発売年・型番なしで載せた。
+- 題名は MAME の日本語題（`alt_title`）、無いものは Wikipedia の表記。どちらにも無い 4 件（『Post de Card Light』『Yellows』『L-Zone』『Gadget』）は
+  MAME の英字の題名のまま（`notes` に記載）。`title_source` が題名の出典、`in_wikipedia` は Wikipedia の一覧にあるもの。
+- 発売日は MAME の年だけ（`release_date` が `1996` のような年。合意済み）。『たまごっち CD-ROM』は MAME に「1997-08-08?」とあるので `notes` に記した。
+- 型番は MAME の serial のまま。2 枚組の『ビクトリアンパーク』は 1 枚目の型番（`BDE-10004-1`）。
+- 発売元は MAME の英字表記を、社名が明らかなもの（バンダイ・ボイジャー・アミューズ・アスク講談社・シナジー幾何学・デジタローグ・メディアファイブ・
+  エレクトロニック・アーツ・ビクター）だけ日本語にした。ほかは MAME の表記のまま（`Oracion`・`ASG` など）。
+- 価格は出典が無く空欄（合意済み）。`genre` は Wikipedia の一覧の括弧書き（載っているものだけ）。
+- 吸い出しは MAME の CHD の sha1。別版（alt・Ver.）は吸い出し一覧の別の行（タイトルの行は増やさない）。libretro の Redump DAT にピピンは無い。
+- 型番 `BDB-…` の系列（Navigator CD・Network CD・TV Works・Internet Kit・アットマークタウン・Franky Online・カタログ・WebViewer）は
+  本体同梱・通信用のディスクとして別リスト `jp_system_discs.csv`（版ごとに型番が違うので版ごとに 1 行。16 件）。
+- 載せないもの: 米国版・試作品・SDK、`MUJ-…`（『Mac Bin』3 枚。雑誌付録とみられるが出典で確認できない）、`PEASE…`（MAKI Enterprise の 2 件。
+  販売経路が分からない）。非売品は未調査。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1351,6 +1380,8 @@ python3 scripts/build_dumps.py sms
 
 python3 scripts/fetch_wikipedia_list.py playdia   # 本体の記事の表（1段下の見出し）
 python3 scripts/enrich.py playdia
+
+python3 scripts/build_pippin.py                # ピピンアットマーク（MAME hash/pippin.xml ＋ Wikipedia の記事）→ data/pippin/
 
 python3 scripts/fetch_wikipedia_list.py scv  # 作品ごとの節の記事
 python3 scripts/enrich.py scv

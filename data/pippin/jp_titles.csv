@@ -1,0 +1,53 @@
+id,release_date,title,publisher,genre,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,title_source,in_wikipedia,mame_name
+pippin-jp-0001,1996,フォルチュリア,バンダイ,,BDE-10003,,,,,MAME（年のみ）,MAME,MAME,,fortulia
+pippin-jp-0002,1996,ビクトリアンパーク,バンダイ,エンタテインメント,BDE-10004-1,,,"2 枚組（BDE-10004-1,BDE-10004-2）",,MAME（年のみ）,MAME,MAME,yes,victorp
+pippin-jp-0003,1996,チューニングルー,バンダイ,音楽,BDE-10005,,,,,MAME（年のみ）,MAME,MAME,yes,tunglue
+pippin-jp-0004,1996,シーソーシー1,Aigaareba Daijoubu,エデュテインメント,BDE-10006,,,,,MAME（年のみ）,MAME,MAME,yes,seesawc1
+pippin-jp-0005,1996,森高千里CD-ROM 渡良瀬橋,Oracion,音楽,BDE-10007,,,,森高千里,MAME（年のみ）,MAME,MAME,yes,chisatom
+pippin-jp-0006,1996,ガンダムタクティクス モビリティーフリート0079,バンダイ,シミュレーション,BDE-10008,,,,GUNDAM TACTICS MOBILITY FLEET0079,MAME（年のみ）,MAME,MAME,yes,gundtact
+pippin-jp-0007,1996,アンパンマンとあそぼう！1,バンダイ,エンタテイメント,BDE-10009,,,,アンパンマン,MAME（年のみ）,MAME,MAME,yes,anpanas1
+pippin-jp-0008,1996,SDウルトラマンの挑戦！ 迷路アイランド,バンダイ,,BDE-10010,,,,,MAME（年のみ）,MAME,MAME,,sdultram
+pippin-jp-0009,1996,アンパンマンのあいうえお～ん！,バンダイ,エンタテイメント,BDE-10015,,,,,MAME（年のみ）,MAME,MAME,yes,anpanain
+pippin-jp-0010,1996,SD ガンダム ウォーズ,バンダイ,シミュレーション,BDE-10017,,,,,MAME（年のみ）,MAME,MAME,yes,sdgundam
+pippin-jp-0011,1996,アニメデザイナー ドラゴンボールZ,バンダイ,エンタテインメント,BDE-10019,,,,,MAME（年のみ）,MAME,MAME,yes,animedbz
+pippin-jp-0012,1996,EGWORD PURE for Pippin,,実用,BDE-10021,,,,EGWORD,MAME（年のみ）,MAME,Wikipedia,yes,egwordp
+pippin-jp-0013,1996,シーソーシー2,Aigaareba Daijoubu,,BDE-10023,,,,,MAME（年のみ）,MAME,MAME,,seesawc2
+pippin-jp-0014,1996,Post de Card Light,バンダイ,,BDE-10028,,,日本語の題名が出典に無いので MAME の題名,,MAME（年のみ）,MAME,MAME,,postcard
+pippin-jp-0015,1996,ガンダムバーチャルモデラーライト,バンダイ,デジタルホビー,BDE-10029,,,,,MAME（年のみ）,MAME,MAME,yes,gundamvm
+pippin-jp-0016,1996,GUNDAM 0079 THE WAR FOR EARTH,バンダイ,シミュレーション,BDE-10030,,,,GUNDAM 0079 THE WAR FOR EARTH,MAME（年のみ）,MAME,Wikipedia,yes,gundamwe
+pippin-jp-0017,1996,機動戦士ガンダム 第13独立部隊 ホワイトベース,バンダイ,シミュレーション,BDE-10031,,,,,MAME（年のみ）,MAME,MAME,yes,gundamwb
+pippin-jp-0018,1996,ズッコケ三人組 ～ドラマ殺人事件～,バンダイ,,BDE-10032,,,,,MAME（年のみ）,MAME,MAME,,zukkoke
+pippin-jp-0019,1996,機動戦士ガンダム ジオン軍ミリタリーファイル,バンダイ,デジタルホビー,BDE-10038,,,,,MAME（年のみ）,MAME,MAME,yes,gundamzd
+pippin-jp-0020,1996,レーシング・デイズ フォー ピピン,バンダイ,レーシング,BDE-20008,,,,,MAME（年のみ）,MAME,MAME,yes,racingd
+pippin-jp-0021,1996,ウルトラマン デジタルボードゲーム,バンダイ,,BDE-70002,,,,ウルトラマン,MAME（年のみ）,MAME,MAME,yes,ultraman
+pippin-jp-0022,1996,アンパンマンとあそぼう！2,バンダイ,エンタテイメント,BDE-70016,,,,,MAME（年のみ）,MAME,MAME,yes,anpanas2
+pippin-jp-0023,1996,アクションデザイナー ウルトラマンティガ,バンダイ,,BDE-70018,,,,,MAME（年のみ）,MAME,MAME,,actdesu
+pippin-jp-0024,1996,ウルトラマンクイズ王,バンダイ,,BDE-70020,,,,,MAME（年のみ）,MAME,MAME,yes,ultramaq
+pippin-jp-0025,1996,はしってあそぼう！きかんしゃトーマス,バンダイ,,BDE-70024,,,,,MAME（年のみ）,MAME,MAME,,thomas
+pippin-jp-0026,1996,Yellows - Akira Gomi Photographs,デジタローグ,,BDS-20001,,,日本語の題名が出典に無いので MAME の題名,,MAME（年のみ）,MAME,MAME,,yellows
+pippin-jp-0027,1996,イエローズ 2.0,デジタローグ,,BDS-20002,,,,,MAME（年のみ）,MAME,MAME,,yellws2
+pippin-jp-0028,1996,キッズ・ボックス,アスク講談社,,BDS-20003,,,,,MAME（年のみ）,MAME,MAME,,kidsbox
+pippin-jp-0029,1996,1995.1.17 阪神大震災,Keikakudo,,BDS-20005,,,,,MAME（年のみ）,MAME,MAME,,hanshind
+pippin-jp-0030,1996,MUSIC ISLAND プロコフィエフ ピーターと狼 PETER AND THE WOLF,Oracion,,BDS-20007,,,,,MAME（年のみ）,MAME,MAME,,music1
+pippin-jp-0031,1996,トロピック アイランド,Momoderazu Brand,,BDS-20011,,,,,MAME（年のみ）,MAME,MAME,,tropicis
+pippin-jp-0032,1996,学校のコワイうわさ 花子さんがきた!!,アミューズ,,BDS-20012,,,,,MAME（年のみ）,MAME,MAME,,gakkoku
+pippin-jp-0033,1996,ファンキー ファニー エイリアンズ,アミューズ,,BDS-20014,,,,,MAME（年のみ）,MAME,MAME,,ffaliens
+pippin-jp-0034,1996,眠れぬ夜の小さなお話,アミューズ,,BDS-20015,,,,,MAME（年のみ）,MAME,MAME,,nemuyoru
+pippin-jp-0035,1996,L-Zone,シナジー幾何学,,BDS-20017,,,日本語の題名が出典に無いので MAME の題名,,MAME（年のみ）,MAME,MAME,,lzone
+pippin-jp-0036,1996,よく見てごらん！美術館へ行こう,ボイジャー,,BDS-20018,,,,,MAME（年のみ）,MAME,MAME,,yokumite
+pippin-jp-0037,1996,死地則戦 ビジネスエデュテイメントソフト,メディアファイブ,,BDS-20019,,,,,MAME（年のみ）,MAME,MAME,,shichiso
+pippin-jp-0038,1996,イエロー・ブリック・ロード I,シナジー幾何学,,BDS-20022,,,,,MAME（年のみ）,MAME,MAME,,yellow1
+pippin-jp-0039,1996,イエロー・ブリック・ロード II グリンダと西の魔女,シナジー幾何学,,BDS-20023,,,,,MAME（年のみ）,MAME,MAME,,yellow2
+pippin-jp-0040,1996,ショックウェーブ,エレクトロニック・アーツ・ビクター,,BDS-20024,,,,,MAME（年のみ）,MAME,MAME,,shockwav
+pippin-jp-0041,1996,ティ・ブレイク,Infocity,,BDS-20026,,,,,MAME（年のみ）,MAME,MAME,,tbreak
+pippin-jp-0042,1996,MUSIC ISLAND チャイコフスキー くるみわり人形 The Nutcracker,Oracion,,BDS-20027,,,,,MAME（年のみ）,MAME,MAME,,music2
+pippin-jp-0043,1996,MUSIC ISLAND ヴィヴァルディ 四季 The Four Seasons,Oracion,,BDS-20028,,,,,MAME（年のみ）,MAME,MAME,,music3
+pippin-jp-0044,1996,MUSIC ISLAND サン=サーンス 動物の謝肉祭 Carnival of the Animals,Oracion,,BDS-20029,,,,,MAME（年のみ）,MAME,MAME,,music4
+pippin-jp-0045,1996,ダズロイド,ボイジャー,,BDS-20030,,,,,MAME（年のみ）,MAME,MAME,,dazzloid
+pippin-jp-0046,1996,サーカス！,ボイジャー,,BDS-20031,,,,,MAME（年のみ）,MAME,MAME,,circus
+pippin-jp-0047,1996,AI将棋,ASG,エンタテインメント,BDS-20032,,,,,MAME（年のみ）,MAME,MAME,yes,aishogi
+pippin-jp-0048,1996,Gadget,シナジー幾何学,,BDS-20033,,,日本語の題名が出典に無いので MAME の題名,,MAME（年のみ）,MAME,MAME,,gadget
+pippin-jp-0049,1997,たまごっち CD-ROM,バンダイ,育成シミュレーション,BDE-10033,,,MAME の発売日の記載は 1997-08-08（「?」付き）,たまごっち,MAME（年のみ）,MAME,MAME,yes,tamagotc
+pippin-jp-0050,1997,@Card SDガンダム外伝,バンダイ,カードバトルゲーム,BDE-10034,,,,SDガンダム外伝 (Pipin),MAME（年のみ）,MAME,MAME,yes,atcard
+pippin-jp-0051,,LULU,,エンタテインメント,,,,Wikipedia にだけ記載（MAME に無い）。発売日・型番は出典に無い,ルル (デジタル絵本),,,Wikipedia,yes,
+pippin-jp-0052,,ごきげんママのおまかせダイアリー,,実用,,,,Wikipedia にだけ記載（MAME に無い）。発売日・型番は出典に無い,,,,Wikipedia,yes,
