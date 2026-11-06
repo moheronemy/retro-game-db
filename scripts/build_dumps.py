@@ -257,6 +257,9 @@ def main():
     mame_sw = C.mame_software(cfg["mame_lists"])
     # 自動で結びつかない吸い出しの手動対応（dump_name → title_id。'-' は製品版に結びつけない）
     manual = {m["dump_name"]: m["title_id"] for m in C.read_csv(DATA / "overrides" / "dump_matches.csv")}
+    # enrich.py が題名で照合した吸い出し（dat_title_link の機種）。手動の対応が優先
+    for m in C.read_csv(DATA / "review" / "dat_title_matches.csv"):
+        manual.setdefault(m["dump_name"], m["title_id"])
     nr_parents = {m["nointro_name"]: m["parent_id"]
                   for m in C.read_csv(DATA / "overrides" / "non_retail_parents.csv")}
 

@@ -1,0 +1,215 @@
+title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256,verification,source_count,first_dump_date,rom_chip,label_serial,pcb,save_type,nointro_number,mame_name,mame_status,hash_source,discs
+xbox-jp-0001,デッド オア アライブ3,,"Dead or Alive 3 (Japan) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,888bf19b,aa92bfc020eb07604f77d261255b9514,0286ebe40f442bf1fd5536f8e8ed62cebffce0ed,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0002,プロジェクトゴッサム ワールドストリートレーサー,,Project Gotham - World Street Racer (Japan),0,retail,7825162240,b9ed14ea,fa4751dfe91225bc8cf3ab4c3217e1a4,fdca8086c5bcbf9542f218863d413b48ba77402a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0003,エアフォースデルタII,,"AirForce Delta II (Japan) (En,Ja)",0,retail,7825162240,a27228af,9ed0c217dc400418ad30033f11dd6291,002e645e07d6846b70d94e0c73c28f5108b03e9b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0004,天空 -Tenku- Freestyle SnowBoarding,,"Tenku - Freestyle Snowboarding (Japan) (En,Ja)",0,retail,7825162240,42240a3a,9a6bdca25434796275b4222bf12f8ced,716edd3ee12a78ed1f51796c089b97c9be0963a5,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0005,サイレントヒル2 最後の詩,,"Silent Hill 2 - Saigo no Uta (Japan) (En,Ja)",0,retail,7825162240,11259faf,756353d72b3924c230d1f3eaa2332f19,92ae466b9f76e6c24156f58f2e014fddb2a24065,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0006,幻魔 鬼武者,,"Genma Onimusha (Japan) (En,Ja)",0,retail,7825162240,3398a4e6,7aaffd8ce9639d5da7b0da668eb4fa76,c1affcd62f2426f44fa0f6d7625be04e39b2926a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0007,ダブル・スティール,,Double-S.T.E.A.L (Japan),0,retail,7825162240,1d19e528,112ee33cb005d4260ec54bd2806515cd,835884985b811fc3fe779114e9a7e6eb5730cfbc,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0008,JSRF ジェット セット ラジオ フューチャー,,JSRF - Jet Set Radio Future (Japan),0,retail,7825162240,2f95179a,0d0266f6000771baa2b99ce013a46cb5,4e21f8dfd155ee117598795594e9ac87cefa5b8d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0009,ハイパースポーツ2002WINTER,,Hyper Sports 2002 Winter (Japan),0,retail,7825162240,f46250b4,584189adb9bf79da1d5e45beb408b874,7d9a99ea0a14942f46054c6ae9dd3e24826dc486,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0010,ESPN winter XGames Snowboarding2002,,ESPN Winter X Games Snowboarding 2002 (Japan),0,retail,7825162240,05d1e9ec,d855b5adff43c7b340da2a8f0367c9cb,7c356a4f9aee7cd0af877bc14120d75f7d88fa0f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0011,ねずみくす,,Nezmix (Japan),0,retail,7825162240,9969a9cb,a7d8675819049929d4e18a7ca5bbef0a,6d36c949e05574140befe22996be41fa9aee93f7,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0012,信長の野望・嵐世記,,Nobunaga no Yabou - Ranseiki (Japan),0,retail,7825162240,2036268d,8bad32b329d47e49f7b7df9bb1d93ab0,eb1ae02b07694abfb5147943adaf983b4b6bcd3e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0013,斬 歌舞伎,,Zan Kabuki (Japan),0,retail,7825162240,02687341,25cf9b81f2319c1c219bac7995d76654,05554ab9c95310b3d61424c306cbe46e1eb6d220,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0014,メタルダンジョン,,Metal Dungeon (Japan),0,retail,7825162240,d93ee489,abdc806e2df2890bb4c6ce91d2eb08bf,8f569802b97c9ddb30fe7fce56febd8b688dfb00,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0015,NBAライブ2002,,NBA Live 2002 (Japan),0,retail,7825162240,5df1c83b,eae92c4ae8596323f6c168615f5a3831,3c2672fa8fdeb12d7791fb3881a079bee8972566,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0016,式神の城,,Shikigami no Shiro (Japan),0,retail,7825162240,5fe87136,0f94dc064a0df1f4e7f2a9ff5faf38d3,90277f3186e4ba640e9ff458c874b2a68270e42b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0017,ガンヴァルキリー,,"Gunvalkyrie (Japan) (En,Ja)",0,retail,7825162240,517ba142,09c41e564e1bf41fc0f3cb18004c6412,3e62072d4ec80b60466cbbfa04e2a381804d6ab2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0018,ESPN NBA2 night 2002,,ESPN NBA 2Night 2002 (Japan),0,retail,7825162240,99c4f3fd,287fbf355996326ddcb8823c45e8f0de,511a3841460d6d33804c00fd19ead2d53f6aa530,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0019,SSX TRICKY,,SSX Tricky (Japan),0,retail,7825162240,dfd6f505,b98188d1dec6e03f5004fa2ca8183ce3,e7a3e7f347d8d241c9dc07dd5c9c96c5303aebd5,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0020,ノックアウトキング2002,,Knockout Kings 2002 (Japan),0,retail,7825162240,c925ccec,dc00d88ec9323085d3dfb8678338c136,bca0a9e0b13dff3716ecc08aad149936c0ade99b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0021,F1 2002,,F1 2002 (Japan),0,retail,7825162240,af190d01,49abf873d1e79538eaff627e72315d55,8d4bb7a4d826b8bcf5d7e90ae33cb1eb2bd4df99,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0022,アルティメット ファイティング チャンピオンシップ2 タップアウト,,UFC - Ultimate Fighting Championship 2 - Tapout (Japan),0,retail,7825162240,8f5ff070,ce0ac463250d11ff9fdd909c26da7461,bbcf5e9c40f82f205eb906fc1578da9b5beb6add,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0023,HALO,,Halo (Japan),0,retail,7825162240,cf781e8e,56cd36650c2afcbdbed1797b4bcb41fe,60e86c38d741e774c31126738522c7bff63f3320,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0024,2002 FIFA ワールドカップ,,2002 FIFA World Cup (Japan),0,retail,7825162240,814ccdf7,f2958fe94eab3dfcec91b6024c1e0266,9a1799bd2c8e9a2eefc587eabced0529a45a136d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0025,ミストIII エグザイル,,Myst III - Exile (Japan),0,retail,7825162240,c43e2c9a,d01dd00c81c024e1b51e3573ec86b07d,3573027f85309764ca0ae47d003a5a2172daa489,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0026,実況ワールドサッカー2002,,Jikkyou World Soccer 2002 (Japan),0,retail,7825162240,054fd42a,9540f38962a10837b10bdd0e2711778a,97f414ecc626ce2c2c0cfbac8dad35944cec2cc6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0027,マッド ダッシュ レーシング,,Mad Dash Racing (Japan),0,retail,7825162240,8e009d6f,3f77b6db8ff41d29f772e13469adaa41,76001467e5a4bab80a273082d0e102eadcec7228,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0028,プチコプター,,Petit Copter (Japan),0,retail,7825162240,daf1145a,b4a336b37aa93ba2d855151a801dd4e1,b33ba68ddc07dceca5491d059bdd6c26099479ea,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0029,マイクロソフト ラリースポーツチャレンジ,,RalliSport Challenge (Japan),0,retail,7825162240,23f7e27b,ba5696d9381dfc1a81fcdd844b24215a,1b6e6dbe24346b6e27894eac55540e619ea485a0,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0030,梅沢由香里の囲碁セミナー,,Umezawa Yukari no Igo Seminar (Japan),0,retail,7825162240,4e772fc7,f0ea979e4e888e4502d8beda4378ce8e,6c72090fdef6483de21a4958b4b1e24206971ff7,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0031,中島哲也のオセロセミナー,,Nakajima Tetsuya no Othello Seminar (Japan),0,retail,7825162240,5cf32052,922148c336c2a5bf84f37c1f66e8add6,c668a104e908243ecbf104406663eb3d994ca64e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0032,高橋純子の麻雀セミナー,,Takahashi Junko no Mahjong Seminar (Japan),0,retail,7825162240,00e187bc,a5d080947be7840de38cfac53c3bb386,ea05679a9fa9d293d37cc1a068cf7ba893b8a01c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0033,ビストロ・きゅーぴっと,,Bistro Cupid (Japan),0,retail,7825162240,ebb52b54,05c903ac39099206eb68b49ee6012290,f6a0282311dbba593b7a9e4b60ee3306144bfd4b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0034,米長邦雄の将棋セミナー,,Yonenaga Kunio no Shougi Seminar (Japan),0,retail,7825162240,dd22e7f3,fbe0f8c71f70876674b6bf1f7da5f93d,b2b3c9c9004cf7719397d1980768f03b4149bdf9,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0035,ファントムクラッシュ,,Phantom Crash (Japan),0,retail,7825162240,0af8ec74,9a41f62a617630b7b232b530b60fbcf7,b27f20db7e5e8841acf8f19806fe8e2af3d1362c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0036,トライアングルアゲイン,,Triangle Again (Japan),0,retail,7825162240,b5e1a051,607f2056077b628d4f9ab80108dace6d,4a5a5db3d5deba1122d41acd3cdabf09d56781d2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0037,マジデスファイト!,,Magi Death Fight! (Japan),0,retail,7825162240,c57f8a35,a16cf92828b010373f51a46418751142,ab3788b1a3af7d1679b6e53c9a2e716c26cc4bd4,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0038,THE BASEBALL 2002 バトルボールパーク宣言,,"Baseball 2002, The - Battle Ball Park Sengen (Japan)",0,retail,7825162240,294881e2,02dbddbcd4b7718877b2124c8b990ca2,16b08472b1595c06dfaeb2727b5ff52f10fc6466,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0039,CRAZY TAXI3 HighRoller,,"Crazy Taxi 3 - High Roller (Japan) (En,Ja)",0,retail,7825162240,a438fcc4,0580aa26a516f19de6e5844a759ffeed,57bdfe19def51e3fdbfd08eb40c91bd0caa87fb6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0040,叢-MURAKUMO-,,Murakumo (Japan),0,retail,7825162240,2e57fe13,00ba27a2d66cee2c12b3d0fbc4a6f7a7,9465efa89250ffbc092acdca223b268a0e518f30,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0041,ワールドビリヤードトーナメント ブレイクナイン,,Break Nine - World Billiards Tournament (Japan),0,retail,7825162240,a93988a8,71b2a2921647e0032fee57896acb8cdc,4ef11204845b9e908c1cf16d48a7f9a03eae083b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0042,オールスターベースボール2003,,All-Star Baseball 2003 featuring Derek Jeter (Japan),0,retail,7825162240,fce66348,223882babb212b6c5df61aa89fb2dd8e,5153365a2f2e9b990d60ee3f749a886168f3fbe6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0043,WTA Tour Tennis Pro Evolution,,WTA Tour Tennis Pro Evolution (Japan),0,retail,7825162240,adc5fd17,8173e4b4c4c62c2b74752ddb05cb36d4,44d0fa64066dff155519b0851e0c6ed9079376d6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0044,フライトアカデミー,,Flight Academy (Japan),0,retail,7825162240,697b9b50,e282871b04bd264eb7f49757646541ab,5ee238b69104de3373d3f3235d459c9120c18c2b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0045,segaGT2002,,"Sega GT 2002 (Japan) (En,Ja)",0,retail,7825162240,72cc53e8,e1929729cf7b38b56e40ce24cbecc67c,e5a3cd4a60fb30e0acc15e35ec342f26f721bcdd,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0046,鉄騎,,Tekki (Japan),0,retail,7825162240,3d4052e1,363aa44dc6f29dae55ec6387b76b2f42,e652bece3ce794c85205a9d0a3e4f983ee60cdac,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0047,MARVEL VS. CAPCOM 2 NEW AGE OF HEROES,,Marvel vs. Capcom 2 - New Age of Heroes (Japan),0,retail,7825162240,b14ad756,79eaa96e05a9d54bb81bad74b5e95e69,6fc4149490314a2c14e421c1aacb8b431d9aa43d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0048,真・三國無双2,,"Shin Sangoku Musou 2 (Japan) (En,Ja)",0,retail,7825162240,4bae941a,dfdb19f7dcd650285cc73e62b3373a80,373ad35e42189afc15288f760311e609047f087d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0049,MAXIMUM CHASE,,Maximum Chase (Japan),0,retail,7825162240,80b782db,751788b43e8aa2a1baa8a37d21216ef4,557805d471144a58fef98254a6a585e95189e993,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0050,ブレイブナイト 〜リーヴェラント英雄伝〜,,Braveknight - Leverant Eiyuuden (Japan),0,retail,7825162240,62711fa9,1524b0e6cda50734b79253640e8b99c0,7012d6680fb2dc9c3680d474644478070dc8b527,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0051,WWE RAW,,WWE Raw (Japan),0,retail,7825162240,fa3214d6,917b6da38319731ee71d5108ff442446,a4cbea3d796003cb6473f2650197e80b372aa04c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0052,エッグマニア つかんで!まわして!どっすんぱず〜る!,,Egg Mania - Tsukande! Mawashite! Dossun Puzzle!! (Japan),0,retail,7825162240,741407f1,dec6925ff196dcc0f38eef16ca4ae8a0,0cb94dc001961b84802a6def0c4e38e4afad765b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0053,JOCKEY'S ROAD,,Jockey's Road (Japan),0,retail,7825162240,639726e6,593b477a46de6bdd1d6d0a18b5b0d55e,1d1ba93f71e9d0f5ca6951804178e4b0b822993f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0054,クラッシュ・バンディクー4 さくれつ!魔神パワー,,Crash Bandicoot 4 - Sakuretsu! Majin Power (Japan),0,retail,7825162240,f8e52605,5ca18ba8b7fdef4a825718ff63563460,eb1fcd7a90bb9f3743cc902b498af987c910e120,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0055,テトリスワールド,,Tetris Worlds (Japan),0,retail,7825162240,2a6d0c9a,dbc7db48ae4fcf3d9397d2e97bc1010e,1328d9c594320cf0d56cac91c45697ab0cd83ec6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0056,カンタム レッドシフト 超高速空間バトルレース,,Quantum Redshift - Chou Kousoku Kuukan Battle Race (Japan),0,retail,7825162240,14269195,4d5fa3450f050c3448e6c2243bca6c1c,07ce6d8870dcf3e907d4b47b9041a7016a231cd9,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0057,デッド トゥ ライツ,,Dead to Rights (Japan),0,retail,7825162240,13152938,bfc34b7d9b951981177872195a0d5df3,959bb464c027fd765a7a3acff27bfbc8ab5d6590,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0058,ドリホー,,Drihoo (Japan),0,retail,7825162240,ac314ef9,e01fe5a124b18455b12e2dcff8ca3aab,3523603825ef7f68e805a31eac572befb048d991,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0059,真・女神転生 NINE,,Shin Megami Tensei - Nine (Japan),0,retail,7825162240,c0196e56,37eaea295de88dd34e212402d9c9095c,cf6a0aa069fa9002eb056c122bd3d4ece992212e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0060,イノセントティアーズ,,Innocent Tears (Japan),0,retail,7825162240,7f87f382,ba3062a16b41885daba84f87a8d72cad,be0b2175a295fbadace32d9059ab483cf903856e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0061,機甲兵団J-PHOENIX＋,,Kikou Heidan J-Phoenix + (Japan),0,retail,7825162240,b9bd346c,e128e7b0ee2e5ff02a54b2d9812eeb8d,3fef9e4dfa7076705369606e04bc681362a318d6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0062,ブリンクス・ザ・タイムスイーパー,,"Blinx - The Time Sweeper (Japan) (En,Ja)",0,retail,7825162240,e4a21ff1,42e60ec47eb150001c9c72512d49ae89,b8a51bbbb55645ad58c5eb50b688af5890d65be6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0063,紅の海 Crimson Sea,,Kurenai no Umi - Crimson Sea (Japan),0,retail,7825162240,8ae0318f,be55c7250bdda3f28b7f25c1bc60ae87,d9f62813de182ee0a8ce2a828f30a1519d051bc7,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0064,O・TO・GI 〜御伽〜,,Otogi (Japan),0,retail,7825162240,cc8ca246,619f64659323a77d0b1d48316aabb3e2,7877c426d93cf94adb3b0693e577e74752370629,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0065,峠R,,Touge R (Japan),0,retail,7825162240,44b29201,266af84febea69d04430b5ae892c9071,26397aee9bacff17b402335476dba410a0c702ca,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0066,パンツァードラグーン オルタ,,Panzer Dragoon Orta (Japan),0,retail,7825162240,ed8d42bd,66a91d200d2c458c3d241323bec558b0,3f6899ef0a123a77d2445cc16b4d2c20ebb1ae6c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0067,トライアングルアゲイン2,,Triangle Again 2 (Japan),0,retail,7825162240,ee853921,7a5d9dc70474049c5ee3588cfd7ad558,472199b59655f04fdef070c181757d053ed64c44,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0068,式神の城EVOLUTION 藍,,Shikigami no Shiro Evolution (Japan),0,retail,7825162240,1ae5e874,ab785aeeef9666a323eadb9b2307c395,dc0da4b2128d9377c431a1303ea17687f81258d9,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0070,格闘超人,,Kakuto Chojin (Japan),0,retail,7825162240,5b0ecb4e,bb99eff97f1a9af80c895dc1ee482ce1,f93e604e90615c0bbc858f18beda0c2d57eb687e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0071,Whacked! ギリヤバ!乱闘パーティーテレビ!,,Whacked! (Japan),0,retail,7825162240,dfcb5ad5,16a2c3b7b0955b1954a2ae11595b54d0,0ba1fd25bfcdeb3d7c8834fd0f97ab2a5464fe73,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0072,CAPCOM VS. SNK2 EO,,Capcom vs. SNK 2 EO (Japan),0,retail,7825162240,f999744d,71574d652ecd0fe2990a0002afefc9a5,951e6002ba75c1df6d950cc2b83e58eeee6bd24b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0073,ファンタシースターオンライン エピソード1&2,,"Phantasy Star Online Episode I & II (Japan) (En,Ja,Fr,De,Es)",0,retail,7825162240,39729a63,4cf94372274e1e7c4f5213e7146a92ef,98a0d7ac837b79c1daccee3e2f69bae2ecb8e7fc,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0074,デッド オア アライブ エクストリーム ビーチバレーボール,,"Dead or Alive Xtreme Beach Volleyball (Japan) (En,Ja)",0,retail,7825162240,cb68c52e,12c3de6e4fc5eb47c15f0933feba70cf,02d05f6fff27aed36d738b13ad6a1727c4f434a8,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0075,ギャラクシーエンジェル,,Galaxy Angel (Japan),0,retail,7825162240,2799cfcf,4832edf1cb887a5db245e6e2ed0509c9,0e87fee2863a4bad109bf8c825772a380a6520b3,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0076,ザ・ハウス・オブ・ザ・デッド3,,"House of the Dead III, The (Japan)",0,retail,7825162240,c61f2d89,6095546533538ee95748fa100de18aab,ec54c275b3c1cb16fc9cbaa95b18a00eb6790e18,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0077,Tenerezza,,Tenerezza (Japan),0,retail,7825162240,1a112baf,9057b481ba7d3386459de5b80939973c,2add329d50a9eef4e38ce379f92cb144ee64f88a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0078,フェイタル フレイム -零 SPECIALEDITION-,,Fatal Frame - Zero Special Edition (Japan),0,retail,7825162240,24a4b081,87a3a51d1496998ef81f1131b8b3971f,43967fa98f96e1f70e2d7ae58fadfa458368a046,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0079,SPIDER-MAN,,Spider-Man (Japan),0,retail,7825162240,a7fa1c20,2c12ac5854cda50859ca27f206ed4c02,b7749e537707cfde8f9e6deabfddf0dc6ec3729e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0080,マズル フラッシュ,,"Muzzle Flash (Japan) (En,Ja)",0,retail,7825162240,13373d61,9cbeb00b7ebbee3969e5eaaf9d416398,b8dc0d9fd1a181683fd45b3c51af6d5976cd4e9c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0081,エンジェリック・コンサート,,Angelic Concert (Japan),0,retail,7825162240,b19c463c,c73c5084d615ebcfe87ab6228d1f69f0,bc983c51764df3e5ea93c4cd9e19bbe8f0badfbd,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0082,バットマン ダークトゥモロー,,Batman - Dark Tomorrow (Japan),0,retail,7825162240,19a38177,aae6e81c247f70600aa8a30c373e97d5,535b1f37dec80d929c40a4f4971e46e3d7db89fa,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0083,サウザンドランド,,Thousand Land (Japan),0,retail,7825162240,7ae762a7,64fe80202a5b71ce07cce6f22727ebb3,734015491d3dbe62b2d4afc82889a71ecf3d886d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0084,ソウルキャリバーII,,Soulcalibur II (Japan),0,retail,7825162240,d3ab3743,14b0f06d0a2a8d8347edb3c09df52357,905b83a29e6b084a89851f7ad176cd63cf98f5ad,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0085,ザ・ワイルド・リングス,,"Wild Rings, The (Japan)",0,retail,7825162240,4428839c,55eebaf435463ecbbc30a81343935579,4e82bfacd8840515b188102d66d4e529092f320e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0086,信長麻雀,,Shinchou Mahjong (Japan),0,retail,7825162240,bb397f62,3506ada12759777458fcf4c97d7ef60d,0f2f067fe1281059734c9ecdeeade284e8771bbd,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0087,N.U.D.E.@ Natural Ultimate Digital Experiment,,N.U.D.E.@ - Natural Ultimate Digital Experiment (Japan),0,retail,7825162240,4d0f110b,6a687015a2fa20e8cf4f09d311533495,c47c03937138ecb0039f221bb92760e088d8e13d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0088,エクスチェイサー,,Ex-Chaser (Japan),0,retail,7825162240,9757abc5,8fea0593cf8f90fac4e1fa4534d5d6a8,42c628df857631e349c78e98efe5669d39767177,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0089,カンフーパニック,,Kung Fu Panic (Japan),0,retail,7825162240,8bacf0e2,4da7187e68d87e9f53dba0e64a09007f,ffe866839fb71fa87bc59ebbb6d44a354649676e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0090,大戦略VII,,Daisenryaku VII (Japan),0,retail,7825162240,c4ee7665,f5a87faaf416bc5d281ea1dac6595f51,ab9f5406fd1a3b85beebd12be14ca5228f729766,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0091,メック アサルト,,"MechAssault (Japan) (En,Ja)",0,retail,7825162240,0516688c,45ce10a2a9ffd14c68d275583915a5ff,8c435544db1853db47a76651815bc032e0700af0,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0092,ENTER THE MATRIX,,Enter the Matrix (Japan),0,retail,7825162240,ee2af4ab,144bf6e06ef02b84626780879d301c0e,0405f4b6f474bf133f324fe729844a5583a9e34a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0093,ディノクライシス3,,Dino Crisis 3 (Japan),0,retail,7825162240,c6529935,821af6275fbc045e8a596552b7d060c7,dece5c188b0cbc8fdb5e39e29531aea0f3fe620c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0094,C.A.T 〜サイバーアタックチーム〜,,C.A.T - Cyber Attack Team (Japan),0,retail,7825162240,fae596d1,ae65c1eb5f4e481b23b5875766541753,a575bafc6349536a901086143d3db260cff39d59,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0095,ヒットマン：サイレントアサシン,,Hitman - Silent Assassin (Japan),0,retail,7825162240,c3c2ded3,cc6e2ea4150c79e6edfe5459ade01e23,eff1e6bd213fb5f778f1b6b8881eb3ecf3d17f0d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0096,MotoGP URT2 Online Challenge,,"MotoGP URT2 Online Challenge (Japan) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,3574dabe,30db25f6037d9e1e769f49874caaa0da,517a2e0d3b8a3b39de8107236f9511e8bfb75113,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0097,ブラッディロア エクストリーム,,Bloody Roar - Extreme (Japan),0,retail,7825162240,f38d8c28,37d69b9ec807fe9fb8d4e2a2a55c1b46,681527850cba8d0800625d48696775254c8a16d2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0098,レイクマスターズ,,Lakemasters - Bass Fishing Game (Japan),0,retail,7825162240,1d478a97,6c8a3fb6169aae3aedffb4fb80357fd2,98a810e28c2ac0f06486dba048f08aa39e22262d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0099,Midtown Madness3,,Midtown Madness 3 (Japan),0,retail,7825162240,69e0d7aa,086030ca4acf3231b5b09789b4cfa027,9b38d2d64beac00028190f35a3a16e9adf6ae77f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0100,戦闘妖精雪風 〜妖精の舞う空〜,,Sentou Yousei Yukikaze - Yousei no Mau Sora (Japan),0,retail,7825162240,d134aa71,2b8f0b5ae20cdf7776157963f478df4d,58aa891fec254cb8e359787a4b1f86176a0566c6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0101,CIRCUS DRIVE,,Circus Drive (Japan),0,retail,7825162240,955f67e6,7c7ae6afa887d43454a4406cba062173,633cc64eba847fe529498a04263350b6eb7c7f6d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0102,ビストロきゅーぴっと2,,Bistro Cupid 2 (Japan),0,retail,7825162240,c52972a1,5b07c087829891af67a377d002f724ff,6542ed38c574ee121bdb6ecbc91d96c6b6ce2adc,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0103,真・三國無双3,,"Shin Sangoku Musou 3 (Japan, Asia)",0,retail,7825162240,15bdb18c,9d8b4f3d61afac3c5340fb5c1162d8b0,cd07ff0a53c33084ccc947591a332fcd04dd2f51,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0104,レンタヒーローNo.1,,Rent a Hero No. 1 (Japan),0,retail,7825162240,6d37dcd8,8eff5ec65bd79015cc485a93c78c842a,d82337869be6ca25c0a80c5f9d62c5f36f058641,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0105,ダイナソーハンティング 〜失われた大地〜,,Dinosaur Hunting - Ushinawareta Daichi (Japan),0,retail,7825162240,52b6bf3b,bcea1b4ba0ada9f13da25de3c3f81292,d320e59ab4bc36b5f8ccabd105806f513105f268,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0106,ゴーストリコン,,Tom Clancy's Ghost Recon (Japan),0,retail,7825162240,1b37db3c,4be53623273667f083712fec5014b555,3abb6b91ec8f27a3736309f2a5f3913b848fca47,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0107,Brute Force,,"Brute Force (Japan, Asia) (En,Ja,Ko)",0,retail,7825162240,11c114d4,e4ad3a5b917999e32edee7d6e09857a6,362ed3f4b3383b589b0f4aa73929909425352846,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0108,Outlaw Golf,,Outlaw Golf (Japan),0,retail,7825162240,ba518848,013c8e9956cd98371ac3b5732c915e5f,bad2c38ca940aa5645dc33de44e8ce6b78f3ca3e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0109,Inside Pitch 2003,,Inside Pitch 2003 (Japan),0,retail,7825162240,cb3d2db3,de5c6457329d83a5d6d3f1feedeb3969,ad64619ce0a64fe68f5e46b416ec8893d6f432c7,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0110,Outlaw Volleyball,,Outlaw Volleyball (Japan),0,retail,7825162240,5d828e93,3153706631f7371478e3a01a1a8ed5e2,bdfee72c88b5a4321574307a17911d148bf92951,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0112,NFLフィーバー2004,,NFL Fever 2004 (Japan),0,retail,7825162240,a66636af,8cf1a66ea8ee12eaf08ca6c8e52025b0,ed60e37d69f45aa3cd02bc30197216e76f60edd6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0114,魔牙霊 -magatama-,,Magatama (Japan),0,retail,7825162240,487f83c1,6030664203a5d999e9443688c717816d,96fe689080d50621b28c07936cf1ac6fa9eefbb0,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0115,スプリンターセル,,Tom Clancy's Splinter Cell (Japan),0,retail,7825162240,772301da,66cd710b0864463d4665ff8c0b729594,5f62f2af1de8d79e37ea0286fa89aff34cb1a164,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0116,R:RACING EVOLUTION,,R-Racing Evolution - Life in the Fast Lane (Japan),0,retail,7825162240,939fea11,ae93a56faf7d76009b7fcb8238b4f2b7,62a96f9c4dd64c1009a745413ee71359ddbcbee6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0117,エグザスケルトン,,Exaskeleton (Japan),0,retail,7825162240,a0fb6898,734af29a2beaebc93d8b644f87316abc,3129052a36f08c0aed5ede72547e2b8aa7724c11,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0118,リターン トゥ キャッスル：ウルフェンシュタイン タイズ オブ ウォー,,Return to Castle Wolfenstein - Tides of War (World),0,retail,7825162240,54d22294,724f08051f7e40d1763cb1c2c20e122a,038eaf9053ec57b73ad100777912cae379eab0b0,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0119,ウェイクボーディング アンリーシュト：フィーチャーリング ショーン マリー,,"Wakeboarding Unleashed featuring Shaun Murray (Japan, Korea)",0,retail,7825162240,8bd5b47d,3f89f49a3b9da0cdbb507e49860bd9ec,14334b489d28b5bc8f92dc1dd0ad5f7c3727c88a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0121,ザ シンプソンズ ヒットアンドラン,,"Simpsons, The - Hit & Run (USA, Japan)",0,retail,7825162240,45e36895,f784c6d1d543744cc73a0b1851724fb8,d77411bd6b801b4bfb6cbf8529ed7307a1a66765,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0122,segaGT Online,,Sega GT Online (Japan),0,retail,7825162240,acd81a28,d4b03679a10c5794b4d273435d627dc6,7a2e745246ffdda1bdd935f57cb6800611eb5c1f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0123,O・TO・GI 〜百鬼討伐絵巻〜,,Otogi - Hyakki Toubatsu Emaki (Japan),0,retail,7825162240,159fb926,3618d90d5db23285092177378a23e947,f8c025de89ef926fe2d5f1794cf10c3b55b190f2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0124,ソニック ヒーローズ,,Sonic Heroes (Japan),0,retail,7825162240,484b696e,e3e1d479b8e6368f4d4367d987bec268,51e3749acf2fadc50d7cb4274a56a07632b32c02,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0125,ぷらすぷらむ2,,Plus Plumb 2 (Japan),0,retail,7825162240,6f3bd563,7fffcd36b7580ade8af5f86a8f496324,7f3feb2bbb9399f4c948c0ad227032f12ee49235,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0126,アンリアル チャンピオンシップ,,"Unreal Championship (Japan, Korea) (En,Fr,De,Es,It)",0,retail,7825162240,14707f6c,09cd12f018779a556464cd55ce92e8e8,915edeb37589e196378cf958ec11826f59891ba2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0129,auto modellista U.S.-tuned,,"Auto Modellista (USA, Japan) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,d5b510ed,47541f118e69cf673653d0c9ad5d4fdd,116899afc5f48ec85fa4c7ee1a1ee5daa5ac77f9,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0130,ブレイクダウン,,Breakdown (Japan),0,retail,7825162240,7bde2ed4,cf8e00b063aeb0b08a74d8554907a691,4c354f3f14e81d7c78b85b94256f856377a5b1cf,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0131,天空 -Tenku- 2,,Tenku 2 (Japan),0,retail,7825162240,b0291edd,70d52ea136870e4815edd77aaab1872e,c58c0b4afaff5b2522e537327d2ffe5f6512495c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0132,ローグオプス,,Rogue Ops (Japan),0,retail,7825162240,7076ccb9,99c1181171d43951c7672ba0708e639b,28b26b7c8dc5985cfbfa99c47ecb5a40357d636c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0133,鉄騎大戦,,"Tekki Taisen - Steel Battalion - Line of Contact (World) (En,Ja)",0,retail,7825162240,bcfe3cd4,7d995ac84e84f72c633ab1ddeff5d32c,66fe33d9121ad5450372bd0978b1365e2fb51742,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0133,鉄騎大戦,,"Tekki Taisen - Steel Battalion - Line of Contact (World) (En,Ja) (Pilot Test)",0,retail,7825162240,a509bf71,f5819ddfd201c14ea497ecd14455df65,2e091b8f7a7ebe5c71f71888422bd59c8b45c976,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0134,ゴーストリコン アイランドサンダー,,Tom Clancy's Ghost Recon - Island Thunder (Japan),0,retail,7825162240,2b16f8ef,9a542cac70b248a94e13d41df10a3736,c8e8b514854c481dd4fd09aa72c818810e22c4ff,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0136,リンクス2004,,"Links 2004 (Japan, Asia)",0,retail,7825162240,6ed51e55,937f310d5cab14b61dceff4ea9706ba4,5ba3b120c5596d23387d6c3359b854e9aeb6471e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0137,ドクタースースー キャット イン ザ ハット,,"Dr. Seuss' The Cat in the Hat (USA, Japan)",0,retail,7825162240,eb148430,c2f190738970392a3e7735da6287af78,8aee3fdd4b972c42447abce5aee20594fbc0aaa2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0139,式神の城II,,Shikigami no Shiro II (Japan),0,retail,7825162240,84086f16,cfdf2da84d853d340db6c97a62b45be1,7a9ef369198b07031910cfe346db9c25ffaf37bf,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0140,電脳大戦 〜DroneZ〜,,Dennou Taisen - DroneZ (Japan),0,retail,7825162240,6b734bbd,43ef7cebd136e8463b536c15f3c8a7da,8531b6db2791060568aaa0d6eaade7c42578305a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0141,ぷよぷよフィーバー,,"Puyo Puyo Fever (Japan) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,879c02fa,cbf46f0c86bbfdb94f15e8769150e3e7,5d53a5a0a4639d06421a5c840a80d8f5cb0ee6f4,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0142,グーリーズ 〜Grabbed by the Ghoulies〜,,"Grabbed by the Ghoulies (Japan, Asia) (En,Ja,Zh,Ko)",0,retail,7825162240,bcdbf0a0,7fcf5e457629b786c3666ed1bd108b56,2d93f334468926cda7fc20c5c8837892342baf1d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0143,GUILTY GEAR XX #RELOAD,,Guilty Gear XX Reload - The Midnight Carnival (Japan),0,retail,7825162240,3754610b,cb5f3989fef81a5ed2708c7e2405696d,b9c81f5643c798372a0d969a0c6393029627230f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0144,クリムゾン・スカイ：High Road to Revenge,,"Crimson Skies - High Road to Revenge (Japan) (En,Ja,Fr,De,Zh,Ko)",0,retail,7825162240,bad491e9,3b7197ffdd5cca9ad40a112979dc1069,9f08abf696d1a3a1b36921202eb36e641fc162ad,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0146,メタルアームズ：グリッチ イン ザ システム,,"Metal Arms - Glitch in the System (USA, Japan)",0,retail,7825162240,b95f1df4,2d186c3d1f642111e3b4cc0d01a01d3e,2ecc47301ac8fe0881845c334d36c62ff3307bd0,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0147,天誅 参 〜回帰ノ章〜,,Tenchu 3 - Kaiki no Shou (Japan),0,retail,7825162240,a5261dd1,b2012724e3457aaf52a30b3ba5000301,7132d08086f84380b99428171c1f6ef568907ad7,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0148,青い涙,,Aoi Namida (Japan),0,retail,7825162240,15fd036e,7b0065eb19c3d5d1bc753343b3f6049d,b845e45ee19d8457c05d5af0aed2c2d9fa406ff3,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0149,ラリースポーツ チャレンジ2,,"RalliSport Challenge 2 (World) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,668659aa,6f200964a7ad42c52983e7feaec897d2,9713c4317bd264c7489cd7f0fd03caff0a32a9f8,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0150,デウスエクス：インビジブル・ウォー,,Deus Ex - Invisible War (Japan),0,retail,7825162240,b7c7dc19,01833243b586d1a02903632e367950e7,5ac7c021f6f7ad0a8ca47fa09de43deea657c3cf,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0151,メタルスラッグ3,,"Metal Slug 3 (USA, Japan) (En,Ja)",0,retail,7825162240,464db055,4d378fb221e0e80fff281ea91e5f13b5,56eb213ffd5d1ddbe9820644dd67e1e79fb80fe2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0152,レインボーシックス3,,Tom Clancy's Rainbow Six 3 (Japan),0,retail,7825162240,85fd05b5,789d09ecab6f64491e8ddc371dc1366f,6ef95baef0b41dea8345759d5161fa92e56588af,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0153,トップスピン,,Top Spin (Japan),0,retail,7825162240,b66853eb,7915a1fa806974e9279072cfaa1f0e02,91d799f2b465f2136c4e31d1d6fb1e198b719ee1,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0154,X2：ウルヴァリンズ リベンジ,,X2 - Wolverine's Revenge (Japan),0,retail,7825162240,53d81223,3bf63c903bdde34516d846895fa9264d,65dbdab39e9516f1ce76f8b408b009933f1aa473,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0155,ヴードゥーヴィンス,,"Voodoo Vince (Japan) (En,Fr,De,Es)",0,retail,7825162240,53246913,6fb3549660a25d04c857fd2fcb7a9a86,56dac9f6d98b2d42e563cee84eff0a2d30dca26d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0156,マジック：ザ ギャザリング バトルグラウンド,,"Magic - The Gathering - Battlegrounds (World) (En,Fr,De,Es,It)",0,retail,7825162240,39163a95,879af205aac1e8cf1fd19f5af08edb50,2277e16bb6abdd2143aee31dcdd4d113bf60b684,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0157,グランドセフトオート ダブルパック,,Grand Theft Auto - Vice City (Japan),0,retail,7825162240,dd14f681,1d78479dae635ef390e32f8b3bcfad78,385b03a1d8b95a8eb6e50f2b9c14512ba3d0d4aa,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0157,グランドセフトオート ダブルパック,,Grand Theft Auto III (Japan),0,retail,7825162240,4a82182f,a8c931a624fc3a941266ac8be03960de,83f9249d086ae29945e5fd2f638cd974d1c4c22d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0158,戦国無双,,Sengoku Musou (Japan),0,retail,7825162240,4b677b20,f1c57ace34744fb3636532d04c215157,cb1919dd81adb3475bf5b770ae3ff1e2298490a5,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0159,デジモンバトルクロニクル,,Digimon Battle Chronicle (Japan),0,retail,7825162240,aac995c3,3c12991f3df27dc8d1c3ce35457732f8,3434764da30bfc60051ac8bbd7838f4fd5fa05fe,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0160,XIII 〜大統領を殺した男〜,,XIII - Daitouryou o Koroshita Otoko (Japan),0,retail,7825162240,c405b0a3,4878190f39cada5639dcab8fb8d6e442,dfe9c5c4f105057c23fcb635a74fc6cb1775c923,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0161,スター・ウォーズ ジェダイナイト：ジェダイアカデミー,,"Star Wars - Jedi Knight - Jedi Academy (Japan, Asia) (En,Fr,De)",0,retail,7825162240,4bc1d193,ef5c0ffe61b41212a3eb41e7968730c9,9c92bca73bcd533e1b26e68679c159047ec688f9,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0162,デッド マンズ ハンド,,"Dead Man's Hand (USA, Japan)",0,retail,7825162240,2eedbe46,7716b4d4601c385a599819730c7d759f,167fce31f9147c89782ca5c7515f3edd97154f97,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0163,ファントムダスト,,"Phantom Dust (Japan, Korea) (En,Ja)",0,retail,7825162240,e45ed99a,7e91978f763970a7fa8d04e94f63599e,48a2f14e5df48b0c5f172fc9f9621ca83e7e85af,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0164,フル スペクトラム ウォリアー,,"Full Spectrum Warrior (Japan, Korea) (En,Ja,Ko)",0,retail,7825162240,2602558e,1f9a878ef46039944a1ebd147b2d4d09,a503f3c8d9cf7ff4483084c248632b9870111f94,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0165,スター・ウォーズ バトルフロント,,Star Wars - Battlefront (Japan),0,retail,7825162240,a7b58e54,f87747e257d715e2bd66d0c23a9e01a5,939a756cd73bc3cb12def88d8bfafe0ad895e8ce,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0166,SNK VS. CAPCOM SVC CHAOS,,"SNK vs. Capcom - SVC Chaos (USA, Japan) (En,Ja)",0,retail,7825162240,0fe232dd,423e0dc10aa514b013fce77972f94e25,9c8eccee1e21d683066cfb3813d0fa66b643b52f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0167,ヒットマン：コントラクト,,Hitman - Contracts (Japan),0,retail,7825162240,64e7c483,c75aff94601b1dc041c6459987af8513,d0b8b276d43b664cf83c9a5b4deca29ab1a1ac5d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0168,TRUE CRIME：STREETS OF LA,,True Crime - Streets of LA (Japan),0,retail,7825162240,2803ee39,f96c5ba0e42c7fd1ded21f4f66da2cdc,b5218745aaa14ce9c0431bc143200379b155a71d,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0169,ストリートファイターアニバーサリーコレクション,,"Street Fighter Anniversary Collection (Japan, Europe) (En,Ja)",0,retail,7825162240,44f7e98f,ff0696a855cc5ccf5a64b11b68a0d258,659a1787da8b062624b171036244c420dff059eb,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0170,サイヴァリア2 〜Extend Edition〜,,Psyvariar 2 - Extend Edition (Japan),0,retail,7825162240,fbcb5ca2,7d0357f37cd775912ccd124957d835a6,b4e346be2cede2fd8e4c64cdae7dedd04679bc83,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0172,フェイタル フレイム2 クリムゾン バタフライ,,Fatal Frame II - Crimson Butterfly (Japan),0,retail,7825162240,0e5c0067,cf48a55fbbb9d2535dda6e40972b5575,fde4c43829b1b72f41bc3d193123e3b2ef02a813,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0173,HALO2,,"Halo 2 (Japan) (En,Ja,Fr,De,Es,It,Zh,Ko)",0,retail,7825162240,cea0b824,0a64d22462dfaa3d8b170c475e17118d,9ee804930f6f421e1a20b8e3470e2cc0f9a762b6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0174,ブリンクス2: バトル・オブ・タイム&スペース,,"Blinx 2 - Masters of Time & Space (World) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,9d358cd4,955ce3c81f4bb90664670a4109e6b5fc,93230082bdfad344aea8fd1e34bcd43f60a15f27,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0175,Mr.インクレディブル,,Disney-Pixar Mr. Incredible (Japan),0,retail,7825162240,e7b7fd2c,19635194e717aff8a9d2dc1f7a968bd6,32a60c1902c1d8c8316d8ae24aa56d8be8e8aa9a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0176,ソニック メガコレクション プラス,,"Sonic Mega Collection Plus (World) (En,Ja)",0,retail,7825162240,eefc442c,c93597552128ef8f36262dd24ed93310,ca28a6fad4c0c243a806d4712e1a2b46c9e48c16,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0177,SWAT：グローバル ストライク チーム,,"SWAT - Global Strike Team (USA, Japan)",0,retail,7825162240,e6ddd33f,b98d4ae9c34deecb660b55cf19e108df,897e5314ffdfc391dfaba4f205f6a3d751ce9564,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0178,シュレック2,,"Shrek 2 (USA, Japan)",0,retail,7825162240,787f3be3,c3a3fc47dffa364e0e5223b9b04afbeb,33927c3b3d5e61ee93a3f607f9a87dee229c1362,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0180,GUILTY GEAR ISUKA,,Guilty Gear Isuka (Japan),0,retail,7825162240,9afc9fc3,87e815100cb1b7b9cc16a229323cd21a,16d8b02559b27cc53bb658f17b2a438f2900cbf6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0181,メタルウルフカオス,,Metal Wolf Chaos (Japan),0,retail,7825162240,fa9f5248,606497dca701d130635443dd326f37c6,0ae58b68b5603b3a7156c7028eb1b5f1cd3abf2a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0182,デジモンワールドX,,Digimon World X (Japan),0,retail,7825162240,5565b98f,e5219761aef5ae2f44541d03bf5f2ecf,62e226d6ee6052287b4411e8f4be038e4080f472,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0183,メック アサルト2：ローンウルフ,,"MechAssault 2 - Lone Wolf (World) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,6260d36d,13d63bd9c74e727286b55b31d174b171,8c8aa84504a168bc51f6fef965a8d73ebb785593,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0183,メック アサルト2：ローンウルフ,,"MechAssault 2 - Lone Wolf (World) (En,Ja,Fr,De,Es,It) (Bonus Disc)",0,retail,7825162240,ffcf7df9,407660dba5cf54ed8df1f01d5ce1d5a6,d14d63a945adfb5c452d4cc9c5efa243907ff2c9,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0184,X-Men レジェンド,,X-Men Legends (World),0,retail,7825162240,856e42e3,527c2fe9253d4bba719bf9c8bc877e27,a8fbe1ce697177efb62e9a1860c563c1ec6d626f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0185,ロッキー レジェンド,,"Rocky Legends (World) (En,Fr,De)",0,retail,7825162240,c6ee5693,e92b25725f4121819f6e0a668736f57f,8c861fad0df2ed42495cb688a4277c440b1d694c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0186,キングダムアンダーファイア 〜ザ・クルセイダーズ〜,,Kingdom Under Fire - The Crusaders (Japan),0,retail,7825162240,b91202ce,af354768d11a7d19a2e19fb0166f6a4a,1f9814afed0ed876d61f53c4e51d117c5c3360f5,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0187,アウトラン2,,OutRun 2 (Japan),0,retail,7825162240,911c6e70,cd5597da26ef6e0d0e5b46180747b06d,0b46174dff5bff241106bfa6dd9f6410473d6bfb,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0188,ウルトラパズルボブル,,Ultra Puzzle Bobble (Japan),0,retail,7825162240,fcf7a41b,9777fef74ffbc050d90e0a0327fc9b0f,182ddca27eaa1cbfb34f2b2e982c2059c20c9c1c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0189,スター・ウォーズ リパブリック・コマンド,,Star Wars - Republic Commando (Japan),0,retail,7825162240,53840186,6be2f715cd8c47f16436f6c73c54fcd4,e038f71c06ee013d2519cd7442e4d0f7a151bd11,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0190,メタルスラッグ4,,Metal Slug 4 (Japan),0,retail,7825162240,1af9d9f4,43b118d65cf23cbdfbb58dad43c414e5,4bf4652dee533db13cad65966c0f94832a62c88f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0191,レインボーシックス3 ブラックアロー,,Tom Clancy's Rainbow Six 3 - Black Arrow (Japan),0,retail,7825162240,1c05d4eb,cae2056b3f3145e92dfd16d67821f61e,260b0f9b9a52be053272755251857578cd016a4e,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0192,フェイブル,,"Fable (Japan) (En,Ja)",0,retail,7825162240,1bff3d22,6f4b9849c2b4dc3131d034804d417f78,e36063070b7737371c1e73b5fff444096dae19aa,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0193,スーパーモンキーボールデラックス,,Super Monkey Ball Deluxe (Japan),0,retail,7825162240,166f90f0,888f5f72a5b7207d8ab3dd73039b4c90,86c23110304729c66bf138bf95b397c1c8173057,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0194,スパイクアウト バトルストリート,,"Spikeout - Battle Street (Japan) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,2aa3616d,79ecdd66749160c6b6c146538a22ff43,12913192b2f35193ffe7475afb3de01f350d6d9f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0195,ザ・キング・オブ・ファイターズ2002,,"King of Fighters 2002, The (Japan)",0,retail,7825162240,4bde5b0b,24b56929548fa17aa0ec177b3a839ee2,f31554cc616db1b8ddf4d4524d89d7d9e7f30854,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0196,スプリンターセル パンドラトゥモロー,,Tom Clancy's Splinter Cell - Pandora Tomorrow (Japan),0,retail,7825162240,6655863a,ff7663dfc737efd75d675ab378ad8517,7c0fe5af5777e73f4b250f9244e34e8dac203226,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0197,コンスタンティン,,Constantine (Japan),0,retail,7825162240,4ee94999,b1bec155a4b3ab16d731a566d444d2d1,0c307b82430acc1ec5c54b4d976e856b189b18d3,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0198,フォルツァ モータースポーツ,,"Forza Motorsport (World) (En,Ja,Fr,De,Es,It,Zh,Ko)",0,retail,7825162240,66a800d8,443ef3bea56ff5cbc21d196045f0eb34,4054a0568d49fb1224078ed1d1d7cab59287a8d5,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0199,レッド・デッド・リボルバー,,Red Dead Revolver (Japan),0,retail,7825162240,c293c573,95d9f07948cc1ad625dc70277ea53b48,0ff8eb505610a459959868073ecdc5258ecfbdb8,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0200,ジェイド エンパイア 〜翡翠の帝国〜,,Jade Empire - Hisui no Teikoku (Japan),0,retail,7825162240,82e4bf76,1388d8e93d478be66025b60259cf7fa8,f29c5668d6b4b4907ba4968705e9519a9bcc1240,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0201,CAPCOM FIGHTING Jam,,"Capcom Fighting Evolution (World) (En,Ja)",0,retail,7825162240,43116077,347fcd328eb68d055eca50d6d4479de8,177dbf84ddc97d4924e5cc4ab0b2390ffe743713,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0202,KOF マキシマムインパクト マニアックス,,KOF - Maximum Impact - Maniax (Japan),0,retail,7825162240,1258f92e,69446f4ad97a87e8df7efb2dc68ad9cd,6d8fb33ed8a89c9233e3e3de9cd043b0645edffc,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0203,コンカー: Live and Reloaded,,"Conker - Live & Reloaded (Japan, Korea) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,074daccc,a6a8ed239c6d830fd71c3de8550571fc,a8fb2e0a06e2880bb92aded3a47dad500fa5ff6b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0204,Halo 2 マルチプレイヤー マップ パック,,"Halo 2 Multiplayer Map Pack (World) (En,Ja,Fr,De,Es,It,Zh,Ko)",0,retail,7825162240,ba28f13b,95d3eae98efc49fabb547a6b1eb3b86d,22b4d56ff55d0758c5f0d99515fbd4c654e06c5b,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0205,Sudeki 〜千年の暁の物語〜,,Sudeki - Sennen no Akatsuki no Monogatari (Japan),0,retail,7825162240,4e752b32,899354e4c3e249f7192808ecb53aeb51,107934e339314fe45c4c62b16ab45bfa1dac6025,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0206,メタルスラッグ5,,"Metal Slug 5 (USA, Japan) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,9449cfd5,16f779e1a397cfd03b1a1bd107f73f75,59b659a07b124846938f4745241b76e86d901bd2,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0207,Rapala Pro Fishing,,Rapala Pro Fishing (World),0,retail,7825162240,d7153bfc,31cec214e65faf8e3eec7946d46d170b,1234d63bd977d9ae5590783c10704157c6ba5819,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0208,Atari Anthology,,"Atari Anthology (World) (En,Fr,De,Es,It)",0,retail,7825162240,8c228cbf,b5b3f8fe0eacc35994e3fd98fd30077b,eb8fef9d3fe967c919a6edb11a7292495e183a46,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0209,ダブル・スティール THE SECOND CLASH,,"Double-S.T.E.A.L - The Second Clash (Japan) (En,Ja)",0,retail,7825162240,b5245174,ae04ec6852f1145ad0a9312b9d9ba6b3,3e54dfd94efc119641591e7e79c8675fcc4ccd9a,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0210,真・三國無双4,,"Shin Sangoku Musou 4 (Japan) (En,Ja)",0,retail,7825162240,97d84e51,099210eef7a578c3a19b6281d4794f40,25bcb29919007d4ea10720bdff36cfa2a0684ff9,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0211,ザ・キング・オブ・ファイターズ2003,,"King of Fighters 2003, The (USA, Japan) (En,Ja)",0,retail,7825162240,2d4b1d4d,bec52e6643a495bb418a341cd921686f,8107197e5e9f1e3f5146d186e9ac26a8a8d7b731,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0212,ブラザー イン アームズ ロード トゥ ヒル サーティー,,"Brothers in Arms - Road to Hill 30 (Japan) (En,Ja)",0,retail,7825162240,611534ac,f79c36a8babd19825a6e29bb851224ce,bbf0c72930a09b2d03545c4f1f2b1ed20e7e938c,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0212,ブラザー イン アームズ ロード トゥ ヒル サーティー,,"Brothers in Arms - Road to Hill 30 (World) (En,Fr,De,Es,It)",0,retail,7825162240,ec34fb1a,bff4adf44b2b9c1b3e114468ecb5a77b,e5835f6f177b663cd1b12f7a7072220273294bb7,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0213,レインボーシックス ロックダウン,,"Tom Clancy's Rainbow Six - Lockdown (Japan) (En,Ja)",0,retail,7825162240,820c27c5,6305b7ef5f02f133a6a2a3fbdb24e086,3755d385da26dafd023f0c544af09181a9833b36,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0214,NINJA GAIDEN Black,,"Ninja Gaiden Black (Japan, Korea) (En,Ja)",0,retail,7825162240,9fbfbc3e,9e09ba06bab10c53b8460f4c43b98b18,8581d5d0e2f90dcbcb63bd94bcb958a764f6d3a5,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0215,プリンス・オブ・ペルシャ ケンシノココロ,,Prince of Persia - Kenshi no Kokoro (Japan),0,retail,7825162240,ec7c61a7,52946e0142132d46d3d270a8cfb78ee0,dde78872dcc224f76e344e9a8fcf21937f291fb4,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0216,コール オブ デューティー ファイネストアワー,,Call of Duty - Finest Hour (Japan),0,retail,7825162240,b167e4a0,1137d1646b4c47b9970e9d768e0e2f60,2c3935453831baa2c8d0317432a110cc0e2f9e8f,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0217,テクモクラシックアーケード,,"Tecmo Classic Arcade (USA, Japan) (En,Ja)",0,retail,7825162240,4a25d86d,16ff92339a599188b3e8a17247368f08,a70eacf4ec50ae38a5b7fd90d52ca80558997e79,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0218,ビートダウン,,Beat Down (Japan),0,retail,7825162240,ca0e04cf,f6ada8de5f724c973014452c25baaf6d,4a2619d4e5332e9be41926949042367ac7f58ef6,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0219,スプリンターセル カオスセオリー,,Tom Clancy's Splinter Cell - Chaos Theory (Japan),0,retail,7825162240,f0f683bd,7c5b1a89466129025c0be6f9f06206bc,93a76b45ba294224810d70a6c44bc55660267826,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0220,シャドウ・ザ・ヘッジホッグ,,"Shadow the Hedgehog (Japan) (En,Ja,Fr,De,Es,It)",0,retail,7825162240,792a474b,ab82626cbd1a82e0adcbd6d1a860135c,5911e672d24120cefad503e2f2f54c2ce628aeb5,,dat_only,1,,,,,,,,,Redump,1
+xbox-jp-0221,ソニックライダーズ,,Sonic Riders (Japan),0,retail,7825162240,c7b8e20c,d9e97fac2125c7310041c81fba6de726,6a277d2bd6f6766e75acf4dd785043746bc18f35,,dat_only,1,,,,,,,,,Redump,1

@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| Xbox | [`data/xbox/jp_titles.csv`](data/xbox/jp_titles.csv) | 222 | 60 | 179 | [`data/xbox/jp_rom_dumps.csv`](data/xbox/jp_rom_dumps.csv)（214 行） |
 | 3DO | [`data/3do/jp_titles.csv`](data/3do/jp_titles.csv) | 214 | 208 | 200 | [`data/3do/jp_rom_dumps.csv`](data/3do/jp_rom_dumps.csv)（219 行） |
 | PC-FX | [`data/pcfx/jp_titles.csv`](data/pcfx/jp_titles.csv) | 62 | 61 | 40 | [`data/pcfx/jp_rom_dumps.csv`](data/pcfx/jp_rom_dumps.csv)（65 行） |
 | ネオジオ (ROM) | [`data/neogeo/jp_titles.csv`](data/neogeo/jp_titles.csv) | 117 | 115 | 117 | [`data/neogeo/jp_rom_dumps.csv`](data/neogeo/jp_rom_dumps.csv)（ROM チップ 1,449 行・115 タイトル） |
@@ -54,6 +55,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| Xbox | （未調査・0 件） | （0 件） | |
 | 3DO | （調査中・0 件） | （0 件） | |
 | PC-FX | [`jp_not_for_sale.csv`](data/pcfx/jp_not_for_sale.csv)（雑誌付録 4 件） | （0 件） | |
 | ネオジオ | （未調査・0 件） | （0 件） | |
@@ -838,6 +840,32 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## Xbox
+
+Xbox として日本で発売されたソフト（2002〜2006年）。`id` は `xbox-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・互換 | ja.wikipedia「Xboxのゲームタイトル一覧」の表から、日本の発売日のある行（222 件。本文の年ごとの本数と一致。廉価版は載っていない） |
+| 価格・型番 | メディア芸術データベース（機種「Xbox」。270 件） |
+| ハッシュ | Redump DAT（libretro 収録の Microsoft - Xbox） |
+
+| 列 | 内容 |
+|---|---|
+| `x360_compat` | Xbox 360 で遊べる（Wikipedia の「互換」欄の★。日本の公式サイトの一覧が出典） |
+| `xone_compat` | Xbox One・Xbox Series X/S で遊べる（◆） |
+| `world_collection` | 「Xboxワールドコレクション」（英語版に日本語マニュアルを付けたもの。Wikipedia の備考から） |
+
+- 型番は MADB のパッケージの品番（`M5F-00012` の形。`A4K 00001` のような区切りの違いはそろえた）で 60 件。無いものは許容（合意済み）。
+  Redump のシリアル（`MS-055` などソフト内部のタイトル ID）は品番ではないので型番に使わず、吸い出し一覧の `game_code` に残る。
+- 価格は 179 件（MADB。2004年4月以降は総額表示）。プラチナコレクション（廉価版）・初回限定版・スペシャルパック・Xbox Live 同梱版は
+  行にしない。『R:RACING EVOLUTION』は MADB に初回限定版しか無いので価格なし。
+- 吸い出しは、Redump のシリアルが型番と違うため題名で結びつけた。日本を含む地域の吸い出しを題名ごとにまとめ、日本語の題名を
+  ローマ字にしてとても似ていてほかに候補の無いもの（58 件）は自動（`review/dat_title_matches.csv`）、残りは題名を見て手で対応した
+  （152 件。`overrides/dump_matches.csv`）。吸い出しのあるタイトルは 210 件。日本版と日本を含む共通版（`(USA, Japan)`・`(Japan, Korea)`・
+  `(Japan, Asia)`・`World`）。体験版・店頭デモ・東京ゲームショウのディスクなどは載せない（非売品は後回し）。
+- CERO の年齢区分は後回し。発売されなかったタイトルは対象外。
+
 ## 3DO
 
 3DO として日本で発売されたソフト（1994〜1996年）。`id` は `3do-jp-<連番>`（発売順）。
@@ -1086,6 +1114,10 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py xbox
+python3 scripts/enrich.py xbox                 # 吸い出しの題名での照合 → review/dat_title_matches.csv
+python3 scripts/build_dumps.py xbox
 
 python3 scripts/fetch_wikipedia_list.py 3do
 python3 scripts/enrich.py 3do                  # Redump の題名から型番を補う（dat_title_models）

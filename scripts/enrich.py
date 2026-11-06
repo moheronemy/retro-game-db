@@ -188,6 +188,29 @@ def main():
                 r["_issues"].append(f"Redumpの題名（{e['label']}）から型番を補完（類似度{sc:.2f}）")
         print(f"DAT の題名から型番 {len(m_dt)} 件を補完（候補 {len(entries)} 件）", file=sys.stderr)
 
+    dat_links = []
+    if cfg.get("dat_title_link"):
+        # DAT のシリアルが型番と違う機種（Xbox はソフト内部のタイトル ID）は、吸い出しを題名で結びつける。
+        # 日本を含む地域の吸い出しを基本の題名（括弧の印を除いたもの）ごとにまとめ、ローマ字にした題名がとても似ていて
+        # ほかに候補の無いものだけを採る。結果は review/dat_title_matches.csv（build_dumps.py が手動の対応の次に使う）
+        import psxdc
+        groups = {}
+        for name in cfg["nointro_dats"]:
+            for block in C.nointro_dat_text(name).split("game (")[1:]:
+                gname = re.search(r'name "([^"]+)"', block).group(1)
+                first = re.search(r"\(([^()]*)\)", gname)
+                if not first or not ({"Japan", "World"} & set(first.group(1).split(", "))):
+                    continue
+                base = re.sub(r" \([^()]*\)", "", gname)
+                groups.setdefault(base, []).append(gname)
+        entries = [{"key": b, "serials": [b], "titles": [b], "date": "", "label": b, "names": n} for b, n in groups.items()]
+        m_dl = psxdc.match(rows, entries, set(), by_date=False)
+        for r in rows:
+            hit = m_dl.get(r["_i"])
+            if hit:
+                dat_links.append((r, hit[0], hit[1]))
+        print(f"DAT の題名で吸い出し {len(m_dl)} 件を照合（候補 {len(entries)} 件）", file=sys.stderr)
+
     m_maru = C.match_maru(rows, maru, overrides, cfg.get("code_of") if cfg.get("ref_code_models") else None,
                           cfg.get("maru_date_only", False)) if maru is not None else {}
     report = []
@@ -291,6 +314,10 @@ def main():
     fields = BASE_FIELDS[:4] + extra + BASE_FIELDS[4:] + (["maru_code"] if maru is not None else [])
     C.write_csv(data / "jp_titles.csv", rows, fields)
     C.write_csv(data / "review" / "match_report.csv", report)
+    if cfg.get("dat_title_link"):
+        C.write_csv(data / "review" / "dat_title_matches.csv",
+                    [{"dump_name": n, "title_id": r["id"], "title": r["title"], "dat_title": e["label"], "score": f"{sc:.2f}"}
+                     for r, e, sc in dat_links for n in e["names"]])
     print(f"{len(rows)} 件: 型番 {sum(bool(r['model_number']) for r in rows)} / "
           f"価格 {sum(bool(r['price_yen']) for r in rows)} / 要確認 {len(report)}", file=sys.stderr)
 

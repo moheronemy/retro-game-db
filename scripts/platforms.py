@@ -503,6 +503,17 @@ def _3do_channel(row):
     return "panasonic" if m.startswith("FZ-") else "sanyo" if m.startswith("IMP-") else ""
 
 
+def _xbox_models(text):
+    """Xbox のパッケージの品番（'M5F-00012'）。MADB の 'A4K 00001'・'55F00001' のような区切りの違いをそろえる。
+    Redump のシリアル（'MS-055'。ソフト内部のタイトル ID）は品番ではないので対象にならない。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z0-9])([A-Z0-9]{3})[- ]?(\d{5})(?![0-9A-Z])", unicodedata.normalize("NFKC", text or "").upper()):
+        code = f"{m.group(1)}-{m.group(2)}"
+        if code not in out:
+            out.append(code)
+    return out
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1200,6 +1211,34 @@ PLATFORMS = {
         "nointro_export": ["NEC - PC-FX (Redump)"],
         "nointro_export_fallback": {"NEC - PC-FX (Redump)": "redump:NEC - PC-FX"},
         "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # Xbox。x360_compat（★: Xbox 360 で遊べる）・xone_compat（◆: Xbox One 以降）・world_collection（英語版＋日本語マニュアル）
+    "xbox": {
+        "name": "Xbox",
+        "dir": ROOT / "data" / "xbox",
+        "id_prefix": "xbox-jp",
+        "wikipedia": {"tables": [{
+            "page": "Xboxのゲームタイトル一覧", "section": "発売されたタイトル", "table_id": "softwarelist",
+            "columns": ("jp", "na", "eu", "title", "publisher", "compat", "notes", "refs"),
+            "derive": {"x360_compat": lambda r: "yes" if "★" in r.get("compat", "") else "",
+                       "xone_compat": lambda r: "yes" if "◆" in r.get("compat", "") else "",
+                       "world_collection": lambda r: "yes" if "ワールドコレクション" in r.get("notes", "") else ""},
+        }]},
+        "extra_columns": ["x360_compat", "xone_compat", "world_collection"],
+        "madb_platforms": ["Xbox"],
+        "mame_lists": [],
+        "models_from": _xbox_models,
+        "models_from_serial": lambda s: [],
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "dat_title_link": True,
+        "nointro_dats": ["redump:Microsoft - Xbox"],
+        "nointro_export": ["Microsoft - Xbox (Redump)"],
+        "nointro_export_fallback": {"Microsoft - Xbox (Redump)": "redump:Microsoft - Xbox"},
+        "dump_world": True,
+        "tax_inclusive_from": "2004-04-01",
         "hash_source": "Redump",
         "media": "disc",
     },
