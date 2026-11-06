@@ -221,6 +221,10 @@ def main():
                 dat_links.append((r, hit[0], hit[1]))
         print(f"DAT の題名で吸い出し {len(m_dl)} 件を照合（候補 {len(entries)} 件）", file=sys.stderr)
 
+    tdb = {}
+    if cfg.get("cero") and cfg["cero"].get("gametdb"):
+        import cero as CR
+        tdb = CR.load_gametdb(cfg["cero"]["gametdb"])
     m_maru = C.match_maru(rows, maru, overrides, cfg.get("code_of") if cfg.get("ref_code_models") else None,
                           cfg.get("maru_date_only", False)) if maru is not None else {}
     report = []
@@ -292,6 +296,32 @@ def main():
         if r.get("_maru_date_only"):
             issues.append(f"maru-chang同日1件のみで照合（{ma['label']}）")
 
+        import cero as CR
+        if cfg.get("cero") and date >= CR.CERO_START:
+            val, descs, src = "", [], ""
+            got = CR.from_madb(md["rating"]) if md else set()
+            if len(got) == 1:
+                val, descs, src = got.pop(), CR.descriptors_madb(md["rating_desc"]), "MADB"
+            elif len(got) > 1:
+                issues.append(f"CERO区分が複数 MADB={'/'.join(sorted(got))}")
+            if not val and date >= CR.NEW_SYSTEM_FROM and tdb:
+                hit = CR.gametdb_lookup(tdb, cfg["cero"]["gametdb_key"](model))
+                if hit:
+                    val, descs, src = hit[0], hit[1], "GameTDB"
+            if not val:
+                pool = {v for x in madb if x is not md and x["rating"] and max(C.sim(r["title"], t) for t in x["titles"]) >= 0.85
+                        for v in CR.from_madb(x["rating"])}
+                if len(pool) == 1:
+                    val, src = pool.pop(), "MADB（別の版）"
+                elif len(pool) > 1:
+                    issues.append(f"CERO区分が別の版で食い違い {'/'.join(sorted(pool))}")
+            if val and md and src == "MADB" and tdb and date >= CR.NEW_SYSTEM_FROM:
+                hit = CR.gametdb_lookup(tdb, cfg["cero"]["gametdb_key"](model))
+                if hit and hit[0] != val:
+                    issues.append(f"CERO不一致 MADB={val} GameTDB={hit[0]}")
+            if val in ("A", "B", "C", "D", "Z") and date < CR.NEW_SYSTEM_FROM:
+                src += "（新区分の表記。再販時の区分とみられる）"   # 新区分は 2006年3月から
+            r.update({"cero": val, "cero_descriptors": ";".join(descs) if val else "", "cero_source": src})
         for col, fn in cfg.get("derive", {}).items():  # 型番などから決まる列（DS の compat）
             r[col] = fn({**r, "model_number": model})
         for col in cfg.get("extra_columns", []):   # 手動補正（SG-1000 のマイカード再販の型番など）
@@ -320,7 +350,7 @@ def main():
 
     for n, r in enumerate(rows, 1):
         r["id"] = f"{cfg['id_prefix']}-{n:04d}"
-    extra = [c for c in cfg.get("extra_columns", [])]
+    extra = [c for c in cfg.get("extra_columns", [])] + (["cero", "cero_descriptors", "cero_source"] if cfg.get("cero") else [])
     fields = BASE_FIELDS[:4] + extra + BASE_FIELDS[4:] + (["maru_code"] if maru is not None else [])
     C.write_csv(data / "jp_titles.csv", rows, fields)
     C.write_csv(data / "review" / "match_report.csv", report)

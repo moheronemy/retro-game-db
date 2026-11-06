@@ -221,6 +221,8 @@ def load_madb(platforms):
                     "price": x.get("price") or "",
                     "product_id": x.get("productID") or "",
                     "media_format": x.get("mediaFormat") or "",
+                    "rating": x.get("contentRating") or "",            # 年齢区分（scripts/cero.py）
+                    "rating_desc": x.get("contentRatingDescriptor") or "",
                 })
     return out
 

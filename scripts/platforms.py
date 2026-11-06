@@ -575,11 +575,21 @@ def _scv_date(row):
     return m.group(1) if m else ""
 
 
+def _tdb4(model):
+    """'RVL-RSPJ-JPN'・'DOL-GXXJ-JPN'・'NTR-AXXJ-JPN' → GameTDB の ID の先頭4文字。"""
+    m = re.match(r"[A-Z]{3}-([A-Z0-9]{4})-JPN", model or "")
+    return m.group(1) if m else ""
+
+
+_CERO = {"gametdb": None, "gametdb_key": lambda m: ""}   # MADB だけ（GameTDB に無い機種）
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
 PLATFORMS = {
     "gba": {
+        "cero": {"gametdb": None, "gametdb_key": lambda m: ""},   # CERO の年齢区分（scripts/cero.py）
         "name": "ゲームボーイアドバンス",
         "dir": ROOT / "data" / "gba",
         "id_prefix": "gba-jp",
@@ -638,6 +648,7 @@ PLATFORMS = {
     },
     # ニンテンドーDS / DS Lite / DSi。compat 列で ds / dsi_enhanced（DSi 対応）/ dsi_only（DSi 専用）を区別する
     "ds": {
+        "cero": {"gametdb": "dstdb", "gametdb_key": _tdb4},   # CERO の年齢区分（scripts/cero.py）
         "name": "ニンテンドーDS",
         "dir": ROOT / "data" / "ds",
         "id_prefix": "ds-jp",
@@ -696,6 +707,7 @@ PLATFORMS = {
     },
     # ニンテンドー ゲームキューブ。光ディスクなのでハッシュは Redump
     "gc": {
+        "cero": {"gametdb": "wiitdb", "gametdb_key": _tdb4},   # CERO の年齢区分（scripts/cero.py）
         "name": "ニンテンドー ゲームキューブ",
         "dir": ROOT / "data" / "gc",
         "id_prefix": "gc-jp",
@@ -988,6 +1000,7 @@ PLATFORMS = {
     },
     # PlayStation（初代）。Wikipedia の年別ページ（再販の廉価版は載っていない）。型番は複数枚組でも先頭ディスクのもの
     "ps": {
+        "cero": _CERO,   # CERO の年齢区分（scripts/cero.py）
         "name": "PlayStation",
         "dir": ROOT / "data" / "ps",
         "id_prefix": "ps-jp",
@@ -1016,6 +1029,7 @@ PLATFORMS = {
     },
     # PlayStation 2。2000〜2007年は年別ページ、2008年以降は一覧の本体ページの節。型番は PS と同じ形式（複数枚組は先頭）
     "ps2": {
+        "cero": _CERO,   # CERO の年齢区分（scripts/cero.py）
         "name": "PlayStation 2",
         "dir": ROOT / "data" / "ps2",
         "id_prefix": "ps2-jp",
@@ -1047,6 +1061,7 @@ PLATFORMS = {
     },
     # PlayStation 3。配信専用タイトルは jp_psn.csv（--list psn）。online / stereo3d は一覧の「オ」「3」列
     "ps3": {
+        "cero": {"gametdb": "ps3tdb", "gametdb_key": lambda m: (m or "").replace("-", "")},   # CERO の年齢区分（scripts/cero.py）
         "name": "PlayStation 3",
         "dir": ROOT / "data" / "ps3",
         "id_prefix": "ps3-jp",
@@ -1337,6 +1352,7 @@ PLATFORMS = {
     },
     # PSP。本リストはパッケージ（UMD）。配信専用（「DL」欄の ▲・△）は別リスト jp_download.csv（--list download）
     "psp": {
+        "cero": _CERO,   # CERO の年齢区分（scripts/cero.py）
         "name": "PlayStation Portable",
         "dir": ROOT / "data" / "psp",
         "id_prefix": "psp-jp",
@@ -1372,6 +1388,7 @@ PLATFORMS = {
     },
     # ドリームキャスト
     "dc": {
+        "cero": _CERO,   # CERO の年齢区分（scripts/cero.py）
         "name": "ドリームキャスト",
         "dir": ROOT / "data" / "dc",
         "id_prefix": "dc-jp",
@@ -1397,6 +1414,7 @@ PLATFORMS = {
     # Xbox 360。本リストはパッケージで出たもの（「媒体」欄が ◎〈パッケージとダウンロード〉と無印）。ダウンロードのみ（○）は
     # 別リスト jp_download.csv（--list download）。xone_compat は Xbox One 以降の後方互換、kinect は備考の「Kinect専用／対応」
     "x360": {
+        "cero": _CERO,   # CERO の年齢区分（scripts/cero.py）
         "name": "Xbox 360",
         "dir": ROOT / "data" / "x360",
         "id_prefix": "x360-jp",
@@ -1432,6 +1450,7 @@ PLATFORMS = {
     },
     # Xbox。x360_compat（★: Xbox 360 で遊べる）・xone_compat（◆: Xbox One 以降）・world_collection（英語版＋日本語マニュアル）
     "xbox": {
+        "cero": _CERO,   # CERO の年齢区分（scripts/cero.py）
         "name": "Xbox",
         "dir": ROOT / "data" / "xbox",
         "id_prefix": "xbox-jp",
@@ -1489,6 +1508,7 @@ PLATFORMS = {
     # ワンダースワン／ワンダースワンカラー（スワンクリスタル専用ソフトは無い）。1本のリストにまとめ、compat 列で
     # ws（モノクロ）/ wsc_compatible（カラー対応）/ wsc_only（カラー専用）を区別する
     "ws": {
+        "cero": _CERO,   # CERO の年齢区分（scripts/cero.py）
         "name": "ワンダースワン／ワンダースワンカラー",
         "dir": ROOT / "data" / "ws",
         "id_prefix": "ws-jp",
@@ -1511,6 +1531,7 @@ PLATFORMS = {
                                     "Bandai - WonderSwan Color (DB Export)": "Bandai - WonderSwan Color"},
     },
     "wii": {
+        "cero": {"gametdb": "wiitdb", "gametdb_key": _tdb4},   # CERO の年齢区分（scripts/cero.py）
         "name": "Wii",
         "dir": ROOT / "data" / "wii",
         "id_prefix": "wii-jp",

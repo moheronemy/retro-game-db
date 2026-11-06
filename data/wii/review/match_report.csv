@@ -6,6 +6,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2007-03-21,SUDOKU 数独,MADB低スコア0.59,M753803,パズルシリーズVol. 1 SUDOKU 数独,2007-03-21,,,,RVL-RD9J,パズルシリーズVol.1 SUDOKU 数独,2007-03-21
 2007-04-26,ONE PIECE アンリミテッドアドベンチャー,MADB低スコア0.68; maru-chang同日1件のみで照合（ONE PIECE UNLIMITED ADVENTURE）,M759523,ワンピース アンリミテッドアドベンチャー,2007-04-26,,,,RVL-RIPJ,ONE PIECE UNLIMITED ADVENTURE,2007-04-26
 2007-05-31,バイオハザード4 Wii edition,maru-chang同日1件のみで照合（biohazard 4 Wii edition）,M753509,バイオハザード 4 Wii edition,2007-05-31,,,,RVL-RB4J,biohazard 4 Wii edition,2007-05-31
+2007-06-07,パイレーツ・オブ・カリビアン/ワールド・エンド,CERO不一致 MADB=B GameTDB=A,M753688,パイレーツ・オブ・カリビアン ワールド・エンド,2007-06-07,,,,RVL-RW3J,パイレーツ・オブ・カリビアン／ワールド・エンド,2007-06-07
 2007-06-21,はじめの一歩 レボリューション,maru-chang同日1件のみで照合（はじめの一歩 THE FIGHTING! Revolution）,M753746,はじめの一歩レボリューション,2007-06-21,,,,RVL-RHIJ,はじめの一歩 THE FIGHTING! Revolution,2007-06-21
 2007-07-26,GUILTY GEAR XX Λ CORE -ACCENT CORE-,MADB未照合,,,,,,,RVL-RG2J,GUILTY GEAR XX ΛCORE,2007-07-26
 2007-09-13,SSXブラー,価格不一致 MADB=6090税込 maru-chang=6800税抜,M742729,SSX ブラー,2007-09-13,,,,RVL-RSXJ,SSXブラー,2007-09-13
@@ -17,11 +18,14 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2007-12-13,ソウルキャリバー レジェンズ,maru-chang同日1件のみで照合（SOULCALIBUR Legends）,M750540,ソウルキャリバー レジェンズ,2007-12-13,,,,RVL-RSLJ,SOULCALIBUR Legends,2007-12-13
 2008-01-17,カドゥケウス ニューブラッド,MADB未照合; maru-chang同日1件のみで照合（カドゥケウス NEW BLOOD）,,,,,,,RVL-RK2J,カドゥケウス NEW BLOOD,2008-01-17
 2008-01-31,ニード・フォー・スピード プロストリート,maru-chang同日1件のみで照合（NEED FOR SPEED PRO STREET）,M752986,ニード・フォー・スピード プロストリート,2008-01-31,,,,RVL-RNPJ,NEED FOR SPEED PRO STREET,2008-01-31
-2008-02-14,WWE 2008 SmackDown vs Raw,価格不一致 MADB=6090税込 maru-chang=6800税抜,M744073,WWE2008 SmackDown vs RAW,2008-02-14,,,,RVL-RWWJ,WWE 2008 SmackDown vs Raw,2008-02-14
+2008-02-14,WWE 2008 SmackDown vs Raw,価格不一致 MADB=6090税込 maru-chang=6800税抜; CERO不一致 MADB=C GameTDB=A,M744073,WWE2008 SmackDown vs RAW,2008-02-14,,,,RVL-RWWJ,WWE 2008 SmackDown vs Raw,2008-02-14
+2008-02-28,SIMPLE Wii シリーズ Vol.6 THE ワイワイ・コンバット,CERO不一致 MADB=B GameTDB=A,M742531,SIMPLE Wiiシリーズ Vol.6 THE ワイワイ・コンバット,2008-02-28,,,,RVL-RZ7J,SIMPLE Wiiシリーズ Vol.6 THE ワイワイ・コンバット,2008-02-28
+2008-03-13,トランスフォーマー THE GAME,CERO不一致 MADB=B GameTDB=A,M752640,トランスフォーマー THE GAME,2008-03-13,,,,RVL-RTFJ,トランスフォーマー THE GAME,2008-03-13
 2008-03-13,バロック for Wii,maru-chang同日1件のみで照合（BAROQUE for Wii）,M754433,バロック for Wii,2008-03-13,,,,RVL-ROQJ,BAROQUE for Wii,2008-03-13
 2008-03-19,ザ・ハウス・オブ・ザ・デッド2&3 RETURN,MADB低スコア0.71; maru-chang同日1件のみで照合（THE HOUSE OF THE DEAD 2＆3 RETURN）,M748495,ザ ハウス オブ ザ デッド 2＆3 リターン,2008-03-19,,,,RVL-RHDJ,THE HOUSE OF THE DEAD 2＆3 RETURN,2008-03-19
 2008-03-27,トゥームレイダー アニバーサリー,MADB低スコア0.59,M743472,TOMB RAIDER ANNIVERSARY ［トゥームレイダー: アニバーサリー］,2008-03-27,,,,RVL-RLRJ,TOMB RAIDER: ANNIVERSARY,2008-03-27
 2008-04-10,マイルストーン シューティングコレクション カラスWii,maru-chang同日1件のみで照合（MILESTONE SHOOTING COLLECTION カラスWii）,M756706,マイルストーンシューティングコレクション カラスWii,2008-04-10,,,,RVL-RKAJ,MILESTONE SHOOTING COLLECTION カラスWii,2008-04-10
+2008-04-24,お掃除戦隊くりーんきーぱー,CERO不一致 MADB=C GameTDB=A,M746489,お掃除戦隊くりーんきーぱー,2008-04-24,,,,RVL-RC5J,お掃除戦隊くり〜んき〜ぱ〜,2008-04-24
 2008-05-22,ギターヒーロー3 レジェンド オブ ロック,MADBの価格（9800税込・ギターヒーロー3 レジェンド オブ ロック）を同梱版等とみて maru-chang の価格に置換,M747044,ギターヒーロー3 レジェンド オブ ロック,2008-05-22,,,,RVL-RGHJ,ギターヒーロー3 レジェンド オブ ロック,2008-05-22
 2008-06-26,ザ・ワールド・オブ・ゴールデンエッグス ノリノリリズム系,MADB未照合; maru-chang同日1件のみで照合（The World of GOLDEN EGGS ノリノリリズム系）,,,,,,,RVL-RGEJ,The World of GOLDEN EGGS ノリノリリズム系,2008-06-26
 2008-07-10,バイオハザード0,MADB低スコア0.55,M720748,biohazard 0,2008-07-10,,,,RVL-RBHJ,biohazard 0,2008-07-10
@@ -33,11 +37,12 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2008-11-20,スゴロクロニクル 〜右手に剣を左手にサイコロを〜,MADBの価格（8190税込・スゴロクロニクル ～右手に剣を左手にサイコロを～ バラエティパック）を同梱版等とみて maru-chang の価格に置換,M749896,スゴロクロニクル ～右手に剣を左手にサイコロを～ バラエティパック,2008-11-20,,,,RVL-RDUJ,スゴロクロニクル 〜右手に剣を左手にサイコロを〜,2008-11-20
 2008-12-04,ヤッターマンWii ビックリドッキリマシンで猛レースだコロン,発売日不一致 MADB=2008-12-11; 発売日不一致 maru-chang=2008-12-11,M758053,ヤッターマンWii ビックリドッキリマシンで猛レースだコロン,2008-12-11,,,,RVL-RYAJ,ヤッターマンWii ビックリドッキリマシンで猛レースだコロン,2008-12-11
 2008-12-11,太鼓の達人Wii,MADBの価格（7980税込・太鼓の達人Wii）を同梱版等とみて maru-chang の価格に置換,M763916,太鼓の達人Wii,2008-12-11,,,,RVL-R2JJ,太鼓の達人 Wii,2008-12-11
-2008-12-18,ニード・フォー・スピード アンダーカバー,maru-chang同日1件のみで照合（NEED FOR SPEED UNDERCOVER）,M752949,ニード・フォー・スピード アンダーカバー,2008-12-18,,,,RVL-RX9J,NEED FOR SPEED UNDERCOVER,2008-12-18
+2008-12-18,ニード・フォー・スピード アンダーカバー,maru-chang同日1件のみで照合（NEED FOR SPEED UNDERCOVER）; CERO不一致 MADB=B GameTDB=A,M752949,ニード・フォー・スピード アンダーカバー,2008-12-18,,,,RVL-RX9J,NEED FOR SPEED UNDERCOVER,2008-12-18
 2008-12-25,バイオハザード,MADB未照合; maru-chang同日1件のみで照合（biohazard）,,,,,,,RVL-RE4J,biohazard,2008-12-25
 2009-01-22,涼宮ハルヒの激動,価格不一致 MADB=9240税込 maru-chang=6800税抜,M766747,涼宮ハルヒの激動 超DXパック,2009-01-22,,,,RVL-RHHJ,涼宮ハルヒの激動,2009-01-22
 2009-01-29,ファイナルファンタジー・クリスタルクロニクル エコーズ・オブ・タイム,maru-chang同日1件のみで照合（FINAL FANTASY CRYSTAL CHRONICLES Echoes of Time）,M754973,ファイナルファンタジー・クリスタルクロニクル エコーズ・オブ・タイム,2009-01-29,,,,RVL-RFFJ,FINAL FANTASY CRYSTAL CHRONICLES Echoes of Time,2009-01-29
 2009-02-12,スケート イット,maru-chang同日1件のみで照合（Skate it）,M749879,スケート イット,2009-02-12,,,,RVL-RVSJ,Skate it,2009-02-12
+2009-02-19,デッドライジング ゾンビのいけにえ,CERO不一致 MADB=D GameTDB=B,M751823,デッドライジング ゾンビのいけにえ,2009-02-19,,,,RVL-RINJ,デッドライジング ゾンビのいけにえ,2009-02-19
 2009-02-26,ONE PIECE アンリミテッドクルーズ エピソード2 目覚める勇者,maru-chang同日1件のみで照合（ONE PIECE UNLIMITED CRUISE エピソード2 −目覚める勇者−）,M759528,ワンピース アンリミテッドクルーズ エピソード2 目覚める勇者,2009-02-26,,,,RVL-RIUJ,ONE PIECE UNLIMITED CRUISE エピソード2 −目覚める勇者−,2009-02-26
 2009-03-19,モノポリー,MADB未照合,,,,,,,RVL-RWOJ,MONOPOLY クラシック＆ワールドエディション【日本語版】,2009-03-19
 2009-03-19,実況パワフルプロ野球NEXT,価格不一致 MADB=5980税込 maru-chang=5980税抜,M761943,実況パワフルプロ野球 NEXT,2009-03-19,,,,RVL-RX8J,実況パワフルプロ野球NEXT,2009-03-19
@@ -60,6 +65,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2009-11-26,カラオケJOYSOUND Wii DX,MADBの価格（7140税込・カラオケJOYSOUND Wii DX）を同梱版等とみて maru-chang の価格に置換,M746755,カラオケJOYSOUND Wii DX,2009-11-26,,,,RVL-SOKJ,カラオケJOYSOUND Wii DX,2009-11-26
 2009-12-10,ウイニングイレブン プレーメーカー2010,価格不一致 MADB=7140税込 maru-chang=6980税込; maru-chang同日1件のみで照合（Winning Eleven PLAY MAKER 2010）,M745632,ウイニングイレブン プレーメーカー 2010,2009-12-10,,,,RVL-SUXJ,Winning Eleven PLAY MAKER 2010,2009-12-10
 2009-12-10,テイルズ オブ グレイセス,MADBの価格（27800税込・テイルズ オブ グレイセス スペシャルパック）を同梱版等とみて maru-chang の価格に置換,M751537,テイルズ オブ グレイセス スペシャルパック,2009-12-10,,,,RVL-STGJ,テイルズ オブ グレイセス,2009-12-10
+2009-12-10,鋼の錬金術師 FULLMETAL ALCHEMIST -黄昏の少女-,CERO不一致 MADB=B GameTDB=A,M761299,鋼の錬金術師 FULLMETAL ALCHEMIST -黄昏の少女-,2009-12-10,,,,RVL-SFAJ,鋼の錬金術師 FULLMETAL ALCHEMIST −黄昏の少女−,2009-12-10
 2009-12-17,ニード・フォー・スピード ナイトロ,maru-chang同日1件のみで照合（NEED FOR SPEED NITRO）,M752985,ニード・フォー・スピード ナイトロ,2009-12-17,,,,RVL-R7XJ,NEED FOR SPEED NITRO,2009-12-17
 2010-01-14,バイオハザード ダークサイド・クロニクルズ,価格不一致 MADB=8390税込 maru-chang=6990税抜,M753601,バイオハザード/ダークサイド・クロニクルズ コレクターズ・パッケージ,2010-01-14,,,,RVL-SBDJ,バイオハザード / ダークサイド・クロニクルズ,2010-01-14
 2010-04-28,バスフィッシングWii ワールドトーナメント,maru-chang同日1件のみで照合（Bass Fishing Wii〜ワールドトーナメント〜）,M753768,バスフィッシングWii ワールドトーナメント,2010-04-28,,,,RVL-RXNJ,Bass Fishing Wii〜ワールドトーナメント〜,2010-04-28
@@ -70,6 +76,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2010-07-15,ドラゴンクエスト モンスターバトルロードビクトリー,MADB未照合,,,,,,,RVL-SBAJ,ドラゴンクエスト モンスターバトルロードビクトリー,2010-07-15
 2010-07-29,戦国BASARA3,価格不一致 MADB=6990税込 maru-chang=5990税込,M763482,戦国BASARA3 クラシックコントローラPRO クロ パック,2010-07-29,,,,RVL-SB3J,戦国BASARA3,2010-07-29
 2010-08-05,テトリスパーティープレミアム,maru-chang同日1件のみで照合（Tetris Party Premium）,M751841,テトリスパーティープレミアム,2010-08-05,,,,RVL-STEJ,Tetris Party Premium,2010-08-05
+2010-08-26,トウィンクル クイーン,CERO不一致 MADB=B GameTDB=A,M752025,トウィンクル クイーン,2010-08-26,,,,RVL-S3RJ,トウィンクル クイーン,2010-08-26
 2010-09-02,メトロイド アザーエム,MADB未照合; maru-chang同日1件のみで照合（METROID Other M）,,,,,,,RVL-R3OJ,METROID Other M,2010-09-02
 2010-10-21,ノーモア★ヒーローズ2 デスパレート・ストラグル,MADB低スコア0.70; MADBが通常版以外の可能性; maru-chang同日1件のみで照合（NO MORE HEROES 2 DESPERATE STRUGGLE）,M753296,ノーモア ヒーローズ2 デスパレート ストラグル 限定コレクターズBOX「HOPPERS Edition」,2010-10-21,,,,RVL-RUYJ,NO MORE HEROES 2 DESPERATE STRUGGLE,2010-10-21
 2010-11-18,ウイニングイレブン プレーメーカー2011,maru-chang同日1件のみで照合（Winning Eleven PLAY MAKER 2011）,M745635,ウイニングイレブン プレーメーカー 2011,2010-11-18,,,,RVL-SW4J,Winning Eleven PLAY MAKER 2011,2010-11-18
