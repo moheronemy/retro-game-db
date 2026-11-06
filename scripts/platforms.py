@@ -1275,6 +1275,21 @@ PLATFORMS = {
         "hash_source": "Redump",
         "media": "disc",
     },
+    # プレイディア（バンダイ）。本体の記事の「ソフト一覧」の表。品番は表の列（MADB・MAME に記録が無い）。発売元・価格・ハッシュは空欄
+    "playdia": {
+        "name": "プレイディア",
+        "dir": ROOT / "data" / "playdia",
+        "id_prefix": "playdia-jp",
+        "wikipedia": {"tables": [{"page": "プレイディア", "section": "", "subsection": "ソフト一覧",
+                                  "columns": ("jp", "title", "wiki_model", "notes")}]},
+        "madb_platforms": [],
+        "mame_lists": [],
+        "models_from": lambda t: [m for m in re.findall(r"\b(?:BAPD|BKPD|BS)-\d{2,3}\b|\bVPRJ-\d{5}\b", (t or "").upper())],
+        "models_from_serial": lambda s: [],
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": [],
+    },
     # スーパーカセットビジョン（エポック社）。一覧の記事は作品ごとの節（表ではない）。cassette_no はカセットの通し番号
     "scv": {
         "name": "スーパーカセットビジョン",

@@ -27,6 +27,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
 | カセットビジョン (CV) | [`data/cv/jp_titles.csv`](data/cv/jp_titles.csv) | 11 | 0 | 11 | （出典なし） |
+| プレイディア | [`data/playdia/jp_titles.csv`](data/playdia/jp_titles.csv) | 33 | 33 | 0 | （出典なし） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 771 | 1,357 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（781 行） |
@@ -61,6 +62,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| プレイディア | [`jp_not_for_sale.csv`](data/playdia/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/playdia/jp_non_retail.csv)（店頭販促用 1 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -863,6 +865,22 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - 型番・ハッシュは出典が無く空欄（カセットごとにマイコンを内蔵した作りで、MAME・No-Intro に記録が無い）。
 - 販売中止の『グランドチャンピオン』は対象外。
 
+## プレイディア
+
+バンダイのプレイディア（1994年発売）用のソフト。`id` は `playdia-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・品番 | ja.wikipedia「プレイディア」の「ソフト一覧」の表（一覧の記事は無い）。33 件で、本文の年ごとの本数（11・16・6）と一致 |
+
+- 型番は表の品番（`BAPD-01`〜、`BKPD-01`〜、家なき子の `VPRJ-09722`）で全 33 件にある（MADB・MAME に記録が無いので、enrich.py は
+  Wikipedia の品番の列〈`wiki_model`〉を使う）。
+- 発売元・価格・ハッシュは出典が無く空欄（合意済み。MADB・MAME に項目が無く、libretro の Redump DAT にも無い）。
+- 非売品は Wikipedia「非売品」節の 7 件のうち、配布経路の書かれた 2 件（祐実とトコトンプレイディア〈キャンペーン景品・5,000名〉、
+  ゴー!ゴー!アックマン・プラネット〈Vジャンプの懸賞・200名〉。いずれも `prize`）。店頭販促用の「Playdia サンプルソフト」（`BS-002`）は
+  別リストの `store_demo`（どちらも手で管理）。経路の記述の無い 4 件は後回し。
+- 業務用の「みちゃ王」用ディスクは対象外。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1252,6 +1270,9 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py playdia   # 本体の記事の表（1段下の見出し）
+python3 scripts/enrich.py playdia
 
 python3 scripts/fetch_wikipedia_list.py scv  # 作品ごとの節の記事
 python3 scripts/enrich.py scv

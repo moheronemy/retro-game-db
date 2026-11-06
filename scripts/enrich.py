@@ -111,10 +111,13 @@ def main():
         mame_codes = models_from(mm["serial"]) if mm else []
         madb_codes = models_from(md["product_id"]) if md else []
         # 型番の優先順位: 手動 > MAME（ROMのゲームコード） > MADB（パッケージ表記。誤記あり）
-        model = ov.get("model_number") or (mame_codes or madb_codes or [""])[0]
+        wiki_codes = models_from(r.get("wiki_model", ""))   # Wikipedia の表に品番の列がある機種（プレイディア）
+        model = ov.get("model_number") or (mame_codes or madb_codes or wiki_codes or [""])[0]
         srcs = []
         if ov.get("model_number"):
             srcs.append("manual")
+        if model and model in wiki_codes:
+            srcs.append("Wikipedia")
         if model and key(model) in keys(mame_codes):
             srcs.append("MAME")
         if model and key(model) in keys(madb_codes):

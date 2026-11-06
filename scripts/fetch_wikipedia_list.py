@@ -373,7 +373,15 @@ def main():
             print(f"  作品ごとの節: {len(got)} 件", file=sys.stderr)
             rows += got
             continue
-        text = table_text(section(texts[page], t["section"]), t.get("table_id"))
+        if t.get("subsection"):   # 1段下の見出し（=== ソフト一覧 ===）の表
+            m = re.search(rf"^===\s*{re.escape(t['subsection'])}\s*===\s*$", texts[page], re.M)
+            if not m:
+                raise SystemExit(f"section not found: {t['subsection']}")
+            rest = texts[page][m.end():]
+            n = re.search(r"^===?[^=].*?===?\s*$", rest, re.M)
+            text = table_text(rest[: n.start()] if n else rest, t.get("table_id"))
+        else:
+            text = table_text(section(texts[page], t["section"]), t.get("table_id"))
         if t.get("strip_comments"):   # セルごとに <!--発売時期--> のような注記がある表（SG-1000）
             text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
         got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"),
