@@ -1,6 +1,6 @@
 title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256,verification,source_count,first_dump_date,rom_chip,label_serial,pcb,save_type,nointro_number,mame_name,mame_status,hash_source,discs
 gg-jp-0001,コラムス,,Columns (Japan) (En),0,retail,32768,f3ca6676,680682aaa9b7eae0642e4b9c4ef80f59,8b39ba23132af102b8dc313c5c1c211f4a4f27e1,,dat_only,1,,,,,,,columnsj1,good,No-Intro,1
-gg-jp-0001,コラムス,,Columns (Japan) (En) (Rev A),0,retail,32768,ac37e092,36b33d28235b4c9439ab0f62ab1c97c4,d83fd16bd23c51750555a692535daa171ed41af0,,dat_only,1,,,,,,,columnsj,good,No-Intro,1
+gg-jp-0001,コラムス,,Columns (Japan) (En) (Rev A),A,retail,32768,ac37e092,36b33d28235b4c9439ab0f62ab1c97c4,d83fd16bd23c51750555a692535daa171ed41af0,,dat_only,1,,,,,,,columnsj,good,No-Intro,1
 gg-jp-0002,スーパーモナコGP,,"Super Monaco GP (Japan, Korea) (En)",0,retail,131072,4f686c4a,1d0840170b529de631517efc05d6168e,2a61491785ad56f5bdc504c994f36ee8ea9dcf68,,dat_only,1,,,,,,,smgpj,good,No-Intro,1
 gg-jp-0003,ペンゴ,,Pengo (Japan) (En),0,retail,32768,ce863dba,95cea3a33a3f5915942904b4817b2010,5883e2d19ab7126d52abc177a97d44bc88c319de,,dat_only,1,,,,,,,pengoj,good,No-Intro,1
 gg-jp-0004,斬GEAR,,Zan Gear (Japan),0,retail,131072,141aaf96,ab36b9930a91dd9955c8e60af16ea22f,115074a58606720755364eaf0a4bc60aabf18f94,,dat_only,1,,,,,,,zangear,good,No-Intro,1
@@ -12,7 +12,7 @@ gg-jp-0008,倉庫番,,Soukoban (Japan) (En),0,retail,131072,0f3e3840,0a98b767910
 gg-jp-0009,ドラゴンクリスタル ツラニの迷宮,,Dragon Crystal - Tsurani no Meikyuu (Japan),0,retail,131072,89f12e1e,da0b9e94ffb9c3930501c7a7a90fbf18,ea323c4ac28d7762277039450c341d0f025093d8,,dat_only,1,,,,,,,dcrystalj,good,No-Intro,1
 gg-jp-0009,ドラゴンクリスタル ツラニの迷宮,,Dragon Crystal - Tsurani no Meikyuu (Japan) (Virtual Console),0,virtual_console,131072,9c8534ec,e6d6fdb864d7878b7b444c7200b84b7c,df135dd54638e2ce1f18d670c98b0313484d70bc,,dat_only,1,,,,,,,,,No-Intro,1
 gg-jp-0010,上海II,,Shanghai II (Japan) (En),0,retail,131072,2ae8c75f,a9d1712dca313ba021844f62eec8a08c,5180891ec0ae08d784dd89222d9ffd7f88a59691,,dat_only,1,,,,,,,shangh2a,good,No-Intro,1
-gg-jp-0010,上海II,,Shanghai II (Japan) (En) (Rev A),0,retail,131072,81314249,c228d31cf77bd03ac457e2d22f5b2bd1,82210b387344aaebae8cf03029967cd0c906beff,,dat_only,1,,,,,,,shangh2,good,No-Intro,1
+gg-jp-0010,上海II,,Shanghai II (Japan) (En) (Rev A),A,retail,131072,81314249,c228d31cf77bd03ac457e2d22f5b2bd1,82210b387344aaebae8cf03029967cd0c906beff,,dat_only,1,,,,,,,shangh2,good,No-Intro,1
 gg-jp-0011,THEプロ野球'91,,"Pro Yakyuu '91, The (Japan)",0,retail,131072,6d3a10d3,f9ae1762ed006c001e811fe6f072abb7,804cfac0a7578c3fd625f0084a24afa26a2dc015,,dat_only,1,,,,,,,proyak91,good,No-Intro,1
 gg-jp-0012,パックマン,,Pac-Man (Japan) (En),0,retail,131072,a16c5e58,e6985998d25d6c4fe36c2b8041244bb4,d78b6aac927692f1b67e6a4b7494e2c7e709ae17,,dat_only,1,,,,,,,pacmanj,good,No-Intro,1
 gg-jp-0012,パックマン,,Pac-Man (World),0,retail,65536,85595c91,9aa58142a94b8554a8baa4f7c364948d,5121090c765d59c0443c6368becfbf77842c1b32,,dat_only,1,,,,,,,,,No-Intro,1
@@ -55,8 +55,8 @@ gg-jp-0048,ドナルドダックのラッキーダイム,,Donald Duck no Lucky D
 gg-jp-0049,ヘビーウェイトチャンプ,,Heavy Weight Champ (Japan),0,retail,131072,beed9150,b963441c5edad8396b857a9ad8448995,7cfd703ebdab4b2665f402adeac0060740615b6c,,dat_only,1,,,,,,,heavyw,good,No-Intro,1
 gg-jp-0050,フレイ 〜修行編〜,,Fray - Shugyou Hen (Japan),0,retail,262144,e123d9b8,ed0d0917984f2cc8aa560c1bf55eb95f,0dc770773f651718881ce17a87f145e2f0b02fb1,,dat_only,1,,,,,,,fray,good,No-Intro,1
 gg-jp-0051,ソニック・ザ・ヘッジホッグ,,"Sonic The Hedgehog (Japan, USA) (En)",0,retail,262144,3e31cb8c,8a95b36139206a5ba13a38bb626aee25,8923295c96b2e05da0a83a827fd709b033fc7332,,dat_only,1,,,,,,,sonicj,good,No-Intro,1
-gg-jp-0051,ソニック・ザ・ヘッジホッグ,,Sonic The Hedgehog (World) (Rev A),0,retail,262144,d163356e,b1de7027824c434ce8de59782705f5c9,7dbbbca2229e74fcb8f90ec794aa6e5cb168e489,,dat_only,1,,,,,,,sonic,good,No-Intro,1
-gg-jp-0051,ソニック・ザ・ヘッジホッグ,,Sonic The Hedgehog (World) (Rev A) (Virtual Console),0,virtual_console,262144,c2572208,37a20d660517de6a07b4981c253439ef,da410b0f00cd0b3a70c3e18c83d0d71609d8ea43,,dat_only,1,,,,,,,,,No-Intro,1
+gg-jp-0051,ソニック・ザ・ヘッジホッグ,,Sonic The Hedgehog (World) (Rev A),A,retail,262144,d163356e,b1de7027824c434ce8de59782705f5c9,7dbbbca2229e74fcb8f90ec794aa6e5cb168e489,,dat_only,1,,,,,,,sonic,good,No-Intro,1
+gg-jp-0051,ソニック・ザ・ヘッジホッグ,,Sonic The Hedgehog (World) (Rev A) (Virtual Console),A,virtual_console,262144,c2572208,37a20d660517de6a07b4981c253439ef,da410b0f00cd0b3a70c3e18c83d0d71609d8ea43,,dat_only,1,,,,,,,,,No-Intro,1
 gg-jp-0052,スペースハリアー,,Space Harrier (World),0,retail,131072,600c15b3,cd3809b8d6d32144c45de8e102623aa0,d00b8ff195d4423f2a344490eb34156017f4ee64,,dat_only,1,,,,,,,sharrier,good,No-Intro,1
 gg-jp-0053,GGアレスタ,,GG Aleste (Japan) (En),0,retail,262144,1b80a75b,43301e7c15fe11f66b29b00e6ec47a52,4c13dc3601a1702692c35eb6c89f0e09ab966f69,,dat_only,1,,,,,,,ggaleste,good,No-Intro,1
 gg-jp-0053,GGアレスタ,,GG Aleste (Japan) (En) (Aleste Collection),0,collection,262144,0a49407d,d652ab08184bc3439220c79fe7c36a60,16f97080c3464d013c2c18b8e3357bb850e1c51c,,dat_only,1,,,,,,,,,No-Intro,1
@@ -99,7 +99,7 @@ gg-jp-0085,シャイニング・フォース外伝II 〜邪神の覚醒〜,,Shin
 gg-jp-0086,ああ播磨灘,,Aa Harimanada (Japan),0,retail,524288,1d17d2a0,da0523e29f893fb81e5f2e89b2fb240a,0fa7111fcd98670d4bef725d11e670e14eaaa7eb,,dat_only,1,,,,,,,aaharima,good,No-Intro,1
 gg-jp-0087,ベア・ナックルII 死闘への鎮魂歌,,Streets of Rage 2 (World),0,retail,524288,0b618409,5566e332f860dc0f9da1507fd7feb1cd,2804b355347bda6e2903078ba30ed6b3a289ebba,,dat_only,1,,,,,,,sor2,good,No-Intro,1
 gg-jp-0088,なぞぷよ,,Nazo Puyo (Japan),0,retail,131072,bcce5fd4,1f7f13111353aeb49205bb3fc1697dd8,6ad654e11067ed12437022fcf22b9fea9be7ac46,,dat_only,1,,,,,,,nazopuyo1,good,No-Intro,1
-gg-jp-0088,なぞぷよ,,Nazo Puyo (Japan) (Rev A),0,retail,131072,d8d11f8d,286df90c900f1923a404b617907472c9,7b19e92a85564b166c364d990d9d44f7e1113541,,dat_only,1,,,,,,,nazopuyo,good,No-Intro,1
+gg-jp-0088,なぞぷよ,,Nazo Puyo (Japan) (Rev A),A,retail,131072,d8d11f8d,286df90c900f1923a404b617907472c9,7b19e92a85564b166c364d990d9d44f7e1113541,,dat_only,1,,,,,,,nazopuyo,good,No-Intro,1
 gg-jp-0089,ジュラシック・パーク,,Jurassic Park (Japan),0,retail,524288,2f536ae3,5797a3efc5bd691a29cd52e8315da9b9,89486678a6a065c56102296eebc7b25c5ef32d21,,dat_only,1,,,,,,,jparkj,good,No-Intro,1
 gg-jp-0090,GGアレスタII,,"Power Strike II (Japan, Europe) (En)",0,retail,262144,09de1528,d5836ec389ec2c81bd54728b96b87152,e4db2140761b43426024bd08c4372bb9b8979d3d,,dat_only,1,,,,,,,pstrike2,good,No-Intro,1
 gg-jp-0091,アルティメイトサッカー,,"Ultimate Soccer (Japan, Europe, Brazil) (En,Fr,De,Es,It)",0,retail,262144,820965a3,23ed27ebb1ed0f22610e132a3668f06b,7994621926628d2376a75e8d90cd066d48a4d502,,dat_only,1,,,,,,,ultsoccr,good,No-Intro,1
@@ -151,7 +151,7 @@ gg-jp-0136,ソニック&テイルス2,,Sonic & Tails 2 (Japan) (En),0,retail,524
 gg-jp-0137,餓狼伝説スペシャル,,Garou Densetsu Special (Japan),0,retail,524288,9afb6f33,203c6faa7508c8a88ee6b775e365d89c,ec2f11e28bff47d149df1987673f80da08c1af6d,,dat_only,1,,,,,,,garousp,good,No-Intro,1
 gg-jp-0138,イチダントア〜ルGG,,Puzzle & Action - Ichidanto-R (Japan),0,retail,524288,9f64c2bb,7e28dc24cb77accafeaba718917961ec,34f95713ae3fbd91452eb71ce1721ead153517e5,,dat_only,1,,,,,,,ichirgg,good,No-Intro,1
 gg-jp-0139,魔導物語III 究極女王様,,Madou Monogatari III - Kyuukyoku Joou-sama (Japan),0,retail,524288,0a634d79,b8b5305ec2f68d7bb3c9f622a13eba7c,dd590c9086161b1f97573c48720c32cc5506dabc,,dat_only,1,,,,,,,madoum3a,good,No-Intro,1
-gg-jp-0139,魔導物語III 究極女王様,,Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A),0,retail,524288,568f4825,1294c965abdd845f554b30b311dee272,673670f954176ffab28a0280aa49856a457f36b1,,dat_only,1,,,,,,,madoum3,good,No-Intro,1
+gg-jp-0139,魔導物語III 究極女王様,,Madou Monogatari III - Kyuukyoku Joou-sama (Japan) (Rev A),A,retail,524288,568f4825,1294c965abdd845f554b30b311dee272,673670f954176ffab28a0280aa49856a457f36b1,,dat_only,1,,,,,,,madoum3,good,No-Intro,1
 gg-jp-0140,SAMURAI SPIRITS,,Samurai Spirits (Japan),0,retail,524288,93fd73dc,71b53a4577065e11453928774a7b64b0,2aaf7b6f9d37275995d4a62bb8a465333d8b0bf4,,dat_only,1,,,,,,,samspir,good,No-Intro,1
 gg-jp-0141,ぷよぷよ通,,Puyo Puyo Tsuu (Japan),0,retail,524288,3ab2393b,7c080a453da2d80add04a3c3d9f264d1,04ea9ff57faeeccd1bbb17490d22313ae94c86d6,,dat_only,1,,,,,,,puyopuy2,good,No-Intro,1
 gg-jp-0141,ぷよぷよ通,,Puyo Puyo Tsuu (Japan) (Virtual Console),0,virtual_console,524288,1095528d,a54d6388dc3cb4303b067a82add93a25,b4c15e8951230c58d3350a2e4a6f998ea5bc87d3,,dat_only,1,,,,,,,,,No-Intro,1

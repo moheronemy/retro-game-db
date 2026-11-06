@@ -180,7 +180,7 @@ def dump_info(g, ref, mame):
     pick = lambda *keys: ";".join(sorted({se.get(k) for se in serials for k in keys if se.get(k)}))
     dates = sorted(s.find("details").get("d_date") for s in sources
                    if s.find("details") is not None and s.find("details").get("d_date"))
-    rev = next((m.group(1) for t in tags for m in [re.fullmatch(r"Rev (\d+)", t)] if m), None)
+    rev = next((m.group(1) for t in tags for m in [re.fullmatch(r"Rev ([0-9A-Z]+)", t)] if m), None)
     ver = next((t for t in tags if re.fullmatch(r"v\d+(\.\d+)*", t)), None)
     dv = re.search(r"\((DV [\d, ]+)\)", name)   # ディスクシステムのディスクの版（例: DV 2）
     ver = ver or (dv.group(1) if dv else None)

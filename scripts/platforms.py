@@ -352,6 +352,18 @@ def _gg_models(text):
     return out
 
 
+def _ws_models(text):
+    """ワンダースワンの型番。'SWJ-BAN001'（モノクロ・カラー対応）、'SWJ-BANC01'（カラー専用は多くが C 付き。
+    末尾 3 文字は 16 進）、mama Mitte' の 'MM-280'、WWGP 入賞作の 'WWGP2001A3'。
+    MADB の 'SWJ-SUMCO7' のような O と 0 の誤記は 0 にそろえる。"""
+    out = []
+    for m in re.finditer(r"\b(?:SWJ-([A-Z]{3})([0-9A-Z]{3})|(MM-\d{3})|(WWGP\d{4}[A-Z0-9]{2}))\b", (text or "").upper()):
+        code = f"SWJ-{m.group(1)}{m.group(2).replace('O', '0')}" if m.group(1) else (m.group(3) or m.group(4))
+        if code not in out:
+            out.append(code)
+    return out
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -876,6 +888,30 @@ PLATFORMS = {
         "normalize_code": lambda c: "",
         "dump_world": True,
         "tax_free_before": "1989-04-01",
+    },
+    # ワンダースワン／ワンダースワンカラー（スワンクリスタル専用ソフトは無い）。1本のリストにまとめ、compat 列で
+    # ws（モノクロ）/ wsc_compatible（カラー対応）/ wsc_only（カラー専用）を区別する
+    "ws": {
+        "name": "ワンダースワン／ワンダースワンカラー",
+        "dir": ROOT / "data" / "ws",
+        "id_prefix": "ws-jp",
+        "wikipedia": {"tables": [
+            {"page": "ワンダースワンのゲームタイトル一覧", "section": sec, "extra": {"compat": compat}}
+            for sec, compat in (("ワンダースワンのタイトル", "ws"),
+                                ("ワンダースワンカラー対応のタイトル", "wsc_compatible"),
+                                ("ワンダースワンカラー専用のタイトル", "wsc_only"))]},
+        "extra_columns": ["compat"],
+        "madb_platforms": ["ワンダースワン"],
+        "mame_lists": ["wswan", "wscolor"],
+        "mame_all_japanese": ["wswan", "wscolor"],   # 説明に地域が無い（アジア版は説明の '(Asia)' で除く）
+        "models_from": _ws_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルが無い
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": ["Bandai - WonderSwan", "Bandai - WonderSwan Color"],
+        "nointro_export": ["Bandai - WonderSwan (DB Export)", "Bandai - WonderSwan Color (DB Export)"],
+        "nointro_export_fallback": {"Bandai - WonderSwan (DB Export)": "Bandai - WonderSwan",
+                                    "Bandai - WonderSwan Color (DB Export)": "Bandai - WonderSwan Color"},
     },
     "wii": {
         "name": "Wii",

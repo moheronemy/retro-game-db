@@ -69,6 +69,8 @@ _KANJI_NUM = {"一": "1", "二": "2", "三": "3", "四": "4", "五": "5", "六":
 
 def norm(s):
     s = unicodedata.normalize("NFKC", s).lower()
+    # 「for WonderSwan」と「for ワンダースワン」（MADB・MAME と Wikipedia で表記が分かれる）
+    s = s.replace("wonderswan", "ワンダースワン")
     # 「第一巻」「第2弾」などを数字だけにそろえる（例: 「火の鳥1」と「火の鳥 第一巻」）
     s = re.sub(r"第([一二三四五六七八九十]|\d+)(巻|弾|章|話|号)",
                lambda m: _KANJI_NUM.get(m.group(1), m.group(1)), s)
@@ -230,6 +232,8 @@ def load_mame(lists, jp_models=None, all_japanese=()):
                 continue
             if re.search(r"prototype|promo|demo|Kiosk|Hot Mario", desc, re.I):
                 continue  # 一般販売品ではないもの（非売品は別途扱う）
+            if lst in all_japanese and re.search(r"\((?:Asia|Korea|Hong Kong)", desc):
+                continue  # 日本版だけのリストに混じる海外版（ワンダースワンの 'Robot Works (Asia)'）
             rel = info.get("release") or ""
             # '19890614' のほか '19890614 (JPN)' のような注記付きもある
             rm = re.match(r"(\d{4})(\d{2})(\d{2})(?:$|\s)", rel)

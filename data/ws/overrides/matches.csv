@@ -1,0 +1,24 @@
+release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,release_date_fix,comment
+1999-04-01,上海ポケット,M724415,,,,,,,MADB は「上海 Pocket」（同日・型番 SWJ-SUN001）
+1999-05-27,SDガンダム エモーショナルジャム,M727968,,,,,,,MADB の発売日は 1999-04-15（型番 SWJ-BAN006 が MAME と一致）
+1999-12-09,BUFFERS EVOLUTION,M754076,,,,,,,MADB は「バッファーズエボリューション」（同日）
+2000-03-23,ファイナルラップ2000,M723906,,,,,,,MADB は「FINAL LAP 2000」（同日）
+2000-07-13,SDガンダム Gジェネレーション ギャザービート,M727949,,,,,,,MADB は「SDガンダム G GENERATION GATHER BEAT」（同日。ワンダーウェーブ同梱版ではない方）
+2001-03-01,ウィザードリィ シナリオ1 狂王の試練場,M733733,,,,,,,MADB は「WIZARDRY 1 Scenario#1 Proving Grounds of the Mad Overlord」（同日）
+2001-05-02,ファイナルファンタジーII,M727935,,,,,,,MADB は「FINAL FANTASY 2」（2001-05-03。本体同梱版ではない方）
+2001-06-14,SDガンダム Gジェネレーション ギャザービート2,M742113,,,,,,,MADB は「SDガンダム GGENERATION GATHER BEAT2」（同日）
+2001-09-27,GUILTY GEAR PETIT2,M747328,,,,,,,MADB は「ギルティギア プチ 2」（同日）
+2001-09-27,スターハーツ 〜星と大地の使者〜,M727929,,,,,,,MADB は「STAR HEARTS 星と大地の使者」（同日）
+2002-03-29,ファイナルファンタジーIV,M722927,,,,,,,MADB は「FINAL FANTASY 4」（2002-03-28）
+2002-07-04,アークザラッド 機神復活,M727916,,,,,,,MADB は「Arc The Lad 機神復活」（同日）
+2002-07-12,FRONT MISSION,M755870,,,,,,,MADB は「フロントミッション」（同日）
+1999-03-11,ワンダースタジアム,,wstadium,,,,,,MAME の発売日が年月まで（1999-03）で自動照合されない
+1999-04-01,語楽王 TANGO!,,gorakuta,,,,,,MAME は「語楽王 タンゴ !」（同日・SWJ-PAW001）
+1999-09-30,ワンダースタジアム'99,,wstad99,,,,,,MAME の発売日が年月まで（1999-09）で自動照合されない
+1999-12-22,森田将棋 for ワンダースワン,,moritash,,,,,,MAME の発売日は 1999-11-02（MADB・Wikipedia は 1999-12-22）
+2000-06-23,ワンダーボーグ,,robworks,,,,,,MAME「Wonder Borg Robot Works」。型番 SWJ-BAN033 は付属カートリッジ「ロボットワークス」のもの
+2000-07-14,モバイルワンダーゲート,,mobilewg,,,,,,MAME「MobileWonderGate」（型番 SWJ-SCC001 は付属カートリッジのもの）
+2000-12-28,FLASH 恋人クン,,wscolor:flashkk,,,,,,MAME は「フラッシュ 恋人クン」（同日）
+2002-02-28,ゴールデンアックス,,wscolor:goldnaxe,,,,,,MAME「Golden Axe」（同日・日本語題名なし）
+2003-07-31,聖闘士星矢 黄金伝説編 Perfect Edition,,wscolor:sseiya,,,,,,MAME は「聖闘士星矢 黄金伝説編 パーフェクトエディション」（同日）
+2004-05-31,Dicing Knight.,M751137,wscolor:dicing,,,,,,MADB「だんしんぐないと」は同日でほかに候補が無く、MAME の読み「だいしんぐないと・ピリオド」の誤記とみられる

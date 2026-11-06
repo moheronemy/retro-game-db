@@ -24,6 +24,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,860 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（3,224 行） |
 | PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,144 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,308 行） |
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
+| ワンダースワン／カラー (WS/WSC) | [`data/ws/jp_titles.csv`](data/ws/jp_titles.csv) | 202 | 200 | 181 | [`data/ws/jp_rom_dumps.csv`](data/ws/jp_rom_dumps.csv)（227 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
@@ -44,6 +45,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PS | （未調査・0 件） | （0 件） | |
 | PS2 | （未調査・0 件） | [`jp_non_retail.csv`](data/ps2/jp_non_retail.csv)（店頭体験版 19 件） | |
 | GG | （未調査・0 件） | （0 件） | |
+| WS/WSC | [`jp_not_for_sale.csv`](data/ws/jp_not_for_sale.csv)（3 件） | （0 件） | 会場限定販売 [`jp_other.csv`](data/ws/jp_other.csv)（2 件） |
 | PS3 | （未調査・0 件） | （0 件） | 配信専用 [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件） |
 
 各ファイルの列は GBA の節で説明している（GB/GBC も共通。GB/GBC 固有の列は GB/GBC の節を参照）。
@@ -747,6 +749,46 @@ PlayStation 3 のパッケージソフトとして日本で発売されたもの
 - 『颯爽少年英雄伝 コカ・コーラキッド』の景品のプラスワンセット（本体とのセット）は別のソフトではないので非売品リストに入れていない
   （Wikipedia の備考に記載）。その他の非売品の調査は後回し。
 
+## WS/WSC
+
+ワンダースワン・ワンダースワンカラーは 1 本のリストにまとめ、`compat` 列で区別する（スワンクリスタル専用のソフトは無い）。
+`id` は `ws-jp-<連番>`（発売順）。
+
+| `compat` | 種類 | 件数 |
+|---|---|---|
+| `ws` | ワンダースワン（モノクロ） | 111 |
+| `wsc_compatible` | ワンダースワンカラー対応（モノクロ機でも動く） | 20 |
+| `wsc_only` | ワンダースワンカラー専用 | 71 |
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「ワンダースワンのゲームタイトル一覧」の 3 つの表（108・20・70 件で計 198 件。本文の「全198タイトル」と一致。ベスト版は載っていない） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「ワンダースワン」。カラーも含む） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/wswan.xml` / `hash/wscolor.xml`（説明に地域が無いので全件を日本版とし、`(Asia)` だけ除く） |
+| ハッシュ | No-Intro DAT（libretro 収録の Bandai WonderSwan / WonderSwan Color） |
+
+- 本リストは Wikipedia の 198 件に、「専用カートリッジが付属する周辺機器」節の 4 件（ワンダーボーグ、モバイルワンダーゲート、
+  ワンダーウィッチ、mama Mitte'）を加えた 202 件（`overrides/extra_titles.csv`）。本表にあるハンディーソナー・デジタルパートナーも本リスト。
+  ワンダーボーグの発売日は先行発売の 2000年6月23日（一般発売は同年12月7日）。
+- 型番は表記のまま（`SWJ-BAN001`、カラー専用・カラー対応の多くは `SWJ-BANC01` のように C 付き。末尾は 16 進）。
+  mama Mitte' は `MM-280`、JUDGEMENT SILVERSWORD は `WWGP2001A3`。MADB の `SWJ-SUMCO7` のような O と 0 の誤記は 0 にそろえた。
+  ワンダーボーグ・モバイルワンダーゲートの型番は MAME が記録する付属カートリッジのもの。型番が無いのはワンダーウィッチと Dicing Knight. の 2 件。
+- MADB にある初回限定版・本体同梱版・ハードお買い得版・ワンダーウェーブ同梱版・通信ケーブル同梱版などは行にせず、価格は通常版のもの
+  （通常版が MADB に無い『ファイナルファンタジーII』などは同梱版の価格を採らない）。価格は 181 件（無いものは許容）。
+- 照合では「for WonderSwan」と「for ワンダースワン」を同じとみなす。自動で照合できなかったもの（カタカナと英字で表記が違う同日の
+  『BUFFERS EVOLUTION』と「バッファーズエボリューション」、MAME の発売日が年月までの『ワンダースタジアム』など）は
+  `overrides/matches.csv` で手動対応した（23 件）。
+- 発売日は Wikipedia を採る。MADB・MAME と異なるものは要確認レポートに出す（13 件。『名探偵コナン 夕暮れの皇女』『ミスタードリラー』は
+  MADB・MAME とも 2001年4月5日、JUDGEMENT SILVERSWORD は 2004年2月5日）。
+- No-Intro にシリアルが無いので、吸い出しは MAME の CRC・名前・手動対応（6 件）で結びつけた。日本版だけを載せ、WonderWitch の自作ソフト、
+  香港版・韓国版、販売経路の記録の無い `(Sample)` は載せない。`Rev 1`・`Rev 5C21` などは `revision` 列。
+  製品版の吸い出しが無いのはワンダーウィッチ（No-Intro に無い）と mama Mitte' の 2 件。
+- 非売品は Wikipedia「非売品」節の 3 件（SDガンダム オペレーションU.C. スペシャルパッケージ〈ガシャポンの抽選プレゼント〉、
+  デジモンアドベンチャー キャンペーン限定バージョン、スターハーツ 体験版〈ファミ通の抽選プレゼント〉。いずれも `prize`）。
+  吸い出しがあるのは後の 2 件。その他の調査は後回し。
+- 「その他」節の会場限定販売の 2 件（TENORI-ON〈岩井俊雄の個展会場〉、ピリオドの無い Dicing Knight〈WWGP2003 最終選考会場〉）は
+  `jp_other.csv`（手で管理。`nointro_name` に吸い出し名）。発売されなかったタイトルは対象外。
+
 ## 再生成
 
 ```sh
@@ -817,6 +859,10 @@ python3 scripts/build_dumps.py ps
 python3 scripts/fetch_wikipedia_list.py gg
 python3 scripts/enrich.py gg
 python3 scripts/build_dumps.py gg
+
+python3 scripts/fetch_wikipedia_list.py ws
+python3 scripts/enrich.py ws
+python3 scripts/build_dumps.py ws
 
 python3 scripts/fetch_psxdatacenter.py          # psxdatacenter.com（PS1・PS2 の型番）。2 秒間隔、PS1 は約 3〜4 時間
 python3 scripts/fetch_wikipedia_list.py ps2
