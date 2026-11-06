@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| カセットビジョン (CV) | [`data/cv/jp_titles.csv`](data/cv/jp_titles.csv) | 11 | 0 | 11 | （出典なし） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 771 | 1,357 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（781 行） |
 | ドリームキャスト (DC) | [`data/dc/jp_titles.csv`](data/dc/jp_titles.csv) | 497 | 481 | 411 | [`data/dc/jp_rom_dumps.csv`](data/dc/jp_rom_dumps.csv)（578 行） |
@@ -847,6 +848,19 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストの `business`。No-Intro では `(Proto)` だが、手動の行（`overrides/non_retail_manual.csv`）を優先し、自動の `prototype` の行は作らない。
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
+
+## CV
+
+エポック社のカセットビジョン（1981年発売）用のソフト。一覧の記事も MADB・MAME・No-Intro の記録も無いため、ja.wikipedia「カセットビジョン」の
+「ソフトウェア」節の箇条書き（11 作品）から手で作った（`data/cv/jp_titles.csv`。生成スクリプトは無い）。`id` は記事の並び順
+（カセットビジョンJr.対応 8 作品、専用 3 作品の順。発売日が分からないものがあるため厳密な発売順ではない）。
+
+- `jr_compat` はカセットビジョンJr.対応（`yes`。8 件）。
+- 発売日は Wikipedia の記述で確かめられたものだけ（きこりの与作 1981年7月30日〈本体と同時のローンチタイトル〉、ギャラクシアン 1981年8月10日、
+  モンスターマンション 1982年、エレベーターパニック 1984年8月）。ほかの 7 件は空欄（`sources` 列に根拠の記事）。
+- 価格は本体の記事の記述（エレベーターパニックは 3,980円、ほかは 4,980円）。消費税導入前なので `税なし`。
+- 型番・ハッシュは出典が無く空欄（カセットごとにマイコンを内蔵した作りで、MAME・No-Intro に記録が無い）。
+- 販売中止の『グランドチャンピオン』は対象外。
 
 ## VB
 

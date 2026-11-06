@@ -1,0 +1,12 @@
+id,release_date,title,publisher,jr_compat,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,sources
+cv-jp-0001,1981-07-30,きこりの与作,エポック社,yes,,4980,税なし,アーケードゲーム『与作』の移植。本体と同時発売のローンチタイトルで、カセットの番号は1（記事「与作 (ゲーム)」）,与作 (ゲーム),Wikipedia,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン ; https://ja.wikipedia.org/wiki/与作_(ゲーム)
+cv-jp-0002,1981-08-10,ギャラクシアン,エポック社,yes,,4980,税なし,ナムコの同名のゲームとは別内容。当初はナムコに無断での発売で、後に版権料を支払った（発売日は記事「ギャラクシアン」の表）,ギャラクシアン,Wikipedia,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン ; https://ja.wikipedia.org/wiki/ギャラクシアン
+cv-jp-0003,,バトルベーダー,エポック社,yes,,4980,税なし,『テレビベーダー』のカセットビジョン版（カセットにテレビベーダーの LSI をそのまま入れた）,テレビベーダー,,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
+cv-jp-0004,,パクパクモンスター,エポック社,yes,,4980,税なし,エポック社の電子ゲーム『パクパクマン』と同様に大幅なアレンジを施したドットイートゲーム,,,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
+cv-jp-0005,1982,モンスターマンション,エポック社,yes,,4980,税なし,エポック社の電子ゲーム『モンスターパニック』を元にしたアクションゲーム（発売年は曖昧さ回避ページ「モンスターマンション」）,,Wikipedia,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン ; https://ja.wikipedia.org/wiki/モンスターマンション
+cv-jp-0006,,アストロコマンド,エポック社,yes,,4980,税なし,エポック社の電子ゲーム『FLスペースディフェンダー』の作者によるシューティングゲーム,,,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
+cv-jp-0007,,モンスターブロック,エポック社,yes,,4980,税なし,パズルアクションゲーム,,,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
+cv-jp-0008,1984-08,エレベーターパニック,エポック社,yes,,3980,税なし,エレベーター要素を持つ『モンスターマンション』風のアクションゲーム。カセットの値段を下げた最終作,,Wikipedia,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
+cv-jp-0009,,ベースボール,エポック社,,,4980,税なし,『テレビ野球ゲーム』のカセットビジョン版（カセットにテレビ野球ゲームの LSI をそのまま入れた）。カセットビジョンJr.非対応,テレビ野球ゲーム,,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
+cv-jp-0010,,ビッグスポーツ12,エポック社,,,4980,税なし,『システム10』を元にした『スーパー10』をカセットビジョンで発売したもの。カセットビジョンJr.非対応,,,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
+cv-jp-0011,,ニューベースボール,エポック社,,,4980,税なし,ベースボールの改良版（1人プレイにも対応）。カセットビジョンJr.非対応,テレビ野球ゲーム,,,Wikipedia,https://ja.wikipedia.org/wiki/カセットビジョン
