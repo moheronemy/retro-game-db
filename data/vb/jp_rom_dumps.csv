@@ -1,0 +1,22 @@
+title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256,verification,source_count,first_dump_date,rom_chip,label_serial,pcb,save_type,nointro_number,mame_name,mame_status,hash_source,discs
+vb-jp-0001,マリオズテニス,,"Mario's Tennis (Japan, USA) (En)",0,retail,524288,7ce7460d,38ecc2c5a745a80d32eb9e8e413358c4,5162f7fa9e3eae4338c53ccba641ba080c768754,,dat_only,1,,,,,,,marioten,good,No-Intro,1
+vb-jp-0002,ギャラクティック・ピンボール,,"Galactic Pinball (Japan, USA) (En)",0,retail,1048576,c9710a36,85260599fdada2e137053a8647aa0d06,93a25abf4f86e71a49c1c3a470140bb40cb693d6,,dat_only,1,,,,,,,galactic,good,No-Intro,1
+vb-jp-0003,テレロボクサー,,"Teleroboxer (Japan, USA) (En)",0,retail,1048576,36103000,0742a861a599fe3361aac6ebef6745a7,c59e020f9674774c5cbc022317ebba0eb1d744f7,,dat_only,1,,,,,,,telerobo,good,No-Intro,1
+vb-jp-0004,レッドアラーム,,Red Alarm (Japan),0,retail,1048576,7e85c45d,bc469bf797f4774bbb1678c7f500853b,f5057fa9bfd9d60b9dcfc004cfdd12aa8eb1cb4a,,dat_only,1,,,,,,,redalarmj,good,No-Intro,1
+vb-jp-0005,とびだせ!ぱにボン,,Tobidase! Panibon (Japan),0,retail,524288,40498f5e,44039dfaa0f8fcf8ece03b8cda267e4a,b8a12a9677afa5cbce6ed43eb0effb5a02875534,,dat_only,1,,,,,,,tobidase,good,No-Intro,1
+vb-jp-0006,T&E ヴァーチャルゴルフ,,T&E Virtual Golf (Japan),0,retail,2097152,6ba07915,c1dc0852af217146f93d701e1da233d4,c595285d42c69f14b2b418c1edfbe4a7f9a624b6,,dat_only,1,,,,,,,vgolf,good,No-Intro,1
+vb-jp-0007,バーチャルプロ野球'95,,Virtual Pro Yakyuu '95 (Japan),0,retail,1048576,9ba8bb5e,154b76be987a604ff8aafa4d438928f5,ab8fa82b79512eefefccdccea6768078a374c4aa,,dat_only,1,,,,,,,vproyak,good,No-Intro,1
+vb-jp-0008,バーティカルフォース,,Vertical Force (Japan),0,retail,1048576,9e9b8b92,fa50ce1effb4ce1d66438f723be5c788,c7204ba5cfe7d26394b5e22badc580c8ed8c0b37,,dat_only,1,,,,,,,vforcej,good,No-Intro,1
+vb-jp-0009,V・テトリス,,V-Tetris (Japan) (En),0,retail,524288,3ccb67ae,262bbae465f851ded3bb7cf46e375224,ff7d4dfc467e6e0d3fe8517102132a65a9d17589,,dat_only,1,,,,,,,vtetris,good,No-Intro,1
+vb-jp-0010,マリオクラッシュ,,"Mario Clash (Japan, USA) (En)",0,retail,1048576,a47de78c,b1b3a25ce8fb4f406bf82b8765d307d0,7556a778b60490bdb81774bcbaa7413fc84cb985,,dat_only,1,,,,,,,mariocla,good,No-Intro,1
+vb-jp-0011,スペーススカッシュ,,Space Squash (Japan),0,retail,524288,60895693,09c5f3143c25d1d30a3470e571653e48,3f08cae2b6f9e386529949ff954220860db1af64,,dat_only,1,,,,,,,ssquash,good,No-Intro,1
+vb-jp-0012,ジャック・ブラザースの迷路でヒーホー!,,Jack Bros. no Meiro de Hiihoo! (Japan),0,retail,1048576,cab61e8b,1b177fe2dd12ec1d67f6a43502f8d391,a973406590382ee503037271330d68d2834b79db,,dat_only,1,,,,,,,jackbrosj,good,No-Intro,1
+vb-jp-0013,バーチャルフィッシング,,Virtual Fishing (Japan),0,retail,1048576,526cc969,c03e792d8628c3c5729fdcae1620fb9a,583b409b7215159219d08e789db46140062095f2,,dat_only,1,,,,,,,vfishing,good,No-Intro,1
+vb-jp-0014,インスマウスの館,,Innsmouth no Yakata (Japan),0,retail,1048576,83cb6a00,1eb964d0eaa3223cfefdcc99a6265c88,37e06e53ce2810e870835c48decdd6c72079bfda,,dat_only,1,,,,,,,insmouse,good,No-Intro,1
+vb-jp-0015,バーチャルボーイ ワリオランド アワゾンの秘宝,,"Virtual Boy Wario Land (Japan, USA) (En)",0,retail,2097152,133e9372,fb4dc9f4ebd506702eb49e99a62bd803,274c328fbd904f20e69172ab826bf8f94ced1bdb,,dat_only,1,,,,,,,wariolnd,good,No-Intro,1
+vb-jp-0016,スペースインベーダー バーチャルコレクション,,Space Invaders - Virtual Collection (Japan),0,retail,524288,fa44402d,7607f6f918615263512b17e56797c9aa,16ad904faafd24642dfd056d10a768e81f0d9bfa,,dat_only,1,,,,,,,spaceinv,good,No-Intro,1
+vb-jp-0017,バーチャルLAB,,Virtual Lab (Japan),0,retail,1048576,8989fe0a,1cec316aca8827fdf99c685a1ee49dbc,d96c9f8aac5b4ea012a8fe659bb68fb1159a9c6d,,dat_only,1,,,,,,,vlab,good,No-Intro,1
+vb-jp-0018,バーチャルボウリング,,Virtual Bowling (Japan) (En),0,retail,1048576,20688279,5b11d402f7e322c71a7d4fa6503631fa,a5be7654037050f0a781e70efea0191f43d26f06,,dat_only,1,,,,,,,vbowling,good,No-Intro,1
+vb-jp-0019,SDガンダム DIMENSION WAR,,SD Gundam - Dimension War (Japan),0,retail,1048576,44788197,1cf8c69d8a740d6ef3aab54deced31c4,1a67f6bdb45db46e22b8aadea754a68ad379ae29,,dat_only,1,,,,,,,sdgundam,good,No-Intro,1
+vb-jp-nr-h18c88396,Space Pinball (Japan) (En) (Proto),,Space Pinball (Japan) (En) (Proto),0,prototype,2097152,44c2b723,31073126fad41777357391ecc36d6f7f,dc182360c7c8d26323db8921f09db76638e81ced,,dat_only,1,,,,,,,spacepin,good,No-Intro,1
+vb-jp-nr-hc432aa4d,Niko-chan Battle (Japan) (Proto),,Niko-chan Battle (Japan) (Proto),0,prototype,1048576,f3cd40dd,d9a0215782dcacee5a3c4cc83d1c5189,217ca062f65d4e8b2848085918af5ac4b33b12d4,,dat_only,1,,,,,,,nikochan,good,No-Intro,1

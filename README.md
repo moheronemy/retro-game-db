@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 771 | 1,357 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（781 行） |
 | ドリームキャスト (DC) | [`data/dc/jp_titles.csv`](data/dc/jp_titles.csv) | 497 | 481 | 411 | [`data/dc/jp_rom_dumps.csv`](data/dc/jp_rom_dumps.csv)（578 行） |
 | Xbox 360 | [`data/x360/jp_titles.csv`](data/x360/jp_titles.csv) | 699 | 58 | 571 | [`data/x360/jp_rom_dumps.csv`](data/x360/jp_rom_dumps.csv)（657 行） |
@@ -58,6 +59,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
 | Xbox 360 | （未調査・0 件） | （0 件） | ダウンロード専売 [`jp_download.csv`](data/x360/jp_download.csv)（24 件） |
@@ -846,6 +848,25 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## VB
+
+バーチャルボーイとして日本で発売されたソフト（1995年）。`id` は `vb-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・容量 | ja.wikipedia「バーチャルボーイ」の「ソフトウェア」節の表（一覧の記事は無い）。日本で発売された 19 件（本文と一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「バーチャルボーイ」。13 件で価格は 4 件） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/vboy.xml` |
+| ハッシュ | No-Intro DAT（libretro 収録の Nintendo - Virtual Boy） |
+
+- `capacity` は容量（`4M`・`8M`・`16M`）。
+- 型番は GB と同じ形の `VUE-VMTJ-JPN` にそろえた（MADB のパッケージ表記 `VUE-P-VMTJ`、MAME の `VUE-VMTJ-JPN`）。全 19 件にある。
+- 価格は 4 件（MADB。無いものは許容）。
+- 吸い出しは全 19 件にある。日本版と日米共通版（`(Japan, USA)`）。自作ソフト（`(World)`）・Switch Online 版（ZERO RACERS・D-HOPPER。
+  当時は発売されず Nintendo Classics で配信されたもので、本リストにも入れない）は載せない。日本の試作品 2 件（ニコちゃんバトル、
+  Space Pinball）は別リストの `prototype`。
+- 非売品の調査は後回し。発売されなかったソフトは対象外。
+
 ## PSP
 
 PlayStation Portable のパッケージ（UMD）ソフトとして日本で発売されたもの（2004〜2016年）。`id` は `psp-jp-<連番>`（発売順）。
@@ -1197,6 +1218,10 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py vb   # バーチャルボーイ（本体の記事の表）
+python3 scripts/enrich.py vb
+python3 scripts/build_dumps.py vb
 
 python3 scripts/fetch_wikipedia_list.py psp
 python3 scripts/fetch_wikipedia_list.py psp --list download   # 配信専用 → data/psp/jp_download.csv

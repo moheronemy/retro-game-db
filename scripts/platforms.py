@@ -551,6 +551,16 @@ _PSP_DERIVE = {
 }
 
 
+def _vb_models(text):
+    """バーチャルボーイの日本版の型番を 'VUE-VMTJ-JPN' の形にそろえる（MADB のパッケージ表記 'VUE-P-VMTJ'、MAME の 'VUE-VMTJ-JPN'）。"""
+    out = []
+    for m in re.finditer(r"VUE-(?:P-)?(V[A-Z0-9]{2}J)(?![A-Z0-9])", (text or "").upper()):
+        code = f"VUE-{m.group(1)}-JPN"
+        if code not in out:
+            out.append(code)
+    return out
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1250,6 +1260,28 @@ PLATFORMS = {
         "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
         "hash_source": "Redump",
         "media": "disc",
+    },
+    # バーチャルボーイ（一覧の記事が無く、本体の記事の「ソフトウェア」節の表）。capacity は容量
+    "vb": {
+        "name": "バーチャルボーイ",
+        "dir": ROOT / "data" / "vb",
+        "id_prefix": "vb-jp",
+        "wikipedia": {"tables": [{
+            "page": "バーチャルボーイ", "section": "ソフトウェア", "table_id": "softwarelist",
+            "columns": ("jp", "na", "title", "publisher", "capacity_raw", "notes", "refs"),
+            "derive": {"capacity": lambda r: (lambda m: f"{m.group(1)}M" if m else "")(re.match(r"\s*(\d+)メガビット", r.get("capacity_raw", "")))},
+        }]},
+        "extra_columns": ["capacity"],
+        "madb_platforms": ["バーチャルボーイ"],
+        "mame_lists": ["vboy"],
+        "mame_jp_models": _vb_models,
+        "models_from": _vb_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルが無い
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": ["Nintendo - Virtual Boy"],
+        "nointro_export": ["Nintendo - Virtual Boy (DB Export)"],
+        "nointro_export_fallback": {"Nintendo - Virtual Boy (DB Export)": "Nintendo - Virtual Boy"},
     },
     # PSP。本リストはパッケージ（UMD）。配信専用（「DL」欄の ▲・△）は別リスト jp_download.csv（--list download）
     "psp": {

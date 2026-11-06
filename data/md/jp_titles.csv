@@ -25,7 +25,7 @@ md-jp-0023,1989-12-16,ヴァーミリオン,セガ,G-5502,8500,税抜,,ヴァー
 md-jp-0024,1989-12-23,ゴールデンアックス,セガ,G-4018,6000,税抜,同名アーケードゲームの移植版。,ゴールデンアックス,Wikipedia+MADB+MAME,MAME+MADB,MADB,GOLDEN AXE,M727319,goldnaxe
 md-jp-0025,1989-12-23,カース,マイクロネット,T-22013,6800,税抜,,カース (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,カース,M746507,curse
 md-jp-0026,1990-01-13,ズーム!,セガ,G-4023,5500,税抜,同名Amiga用ゲームの移植版。,ズーム!,Wikipedia+MADB+MAME,MAME+MADB,MADB,ZOOM!,M727311,zoom
-md-jp-0027,1990-01-30,史上最大の倉庫番,メサイヤ,T-25023,5200,,同名PCゲームの移植版。,倉庫番,Wikipedia+MADB+MAME,MAME+MADB,MADB,史上最大の倉庫番,M727306,sokoban
+md-jp-0027,1990-01-30,史上最大の倉庫番,メサイヤ,T-25023,5200,税抜,同名PCゲームの移植版。,倉庫番,Wikipedia+MADB+MAME,MAME+MADB,MADB,史上最大の倉庫番,M727306,sokoban
 md-jp-0028,1990-02-24,ソーサリアン,セガ,G-4504,7000,税抜,日本ファルコムの同名PCゲームをアレンジ移植。,ソーサリアン,Wikipedia+MADB+MAME,MAME+MADB,MADB,ソーサリアン,M727293,sorcer
 md-jp-0029,1990-03-02,スーパーリアルバスケットボール,セガ,G-4021,6000,税抜,日本国外ではバスケットボール監督のパット・ライリーの名を冠したバスケットボールゲーム,スーパーリアルバスケットボール,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパーリアル バスケットボール,M727291,srealbasj
 md-jp-0030,1990-03-03,ザ・ニュージーランドストーリー,タイトー,T-11013,6800,税抜,同名アーケードゲームの移植版。,ニュージーランドストーリー,Wikipedia+MADB+MAME,MAME,MADB,ザ・ニュージーランド ストーリー,M748593,tnzs
@@ -107,7 +107,7 @@ md-jp-0105,1991-03-29,雀偵物語,日本テレネット,T-49033,8400,税抜,,�
 md-jp-0106,1991-04-05,ヴェリテックス,アスミック,T-20043,6800,税抜,,ヴェリテックス,Wikipedia+MADB+MAME,MAME,MADB,ヴェリテックス,M745706,verytex
 md-jp-0107,1991-04-26,ワードナの森SPECIAL,ビスコ,T-58013,6300,税抜,同名アーケードゲームの移植版。,ワードナの森,Wikipedia+MADB+MAME,MAME,MADB,ワードナの森SPECIAL,M759275,wardnerj
 md-jp-0108,1991-04-26,火激,ホット・ビィ,T-28013,7700,税抜,同名アーケードゲームの移植版。,火激,Wikipedia+MADB+MAME,MAME,MADB,火激,M760181,kagekij
-md-jp-0109,1991-04-26,ラングリッサー,メサイヤ,T-25103,7300,,ラングリッサーシリーズ第1弾,ラングリッサー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ラングリッサー,M727038,langriss
+md-jp-0109,1991-04-26,ラングリッサー,メサイヤ,T-25103,7300,税抜,ラングリッサーシリーズ第1弾,ラングリッサー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ラングリッサー,M727038,langriss
 md-jp-0110,1991-04-27,紫禁城,サンソフト,T-15053,6500,税抜,メガモデム対応。,紫禁城 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,紫禁城,M761837,shikinjo
 md-jp-0111,1991-04-29,三国志列伝 乱世の英雄たち,セガ,G-5504,8700,税抜,,三国志列伝 乱世の英雄たち,Wikipedia+MAME,MAME+MADB,MADB,三国志列伝 乱世の英雄たち,M727039,sangoret
 md-jp-0112,1991-05-17,ボナンザブラザーズ,セガ,G-4046,6000,税抜,同名アーケードゲームの移植版。,ボナンザブラザーズ,Wikipedia+MADB+MAME,MAME,MADB,ボナンザブラザーズ,M756446,bnzabros1

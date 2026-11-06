@@ -21,7 +21,7 @@ n64-jp-0019,1997-06-14,スター・ウォーズ 帝国の影,任天堂,NUS-NSWJ-
 n64-jp-0020,1997-06-27,ゆけゆけ!!トラブルメーカーズ,エニックス,NUS-NTMJ-JPN,8900,税抜,,ゆけゆけ!!トラブルメーカーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゆけゆけ!! トラブルメーカーズ,M725235,yukeyuke
 n64-jp-0021,1997-07-18,マルチレーシングチャンピオンシップ,イマジニア,NUS-NMRJ-JPN,7900,税抜,,マルチレーシングチャンピオンシップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マルチレーシングチャンピオンシップ,M757087,mrcj
 n64-jp-0022,1997-07-18,ウエーブレース64 振動パック対応バージョン,任天堂,NUS-NWRJ-JPN,6800,税抜,,ウェーブレース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,WAVE RACE 64 振動パック対応バージョン,M725203,waveracej1
-n64-jp-0023,1997-07-18,スーパーマリオ64 振動パック対応バージョン,任天堂,NUS-NSMJ-JPN,4800,,,スーパーマリオ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SUPER MARIO 64,M725201,sm64jse
+n64-jp-0023,1997-07-18,スーパーマリオ64 振動パック対応バージョン,任天堂,NUS-NSMJ-JPN,4800,税抜,,スーパーマリオ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SUPER MARIO 64,M725201,sm64jse
 n64-jp-0024,1997-07-25,雀豪シミュレーション 麻雀道64,ビデオシステム,NUS-NMAJ-JPN,6980,税抜,,雀豪シミュレーション 麻雀道64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,雀豪シミュレーション 麻雀道 64,M763140,jangsim
 n64-jp-0025,1997-08-01,Doom 64,ゲームバンク,NUS-NDMJ-JPN,7800,税抜,,Doom 64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DOOM 64,M725179,doom64j
 n64-jp-0026,1997-08-01,麻雀放浪記CLASSIC,イマジニア,NUS-NMHJ-JPN,,,,麻雀放浪記CLASSIC,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725178,mjhoroki
@@ -95,7 +95,7 @@ n64-jp-0093,1998-12-04,ゲッターラブ!! ちょー恋愛パーティーゲー
 n64-jp-0094,1998-12-06,バンジョーとカズーイの大冒険,任天堂,NUS-NBKJ-JPN,,,,バンジョーとカズーイの大冒険,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724594,banjokazj
 n64-jp-0095,1998-12-11,ファイティングカップ,イマジニア,NUS-NKAJ-JPN,6800,税抜,ポイント制を採用した3D対戦型格闘ゲームで、任天堂スペースワールド’97出展時点では1998年4月に発売される予定だった。,ファイティングカップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイティングカップ,M754898,fightcup
 n64-jp-0096,1998-12-11,ドラえもん2 のび太と光の神殿,エポック社,NUS-ND2J-JPN,6800,税抜,,ドラえもん2 のび太と光の神殿,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラえもん 2 のび太と光の神殿,M752336,doraemn2
-n64-jp-0097,1998-12-12,ピカチュウげんきでちゅう,任天堂,NUS-NPGJ-JPN,9800,,VRS（音声認識システム）マイク同梱,ピカチュウげんきでちゅう,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ピカチュウげんきでちゅう,M724582,pikachu
+n64-jp-0097,1998-12-12,ピカチュウげんきでちゅう,任天堂,NUS-NPGJ-JPN,9800,税抜,VRS（音声認識システム）マイク同梱,ピカチュウげんきでちゅう,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ピカチュウげんきでちゅう,M724582,pikachu
 n64-jp-0098,1998-12-18,F-1 WORLD GRAND PRIX,任天堂,NUS-NFWJ-JPN,5800,税抜,,F-1 WORLD GRAND PRIX,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,F-1 WORLD GRAND PRIX,M724561,f1wgpj
 n64-jp-0099,1998-12-18,バックバンブル,ユービーアイソフト,NUS-NBLJ-JPN,,,,バックバンブル,Wikipedia+MAME,MAME+No-Intro,,,,buckbumbj
 n64-jp-0100,1998-12-18,キングヒル64 エクストリームスノーボーディング,コトブキシステム,NUS-NSBJ-JPN,6980,税抜,,キングヒル64 エクストリームスノーボーディング,Wikipedia+MADB,MAME+No-Intro,MADB,KING HILL 64 ～エクストリームスノーボーディング～,M740147,kinghill
@@ -190,7 +190,7 @@ n64-jp-0188,2000-11-22,ロックマンDASH 鋼の冒険心,カプコン,NUS-NRHJ
 n64-jp-0189,2000-11-27,バンジョーとカズーイの大冒険2,任天堂,NUS-NB7J-JPN,6800,税抜,,バンジョーとカズーイの大冒険2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バンジョーとカズーイの大冒険2,M754506,banjotooj
 n64-jp-0190,2000-11-30,DANCE DANCE REVOLUTION ディズニーダンシングミュージアム,コナミ,NUS-NDFJ-JPN,7800,税抜,『Dance Dance Revolution』シリーズの1作品で、ディズニーキャラクターを題材としている 任天堂スペースワールド2000の時点では2000年12月14日に発売が予定されていた。,Dance Dance Revolution,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Dance Dance Revolution ディズニーダンシングミュージアム,M738229,ddrdisny
 n64-jp-0191,2000-12-07,マリオパーティ3,任天堂,NUS-NMVJ-JPN,,,,マリオパーティ3,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723550,mariopr3j
-n64-jp-0192,2000-12-14,ポケモンスタジアム金銀,任天堂,NUS-NP3J-JPN,6800,,,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスタジアム金銀,M723527,pokestdk
+n64-jp-0192,2000-12-14,ポケモンスタジアム金銀,任天堂,NUS-NP3J-JPN,6800,税抜,,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスタジアム金銀,M723527,pokestdk
 n64-jp-0193,2001-01-21,ミッキーのレーシングチャレンジUSA,任天堂,NUS-NMLJ-JPN,6800,税抜,ミッキーマウスを主役としたレースゲームで、『ディディーコングレーシング』のエンジンが用いられている。 振動パック対応,ミッキーのレーシングチャレンジUSA,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ミッキーのレーシングチャレンジUSA,M723475,mickspedj
 n64-jp-0194,2001-03-29,実況パワフルプロ野球Basic版2001,コナミ,NUS-NPEJ-JPN,,,,実況パワフルプロ野球Basic版2001,Wikipedia+MADB,MADB+No-Intro,,,M723384,
 n64-jp-0195,2001-04-06,ハムスター物語64,カルチャーブレーン,NUS-NHSJ-JPN,6480,税抜,,ハムスター物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ハムスター物語 64,M754284,hamstmon

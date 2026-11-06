@@ -1,7 +1,7 @@
 id,release_date,title,publisher,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name,maru_code
 wii-jp-0001,2006-12-02,Wii Sports,任天堂,RVL-RSPJ-JPN,4800,税込,,Wii Sports,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,Wii Sports,M743841,,RVL-RSPJ
 wii-jp-0002,2006-12-02,スーパーモンキーボール ウキウキパーティ大集合,セガ,RVL-RSMJ-JPN,6090,税込,,スーパーモンキーボール,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,スーパーモンキーボール ウキウキパーティー大集合,M749697,,RVL-RSMJ
-wii-jp-0003,2006-12-02,ゼルダの伝説 トワイライトプリンセス,任天堂,RVL-RZDJ-JPN,6476,,,ゼルダの伝説 トワイライトプリンセス,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,THE LEGEND OF ZELDA Twilight Princess,M721227,,RVL-RZDJ
+wii-jp-0003,2006-12-02,ゼルダの伝説 トワイライトプリンセス,任天堂,RVL-RZDJ-JPN,6476,税抜,,ゼルダの伝説 トワイライトプリンセス,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,THE LEGEND OF ZELDA Twilight Princess,M721227,,RVL-RZDJ
 wii-jp-0004,2006-12-02,レッドスティール,ユービーアイソフト,RVL-REDJ-JPN,6800,税込,,レッドスティール,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,レッドスティール,M758867,,RVL-REDJ
 wii-jp-0005,2006-12-02,カドゥケウスZ 2つの超執刀,アトラス,RVL-RKDJ-JPN,6090,税込,,カドゥケウスZ 2つの超執刀,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,カドゥケウスZ 2つの超執刀,M746701,,RVL-RKDJ
 wii-jp-0006,2006-12-02,Elebits,コナミデジタルエンタテインメント,RVL-RELJ-JPN,6090,税込,,Elebits,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,Elebits,M738770,,RVL-RELJ
@@ -38,7 +38,7 @@ wii-jp-0036,2007-03-21,三國志11 withパワーアップキット,コーエー,
 wii-jp-0037,2007-03-22,カーズ,THQジャパン,RVL-RCAJ-JPN,6090,税込,,カーズ (映画),Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,カーズ,M746508,,RVL-RCAJ
 wii-jp-0038,2007-03-29,めざせ!!釣りマスター,ハドソン,RVL-RTRJ-JPN,5040,税込,,めざせ!!釣りマスター,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,めざせ!! 釣りマスター,M757458,,RVL-RTRJ
 wii-jp-0039,2007-04-05,バーンヤード 〜主役はオレ、牛〜,THQジャパン,RVL-RBYJ-JPN,6090,税込,,バーンヤード,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,バーンヤード ～主役はオレ、牛,M753480,,RVL-RBYJ
-wii-jp-0040,2007-04-19,スーパーペーパーマリオ,任天堂,RVL-R8PJ-JPN,5524,,,スーパーペーパーマリオ,Wikipedia+MADB+maru-chang,MADB+maru-chang+No-Intro,MADB+maru-chang,SUPER PAPER MARIO,M721825,,RVL-R8PJ
+wii-jp-0040,2007-04-19,スーパーペーパーマリオ,任天堂,RVL-R8PJ-JPN,5524,税抜,,スーパーペーパーマリオ,Wikipedia+MADB+maru-chang,MADB+maru-chang+No-Intro,MADB+maru-chang,SUPER PAPER MARIO,M721825,,RVL-R8PJ
 wii-jp-0041,2007-04-19,ふるふるぱーく,タイトー,RVL-RFRJ-JPN,6090,税込,,ふるふるぱーく,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,ふるふるぱーく,M755731,,RVL-RFRJ
 wii-jp-0042,2007-04-26,Wiiでやわらかあたま塾,任天堂,RVL-RYWJ-JPN,4800,税込,,Wiiでやわらかあたま塾,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,Wiiでやわらかあたま塾,M743857,,RVL-RYWJ
 wii-jp-0043,2007-04-26,ONE PIECE アンリミテッドアドベンチャー,バンダイナムコゲームス,RVL-RIPJ-JPN,7140,税込,,ONE PIECE アンリミテッドアドベンチャー,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,ワンピース アンリミテッドアドベンチャー,M759523,,RVL-RIPJ
@@ -215,7 +215,7 @@ wii-jp-0213,2008-11-13,ファミリースキー ワールドスキー&スノー�
 wii-jp-0214,2008-11-13,NEW 右脳キッズWii,IEインスティテュート,RVL-RUNJ-JPN,5040,税込,,NEW 右脳キッズWii,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,NEW 右脳キッズ Wii,M741184,,RVL-RUNJ
 wii-jp-0215,2008-11-13,イルベロWii,マイルストーン,RVL-RYVJ-JPN,5040,税込,,イルマティックエンベロープ,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,イルベロWii,M745465,,RVL-RYVJ
 wii-jp-0216,2008-11-13,人生ゲームWii EX,タカラトミー,RVL-RXJJ-JPN,6090,税込,,人生ゲーム,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,人生ゲームWii EX,M763053,,RVL-RXJJ
-wii-jp-0217,2008-11-20,街へいこうよ どうぶつの森,任天堂,RVL-RUUJ-JPN,5524,,Wiiスピーク同梱版あり、ニンテンドーDS対応,街へいこうよ どうぶつの森,Wikipedia+MADB+maru-chang,MADB+maru-chang+No-Intro,MADB+maru-chang,街へいこうよ どうぶつの森,M721630,,RVL-RUUJ
+wii-jp-0217,2008-11-20,街へいこうよ どうぶつの森,任天堂,RVL-RUUJ-JPN,5524,税抜,Wiiスピーク同梱版あり、ニンテンドーDS対応,街へいこうよ どうぶつの森,Wikipedia+MADB+maru-chang,MADB+maru-chang+No-Intro,MADB+maru-chang,街へいこうよ どうぶつの森,M721630,,RVL-RUUJ
 wii-jp-0218,2008-11-20,スゴロクロニクル 〜右手に剣を左手にサイコロを〜,コンパイルハート,RVL-RDUJ-JPN,5800,税抜,,スゴロクロニクル 〜右手に剣を左手にサイコロを〜,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,maru-chang,,M749896,,RVL-RDUJ
 wii-jp-0219,2008-11-20,家庭教師ヒットマンREBORN! 禁断の闇のデルタ,マーベラスエンターテイメント,RVL-RE8J-JPN,7329,税込,,家庭教師ヒットマンREBORN!,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,家庭教師ヒットマン REBORN! 禁断の闇のデルタ,M760163,,RVL-RE8J
 wii-jp-0220,2008-11-27,ルーンファクトリー フロンティア,マーベラスエンターテイメント,RVL-RUFJ-JPN,7140,税込,,ルーンファクトリー フロンティア,Wikipedia+MADB+maru-chang,maru-chang+No-Intro,MADB+maru-chang,ルーンファクトリー フロンティア,M758634,,RVL-RUFJ

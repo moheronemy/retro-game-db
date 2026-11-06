@@ -105,7 +105,8 @@ def parse_price(s):
     if not m:
         return "", ""
     yen = m.group(1).replace(",", "")
-    tax = "税込" if "税込" in s else "税抜" if "税抜" in s else ""
+    # 「（税別）」「（消費税別）」も税抜、「税込み」「消費税込」も税込（MADB の表記ゆれ）
+    tax = "税込" if re.search(r"税込", s) else "税抜" if re.search(r"税抜|税別", s) else ""
     return yen, tax
 
 
