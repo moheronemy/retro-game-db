@@ -106,16 +106,19 @@ def japanese_title(name):
     return name
 
 
-def merge_discs(rows):
+def merge_discs(rows, disc_subtitles=False):
     """複数枚組（No-Intro / Redump 名の '(Disc 1)' '(Disc A)' など）を1行にまとめる。
     サイズ・ハッシュ・確認区分などはディスク順に ';' でつなぎ、discs 列に枚数を入れる。"""
     disc_re = re.compile(r" \(Dis[ck] [0-9A-Z]+\)")
     # 組の判定では、ディスクごとの呼び名（'(Game Disc)'、'(Omake Disc)'、'(Portrait CD)'）と
     # マスタリングの印（サターンの '(1M)'、'(1M, 4M)'）も除く
     label_re = re.compile(r" \([^()]*(?:Disc|CD)\)| \(\d+[A-Z](?:, \d+[A-Z])*\)")
+    # disc_subtitles: ディスク番号の直後のディスクごとの副題（PC-FX の '(Disc A) (Hakua Kaikou)'）も除く。
+    # PS などではここに版の印（'(Special Edition)'・'(Deluxe Pack)'・'(PSone Books)'）が来るので機種ごとに指定する
+    sub_re = re.compile(r"(\(Dis[ck] [0-9A-Z]+\)) \((?!Rev|v\d|Alt|Proto|Beta|Demo|Sample|Taikenban|Kiosk|Promo|Not For Sale|[^()]*Genteiban|Limited|Tokuten|Premium)[^()]*\)")
     groups, order = {}, []
     for r in rows:
-        name = disc_re.sub("", r["dump_name"])
+        name = disc_re.sub("", sub_re.sub(r"\1", r["dump_name"]) if disc_subtitles else r["dump_name"])
         key = (r["title_id"], r["dump_kind"], label_re.sub("", name) if disc_re.search(r["dump_name"]) else name)
         if key not in groups:
             groups[key] = []
@@ -436,7 +439,7 @@ def main():
             rows.append({"title_id": n["id"], "title": n["title"], "game_code": code_of(n["model_number"]),
                          "dump_kind": "not_for_sale", **info})
 
-    rows = merge_discs(rows)
+    rows = merge_discs(rows, cfg.get("disc_subtitles", False))
     if cfg.get("hash_source"):
         for r in rows:
             if r["hash_source"] == "No-Intro":

@@ -460,6 +460,22 @@ def _neogeo_rental(row):
     return "yes" if row.get("release_date", "") < "1991-07-01" else ""
 
 
+def _pcfx_models(text):
+    """PC-FX の型番（'FXNHE626'、'FXHUD401'、'FXNKT601' など）。MADB の 'FXNHE 626' やバーコード付きの表記、
+    Redump の枚数付き（'FXNHE627-2'）・末尾 A（'FXHUD405A'）からは型番だけを取る。PC-FXGA 用（'GANHE'）は採らない。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z])(FX[A-Z]{3}) ?(\d{3})", unicodedata.normalize("NFKC", text or "").upper()):
+        code = m.group(1) + m.group(2)
+        if code not in out:
+            out.append(code)
+    return out
+
+
+def _cell_value(s):
+    """表のセルに残った書式指定（'style="text-align:center" | SLG'）を除く。"""
+    return re.sub(r'^\s*[a-z]+="[^"]*"\s*\|\s*', "", s or "").strip()
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1131,6 +1147,32 @@ PLATFORMS = {
         "nointro_export": ["SNK - Neo Geo CD (Redump)"],
         "nointro_export_fallback": {"SNK - Neo Geo CD (Redump)": "redump:SNK - Neo Geo CD"},
         "dump_world": True,
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # PC-FX。age_rating は Wikipedia の「年齢制限」欄（18推奨 → 18+、18禁 → X）。雑誌付録（「その他」節）は非売品リスト
+    "pcfx": {
+        "name": "PC-FX",
+        "dir": ROOT / "data" / "pcfx",
+        "id_prefix": "pcfx-jp",
+        "wikipedia": {"tables": [{
+            "page": "PC-FXのゲームタイトル一覧", "section": "発売されたタイトル",
+            "columns": ("jp", "title", "publisher", "genre", "age", "notes"),
+            "derive": {"genre": lambda r: _cell_value(r["genre"]),
+                       "age_rating": lambda r: {"18推奨": "18+", "18禁": "X"}.get(_cell_value(r.get("age", "")), "")},
+        }]},
+        "extra_columns": ["genre", "age_rating"],
+        "madb_platforms": ["PC-FX"],
+        "mame_lists": ["pcfx"],
+        "mame_all_japanese": ["pcfx"],
+        "models_from": _pcfx_models,
+        "models_from_serial": _pcfx_models,
+        "code_of": lambda m: m or "",
+        "normalize_code": lambda c: (_pcfx_models(c) or [""])[0],
+        "nointro_dats": ["redump:NEC - PC-FX"],
+        "nointro_export": ["NEC - PC-FX (Redump)"],
+        "nointro_export_fallback": {"NEC - PC-FX (Redump)": "redump:NEC - PC-FX"},
+        "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
         "hash_source": "Redump",
         "media": "disc",
     },

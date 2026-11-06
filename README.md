@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| PC-FX | [`data/pcfx/jp_titles.csv`](data/pcfx/jp_titles.csv) | 62 | 61 | 40 | [`data/pcfx/jp_rom_dumps.csv`](data/pcfx/jp_rom_dumps.csv)（65 行） |
 | ネオジオ (ROM) | [`data/neogeo/jp_titles.csv`](data/neogeo/jp_titles.csv) | 117 | 115 | 117 | [`data/neogeo/jp_rom_dumps.csv`](data/neogeo/jp_rom_dumps.csv)（ROM チップ 1,449 行・115 タイトル） |
 | ネオジオCD (ネオジオの別リスト) | [`data/neogeo/cd/jp_titles.csv`](data/neogeo/cd/jp_titles.csv) | 97 | 97 | 74 | [`data/neogeo/cd/jp_rom_dumps.csv`](data/neogeo/cd/jp_rom_dumps.csv)（102 行） |
 | ネオジオポケット／カラー (NGP/NGPC) | [`data/ngp/jp_titles.csv`](data/ngp/jp_titles.csv) | 82 | 79 | 82 | [`data/ngp/jp_rom_dumps.csv`](data/ngp/jp_rom_dumps.csv)（92 行） |
@@ -52,6 +53,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| PC-FX | [`jp_not_for_sale.csv`](data/pcfx/jp_not_for_sale.csv)（雑誌付録 4 件） | （0 件） | |
 | ネオジオ | （未調査・0 件） | （0 件） | |
 | ネオジオCD | （未調査・0 件） | （0 件） | |
 | NGP/NGPC | （未調査・0 件） | （0 件） | |
@@ -834,6 +836,30 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## PC-FX
+
+PC-FX として日本で発売されたソフト（1994〜1998年）。`id` は `pcfx-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・販売・ジャンル・年齢制限 | ja.wikipedia「PC-FXのゲームタイトル一覧」の「発売されたタイトル」の表（62 件。本文の年ごとの本数と一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「PC-FX」。43 件） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/pcfx.xml`（27 件） |
+| ハッシュ | Redump DAT（libretro 収録の NEC PC-FX） |
+
+- `genre` は Wikipedia のジャンル（`ADV`・`SLG`・`アニメ` など）。`age_rating` は「年齢制限」欄（`18推奨` → `18+`、`18禁` → `X`。各 4 件）。
+  アニメフリークFX（アニメの情報ディスク）・ボイスパラダイスも表にあるので本リスト。
+- 型番は表記のまま（`FXNHE626`・`FXHUD401`・`FXNKT601` など。MADB の `FXNHE 626` やバーコード付きの表記はそろえた）。MADB・MAME で
+  決まるのは 26 件だけなので、35 件は Redump のレーベル面のシリアルを題名で手動対応して入れた（`overrides/matches.csv`）。
+  型番が無いのは Redump にも無い『カクテルパック』の 1 件（吸い出しも無い）。
+- 価格は 40 件（MADB。無いものは許容）。
+- 吸い出しは Redump のシリアルで結びつけた。複数枚組は 1 行（`discs` 列）。ディスクごとに副題が付く組（天地無用!魎皇鬼FX の
+  `(Disc A) (Hakua Kaikou)` など）も 1 行にまとめる（`platforms.py` の `disc_subtitles`。PS などではこの位置に版の印が来るので PC-FX だけ）。
+  販売経路の記録の無い `(Sample)`（銀河お嬢様伝説ユナFX）、PC 用拡張ボード PC-FXGA のソフト（Same Game FX など 3 件）は載せない。
+- 非売品は Wikipedia「その他」節の雑誌付録 4 件（PC Engine FAN Special☆CD-ROM Vol. 2・3、SUPER PC Engine FAN DELUXE の付録 2 件。
+  いずれも `supplement`。吸い出しあり）。同じシリーズの Vol. 1 は PCE の非売品リストにある。その他の調査は後回し。
+- 発売されなかったタイトルは対象外。
+
 ## ネオジオ
 
 家庭用ネオジオ（ROM カートリッジ。AES）として日本で発売されたソフト（1990〜2004年）。ネオジオCD は別リスト（`data/neogeo/cd/`）。
@@ -1029,6 +1055,10 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py pcfx
+python3 scripts/enrich.py pcfx
+python3 scripts/build_dumps.py pcfx
 
 python3 scripts/fetch_wikipedia_list.py neogeo
 python3 scripts/enrich.py neogeo

@@ -1,0 +1,63 @@
+id,release_date,title,publisher,genre,age_rating,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+pcfx-jp-0001,1994-12-23,卒業II 〜Neo Generation〜,NECホームエレクトロニクス,SLG,,FXNHE401,,,ローンチタイトル。同名PCゲームの移植版,卒業II 〜Neo Generation〜,Wikipedia+MAME,MAME+No-Intro,,,,sotsugy2
+pcfx-jp-0002,1994-12-23,TEAM INNOCENT -The Point of No Return-,ハドソン,ADV,,FXHUD402,,,ローンチタイトル。,TEAM INNOCENT -The Point of No Return-,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0003,1994-12-23,バトルヒート,ハドソン,ACT,,FXHUD401,,,ローンチタイトル。,バトルヒート,Wikipedia+MAME,MAME+No-Intro,,,,batlheat
+pcfx-jp-0004,1995-03-24,全日本女子プロレス Queen of Queen,NECホームエレクトロニクス,SPT,,FXNHE503,,,実写取り込みを用いた対戦型格闘ゲームであり、実在の女子プロレスラーが登場している。 『PCエンジン＆メガドライブ発売中止ゲーム図鑑』の著者・鯨武長之介によると、テレビ番組『ゲーム王』にて取り上げられた「ストリートファイト」（未発売）は、同作のプロトタイプではないかと推測している。,全日本女子プロレス Queen of Queen,Wikipedia+MAME,MAME+No-Intro,,,,prowresq
+pcfx-jp-0005,1995-03-24,麻雀悟空 天竺,NECホームエレクトロニクス,TBL,,FXNHE402,,,,麻雀悟空 天竺,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0006,1995-03-31,紺碧の艦隊,NECホームエレクトロニクス,SLG,,FXNHE504,,,,紺碧の艦隊,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0007,1995-05-27,RETURN TO ZORK,NECホームエレクトロニクス,ADV,,FXNHE505,,,,ゾーク,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0008,1995-07-28,天外魔境 電脳絡繰格闘伝,ハドソン,ACT,,FXHUD503,,,,天外魔境 電脳絡繰格闘伝,Wikipedia+MAME,MAME+No-Intro,,,,tengaifx
+pcfx-jp-0009,1995-08-12,アニメフリークFX Vol.1,NECホームエレクトロニクス,アニメ,,FXNHE510,,,,アニメフリークFX,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0010,1995-09-22,パチ夫くんFX 幻の島大決戦,NECホームエレクトロニクス,TBL,,FXNHE508,,,,パチ夫くんシリーズ,Wikipedia+MAME,MAME+No-Intro,,,,pachikfx
+pcfx-jp-0011,1995-11-10,キューティーハニーFX,NECホームエレクトロニクス,ADV,,FXNHE511,,,,キューティーハニーFX,Wikipedia+MAME,MAME+No-Intro,,,,cuteyhfx
+pcfx-jp-0012,1995-11-24,ルナティックドーンFX,NECホームエレクトロニクス,RPG,,FXNHE509,,,,ルナティックドーン,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0013,1995-12-22,アニメフリークFX Vol.2,NECホームエレクトロニクス,アニメ,,FXNHE513,,,,アニメフリークFX,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0014,1995-12-22,アンジェリークSpecial,NECホームエレクトロニクス,SLG,,FXNHE514,,,スーパーファミコン用ソフト『アンジェリーク』に声優による音声を付与した作品。,アンジェリーク,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0015,1995-12-22,鬼神童子ZENKI FX 金剛炎闘（ヴァジュラファイト）,ハドソン,ACT,,FXHUD505,,,,鬼神童子ZENKI,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0016,1996-01-26,ときめきカードパラダイス 〜恋のロイヤルストレートフラッシュ〜,ソネット・コンピュータエンタテイメント,TBL,18+,FXSNT501,,,,ときめきカードパラダイス 〜恋のロイヤルストレートフラッシュ〜,Wikipedia+MAME,MAME+No-Intro,,,,tokicard
+pcfx-jp-0017,1996-02-23,パワードールFX,NECホームエレクトロニクス,SLG,,FXNHE619,,,,パワードール,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0018,1996-03-08,銀河お嬢様伝説ユナFX 哀しみのセイレーン,ハドソン,ADV,,FXHUD506,,,,銀河お嬢様伝説ユナ,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0019,1996-03-15,上海 万里の長城,NECホームエレクトロニクス,TBL,,FXNHE507,,,,上海 (ゲーム),Wikipedia+MAME,MAME+No-Intro,,,,shangban
+pcfx-jp-0020,1996-03-22,ブルー・シカゴ・ブルース,NECホームエレクトロニクス,ADV,,FXNHE512,,,,ブルー・シカゴ・ブルース,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0021,1996-03-29,ミラークルム ザ・ラスト・レベレーション,NECホームエレクトロニクス,RPG,,FXNHE617,7800,税抜,,ミラークルム ザ・ラスト・レベレーション,Wikipedia+MADB,manual+No-Intro,MADB,ミラークルムザラストレベレーション,M757281,
+pcfx-jp-0022,1996-03-29,スーパーリアル麻雀 PV-FX,ナグザット,TBL,18+,FXNAX601,7800,税抜,,スーパーリアル麻雀,Wikipedia+MADB,manual+No-Intro,MADB,スーパーリアル麻雀P.5-FX,M734142,
+pcfx-jp-0023,1996-04-05,アニメフリークFX Vol.3,NECホームエレクトロニクス,アニメ,,FXNHE621,6800,税抜,,アニメフリークFX,Wikipedia+MADB,manual+No-Intro,MADB,アニメフリーク FX Vol. 3,M744997,
+pcfx-jp-0024,1996-04-26,デア ラングリッサーFX,NECホームエレクトロニクス,SLG,,FXNHE618,7800,税抜,,ラングリッサーII,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デア ラングリッサーFX,M751398,langriss
+pcfx-jp-0025,1996-04-26,スーパーパワーリーグFX,ハドソン,SPT,,FXHUD504,8800,税抜,,パワーリーグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーパワーリーグFX,M749570,spleagfx
+pcfx-jp-0026,1996-05-17,ボイスパラダイス,NECホームエレクトロニクス,ADV,,FXNHE515,8800,税抜,,ボイスパラダイス (ゲーム),Wikipedia+MADB,manual+No-Intro,MADB,ボイスパラダイス,M756095,
+pcfx-jp-0027,1996-05-31,お嬢様捜査網,NECホームエレクトロニクス,ADV,,FXNHE616,7800,税抜,,お嬢様捜査網,Wikipedia+MADB,MADB+No-Intro,MADB,お嬢様捜査網,M725658,
+pcfx-jp-0028,1996-06-28,虚空漂流ニルゲンツ,NECホームエレクトロニクス,STG,,FXNHE625,7800,税抜,,虚空漂流ニルゲンツ,Wikipedia+MADB,manual+No-Intro,MADB,虚空漂流ニルゲンツ,M760714,
+pcfx-jp-0029,1996-07-12,天地無用!魎皇鬼FX,NECインターチャネル,ADV,,FXNIC601,8800,税抜,,天地無用!,Wikipedia+MADB,manual+No-Intro,MADB,天地無用! 魎皇鬼FX,M764618,
+pcfx-jp-0030,1996-07-26,女神天国II,NECホームエレクトロニクス,SLG,,FXNHE623,7800,税抜,,女神天国,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,女神天国 2,M725610,megamip2
+pcfx-jp-0031,1996-08-09,同級生2,NECアベニュー,ADV,X,FXNAV601,8800,税抜,,同級生2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,同級生2,M725586,dokyuse2
+pcfx-jp-0032,1996-09-13,チップちゃんキィーック!,NECホームエレクトロニクス,ACT,,FXNHE626,7800,税抜,,チップちゃんキィーック!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,チップちゃんキィーック!,M751202,chipkick
+pcfx-jp-0033,1996-09-27,きゃんきゃんバニーエクストラDX,カクテル・ソフト,ADV,X,FXNKT601,9240,税込,,きゃんきゃんバニーシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,きゃんきゃんバニー エクストラDX,M725552,cancandx
+pcfx-jp-0034,1996-09-27,ブルーブレイカー 〜剣よりも微笑みを〜,NECホームエレクトロニクス,RPG,,FXNHE622,7800,税抜,,ブルーブレイカー 〜剣よりも微笑みを〜,Wikipedia+MADB,manual+No-Intro,MADB,ブルーブレイカー ～剣よりも微笑みを～,M755720,
+pcfx-jp-0035,1996-10-11,ふしぎの国のアンジェリーク,NECホームエレクトロニクス,TBL,,FXNHE632,6800,税抜,『アンジェリークSpecial』を題材とボードゲーム,アンジェリークシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,不思議の国のアンジェリーク,M765596,fushangl
+pcfx-jp-0036,1996-10-25,赤ずきんチャチャ -お騒がせパニックレース-,NECホームエレクトロニクス,TBL,,FXNHE630,7800,税抜,,赤ずきんチャチャ,Wikipedia+MADB,manual+No-Intro,MADB,赤ずきんチャチャ お騒がせ! パニックレース,M763325,
+pcfx-jp-0037,1996-11-08,ファーランドストーリーFX,NECホームエレクトロニクス,SLG,,FXNHE628,7800,税抜,,ファーランドシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファーランドストーリーFX,M754842,farland
+pcfx-jp-0038,1996-12-06,アンジェリークSpecial2,NECホームエレクトロニクス,SLG,,FXNHE633,7800,税抜,『アンジェリークSpecial』の続編,アンジェリークSpecial2,Wikipedia+MADB,manual+No-Intro,MADB,アンジェリークSpecial 2,M745223,
+pcfx-jp-0039,1996-12-20,ファイアーウーマン纏組,NECホームエレクトロニクス,ADV,,FXNHE634,7800,税抜,,ファイアーウーマン纏組,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイアーウーマン纏組,M754848,firewomn
+pcfx-jp-0040,1997-01-24,バウンダリーゲート Daughter of Kingdom,NECホームエレクトロニクス,RPG,,FXNHE620,7800,税抜,,バウンダリーゲート Daughter of Kingdom,Wikipedia+MADB,MADB+No-Intro,MADB,BOUNDARY GATE Daughter of Kingdom,M725384,
+pcfx-jp-0041,1997-02-28,アニメフリークFX Vol.4,NECホームエレクトロニクス,アニメ,,FXNHE636,,,,アニメフリークFX,Wikipedia,manual+No-Intro,,,,
+pcfx-jp-0042,1997-03-14,ラスト インペリアル プリンス,NECホームエレクトロニクス,RPG,,FXNHE635,,,,ラスト インペリアル プリンス,Wikipedia+MAME,MAME+No-Intro,,,,lastprin
+pcfx-jp-0043,1997-03-28,ドラゴンナイト4,NECアベニュー,SLG,18+,FXNAV603,8800,税抜,,ドラゴンナイト4,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラゴンナイト 4,M752510,dknight4
+pcfx-jp-0044,1997-04-25,スパークリングフェザー,NECホームエレクトロニクス,SLG,,FXNHE739,7800,税抜,,スパークリングフェザー,Wikipedia+MADB,manual+No-Intro,MADB,スパークリングフェザー,M750138,
+pcfx-jp-0045,1997-05-23,Piaキャロットへようこそ!!,カクテル・ソフト,SLG,X,FXNKT701,8800,税抜,,Piaキャロットへようこそ!!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,Pia♥キャロットへようこそ!!,M725271,picarrot
+pcfx-jp-0046,1997-06-06,続 初恋物語 〜修学旅行〜,NECホームエレクトロニクス,SLG,,FXNHE629,8800,税抜,,続 初恋物語 〜修学旅行〜,Wikipedia+MADB,manual+No-Intro,MADB,続 初恋物語 修学旅行,M763841,
+pcfx-jp-0047,1997-06-27,アルバレアの乙女,NECホームエレクトロニクス,SLG,,FXNHE740,7800,税抜,,アルバレアの乙女,Wikipedia+MADB,manual+No-Intro,MADB,アルバレアの乙女,M745165,
+pcfx-jp-0048,1997-07-04,惑星攻機隊りとるキャッツ,NECホームエレクトロニクス,SLG,,FXNHE637,7800,税抜,,惑星攻機隊りとるキャッツ,Wikipedia+MADB,MADB+No-Intro,MADB,惑星攻機隊りとるキャッツ,M725213,
+pcfx-jp-0049,1997-07-25,となりのプリンセス ロルフィー,NECホームエレクトロニクス,ADV,,FXNHE741,7800,税抜,,となりのプリンセス ロルフィー,Wikipedia+MADB,MADB+No-Intro,MADB,となりのプリンセス ロルフィー,M725192,
+pcfx-jp-0050,1997-08-08,超神兵器ゼロイガー,NECホームエレクトロニクス,STG,,FXNHE624,7800,税抜,PC-FX唯一のシューティングゲーム。,超神兵器ゼロイガー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超神兵器ゼロイガー,M764431,chouzero
+pcfx-jp-0051,1997-08-29,アニメフリークFX Vol.5,NECホームエレクトロニクス,アニメ,,FXNHE738,7200,税抜,,アニメフリークFX,Wikipedia+MADB,manual+No-Intro,MADB,アニメフリーク FX Vol. 5,M744998,
+pcfx-jp-0052,1997-09-26,こみっくろーど,NECホームエレクトロニクス,SLG,,FXNHE743,7800,税抜,,こみっくろーど,Wikipedia+MADB,manual+No-Intro,MADB,こみっくろーど,M748385,
+pcfx-jp-0053,1997-10-24,みにまむなのにっく,NECホームエレクトロニクス,ADV,,FXNHE631,7800,税抜,,みにまむなのにっく,Wikipedia+MADB,manual+No-Intro,MADB,みにまむなのにっく,M757263,
+pcfx-jp-0054,1997-11-28,カクテルパック,カクテル・ソフト,ADV,X,,12000,税抜,『きゃんバニEXDX』と『Piaキャロ』のセット。,,Wikipedia+MADB,,MADB,カクテルパックPia♥キャロットへようこそ!! ＆きゃんきゃんバニーエクストラDX,M746639,
+pcfx-jp-0055,1997-12-12,ああっ女神さまっ,NECホームエレクトロニクス,ADV,,FXNHE742,8800,税抜,,ああっ女神さまっ,Wikipedia+MADB,manual+No-Intro,MADB,ああっ女神さまっ,M744362,
+pcfx-jp-0056,1998-01-16,卒業R 〜Graduation Real〜,NECホームエレクトロニクス,SLG,,FXNAV602,7800,税抜,,卒業 〜Graduation〜,Wikipedia+MADB,manual+No-Intro,MADB,卒業R Graduation Real,M763855,
+pcfx-jp-0057,1998-02-20,ルルリ・ラ・ルラ,NECホームエレクトロニクス,ACT,,FXNHE627,7800,税抜,,ルルリ・ラ・ルラ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ルルリ ラ ルラ,M758686,ruruli
+pcfx-jp-0058,1998-02-27,アニメフリークFX Vol.6,NECホームエレクトロニクス,アニメ,,FXNHE845,7200,税抜,,アニメフリークFX,Wikipedia+MADB,manual+No-Intro,MADB,アニメフリーク FX Vol. 6,M744999,
+pcfx-jp-0059,1998-03-20,負けるな!魔剣道Z,NECホームエレクトロニクス,RPG,,FXNHE744,7800,税抜,,負けるな!魔剣道,Wikipedia+MADB,manual+No-Intro,MADB,負けるな! 魔剣道Z,M765612,
+pcfx-jp-0060,1998-03-27,はたらく少女 てきぱきワーキン♥ラブFX,NECホームエレクトロニクス,ADV,,FXNHE847,7800,税抜,,はたらく☆少女 てきぱきワーキン・ラブ,Wikipedia+MADB,manual+No-Intro,MADB,はたらく☆少女 てきぱきワーキン♥ラブFX,M753849,
+pcfx-jp-0061,1998-04-02,アンジェリーク 天空の鎮魂歌,NECホームエレクトロニクス,RPG,,FXNHE846,7800,税抜,,アンジェリーク 天空の鎮魂歌,Wikipedia+MADB,manual+No-Intro,MADB,アンジェリーク 天空の鎮魂歌,M745212,
+pcfx-jp-0062,1998-04-27,ファーストKiss☆物語,NECホームエレクトロニクス,ADV,18+,FXHNX801,7800,税抜,,ファーストKiss☆物語,Wikipedia,manual+No-Intro,MADB,ファーストKiss☆物語,M754813,
