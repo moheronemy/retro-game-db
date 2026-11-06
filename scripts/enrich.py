@@ -61,6 +61,10 @@ _DAT_PLAIN_TAG = re.compile(r"^(?:(?:Japan|World|USA|Europe|Asia|Korea)(?:, .*)?
 _DAT_DEMO_TAG = re.compile(r"Taikenban|Demo|Trial|Sample|Kiosk|Tentou|Beta|Proto", re.I)
 
 
+# MAME の serial に添えられた版の印（限定版・廉価版などの型番は通常版の型番の候補にしない）
+_EDITION_NOTE = re.compile(r"\((?:[^)]*(?:Genteiban|Gentei|Shokai|Limited|Premium|Collection|Best|Satakore|Reprint|Doukon|Set|Box|Pack))[^)]*\)", re.I)
+
+
 def dat_title_entries(cfg, models_from, madb):
     """DAT（Redump）の日本版を基本の題名（括弧の印を除いたもの）ごとにまとめ、型番の候補にする。
     同じ題名に複数のシリアル（初回限定版・the Best など）があるものは、
@@ -312,6 +316,20 @@ def main():
             model = ma["model"]
         if not model and r.get("ref_code") and cfg.get("ref_code_models"):
             model = cfg["ref_code_models"](r["ref_code"])
+        if model and nointro and key(model) not in keys(nointro) and not ov.get("model_number"):
+            # 出典どうしで型番が食い違い、採った型番は DAT（No-Intro・Redump）に無く、ほかの出典の 1 つだけが DAT にある
+            # → DAT にある方を採る（MADB の誤記〈A02J と AO2J など〉で吸い出しが結びつかない・別作品に結びつくのを防ぐ）
+            others = []
+            mame_regular = ", ".join(x for x in re.split(r",(?![^()]*\))", mm["serial"] if mm else "") if not _EDITION_NOTE.search(x))
+            for c in ((models_from(mame_regular) if mm else []) + (models_from(md["product_id"]) if md else [])
+                      + ([ma["model"]] if ma and ma["model"] else [])):
+                if c != model and key(c) in keys(nointro) and c not in others:
+                    others.append(c)
+            if len(others) == 1:
+                issues.append(f"型番をDATにあるもの（{others[0]}）に置換（元 {model}）")
+                model = others[0]
+                srcs[:] = [s_ for s_, ok in (("MAME", mm and key(model) in keys(models_from(mm["serial"]))),
+                                             ("MADB", md and key(model) in keys(models_from(md["product_id"])))) if ok]
         if model and r.get("ref_code") and cfg.get("code_of") and cfg["code_of"](model) == r["ref_code"]:
             srcs.append("Wikipedia")
         if model and ma and ma["model"] == model:
