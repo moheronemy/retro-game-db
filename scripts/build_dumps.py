@@ -51,7 +51,7 @@ COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Co
                         r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
                         r"|^XBOX$|^Classic Mini$|^Namco Anthology \d$|^Project EGG$|^Collector's Edition$"
                         r"|^Game & Watch - Super Mario Bros\.$|^Evercade$|^Retro-Bit$|^Disney Classic Games$"
-                        r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Mega 6$|^PC Engine Mini$|^Satakore$"
+                        r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Sega 3D Classics$|^Mega 6$|^PC Engine Mini$|^Satakore$"
                         r"|^PlayStation the Best.*|^PSone Books$|^Major Wave$|^Artdink Best Choice$|^Honkakuha de 1300$"
                         r"|^GameVillage The Best$|^Culture Publishers$|^Fukyuuban$|^PlayStation 2 the Best.*|^PlayStation 3 the Best.*")
 # GameCube: GC 用ソフトに収録された ROM（N64）
@@ -400,7 +400,13 @@ def main():
                          "dump_kind": cat, **info})
 
     # ---- 別リストの手動追加分（No-Intro の印では拾えないイベント体験版・業務用ソフトなど）
-    for m in C.read_csv(DATA / "overrides" / "non_retail_manual.csv"):
+    manual = C.read_csv(DATA / "overrides" / "non_retail_manual.csv")
+    # 手動の行と同じ吸い出しが No-Intro の印（Proto など）で自動で入っていたら、手動の行（区分・根拠つき）だけにする
+    manual_names = {m["nointro_name"] for m in manual if m["nointro_name"]}
+    dropped = {x["id"] for x in non_retail if x["nointro_name"] in manual_names}
+    non_retail = [x for x in non_retail if x["id"] not in dropped]
+    rows = [r for r in rows if r["title_id"] not in dropped]
+    for m in manual:
         non_retail.append({"id": m["id"], "title": m["title"], "category": m["category"], "media": m["media"],
                            "parent_id": m["parent_id"], "game_code": "", "nointro_name": m["nointro_name"],
                            "evidence": m["evidence"], "verification": ""})

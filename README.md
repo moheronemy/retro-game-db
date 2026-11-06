@@ -24,6 +24,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,860 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（3,224 行） |
 | PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,144 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,308 行） |
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
+| セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
 | ワンダースワン／カラー (WS/WSC) | [`data/ws/jp_titles.csv`](data/ws/jp_titles.csv) | 202 | 200 | 181 | [`data/ws/jp_rom_dumps.csv`](data/ws/jp_rom_dumps.csv)（227 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
 
@@ -45,6 +46,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PS | （未調査・0 件） | （0 件） | |
 | PS2 | （未調査・0 件） | [`jp_non_retail.csv`](data/ps2/jp_non_retail.csv)（店頭体験版 19 件） | |
 | GG | （未調査・0 件） | （0 件） | |
+| SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
 | WS/WSC | [`jp_not_for_sale.csv`](data/ws/jp_not_for_sale.csv)（3 件） | （0 件） | 会場限定販売 [`jp_other.csv`](data/ws/jp_other.csv)（2 件） |
 | PS3 | （未調査・0 件） | （0 件） | 配信専用 [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件） |
 
@@ -749,6 +751,37 @@ PlayStation 3 のパッケージソフトとして日本で発売されたもの
 - 『颯爽少年英雄伝 コカ・コーラキッド』の景品のプラスワンセット（本体とのセット）は別のソフトではないので非売品リストに入れていない
   （Wikipedia の備考に記載）。その他の非売品の調査は後回し。
 
+## SMS
+
+セガ・マークIII とマスターシステムとして日本で発売されたソフト（1985〜1989年）。両機は同じソフトが動くので 1 本のリストにまとめた。
+SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含めず、別のリストにする。`id` は `sms-jp-<連番>`（発売順）。
+
+| 列 | 内容 |
+|---|---|
+| `media` | `card`（マイカード マークIII）/ `cartridge`（セガのゴールドカートリッジ・サリオのシルバーカートリッジ） |
+| `capacity` | 容量（カードは全て `256k`。カートリッジは `1M`・`2M`・`4M`） |
+| `fm_sound` | FM 音源対応（`yes`。Wikipedia の「FM音源」欄。41 件） |
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・媒体・FM 音源 | ja.wikipedia「セガ・マークIIIのゲームタイトル一覧」の「発売されたタイトル」の表（日本 83 件。セガハード大百科の一覧が出典で、発売年ごとの表の合計とも一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「SEGAマーク3」「SEGAマーク3,セガ・マスターシステム」。25 件で価格は 8 件だけ） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/sms.xml` |
+| ハッシュ | No-Intro DAT（libretro 収録の Sega Master System - Mark III） |
+
+- 媒体の欄は地域ごとに上付き文字で分かれている（例: `Ca`〈日欧米〉と `256k`〈欧伯〉）ので、日本の値を採った。カード 14 件、カートリッジ 69 件。
+- 型番は表記のまま（ゴールドカートリッジ `G-1301`、マイカード `C-501`、サリオ `S-001`）。MAME の並記（`G-1305, 5055, 41008`）の
+  数字だけのものは海外版なので採らない。型番が無いのは『ソロモンの鍵 王女リヒタの涙』（サリオ。MAME は `002` だけ）の 1 件。
+- マイカードの MAME の記録には日本語の題名が無く自動で照合できないため、同日・同型番のものを `overrides/matches.csv` で手動対応した（16 件）。
+- 価格は 8 件（無いものは許容）。全て消費税導入前の発売なので `税なし`。
+- 発売日は Wikipedia を採る。MADB・MAME と異なるものは要確認レポートに出す（6 件。『スペースハリアー』は MADB・MAME とも 1986年12月21日）。
+- 吸い出しは MAME の CRC・名前で結びつけ、全 83 件にある。日本・海外共通の `(World)` などの吸い出しも含む（23 行）。
+  セガエイジス・セガ3D復刻アーカイブスに収録されたもの（`Sega Ages`・`Sega 3D Classics`）は `collection`。
+- Wikipedia「その他」節の『ゲームでチェック！交通安全』（セガと東京海上火災保険が交通安全キャンペーン用に共同開発した非売品）は
+  別リストの `business`。No-Intro では `(Proto)` だが、手動の行（`overrides/non_retail_manual.csv`）を優先し、自動の `prototype` の行は作らない。
+  別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
+- 発売されなかったタイトルは対象外。
+
 ## WS/WSC
 
 ワンダースワン・ワンダースワンカラーは 1 本のリストにまとめ、`compat` 列で区別する（スワンクリスタル専用のソフトは無い）。
@@ -859,6 +892,10 @@ python3 scripts/build_dumps.py ps
 python3 scripts/fetch_wikipedia_list.py gg
 python3 scripts/enrich.py gg
 python3 scripts/build_dumps.py gg
+
+python3 scripts/fetch_wikipedia_list.py sms
+python3 scripts/enrich.py sms
+python3 scripts/build_dumps.py sms
 
 python3 scripts/fetch_wikipedia_list.py ws
 python3 scripts/enrich.py ws

@@ -1,5 +1,6 @@
 """機種ごとの設定。新しい機種はここに追加する。"""
 import re
+import unicodedata
 
 from common import ROOT
 
@@ -362,6 +363,28 @@ def _ws_models(text):
         if code not in out:
             out.append(code)
     return out
+
+
+def _sms_models(text):
+    """マークIII／マスターシステムの日本版の型番。セガのゴールドカートリッジ 'G-1301'、マイカード マークIII 'C-501'、
+    サリオのシルバーカートリッジ 'S-001'。MAME の並記（'G-1305, 5055, 41008'）の数字だけのものは海外版なので採らない。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z0-9-])([GCS])\s*-\s*(\d{3,4})(?!\d)", unicodedata.normalize("NFKC", text or "").upper()):
+        code = f"{m.group(1)}-{m.group(2)}"
+        if code not in out:
+            out.append(code)
+    return out
+
+
+def _sms_media(row):
+    """媒体の欄（'Ca<sup>日欧米</sup><br />256k<sup>欧伯</sup>' → 'Ca日欧米 256k欧伯'）から日本版のものを取る。
+    地域の付かない値は全地域共通。Ca はマイカード マークIII（256キロビット）、ほかはカートリッジの容量。"""
+    raw = re.sub(r'^.*\|', "", row.get("media_raw", ""))
+    for tok in raw.split():
+        m = re.fullmatch(r"(Ca|\d+[kM])([日米欧伯]*)", tok)
+        if m and (not m.group(2) or "日" in m.group(2)):
+            return m.group(1)
+    return ""
 
 
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
@@ -886,6 +909,36 @@ PLATFORMS = {
         "models_from_serial": lambda s: [],   # DAT にシリアルが無い
         "code_of": lambda m: "",
         "normalize_code": lambda c: "",
+        "dump_world": True,
+        "tax_free_before": "1989-04-01",
+    },
+    # セガ・マークIII／マスターシステム（日本で発売された 83 件。SG-1000 は別リスト）。
+    # media は card（マイカード マークIII）/ cartridge、capacity は容量、fm_sound は FM 音源対応（Wikipedia の「FM音源」欄）
+    "sms": {
+        "name": "セガ・マークIII／マスターシステム",
+        "dir": ROOT / "data" / "sms",
+        "id_prefix": "sms-jp",
+        "wikipedia": {"tables": [{
+            "page": "セガ・マークIIIのゲームタイトル一覧", "section": "発売されたタイトル", "table_id": "softwarelist",
+            "columns": ("jp", "na", "eu", "br", "title", "publisher", "media_raw", "fm", "notes"),
+            "derive": {
+                # 発売元の欄の地域の上付き文字（'セガ<sup>日欧</sup>' → 'セガ日欧'）を除く
+                "publisher": lambda r: re.sub(r"[日米欧伯]+$", "", r["publisher"]),
+                "media": lambda r: {"Ca": "card"}.get(_sms_media(r), "cartridge" if _sms_media(r) else ""),
+                "capacity": lambda r: "256k" if _sms_media(r) == "Ca" else _sms_media(r),
+                "fm_sound": lambda r: "yes" if re.search(r"[○◯〇]", r.get("fm", "")) else "",
+            }}]},
+        "extra_columns": ["media", "capacity", "fm_sound"],
+        "madb_platforms": ["SEGAマーク3", "SEGAマーク3,セガ・マスターシステム"],
+        "mame_lists": ["sms"],
+        "mame_jp_models": _sms_models,   # 'After Burner (World)' など。海外版の型番は数字だけなので含まれない
+        "models_from": _sms_models,
+        "models_from_serial": lambda s: [],   # DAT にシリアルが無い
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": ["Sega - Master System - Mark III"],
+        "nointro_export": ["Sega - Master System - Mark III (DB Export)"],
+        "nointro_export_fallback": {"Sega - Master System - Mark III (DB Export)": "Sega - Master System - Mark III"},
         "dump_world": True,
         "tax_free_before": "1989-04-01",
     },

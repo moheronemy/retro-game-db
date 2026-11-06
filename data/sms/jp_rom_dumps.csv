@@ -1,0 +1,93 @@
+title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256,verification,source_count,first_dump_date,rom_chip,label_serial,pcb,save_type,nointro_number,mame_name,mame_status,hash_source,discs
+sms-jp-0001,テディーボーイ・ブルース,,Teddy Boy Blues (Japan) (En),0,retail,32768,316727dd,de5d6c9e1349844b74f53caaf2af680b,fb61c04f30c83733fdbf503b16e17aa8086932df,,dat_only,1,,,,,,,teddyboyj,good,No-Intro,1
+sms-jp-0002,ハングオン,,Hang On (Japan) (En),0,retail,32768,5c01adf9,67849e734a1304799606ba5a22f840d2,43552f58f0c0c292f3e4c1b1525fd0344dc220c6,,dat_only,1,,,,,,,hangonj,good,No-Intro,1
+sms-jp-0003,グレートサッカー,,Great Soccer (Japan) (En),0,retail,32768,2d7fd7ef,0ed883302e87ca46c1c1a55660e17900,110536303b7bccc193bef4437ba5a9eb6fd4ac8e,,dat_only,1,,,,,,,greatscrj,good,No-Intro,1
+sms-jp-0004,不思議のお城ピットポット,,Fushigi no Oshiro Pit Pot (Japan) (En),0,retail,32768,e6795c53,209ee37dcabc263aa462c781d3123fce,b1afa682b2f70bfc4ab2020d7c3047aabbaf9a24,,dat_only,1,,,,,,,pitpot,good,No-Intro,1
+sms-jp-0005,グレートベースボール,,Great Baseball (Japan) (En),0,retail,32768,89e98a7c,94ca79d4eb2709ad98b850d33728a045,e6eaaec61bec32dee5161ae59a7a0902f0d05dc9,,dat_only,1,,,,,,,greatbasj,good,No-Intro,1
+sms-jp-0006,サテライト7,,Satellite 7 (Japan) (En),0,retail,32768,16249e19,eac6a843975c50e39eb32f764da2a5ac,88fc5596773ea31eda8ae5a8baf6f0ce5c3f7e5e,,dat_only,1,,,,,,,satell7,good,No-Intro,1
+sms-jp-0007,アストロフラッシュ,,Astro Flash (Japan) (En),0,retail,32768,c795182d,a7462d79844a12a92941174252c9ca6e,8370957b1192349d0a610437cd5d91ea4e3892c4,,dat_only,1,,,,,,,astrofl,good,No-Intro,1
+sms-jp-0008,F-16 ファイティングファルコン,,F-16 Fighting Falcon (Japan) (En),0,retail,32768,7ce06fce,60e4b9cf6c000eb3af97e758413ce99f,0f60f545ce99366860a94fbb115ce7d8531ab7ba,,dat_only,1,,,,,,,f16falcjc,good,No-Intro,1
+sms-jp-0009,グレートテニス,,Great Tennis (Japan) (En),0,retail,32768,95cbf3dd,be6eac7ce416c86a818ff13b228b39c5,e7f3529689cd29be3fa02f94266e4ee8e0795d7d,,dat_only,1,,,,,,,greattns,good,No-Intro,1
+sms-jp-0010,青春スキャンダル,,Seishun Scandal (Japan) (En),0,retail,32768,f0ba2bc6,fb2ad2524646bd069e3ec1b51fd7eb39,6942f38e608cc7d70cf9cc8c13ee8c22e4b81679,,dat_only,1,,,,,,,seishun,good,No-Intro,1
+sms-jp-0011,コミカルマシンガンジョー,,Comical Machine Gun Joe (Japan) (En),0,retail,32768,9d549e08,2d59b3d27f022b04a597e767e6660ca9,33c21d164fd3cdf7aa9e7e0fe1a3ae5a491bd9f5,,dat_only,1,,,,,,,comical,good,No-Intro,1
+sms-jp-0012,ゴーストハウス,,Ghost House (Japan) (En),0,retail,32768,c0f3ce7e,89028bfb152a553adf25668649d39ca6,051e74c499c6792f891668a7be23a11c2c4087af,,dat_only,1,,,,,,,ghosthj,good,No-Intro,1
+sms-jp-0013,ファンタジーゾーン,,Fantasy Zone (Japan) (En),0,retail,131072,0ffbcaa3,3a1dfad2cea111d0dbfb4a545bf3f87e,b486d8be0cf669117e134f9e53a452bf71097479,,dat_only,1,,,,,,,fantzonej,good,No-Intro,1
+sms-jp-0013,ファンタジーゾーン,,Fantasy Zone (World) (Rev 1),1,retail,131072,65d7e4e0,fed8690ee5fb895c09caa8e2b879ebd6,0278cd120dc3a7707eda9314c46c7f27f9e8fdda,,dat_only,1,,,,,,,fantzone,good,No-Intro,1
+sms-jp-0013,ファンタジーゾーン,,Fantasy Zone (World) (Sega 3D Classics) (FM Music),0,collection,262144,7ec7bb12,97d026fb1363665e0612dc17288742f0,893e2871295472e9c5292595033a7a84e128065e,,dat_only,1,,,,,,,,,No-Intro,1
+sms-jp-0014,極悪同盟 ダンプ松本,,Gokuaku Doumei Dump Matsumoto (Japan) (En),0,retail,131072,a249fa9d,9e56576a5c7d571ce17c650c4116a77d,77f1e788f43fb59456f982472f02f109f53c7918,,dat_only,1,,,,,,,dumpmats,good,No-Intro,1
+sms-jp-0015,北斗の拳,,Hokuto no Ken (Japan),0,retail,131072,24f5fe8c,ddd6b56e864a7dfd74a9e04bc4407f41,26c5da3ee48bc0f8fd3d20f9408e584242edcd9d,,dat_only,1,,,,,,,hokuto,good,No-Intro,1
+sms-jp-0016,アクションファイター,,"Action Fighter (Japan, Europe) (En)",0,retail,131072,d91b340d,7e08a9854d61fece23d3c4a39539f4e9,5dbcfb75958f4cfa1b61d9ea114bab67787b113e,,dat_only,1,,,,,,,actionfg1,good,No-Intro,1
+sms-jp-0017,スパイvsスパイ,,Spy vs Spy (Japan) (En),0,retail,32768,d41b9a08,2a6ee78e2617886fe540dcb8a1500e90,c5e004b34d6569e6e1d99bff6be940f308e2c39f,,dat_only,1,,,,,,,spyvsspyk;spyvsspyj,good;good,No-Intro,1
+sms-jp-0018,ザ・サーキット,,"Circuit, The (Japan) (En)",0,retail,131072,8fb75994,89d22e72bd0379495a2db456eda6ac4c,34307a745d3d52a4b814e9831b7041f25e8052d1,,dat_only,1,,,,,,,circuit,good,No-Intro,1
+sms-jp-0019,アレックスキッドのミラクルワールド,,Alex Kidd no Miracle World (Japan),0,retail,131072,08c9ec91,6e8e702e1d8a893ee698b93f5807972a,62fdc25501e17b87c355378562c3b1966e5f9008,,dat_only,1,,,,,,,alexkiddj,good,No-Intro,1
+sms-jp-0020,忍者プリンセス1メガ版 忍者,,Ninja (Japan),0,retail,131072,320313ec,41e20afe05c2fbe45ac5f3a9c8111047,e9acdae112a898f7db090fc0b8f1ce9b86637234,,dat_only,1,,,,,,,ninjaj,good,No-Intro,1
+sms-jp-0021,阿修羅,,Ashura (Japan) (En),0,retail,131072,ae705699,e5693a4806de29ea9b1e1b5fea1a9566,e9f90d63320295e4bd9a87e6078186c5efb7e84e,,dat_only,1,,,,,,,ashura,good,No-Intro,1
+sms-jp-0022,スペースハリアー,,"Space Harrier (Japan, USA) (En)",0,retail,262144,beddf80e,b2e5047df186af7c02da17f1b285ae4f,51ba2185a2b93957c1c51b0a2e2b80394463bed8,,dat_only,1,,,,,,,sharrierju,good,No-Intro,1
+sms-jp-0023,アストロウォリアー,,"Astro Warrior (Japan, USA, Brazil) (En)",0,retail,131072,299cbb74,e645faa5628caab5129383fdbf4df090,901697a3535ad70190647f34ad5b30b695d54542,,dat_only,1,,,,,,,astrow,good,No-Intro,1
+sms-jp-0024,ハイスクール!奇面組,,High School! Kimengumi (Japan),0,retail,131072,9eb1aa4f,ab38b53584c89476cd4646105b16083a,d3c0aeeacccef77c45ab4219c7d6d8ed04d467cb,,dat_only,1,,,,,,,highsc,good,No-Intro,1
+sms-jp-0025,グレートゴルフ,,Great Golf (Japan) (En),0,retail,131072,6586bd1f,c0a9a2261ea7ef93bf8120f5328deaec,417739aa248032f5aebe05750a5de85346e36712,,dat_only,1,,,,,,,greatglj,good,No-Intro,1
+sms-jp-0026,ダブルターゲット シンシアの眠り,,Double Target - Cynthia no Nemuri (Japan) (En),0,retail,131072,52b83072,ba66d377ad3a2eaa13bbc00f63f8e4e7,51f9ce05e383983ce1fe930ec178406b277db69c,,dat_only,1,,,,,,,doubltgt,good,No-Intro,1
+sms-jp-0027,ウッディポップ 新人類のブロックくずし,,Woody Pop - Shinjinrui no Block Kuzushi (Japan) (En),0,retail,32768,315917d4,1b1b6051027806a98e9947b5ae5f0076,b74078c4a3e6d20d21ca81e88c0cb3381b0c84a4,,dat_only,1,,,,,,,woodypop,good,No-Intro,1
+sms-jp-0028,スーパーワンダーボーイ,,"Wonder Boy (Japan, Europe) (En)",0,retail,131072,e2fcb6f3,a4e48850bf8799cfac74b1d33f5900b5,14210196f454b6d938f15cf7b52076796c5d0f7d,,dat_only,1,,,,,,,wboya,good,No-Intro,1
+sms-jp-0029,グレートバレーボール,,Great Volleyball (Japan) (En),0,retail,131072,6819b0c0,03d6e8450a74ac09e47ae9bf210cfe17,b9e3284c7b557eed84661c98bc733d32b46c7a07,,dat_only,1,,,,,,,greatvolj,good,No-Intro,1
+sms-jp-0030,グレートバスケットボール,,Great Basketball (World),0,retail,131072,2ac001eb,450d68460d4ae07a7cc98d36491fd4f8,2fdb7ebce61e316ded27b575535d4f475c9dd822,,dat_only,1,,,,,,,greatbsk,good,No-Intro,1
+sms-jp-0031,グレートフットボール,,Great Football (World),0,retail,131072,2055825f,2cf4d65cb09c276a96ad73e724fb825c,a768f44ce7e50083ffe8c4b5e3ac93ceb7bd3266,,dat_only,1,,,,,,,greatftb,good,No-Intro,1
+sms-jp-0032,スケバン刑事II 少女鉄仮面伝説,,Sukeban Deka II - Shoujo Tekkamen Densetsu (Japan),0,retail,131072,b13df647,e80ce989b68b1faa5e40016ce7b096fe,5cd041990c7418ba63cde54f83d3e0e323b42c3b,,dat_only,1,,,,,,,sukeban,good,No-Intro,1
+sms-jp-0033,ロッキー,,Rocky (World),0,retail,262144,1bcc7be3,582d58d95c9774cd50555366c253a050,8601927ca17419f5d61f757e9371ce533228f7bb,,dat_only,1,,,,,,,rocky,good,No-Intro,1
+sms-jp-0034,魔界列伝,,Makai Retsuden (Japan),0,retail,131072,ca860451,f4a3116fe2be83eafd4cc278812be9b4,59d520fdb2b6cbd5736b2bd6045ad3ee3ad2e3a6,,dat_only,1,,,,,,,makairet,good,No-Intro,1
+sms-jp-0035,エンデューロレーサー,,Enduro Racer (Japan) (En),0,retail,262144,5d5c50b3,a94de92b078911e71c246679c8992da1,7a0216af8d4a5aeda1d42e2703f140d08b3f92f6,,dat_only,1,,,,,,,enduroj,good,No-Intro,1
+sms-jp-0036,赤い光弾ジリオン,,"Zillion (Japan, Europe) (En)",0,retail,131072,60c19645,8de18c864fc9379c27d7430c1f209eeb,6a0a21426cadadb5567907d9cc4cdaf63195d5c3,,dat_only,1,,,,,,,zillionb,good,No-Intro,1
+sms-jp-0037,アウトラン,,OutRun (World),0,retail,262144,5589d8d2,029ee92155247f8a282d63b8a6dd23c4,4f9b61b24f0d9fee0448cdbbe8fc05411dbb1102,,dat_only,1,,,,,,,outrun,good,No-Intro,1
+sms-jp-0038,ザ・プロ野球ペナントレース,,"Pro Yakyuu, The - Pennant Race (Japan)",0,retail,131072,da9be8f0,0e025768db6e6a7459099add711690ab,1ee602f8711d82d13b006984cef95512a93c7783,,dat_only,1,,,,,,,proyakyu,good,No-Intro,1
+sms-jp-0039,ワールドサッカー,,World Soccer (World),0,retail,131072,72112b75,5f008423ae6a454bc70e94a8c9f33d1c,bd385b69805c623ab9934174a19a30371584c4b0,,dat_only,1,,,,,,,worldsoc,good,No-Intro,1
+sms-jp-0040,あんみつ姫,,Anmitsu Hime (Japan),0,retail,131072,fff63b0b,c6e271132566b4dd03981dcf2f8a6477,74057d3b7f384c91871a2db2fbc86d3e700c45e5,,dat_only,1,,,,,,,anmitsu,good,No-Intro,1
+sms-jp-0041,ファンタジーゾーンII オパオパの涙,,Fantasy Zone II - Opa-Opa no Namida (Japan) (En),0,retail,262144,c722fb42,f898539f72db2271fc3385a5eb51a06f,60d8135e8f15fe48f504d0ec69010a4b886dcda8,,dat_only,1,,,,,,,fantzon2j,good,No-Intro,1
+sms-jp-0042,どきどきペンギンランド 宇宙大冒険,,Doki Doki Penguin Land - Uchuu Daibouken (Japan) (En),0,retail,131072,2bcdb8fa,ff7502dd8a717db5adb42c711ddbc9f5,c01cf44eee335d509dc20a165add8514e7fbb7c4,,dat_only,1,,,,,,,dokidoki,good,No-Intro,1
+sms-jp-0043,ナスカ'88,,Aztec Adventure (World),0,retail,131072,ff614eb3,12ce04ff557a96add46f04b12b0d47cc,317775a17867530a8fe3a5b17b681d5ada351432,,dat_only,1,,,,,,,aztecadv,good,No-Intro,1
+sms-jp-0044,マスターズゴルフ,,Great Golf (World),0,retail,131072,98e4ae4a,763580f2af57ea7baddf671fb51787da,3c0b12cfb70f2515429b6e88e0753d69dbb907ab,,dat_only,1,,,,,,,greatglf,good,No-Intro,1
+sms-jp-0045,覇邪の封印,,Haja no Fuuin (Japan),0,retail,262144,b9fdf6d9,b54989c58520516f4c10ce4e7a446725,46a032004d49fec58099aa6bf0dd796997e95142,,dat_only,1,,,,,,,hajafuin,good,No-Intro,1
+sms-jp-0046,麻雀戦国時代,,Mahjong Sengoku Jidai (Japan),0,retail,131072,bcfbfc67,ae37b27f37a25c5230f50e8b8d58eba2,9b7cd3a25b2a1fc880683dcdca81457c93d46de5,,dat_only,1,,,,,,,mjsengok,good,No-Intro,1
+sms-jp-0047,エイリアンシンドローム,,Alien Syndrome (Japan) (En),0,retail,262144,4cc11df9,c352bd773dc9cd909a8c1707ccb54d40,5d786476b275de34efb95f576dd556cf4b335a83,,dat_only,1,,,,,,,aliensynj,good,No-Intro,1
+sms-jp-0048,SDI,,SDI (Japan) (En),0,retail,131072,1de2c2d0,4fd639981901032cdde4b12ca83d078c,2000b3b291dd7b76c3b8801a88fb0e293ca7e278,,dat_only,1,,,,,,,sdi,good,No-Intro,1
+sms-jp-0049,ザクソン3D,,Zaxxon 3-D (World),0,retail,262144,a3ef13cb,882dc10b0792be579a745c3f38010642,257946fe8a230ac1308fc60a8ed43851cfe6b915,,dat_only,1,,,,,,,zaxxon3d,good,No-Intro,1
+sms-jp-0050,アレックスキッド BMXトライアル,,BMX Trial - Alex Kidd (Japan) (En),0,retail,131072,f9dbb533,571f18f49e679a128b4a237001760d6c,77cc767bfae01e9cc81612c780c939ed954a6312,,dat_only,1,,,,,,,alexbmx,good,No-Intro,1
+sms-jp-0051,アフターバーナー,,After Burner (World),0,retail,524288,1c951f8e,6271c183513e0be0543e326419ee989e,51531df038783c84640a0cab93122e0b59e3b69a,,dat_only,1,,,,,,,aburner,good,No-Intro,1
+sms-jp-0052,トライフォーメーション,,Zillion II - The Tri Formation (World),0,retail,131072,2f2e3bc9,605b0c360075876b4a0be479679d1075,1e08be828ecf4cf5db787704ab8779f4b5a444b5,,dat_only,1,,,,,,,zillion2,good,No-Intro,1
+sms-jp-0053,ファンタシースター,,Phantasy Star (Japan),0,retail,524288,6605d36a,dfebc48dfe8165202b7f002d8bac477b,c9a40ddd217c58dddcd6b5c0fe66c3a50d3e68e4,,dat_only,1,,,,,,,pstarj,good,No-Intro,1
+sms-jp-0053,ファンタシースター,,Phantasy Star (Japan) (Rev 1),1,retail,524288,07301f83,14c59604768b33175362cc592cb75ead,b3ae447dc739256616b44cbd77cb903c9f19e980,,dat_only,1,,,,,,,pstarjmd,baddump,No-Intro,1
+sms-jp-0053,ファンタシースター,,Phantasy Star (World) (En) (Sega Ages),0,collection,540672,a1e090b9,25bb6453a87521df1ea8d1bce4189da0,5f67fe8563585950521d3cbc61bef3652242c540,,dat_only,1,,,,,,,,,No-Intro,1
+sms-jp-0053,ファンタシースター,,Phantasy Star (World) (Ja) (Sega Ages),0,collection,565248,df96f194,1777bf6df3331e2391835ed62a037de8,c5f19946b5f157d767b3a5a7b95e8463a1bfaaae,,dat_only,1,,,,,,,,,No-Intro,1
+sms-jp-0054,オパオパ,,Opa Opa (Japan) (En),0,retail,131072,bea27d5c,a31cbbded45f66633fb38b1c1bef9b08,38bd50181b98216c9ccf1d7dd6bc2c0a21e9a283,,dat_only,1,,,,,,,opaopa,good,No-Intro,1
+sms-jp-0055,ファミリー・ゲームズ,,Family Games (Japan) (En),0,retail,131072,7abc70e9,03552187d613c1b2a22a8e32476c5254,dfbf0186d497cf53d1f21a9430991ed4124cc4c2,,dat_only,1,,,,,,,family,good,No-Intro,1
+sms-jp-0056,メイズウォーカー,,Maze Walker (Japan) (En),0,retail,131072,871562b0,d22d7b072123ef9c43b432e06363dabd,ade756eccaf94c79e8b3636921b6f8669a163265,,dat_only,1,,,,,,,mazewalk,good,No-Intro,1
+sms-jp-0056,メイズウォーカー,,Maze Walker (Japan) (En) (Sega 3D Classics),0,collection,131072,f8ce3cc3,86cc9cec92b18ad20e35f7799877c37b,920a8a40098c8f138cdaa61e81600307c7d18910,,dat_only,1,,,,,,,,,No-Intro,1
+sms-jp-0057,スーパーワンダーボーイ モンスターワールド,,Super Wonder Boy - Monster World (Japan),0,retail,262144,b1da6a30,8883790d3b3d4fed9a845d63aa251786,f4cd1ee6f98bc77fb36e232bf755d61d88e219d7,,dat_only,1,,,,,,,wboymlndj,good,No-Intro,1
+sms-jp-0058,ギャラクティックプロテクター,,Galactic Protector (Japan) (En),0,retail,131072,a6fa42d0,8d61b59296877216cf7e4b04a68bfa66,e8bcc3621e30ee445a74e6ddbe0842d0a6753f36,,dat_only,1,,,,,,,galactpr,good,No-Intro,1
+sms-jp-0059,スペースハリアー3D,,Space Harrier 3D (Japan) (En),0,retail,262144,156948f9,d8717eeb943c292c078429a0ed5a8527,7caf44ecc3de6daffedf7a494d449202888a6156,,dat_only,1,,,,,,,sharr3dj,good,No-Intro,1
+sms-jp-0060,アレスタ,,Aleste (Japan) (En),0,retail,131072,d8c4165b,810f65d7a7a8462c40c01bea3d5d7d01,cba75b0d54df3c9a8e399851a05c194c7a05fbfe,,dat_only,1,,,,,,,aleste,good,No-Intro,1
+sms-jp-0061,アレックスキッド ザ・ロストスターズ,,Alex Kidd - The Lost Stars (World),0,retail,262144,c13896d5,ea50dcdd1241667f32d39d606a9f7083,6dbf2684c3dfea7442d0b40a9ff7c8b8fc9b1b98,,dat_only,1,,,,,,,alexlost,good,No-Intro,1
+sms-jp-0062,アルゴスの十字剣,,Argos no Juujiken (Japan) (En),0,retail,131072,bae75805,8e8b04b5a9fe7b6cdb25b6550e7a831e,a4b63ed417380f8170091e66c0417123799a731f,,dat_only,1,,,,,,,argosnj,good,No-Intro,1
+sms-jp-0063,ブレードイーグル,,Blade Eagle 3-D (World),0,retail,262144,8ecd201c,a20798b12481284f77cee67ce5e25f2b,b786d15b26b914c24cd1c36a8fca41b215c0a4e7,,dat_only,1,,,,,,,bladeag,good,No-Intro,1
+sms-jp-0064,星をさがして…,,Hoshi wo Sagashite... (Japan),0,retail,262144,955a009e,9b6274dd555f84b3f21fa2594b280a06,f9ce8b80d8671db6ab38ba5b7ce46324a65ebc3d,,dat_only,1,,,,,,,hoshiw,good,No-Intro,1
+sms-jp-0065,ソロモンの鍵 王女リヒタの涙,,Solomon no Kagi - Oujo Rihita no Namida (Japan),0,retail,131072,11645549,cfa84806075e017e29ffcdd0127fe647,875f35d0775609776ec75ea2a8fa2297643e906c,,dat_only,1,,,,,,,solomon,good,No-Intro,1
+sms-jp-0066,天才バカボン,,Tensai Bakabon (Japan),0,retail,262144,8132ab2c,ed8bfc3d17edc8e7968e553a9a6dd24c,ca802b7bdbc0b458d02fda2da32c2e27e50eef19,,dat_only,1,,,,,,,bakabon,good,No-Intro,1
+sms-jp-0067,剣聖伝,,Kenseiden (Japan),0,retail,262144,05ea5353,f4c3327b0f92e09b21f59e90fd273c2f,cd349833ff41821635c6242a0b8cef7e071103d5,,dat_only,1,,,,,,,kenseidj,good,No-Intro,1
+sms-jp-0068,ロード オブ ソード,,Lord of Sword (Japan),0,retail,262144,aa7d6f45,a5736126ed7e8569a189065ec20adf72,6a08d913fd92a213b1ecf5aa7c5630362cccc6b4,,dat_only,1,,,,,,,lordswrdj,good,No-Intro,1
+sms-jp-0069,忍 -SHINOBI-,,"Shinobi (Japan, Brazil) (En)",0,retail,262144,e1fff1bb,789b285290688cbd0a786f888f9dada1,26070deaa2d3c170d31ac395a50231204250bdf3,,dat_only,1,,,,,,,shinobij,good,No-Intro,1
+sms-jp-0070,キャプテンシルバー,,"Captain Silver (Japan, Europe, Brazil) (En)",0,retail,262144,a4852757,ccb76c009e52e32e2dcc528481f0e039,88402392e93b220632a61e0c07731a7ed087cbef,,dat_only,1,,,,,,,captsilv,good,No-Intro,1
+sms-jp-0071,スーパーレーシング,,Super Racing (Japan) (En),0,retail,262144,7e0ef8cb,bcc2df04cac4b713ee48a05669cdfbdd,442f3ba8a66a0d9c49a46091df83fcdba4b63c3a,,dat_only,1,,,,,,,superrac,good,No-Intro,1
+sms-jp-0072,め組レスキュー,,Megumi Rescue (Japan) (En),0,retail,131072,29bc7fad,fd834dbb87682c674f7d7ed917355021,7bd156cf8dc2ad07c666ac58ccb3c0ff6671b93f,,dat_only,1,,,,,,,megumi,good,No-Intro,1
+sms-jp-0073,サンダーブレード,,Thunder Blade (Japan) (En),0,retail,262144,c0ce19b1,a03bbd3c75e736ce378f2c3fe47f5579,535dbd339f4b5c5efd502cffbbe719d7b3e7f1c3,,dat_only,1,,,,,,,tbladej,good,No-Intro,1
+sms-jp-0074,ファイナルバブルボブル,,Final Bubble Bobble (Japan),0,retail,262144,3ebb7457,3573a65921b0506f7124f1f9ffb30974,ab585612fddb90b5285e2804f63fd7fb7ba02900,,dat_only,1,,,,,,,finalbb,good,No-Intro,1
+sms-jp-0075,魔王ゴルベリアス,,Maou Golvellius (Japan),0,retail,262144,bf0411ad,6bd9879af39e248d149761014ebf5639,f62c5c9dea4368e6475517c4220a62e40fedd35d,,dat_only,1,,,,,,,maougolv,good,No-Intro,1
+sms-jp-0076,熱球甲子園,,Nekkyuu Koushien (Japan),0,retail,262144,5b5f9106,deac89672a98c5400030e66577cbb454,35e882723189178c1dc811a04125daec4487e693,,dat_only,1,,,,,,,nekkyu,good,No-Intro,1
+sms-jp-0077,孔雀王,,Kujaku Ou (Japan),0,retail,524288,d11d32e4,d8788e907f76419d55bcc447e76de6ad,6974d27bc31c2634bec54c4e9935a28461fb60f7,,dat_only,1,,,,,,,kujaku,good,No-Intro,1
+sms-jp-0078,R-TYPE,,R-Type (World),0,retail,524288,bb54b6b0,9e5507d51ac6f24c702a52a7abce0d3c,08ec70a2cd98fcb2645f59857f845d41b0045115,,dat_only,1,,,,,,,rtype,good,No-Intro,1
+sms-jp-0079,ダブルドラゴン,,Double Dragon (World),0,retail,262144,a55d89f3,fe9aa8044951b10f876b15f4456161a9,cad5532af94ed75c0ada8820a83fa04d22f7bef5,,dat_only,1,,,,,,,ddragon,good,No-Intro,1
+sms-jp-0080,イース,,Ys (Japan),0,retail,262144,32759751,17364162da3ccee847850dd9b403765c,614b589080b732e17cc0d253e17216a72a268955,,dat_only,1,,,,,,,ysj,good,No-Intro,1
+sms-jp-0081,スポーツパッドサッカー,,Sports Pad Soccer (Japan) (En),0,retail,131072,41c948bf,4cc5ba7ef736508a8afc1ed7ec640c3e,7634ce39e87049dad1ee4f32a80d728e4bd1f81f,,dat_only,1,,,,,,,sportssc,good,No-Intro,1
+sms-jp-0082,超音戦士ボーグマン,,Chouon Senshi Borgman (Japan),0,retail,131072,e421e466,b106995de2f5f9dba99131f0286756ec,9f987e022090a40506b78d89523e9f88b3bb0c0b,,dat_only,1,,,,,,,borgman,good,No-Intro,1
+sms-jp-0083,ボンバーレイド,,Bomber Raid (World),0,retail,262144,3084cf11,d1151de6ea0a2547f047ce31b22fe18f,d754ef2b6e05c76502c02c71dbfcf6150ee12f6f,,dat_only,1,,,,,,,bombraid,good,No-Intro,1
+sms-jp-nr-hdf539641,Color & Switch Test (Japan) (En) (Proto),,Color & Switch Test (Japan) (En) (Proto),0,prototype,32768,7253c3ec,5142a872da047809a9e121563a7f7cbf,3d23afcc802cd414849b0eac69ce712bf2fa72ff,,dat_only,1,,,,,,,colors,good,No-Intro,1
+sms-jp-nr-hf8bced2c,Choplifter (Japan) (En) (Proto),,Choplifter (Japan) (En) (Proto),0,prototype,131072,16ec3575,ba1b60b6d1fecf87e00cf0f4a2f19f54,c8e87b309bbae6af7cf05602ffbd28f9495c83d8,,dat_only,1,,,,,,,chopliftj,good,No-Intro,1
+sms-jp-nr-m001,ゲームでチェック！交通安全,,Game de Check! Koutsuu Anzen (Japan) (Proto),0,business,262144,9afab511,840ba96cf77b465d3d0d389dac7861d7,72353c77efa078e88483858201f5bdf832f5c01c,,dat_only,1,,,,,,,gamcheck,good,No-Intro,1
