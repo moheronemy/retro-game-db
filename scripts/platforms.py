@@ -1014,7 +1014,9 @@ PLATFORMS = {
         "madb_platforms": ["プレイステーション"],
         "mame_lists": ["psx"],
         "mame_partial": True,   # MAME の psx リストは日本版の3分の1ほどしか無いので「MAME未照合」は報告しない
+        "reissue_serial": re.compile(r"(?:SCPS|SLPS)-91\d{3}"),   # 廉価版（the Best など）の型番帯。Redump の題名で補うときに採らない
         "psxdc": "ps1",   # psxdatacenter.com の作品別ページ（発売日つき）で型番を補う
+        "dat_title_models": True,   # それでも決まらない行は Redump の題名とシリアルで補う
         "mame_jp_models": _ps_models,
         "models_from": _ps_models,
         "models_from_serial": lambda s: [c for c in [_ps_code(s)] if c],
@@ -1047,7 +1049,9 @@ PLATFORMS = {
                          "2011年（全6タイトル）", "2013年（全1タイトル）")]},
         "madb_platforms": ["プレイステーション2"],
         "mame_lists": [],
+        "reissue_serial": re.compile(r"SLPS-7\d{4}|SLPM-74\d{3}|SCPS-7\d{4}"),   # 廉価版（the Best など）の型番帯。Redump の題名で補うときに採らない
         "psxdc": "ps2",   # psxdatacenter.com の一覧（題名だけで照合）で型番を補う
+        "dat_title_models": True,   # それでも決まらない行は Redump の題名とシリアルで補う
         "models_from": _ps_models,
         "models_from_serial": lambda s: [c for c in [_ps_code(s)] if c],
         "code_of": _ps_code,
@@ -1083,6 +1087,9 @@ PLATFORMS = {
         "madb_platforms": ["プレイステーション3"],
         "madb_filter": lambda x: "ダウンロード" not in x["media_format"],
         "mame_lists": [],
+        "reissue_serial": re.compile(r"BLJM-55\d{3}|BCJS-7\d{4}"),   # 廉価版（the Best など）の型番帯。Redump の題名で補うときに採らない
+        "gametdb_models": "ps3tdb",   # MADB で型番の決まらない行は GameTDB の日本語の題名（完全一致）で補い、
+        "dat_title_models": True,     # それでも決まらない行は Redump の題名とシリアルで補う
         "models_from": _ps3_models,
         "models_from_serial": lambda s: [c for c in [_ps3_code(s)] if c],
         "code_of": _ps3_code,
@@ -1376,6 +1383,7 @@ PLATFORMS = {
         "models_from_serial": _psp_models,
         "code_of": lambda m: m or "",
         "normalize_code": lambda c: (_psp_models(c) or [""])[0],
+        "reissue_serial": re.compile(r"UCJS-18\d{3}|ULJM-08\d{3}"),   # 廉価版（the Best など）の型番帯。Redump の題名で補うときに採らない
         "dat_title_models": True,   # MADB で型番の決まらない行は Redump の題名とシリアルで補う（決まらないものは許容）
         "dat_title_sim": 0.75,
         "nointro_dats": ["redump:Sony - PlayStation Portable"],

@@ -55,6 +55,59 @@ def nointro_models(cfg):
     return out
 
 
+# Redump の名前の括弧のうち、版の印でないもの（地域・言語・ディスク・版数）
+_DAT_PLAIN_TAG = re.compile(r"^(?:(?:Japan|World|USA|Europe|Asia|Korea)(?:, .*)?|(?:[A-Z][a-z])(?:,[A-Z][a-z])*|Disc \d+|Rev [0-9A-Z]+|v\d.*)$")
+# 体験版・店頭用など、製品の型番ではないもの
+_DAT_DEMO_TAG = re.compile(r"Taikenban|Demo|Trial|Sample|Kiosk|Tentou|Beta|Proto", re.I)
+
+
+def dat_title_entries(cfg, models_from, madb):
+    """DAT（Redump）の日本版を基本の題名（括弧の印を除いたもの）ごとにまとめ、型番の候補にする。
+    同じ題名に複数のシリアル（初回限定版・the Best など）があるものは、
+      0. 廉価版の型番帯（設定の reissue_serial。Redump は再販に印が無いことが多い）を除く
+      1. 体験版などを除く  2. MADB でほかの商品（別の版）の型番になっているものを除く
+      3. それでも複数なら、名前に版の印の無いもの（通常版）だけを残す
+    の順に絞り、1 つに決まったものだけを候補にする（決まらないものは候補にしない）。複数枚組は Disc 1 のシリアル"""
+    madb_models = {c for x in madb for c in models_from(x["product_id"])}
+    reissue = cfg.get("reissue_serial")
+    groups = {}
+    for name in cfg["nointro_dats"]:
+        for block in C.nointro_dat_text(name).split("game (")[1:]:
+            gm = re.search(r'name "([^"]+)"', block)
+            if not gm:
+                continue
+            gname = gm.group(1)
+            if not re.search(r"\((?:[^()]*, )?(?:Japan|World)(?:, [^()]*)?\)", gname):
+                continue
+            tags = re.findall(r"\(([^()]*)\)", gname)
+            if any(_DAT_DEMO_TAG.search(t) for t in tags):
+                continue
+            disc = next((int(t[5:]) for t in tags if re.fullmatch(r"Disc \d+", t)), 1)
+            if disc != 1:
+                continue
+            serials = [m for s_ in re.findall(r'serial "([^"]+)"', block) for m in models_from(s_)]
+            if not serials or (reissue and reissue.match(serials[0])):
+                continue   # 廉価版（the Best など）の型番帯。通常版の型番ではない
+            title = re.sub(r" \([^()]*\)", "", gname)
+            plain = all(_DAT_PLAIN_TAG.match(t) for t in tags)
+            g = groups.setdefault(title, {})
+            g.setdefault(serials[0], {"serials": [], "label": gname, "plain": False})
+            g[serials[0]]["serials"] += [x for x in serials if x not in g[serials[0]]["serials"]]
+            g[serials[0]]["plain"] |= plain
+    entries = []
+    for title, g in groups.items():
+        cand = dict(g)
+        if len(cand) > 1:
+            cand = {k: v for k, v in cand.items() if not (set(v["serials"]) & madb_models)} or cand
+        if len(cand) > 1:
+            cand = {k: v for k, v in cand.items() if v["plain"]} or cand
+        if len(cand) != 1:
+            continue
+        (key, v), = cand.items()
+        entries.append({"key": key, "serials": v["serials"], "titles": [title], "date": "", "label": v["label"]})
+    return entries
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("platform")
@@ -165,23 +218,39 @@ def main():
                 r["_issues"].append(f"psxdatacenter低スコア{sc:.2f}で型番を照合（{e['label']}）")
         print(f"psxdatacenter: {len(entries)} 件から型番 {len(m_px)} 件を補完", file=sys.stderr)
 
+    if cfg.get("gametdb_models"):
+        # GameTDB（PS3 は ps3tdb）の日本版で、日本語の題名が完全に一致し、ほかに候補の無いものの ID を型番にする
+        import zipfile
+        with zipfile.ZipFile(C.CACHE / "gametdb" / f"{cfg['gametdb_models']}.zip") as z:
+            text = z.read(z.namelist()[0]).decode("utf-8", "replace")
+        by_title = {}
+        for g in re.findall(r"<game name=.*?</game>", text, re.S):
+            gid = re.search(r"<id>([^<]+)</id>", g)
+            ja = re.search(r'<locale lang="JA">\s*<title>([^<]+)</title>', g)
+            if "<region>NTSC-J" not in g or not gid or not ja:
+                continue
+            for c in cfg["models_from_serial"](gid.group(1)):
+                if cfg.get("reissue_serial") and cfg["reissue_serial"].match(c):
+                    continue   # 廉価版の型番帯
+                by_title.setdefault(C.norm(ja.group(1)), {})[c] = ja.group(1)
+        used_models = {r["model_number"] for r in rows if r["model_number"]}
+        n = 0
+        for r in rows:
+            cand = {k: v for k, v in by_title.get(C.norm(r["title"]), {}).items() if k not in used_models}
+            if r["model_number"] or len(cand) != 1:
+                continue
+            (code, ja_title), = cand.items()
+            r["model_number"] = code
+            r["_model_srcs"].append("GameTDB")
+            used_models.add(code)
+            n += 1
+        print(f"GameTDB の題名から型番 {n} 件を補完", file=sys.stderr)
+
     if cfg.get("dat_title_models"):
-        # MADB・MAME で型番が決まらない行を、DAT（Redump）の題名とシリアルで補う（3DO）。DAT に発売日は無いので
+        # MADB・MAME で型番が決まらない行を、DAT（Redump）の題名とシリアルで補う（PS・PS2・PS3・PSP・DC・3DO）。DAT に発売日は無いので
         # psxdatacenter の PS2 と同じく、ローマ字にした題名がとても似ていてほかに候補の無いものだけを採る
         import psxdc
-        entries = []
-        for name in cfg["nointro_dats"]:
-            for block in C.nointro_dat_text(name).split("game (")[1:]:
-                gm = re.search(r'name "([^"]+)"', block)
-                if not gm:
-                    continue
-                gname = gm.group(1)
-                if not re.search(r"\((?:[^()]*, )?(?:Japan|World)(?:, [^()]*)?\)", gname):
-                    continue
-                serials = [m for s_ in re.findall(r'serial "([^"]+)"', block) for m in models_from(s_)]
-                title = re.sub(r" \([^()]*\)", "", gname)
-                if serials and not any(e["key"] == serials[0] for e in entries):
-                    entries.append({"key": serials[0], "serials": serials, "titles": [title], "date": "", "label": gname})
+        entries = dat_title_entries(cfg, models_from, madb)
         used_models = {r["model_number"] for r in rows if r["model_number"]}
         no_model = [r for r in rows if not r["model_number"]]
         m_dt = psxdc.match(no_model, entries, used_models, by_date=False,
