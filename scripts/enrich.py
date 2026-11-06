@@ -225,6 +225,10 @@ def main():
     if cfg.get("cero") and cfg["cero"].get("gametdb"):
         import cero as CR
         tdb = CR.load_gametdb(cfg["cero"]["gametdb"])
+    official = []
+    if cfg.get("cero") and cfg["cero"].get("official"):
+        import cero as CR
+        official = CR.load_official(cfg["cero"]["official"])
     m_maru = C.match_maru(rows, maru, overrides, cfg.get("code_of") if cfg.get("ref_code_models") else None,
                           cfg.get("maru_date_only", False)) if maru is not None else {}
     report = []
@@ -304,6 +308,17 @@ def main():
                 val, descs, src = got.pop(), CR.descriptors_madb(md["rating_desc"]), "MADB"
             elif len(got) > 1:
                 issues.append(f"CERO区分が複数 MADB={'/'.join(sorted(got))}")
+            off = CR.official_lookup(official, r["title"], C.sim, date=date) if official else None
+            if off and off[0] == "conflict":
+                issues.append(f"CERO公式で区分が食い違い {'/'.join(off[1])}")
+                off = None
+            if off and val and off[0] != val:
+                if CR.same_level(off[0], val):   # 公式は審査時の旧区分、MADB は新区分に書き換えたもの
+                    val, descs, src = off[0], off[1] or descs, "CERO公式（MADB は新区分の表記）"
+                elif not CR.same_level(val, off[0]):
+                    issues.append(f"CERO不一致 MADB={val} CERO公式={off[0]}（{off[2]}）")
+            if not val and off:
+                val, descs, src = off[0], off[1], "CERO公式"
             if not val and date >= CR.NEW_SYSTEM_FROM and tdb:
                 hit = CR.gametdb_lookup(tdb, cfg["cero"]["gametdb_key"](model))
                 if hit:

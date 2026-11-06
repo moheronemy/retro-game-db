@@ -1198,17 +1198,26 @@ PC-FX として日本で発売されたソフト（1994〜1998年）。`id` は 
 
 | 列 | 内容 |
 |---|---|
-| `cero` | 表記のまま。旧区分（〜2006年2月）は `全年齢`・`12`・`15`・`18`、新区分（2006年3月〜）は `A`・`B`・`C`・`D`・`Z` |
+| `cero` | 表記のまま。旧区分（〜2006年2月）は `全年齢`・`12`・`15`・`18`、新区分（2006年3月〜）は `A`・`B`・`C`・`D`・`Z`。区分の審査の対象外の `教育・データベース`（CERO 公式の表記。DS 103 件・PSP 25 件・Wii 1 件） |
 | `cero_descriptors` | 内容アイコン（`暴力;セクシャル` のように `;` 区切り。記録のあるものだけ） |
-| `cero_source` | `MADB`（照合した商品）/ `GameTDB` / `MADB（別の版）`（照合した商品に区分が無く、同じ題名の別の商品〈the Best・限定版など〉の区分。別の商品どうしで食い違わないものだけ） |
+| `cero_source` | `MADB`（照合した商品）/ `CERO公式`（CERO のタイトル検索）/ `CERO公式（MADB は新区分の表記）` / `GameTDB` / `MADB（別の版）`（照合した商品に区分が無く、同じ題名の別の商品〈the Best・限定版など〉の区分。別の商品どうしで食い違わないものだけ） |
 
-- 出典の優先順は MADB（`contentRating`・`contentRatingDescriptor`）→ GameTDB（`.cache/gametdb/`。Wii・GC は wiitdb、DS は dstdb、PS3 は ps3tdb。
+- 出典の優先順は MADB（`contentRating`・`contentRatingDescriptor`）→ CERO 公式サイトのタイトル検索 → GameTDB（`.cache/gametdb/`。Wii・GC は wiitdb、DS は dstdb、PS3 は ps3tdb。
   ゲームコード・型番で引く）→ MADB の別の版。GameTDB は新区分でしか書かれていないので 2006年3月以降の発売分だけに使う。
   両方に区分がある行の一致率は DS 98%（960/976）、Wii 98%（411/420）、PS3 100%（29/29）で、食い違いはほとんど GameTDB が `A` のもの（要確認レポートの「CERO不一致」）。
 - 区分の表示が始まった 2002年10月より前の発売分には付けない（再販時の区分を拾ってしまうため）。2006年3月より前の発売なのに新区分の表記の
   ものは、再販時の区分とみられるので `cero_source` に「（新区分の表記。再販時の区分とみられる）」と添えた（PS2 で 712 件など）。
-- 2002年10月以降の発売分に区分のある割合: Wii 100%・PSP 93%・DS 90%・PS3 89%・PS2 75%・Xbox 360 68%・GC 58%・GBA 49%・Xbox 35%・DC 33%。
-- CERO 公式サイトのタイトル検索（www.cero.biz）は、この環境から接続できず使っていない。
+- 2002年10月以降の発売分に区分のある割合: Wii 100%・DS 97%（CERO 公式を加える前は 90%）・PSP 96%（93%）・PS3 90%（89%）・Xbox 360 88%（68%）・
+  PS2 75%・GC 58%・GBA 49%・Xbox 35%・DC 33%。
+- CERO 公式サイトのタイトル検索（<https://www.cero.biz/search/search.cgi>）は DS・PSP・PS3・Wii・Xbox 360 だけを載せている
+  （GBA・GC・PS・PS2・Xbox・DC・WS は検索の対象外）。`scripts/fetch_cero.py` で機種ごとの全件（DS 2,208・PSP 1,767・PS3 1,234・
+  Wii 995・Xbox 360 984 件。2 秒間隔で 722 ページ）を `.cache/cero/` に取り、題名で引く（正規化した題名の一致か、類似度 0.9 以上で
+  題名の中の番号〈続編の 2・XII など〉が同じもの）。同じ題名で区分の違う審査が複数あるものは、旧区分と新区分の同じ程度の組（`全年齢` と `A` など）
+  なら発売日に合う表記を採り、それ以外は採らない（要確認レポートの「CERO公式で区分が食い違い」）。
+  - MADB に区分の無い行を補う（`CERO公式`。DS 183・PSP 60・PS3 25・Wii 21・Xbox 360 195 件）。
+  - MADB が新区分・CERO 公式が旧区分で同じ程度のもの（『スーパーマリオ64DS』が MADB で `A`、CERO 公式で `全年齢` など）は、
+    MADB が新区分に書き換えたものとみて、審査時の表記の CERO 公式を採った（`CERO公式（MADB は新区分の表記）`。DS 39・PSP 5・Xbox 360 10 件）。
+  - それ以外で MADB と食い違うものは MADB のまま、要確認レポートに「CERO不一致 MADB=… CERO公式=…」と出す（DS 3・PSP 3・PS3 7・Wii 1・Xbox 360 3 件）。
 
 ## 再生成
 
@@ -1221,6 +1230,8 @@ python3 scripts/fetch_wikipedia_list.py gb
 python3 scripts/enrich.py gb                   # ニンテンドウパワー書き換え専用タイトルはここで除く
 python3 scripts/build_nintendo_power.py gb     # → data/gb/jp_nintendo_power.csv（enrich の後に実行）
 python3 scripts/build_dumps.py gb
+
+python3 scripts/fetch_cero.py                  # CERO のタイトル検索（DS・PSP・PS3・Wii・Xbox 360）→ .cache/cero/（2 秒間隔で 722 ページ）
 
 python3 scripts/fetch_wikipedia_list.py ds
 python3 scripts/fetch_wikipedia_list.py ds --list dsiware   # → data/ds/jp_dsiware.csv
