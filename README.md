@@ -29,6 +29,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | カセットビジョン (CV) | [`data/cv/jp_titles.csv`](data/cv/jp_titles.csv) | 11 | 0 | 11 | （出典なし） |
 | プレイディア | [`data/playdia/jp_titles.csv`](data/playdia/jp_titles.csv) | 33 | 33 | 0 | （出典なし） |
 | ピピンアットマーク | [`data/pippin/jp_titles.csv`](data/pippin/jp_titles.csv) | 52 | 50 | 0 | [`data/pippin/jp_rom_dumps.csv`](data/pippin/jp_rom_dumps.csv)（54 行） |
+| カシオ ルーピー | [`data/loopy/jp_titles.csv`](data/loopy/jp_titles.csv) | 11 | 11 | 6 | [`data/loopy/jp_rom_dumps.csv`](data/loopy/jp_rom_dumps.csv)（20 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 826 | 1,364 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（848 行） |
@@ -65,6 +66,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
 | プレイディア | [`jp_not_for_sale.csv`](data/playdia/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/playdia/jp_non_retail.csv)（店頭販促用 1 件） | |
 | ピピンアットマーク | （未調査・0 件） | （0 件） | 本体同梱・通信用ディスク [`jp_system_discs.csv`](data/pippin/jp_system_discs.csv)（16 件。吸い出し [`jp_system_discs_rom_dumps.csv`](data/pippin/jp_system_discs_rom_dumps.csv) 19 行） |
+| ルーピー | （出典に記載なし・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -911,6 +913,27 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - 載せないもの: 米国版・試作品・SDK、`MUJ-…`（『Mac Bin』3 枚。雑誌付録とみられるが出典で確認できない）、`PEASE…`（MAKI Enterprise の 2 件。
   販売経路が分からない）。非売品は未調査。
 
+## ルーピー
+
+カシオ計算機のマイシールコンピューター ルーピー（1995年10月発売）用のソフト。`id` は `loopy-jp-<連番>`（発売時期 → 型番の順）。
+`scripts/build_loopy.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・年・型番・価格・開発元 | ja.wikipedia「ルーピー」の「ソフトウェア」節（定義リスト。11 本） |
+| ハッシュ | No-Intro DAT（libretro 収録の Casio - Loopy）。No-Intro に無い『ビデオシールワープロ マジカルショップ』は MAME `hash/casloopy.xml` |
+
+- 全 11 本。MADB に機種は無いが、MAME・No-Intro（10 本＋マジカルショップは MAME のみ）・4Gamer の記事（「ソフト数わずか11本」）と本数・型番が合う。
+- 『マジカルショップ』（XK-700、14,800 円）はビデオ取り込み機能を内蔵した周辺機器寄りのソフトだが、同じ型番の系列で単体で売られたので本リストに入れた。
+- 発売日: 記事の年は「著作権表記の年」で発売日ではない。本体と同時発売の 6 本（`launch_title`）は本体の発売時期の `1995-10`、
+  残りの 5 本は著作権表記の年（1996・1997）を発売年とした（元の表記は `release_date_text`）。
+- 価格は記事にある同時発売の 6 本だけ（税抜。メーカー希望小売価格）。残りは空欄。
+- 発売元は全てカシオ計算機。`developer` は記事に開発元の書かれたもの（アルファ・システム・アーマット・アクシズアートアミューズ）。
+- マウス同梱版・本体とのセット（ルーピーセットA・B）・「発売1周年記念 ルーピーソフト特別セット」は行にせず、`notes` に同梱関係を書いた。
+  周辺機器（シールカートリッジ・マウスなど）は対象外。
+- No-Intro にはバイト順の違う 2 件があるタイトルが多く、両方を載せた（`mame_match`: MAME の CRC と `一致` / `不一致`。
+  MAME の ROM が 2 個に分かれている 3MB の 2 本は `比較できない`）。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1382,6 +1405,7 @@ python3 scripts/fetch_wikipedia_list.py playdia   # 本体の記事の表（1段
 python3 scripts/enrich.py playdia
 
 python3 scripts/build_pippin.py                # ピピンアットマーク（MAME hash/pippin.xml ＋ Wikipedia の記事）→ data/pippin/
+python3 scripts/build_loopy.py                 # ルーピー（Wikipedia の記事 ＋ No-Intro・MAME のハッシュ）→ data/loopy/
 
 python3 scripts/fetch_wikipedia_list.py scv  # 作品ごとの節の記事
 python3 scripts/enrich.py scv

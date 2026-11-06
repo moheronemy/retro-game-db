@@ -1,0 +1,21 @@
+title_id,title,game_code,dump_name,rom_name,size,crc32,md5,sha1,mame_match,mame_name,hash_source
+loopy-jp-0001,あにめらんど,XK-401,Anime Land (Japan),,2097152,3fd9713b,c6779a2f73e376cfb145da1a11d950b9,4df91e02dd8456ca32e8413f537cfeb88f65d799,不一致,animelnd,No-Intro
+loopy-jp-0001,あにめらんど,XK-401,Anime Land (Japan),,2097152,665cd0a2,637ab78234d5fb252a51c9acbd08bfd3,8d50867aba721185560fc92bed75c92263a1da39,一致,animelnd,No-Intro
+loopy-jp-0002,HARIHARIシールパラダイス,XK-402,HARIHARI Seal Paradise (Japan),,2097152,b82ac7f3,089d4a712481c961403c7610dc8f1659,2dafcd6b2a50a4c38adb01641cd0c59e5214bccb,不一致,harihari,No-Intro
+loopy-jp-0002,HARIHARIシールパラダイス,XK-402,HARIHARI Seal Paradise (Japan),,2097152,39a417d6,d1908befc05c1883746a90f9f76dad37,1adbd97181b61a1a65e21976b0146e9dd80fbdbf,一致,harihari,No-Intro
+loopy-jp-0003,ドリームチェンジ 小金ちゃんのファッションパーティー,XK-403,Dream Change - Kogane-chan no Fashion Party (Japan),,2097152,0fb0a794,c96e79c1b0bf0f373d1eadf891492d17,8c6176b9aeaf9094f29175b05a01958cd606c988,不一致,dreamchg,No-Intro
+loopy-jp-0003,ドリームチェンジ 小金ちゃんのファッションパーティー,XK-403,Dream Change - Kogane-chan no Fashion Party (Japan),,2097152,0b850185,b1b54c8a32e5fdc94652db4a4f66e094,b5d73661ea83167d2b07516c7c66a8a85b28415b,一致,dreamchg,No-Intro
+loopy-jp-0004,似顔絵アーティスト,XK-404,Nigaoe Artist (Japan),,2097152,ef1b33f3,759f03468e16bad8144ccc755edb68eb,43103d14c39964b0d008ccd16284ffa43299c278,不一致,nigaoart,No-Intro
+loopy-jp-0004,似顔絵アーティスト,XK-404,Nigaoe Artist (Japan),,2097152,63d59881,39a8e58bfc42161b168f7d24e35f1249,d2b830acf8440e4726e851514d609700375b27db,一致,nigaoart,No-Intro
+loopy-jp-0005,わんわん愛情物語,XK-501,Wanwan Aijou Monogatari (Japan),,2097152,10c5f568,fb86fc827b7fcd1fc457294523465377,4a306e64f5e4743d943efb41c6deb2af4dd85974,不一致,wanwanam,No-Intro
+loopy-jp-0005,わんわん愛情物語,XK-501,Wanwan Aijou Monogatari (Japan),,2097152,291ab2bc,f9da02344505a08697878dafc10ff804,77a63cf194c5b06633e25b43916629b6f3428870,一致,wanwanam,No-Intro
+loopy-jp-0006,ビデオシールワープロ マジカルショップ,XK-700,Video Seal Wordprocessor,mx23c8100.lsi102,1048576,5764591f,,16a2ade7e08f16e44d5c74c714840df1b48da4ad,,vswordp,MAME
+loopy-jp-0007,パソコン・コレクション,XK-502,Pasocom Collection (Japan),,2097152,fe3be881,115360632fca4047348ddd3008fcb18b,d54ad999418a31955aa4facd64360a208674531c,不一致,pccllect,No-Intro
+loopy-jp-0007,パソコン・コレクション,XK-502,Pasocom Collection (Japan),,2097152,9cd4d282,6f400aa4e6327c7e197a9a08077962cc,15ac5a8e71fc8371505da8368d04c9634655d1d5,一致,pccllect,No-Intro
+loopy-jp-0008,リトルロマンス,XK-503,Little Romance (Japan),,3145728,550616f0,d0aef4a5f80ffe48eff3552a43f6d65e,1792c46af96dbea9f0bb9965d53e4af8066e0fd2,比較できない（MAME は ROM 2 個）,ltlromance,No-Intro
+loopy-jp-0008,リトルロマンス,XK-503,Little Romance (Japan),,3145728,ec55c3b4,f8024a70e2a07a6bf5b49c75776d6d50,883bd2ff0f75758ae404f6f2841b74885797d6a9,比較できない（MAME は ROM 2 個）,ltlromance,No-Intro
+loopy-jp-0009,ルーピータウンのおへやがほしい!,XK-504,Loopy Town no Oheya ga Hoshii! (Japan),,3145728,352b4ae6,a9cc97fbb3df6fe41643aac805012c4d,cda377884f3e4544c338c5625b99b68836de0543,比較できない（MAME は ROM 2 個）,loopytwn,No-Intro
+loopy-jp-0009,ルーピータウンのおへやがほしい!,XK-504,Loopy Town no Oheya ga Hoshii! (Japan),,3145728,03b4df2c,208e4d583389d8bdd6168cdc12f35a2f,83e56a10d0e8e8352096cd9f5fe65086754aad2b,比較できない（MAME は ROM 2 個）,loopytwn,No-Intro
+loopy-jp-0010,ルピトンのワンダーパレット,XK-701,Lupiton no Wonder Palette (Japan),,2097152,f4662e66,8b6ea836b9d46c800821a7a1fb69056d,b461920ac5d28f56444f0aee36dee42350b7ea9e,不一致,lupiton,No-Intro
+loopy-jp-0010,ルピトンのワンダーパレット,XK-701,Lupiton no Wonder Palette (Japan),,2097152,338a5af7,9956a6fc2e2050f06c5775260c3e7e70,ddb3e2b363ef0325a1370511f3692ca47031cb46,一致,lupiton,No-Intro
+loopy-jp-0011,チャクラくんのおまじないパラダイス,XK-405,Chakrakun no Omajinai Paradise (Japan),,2097152,955c56ea,385335631a4598759e632943e605c223,d29f5d80a74e3a167b34e8ec4d9e33ade139a639,不一致,chakrakun,No-Intro
