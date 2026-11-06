@@ -21,8 +21,8 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
 | PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 656 | 418 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（727 行） |
 | セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,000 | 999 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
-| PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,072 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（2,376 行） |
-| PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,140 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,304 行） |
+| PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,860 | 2,809 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（3,224 行） |
+| PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,144 | 2,689 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,308 行） |
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
 
@@ -664,11 +664,17 @@ PlayStation（初代）として日本で発売されたソフト（1994〜2004�
 | タイトル・発売日・発売元 | ja.wikipedia「PlayStationのゲームタイトル一覧」の年別 9 ページ（全 3,289 件。各ページの記載件数の合計と一致）。再販の廉価版（PlayStation the Best など）は載っていないが、SIMPLE1500 など最初から廉価で出たシリーズや一部の廉価レーベル（本格派DE1,300円、Major Wave など）は載っている |
 | 価格（・型番の補助） | メディア芸術データベース（機種「プレイステーション」） |
 | 型番・発売日の照合 | MAME ソフトウェアリスト `hash/psx.xml`（日本版は約 1,000 件と一部だけ） |
+| 型番の補完 | psxdatacenter.com の日本版の作品別ページ（4,813 件。型番・発売日・ローマ字／英語の題名） |
 | ハッシュ | Redump DAT（libretro 収録の Sony PlayStation。データトラック） |
 
 - 型番は表記のまま（SCE `SCPS-10001`、他社 `SLPS-01234`・`SLPM-86001` など）。複数枚組は先頭ディスクの型番で、枚数は
-  吸い出し一覧の `discs` 列。型番があるのは 2,072 件にとどまる（MADB の型番欄が空のものが多く、MAME の収録も少ないため）。
-- 吸い出しは Redump のシリアル（型番）で結びつけるので、型番の無いタイトルには吸い出しも付かない（製品版の吸い出しがあるのは 2,041 件）。
+  吸い出し一覧の `discs` 列。型番があるのは 2,860 件（MADB・MAME で 2,072 件、psxdatacenter で 788 件を補完）。
+- psxdatacenter には日本語の題名が無いので、Wikipedia の題名を pykakasi でローマ字にし、発売日が同じ作品のうち題名が
+  十分似ている（0.5 以上）ものだけを採った（`model_number_source` が `psxdatacenter`。0.7 未満は要確認レポートに出す）。
+  - SIMPLE1500・SuperLite1500 などのシリーズ物は、共通のシリーズ名だけで似ていると判定されないよう、シリーズ名を除いた
+    部分どうしも 0.5 以上似ていることを求め、巻数（Vol.）が違うものは採らない。
+  - 同じ発売日に残った行と候補が1件ずつでも、題名が似ていなければ組にしない（試すと約半数が別作品だったため）。
+- 吸い出しは Redump のシリアル（型番）で結びつけるので、型番の無いタイトルには吸い出しも付かない（製品版の吸い出しがあるのは 2,781 件）。
   名前での手動対応は行っていない。
 - 価格は 2,809 件。消費税は発売日に応じて 3%・5%、2004年4月以降は総額表示。
 - 再販の印（`PlayStation the Best`、`PSone Books`、`Major Wave`、`Honkakuha de 1300`、`Artdink Best Choice` など）の吸い出しは `collection`。
@@ -689,10 +695,10 @@ PlayStation 2 として日本で発売されたソフト（2000〜2013年）。`
 | 価格（・型番の補助） | メディア芸術データベース（機種「プレイステーション2」） |
 | ハッシュ | Redump DAT（libretro 収録の Sony PlayStation 2） |
 
-- MAME に PS2 のソフトウェアリストは無いため、型番は MADB（906 件）と psxdatacenter.com の日本版一覧（234 件）から取り、
-  型番があるのは 1,140 件（無いものは許容。合意済み）。psxdatacenter には日本語の題名も発売日も無いので、Wikipedia の題名を
-  pykakasi でローマ字にして、とても似ていて（0.85 以上）ほかに候補の無いものだけ採った（`model_number_source` が `psxdatacenter`）。
-  吸い出しは Redump のシリアル（型番）で結びつけるので、製品版の吸い出しがあるのは 1,108 件。
+- MAME に PS2 のソフトウェアリストは無いため、型番は MADB（906 件）と psxdatacenter.com の日本版一覧（238 件）から取り、
+  型番があるのは 1,144 件（無いものは許容。合意済み）。psxdatacenter には日本語の題名も発売日も無いので、Wikipedia の題名を
+  pykakasi でローマ字にして、とても似ていて（0.85 以上）ほかに候補の無いものだけ採った（`model_number_source` が `psxdatacenter`。シリーズ物の扱いは PS と同じ）。
+  吸い出しは Redump のシリアル（型番）で結びつけるので、製品版の吸い出しがあるのは 1,112 件。
 - 価格は 2,689 件（無いものは許容）。2004年4月以降は総額表示（`税込`）。
 - 型番の形式は PS と同じ（`SLPM-66213` など。複数枚組は先頭ディスク）。
 - Wikipedia の表で発売日の欄が空の『ドラゴンクエストVIII』は、作品の記事の 2004年11月27日にした（`platforms.py` の `date_fixes`）。
