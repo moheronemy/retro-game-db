@@ -26,6 +26,8 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| ネオジオ (ROM) | [`data/neogeo/jp_titles.csv`](data/neogeo/jp_titles.csv) | 117 | 115 | 117 | [`data/neogeo/jp_rom_dumps.csv`](data/neogeo/jp_rom_dumps.csv)（ROM チップ 1,449 行・115 タイトル） |
+| ネオジオCD (ネオジオの別リスト) | [`data/neogeo/cd/jp_titles.csv`](data/neogeo/cd/jp_titles.csv) | 97 | 97 | 74 | [`data/neogeo/cd/jp_rom_dumps.csv`](data/neogeo/cd/jp_rom_dumps.csv)（102 行） |
 | ネオジオポケット／カラー (NGP/NGPC) | [`data/ngp/jp_titles.csv`](data/ngp/jp_titles.csv) | 82 | 79 | 82 | [`data/ngp/jp_rom_dumps.csv`](data/ngp/jp_rom_dumps.csv)（92 行） |
 | ワンダースワン／カラー (WS/WSC) | [`data/ws/jp_titles.csv`](data/ws/jp_titles.csv) | 202 | 200 | 181 | [`data/ws/jp_rom_dumps.csv`](data/ws/jp_rom_dumps.csv)（227 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 97 | 857 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（106 行） |
@@ -50,6 +52,8 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| ネオジオ | （未調査・0 件） | （0 件） | |
+| ネオジオCD | （未調査・0 件） | （0 件） | |
 | NGP/NGPC | （未調査・0 件） | （0 件） | |
 | WS/WSC | [`jp_not_for_sale.csv`](data/ws/jp_not_for_sale.csv)（3 件） | （0 件） | 会場限定販売 [`jp_other.csv`](data/ws/jp_other.csv)（2 件） |
 | PS3 | （未調査・0 件） | （0 件） | 配信専用 [`jp_psn.csv`](data/ps3/jp_psn.csv)（299 件） |
@@ -830,6 +834,50 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## ネオジオ
+
+家庭用ネオジオ（ROM カートリッジ。AES）として日本で発売されたソフト（1990〜2004年）。ネオジオCD は別リスト（`data/neogeo/cd/`）。
+`id` は `neogeo-jp-<連番>` / `neocd-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・ジャンル | ja.wikipedia「ネオジオのゲームタイトル一覧」の「家庭用ネオジオのタイトル」（117 件）と「ネオジオCDのタイトル」（97 件）の表（いずれも本文の件数と一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「ネオジオ」「ネオジオCD」） |
+| 型番・発売日の照合 | MAME ソフトウェアリスト `hash/neogeo.xml`（業務用 MVS と家庭用 AES が混在）/ `hash/neocd.xml` |
+| ハッシュ | ROM: MAME `hash/neogeo.xml` の ROM チップごと（No-Intro に DAT が無い）。CD: Redump DAT（libretro 収録の SNK Neo Geo CD） |
+
+列:
+
+| 列 | 内容 |
+|---|---|
+| `genre` | Wikipedia のジャンル（ROM のみ） |
+| `cd_version` / `rom_version` | もう一方（ネオジオCD / ROM）でも発売されたもの（Wikipedia の「NGCD」「NG」欄） |
+| `rental` | 1990年の発売（レンタル用。店頭での販売は 1991年7月1日の廉価版から。備考にも記載）。11 件 |
+
+### ROM
+
+- 型番は家庭用の `NGH-001`（後期は `NGH-2650` のように 4 桁）。MAME の業務用の型番（`NGM-`）・業務用だけの版は使わない。MAME の発売日が
+  「`19900426 (MVS), 19910701 (AES)`」のように並ぶものは家庭用の日付を採る。型番が無いのは、MAME に家庭用の記録が無い『サイバーリップ』『戦国伝承2001』の 2 件。
+- 1990年の 11 件は、MADB・MAME とも販売開始の 1991年7月1日で記録されているので手動で対応した（価格は MADB の廉価版のもの）。
+  手動対応は `overrides/matches.csv`（18 件）。
+- 価格は全 117 件（MADB。全て税抜）。
+- 吸い出し一覧（`jp_rom_dumps.csv`）はほかの機種と形が違い、MAME の ROM チップ（`dataarea`: `maincpu`・`fixed`・`audiocpu`・
+  `ymsnd:adpcma`・`sprites` など）ごとに 1 行（`hash_source` は `MAME`）。家庭用（`NGH`）の別版も含む。
+  `scripts/build_mame_list.py neogeo main neogeo` で作る。
+- 『ショックトルーパーズ セカンドスカッド』は Wikipedia が 1998年6月24日、MADB・MAME が 1999年6月24日（要確認レポート）。
+
+### ネオジオCD
+
+- 型番は表記のまま（SNK `NGCD-083`、ADK `ADCD-102`、データイースト `DECD-`、`AICD-`）。全 97 件にある。
+  『ファイヤースープレックス』は MADB・Redump の `NGCD-043` を採った（MAME の `NGCD-034` は誤記とみられる）。
+  ADKワールド・『幕末浪漫第二幕 月華の剣士』は Redump のレーベル面のシリアルを型番にした（`overrides/matches.csv`）。
+- MADB には同じソフトが媒体「CD-ROM」と「Compact Disc」の 2 件で載っていることがあり、価格はどちらか一方にだけある。価格は 74 件。
+  「限定版」（龍虎の拳外伝）は行にしない。
+- 吸い出しは Redump のシリアルで結びつけ、全 97 件にある。日本版と日本を含む共通版（`World`）。2019年の自作ソフト（Xeno Crisis）、
+  海外版（`Export`）だけのものは載せない。
+
+ネオジオステーション（PS3・PSP での配信）は対象外。非売品の調査は後回し。発売されなかったタイトルは対象外。
+
 ## NGP/NGPC
 
 ネオジオポケット・ネオジオポケットカラーは 1 本のリストにまとめ、`compat` 列で区別する。`id` は `ngp-jp-<連番>`（発売順）。
@@ -981,6 +1029,13 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py neogeo
+python3 scripts/enrich.py neogeo
+python3 scripts/build_mame_list.py neogeo main neogeo   # ROM チップごとのハッシュ（MAME）→ jp_rom_dumps.csv
+python3 scripts/fetch_wikipedia_list.py neocd   # ネオジオCD → data/neogeo/cd/
+python3 scripts/enrich.py neocd
+python3 scripts/build_dumps.py neocd
 
 python3 scripts/fetch_wikipedia_list.py ngp
 python3 scripts/enrich.py ngp

@@ -1,0 +1,9 @@
+release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,release_date_fix,comment
+1994-09-09,餓狼伝説2 〜新たなる闘い〜,M726162,,,,,,,MADB「餓狼伝説2 REAL BATTLE ACTION GAME CD-ROM版」（同日・NGCD-047。「CD-ROM版」が版違いとみなされ自動照合されない。以下同様）
+1995-04-21,ギャラクシーファイト ユニバーサル・ウォーリアーズ,M725967,,,,,,,MADB「ギャラクシーファイト HIGH SPEED BATTLE ACTION GAME CD-ROM版」（同日・NGCD-078）
+1995-04-28,餓狼伝説3 〜遥かなる闘い〜,M725962,,,,,,,MADB「餓狼伝説3 REAL BATTLE ACTION GAME CD-ROM版」（同日・NGCD-069）
+1996-03-23,ステークスウィナー,M725707,,,,,,,MADB「ステークスウィナー GI完全制覇への道」（NGCD-088。発売日は 1996-03-22）
+1997-03-28,リアルバウト餓狼伝説スペシャル,M725306,,,,,,,MADB「リアルバウト餓狼伝説スペシャル REAL BATTLE ACTION GAME CD-ROM版」（NGCD-2230。発売日は 1997-03-30）
+1995-04-21,ファイヤースープレックス,,,,NGCD-043,,,,MADB・Redump は NGCD-043（MAME の NGCD-034 は誤記とみられる）
+1995-11-10,ADKワールド,,,,ADCD-103,,,,MADB・MAME に型番が無い。Redump のレーベル面のシリアル ADCD-103
+1999-02-25,幕末浪漫第二幕 月華の剣士 〜月に咲く華、散りゆく花〜,,,,NGCD-2430,,,,MADB に型番が無く MAME に無い。Redump のレーベル面のシリアル NGCD-2430

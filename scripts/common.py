@@ -250,7 +250,8 @@ def load_mame(lists, jp_models=None, all_japanese=()):
                 continue  # 日本版だけのリストに混じる海外版（ワンダースワンの 'Robot Works (Asia)'）
             rel = info.get("release") or ""
             # '19890614' のほか '19890614 (JPN)' のような注記付きもある
-            rm = re.match(r"(\d{4})(\d{2})(\d{2})(?:$|\s)", rel)
+            # ネオジオは '19900426 (MVS), 19910701 (AES)' のように業務用と家庭用の日付が並ぶので家庭用を採る
+            rm = re.search(r"(\d{4})(\d{2})(\d{2}) \(AES\)", rel) or re.match(r"(\d{4})(\d{2})(\d{2})(?:$|\s)", rel)
             date = f"{rm.group(1)}-{rm.group(2)}-{rm.group(3)}" if rm else ""
             alt = info.get("alt_title") or ""
             if "(Japan)" in alt:  # 'メトロイド2 リターン・オブ・サムス (Japan), …(China)' のような複数表記

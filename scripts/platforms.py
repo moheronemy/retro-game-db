@@ -436,6 +436,30 @@ def _ngp_models(text):
     return out
 
 
+def _neogeo_models(text):
+    """家庭用ネオジオ（AES）の型番 'NGH-001'・'NGH-2650'。業務用（MVS）の 'NGM-' は採らない。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z0-9-])NGH-\d{3,4}(?!\d)", unicodedata.normalize("NFKC", text or "").upper()):
+        if m.group(0) not in out:
+            out.append(m.group(0))
+    return out
+
+
+def _neocd_models(text):
+    """ネオジオCD の型番。SNK 'NGCD-083'、ADK 'ADCD-102'、データイースト 'DECD-'、アイレム？ 'AICD-'。
+    Redump の末尾 'E'（海外版 'NGCD-096E'）は日本版の型番と別のものとして残す。"""
+    out = []
+    for m in re.finditer(r"(?<![A-Z0-9-])([A-Z]{2}CD-[0-9A-Z]{3,5})(?![0-9A-Z])", unicodedata.normalize("NFKC", text or "").upper()):
+        if m.group(1) not in out:
+            out.append(m.group(1))
+    return out
+
+
+def _neogeo_rental(row):
+    """1990年の家庭用ネオジオはレンタル用。店頭での販売は 1991年7月1日（廉価版）から。"""
+    return "yes" if row.get("release_date", "") < "1991-07-01" else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1059,6 +1083,56 @@ PLATFORMS = {
         "nointro_export_fallback": {"SNK - Neo Geo Pocket (DB Export)": "SNK - Neo Geo Pocket",
                                     "SNK - Neo Geo Pocket Color (DB Export)": "SNK - Neo Geo Pocket Color"},
         "dump_world": True,
+    },
+    # 家庭用ネオジオ（ROM。AES）。ネオジオCD は別リスト（neocd → data/neogeo/cd）。
+    # ハッシュは No-Intro に無いため MAME neogeo.xml の ROM チップごと（scripts/build_mame_list.py ... --main）
+    "neogeo": {
+        "name": "ネオジオ",
+        "dir": ROOT / "data" / "neogeo",
+        "id_prefix": "neogeo-jp",
+        "wikipedia": {"tables": [{
+            "page": "ネオジオのゲームタイトル一覧", "section": "家庭用ネオジオのタイトル",
+            "columns": ("jp", "title", "publisher", "genre", "ngcd", "notes", "refs"),
+            "derive": {"cd_version": lambda r: "yes" if re.search(r"[○◯〇]", r.get("ngcd", "")) else "",
+                       "rental": _neogeo_rental,
+                       "notes": lambda r: (r["notes"] + (" " if r["notes"] else "") + "1991年7月1日に販売開始（廉価版）")
+                       if _neogeo_rental(r) else r["notes"]},
+        }]},
+        "extra_columns": ["genre", "cd_version", "rental"],
+        "madb_platforms": ["ネオジオ"],
+        "mame_lists": ["neogeo"],
+        "mame_all_japanese": ["neogeo"],   # 説明に地域が無い
+        "mame_filter": lambda m: bool(_neogeo_models(m["serial"])),   # 家庭用（NGH-）の型番があるものだけ
+        "mame_clone_filter": lambda serial: bool(_neogeo_models(serial)),   # 吸い出しも家庭用の版だけ
+        "models_from": _neogeo_models,
+        "models_from_serial": lambda s: [],
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "nointro_dats": [],
+    },
+    # ネオジオCD（ネオジオの別リスト）
+    "neocd": {
+        "name": "ネオジオCD",
+        "dir": ROOT / "data" / "neogeo" / "cd",
+        "id_prefix": "neocd-jp",
+        "wikipedia": {"tables": [{
+            "page": "ネオジオのゲームタイトル一覧", "section": "ネオジオCDのタイトル",
+            "columns": ("jp", "title", "publisher", "ng", "notes", "refs"),
+            "derive": {"rom_version": lambda r: "yes" if re.search(r"[○◯〇]", r.get("ng", "")) else ""},
+        }]},
+        "extra_columns": ["rom_version"],
+        "madb_platforms": ["ネオジオCD"],
+        "mame_lists": ["neocd"],
+        "models_from": _neocd_models,
+        "models_from_serial": _neocd_models,
+        "code_of": lambda m: m or "",
+        "normalize_code": lambda c: (_neocd_models(c) or [""])[0],
+        "nointro_dats": ["redump:SNK - Neo Geo CD"],
+        "nointro_export": ["SNK - Neo Geo CD (Redump)"],
+        "nointro_export_fallback": {"SNK - Neo Geo CD (Redump)": "redump:SNK - Neo Geo CD"},
+        "dump_world": True,
+        "hash_source": "Redump",
+        "media": "disc",
     },
     # ワンダースワン／ワンダースワンカラー（スワンクリスタル専用ソフトは無い）。1本のリストにまとめ、compat 列で
     # ws（モノクロ）/ wsc_compatible（カラー対応）/ wsc_only（カラー専用）を区別する

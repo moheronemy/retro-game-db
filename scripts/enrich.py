@@ -90,6 +90,8 @@ def main():
     if cfg.get("madb_filter"):  # 同じ機種名で別媒体・別機種が混在する（FC のディスクカード、MD の 32X など）
         madb = [x for x in madb if cfg["madb_filter"](x)]
     mame = C.load_mame(cfg["mame_lists"], cfg.get("mame_jp_models"), cfg.get("mame_all_japanese", ()))
+    if cfg.get("mame_filter"):   # 業務用と家庭用が混ざったリスト（ネオジオ）から家庭用だけを使う
+        mame = [m for m in mame if cfg["mame_filter"](m)]
     nointro = nointro_models(cfg)
     maru = C.load_maru(cfg["maru"]) if cfg.get("maru") else None
     print(f"MADB: {len(madb)} 件 / MAME 日本版: {len(mame)} 件"
