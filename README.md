@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| Xbox 360 | [`data/x360/jp_titles.csv`](data/x360/jp_titles.csv) | 699 | 58 | 571 | [`data/x360/jp_rom_dumps.csv`](data/x360/jp_rom_dumps.csv)（657 行） |
 | Xbox | [`data/xbox/jp_titles.csv`](data/xbox/jp_titles.csv) | 222 | 60 | 179 | [`data/xbox/jp_rom_dumps.csv`](data/xbox/jp_rom_dumps.csv)（214 行） |
 | 3DO | [`data/3do/jp_titles.csv`](data/3do/jp_titles.csv) | 214 | 208 | 200 | [`data/3do/jp_rom_dumps.csv`](data/3do/jp_rom_dumps.csv)（219 行） |
 | PC-FX | [`data/pcfx/jp_titles.csv`](data/pcfx/jp_titles.csv) | 62 | 61 | 40 | [`data/pcfx/jp_rom_dumps.csv`](data/pcfx/jp_rom_dumps.csv)（65 行） |
@@ -55,6 +56,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| Xbox 360 | （未調査・0 件） | （0 件） | ダウンロード専売 [`jp_download.csv`](data/x360/jp_download.csv)（24 件） |
 | Xbox | （未調査・0 件） | （0 件） | |
 | 3DO | （調査中・0 件） | （0 件） | |
 | PC-FX | [`jp_not_for_sale.csv`](data/pcfx/jp_not_for_sale.csv)（雑誌付録 4 件） | （0 件） | |
@@ -840,6 +842,35 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## Xbox 360
+
+Xbox 360 のパッケージソフトとして日本で発売されたもの（2005〜2021年）。`id` は `x360-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・媒体・後方互換 | ja.wikipedia「Xbox 360のゲームタイトル一覧」の表から、日本の発売日のある行（723 行。本文の合計 725 件とは 2011年・2012年で 1 件ずつ合わないが、表の行のとおりにした） |
+| 価格・型番 | メディア芸術データベース（機種「Xbox 360」。「ダウンロードコンテンツ」は照合に使わない） |
+| ハッシュ | Redump DAT（libretro 収録の Microsoft - Xbox 360） |
+
+- 本リストは「媒体」欄が ◎（パッケージとダウンロード）と無印（パッケージ）の 699 件。ダウンロードだけで出た ○ の 24 件は別リスト
+  `jp_download.csv`（`--list download`）。Xbox Live Arcade（別ページ）は後回し。「Xbox用タイトル」節（初代 Xbox のソフトの配信）は対象外。
+
+| 列 | 内容 |
+|---|---|
+| `download_too` | ダウンロード版もある（◎。225 件） |
+| `xone_compat` | Xbox One 以降の後方互換に対応（226 件） |
+| `kinect` | 備考の「Kinect専用」→ `required`（34 件）、「Kinect対応」→ `supported`（14 件） |
+
+- 型番は MADB のパッケージの品番（Xbox と同じ形）で 58 件。無いものは許容（合意済み）。
+- 価格は 571 件（MADB）。プラチナコレクション・初回限定版・コレクターズエディション・本体やコントローラーとの同梱版（プレミアムパック）は
+  行にしない。自動照合でこれらが当たったものは通常版に直し、通常版が MADB に無いもの（ブルードラゴン、Forza Motorsport 2 など 9 件）は
+  価格なし（`overrides/matches.csv`）。
+- 吸い出しは Xbox と同じく題名で結びつけた。自動 159 件（`review/dat_title_matches.csv`）、手動 414 件（`overrides/dump_matches.csv`）で、
+  吸い出しのあるタイトルは 573 件。複数枚組（インストール用・プレイ用ディスクを含む）は 1 行。コール オブ デューティの字幕版と
+  吹き替え版（`Jimakuban`・`Fukikaeban`）は Wikipedia の行（字幕版）に両方を入れた。日本版と日本を含む共通版。
+  モンスターハンター フロンティアの各パッケージは版の区別がつかないため G1 を除き結びつけていない。
+- CERO の年齢区分・非売品は後回し。発売されなかったタイトルは対象外。
+
 ## Xbox
 
 Xbox として日本で発売されたソフト（2002〜2006年）。`id` は `xbox-jp-<連番>`（発売順）。
@@ -1114,6 +1145,11 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py x360
+python3 scripts/fetch_wikipedia_list.py x360 --list download   # ダウンロード専売 → data/x360/jp_download.csv
+python3 scripts/enrich.py x360
+python3 scripts/build_dumps.py x360
 
 python3 scripts/fetch_wikipedia_list.py xbox
 python3 scripts/enrich.py xbox                 # 吸い出しの題名での照合 → review/dat_title_matches.csv

@@ -197,7 +197,10 @@ def main():
         groups = {}
         for name in cfg["nointro_dats"]:
             for block in C.nointro_dat_text(name).split("game (")[1:]:
-                gname = re.search(r'name "([^"]+)"', block).group(1)
+                gm = re.search(r'name "([^"]+)"', block)
+                if not gm:
+                    continue   # 題名に 'game (' を含むものの区切り違いなど
+                gname = gm.group(1)
                 first = re.search(r"\(([^()]*)\)", gname)
                 if not first or not ({"Japan", "World"} & set(first.group(1).split(", "))):
                     continue

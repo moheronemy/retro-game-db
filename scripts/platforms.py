@@ -514,6 +514,14 @@ def _xbox_models(text):
     return out
 
 
+_X360_COLUMNS = ("jp", "na", "eu", "title", "publisher", "media", "notes", "bc", "refs")
+_X360_DERIVE = {
+    "download_too": lambda r: "yes" if "◎" in r.get("media", "") else "",   # パッケージとダウンロードの両方で発売
+    "xone_compat": lambda r: "yes" if re.match(r"\s*[○〇]", r.get("bc", "")) else "",
+    "kinect": lambda r: "required" if "Kinect専用" in r.get("notes", "") else "supported" if "Kinect対応" in r.get("notes", "") else "",
+}
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1211,6 +1219,42 @@ PLATFORMS = {
         "nointro_export": ["NEC - PC-FX (Redump)"],
         "nointro_export_fallback": {"NEC - PC-FX (Redump)": "redump:NEC - PC-FX"},
         "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # Xbox 360。本リストはパッケージで出たもの（「媒体」欄が ◎〈パッケージとダウンロード〉と無印）。ダウンロードのみ（○）は
+    # 別リスト jp_download.csv（--list download）。xone_compat は Xbox One 以降の後方互換、kinect は備考の「Kinect専用／対応」
+    "x360": {
+        "name": "Xbox 360",
+        "dir": ROOT / "data" / "x360",
+        "id_prefix": "x360-jp",
+        "wikipedia": {"tables": [{
+            "page": "Xbox 360のゲームタイトル一覧", "section": "発売されたタイトル", "table_id": "softwarelist",
+            "columns": _X360_COLUMNS, "row_filter": lambda r: "○" not in r.get("media", ""),
+            "derive": _X360_DERIVE}]},
+        "extra_lists": {
+            "download": {
+                "out": "jp_download.csv",
+                "id_suffix": "dl",
+                "tables": [{"page": "Xbox 360のゲームタイトル一覧", "section": "発売されたタイトル", "table_id": "softwarelist",
+                            "columns": _X360_COLUMNS, "row_filter": lambda r: "○" in r.get("media", ""),
+                            "derive": _X360_DERIVE}],
+            },
+        },
+        "extra_columns": ["download_too", "xone_compat", "kinect"],
+        "madb_platforms": ["Xbox 360"],
+        "madb_filter": lambda x: x["media_format"] != "ダウンロードコンテンツ",
+        "mame_lists": [],
+        "models_from": _xbox_models,
+        "models_from_serial": lambda s: [],
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: "",
+        "dat_title_link": True,
+        "nointro_dats": ["redump:Microsoft - Xbox 360"],
+        "nointro_export": ["Microsoft - Xbox 360 (Redump)"],
+        "nointro_export_fallback": {"Microsoft - Xbox 360 (Redump)": "redump:Microsoft - Xbox 360"},
+        "dump_world": True,
+        "tax_inclusive_from": "2004-04-01",
         "hash_source": "Redump",
         "media": "disc",
     },
