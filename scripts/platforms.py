@@ -476,6 +476,33 @@ def _cell_value(s):
     return re.sub(r'^\s*[a-z]+="[^"]*"\s*\|\s*', "", s or "").strip()
 
 
+def _3do_models(text):
+    """3DO の日本版の型番。松下系 'FZ-SJ1351'（'FZ-SJ-1351' もそろえる）、三洋系 'IMP-SA0701'、ほか MADB の
+    'AMCD1234'・'PCRA-12345'・'VZ123'。Redump の枚数付き（'FZ-SJ1234-1'）・末尾の印（'FZ-SJ1234R'）からは型番だけを取る。"""
+    out = []
+    t = unicodedata.normalize("NFKC", text or "").upper()
+    for m in re.finditer(r"(?<![A-Z0-9])(?:FZ-?SJ-?(\d{4})|IMP-(S[A-Z])(\d{4})|AMCD(\d{4})|PCRA-(\d{5})|VZ(\d{3}))(?!\d)", t):
+        if m.group(1):
+            code = f"FZ-SJ{m.group(1)}"
+        elif m.group(2):
+            code = f"IMP-{m.group(2)}{m.group(3)}"
+        elif m.group(4):
+            code = f"AMCD{m.group(4)}"
+        elif m.group(5):
+            code = f"PCRA-{m.group(5)}"
+        else:
+            code = f"VZ{m.group(6)}"
+        if code not in out:
+            out.append(code)
+    return out
+
+
+def _3do_channel(row):
+    """流通系統。松下系の型番は FZ-、三洋系は IMP- で始まる（Wikipedia「3DOのゲームタイトル一覧」）。"""
+    m = row.get("model_number", "")
+    return "panasonic" if m.startswith("FZ-") else "sanyo" if m.startswith("IMP-") else ""
+
+
 _GB_COLUMNS = ("jp", "na", "eu", "title", "publisher", "sgb", "notes")
 _GBC_ONLY_COLUMNS = ("jp", "na", "eu", "title", "publisher", "notes")
 
@@ -1173,6 +1200,34 @@ PLATFORMS = {
         "nointro_export": ["NEC - PC-FX (Redump)"],
         "nointro_export_fallback": {"NEC - PC-FX (Redump)": "redump:NEC - PC-FX"},
         "disc_subtitles": True,   # 複数枚組のディスクごとの副題（'(Disc A) (Hakua Kaikou)'）を組の判定で除く
+        "hash_source": "Redump",
+        "media": "disc",
+    },
+    # 3DO。channel は型番から決まる流通系統（panasonic / sanyo）
+    "3do": {
+        "name": "3DO",
+        "dir": ROOT / "data" / "3do",
+        "id_prefix": "3do-jp",
+        "wikipedia": {"tables": [{
+            "page": "3DOのゲームタイトル一覧", "section": "発売されたタイトル", "table_id": "softwarelist",
+            "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs"),
+        }]},
+        "extra_columns": ["channel"],
+        "derive": {"channel": _3do_channel},
+        "madb_platforms": ["3DO"],
+        "mame_lists": ["3do"],
+        "models_from": _3do_models,
+        "models_from_serial": _3do_models,
+        "code_of": lambda m: m or "",
+        # FZ-・IMP- 以外の型番（'E3D-7023'・'NX-950101' など。overrides で Redump のシリアルどおりに入れたもの）は
+        # シリアルそのままで結びつける（枚数付き 'MC-700-1' の末尾は除く）
+        "normalize_code": lambda c: (_3do_models(c) or [re.sub(r"-\d$", "", (c or "").strip())])[0],
+        "dat_title_models": True,
+        "nointro_dats": ["redump:The 3DO Company - 3DO"],
+        "nointro_export": ["3DO (Redump)"],
+        "nointro_export_fallback": {"3DO (Redump)": "redump:The 3DO Company - 3DO"},
+        "dump_world": True,
+        "disc_subtitles": True,
         "hash_source": "Redump",
         "media": "disc",
     },

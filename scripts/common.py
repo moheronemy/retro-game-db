@@ -443,6 +443,9 @@ def nointro_dat_as_export(dat_name):
         region = (re.search(r'region "([^"]+)"', b) or [None, ""])[1]
         if "Japan" in name:
             region = region or "Japan"
+        first = re.search(r"\(([^()]*)\)", name)
+        if first and "Japan" in first.group(1).split(", ") and "Japan" not in region:
+            region += ", Japan"   # DAT の region 欄は最初の地域だけ（'Doom (USA, Japan)' → 'USA'）
         game = ET.SubElement(root, "game", name=name)
         ET.SubElement(game, "archive", region=region, number="", details="")
         src = ET.SubElement(game, "source")

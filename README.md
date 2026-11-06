@@ -26,6 +26,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームギア (GG) | [`data/gg/jp_titles.csv`](data/gg/jp_titles.csv) | 196 | 188 | 183 | [`data/gg/jp_rom_dumps.csv`](data/gg/jp_rom_dumps.csv)（214 行） |
 | SC-3000／SG-1000 (SG) | [`data/sg1000/jp_titles.csv`](data/sg1000/jp_titles.csv) | 74 | 73 | 2 | [`data/sg1000/jp_rom_dumps.csv`](data/sg1000/jp_rom_dumps.csv)（101 行） |
 | セガ・マークIII／マスターシステム (SMS) | [`data/sms/jp_titles.csv`](data/sms/jp_titles.csv) | 83 | 82 | 8 | [`data/sms/jp_rom_dumps.csv`](data/sms/jp_rom_dumps.csv)（92 行） |
+| 3DO | [`data/3do/jp_titles.csv`](data/3do/jp_titles.csv) | 214 | 208 | 200 | [`data/3do/jp_rom_dumps.csv`](data/3do/jp_rom_dumps.csv)（219 行） |
 | PC-FX | [`data/pcfx/jp_titles.csv`](data/pcfx/jp_titles.csv) | 62 | 61 | 40 | [`data/pcfx/jp_rom_dumps.csv`](data/pcfx/jp_rom_dumps.csv)（65 行） |
 | ネオジオ (ROM) | [`data/neogeo/jp_titles.csv`](data/neogeo/jp_titles.csv) | 117 | 115 | 117 | [`data/neogeo/jp_rom_dumps.csv`](data/neogeo/jp_rom_dumps.csv)（ROM チップ 1,449 行・115 タイトル） |
 | ネオジオCD (ネオジオの別リスト) | [`data/neogeo/cd/jp_titles.csv`](data/neogeo/cd/jp_titles.csv) | 97 | 97 | 74 | [`data/neogeo/cd/jp_rom_dumps.csv`](data/neogeo/cd/jp_rom_dumps.csv)（102 行） |
@@ -53,6 +54,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GG | （未調査・0 件） | （0 件） | |
 | SG | （未調査・0 件） | （0 件） | BASIC・教育用ソフト [`jp_non_game.csv`](data/sg1000/jp_non_game.csv)（26 件。吸い出し [`jp_non_game_rom_dumps.csv`](data/sg1000/jp_non_game_rom_dumps.csv) 20 行） |
 | SMS | （未調査・0 件） | [`jp_non_retail.csv`](data/sms/jp_non_retail.csv)（3 件） | |
+| 3DO | （調査中・0 件） | （0 件） | |
 | PC-FX | [`jp_not_for_sale.csv`](data/pcfx/jp_not_for_sale.csv)（雑誌付録 4 件） | （0 件） | |
 | ネオジオ | （未調査・0 件） | （0 件） | |
 | ネオジオCD | （未調査・0 件） | （0 件） | |
@@ -836,6 +838,35 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   別リストのほかの 2 件は No-Intro の試作品（チョップリフター、Color & Switch Test）。非売品の調査は後回し。
 - 発売されなかったタイトルは対象外。
 
+## 3DO
+
+3DO として日本で発売されたソフト（1994〜1996年）。`id` は `3do-jp-<連番>`（発売順）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元 | ja.wikipedia「3DOのゲームタイトル一覧」の「発売されたタイトル」の表から、日本の発売日のある行（214 件。本文の年ごとの本数と一致） |
+| 価格（・型番の補助） | メディア芸術データベース（機種「3DO」。215 件） |
+| 型番の照合 | MAME ソフトウェアリスト `hash/3do.xml`（日本版は 10 件ほど） |
+| ハッシュ | Redump DAT（libretro 収録の The 3DO Company - 3DO） |
+
+- 型番は表記のまま。松下系の流通は `FZ-SJ1351` のような `FZ-`、三洋系は `IMP-SA0701` のような `IMP-` で始まる（Wikipedia）。
+  このほかメーカー独自の型番（`E3D-7023`・`NX-950101`・`I3D-7002`・`VZ002` など）がある。`channel` 列は型番から決めた流通系統
+  （`panasonic` 163 件・`sanyo` 16 件。それ以外の型番・型番の無いものは空）。
+- MADB・MAME で型番が決まるのは 63 件ほどなので、残りは Redump のレーベル面のシリアルで補った。日本語の題名をローマ字にして
+  Redump の題名ととても似ていてほかに候補の無いもの（32 件。類似度 0.85 以上。`model_number_source` が `Redump`）は自動で、
+  カタカナ表記の英題などで似ない 115 件は題名を見て手で対応した（`overrides/matches.csv`）。型番が無いのは Redump にも
+  シリアルの無いもの・収録の無いものの 6 件。
+- 価格は 200 件（MADB。全て税抜）。本体同梱の「ポリスノーツ マウスセット」は行にしない。MADB の「バイリンガル版」（ファッティーベア・
+  パットパットなど）は日本で出た版そのもの。
+- 年齢区分は出典に無いので列にしていない（後回し）。
+- 吸い出しは Redump のシリアルで結びつけ、211 件にある。日本版と日本を含む共通版（`(Japan, Korea)`・`(USA, Japan)`・`World`）。
+  複数枚組は 1 行（`discs` 列）で、ディスクごとの副題（ESPN Golf の `(Shot Yousei Kouza Vol. 1)` など）も除いてまとめる（`disc_subtitles`）。
+  シリアルの無いコープス・キラー・サプリーム・ウォリアー・DOOM は名前で手動対応した（`overrides/dump_matches.csv`）。
+- 非売品: Wikipedia の日本の非売品 2 件（ヒッチコックに挑戦〈トヨタの販促用とされる〉、バッテリーナビ〈古河電池。自動車部品店の
+  店頭用とされる〉）は配布経路を確かめられる資料が読めなかったため、まだ載せていない。Redump には Wikipedia に無い日本の
+  非売品・業務用ディスク（3DO REAL のサンプラーCD、Live! 3DO Magazine CD-ROM 1〜11、トヨペットの RV World など）もあり、合わせて後回し。
+- 発売されなかったタイトル、海外だけのデモ集は対象外。
+
 ## PC-FX
 
 PC-FX として日本で発売されたソフト（1994〜1998年）。`id` は `pcfx-jp-<連番>`（発売順）。
@@ -1055,6 +1086,10 @@ python3 scripts/build_mame_list.py sg1000 non_game sc3000_cart  # 別リスト�
 python3 scripts/fetch_wikipedia_list.py sms
 python3 scripts/enrich.py sms
 python3 scripts/build_dumps.py sms
+
+python3 scripts/fetch_wikipedia_list.py 3do
+python3 scripts/enrich.py 3do                  # Redump の題名から型番を補う（dat_title_models）
+python3 scripts/build_dumps.py 3do
 
 python3 scripts/fetch_wikipedia_list.py pcfx
 python3 scripts/enrich.py pcfx

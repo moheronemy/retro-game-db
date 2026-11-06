@@ -162,6 +162,32 @@ def main():
                 r["_issues"].append(f"psxdatacenter低スコア{sc:.2f}で型番を照合（{e['label']}）")
         print(f"psxdatacenter: {len(entries)} 件から型番 {len(m_px)} 件を補完", file=sys.stderr)
 
+    if cfg.get("dat_title_models"):
+        # MADB・MAME で型番が決まらない行を、DAT（Redump）の題名とシリアルで補う（3DO）。DAT に発売日は無いので
+        # psxdatacenter の PS2 と同じく、ローマ字にした題名がとても似ていてほかに候補の無いものだけを採る
+        import psxdc
+        entries = []
+        for name in cfg["nointro_dats"]:
+            for block in C.nointro_dat_text(name).split("game (")[1:]:
+                gname = re.search(r'name "([^"]+)"', block).group(1)
+                if not re.search(r"\((?:[^()]*, )?(?:Japan|World)(?:, [^()]*)?\)", gname):
+                    continue
+                serials = [m for s_ in re.findall(r'serial "([^"]+)"', block) for m in models_from(s_)]
+                title = re.sub(r" \([^()]*\)", "", gname)
+                if serials and not any(e["key"] == serials[0] for e in entries):
+                    entries.append({"key": serials[0], "serials": serials, "titles": [title], "date": "", "label": gname})
+        used_models = {r["model_number"] for r in rows if r["model_number"]}
+        no_model = [r for r in rows if not r["model_number"]]
+        m_dt = psxdc.match(no_model, entries, used_models, by_date=False)
+        for r in no_model:
+            hit = m_dt.get(r["_i"])
+            if hit:
+                e, sc, _ = hit
+                r["model_number"] = e["key"]
+                r["_model_srcs"].append("Redump")
+                r["_issues"].append(f"Redumpの題名（{e['label']}）から型番を補完（類似度{sc:.2f}）")
+        print(f"DAT の題名から型番 {len(m_dt)} 件を補完（候補 {len(entries)} 件）", file=sys.stderr)
+
     m_maru = C.match_maru(rows, maru, overrides, cfg.get("code_of") if cfg.get("ref_code_models") else None,
                           cfg.get("maru_date_only", False)) if maru is not None else {}
     report = []
