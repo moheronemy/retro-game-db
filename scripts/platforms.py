@@ -1,5 +1,6 @@
 """機種ごとの設定。新しい機種はここに追加する。"""
 import re
+import sys
 import unicodedata
 
 from common import ROOT
@@ -385,6 +386,68 @@ def _sms_media(row):
         if m and (not m.group(2) or "日" in m.group(2)):
             return m.group(1)
     return ""
+
+
+def _pico_models(text):
+    """キッズコンピュータ・ピコの型番。セガ・セガトイズ 'HPC-6013'、他社 'T-150110'（'-01' などの枝番つきもある）。
+    MAME の並記で括弧の印の付いたもの（'(Best Selection)'・'(10th Anniversary Reprint)' など再販）は採らない。"""
+    out = []
+    for part in re.split(r",(?![^()]*\))", text or ""):
+        if "(" in part:
+            continue
+        for m in re.finditer(r"\b(HPC-\d{4}(?:-\d{2})?|T-\d{6}(?:-\d{2})?)\b", part):
+            if m.group(1) not in out:
+                out.append(m.group(1))
+    return out
+
+
+_PICO_PUB = {"SEGA": "セガ", "SEGATOYS": "セガトイズ", "SEGA TOYS": "セガトイズ", "BANDAI": "バンダイ", "IMAGINEER": "イマジニア",
+             "SHOGAKUKAN": "小学館", "GAKKEN": "学習研究社", "KODANSHA": "講談社", "SEGA YONEZAWA": "セガ・ヨネザワ",
+             "PONY CANYON": "ポニーキャニオン", "TAKARA": "タカラ", "KUMON PUBLISHING": "くもん出版", "OBUNSHA": "旺文社",
+             "EPOCH": "エポック社", "ATLUS": "アトラス", "TOYSЯUS": "トイザらス"}
+
+
+def _pico_publisher(row):
+    """一覧の表の英字のブランド表記（'SEGATOYS'・'GAKKEN-SEGA TOYS'）を、社名の明らかなものだけ日本語にする。共同は「・」でつなぐ。
+    ブランド名や社名の分からないもの（'McDONALD'S'・'NISSEN'・'GE'・'BRITT' など）は表記のまま。"""
+    raw = row.get("publisher", "").strip()
+    if not raw:
+        return ""
+    parts = [x.strip() for x in re.split(r"\s*[-/]\s*(?=[A-Z])", raw) if x.strip()]
+    return "・".join(_PICO_PUB.get(x.upper(), x) for x in parts)
+
+
+_PICO_REISSUE = re.compile(r"\s*〈\s*(?:Best Selection|10th Anniversary|10th|Best)[^〉]*〉")   # 〈2nd〉は続きの別作品にも使うので含めない
+
+
+def _pico_main(rows):
+    """本リスト: 本体とのセット（備考に「本体同梱」。別リスト bundles）・キャンペーン非売品（jp_not_for_sale.csv）を除き、
+    再販（備考に「再販」、題名に <Best Selection>・<10th Anniversary…>）は行にせず元の行の備考に記す。"""
+    keep, reissues = [], []
+    for r in rows:
+        if "本体同梱" in r["notes"] or "非売品" in r["title"]:   # 〈キャンペーン非売品〉
+            continue
+        if "再販" in r["notes"] or _PICO_REISSUE.search(r["title"]):
+            reissues.append(r)
+            continue
+        keep.append(r)
+    import common as C
+    for x in reissues:
+        base = _PICO_REISSUE.sub("", x["title"]).strip()
+        cands = [r for r in keep if C.norm(base) == C.norm(r["title"])] or \
+            [r for r in keep if C.sim(base, r["title"]) >= 0.8]
+        label = re.search(r"〈([^〉]+)〉", x["title"])
+        what = label.group(1) if label else "再販"
+        when = x.get("release_date_text") or x["release_date"] or "時期不明"
+        extra = x["notes"].replace("再販", "").strip("　 ")
+        note = f"{what}（{when}）がある" + (f"（{extra}）" if extra else "")
+        if len(cands) == 1:
+            r = cands[0]
+            r["notes"] = f"{r['notes']}。{note}" if r["notes"] else note
+        else:   # 元の行が一覧に無い（または決まらない）ものは行として残す
+            print(f"再販の元の行が決まらないので行のまま: {x['title']}（候補 {len(cands)}）", file=sys.stderr)
+            keep.append(x)
+    return keep
 
 
 def _sg_models(text):
@@ -1315,6 +1378,43 @@ PLATFORMS = {
         "code_of": lambda m: "",
         "normalize_code": lambda c: "",
         "nointro_dats": [],
+    },
+    # キッズコンピュータ・ピコ（セガ、1993年）。本体とのセットは別リスト bundles、コペラ（ヤマハの互換機）対応のソフトは別リスト copera。
+    # 再販は行にせず元の行の備考に（_pico_main）。キャンペーン非売品は jp_not_for_sale.csv（手で管理）。MADB に記録が無い
+    "pico": {
+        "name": "キッズコンピュータ・ピコ",
+        "dir": ROOT / "data" / "pico",
+        "id_prefix": "pico-jp",
+        "wikipedia": {"tables": [{"page": "キッズコンピュータ・ピコのゲームタイトル一覧", "section": "キッズコンピュータ・ピコのタイトル",
+                                  "columns": ("jp", "title", "publisher", "notes"), "date_text": True, "keep_angle": True,
+                                  "derive": {"publisher": _pico_publisher}}],
+                      "post": _pico_main, "sort_by_date": True},
+        "extra_lists": {
+            "bundles": {
+                "out": "jp_bundles.csv", "id_suffix": "bundle", "sort_by_date": True,
+                "tables": [{"page": "キッズコンピュータ・ピコのゲームタイトル一覧", "section": "キッズコンピュータ・ピコのタイトル",
+                            "columns": ("jp", "title", "publisher", "notes"), "date_text": True, "keep_angle": True,
+                            "row_filter": lambda r: "本体同梱" in r["notes"], "derive": {"publisher": _pico_publisher}}],
+            },
+            "copera": {
+                "out": "jp_copera.csv", "id_suffix": "copera",
+                "tables": [{"page": "キッズコンピュータ・ピコのゲームタイトル一覧", "section": "コペラ対応のタイトル",
+                            "columns": ("jp", "title", "publisher", "notes"), "date_text": True}],
+            },
+        },
+        "extra_columns": ["release_date_text"],
+        "madb_platforms": [],
+        "mame_lists": ["pico"],
+        "match_undated": 0.7,   # 発売日が年・年月までの行や、MAME に発売日の無いものが多い（MAME の題名に「~ ローマ字題」が付き類似度が下がる）
+        "mame_jp_models": _pico_models,
+        "models_from": _pico_models,
+        "models_from_serial": lambda s: _pico_models(re.sub(r"\bHPC-T(\d{6})", r"T-\1", s or "")),   # DAT は 'HPC-T133480-00'（MAME は 'T-133480'）
+        "model_key": lambda m: re.sub(r"^(HPC-\d{4}|T-\d{6})-\d{2}$", r"\1", m),   # DAT の 'HPC-6039-00' と MAME の 'HPC-6039'
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: re.sub(r"^(HPC-\d{4}|T-\d{6})-00$", r"\1", c),
+        "nointro_dats": ["Sega - PICO"],
+        "nointro_export": ["Sega - PICO (DB Export)"],
+        "nointro_export_fallback": {"Sega - PICO (DB Export)": "Sega - PICO"},
     },
     # スーパーカセットビジョン（エポック社）。一覧の記事は作品ごとの節（表ではない）。cassette_no はカセットの通し番号
     "scv": {

@@ -382,6 +382,8 @@ def main():
             text = table_text(rest[: n.start()] if n else rest, t.get("table_id"))
         else:
             text = table_text(section(texts[page], t["section"]), t.get("table_id"))
+        if t.get("keep_angle"):   # 題名の中の <Best Selection>・<どうぶつ> のような山括弧（HTML のタグではない）を〈〉にして残す（ピコ）
+            text = re.sub(r"<(?!/?(?:ref|span|br|sup|sub|small|big|s|del|nowiki|references)\b|!--)([^<>\n/=]{1,40})>", r"〈\1〉", text)
         if t.get("strip_comments"):   # セルごとに <!--発売時期--> のような注記がある表（SG-1000）
             text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
         got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"),
@@ -392,8 +394,11 @@ def main():
     for r in rows:   # 表の発売日の欄が空・誤っている行の補正（platforms.py の date_fixes。根拠はそこに書く）
         if r["title"] in wcfg.get("date_fixes", {}):
             r["release_date"] = wcfg["date_fixes"][r["title"]]
-    if len(wcfg["tables"]) > 1:
-        rows.sort(key=lambda r: r["release_date"])  # 複数の表をまとめるときは発売日順（同日は表の順）
+    if wcfg.get("post"):   # 機種ごとの後処理（ピコの再販の行を元の行の備考にまとめるなど。platforms.py に根拠）
+        rows = wcfg["post"](rows)
+    if len(wcfg["tables"]) > 1 or wcfg.get("sort_by_date"):
+        # 複数の表をまとめるとき・表が発売日順でないときは発売日順（同日は表の順。発売日の分からないものは最後）
+        rows.sort(key=lambda r: r["release_date"] or "9999")
     prefix = cfg["id_prefix"] + (f"-{wcfg['id_suffix']}" if a.list else "")
     for i, r in enumerate(rows, 1):
         r["id"] = f"{prefix}-{i:04d}"

@@ -36,6 +36,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | アルカディア | [`data/arcadia/jp_titles.csv`](data/arcadia/jp_titles.csv) | 19 | 0 | 4 | [`data/arcadia/jp_rom_dumps.csv`](data/arcadia/jp_rom_dumps.csv)（4 行） |
 | 光速船 | [`data/vectrex/jp_titles.csv`](data/vectrex/jp_titles.csv) | 5（全件ではない） | 0 | 0 | （日本版の記録なし） |
 | インテレビジョン | [`data/intv/jp_titles.csv`](data/intv/jp_titles.csv) | 22（全件かは不明） | 0 | 22 | （日本版の記録なし） |
+| キッズコンピュータ・ピコ | [`data/pico/jp_titles.csv`](data/pico/jp_titles.csv) | 245 | 214 | 0 | [`data/pico/jp_rom_dumps.csv`](data/pico/jp_rom_dumps.csv)（224 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -79,6 +80,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | アルカディア | （出典に記載なし・0 件） | （0 件） | |
 | 光速船 | （出典に記載なし・0 件） | （0 件） | |
 | インテレビジョン | （未調査・0 件） | （0 件） | |
+| ピコ | [`jp_not_for_sale.csv`](data/pico/jp_not_for_sale.csv)（キャンペーン非売品 1 件） | （0 件） | 本体とのセット [`jp_bundles.csv`](data/pico/jp_bundles.csv)（11 件）・コペラ対応 [`jp_copera.csv`](data/pico/jp_copera.csv)（9 件） |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -585,7 +587,7 @@ Wikipedia の「非売品」節（FC 10 行・ディスク 5 行）を振り分�
 
 メガドライブ（カートリッジ）として日本で発売されたソフト（1988〜1996年）。`id` は `md-jp-<連番>`（発売順）。
 メガCD（[`data/md/mega_cd/`](data/md/mega_cd/)、`mcd-jp-…`）とスーパー32X（[`data/md/32x/`](data/md/32x/)、`32x-jp-…`）は
-別リストで、列は本リストと同じ。メガLD・キッズコンピュータ ピコ・非ライセンス品は対象外。
+別リストで、列は本リストと同じ。メガLD・非ライセンス品は対象外（キッズコンピュータ ピコは別の機種として収録。「ピコ」節）。
 
 ### 出典
 
@@ -1059,6 +1061,31 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - 発売時期は MADB（15 件が `1982-08`、7 件が年のみの `1982`）。価格も MADB（4,800〜5,800 円。`税なし`）。`title_en` は MADB の英字題。
   `notes` の「ゲームシート同梱」は MADB の記載（コントローラに差し込むオーバーレイ）。
 - 型番は出典が無く空欄。ハッシュは載せない（日本版の吸い出しの記録が無く、英字題から米国版のハッシュを当てることはしない）。
+
+## ピコ
+
+セガ（のちセガトイズ）のキッズコンピュータ・ピコ（1993年6月発売の幼児向け教育用コンピュータ。ソフトは「絵本ソフト」）用のソフト。
+`id` は `pico-jp-<連番>`（発売順。発売日の分からないものは最後）。以前は対象外としていたが、ルーピー・ピピン・プレイディアなどとの釣り合いから収録した。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日・発売元・備考 | ja.wikipedia「キッズコンピュータ・ピコのゲームタイトル一覧」の表（276 行。発売日順ではない） |
+| 型番・照合 | MAME `hash/pico.xml` の日本版（日本語題・型番・一部の発売日） |
+| ハッシュ | No-Intro DAT（libretro 収録の Sega - PICO。DB Export は DAT-o-MATIC の解禁後） |
+
+- 表の行のうち、本体とのセット（備考に「本体同梱」。バリューパック・○○ピコセット 11 件）は別リスト `jp_bundles.csv`、
+  『ミニモニ。テレビにでるんだぴょん <キャンペーン非売品>』は `jp_not_for_sale.csv`（手で管理。`prize`。配布の方法は出典に無い）。
+- 再販（備考に「再販」、題名に〈Best Selection〉〈10th Anniversary〉〈10th〉〈Best〉）は行にせず、元の行の `notes` に「Best Selection（2004年2月13日）がある」のように書いた
+  （19 件。`platforms.py` の `_pico_main`）。元の行の決まらない『ディズニープリンセス 白雪姫 〈Best〉』は行のまま。〈2nd〉は続きの別作品（『ECCジュニアの はじめてえいご』など）にも
+  使われているので再販として扱わない。題名の山括弧（`<どうぶつ>` など）は HTML のタグとして消えないよう〈〉にした（`fetch_wikipedia_list.py` の `keep_angle`）。
+- 周辺機器と同梱のソフト（キーボードピコ・ドライブピコなど）は本リスト（同梱物は `notes`）。
+- コペラ（ヤマハのミクストブックプレーヤ。ピコの互換機）対応のソフト 9 本は別リスト `jp_copera.csv`（`--list copera`。吸い出しは無い）。
+- 発売日は表のとおりで精度はまちまち（日まで 76・年月 123・年 40・空欄 6）。元の表記は `release_date_text`。
+- 型番は MAME の serial（セガ・セガトイズ `HPC-6013`、他社 `T-150110`）。再販の型番（MAME の並記で括弧の印の付いたもの）は採らない。DAT のシリアルは
+  `HPC-6039-00`・`HPC-T133480-00` の形なので、照合では末尾の枝番を無視し `HPC-T` を `T-` に読み替える。型番 214 件。
+- 発売元は表の英字のブランド表記を、社名の明らかなもの（セガ・セガトイズ・バンダイ・イマジニア・小学館・学習研究社・講談社・セガ・ヨネザワ・ポニーキャニオンなど）だけ
+  日本語にし、共同は「・」でつないだ。`McDONALD'S`・`NISSEN`・`GE`・`BRITT`・`SHINGAKAI` などは表記のまま。
+- 価格は出典が無く空欄（MADB にピコの記録が無い）。後継のビーナ・アドバンス・ピコ・ビーナ・DS-PICO と海外版は対象外。
 
 ## SCV
 
@@ -1559,6 +1586,12 @@ python3 scripts/build_pyuuta.py                # ぴゅう太（Wikipedia の記
 python3 scripts/build_arcadia.py               # アルカディア（Wikipedia の記事 ＋ MAME）→ data/arcadia/
 python3 scripts/build_vectrex.py               # 光速船（Wikipedia の記事のみ。全件ではない）→ data/vectrex/
 python3 scripts/build_intv.py                  # インテレビジョン（MADB のみ。全件かは不明）→ data/intv/
+
+python3 scripts/fetch_wikipedia_list.py pico
+python3 scripts/fetch_wikipedia_list.py pico --list bundles   # 本体とのセット → data/pico/jp_bundles.csv
+python3 scripts/fetch_wikipedia_list.py pico --list copera    # コペラ対応 → data/pico/jp_copera.csv
+python3 scripts/enrich.py pico
+python3 scripts/build_dumps.py pico
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧

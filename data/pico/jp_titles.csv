@@ -1,0 +1,246 @@
+id,release_date,title,publisher,release_date_text,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+pico-jp-0001,1993,ドナルドのおばけたいじ,セガ,1993年,HPC-6005,,,,ドナルドダック,Wikipedia,MAME+No-Intro,,,,donaldot
+pico-jp-0002,1993,けろけろけろっぴのハリキリうんどうかい,セガ,1993年,HPC-6006,,,,けろけろけろっぴ,Wikipedia,MAME+No-Intro,,,,kerohar
+pico-jp-0003,1993,ミーミとタータのワイワイおえかきどうぶうえん,セガ,1993年,HPC-6007,,,,,Wikipedia,MAME+No-Intro,,,,mimitata
+pico-jp-0004,1993-06-26,ミッキーのゆかいなぼうけん,セガ,1993年6月26日,HPC-6001,,,ローンチタイトル,ミッキーマウス,Wikipedia+MAME,MAME+No-Intro,,,,mickybk
+pico-jp-0005,1993-06-26,ハローキティのたのしいぶとうかい,セガ,1993年6月26日,HPC-6002,,,ローンチタイトル,ハローキティ,Wikipedia,MAME+No-Intro,,,,helloktb
+pico-jp-0006,1993-06-26,ひらけ！ポンキッキ パーティをひらこう,セガ,1993年6月26日,HPC-6003,,,ローンチタイトル,ひらけ!ポンキッキ,Wikipedia,MAME+No-Intro,,,,hiraponk
+pico-jp-0007,1993-06-26,ドラえもん のびたとまいごのきょうりゅう,セガ,1993年6月26日,HPC-6004,,,ローンチタイトル,ドラえもん,Wikipedia,MAME+No-Intro,,,,doranmk
+pico-jp-0008,1994,ペンギンうきうきびっくりすいぞくかん めいろ・パズル,セガ,1994年,HPC-6008,,,,,Wikipedia,MAME+No-Intro,,,,penguki
+pico-jp-0009,1994,ドラえもん のびたのまちなかドキドキたんけん！,セガ,1994年,HPC-6009,,,10th Anniversary（2003年8月）がある,,Wikipedia,MAME+No-Intro,,,,doranmdt
+pico-jp-0010,1994,ドレミファアニマルズの たのしいえんそうかい,セガ,1994年,HPC-6011,,,,,Wikipedia,MAME+No-Intro,,,,animalte
+pico-jp-0011,1994,キテレツ大百科 えどにいってキテレツさいさまにあうナリ,セガ,1994年,HPC-6015,,,,キテレツ大百科 (アニメ),Wikipedia,MAME+No-Intro,,,,kitereda
+pico-jp-0012,1994-03,それいけ! アンパンマンのｹﾞｰﾑであそぼうアンパンマン,バンダイ,1994年3月,T-133010,,,,,Wikipedia,MAME+No-Intro,,,,anpanmga
+pico-jp-0013,1994-03,クレヨンしんちゃんのオラといっしょにあそぼうよ!,バンダイ,1994年3月,T-133020,,,,クレヨンしんちゃん (アニメ),Wikipedia,MAME+No-Intro,,,,crayon
+pico-jp-0014,1994-07,美少女戦士セーラームーンＳ,バンダイ,1994年7月,T-133040,,,,美少女戦士セーラームーン (テレビアニメ),Wikipedia,MAME+No-Intro,,,,sailors
+pico-jp-0015,1994-08,ソニック☆ザ☆ヘッジホッグ ゲームワールド,セガ,1994年8月,HPC-6010,,,,ソニック・ザ・ヘッジホッグ,Wikipedia,MAME+No-Intro,,,,sonigamja
+pico-jp-0016,1994-09,それいけ! アンパンマン えいごとなかよし ようちえんでABC,セガ,1994年9月,HPC-6012,,,,それいけ!アンパンマン,Wikipedia,MAME+No-Intro,,,,anpanmen
+pico-jp-0017,1994-09,３丁目のタマ モモちゃんはどこ！,セガ,1994年9月,HPC-6013,,,,3丁目のタマ うちのタマ知りませんか?,Wikipedia,MAME+No-Intro,,,,3chometm
+pico-jp-0018,1994-09,ウルトラマン VSかいじゅうぐんだん!!,バンダイ,1994年9月,T-133070,,,,ウルトラマン,Wikipedia,MAME,,,,ultravkg
+pico-jp-0019,1994-10,愛と夢と冒険 サンリオピューロランド,セガ,1994年10月,HPC-6014,,,,サンリオピューロランド,Wikipedia,MAME+No-Intro,,,,sanriopl
+pico-jp-0020,1994-11,それいけ! アンパンマンのおはなしだいすきアンパンマン,バンダイ,1994年11月,T-133030,,,,,Wikipedia,MAME+No-Intro,,,,anpanmod
+pico-jp-0021,1994-11,楽しく遊んで能力アップ!!たのしい幼稚園,バンダイ,1994年11月,T-133050,,,,たのしい幼稚園 (雑誌),Wikipedia,MAME+No-Intro,,,,tanoyouc
+pico-jp-0022,1994-12,それいけ! アンパンマン えいごとなかよし2 たのしいカーニバル,セガ,1994年12月,HPC-6017,,,10th（2003年7月14日）がある,,Wikipedia,MAME+No-Intro,,,,anpanme2
+pico-jp-0023,1994-12,学研のおべんきょうソフト かんじ,学習研究社,1994年12月,T-169010,,,,,Wikipedia,MAME+No-Intro,,,,gakkekan
+pico-jp-0024,1995,ピコサッカー めざせサッカーせんしゅ,セガ,1995年,HPC-6018,,,,,Wikipedia,MAME+No-Intro,,,,psoccer
+pico-jp-0025,1995,クイズにチャレンジ！ ドラえもん,セガ,1995年,HPC-6020,,,,,Wikipedia,MAME+No-Intro,,,,quizdora
+pico-jp-0026,1995,めざせプロ野球,セガ,1995年,HPC-6021,,,,,Wikipedia,MAME+No-Intro,,,,proyakyu
+pico-jp-0027,1995,学研のおべんきょうソフト たしざん ひきざん,学習研究社,1995年,,,,,,Wikipedia,,,,,
+pico-jp-0028,1995-01,クレヨンしんちゃんの おえかきノート,バンダイ,1995年1月,T-133080,,,,,Wikipedia,MAME+No-Intro,,,,crayonon
+pico-jp-0029,1995-02,平成天才バカボン みんなでファミリーレストランにいくのだ!,GE,1995年2月,T-170010,,,,,Wikipedia,MAME+No-Intro,,,,bakabon
+pico-jp-0030,1995-03,きかんしゃトーマスにのって,バンダイ,1995年3月,T-133060,,,,きかんしゃトーマス,Wikipedia,MAME+No-Intro,,,,thomas
+pico-jp-0031,1995-04,NHKおかあさんといっしょドレミファど～なっつ！ あそびいっぱい うたいっぱい!,バンダイ,1995年4月,T-133090,,,,,Wikipedia,MAME+No-Intro,,,,okaissai
+pico-jp-0032,1995-04-24,ミッキーと大きな古時計,セガ,1995年4月24日,HPC-6023-02,,,10th（2003年8月7日）がある,,Wikipedia,MAME+No-Intro,,,,mickofrd
+pico-jp-0033,1995-06-24,魔法騎士 レイアース マジックナイトたんじょう,セガ,1995年6月24日,HPC-6022,,,,魔法騎士レイアース,Wikipedia,MAME+No-Intro,,,,rayearth
+pico-jp-0034,1995-06-24,児童英検対応ソフト ムーミンとえいご たんじょうびのおくりもの,旺文社,1995年6月24日,T-181010,,,,,Wikipedia+MAME,MAME+No-Intro,,,,moomin
+pico-jp-0035,1995-07,ウルトラヒーロー,バンダイ,1995年7月,T-133110,,,,,Wikipedia,MAME+No-Intro,,,,ultraher
+pico-jp-0036,1995-07-25,世界名作劇場,セガ,1995年7月25日,HPC-6024,,,,,Wikipedia+MAME,MAME+No-Intro,,,,sekaimg
+pico-jp-0037,1995-07-25,ゴジラ どきどき怪獣島,セガ,1995年7月25日,HPC-6027,,,,ゴジラ,Wikipedia+MAME,MAME+No-Intro,,,,godzilla
+pico-jp-0038,1995-07-25,ちびまる子ちゃん いっしょにあそぼうよ,タカラ,1995年7月25日,T-103010,,,,ちびまる子ちゃん,Wikipedia+MAME,MAME+No-Intro,,,,chibim
+pico-jp-0039,1995-07-25,楽しく遊んで能力アップ!! たのしい幼稚園 '95年度版,バンダイ,1995年7月25日,T-133100,,,,,Wikipedia+MAME,MAME+No-Intro,,,,tanoason
+pico-jp-0040,1995-08-25,黄金勇者ゴルドラン ひみつ大百科,タカラ,1995年8月25日,T-103020,,,,黄金勇者ゴルドラン,Wikipedia+MAME,MAME+No-Intro,,,,goldran
+pico-jp-0041,1995-08-31,左脳開発シリーズ1 図形認識,SHINGAKAI・イマジニア,1995年8月31日,T-150210,,,,,Wikipedia+MAME,MAME+No-Intro,,,,sanouk1
+pico-jp-0042,1995-09,学研のおべんきょうソフト ひらがな,学習研究社,1995年9月,T-169020-01,,,,,Wikipedia,MAME+No-Intro,,,,gakkehir
+pico-jp-0043,1995-09-25,はたらくくるま ダイヤペットだいしゅうごう,DIAPET・セガ・ヨネザワ,1995年9月25日,T-193010,,,,,Wikipedia+MAME,MAME+No-Intro,,,,hatakuru
+pico-jp-0044,1995-10,いっしょにはしろうきかんしゃトーマス,BRITT・バンダイ,1995年10月,T-133140,,,Best Selection（2004年7月13日）がある,,Wikipedia,MAME+No-Intro,,,,ihthomas
+pico-jp-0045,1995-10,学研のおべんきょうソフト かけざん 九九,学習研究社,1995年10月,T-169040,,,,,Wikipedia,MAME+No-Intro,,,,gakkekak
+pico-jp-0046,1995-10-02,左脳開発シリーズ2 数量・計算,SHINGAKAI・イマジニア,1995年10月2日,,,,,,Wikipedia,,,,,
+pico-jp-0047,1995-10-02,左脳開発シリーズ3 比較・分類,SHINGAKAI・イマジニア,1995年10月2日,T-150220,,,,,Wikipedia+MAME,MAME+No-Intro,,,,sanouk3
+pico-jp-0048,1995-10-19,美少女戦士セーラームーンスーパーズ,バンダイ,1995年10月19日,T-133130,,,,,Wikipedia+MAME,MAME+No-Intro,,,,sailorss
+pico-jp-0049,1995-10-27,スヌーピーのがくげいかい,セガ,1995年10月27日,HPC-6016,,,,スヌーピー,Wikipedia+MAME,MAME+No-Intro,,,,snoopy
+pico-jp-0050,1995-10-27,サンリオピューロランドで ダンスカーニバル みんなで おりょうり おさいほう,セガ,1995年10月27日,HPC-6026,,,10th（2003年5月）がある,,Wikipedia+MAME,MAME+No-Intro,,,,sanriodca
+pico-jp-0051,1995-10-27,ドラえもん タイムマシンで大冒険!,小学館,1995年10月27日,T-226010,,,,,Wikipedia+MAME,MAME+No-Intro,,,,doratimm
+pico-jp-0052,1995-10-31,右脳開発シリーズ2 ＥＣＣＯ Ｊｒ.,イマジニア,1995年10月31日,T-150060,,,,,Wikipedia+MAME,MAME+No-Intro,,,,eccojrj
+pico-jp-0053,1995-10-31,右脳開発シリーズ1 Richard Scarry's ハックルとローリー,イマジニア,1995年10月31日,T-150070,,,,,Wikipedia+MAME,MAME+No-Intro,,,,hucklowlj
+pico-jp-0054,1995-10-31,右脳開発シリーズ3 ハローキティのまちへおでかけ,イマジニア,1995年10月31日,T-150080,,,,,Wikipedia+MAME,MAME+No-Intro,,,,hellokmo
+pico-jp-0055,1995-11,ぺたぺたちょっきん あそべるずかん 〈どうぶつ〉,セガ,1995年11月,HPC-6028,,,プリファン対応,,Wikipedia,MAME+No-Intro,,,,petapeta
+pico-jp-0056,1995-11,ウルトラマンキッズ とびだせ！スペースピクニック,GE,1995年11月,T-170020,,,,,Wikipedia,MAME+No-Intro,,,,ultrakds
+pico-jp-0057,1995-11,里中満智子のたのしいおりがみ,NAYUTA,1995年11月,T-233010,,,折り紙付き,里中満智子,Wikipedia,MAME+No-Intro,,,,origami
+pico-jp-0058,1995-11-04,右脳開発シリーズ4 けろけろけろっぴのいろかたち,イマジニア,1995年11月4日,T-150100,,,,,Wikipedia+MAME,MAME+No-Intro,,,,keroiro
+pico-jp-0059,1995-11-04,右脳開発シリーズ6 アヒルのペックルのかぞえてみよう,イマジニア,1995年11月4日,T-150110,,,,,Wikipedia+MAME,MAME+No-Intro,,,,ahirupek
+pico-jp-0060,1995-11-04,右脳開発シリーズ5 ハローキティのすてきなたからもの,イマジニア,1995年11月4日,T-150090,,,,,Wikipedia+MAME,MAME+No-Intro,,,,hellokst
+pico-jp-0061,1995-11-17,それいけ!アンパンマンのメダリンピックワールド,バンダイ,1995年11月17日,T-133120,,,,,Wikipedia+MAME,MAME+No-Intro,,,,anpanmmw
+pico-jp-0062,1995-11-25,NHKおかあさんといっしょ げんきなこあつまれ！,セガ,1995年11月25日,HPC-6025,,,,おかあさんといっしょ,Wikipedia+MAME,MAME+No-Intro,,,,okaissgk
+pico-jp-0063,1995-11-30,サンリオカーニバル たのしいカードづくり,セガ,1995年11月30日,HPC-6031,,,プリファン対応,,Wikipedia+MAME,MAME+No-Intro,,,,sanrioct
+pico-jp-0064,1995-12,ＬＥＧＯ ＦＵＮ ＴＯ ＢＵＩＬＤ,セガ,1995年12月,HPC-6032,,,,,Wikipedia,MAME+No-Intro,,,,legofun
+pico-jp-0065,1995-12,ドナルドのテレビショー,セガ,1995年12月,HPC-6033-02,,,,,Wikipedia,MAME+No-Intro,,,,donaldts
+pico-jp-0066,1995-12,怪盗セイント･テール セイントテールとワン･ツー･スリー!,セガ,1995年12月,HPC-6035,,,,怪盗セイント・テール,Wikipedia,MAME+No-Intro,,,,sainttl
+pico-jp-0067,1995-12,学研のおべんきょうソフト かず･すうじ,学習研究社,1995年12月,T-169050,,,,,Wikipedia,MAME+No-Intro,,,,gakkekaz
+pico-jp-0068,1995-12-01,平成教育委員会Jr. めざせ優等生,イマジニア,1995年12月1日,T-150270,,,,,Wikipedia+MAME,MAME+No-Intro,,,,heiseijr
+pico-jp-0069,1995-12-05,右脳開発シリーズ8 ドラッキーのおえかきハウス,イマジニア,1995年12月5日,T-150030,,,,,Wikipedia+MAME,MAME+No-Intro,,,,dolucky
+pico-jp-0070,1995-12-05,右脳開発シリーズ9 日本昔ばなし,イマジニア,1995年12月5日,T-150040,,,,,Wikipedia+MAME,MAME+No-Intro,,,,mukabana
+pico-jp-0071,1995-12-05,右脳開発シリーズ7 Tails and the Music Maker,イマジニア,1995年12月5日,T-150050,,,,,Wikipedia+MAME,MAME+No-Intro,,,,tailsmmj
+pico-jp-0072,1995-12-08,左脳開発シリーズ5 迷路・記憶 (CD付き),SHINGAKAI・イマジニア,1995年12月8日,T-150240,,,,,Wikipedia+MAME,MAME+No-Intro,,,,sanouk5
+pico-jp-0073,1995-12-08,左脳開発シリーズ4 推理・構成,SHINGAKAI・イマジニア,1995年12月8日,T-150250,,,,,Wikipedia+MAME,MAME+No-Intro,,,,sanouk4
+pico-jp-0074,1995-12-08,左脳開発シリーズ6 応用問題,SHINGAKAI・イマジニア,1995年12月8日,T-150260,,,,,Wikipedia+MAME,MAME+No-Intro,,,,sanouk6
+pico-jp-0075,1996,おんがくだいすきスヌーピー,セガ,1996年,HPC-6030,,,,,Wikipedia,MAME+No-Intro,,,,snoopyod
+pico-jp-0076,1996,バーバパパのうちゅうりょこう,セガ,1996年,HPC-6036,,,,バーバパパ,Wikipedia,MAME+No-Intro,,,,barbapap
+pico-jp-0077,1996,超光戦士 シャンゼリオン,セガ,1996年,HPC-6038,,,,超光戦士シャンゼリオン,Wikipedia,MAME+No-Intro,,,,changern
+pico-jp-0078,1996,レースにでようよ! ケンちゃんとペペ ぼくのクルマで大ぼうけん,セガ,1996年,,,,,,Wikipedia,,,,,
+pico-jp-0079,1996-01,でんしゃ だいしゅうごう!,DIAPET・セガ・ヨネザワ,1996年1月,T-193020,,,,,Wikipedia,MAME+No-Intro,,,,dendaish
+pico-jp-0080,1996-01-02,右脳開発シリーズ11 平成教育委員会Jr.,イマジニア,1996年1月2日,T-150130,,,,,Wikipedia+MAME,MAME+No-Intro,,,,hkiinkai
+pico-jp-0081,1996-01-02,右脳開発シリーズ10 ノンタンといっしょ わいわいにっぽん,イマジニア,1996年1月2日,T-150120,,,,,Wikipedia+MAME,MAME+No-Intro,,,,nontanis
+pico-jp-0082,1996-03,忍たま乱太郎,バンダイ,1996年3月,T-133150,,,,忍たま乱太郎,Wikipedia,MAME+No-Intro,,,,nintama
+pico-jp-0083,1996-03-25,ゆかいな森のパケット,セガ,1996年3月25日,HPC-6034,,,音声認識,,Wikipedia,MAME+No-Intro,,,,yukaimp
+pico-jp-0084,1996-04,激走戦隊カーレンジャー,バンダイ,1996年4月,T-133160,,,,激走戦隊カーレンジャー,Wikipedia,MAME+No-Intro,,,,carrangr
+pico-jp-0085,1996-04,がんばれ!ぼくらのコンパチヒーローズ,BANPRESTO,1996年4月,T-206010,,,,コンパチヒーローシリーズ,Wikipedia,MAME+No-Intro,,,,comphero
+pico-jp-0086,1996-04,ドライブピコ さあしゅっぱつだ! ケンちゃんとペペのわんぱくドライブ,セガ,1996年4月,HPC-6033,,,ドライブキット同梱,,Wikipedia,MAME+No-Intro,,,,kpwdrive
+pico-jp-0087,1996-05,Paddingtonパディントン のせかいりょこう,セガ,1996年5月,HPC-6029,,,,くまのパディントン,Wikipedia,MAME+No-Intro,,,,padding
+pico-jp-0088,1996-05,BFビーファイターカブト,バンダイ,1996年5月,T-133170,,,,ビーファイターカブト,Wikipedia,MAME+No-Intro,,,,bfighter
+pico-jp-0089,1996-06,みんなでおどろう オズのまほうつかい,セガ,1996年6月,HPC-6037,,,初の16MB,オズの魔法使い,Wikipedia,MAME+No-Intro,,,,oz
+pico-jp-0090,1996-07,ゲゲゲの鬼太郎,バンダイ,1996年7月,T-133180,,,,ゲゲゲの鬼太郎 (テレビアニメ第4シリーズ),Wikipedia,MAME+No-Intro,,,,gegege
+pico-jp-0091,1996-08,美少女戦士セーラームーン セーラースターズ ときめきパーティ,バンダイ,1996年8月,T-133190,,,,美少女戦士セーラームーン (テレビアニメ),Wikipedia,MAME+No-Intro,,,,sailortp
+pico-jp-0092,1996-08,学研のおべんきょうソフト えいご ＡＢＣ,学習研究社,1996年8月,T-169060,,,,,Wikipedia,MAME+No-Intro,,,,gakkeabc
+pico-jp-0093,1996-08,そだててまなぶ どうぶつ王国,セガ・ヨネザワ,1996年8月,T-193030,,,,,Wikipedia,MAME+No-Intro,,,,sodatete
+pico-jp-0094,1996-08,ミッキーの東京ディズニーランド・スタンプラリー,講談社,1996年8月,T-255010,,,,東京ディズニーランド,Wikipedia,MAME+No-Intro,,,,mickdsr
+pico-jp-0095,1996-10-02,プーさんのいちにち,セガ,1996年10月2日,HPC-6019,,,10th（2003年9月）がある,クマのプーさん,Wikipedia,MAME+No-Intro,,,,poohcornj1
+pico-jp-0096,1996-11,101匹わんちゃん わんちゃんだいこうしん!,セガ,1996年11月,HPC-6039,,,,101匹わんちゃん,Wikipedia,MAME+No-Intro,,,,101dalmaj
+pico-jp-0097,1996-11,キーボードピコ セット かんたん わくわくキーボード,セガ,1996年11月,,,,キーボードピコ同梱,,Wikipedia,,,,,
+pico-jp-0098,1997,ハローキティのすてきなおたんじょうび,セガ,1997年,HPC-6040,,,カラーシートつき,,Wikipedia,MAME+No-Intro,,,,hellokso
+pico-jp-0099,1997,よべばこたえる ドラえもん のびたとひみつどうぐをみつけよう!,セガ,1997年,HPC-6041,,,音声認識,,Wikipedia,MAME+No-Intro,,,,yobedora
+pico-jp-0100,1997,あいとゆめのくに サンリオピューロランドあそびながらおぼえよう!ひらがな カタカナ,セガ,1997年,,,,,,Wikipedia,,,,,
+pico-jp-0101,1997,もしもしピコ セット だれがでるかな?もしもしピコで テレビとおしゃべり!,セガ,1997年,HPC-6046,,,もしもしピコ同梱,,Wikipedia,MAME+No-Intro,,,,moshimos
+pico-jp-0102,1997-01,ゴー！ゴー！コニーちゃん！ ドキドキワールド！,バンダイ,1997年1月,T-133210,,,,,Wikipedia,MAME+No-Intro,,,,konichan
+pico-jp-0103,1997-02,ぬりえだいすき! ダンボのわくわくサーカス,セガ,1997年2月,HPC-6044,,,,ダンボ,Wikipedia,MAME+No-Intro,,,,dumbo
+pico-jp-0104,1997-03,ウルトラマンティガ,バンダイ,1997年3月,T-133200,,,,ウルトラマンティガ,Wikipedia,MAME+No-Intro,,,,ultratig
+pico-jp-0105,1997-05,ドラえもん ようちえんはたのしいな,小学館,1997年5月,,,,Best Selection（2004年2月13日）がある,,Wikipedia,,,,,
+pico-jp-0106,1997-06,キューティーハニーF,バンダイ,1997年6月,T-133230,,,,キューティーハニー,Wikipedia,MAME+No-Intro,,,,cuteyhon
+pico-jp-0107,1997-07,電磁戦隊メガレンジャー,バンダイ,1997年7月,T-133220,,,,電磁戦隊メガレンジャー,Wikipedia,MAME+No-Intro,,,,megarang
+pico-jp-0108,1997-07,ビーロボカブタック,バンダイ,1997年7月,T-133240,,,,ビーロボカブタック,Wikipedia,MAME+No-Intro,,,,biroboka
+pico-jp-0109,1997-08,それいけ！アンパンマンのみんなできょうそうアンパンマン！,バンダイ,1997年8月,T-133250,,,周辺機器「みんなでタップ」,,Wikipedia,MAME+No-Intro,,,,anpanmdk
+pico-jp-0110,1997-08,東京ディズニーランド トゥーンタウン ミッキーの ぼくは うんてんしゅ,講談社,1997年8月,T-255020,,,10th（2003年5月1日）がある,,Wikipedia,MAME+No-Intro,,,,tokyodtt
+pico-jp-0111,1997-09,ピーターパン ネバーランドへ いこう!,セガ,1997年9月,HPC-6047,,,10th（2003年6月1日）がある,ピーター・パン,Wikipedia,MAME+No-Intro,,,,peterpan
+pico-jp-0112,1997-09,ドラえもん えんそく･いもほり･うんどうかい,小学館,1997年9月,T-226030,,,10th Anniversary（2003年9月11日）がある,,Wikipedia,MAME+No-Intro,,,,doraeiu
+pico-jp-0113,1997-09,みんなでカラオケ! うたってピコ セット いっしょにうたおう すきなうた！,セガ,1997年9月,HPC-6049,,,うたってピコ同梱,,Wikipedia,MAME+No-Intro,,,,mkaraoke
+pico-jp-0114,1997-10,パケット２ ゆかいな仲間とゲームで数遊び,セガ,1997年10月,HPC-6048,,,音声認識,,Wikipedia,MAME+No-Intro,,,,paketto2
+pico-jp-0115,1997-10,マルチドライブ エキサイティング！ はたらくのりものたち,セガ・ヨネザワ,1997年10月,,,,マルチドライブキット同梱,,Wikipedia,,,,,hatanori
+pico-jp-0116,1997-12,アンパンマンのもしもしピコ セット それいけ!アンパンマン アンパンマンとでんわであそぼう！,セガ,1997年12月,,,,もしもしピコ同梱,,Wikipedia,,,,,
+pico-jp-0117,1997-12,それいけ!アンパンマン アンパンマンとでんわであそぼう！,セガ,1997年12月,HPC-6051,,,,,Wikipedia,MAME,,,,anpanman
+pico-jp-0118,1997-12,キーボードピコ２ セット さわってみよう！ よいこのはじめてキーボード,セガ,1997年12月,HPC-6052,,,キーボードピコ同梱,,Wikipedia,MAME+No-Intro,,,,keybord2
+pico-jp-0119,1998,かわいいなかまを育てよう! ３つのしっぽ,セガ,1998年,HPC-6055,,,,,Wikipedia,MAME+No-Intro,,,,kawai3s
+pico-jp-0120,1998,あいとゆめのくに サンリオピューロランド ちゃんと できるかな? みんなと たのしい おゆうぎかい,セガ,1998年,HPC-6056,,,,,Wikipedia,MAME+No-Intro,,,,sanriocd
+pico-jp-0121,1998,はじめまシリーズ5 けろけろけろっぴのハリキリうんどうかい,セガ,1998年,,,,,,Wikipedia,,,,,
+pico-jp-0122,1998,はじめまシリーズ6 クイズにチャレンジ！ ドラえもん,セガ,1998年,,,,,,Wikipedia,,,,,
+pico-jp-0123,1998,はじめまシリーズ2 ハローキティのたのしいぶとうかい,セガ,1998年,HPC-6062,,,,,Wikipedia,MAME+No-Intro,,,,donaldota
+pico-jp-0124,1998,はじめまシリーズ1 ドナルドのおばけたいじ,セガ,1998年,,,,,,Wikipedia,,,,,
+pico-jp-0125,1998,はじめまシリーズ3 ゴジラ どきどき怪獣島！,セガ,1998年,,,,,,Wikipedia,,,,,
+pico-jp-0126,1998,ペコラのだいぼうけん まぼろしのアイスクリームをさがせ!,セガ,1998年,HPC-6066,,,,ペコラ,Wikipedia,MAME+No-Intro,,,,pecola
+pico-jp-0127,1998,NHKおかあさんといっしょ ドレミファど～なっつ! おえかき だーいすき！ おもしろ おえかき だいしゅうごう!,セガトイズ,1998年,HPC-6068,,,,,Wikipedia,MAME+No-Intro,,,,okaissod
+pico-jp-0128,1998,はじめまシリーズ4 学研のおべんきょうソフト たしざん ひきざん,学習研究社,1998年,,,,,,Wikipedia,,,,,
+pico-jp-0129,1998,スペースピコ 宇宙冒険 スペースシャトルパイロット セット,NASDA・セガ,1998年,HPC-6058,,,スペースピコ同梱,,Wikipedia,MAME+No-Intro,,,,sshuttle
+pico-jp-0130,1998,アンパンマンのドライブピコ それいけ!アンパンマン アンパンマンとたのしいドライブ！,セガ,1998年,HPC-6067,,,ドライブピコ同梱,,Wikipedia,MAME+No-Intro,,,,anpanmtd
+pico-jp-0131,1998-01,ウルトラマンダイナ,バンダイ,1998年1月,T-133260,,,,ウルトラマンダイナ,Wikipedia,MAME+No-Intro,,,,ultradd
+pico-jp-0132,1998-01,ガブッチョチャレンジフィッシング ガブッチョつりがっこう やったね!ぼくはつりめいじん,セガ・ヨネザワ,1998年1月,T-193050,,,フィッシングピコ同梱,,Wikipedia,MAME+No-Intro,,,,gabucho
+pico-jp-0133,1998-02,プーさんとたのしいなかまたち,セガ,1998年2月,,,,,,Wikipedia,,,,,
+pico-jp-0134,1998-02,夢のクレヨン王国,バンダイ,1998年2月,T-133270,,,,,Wikipedia,MAME+No-Intro,,,,yumecray
+pico-jp-0135,1998-07,ミッキーとうたうとりのしま ミニーをさがしてわくわくだいぼうけん!,講談社,1998年7月,T-255030,,,,,Wikipedia,MAME+No-Intro,,,,mickuts
+pico-jp-0136,1998-09,新ウルトラヒーロー,バンダイ,1998年9月,T-133280,,,,,Wikipedia,MAME+No-Intro,,,,shinuher
+pico-jp-0137,1999,かわいいなかまを育てよう! ３つのしっぽ 〈2nd〉,セガトイズ,1999年,,,,,,Wikipedia,,,,,
+pico-jp-0138,1999,それいけ!アンパンマン アンパンマンとことばあそび,セガ,1999年,,,,,,Wikipedia,,,,,
+pico-jp-0139,1999,6000人の先生たちがつくった たのしい小学校探検２,セガトイズ,1999年,HPC-6078,,,,,Wikipedia,MAME+No-Intro,,,,6000ni2
+pico-jp-0140,1999,おえかきロボコン!!,バンダイ,1999年,T-133290,,,,,Wikipedia,MAME+No-Intro,,,,oekarobo
+pico-jp-0141,1999,ドラえもんのうたってピコ セット いっしょにうたおう! ドラえもん わくわくカラオケ,セガ,1999年,HPC-6072,,,うたってピコ同梱,,Wikipedia,MAME+No-Intro,,,,dorawwk
+pico-jp-0142,1999,リズムピコ ピッピちゃん と リズム遊び,セガ,1999年,HPC-6074,,,リズムピコ同梱,,Wikipedia,MAME+No-Intro,,,,pippirtm
+pico-jp-0143,1999-04,くまのプーさん クリストファー･ロビンを さがせ!,講談社,1999年4月,T-255040,,,再販（2002年）がある,,Wikipedia,MAME+No-Intro,,,,poohcrs
+pico-jp-0144,1999-07,それいけ!アンパンマンのメダリンピックワールド２,バンダイ,1999年7月,T-133300,,,Best Selection（2004年7月13日）がある,,Wikipedia,MAME+No-Intro,,,,anpanmm2a
+pico-jp-0145,1999-07-15,McDonald's マクドナルドであそぼ！,McDONALD'S・セガトイズ,1999年7月15日,HPC-6079,,,10th Anniversary（2003年6月）がある,マクドナルド,Wikipedia,MAME+No-Intro,,,,mcdonald
+pico-jp-0146,1999-07-25,クッキングピコ セット みんなといっしょにはじめてクッキング!,セガトイズ,1999年7月25日,HPC-6076,,,クッキングピコ 同梱。再販（2001年）がある（クッキングピコ 同梱）,,Wikipedia,MAME+No-Intro,,,,cookpico
+pico-jp-0147,1999-08-31,ドラえもん よめたよ･かけたよ ひらがな,小学館,1999年8月31日,T-226040,,,,,Wikipedia,MAME+No-Intro,,,,dorahika
+pico-jp-0148,1999-09,白雪姫 ～しらゆきひめ～,セガトイズ,1999年9月,HPC-6077,,,,白雪姫,Wikipedia,MAME+No-Intro,,,,shirayuk
+pico-jp-0149,1999-09,おじゃる丸,バンダイ,1999年9月,T-133310,,,,おじゃる丸,Wikipedia,MAME+No-Intro,,,,ojarumar
+pico-jp-0150,1999-09-30,6000人の先生たちがつくった たのしい小学校探検１,セガ,1999年9月30日,,,,,,Wikipedia,,,,,
+pico-jp-0151,1999-12-02,バグズ・ライフ,セガトイズ,1999年12月2日,HPC-6080,,,,バグズ・ライフ,Wikipedia,MAME+No-Intro,,,,bugslife
+pico-jp-0152,1999-12-23,いつでもいっしょ ドラえもん セット,セガトイズ,1999年12月23日,,,,ドラえもんコントローラ同梱,,Wikipedia,,,,,
+pico-jp-0153,2000,それいけ!アンパンマン アンパンマンとことばあそび,セガトイズ,2000年,HPC-6071,,,,,Wikipedia,MAME+No-Intro,,,,anpanmka
+pico-jp-0154,2000,フィッシングピコ ドナルドのアドベンチャーフィッシング セット,セガトイズ,2000年,HPC-6082,,,フィッシングピコ同梱,,Wikipedia,MAME+No-Intro,,,,fishpico
+pico-jp-0155,2000-02,ミッキーのぼくはめいたんてい,講談社,2000年2月,T-255050,,,,,Wikipedia,MAME+No-Intro,,,,mickbmt
+pico-jp-0156,2000-03,おジャ魔女どれみ＃,バンダイ,2000年3月,T-133330,,,,おジャ魔女どれみ,Wikipedia,MAME+No-Intro,,,,ojadrm
+pico-jp-0157,2000-04,七田 眞 監修 右脳イメージトレーニング ひらがな・カタカナ カジノでモジャベガスドリーム,ポニーキャニオン,2000年4月,HPC-6149,,,Best Selection（2004年）がある,,Wikipedia,MAME,,,,kanshunobs
+pico-jp-0158,2000-04,キティとみんなの キーボードピコ サンリオピューロランドにいこう！ キティとみんなのはじめてキーボード!,セガトイズ,2000年4月,HPC-6084,,,キーボードピコ同梱,,Wikipedia,MAME+No-Intro,,,,kittykbd
+pico-jp-0159,2000-04,うんてんトーマス デラックスセット,BRITT・バンダイ,2000年4月,T-133320,,,うんてんキット同梱,,Wikipedia,MAME+No-Intro,,,,thomasdx
+pico-jp-0160,2000-06,しましまとらのしまじろう たのしいいちにち,セガトイズ,2000年6月,HPC-6085,,,,しましまとらのしまじろう,Wikipedia,MAME+No-Intro,,,,shimatan
+pico-jp-0161,2000-07,トミカピコ セット ぼくらのまちトミカタウンであそぼう!,TOMICA・セガトイズ,2000年7月,HPC-6086,,,トミカピコ同梱,トミカ,Wikipedia,MAME+No-Intro,,,,tomica
+pico-jp-0162,2000-08,トイストーリー２ ウッディ そうさく だいさくせん!!,セガトイズ,2000年8月,HPC-6090,,,10th（2003年7月14日）がある（日本、韓国以外で発売された最後のソフト）,トイ・ストーリー2,Wikipedia,MAME+No-Intro,,,,toystor2
+pico-jp-0163,2000-08,おしゃれピコ すてきにへんしん！ るなちゃんのおしゃれヘアサロン,セガトイズ,2000年8月,HPC-6088,,,おしゃれピコ同梱,,Wikipedia,MAME+No-Intro,,,,hairsaln
+pico-jp-0164,2000-09,それいけ!アンパンマン アンパンマンとすうじあそび,セガトイズ,2000年9月,,,,,,Wikipedia,,,,,
+pico-jp-0165,2000-09,ウルトラマンピコ ウルトラファイティングベース,バンダイ,2000年9月,,,,ウルトラファイティングベース、人形同梱,,Wikipedia,,,,,
+pico-jp-0166,2000-10,スージーちゃんとマービー おてつだい だ～いすき！,セガトイズ,2000年10月,HPC-6089,,,,スージーちゃんとマービー,Wikipedia,MAME+No-Intro,,,,susiechn
+pico-jp-0167,2000-11,ぐ～チョコランタン みんなでおえかき！たのしいあそびも いっぱい!,セガトイズ,2000年11月,HPC-6092,,,,ぐ〜チョコランタン,Wikipedia,MAME+No-Intro,,,,guchoko
+pico-jp-0168,2000-12,学研はじめての もじ･ことば,学習研究社,2000年12月,T-169080,,,,,Wikipedia,MAME+No-Intro,,,,gakkemoj
+pico-jp-0169,2000-12,シルバニアファミリー もりのなかまとたのしいおたんじょうびかい,エポック社,2000年12月,T-198010,,,,シルバニアファミリー,Wikipedia,MAME+No-Intro,,,,sylvan
+pico-jp-0170,2001,6000人の先生たちがつくった たのしい小学校探検１,,2001年,HPC-6075,,,,,Wikipedia,MAME+No-Intro,,,,6000ni1
+pico-jp-0171,2001-01,コンビニでおかいもの！,セガトイズ,2001年1月,HPC-6094,,,,コンビニエンスストア,Wikipedia,MAME+No-Intro,,,,conveni
+pico-jp-0172,2001-01,プーさんの はじめてのえいご,講談社,2001年1月,T-255060,,,再販（2002年）がある,,Wikipedia,MAME+No-Intro,,,,poohhajia
+pico-jp-0173,2001-04,仮面ライダーアギト&クウガワイルドバトル,バンダイ,2001年4月,T-133360,,,,仮面ライダーアギト,Wikipedia,MAME+No-Intro,,,,kamenrid
+pico-jp-0174,2001-04,学研ピコで科学1 はっけんむしのひみつ,学習研究社,2001年4月,T-169090,,,,,Wikipedia,MAME+No-Intro,,,,picokag1
+pico-jp-0175,2001-04,やさしくおてあて ピコクリニック! かんごふさんピコ,セガトイズ,2001年4月,HPC-6095,,,かんごふさんピコ同梱,,Wikipedia,MAME+No-Intro,,,,yasaclin
+pico-jp-0176,2001-06,も～っと！おジャ魔女どれみ,バンダイ,2001年6月,T-133370,,,,,Wikipedia,MAME+No-Intro,,,,mottodrm
+pico-jp-0177,2001-06,くもんの すくすくれっすん 1から30までのすうじ,くもん出版,2001年6月,T-300010,,,,公文教育研究会,Wikipedia,MAME+No-Intro,,,,kumon1k
+pico-jp-0178,2001-06,アンパンマンピコ わくわくパン工場,バンダイ,2001年6月,T-133350,,,アンパンマンピコわくわくパン工場ベース同梱,,Wikipedia,MAME+No-Intro,,,,anpanwpk
+pico-jp-0179,2001-06-01,パソコン接続キット ピコタウンにでかけよう!,セガトイズ,2001年6月1日,,,,パソコン接続キット同梱,,Wikipedia,,,,,
+pico-jp-0180,2001-09,ドラえもん かぞえて･かんたん かず とけい,小学館,2001年9月,T-226050,,,,,Wikipedia,MAME+No-Intro,,,,dorakkkt
+pico-jp-0181,2001-09-21,プラレール・ピコ プラレールであそぼう！,セガトイズ,2001年9月21日,HPC-6099,,,プラレールピコ同梱,,Wikipedia+MAME,MAME+No-Intro,,,,plarail
+pico-jp-0182,2001-10,リカちゃんになりたい！,セガトイズ,2001年10月,HPC-6098,,,,リカちゃん,Wikipedia,MAME+No-Intro,,,,liccachn
+pico-jp-0183,2001-10,新ウルトラマンピコ ウルトラファイティングベース,バンダイ,2001年10月,T-133380,,,ウルトラファイティングベース、人形同梱,,Wikipedia,MAME+No-Intro,,,,ultrafgt
+pico-jp-0184,2001-10-01,ハローキティとマクドナルドであそぼ！,McDONALD'S・セガトイズ,2001年10月1日,HPC-6100,,,,,Wikipedia+MAME,MAME+No-Intro,,,,hellokmc
+pico-jp-0185,2001-12,とっとこハム太郎 はる･なつ･あき･ふゆ とっとこなかよし! ハムちゃんず!,セガトイズ,2001年12月,HPC-6101,,,,とっとこハム太郎 (アニメ),Wikipedia,MAME+No-Intro,,,,hamtnaka
+pico-jp-0186,2002-01-24,学研 ピコで学習 1年生,学習研究社・セガトイズ,2002年1月24日,,,,,学研ホールディングス,Wikipedia,,,,,
+pico-jp-0187,2002-01-24,学研ピコで学習 １年生,学習研究社,2002年1月24日,T-169100,,,,,Wikipedia,MAME+No-Intro,,,,picogak1
+pico-jp-0188,2002-01-24,くもんの すくすくれっすん はじめてのひらがな,くもん出版,2002年1月24日,,,,,,Wikipedia,,,,,
+pico-jp-0189,2002-01-24,アンパンマンのはじめてマウスピコ アンパンマンとパソコンれんしゅう!,セガトイズ,2002年1月24日,HPC-6102,,,マウス、マウスパッド同梱,,Wikipedia+MAME,MAME+No-Intro,,,,anpanpc
+pico-jp-0190,2002-03-07,ECCジュニアの はじめてえいご Vol.１ Patty And Her Family パティちゃんファミリー,セガトイズ・NISSEN,2002年3月7日,HPC-6103,,,,ECC総合教育機関,Wikipedia+MAME,MAME+No-Intro,,,,ecc1
+pico-jp-0191,2002-03-07,ECCジュニアの はじめてえいご Vol.２ Patty Goes On A Picnic パティちゃんのピクニック,セガトイズ・NISSEN,2002年3月7日,HPC-6104,,,,,Wikipedia+MAME,MAME+No-Intro,,,,ecc2
+pico-jp-0192,2002-03-07,"ECCジュニアの はじめてえいご Vol.３ Happy Birthday, Patty! パティちゃんのお誕生日",セガトイズ・NISSEN,2002年3月7日,HPC-6105,,,,,Wikipedia+MAME,MAME+No-Intro,,,,ecc3
+pico-jp-0193,2002-03-15,どうぶつピコ ハムスターランド,バンダイ,2002年3月15日,,,,ハムスターランドベース･ハムスター人形付属,,Wikipedia,,,,,
+pico-jp-0194,2002-04,忍者戦隊ハリケンジャー&百獣戦隊ガオレンジャー 超戦隊スーパーバトル,バンダイ,2002年4月,T-133400,,,,忍風戦隊ハリケンジャー,Wikipedia,MAME+No-Intro,,,,cssbattl
+pico-jp-0195,2002-05,おジャ魔女どれみ ドッカ～ン！,バンダイ,2002年5月,T-133410,,,,,Wikipedia,MAME+No-Intro,,,,ojadrmdn
+pico-jp-0196,2002-06-04,コスメピコ もっとかわいくなりたいな,セガトイズ,2002年6月4日,HPC-6112,,,,,Wikipedia+MAME,MAME+No-Intro,,,,kosumemk
+pico-jp-0197,2002-06-13,ミニモニ。ミニモニ。テレビにでるんだぴょん！,セガトイズ,2002年6月13日,HPC-6110,,,,ミニモニ。,Wikipedia+MAME,MAME+No-Intro,,,,minimotd
+pico-jp-0198,2002-07,ECCジュニアの はじめてえいご Vol.４ Patty Loves Animals 動物大好き、パティちゃん,セガトイズ・NISSEN,2002年7月,HPC-6106,,,,,Wikipedia,MAME+No-Intro,,,,ecc4
+pico-jp-0199,2002-07,"ECCジュニアの はじめてえいご Vol.５ Merry Christmas, Patty! メリークリスマス、パティちゃん!",セガトイズ・NISSEN,2002年7月,HPC-6107,,,,,Wikipedia,MAME+No-Intro,,,,ecc5
+pico-jp-0200,2002-07,ECCジュニアの はじめてえいご Vol.６ Patty Goes to the Amusement Park パティちゃん遊園地に行く,セガトイズ・NISSEN,2002年7月,HPC-6108,,,,,Wikipedia,MAME+No-Intro,,,,ecc6
+pico-jp-0201,2002-07,ドラえもん えいごであそぼう ＡＢＣ,小学館,2002年7月,T-226060,,,,,Wikipedia,MAME+No-Intro,,,,doraabc
+pico-jp-0202,2002-07,トミカ・ピコ レスキューパーキング きんきゅうしゅつどう！ はたらくのりもの,TOMICA・セガトイズ,2002年7月,HPC-6114,,,トミカピコ同梱,,Wikipedia,MAME+No-Intro,,,,tomicarp
+pico-jp-0203,2002-07-01,おせわしましょ！ あかちゃんピコ,セガトイズ,2002年7月1日,HPC-6109,,,人形同梱,,Wikipedia+MAME,MAME+No-Intro,,,,osewashi
+pico-jp-0204,2002-08,ポケットモンスター すうじをつかまえよう！,セガトイズ,2002年8月,HPC-6113,,,,ポケットモンスター,Wikipedia,MAME+No-Intro,,,,pokemon
+pico-jp-0205,2002-09,学研 アンパンマンと知能アップ！,学習研究社・セガトイズ,2002年9月,HPC-6115,,,,,Wikipedia,MAME+No-Intro,,,,anpanchi
+pico-jp-0206,2002-09,新世紀ウルトラマン伝説,バンダイ,2002年9月,T-133420,,,,新世紀ウルトラマン伝説,Wikipedia,MAME+No-Intro,,,,ultraden
+pico-jp-0207,2002-10,しまじろうと ゆめのくにへ だいぼうけん！,セガトイズ,2002年10月,HPC-6116,,,,,Wikipedia,MAME+No-Intro,,,,shimayum
+pico-jp-0208,2002-10,とっとこハム太郎 おえかきいっぱい! ハムちゃんず!,小学館,2002年10月,T-226080,,,,,Wikipedia,MAME+No-Intro,,,,hamtchan
+pico-jp-0209,2002-10,東京ディズニーシー ミッキーとあそぼう！,講談社,2002年10月,T-255070,,,,東京ディズニーシー,Wikipedia,MAME+No-Intro,,,,tokyosea
+pico-jp-0210,2002-11,ハローキティのたのしいおみせやさん,セガトイズ・アトラス,2002年11月,HPC-6117,,,,,Wikipedia,MAME+No-Intro,,,,hellokto
+pico-jp-0211,2002-11,のりものスタジオ ゴー！ゴーのりスタ あそびマッチョ！,小学館,2002年11月,T-226070,,,,,Wikipedia,MAME+No-Intro,,,,gogonori
+pico-jp-0212,2003-02,ダンスピコ はしっておどって超ハッピー!,セガトイズ,2003年2月,HPC-6118,,,ダンスピコ同梱,,Wikipedia,MAME+No-Intro,,,,dancehoc
+pico-jp-0213,2003-03,ミニモニ。小学校へ行くんだぴょん！,セガトイズ,2003年3月,HPC-6120,,,,,Wikipedia,MAME+No-Intro,,,,minimosn
+pico-jp-0214,2003-03,ミニモニ。えいごであそぶんだぴょん！,セガトイズ,2003年3月,HPC-6122,,,,,Wikipedia,MAME+No-Intro,,,,minimoea
+pico-jp-0215,2003-03,明日のナージャ,バンダイ,2003年3月,T-133430,,,,明日のナージャ,Wikipedia,MAME+No-Intro,,,,nadja
+pico-jp-0216,2003-04,爆竜戦隊アバレンジャー,バンダイ,2003年4月,T-133440,,,,爆竜戦隊アバレンジャー,Wikipedia,MAME+No-Intro,,,,abarangr
+pico-jp-0217,2003-05,仮面ライダーファイズ555,バンダイ,2003年5月,T-133450,,,,仮面ライダー555,Wikipedia,MAME+No-Intro,,,,kamen555
+pico-jp-0218,2003-06,ECCジュニアの はじめてえいご テーマ 楽しい1日 〈2nd〉,セガトイズ,2003年6月,,,,,,Wikipedia,,,,,
+pico-jp-0219,2003-06,ECCジュニアの はじめてえいご テーマ 公園に行こう! 〈2nd〉,セガトイズ,2003年6月,,,,,,Wikipedia,,,,,
+pico-jp-0220,2003-06,ECCジュニアの はじめてえいご テーマ お誕生会をしよう! 〈2nd〉,セガトイズ,2003年6月,,,,,,Wikipedia,,,,,
+pico-jp-0221,2003-06-20,ドライブピコ ゴーゴー!カーナビツーリング!,セガトイズ,2003年6月20日,HPC-6121,,,ドライブピコ同梱,,Wikipedia+MAME,MAME+No-Intro,,,,carcarnt
+pico-jp-0222,2003-07-18,それいけ!アンパンマン アンパンマンの知恵のワールド,セガトイズ,2003年7月18日,HPC-6131,,,,,Wikipedia+MAME,MAME+No-Intro,,,,anpanmcw
+pico-jp-0223,2003-07-18,ドラえもん 知育あそび ドラランド,小学館,2003年7月18日,T-226100,,,,,Wikipedia+MAME,MAME+No-Intro,,,,doraland
+pico-jp-0224,2003-07-18,おりょうりだいすき! キッチンピコ,セガトイズ,2003年7月18日,HPC-6132,,,キッチンピコ同梱,,Wikipedia+MAME,MAME+No-Intro,,,,kitchenp
+pico-jp-0225,2003-09-12,キキ＆ララ 星のかずあそび,セガトイズ,2003年9月12日,HPC-6133,,,,リトルツインスターズ,Wikipedia+MAME,MAME+No-Intro,,,,kikilala
+pico-jp-0226,2003-11-17,ポケットモンスター アドバンスジェネレーション ひらがなカタカナ かけちゃった!,セガトイズ,2003年11月17日,HPC-6134,,,,ポケットモンスター アドバンスジェネレーション,Wikipedia+MAME,MAME+No-Intro,,,,pokehkk
+pico-jp-0227,2003-11-17,それいけ!アンパンマン はじめてあそぶピコソフト アンパンマンのいろ･かず･かたち ぬりえもできちゃうぞ!,セガトイズ,2003年11月17日,,,,,,Wikipedia,,,,,
+pico-jp-0228,2003-12-09,ディズニープリンセス プリンセスになりたい!,セガトイズ,2003年12月9日,HPC-6136,,,,,Wikipedia+MAME,MAME+No-Intro,,,,princess
+pico-jp-0229,2004-03-11,くまのプーさん たのしいたしざんひきざん,学習研究社・セガトイズ,2004年3月11日,HPC-6137,,,,,Wikipedia+MAME,MAME+No-Intro,,,,poohtth
+pico-jp-0230,2004-04-26,ディズニープリンセス アリエル,セガトイズ,2004年4月26日,HPC-6138,,,Best Selection（時期不明）がある,アリエル (ディズニーキャラクター),Wikipedia+MAME,MAME+No-Intro,,,,ariel
+pico-jp-0231,2004-04-26,ディズニープリンセス 白雪姫 ～しらゆきひめ～ 〈Best〉,セガトイズ,2004年4月26日,,,,,,Wikipedia,,,,,
+pico-jp-0232,2004-05-14,とっとこハム太郎 とっとこたのしく あいうえお ～まぼろしの ひかるたねを みつけるのだっ!～,セガトイズ,2004年5月14日,HPC-6142,,,,,Wikipedia+MAME,MAME+No-Intro,,,,hamttano
+pico-jp-0233,2004-06,特捜戦隊デカレンジャー,バンダイ,2004年6月,T-133470,,,,特捜戦隊デカレンジャー,Wikipedia,MAME+No-Intro,,,,dekrangr
+pico-jp-0234,2004-06,ふたりはプリキュア,バンダイ,2004年6月,T-133480,,,,ふたりはプリキュア,Wikipedia,MAME+No-Intro,,,,futaripc
+pico-jp-0235,2004-07-13,ポケットモンスター アドバンスジェネレーション みんなでピコ ポケモンわいわいバトル!,セガトイズ,2004年7月13日,HPC-6143,,,専用コントローラー同梱,,Wikipedia+MAME,MAME+No-Intro,,,,pokewai
+pico-jp-0236,2004-08,ペットといっしょに たのしくあそぼ♪ パソコンピコ,セガトイズ,2004年8月,HPC-6144,,,キーボード同梱,,Wikipedia,MAME+No-Intro,,,,pcpico
+pico-jp-0237,2004-10-18,ディズニープリンセス すてきにレッスン！ ひらがな･カタカナ,セガトイズ,2004年10月18日,HPC-6145,,,,,Wikipedia+MAME,MAME+No-Intro,,,,princehk
+pico-jp-0238,2005-02-04,それいけ! アンパンマン アンパンマンのひとりでできちゃった！,セガトイズ,2005年2月4日,HPC-6146,,,,,Wikipedia+MAME,MAME+No-Intro,,,,anpanmhd
+pico-jp-0239,2005-04-28,甲虫王者ムシキング あつめてあそぼう甲虫図鑑,セガトイズ,2005年4月28日,HPC-6147,,,,甲虫王者ムシキング,Wikipedia+MAME,MAME+No-Intro,,,,mushikin
+pico-jp-0240,,あいとゆめのくに サンリオピューロランドあそびながらおぼえよう!ひらがな カタカナ 〈2nd〉,セガトイズ,,,,,,,Wikipedia,,,,,
+pico-jp-0241,,プーさんとたのしいなかまたち,,,HPC-6054,,,,,Wikipedia+MAME,MAME+No-Intro,,,,poohtano
+pico-jp-0242,,それいけ!アンパンマン アンパンマンとすうじあそび,セガトイズ,,HPC-6091,,,,,Wikipedia+MAME,MAME+No-Intro,,,,anpanmsa
+pico-jp-0243,,七田 眞 監修 右脳イメージトレーニング さんすう・えいごでモジャーズに挑戦 THE ARITHMETIC & ABC FIGHT VS MOJARS,ポニーキャニオン,,HPC-6149,,,Best Selection（2004年）がある,,Wikipedia+MAME,MAME,,,,imagtrnbs
+pico-jp-0244,,忍者戦隊カクレンジャー,バンダイ,,,,,,忍者戦隊カクレンジャー,Wikipedia,,,,,
+pico-jp-0245,,レースにでようよ! ケンちゃんとペペ ぼくのクルマで大ぼうけん,セガトイズ,,HPC-6043,,,,,Wikipedia+MAME,MAME+No-Intro,,,,kpkuruma
