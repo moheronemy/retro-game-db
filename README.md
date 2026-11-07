@@ -30,6 +30,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | プレイディア | [`data/playdia/jp_titles.csv`](data/playdia/jp_titles.csv) | 33 | 33 | 0 | （出典なし） |
 | ピピンアットマーク | [`data/pippin/jp_titles.csv`](data/pippin/jp_titles.csv) | 52 | 50 | 0 | [`data/pippin/jp_rom_dumps.csv`](data/pippin/jp_rom_dumps.csv)（54 行） |
 | カシオ ルーピー | [`data/loopy/jp_titles.csv`](data/loopy/jp_titles.csv) | 11 | 11 | 6 | [`data/loopy/jp_rom_dumps.csv`](data/loopy/jp_rom_dumps.csv)（20 行） |
+| カシオ PV-1000 | [`data/pv1000/jp_titles.csv`](data/pv1000/jp_titles.csv) | 13 | 13 | 8 | [`data/pv1000/jp_rom_dumps.csv`](data/pv1000/jp_rom_dumps.csv)（13 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 826 | 1,364 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（848 行） |
@@ -67,6 +68,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | プレイディア | [`jp_not_for_sale.csv`](data/playdia/jp_not_for_sale.csv)（2 件） | [`jp_non_retail.csv`](data/playdia/jp_non_retail.csv)（店頭販促用 1 件） | |
 | ピピンアットマーク | （未調査・0 件） | （0 件） | 本体同梱・通信用ディスク [`jp_system_discs.csv`](data/pippin/jp_system_discs.csv)（16 件。吸い出し [`jp_system_discs_rom_dumps.csv`](data/pippin/jp_system_discs_rom_dumps.csv) 19 行） |
 | ルーピー | （出典に記載なし・0 件） | （0 件） | |
+| PV-1000 | （出典に記載なし・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -934,6 +936,25 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - No-Intro にはバイト順の違う 2 件があるタイトルが多く、両方を載せた（`mame_match`: MAME の CRC と `一致` / `不一致`。
   MAME の ROM が 2 個に分かれている 3MB の 2 本は `比較できない`）。
 
+## PV-1000
+
+カシオ計算機の PV-1000（1983年10月発売）用のソフト。`id` は `pv1000-jp-<連番>`（型番の順）。`scripts/build_pv1000.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・型番・原作 | ja.wikipedia「PV-1000」の「ソフトウェア」節（箇条書き。13 本） |
+| 発売日・価格 | メディア芸術データベース（説明文に「[システム] PV-1000」とある 8 本。機種の欄は空。MADB の出典は当時のチラシと日経産業新聞） |
+| ハッシュ | No-Intro DAT（libretro 収録の Casio - PV-1000。13 本） |
+
+- 全 13 本（本文の「予定されていた15本のうち13本の発売」、MAME・No-Intro と一致）。欠番の `GPA-108`・`GPA-113` は未発売なので対象外。
+  MAME `hash/pv1000.xml` にある 2022年以降の個人制作ソフト（Inufuto の 19 本）も対象外。
+- 発売日は MADB にある 8 本が `1983-10`。残りの 5 本（ワープ&ワープ・ファイティングバグ・ノーティーボーイ・ダーティー カメレオン・エキサイト麻雀）は
+  出典が無く空欄（『エキサイト麻雀』は記事に「最後に発売された」とあるので `notes` に記した）。MAME の年は原作の年なので使わない。
+- 型番は Wikipedia・MAME の `GPA-1xx`。MADB の『プーヤン』は `GPA-104`（『アミダー』と重複。誤記とみられる）で、要確認レポートに出した。
+- 価格は MADB の 8 本（3,800 円。1989年3月以前なので `税なし`）。残りは空欄。
+- 発売元は全てカシオ計算機。`original` は記事にある原作（コナミ・ナムコ・ユニバーサル・ジャレコのアーケードゲームの移植、カシオのオリジナル）。
+- 同時発売の上位機種 PV-2000（キーボード一体型。ソフトの互換性なし）は対象外。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1406,6 +1427,7 @@ python3 scripts/enrich.py playdia
 
 python3 scripts/build_pippin.py                # ピピンアットマーク（MAME hash/pippin.xml ＋ Wikipedia の記事）→ data/pippin/
 python3 scripts/build_loopy.py                 # ルーピー（Wikipedia の記事 ＋ No-Intro・MAME のハッシュ）→ data/loopy/
+python3 scripts/build_pv1000.py                # PV-1000（Wikipedia の記事 ＋ MADB ＋ No-Intro）→ data/pv1000/
 
 python3 scripts/fetch_wikipedia_list.py scv  # 作品ごとの節の記事
 python3 scripts/enrich.py scv

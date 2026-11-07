@@ -1,0 +1,14 @@
+title_id,title,game_code,dump_name,size,crc32,md5,sha1,hash_source
+pv1000-jp-0001,プーヤン,GPA-101,Pooyan (Japan),8192,bd6edc48,e43b200c31cec2dd1ebe3331c4bd2bf3,606b7d603da23e70012b361d7ffb53ea026f88f5,No-Intro
+pv1000-jp-0002,スーパーコブラ,GPA-102,Super Cobra (Japan),8192,cdffc2cd,01e70f498b2e104b4714434014943e1a,9e748050ccb0fa948b06346d241dfcd11868e8e2,No-Intro
+pv1000-jp-0003,ツタンカーム,GPA-103,Tutankham (Japan),8192,a0b606d8,f08be1209a255922d219ec4aad109703,56efa2ab7c4a6db7b44714e46c5bf2ba71983ee8,No-Intro
+pv1000-jp-0004,アミダー,GPA-104,Amidar (Japan),8192,c82628cc,ee4e2d5b4617c3bf9f11016e1fe1c94e,00322d4025fef19728194442f9e06a4cccd01933,No-Intro
+pv1000-jp-0005,ディグダグ,GPA-105,Dig Dug (Japan),16384,a94f02fa,4e2b1c14dca34084a7612d794642a12a,502a163c1ae88eccc7e9782261d86d4090cb41e1,No-Intro
+pv1000-jp-0006,ワープ&ワープ,GPA-106,Warp & Warp (Japan),8192,2a0d4ad9,4ab8e4be4c3d48a2c92ecd36beb4d767,f9ffca3a1d85b116dd92f118f9ea940bf2449db5,No-Intro
+pv1000-jp-0007,ターピン,GPA-107,Turpin (Japan),8192,a3aef98d,8fc81baf228ca5e0f353f0b3ad71d65b,1f49371b0ebf4fe6c5fb606fd9744f3bb15a619b,No-Intro
+pv1000-jp-0008,パチンコUFO,GPA-109,Pachinko-UFO (Japan),16384,9ee981ab,aefafc42cabc5c6ee40defe9ec09b488,d6ca45430a34ce0090ba882ade5a2268a862d4f4,No-Intro
+pv1000-jp-0009,ファイティングバグ,GPA-110,Fighting Bug (Japan),8192,84986255,99e9e3d677065325cb2b2030d82a4c8b,7202641a387da90323d149e2f327a5c828856556,No-Intro
+pv1000-jp-0010,スペースパニック,GPA-111,Space Panic (Japan),8192,23547111,156faed893080aed343d760ad7b8a7ce,b16dbea89ba9f934a08c274d8bb6cce06da13193,No-Intro
+pv1000-jp-0011,ノーティーボーイ,GPA-112,Naughty Boy (Japan),8192,43a13e99,ef6bfd54a18e51370e1aa9a330b66e13,a72e8606b8b6c8d10050d6d7b1ff87455b623004,No-Intro
+pv1000-jp-0012,ダーティー カメレオン,GPA-114,Dirty Chameleon (Japan),8192,8e7fb358,c1250dc9300411c2aa5b6017f07e3176,63e94cc01410aefd59b465105e701330dc13c398,No-Intro
+pv1000-jp-0013,エキサイト麻雀,GPA-115,Excite Mahjong (Japan),16384,0d2f829c,b0ef3b9523fb276772fa4433136bc5db,6cc9e5d234bc1b483108ae4dc79d644802a64ef0,No-Intro

@@ -1,0 +1,14 @@
+id,release_date,title,publisher,model_number,price_yen,price_tax,original,notes,wikipedia_article,release_date_sources,model_number_source,price_source,madb_id,mame_name
+pv1000-jp-0001,1983-10,プーヤン,カシオ計算機,GPA-101,3800,税なし,コナミのアーケードゲームの移植,MADB の品番は GPA-104（誤記とみられる）,プーヤン,MADB,Wikipedia+MAME,MADB,M731651,pooyan
+pv1000-jp-0002,1983-10,スーパーコブラ,カシオ計算機,GPA-102,3800,税なし,コナミのアーケードゲームの移植,,スーパーコブラ,MADB,Wikipedia+MAME,MADB,M732816,scobra
+pv1000-jp-0003,1983-10,ツタンカーム,カシオ計算機,GPA-103,3800,税なし,コナミのアーケードゲームの移植,,ツタンカーム,MADB,Wikipedia+MAME,MADB,M733440,tutankhm
+pv1000-jp-0004,1983-10,アミダー,カシオ計算機,GPA-104,3800,税なし,コナミのアーケードゲームの移植,,アミダー,MADB,Wikipedia+MAME,MADB,M728403,amidar
+pv1000-jp-0005,1983-10,ディグダグ,カシオ計算機,GPA-105,3800,税なし,ナムコのアーケードゲームの移植,,ディグダグ,MADB,Wikipedia+MAME,MADB,M729349,digdug
+pv1000-jp-0006,,ワープ&ワープ,カシオ計算機,GPA-106,,,ナムコのアーケードゲームの移植,,ワープ&ワープ,,Wikipedia+MAME,,,warpwarp
+pv1000-jp-0007,1983-10,ターピン,カシオ計算機,GPA-107,3800,税なし,コナミのアーケードゲームの移植,,ターピン,MADB,Wikipedia+MAME,MADB,M733438,turpin
+pv1000-jp-0008,1983-10,パチンコUFO,カシオ計算機,GPA-109,3800,税なし,カシオのオリジナル,,パチンコUFO,MADB,Wikipedia+MAME,MADB,M731507,pachiufo
+pv1000-jp-0009,,ファイティングバグ,カシオ計算機,GPA-110,,,ユニバーサルのアーケードゲームの移植,,レディーバグ (ゲーム),,Wikipedia+MAME,,,fightbug
+pv1000-jp-0010,1983-10,スペースパニック,カシオ計算機,GPA-111,3800,税なし,ユニバーサルのアーケードゲームの移植,,スペースパニック,MADB,Wikipedia+MAME,MADB,M732579,spcpanic
+pv1000-jp-0011,,ノーティーボーイ,カシオ計算機,GPA-112,,,ジャレコのアーケードゲームの移植,,ノーティボーイ (ゲーム),,Wikipedia+MAME,,,naugtboy
+pv1000-jp-0012,,ダーティー カメレオン,カシオ計算機,GPA-114,,,ジャレコのアーケードゲームの移植,,ダーティー カメレオン,,Wikipedia+MAME,,,dirtychm
+pv1000-jp-0013,,エキサイト麻雀,カシオ計算機,GPA-115,,,カシオのオリジナル,記事に「最後に発売された」とある,エキサイト麻雀,,Wikipedia+MAME,,,excitemj
