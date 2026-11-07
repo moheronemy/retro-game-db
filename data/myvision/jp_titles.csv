@@ -1,0 +1,7 @@
+id,release_date,title,publisher,developer,model_number,mame_label,price_yen,price_tax,notes,wikipedia_article,release_date_sources,price_source,mame_name
+myvision-jp-0001,1983,マージャン,,日本物産,,LT-0334653,4500,税なし,,マージャン,MAME（年のみ）,Wikipedia（全ゲームソフト定価）,mahjong
+myvision-jp-0002,1983,連珠《五目ならべ》,,日本物産,,LT-0319953,4500,税なし,,連珠,MAME（年のみ）,Wikipedia（全ゲームソフト定価）,gomoku
+myvision-jp-0003,1983,花合わせ《花札》,,ロジテック,,LT-0730853,4500,税なし,,,MAME（年のみ）,Wikipedia（全ゲームソフト定価）,hanafuda
+myvision-jp-0004,,マスターマインド,,ロジテック,,,4500,税なし,MAME に記録が無い（吸い出しなし）,マスターマインド,,Wikipedia（全ゲームソフト定価）,
+myvision-jp-0005,1983,詰将棋,,ロジテック,,LT-0594253,4500,税なし,,詰将棋,MAME（年のみ）,Wikipedia（全ゲームソフト定価）,tsumesho
+myvision-jp-0006,,リバーシ,,ロジテック,,,4500,税なし,MAME に記録が無い（吸い出しなし）,オセロ (ボードゲーム),,Wikipedia（全ゲームソフト定価）,

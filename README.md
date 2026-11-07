@@ -37,6 +37,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | 光速船 | [`data/vectrex/jp_titles.csv`](data/vectrex/jp_titles.csv) | 5（全件ではない） | 0 | 0 | （日本版の記録なし） |
 | インテレビジョン | [`data/intv/jp_titles.csv`](data/intv/jp_titles.csv) | 22（全件かは不明） | 0 | 22 | （日本版の記録なし） |
 | キッズコンピュータ・ピコ | [`data/pico/jp_titles.csv`](data/pico/jp_titles.csv) | 245 | 214 | 0 | [`data/pico/jp_rom_dumps.csv`](data/pico/jp_rom_dumps.csv)（224 行） |
+| マイビジョン | [`data/myvision/jp_titles.csv`](data/myvision/jp_titles.csv) | 6 | 0 | 6 | [`data/myvision/jp_rom_dumps.csv`](data/myvision/jp_rom_dumps.csv)（11 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -81,6 +82,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | 光速船 | （出典に記載なし・0 件） | （0 件） | |
 | インテレビジョン | （未調査・0 件） | （0 件） | |
 | ピコ | [`jp_not_for_sale.csv`](data/pico/jp_not_for_sale.csv)（キャンペーン非売品 1 件） | （0 件） | 本体とのセット [`jp_bundles.csv`](data/pico/jp_bundles.csv)（11 件）・コペラ対応 [`jp_copera.csv`](data/pico/jp_copera.csv)（9 件） |
+| マイビジョン | （出典に記載なし・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -1087,6 +1089,23 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   日本語にし、共同は「・」でつないだ。`McDONALD'S`・`NISSEN`・`GE`・`BRITT`・`SHINGAKAI` などは表記のまま。
 - 価格は出典が無く空欄（MADB にピコの記録が無い）。後継のビーナ・アドバンス・ピコ・ビーナ・DS-PICO と海外版は対象外。
 
+## マイビジョン
+
+日本物産のマイビジョン（1983年発売。ボードゲームに絞った機種で、販売は当初が中央産業、1983年12月から関東電子も）用のソフト。
+`id` は `myvision-jp-<連番>`（記事の並び順）。`scripts/build_myvision.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・開発元・価格 | ja.wikipedia「マイビジョン」の「ソフトウェア」節（6 本） |
+| 年・ラベルの番号・ハッシュ | MAME `hash/myvision.xml`（製品版 4 本） |
+
+- 全 6 本（記事の書き方は「全ゲームソフト」）。MAME の 2022年以降の個人制作ソフト（Inufuto の 22 本）は対象外。
+- 記事の会社名（日本物産 2 本・ロジテック 4 本）は本文の「ゲームソフトの開発は日本物産と…ロジテックが…担当」から `developer` に置き、`publisher` は空欄。
+- 発売日: MAME にある 4 本は年（`1983`。`release_date_sources` が `MAME（年のみ）`）。『マスターマインド』『リバーシ』は MAME に無く空欄。
+- 価格: 本文の「全ゲームソフト定価4,500円」を全 6 本に `税なし` で載せた（本文の出典は海外のサイト Video Game Kraken）。
+- 型番: MAME のカートリッジのラベルの番号（`LT-0319953` など。ラベルの「CORTRIDGE」の綴りは除いた）は型番かどうか分からないので `mame_label` に置き、`model_number` は空欄。
+- ハッシュは MAME（No-Intro の DAT が無い）。MADB の「[システム] マイビジョン」の商品は他機種（スーパービジョン8000・ぴゅう太・PC-8801 など）のもので使わない。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1592,6 +1611,8 @@ python3 scripts/fetch_wikipedia_list.py pico --list bundles   # 本体とのセ�
 python3 scripts/fetch_wikipedia_list.py pico --list copera    # コペラ対応 → data/pico/jp_copera.csv
 python3 scripts/enrich.py pico
 python3 scripts/build_dumps.py pico
+
+python3 scripts/build_myvision.py              # マイビジョン（Wikipedia の記事 ＋ MAME）→ data/myvision/
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧
