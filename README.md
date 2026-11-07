@@ -861,13 +861,15 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 
 ## CV
 
-エポック社のカセットビジョン（1981年発売）用のソフト。一覧の記事も MADB・MAME・No-Intro の記録も無いため、ja.wikipedia「カセットビジョン」の
+エポック社のカセットビジョン（1981年発売）用のソフト。一覧の記事も MAME・No-Intro の記録も無いため、ja.wikipedia「カセットビジョン」の
 「ソフトウェア」節の箇条書き（11 作品）から手で作った（`data/cv/jp_titles.csv`。生成スクリプトは無い）。`id` は記事の並び順
 （カセットビジョンJr.対応 8 作品、専用 3 作品の順。発売日が分からないものがあるため厳密な発売順ではない）。
 
 - `jr_compat` はカセットビジョンJr.対応（`yes`。8 件）。
 - 発売日は Wikipedia の記述で確かめられたものだけ（きこりの与作 1981年7月30日〈本体と同時のローンチタイトル〉、ギャラクシアン 1981年8月10日、
-  モンスターマンション 1982年、エレベーターパニック 1984年8月）。ほかの 7 件は空欄（`sources` 列に根拠の記事）。
+  モンスターマンション 1982年、エレベーターパニック 1984年8月）。ほかの 7 件は MADB の発売時期（年、ベースボールは年月。MADB は機種の欄が空で、
+  説明文に「[システム] カセットビジョン」とある 11 件。出典はエポック社の総合カタログと『トイズマガジン』）で補った（`release_date_sources` が `MADB`）。
+  MADB の 11 件は Wikipedia の発売日・価格と矛盾しない。
 - 価格は本体の記事の記述（エレベーターパニックは 3,980円、ほかは 4,980円）。消費税導入前なので `税なし`。
 - 型番・ハッシュは出典が無く空欄（カセットごとにマイコンを内蔵した作りで、MAME・No-Intro に記録が無い）。
 - 販売中止の『グランドチャンピオン』は対象外。
@@ -1286,6 +1288,22 @@ Wikipedia の行と MADB・MAME の候補は、発売日が同じ（か近い）
 - 増えた件数（型番 / 価格）: SFC +15 / +16、GB +9 / +5、PCE +5 / +9、SS +5 / +5、MD +3 / +3、Xbox 360 0 / +19、PS3 0 / +17 など。
 - FC は以前から、題名の手がかりが無くても同日 1 件ずつなら組にしている（FC 節）。
 
+### 発売日の確認
+
+発売日は Wikipedia のゲームタイトル一覧の表を基準にし、MADB・MAME・maru-chang のうち同じ日付のものを `release_date_sources` に記す
+（違うものは要確認レポートの「発売日不一致」）。
+
+- 出典の間の食い違いは約 390 行で、ほとんどは 1 か月以内の差。曜日の分布は各機種の当時の発売曜日（ソニー機は木曜、セガの 1980年代は日曜など）に合い、
+  本体の発売より前の日付も無い。
+- `scripts/check_release_dates.py` は、食い違いのある行について作品ごとの記事（`scripts/fetch_wikipedia_articles.py` で取得。2 秒間隔）の
+  基本情報欄の発売日と照らし合わせ、機種ごとの `review/release_date_check.csv` に判定を書く。
+  記事が他の出典と同じ日付で、一覧の日付が記事に無く、一覧の日付と一致する出典も無く、記事名が題名と似ているもの（リンク先がシリーズや別作品の記事でない）は、
+  一覧の表の誤りとみて `--apply` で `overrides/matches.csv` の `release_date_fix` に書く（`release_date_sources` が `manual+…`）。
+  - 直したもの: 20 件（FC『聖飢魔II 悪魔の逆襲!』12-24 → 12-25、ネオジオ『ショックトルーパーズ セカンドスカッド』1998-06-24 → 1999-06-24、
+    WS『ミスタードリラー』04-15 → 04-05、Xbox 360『NINJA GAIDEN 3』03-29 → 03-22 など。`comment` に根拠）。
+  - 記事が一覧と同じ日付のもの 83 件は一覧のまま。記事が無い・基本情報欄に発売日が無い・どちらの日付も載っていないなどで決まらないもの 283 件は要確認のまま。
+- ネオジオ（ROM）の 1990 年の発売分は、Wikipedia がレンタルの開始、MADB・MAME が店頭での販売開始（1991-07-01）で、定義の違い（`rental` 列）。
+
 ### 型番の出典が食い違うとき
 
 型番は 手動 > MAME > MADB > maru-chang の順に採る（機種ごとの節）。ただし採った型番が DAT（No-Intro・Redump）に無く、
@@ -1433,6 +1451,12 @@ python3 scripts/enrich.py playdia
 python3 scripts/build_pippin.py                # ピピンアットマーク（MAME hash/pippin.xml ＋ Wikipedia の記事）→ data/pippin/
 python3 scripts/build_loopy.py                 # ルーピー（Wikipedia の記事 ＋ No-Intro・MAME のハッシュ）→ data/loopy/
 python3 scripts/build_pv1000.py                # PV-1000（Wikipedia の記事 ＋ MADB ＋ No-Intro）→ data/pv1000/
+
+# 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
+python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧
+python3 scripts/fetch_wikipedia_articles.py .cache/release_date_articles.txt              # → .cache/wikipedia/articles/（2 秒間隔）
+python3 scripts/check_release_dates.py           # → review/release_date_check.csv
+python3 scripts/check_release_dates.py --apply   # 直す候補を overrides/matches.csv に書く（その後 enrich.py をやり直す）
 
 python3 scripts/fetch_wikipedia_list.py scv  # 作品ごとの節の記事
 python3 scripts/enrich.py scv

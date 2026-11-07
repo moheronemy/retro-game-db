@@ -9,7 +9,7 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 2001-06-14,SDガンダム Gジェネレーション ギャザービート2,M742113,,,,,,,MADB は「SDガンダム GGENERATION GATHER BEAT2」（同日）
 2001-09-27,GUILTY GEAR PETIT2,M747328,,,,,,,MADB は「ギルティギア プチ 2」（同日）
 2001-09-27,スターハーツ 〜星と大地の使者〜,M727929,,,,,,,MADB は「STAR HEARTS 星と大地の使者」（同日）
-2002-03-29,ファイナルファンタジーIV,M722927,,,,,,,MADB は「FINAL FANTASY 4」（2002-03-28）
+2002-03-29,ファイナルファンタジーIV,M722927,,,,,,2002-03-28,MADB は「FINAL FANTASY 4」（2002-03-28）。発売日: 一覧の表は 2002-03-29。MADB・MAME と記事「ファイナルファンタジーIV」の基本情報欄は 2002-03-28
 2002-07-04,アークザラッド 機神復活,M727916,,,,,,,MADB は「Arc The Lad 機神復活」（同日）
 2002-07-12,FRONT MISSION,M755870,,,,,,,MADB は「フロントミッション」（同日）
 1999-03-11,ワンダースタジアム,,wstadium,,,,,,MAME の発売日が年月まで（1999-03）で自動照合されない
@@ -22,3 +22,4 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 2002-02-28,ゴールデンアックス,,wscolor:goldnaxe,,,,,,MAME「Golden Axe」（同日・日本語題名なし）
 2003-07-31,聖闘士星矢 黄金伝説編 Perfect Edition,,wscolor:sseiya,,,,,,MAME は「聖闘士星矢 黄金伝説編 パーフェクトエディション」（同日）
 2004-05-31,Dicing Knight.,M751137,wscolor:dicing,,,,,,MADB「だんしんぐないと」は同日でほかに候補が無く、MAME の読み「だいしんぐないと・ピリオド」の誤記とみられる
+2001-04-15,ミスタードリラー,,,,,,,2001-04-05,発売日: 一覧の表は 2001-04-15。MADB・MAME と記事「ミスタードリラー」の基本情報欄は 2001-04-05

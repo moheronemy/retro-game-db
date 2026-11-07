@@ -22,7 +22,7 @@ neogeo-jp-0020,1991-08-30,あしたのジョー伝説,ウェイブ,ACT,,,NGH-029
 neogeo-jp-0021,1991-10-01,クロスソード,SNK,ACT,yes,,NGH-037,21800,税抜,ネオジオCD版のタイトルは『クロススウォード』,クロスソード,Wikipedia+MADB+MAME,MAME,MADB,クロスソード,M747866,crsword
 neogeo-jp-0022,1991-10-25,2020年スーパーベースボール,SNK,SPT,yes,,NGH-030,21800,税抜,,2020年スーパーベースボール,Wikipedia+MADB+MAME,MAME,MADB,2020年スーパーベースボール,M737024,2020bb
 neogeo-jp-0023,1991-11-20,8マン,SNK,ACT,,,NGH-025,21800,税抜,同名映画のゲーム化,8マン,Wikipedia+MADB+MAME,MAME,MADB,エイトマン,M745957,eightman
-neogeo-jp-0024,1991-12-01,餓狼伝説 〜宿命の闘い〜,SNK,ACT,yes,,NGH-033,23800,税抜,,餓狼伝説,Wikipedia,MAME,MADB,餓狼伝説 宿命の戦い―,M760277,fatfury1
+neogeo-jp-0024,1991-12-20,餓狼伝説 〜宿命の闘い〜,SNK,ACT,yes,,NGH-033,23800,税抜,,餓狼伝説,manual+MADB+MAME,MAME,MADB,餓狼伝説 宿命の戦い―,M760277,fatfury1
 neogeo-jp-0025,1991-12-20,スラッシュラリー,アルファ電子,RCG,yes,,NGH-038,23800,税抜,ネオジオCD版のタイトルは『ラリーチェイス』,スラッシュラリー,Wikipedia+MADB+MAME,MAME,MADB,スラッシュ ラリー,M750307,trally
 neogeo-jp-0026,1991-12-20,バカ殿様麻雀漫遊記,モノリス,TBL,,,NGH-036,21000,税抜,,バカ殿様麻雀漫遊記,Wikipedia+MAME,MAME,MADB,バカ殿様麻雀漫遊記,M753717,bakatono
 neogeo-jp-0027,1991-12-10,ロボアーミー,SNK,ACT,yes,,NGH-032,21800,税抜,,ロボアーミー,Wikipedia,MAME,MADB,ロボアーミー,M759216,roboarmya
@@ -66,7 +66,7 @@ neogeo-jp-0064,1995-05-26,風雲黙示録〜格闘創世〜,SNK,ACT,yes,,NGH-059
 neogeo-jp-0065,1995-06-30,ワールドヒーローズ パーフェクト,SNK,ACT,yes,,NGH-090,29800,税抜,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズパーフェクト,M759368,whp
 neogeo-jp-0066,1995-07-28,天外魔境 真伝,ハドソン,ACT,yes,,NGH-092,29800,税抜,,天外魔境 真伝,Wikipedia+MADB+MAME,MAME,MADB,天外魔境真伝,M764588,kabukikl
 neogeo-jp-0067,1995-09-01,ザ・キング・オブ・ファイターズ'95,SNK,ACT,yes,,NGH-084,29800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ザ・キング・オブ・ファイターズ'95,M725874,kof95h
-neogeo-jp-0068,1995-09-28,パルスター,SNK,STG,yes,,NGH-089,32000,税抜,,パルスター,Wikipedia,MAME,MADB,パルスター,M754354,pulstar
+neogeo-jp-0068,1995-09-29,パルスター,SNK,STG,yes,,NGH-089,32000,税抜,,パルスター,manual+MADB+MAME,MAME,MADB,パルスター,M754354,pulstar
 neogeo-jp-0069,1995-10-13,将棋の達人,SNK,TBL,yes,,NGH-203,29800,税抜,開発：ADK,将棋の達人,Wikipedia+MADB+MAME,MAME,MADB,将棋の達人,M762276,moshougi
 neogeo-jp-0070,1995-10-20,超人学園ゴウカイザー,テクノスジャパン,ACT,yes,,NGH-094,29800,税抜,,超人学園ゴウカイザー,Wikipedia+MADB+MAME,MAME,MADB,超人学園ゴウカイザー,M764438,gowcaizr
 neogeo-jp-0071,1995-10-27,ステークスウィナー,ザウルス,ACT,yes,,NGH-088,29800,税抜,,ステークスウィナー,Wikipedia+MADB+MAME,MAME,MADB,ステークスウィナー,M750020,stakwin
@@ -96,7 +96,7 @@ neogeo-jp-0094,1998-01-29,幕末浪漫 月華の剣士,SNK,,yes,,NGH-2340,32000,
 neogeo-jp-0095,1998-02-26,ブレイジングスター,SNK,,,,NGH-2390,29800,税抜,開発を担当した夢工房にとっては参入作 仮タイトルは『パルスター2』,ブレイジングスター,Wikipedia+MADB+MAME,MAME,MADB,ブレイジングスター,M755752,blazstar
 neogeo-jp-0096,1998-04-02,メタルスラッグ2,SNK,,yes,,NGH-2410,29800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 2,M757557,mslug2
 neogeo-jp-0097,1998-04-29,リアルバウト餓狼伝説2 〜THE NEWCOMERS〜,SNK,,yes,,NGH-2400,32000,税抜,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,リアルバウト餓狼伝説2 THE NEWCOMERS,M758413,rbff2h
-neogeo-jp-0098,1998-06-24,ショックトルーパーズ セカンドスカッド,SNK,,,,NGH-2460,29800,税抜,開発：ザウルス,ショックトルーパーズ,Wikipedia,MAME,MADB,ショックトルーパーズ セカンドスカッド,M749397,shocktr2
+neogeo-jp-0098,1999-06-24,ショックトルーパーズ セカンドスカッド,SNK,,,,NGH-2460,29800,税抜,開発：ザウルス,ショックトルーパーズ,manual+MADB+MAME,MAME,MADB,ショックトルーパーズ セカンドスカッド,M749397,shocktr2
 neogeo-jp-0099,1998-07-30,ネオジオカップ'98 〜THE ROAD TO THE VICTORY〜,SNK,,,,NGH-2440,29800,税抜,,ネオジオカップ'98 〜THE ROAD TO THE VICTORY〜,Wikipedia+MADB+MAME,MAME,MADB,ネオジオカップ'98 THE ROAD TO THE VICTORY,M753197,neocup98
 neogeo-jp-0100,1998-09-28,ザ・キング・オブ・ファイターズ'98 〜DREAM MATCH NEVER ENDS〜,SNK,,yes,,NGH-2420,38000,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia,MAME+MADB,MADB,THE KING OF FIGHTERS '98 DREAM MATCH NEVER ENDS,M724714,kof98h
 neogeo-jp-0101,1999-01-28,幕末浪漫第二幕 月華の剣士 〜月に咲く華、散りゆく花〜,SNK,,yes,,NGH-2430,32000,税抜,,月華の剣士,Wikipedia+MADB+MAME,MAME,MADB,幕末浪漫第二幕 月華の剣士 ～月に咲く華、散り行く花～,M766189,lastbld2

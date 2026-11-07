@@ -176,7 +176,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1997-03-20,エリア51,psxdatacenter低スコア0.67で型番を照合（Area 51）,M746107,エリア51 スペシャルパック,1997-03-20,,,
 1997-03-20,三國志リターンズ,型番がNo-Introに無い,M761662,三國志 リターンズ,1997-03-20,sangoret,三國志リターンズ,1997-03-20
 1997-03-20,PGA TOUR'97,発売日不一致 MADB=1997-03-21,M725327,PGA TOUR 97,1997-03-21,,,
-1997-03-20,スーパーロボットシューティング,発売日不一致 MADB=1997-03-21,M725329,スーパーロボットシューティング,1997-03-21,,,
 1997-03-21,ファイナルファンタジーIV,MADB低スコア0.56,M725328,FINAL FANTASY 4,1997-03-21,,,
 1997-03-27,ときめきメモリアル SELECTION藤崎詩織,型番がNo-Introに無い,M725323,ときめきメモリアル Selection 藤崎詩織,1997-03-27,,,
 1997-03-28,ドキドキプリティリーグ,MADB低スコア0.66; MADBが通常版以外の可能性,M752111,ドキドキプリティーリーグ 限定版,1997-03-28,,,
@@ -274,7 +273,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1997-12-11,機動戦士Ζガンダム,MADB未照合,,,,,,
 1997-12-11,維新の嵐,Redumpの題名（Ishin no Arashi (Japan)）から型番を補完（類似度1.00）,M759663,維新の嵐,1997-12-11,,,
 1997-12-11,闘姫伝承 ANGEL EYES,MAME低スコア0.53,M725048,闘姫伝承 ANGEL EYES,1997-12-11,tkdensho,闘姫伝承 エンジェルアイズ,1997-12-11
-1997-12-12,ロックマンDASH 鋼の冒険心,発売日不一致 MADB=1997-12-18,M725031,ロックマンDASH 鋼の冒険心 PlayStation the Best for Family,1997-12-18,,,
 1997-12-18,サイバーエッグ バトルチャンピオン,MADB低スコア0.62,M725035,CYBER EGG BATTLE CHAMPION,1997-12-18,,,
 1997-12-18,モトレーサー,MADB同日1件のみ・題名の手がかりで照合（MOTO RACER）,M740811,MOTO RACER,1997-12-18,,,
 1997-12-18,名車列伝Greatest70'S,MAME同日1件のみ・題名の手がかりで照合（生沢 徹 監修 名車列伝 グレイテスト70's）,M766301,名車列伝 Greatest 70's,1997-12-18,meiretsu,生沢 徹 監修 名車列伝 グレイテスト70's,1997-12-18
@@ -299,7 +297,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1998-02-19,チョロQ3,Redumpの題名（Choro Q 3 (Japan)）から型番を補完（類似度1.00）,M751318,チョロQ3,1998-02-19,,,
 1998-02-19,ファンタスティック・フォー,psxdatacenter低スコア0.69で型番を照合（Fantastic Four）,M755150,ファンタスティック・フォー,1998-02-19,,,
 1998-02-19,クーリエ・クライシス,psxdatacenter低スコア0.59で型番を照合（Courier Crisis）,M747415,クーリエ・クライシス,1998-02-19,,,
-1998-02-19,プリズムコート,発売日不一致 MADB=1998-02-26; 発売日不一致 MAME=1998-02-26,M755610,プリズムコート,1998-02-26,prismcrt,プリズムコート,1998-02-26
 1998-02-26,ウィザードリィ リルガミンサーガ,psxdatacenter低スコア0.62で型番を照合（Wizardry - Llylgamyn Saga）,M745581,ウィザードリィ リルガミンサーガ,1998-02-26,,,
 1998-02-26,パチンコホール 新装大開店,psxdatacenter低スコア0.68で型番を照合（Pachinko Hall - Shinso Dai Kaiten）,M753959,パチンコホール ～新装大開店～,1998-02-26,,,
 1998-02-26,プロジェクトV6,MADB低スコア0.64,M724956,project V6,1998-02-26,,,

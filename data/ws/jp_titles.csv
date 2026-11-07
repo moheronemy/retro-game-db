@@ -133,7 +133,7 @@ ws-jp-0131,2001-03-15,SDガンダム英雄伝 武者伝説,バンダイ,wsc_comp
 ws-jp-0132,2001-03-15,ダークアイズ 〜バトルゲート〜,バンダイ,wsc_compatible,,,,SWJ-BANC08,4500,税抜,,ダークアイズ 〜バトルゲート〜,Wikipedia+MADB+MAME,MAME,MADB,ダークアイズ ～バトルゲート～,M750761,wscolor:darkeyes
 ws-jp-0133,2001-03-29,ワイルドカード,スクウェア,wsc_only,,,,SWJ-SQRC04,4300,税抜,,ワイルドカード (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,WILD CARD,M723383,wscolor:wildcard
 ws-jp-0134,2001-04-15,名探偵コナン 夕暮れの皇女,バンダイ,wsc_compatible,,,,SWJ-BANC0E,3980,税抜,,名探偵コナン,Wikipedia,MAME,MADB,名探偵コナン 夕暮れの皇女,M766324,wscolor:mconanyk
-ws-jp-0135,2001-04-15,ミスタードリラー,ナムコ,wsc_only,,,,SWJ-NMCC01,4500,税抜,,ミスタードリラー,Wikipedia,MAME,MADB,ミスタードリラー,M757201,wscolor:mrdrillr
+ws-jp-0135,2001-04-05,ミスタードリラー,ナムコ,wsc_only,,,,SWJ-NMCC01,4500,税抜,,ミスタードリラー,manual+MADB+MAME,MAME,MADB,ミスタードリラー,M757201,wscolor:mrdrillr
 ws-jp-0136,2001-04-26,三毛猫ホームズ ゴーストパニック,光文社,wsc_only,,,,SWJ-KBSC02,4300,税抜,,三毛猫ホームズシリーズ,Wikipedia+MADB+MAME,MAME,MADB,三毛猫ホームズ ゴーストパニック,M761633,wscolor:mikeneko
 ws-jp-0137,2001-04-26,HUNTER×HUNTER 〜それぞれの決意〜,バンダイ,wsc_only,,,,SWJ-BANC0F,4500,税抜,,HUNTER×HUNTER,Wikipedia+MADB+MAME,MAME+MADB,MADB,HUNTER×HUNTER それぞれの決意,M723352,wscolor:hxhsorez
 ws-jp-0138,2001-05-02,ファイナルファンタジーII,スクウェア,wsc_only,,,,SWJ-SQRC02,5200,税抜,,ファイナルファンタジーII,Wikipedia+MAME,MAME+MADB,MADB,FINAL FANTASY 2,M727935,wscolor:ffant2
@@ -168,7 +168,7 @@ ws-jp-0166,2002-02-28,ゴールデンアックス,バンダイ,wsc_only,,,,SWJ-B
 ws-jp-0167,2002-03-02,キン肉マンII世 ドリームタッグマッチ,バンダイ,wsc_only,,,,SWJ-BANC20,4200,税抜,,キン肉マンII世 ドリームタッグマッチ,Wikipedia+MADB+MAME,MAME+MADB,MADB,キン肉マン2世 ドリームタッグマッチ,M722975,wscolor:kikudrmt
 ws-jp-0168,2002-03-16,デジタルモンスター カードゲーム Ver. WonderSwanColor,バンダイ,wsc_only,,,,SWJ-BANC22,4200,税抜,,デジタルモンスター,Wikipedia+MADB+MAME,MAME+MADB,MADB,デジタルモンスター カードゲーム Ver. WonderSwan Color,M722955,wscolor:digicard
 ws-jp-0169,2002-03-20,魔界塔士Sa・Ga,スクウェア,wsc_only,,,,SWJ-SQRC08,5200,税抜,,魔界塔士Sa・Ga,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔界塔士 サ・ガ,M722950,wscolor:saga
-ws-jp-0170,2002-03-29,ファイナルファンタジーIV,スクウェア,wsc_only,,,,SWJ-SQRC09,,,,ファイナルファンタジーIV,Wikipedia,MAME+MADB,,,M722927,wscolor:ffant4
+ws-jp-0170,2002-03-28,ファイナルファンタジーIV,スクウェア,wsc_only,,,,SWJ-SQRC09,,,,ファイナルファンタジーIV,manual+MADB+MAME,MAME+MADB,,,M722927,wscolor:ffant4
 ws-jp-0171,2002-04-18,テトリス,ヴァンガード,wsc_compatible,,,,SWJ-VGDC01,2800,税抜,,テトリス,Wikipedia+MADB+MAME,MAME,MADB,テトリス,M751833,wscolor:tetris
 ws-jp-0172,2002-04-27,デジモンテイマーズ バトルスピリットVer.1.5,バンダイ,wsc_only,,,,SWJ-BANC30,3980,税抜,,デジモンテイマーズ,Wikipedia+MADB+MAME,MAME,MADB,デジモンテイマーズ バトルスピリット Ver. 1.5,M751730,wscolor:digitbs
 ws-jp-0173,2002-05-25,機動戦士ガンダムVol.3 A BAOA QU,バンダイ,wsc_only,,,,SWJ-BANC25,4980,税抜,,機動戦士ガンダム,Wikipedia+MADB+MAME,MAME+MADB,MADB,機動戦士ガンダム Vol. 3 A BAOA QU,M722874,wscolor:gundvol3

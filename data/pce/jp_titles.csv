@@ -121,7 +121,7 @@ pce-jp-0119,1990-03-02,シティーハンター,サンソフト,hucard,ACT,SS900
 pce-jp-0120,1990-03-02,謎のマスカレード,メサイヤ,hucard,ADV,NCS90003,,,PCゲーム『琥珀色の遺言』のアレンジ移植,藤堂龍之介探偵日記,Wikipedia+MADB+MAME,MAME+MADB,,,M727290,nazomasq
 pce-jp-0121,1990-03-03,スペースインベーダーズ 復活の日,タイトー,hucard,STG,TP02008,5900,,アーケードゲーム『スペースインベーダー』の移植版（本家）とリメイク版（分家）を収録,スペースインベーダーズ 復活の日,Wikipedia,MAME,MADB,スペースインベーダーズ 復活の日,M727289,spaceinv
 pce-jp-0122,1990-03-09,サイバーコア,IGS,hucard,STG,AI-02001,6700,税抜,,サイバーコア,Wikipedia+MADB+MAME,MAME,MADB,サイバーコア,M748700,cybrcore
-pce-jp-0123,1990-03-10,ゴールデンアックス,日本テレネット,cd_rom2,ACT,TJCD0005,6780,税抜,同名アーケードゲームの移植版,ゴールデンアックス,Wikipedia,MAME+MADB+No-Intro,MADB,GOLDEN AXE,M727286,pcecd:goldnaxe
+pce-jp-0123,1990-03-16,ゴールデンアックス,日本テレネット,cd_rom2,ACT,TJCD0005,6780,税抜,同名アーケードゲームの移植版,ゴールデンアックス,manual+MADB+MAME,MAME+MADB+No-Intro,MADB,GOLDEN AXE,M727286,pcecd:goldnaxe
 pce-jp-0124,1990-03-16,倉庫番WORLD,メディアリング,hucard,PZL,MR90001,5400,税抜,PCゲーム『倉庫番』の移植版,倉庫番,Wikipedia+MADB+MAME,MAME+MADB,MADB,倉庫番WORLD,M727283,sokoban
 pce-jp-0125,1990-03-16,源平討魔伝,ナムコ,hucard,ACT,NC90001,,,同名アーケードゲームの移植版,源平討魔伝,Wikipedia+MADB+MAME,MAME+MADB,,,M727285,genpei
 pce-jp-0126,1990-03-16,スーパーダライアス,NECアベニュー,cd_rom2,STG,HACD0003,6800,税抜,アーケードゲーム『ダライアス』のアレンジ移植,ダライアス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SUPER DARIUS,M727284,pcecd:sdarius
@@ -522,7 +522,7 @@ pce-jp-0520,1993-09-30,蒼き狼と白き牝鹿・元朝秘史,光栄,super_cd_r
 pce-jp-0521,1993-09-30,機動警察パトレイバー グリフォン篇,リバーヒルソフト,super_cd_rom2,ADV,RHCD-3006,7200,税抜,OVA『機動警察パトレイバー』を原作とするデジタルコミック,機動警察パトレイバー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,PATLABOR Chapter of Griffon,M726420,pcecd:patlabor
 pce-jp-0522,1993-09-30,麻雀オンザビーチ,NECアベニュー,super_cd_rom2,TBL,NAPR1037,7800,税抜,漫画家・遊人がキャラクターデザインを手掛けた麻雀ゲーム,麻雀オンザビーチ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀オンザビーチ,M766074,pcecd:mjbeach
 pce-jp-0523,1993-09-30,幽☆遊☆白書 闇勝負!!暗黒武術会,バンプレスト,super_cd_rom2,STG,BACD3001,,,漫画『幽☆遊☆白書』のゲーム化,幽☆遊☆白書 闇勝負!!暗黒武術会,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726418,pcecd:yuyu
-pce-jp-0524,1993-10-02,三國志III,光栄,super_cd_rom2,SLG,KOCD3003,14800,税抜,,三國志III,Wikipedia,MAME+MADB+No-Intro,MADB,三國志 3,M726415,pcecd:sangoku3
+pce-jp-0524,1993-10-01,三國志III,光栄,super_cd_rom2,SLG,KOCD3003,14800,税抜,,三國志III,manual+MADB+MAME,MAME+MADB+No-Intro,MADB,三國志 3,M726415,pcecd:sangoku3
 pce-jp-0525,1993-10-15,パワーリーグ'93,ハドソン,hucard,SPT,HC93064,6800,税抜,,パワーリーグ,Wikipedia+MADB+MAME,MAME,MADB,パワーリーグ'93,M754471,pleag93
 pce-jp-0526,1993-10-22,シルフィア,トンキンハウス,super_cd_rom2,STG,THCD3001,,,,シルフィア,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726410,pcecd:sylphia
 pce-jp-0527,1993-10-22,スタートリング・オデッセイ,レイ・フォース,super_cd_rom2,RPG,RFCD3001,8200,税抜,,スタートリング・オデッセイ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スタートリング・オデッセイ,M749958,pcecd:startody
@@ -546,7 +546,7 @@ pce-jp-0544,1993-12-17,マーシャルチャンピオン,コナミ,super_cd_rom2
 pce-jp-0545,1993-12-17,闇の血族 〜遥かなる記憶〜,ナグザット,super_cd_rom2,ADV,NXCD3024,9800,税抜,闇の血族シリーズ2作品を収録,闇の血族 〜遥かなる記憶〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,闇の血族 遥かなる記憶,M726361,pcecd:yamikets
 pce-jp-0546,1993-12-19,フラッシュハイダース,ライトスタッフ,super_cd_rom2,ACT,RSCD3004,7800,税抜,PCエンジン専門誌で体験版が配布された,フラッシュハイダース,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フラッシュハイダース,M755515,pcecd:flashhid
 pce-jp-0547,1993-12-22,イースIV The Dawn of Ys,ハドソン,super_cd_rom2,ARPG,HCD3051,,,,イースIV The Dawn of Ys,Wikipedia+MAME,MAME+No-Intro,,,,pcecd:ys4
-pce-jp-0548,1993-12-23,スーパーダライアスII,NECアベニュー,super_cd_rom2,STG,NAPR1031,,,同名アーケードゲームの移植版,ダライアスII,Wikipedia,MAME+No-Intro,,,,pcecd:sdarius2
+pce-jp-0548,1993-12-24,スーパーダライアスII,NECアベニュー,super_cd_rom2,STG,NAPR1031,,,同名アーケードゲームの移植版,ダライアスII,manual+MAME,MAME+No-Intro,,,,pcecd:sdarius2
 pce-jp-0549,1993-12-24,セクシーアイドル麻雀,日本物産,super_cd_rom2,TBL,NBCD3004,,,,セクシーアイドル麻雀,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726340,pcecd:sexyidol
 pce-jp-0550,1993-12-24,ダウンタウン熱血物語,ナグザット,super_cd_rom2,ACT,NXCD2015,8800,税抜,同名ファミリーコンピュータ用ソフトの移植版,ダウンタウン熱血物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ダウンタウン熱血物語,M750944,pcecd:downtown
 pce-jp-0551,1993-12-25,真・女神転生,アトラス,super_cd_rom2,RPG,ATCD3006,,,同名スーパーファミコン用ソフトの移植版,真・女神転生,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726334,pcecd:shinmt

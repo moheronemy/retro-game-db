@@ -32,7 +32,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2001-03-15,SDガンダム英雄伝 武者伝説,型番不一致 MAME=SWJ-BANC0B MADB=SWJ-BANC08,M723416,SDガンダム英雄伝 武者伝説,2001-03-15,wscolor:sdgunde2,SDガンダム英雄伝 ～武者伝説～,2001-03-15
 2001-03-15,ダークアイズ 〜バトルゲート〜,MAME低スコア0.50,M750761,ダークアイズ ～バトルゲート～,2001-03-15,wscolor:darkeyes,バトルゲート ダークアイズ,2001-03-15
 2001-04-15,名探偵コナン 夕暮れの皇女,発売日不一致 MADB=2001-04-05; 発売日不一致 MAME=2001-04-05,M766324,名探偵コナン 夕暮れの皇女,2001-04-05,wscolor:mconanyk,名探偵コナン ～夕暮れの皇女～,2001-04-05
-2001-04-15,ミスタードリラー,発売日不一致 MADB=2001-04-05; 発売日不一致 MAME=2001-04-05,M757201,ミスタードリラー,2001-04-05,wscolor:mrdrillr,ミスタードリラー,2001-04-05
 2001-04-26,HUNTER×HUNTER 〜それぞれの決意〜,MAME低スコア0.51,M723352,HUNTER×HUNTER それぞれの決意,2001-04-26,wscolor:hxhsorez,ハンター×ハンター ～それぞれの決意～,2001-04-26
 2001-05-02,ファイナルファンタジーII,発売日不一致 MADB=2001-05-03,M727935,FINAL FANTASY 2,2001-05-03,wscolor:ffant2,ファイナルファンタジーII,2001-05-02
 2001-05-24,ポケットの中のDoraemon,MAME低スコア0.52,M756250,ポケットの中のDoraemon,2001-05-24,wscolor:doraemon,ポケットの中の ドラえもん,2001-05-24
@@ -47,7 +46,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2002-02-16,SDガンダム オペレーションU.C.,発売日不一致 MADB=2002-02-14,M723003,SDガンダム オペレーション U.C.,2002-02-14,wscolor:sdgunduc,SDガンダム オペレーション U.C.,2002-02-16
 2002-03-16,デジタルモンスター カードゲーム Ver. WonderSwanColor,MAME低スコア0.73,M722955,デジタルモンスター カードゲーム Ver. WonderSwan Color,2002-03-16,wscolor:digicard,デジタルモンスター カードゲーム バージョン ワンダースワンカラー,2002-03-16
 2002-03-20,魔界塔士Sa・Ga,MAME低スコア0.57,M722950,魔界塔士 サ・ガ,2002-03-20,wscolor:saga,魔界塔士 サ・ガ,2002-03-20
-2002-03-29,ファイナルファンタジーIV,発売日不一致 MADB=2002-03-28; 発売日不一致 MAME=2002-03-28,M722927,FINAL FANTASY 4,2002-03-28,wscolor:ffant4,ファイナルファンタジーIV,2002-03-28
 2002-05-25,機動戦士ガンダムVol.3 A BAOA QU,MAME低スコア0.65,M722874,機動戦士ガンダム Vol. 3 A BAOA QU,2002-05-25,wscolor:gundvol3,機動戦士ガンダム Vol.3 ア・バオア・クー,2002-05-25
 2002-06-27,X CARD OF FATE,MAME未照合,M727917,X CARD OF FATE,2002-06-27,,,
 2002-07-12,From TV animation ONE PIECE グランドバトル 〜スワンコロシアム〜,MAME低スコア0.54,M722823,ONE PIECE グランドバトル スワンコロシアム,2002-07-12,wscolor:onepbatl,フロムテレビアニメーション ワンピース グランドバトル スワンコロシアム,2002-07-12
