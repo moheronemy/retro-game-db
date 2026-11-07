@@ -1,0 +1,5 @@
+title_id,title,mame_name,mame_description,rom_name,size,crc32,sha1,mame_status,hash_source
+arcadia-jp-0016,機動戦士ガンダム,gundam,Kidou Senshi Gundam,gundam.bin,8192,1241f128,4b07a88b06008ddfc3676983e826e107caf3ba0f,yes,MAME
+arcadia-jp-0017,超時空要塞マクロス,macross,Choujikuu Yousai Macross,macross.bin,8192,4c885af2,3d24ab9e42ff44a223bb53c5491dea7f41691df2,yes,MAME
+arcadia-jp-0018,Dr.スランプ アラレちゃん,drslump,Dr. Slump: Arale-chan,drslump.bin,8192,927c375a,389259f1505deef5c0fb83f9cf8b0f7fa4ed5d04,yes,MAME
+arcadia-jp-0019,ドラえもん,doraemon,Doraemon,doraemon.bin,8192,62c45881,a16fda96d00c8b08bb362f2573a45939aa6be051,yes,MAME

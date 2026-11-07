@@ -33,6 +33,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | カシオ PV-1000 | [`data/pv1000/jp_titles.csv`](data/pv1000/jp_titles.csv) | 13 | 13 | 8 | [`data/pv1000/jp_rom_dumps.csv`](data/pv1000/jp_rom_dumps.csv)（13 行） |
 | ゲームポケコン | [`data/gamepock/jp_titles.csv`](data/gamepock/jp_titles.csv) | 5 | 0 | 0 | [`data/gamepock/jp_rom_dumps.csv`](data/gamepock/jp_rom_dumps.csv)（5 行） |
 | ぴゅう太 | [`data/pyuuta/jp_titles.csv`](data/pyuuta/jp_titles.csv) | 26 | 0 | 7 | [`data/pyuuta/jp_rom_dumps.csv`](data/pyuuta/jp_rom_dumps.csv)（26 行） |
+| アルカディア | [`data/arcadia/jp_titles.csv`](data/arcadia/jp_titles.csv) | 19 | 0 | 4 | [`data/arcadia/jp_rom_dumps.csv`](data/arcadia/jp_rom_dumps.csv)（4 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -73,6 +74,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | PV-1000 | （出典に記載なし・0 件） | （0 件） | |
 | ゲームポケコン | （出典に記載なし・0 件） | （0 件） | |
 | ぴゅう太 | （未調査・0 件） | （0 件） | カセットテープ [`jp_tape.csv`](data/pyuuta/jp_tape.csv)（8 件） |
+| アルカディア | （出典に記載なし・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -1003,6 +1005,26 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - ハッシュは MAME（libretro に No-Intro の DAT が無い）。『プーヤン』『ジャングラー』は MAME の項目に地域の記載が無く、
   『ガッタンゴットン』『メイズパトロール』『バミューダトライアングル』は米国版と同じ項目、『スクランブル』『トロン』は米国版の別版の項目（`notes` に記載）。
 
+## アルカディア
+
+バンダイのアルカディア（1983年3月25日発売。米国 Emerson Radio の Arcadia 2001 と同じ仕様の輸入機）用のソフト。`id` は `arcadia-jp-<連番>`
+（記事の並び順。輸入ソフト → キャラクターソフト）。`scripts/build_arcadia.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売時期・価格 | ja.wikipedia「アルカディア (ゲーム機)」の「アルカディア (バンダイ)」節（本文と「発売されたタイトル」の箇条書き） |
+| ハッシュ | MAME `hash/arcadia.xml` の日本版（キャラクターソフトの 4 本） |
+
+- 全 19 本（本文の「全19本がバンダイから発売」と一致）。`category` が `import`（海外からの輸入ソフト 15 本）と `character`（バンダイと科学技研の
+  共同開発のキャラクターソフト 4 本）。計画だけの『パーマン』『科学戦隊ダイナマン』、同じ仕様の他社機（朝日通商など）は対象外。
+- 発売日: 輸入ソフトは本文の「全15本がアルカディア本体と同時発売」から `1983-03-25`。キャラクターソフトは本文に『月刊コロコロコミック』1983年10月号の時点で
+  『機動戦士ガンダム』『ドラえもん』が発売済み、『超時空要塞マクロス』『Dr.スランプ アラレちゃん』が 1983年9月発売予定とあるだけなので年（`1983`）にし、
+  元の記述を `release_date_text` に残した。
+- 価格: キャラクターソフトは本文の 3,800 円（`税なし`）。輸入ソフトは本文に 2,980〜4,800 円とあるだけで作品ごとに分からないので空欄。型番は出典が無く空欄。
+- ハッシュは日本版の吸い出しのあるキャラクターソフトの 4 本だけ。輸入ソフトは MAME・No-Intro（`Emerson - Arcadia 2001`）に米国版しか無いので載せない
+  （対応する Emerson 版の題名は出典で確かめられないものがあり、推測しない）。
+- MADB の「[システム] アルカディア」の商品はクリエイトビジョン版・ソード版など他機種のもので、使わない。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1499,6 +1521,7 @@ python3 scripts/build_loopy.py                 # ルーピー（Wikipedia の記
 python3 scripts/build_pv1000.py                # PV-1000（Wikipedia の記事 ＋ MADB ＋ No-Intro）→ data/pv1000/
 python3 scripts/build_gamepock.py              # ゲームポケコン（Wikipedia の記事 ＋ MAME）→ data/gamepock/
 python3 scripts/build_pyuuta.py                # ぴゅう太（Wikipedia の記事 ＋ MADB ＋ MAME）→ data/pyuuta/
+python3 scripts/build_arcadia.py               # アルカディア（Wikipedia の記事 ＋ MAME）→ data/arcadia/
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧
