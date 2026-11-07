@@ -53,6 +53,13 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ワンダースワン／カラー (WS/WSC) | [`data/ws/jp_titles.csv`](data/ws/jp_titles.csv) | 202 | 200 | 181 | [`data/ws/jp_rom_dumps.csv`](data/ws/jp_rom_dumps.csv)（227 行） |
 | PlayStation 3 (PS3) | [`data/ps3/jp_titles.csv`](data/ps3/jp_titles.csv) | 982 | 511 | 914 | [`data/ps3/jp_rom_dumps.csv`](data/ps3/jp_rom_dumps.csv)（531 行） |
 
+**対象外とした機種**（検討した結果、収録しないもの）
+
+| 機種 | 理由 |
+|---|---|
+| セガAIコンピュータ（セガ、1986年） | 3〜8歳児向けの CAI（コンピュータ支援教育）用ホームコンピュータで、ソフトは教材（コースウェア）だけ。丸紅が知育教材「くもん わんだぁすくーる」（全18巻）とのセットで販売し、1 本ずつ店頭で売られたものではない。ja.wikipedia のコースウェアの一覧は販売開始当初のパンフレットのもので、実際に供給された内容と異なる場合があると注記されている（MAME `segaai` には ICカード版・テープ版など 36 件がある） |
+
+
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
 |---|---|---|---|
 | GBA | [`jp_not_for_sale.csv`](data/gba/jp_not_for_sale.csv)（5 件） | [`jp_non_retail.csv`](data/gba/jp_non_retail.csv)（35 件） | |
