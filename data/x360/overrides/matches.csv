@@ -16,3 +16,5 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 2013-09-26,ARMORED CORE VERDICT DAY,-,,,,,,,,,,数量限定版・コレクターズエディションしか MADB に無いので価格を採らない
 2014-03-27,YAIBA: NINJA GAIDEN Z,M720464,,,,,,,,,,MADB の通常版（自動照合ではスペシャルゾンビパックが当たる）
 2012-03-29,NINJA GAIDEN 3,,,,,,,2012-03-22,,,,発売日: 一覧の表は 2012-03-29。MADB と記事「NINJA GAIDEN 3」の基本情報欄は 2012-03-22
+2007-08-30,Hitman: Blood Money,M754691,,,,,,,,,,MADB「ヒットマン: ブラッドマネー」（題名の表記違いで自動照合されない。価格の調査で手動対応）
+2009-10-22,Forza Motorsport 3,M755300,,,,,,,,,,MADB「フォルツァ モータースポーツ3」（題名の表記違いで自動照合されない。価格の調査で手動対応）

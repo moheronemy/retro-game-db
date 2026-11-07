@@ -1,197 +1,197 @@
-id,release_date,title,publisher,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
-gg-jp-0001,1990-10-06,コラムス,セガ,G-3104,2900,税抜,ローンチタイトル。同名アーケードゲームの移植版,コラムス,Wikipedia+MADB,MADB,MADB,コラムス,M727172,
-gg-jp-0002,1990-10-06,スーパーモナコGP,セガ,G-3201,3500,税抜,ローンチタイトル。同名アーケードゲームの移植版,スーパーモナコGP,Wikipedia+MADB+MAME,MAME+MADB,MADB,ス-パーモナコGP,M727173,smgpj
-gg-jp-0003,1990-10-06,ペンゴ,セガ,G-3102,2900,税抜,ローンチタイトル。同名アーケードゲームの移植版,ペンゴ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ペンゴ,M727171,pengoj
-gg-jp-0004,1990-10-23,斬GEAR,ウルフ・チーム,T-32017,3800,税抜,同名PCゲームの移植版,斬GEAR,Wikipedia+MADB+MAME,MAME,MADB,斬ギア,M761779,zangear
-gg-jp-0005,1990-11-10,対戦麻雀 好牌,セガ,,3500,税抜,,対戦麻雀 好牌,Wikipedia+MADB,,MADB,対戦麻雀・好牌,M763970,
-gg-jp-0006,1990-12-08,ワンダーボーイ,セガ,G-3205,3500,税抜,,ワンダーボーイ (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ワンダーボーイ,M759476,wboyj
-gg-jp-0007,1990-12-15,G-LOC AIR BATTLE,セガ,G-3204,3500,税抜,,G-LOC: AIR BATTLE,Wikipedia+MADB+MAME,MAME,MADB,G-ロック Air Battle,M739700,glocj1
-gg-jp-0008,1990-12-15,倉庫番,リバーヒルソフト,T-53017,3500,税抜,,倉庫番,Wikipedia+MADB+MAME,MAME,MADB,倉庫番,M763729,sokoban
-gg-jp-0009,1990-12-22,ドラゴンクリスタル ツラニの迷宮,セガ,G-3206,3500,税抜,,ドラゴンクリスタル ツラニの迷宮,Wikipedia+MADB+MAME,MAME,MADB,ドラゴンクリスタル ツラニの迷宮,M752475,dcrystalj
-gg-jp-0010,1990-12-27,上海II,サンソフト,T-15017,3800,税抜,,上海 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,上海 2 ゲームギア専用ソフト 名作コレクション,M727107,shangh2a
-gg-jp-0011,1991-01-26,THEプロ野球'91,セガ,G-3207,3500,税抜,,THEプロ野球'91,Wikipedia+MADB+MAME,MAME,MADB,THE・プロ野球'91,M743338,proyak91
-gg-jp-0012,1991-01-29,パックマン,ナムコ,T-14017,3500,税抜,,パックマン,Wikipedia+MADB+MAME,MAME,MADB,パックマン,M753997,pacmanj
-gg-jp-0013,1991-02-02,サイキック・ワールド,セガ,G-3203,3500,税抜,,サイキック・ワールド,Wikipedia+MAME,MAME,MADB,サイキックワールド,M748671,psychicwj
-gg-jp-0014,1991-02-23,ポップブレイカー,マイクロキャビン,T-52017,3800,税抜,,ポップブレイカー,Wikipedia+MADB+MAME,MAME,MADB,ポップブレイカー,M756406,popbreak
-gg-jp-0015,1991-02-24,ジャンクション,マイクロネット,T-22017,3000,税抜,,ジャンクション (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ジャンクション,M749296,junctionj
-gg-jp-0016,1991-03-01,ウッディポップ,セガ,,2900,税抜,,ウッディポップ,Wikipedia+MADB,,MADB,ウッディポップ,M745856,
-gg-jp-0017,1991-03-08,タイトーチェイスH.Q.,タイトー,T-11017,3800,税抜,,タイトーチェイスH.Q.,Wikipedia+MADB+MAME,MAME,MADB,タイトーチェイスH.Q.,M750843,chasehqj
-gg-jp-0018,1991-03-08,タロットの館,セガ,G-3208,3500,税抜,,タロットの館,Wikipedia+MADB+MAME,MAME,MADB,タロットの館,M751083,tarot
-gg-jp-0019,1991-03-15,ヘッドバスター,メサイヤ,T-25017,3500,税抜,,ヘッドバスター,Wikipedia+MADB+MAME,MAME+MADB,MADB,ヘッドバスター,M727082,headbust
-gg-jp-0020,1991-03-21,ミッキーマウスのキャッスル・イリュージョン,セガ,G-3301,3500,税抜,,ミッキーマウスのキャッスル・イリュージョン,Wikipedia+MADB+MAME,MAME,MADB,ミッキーマウスのキャッスル・イリュージョン,M757237,castlillj
-gg-jp-0021,1991-03-29,デビリッシュ,元気,T-28017,3800,税抜,,デビリッシュ,Wikipedia+MADB+MAME,MAME,MADB,デビリッシュ,M751896,devilishj
-gg-jp-0022,1991-03-29,キネティックコネクション,セガ,G-3401,3800,税抜,,キネティックコネクション,Wikipedia+MADB+MAME,MAME,MADB,キネティックコネクション,M747141,kineticc
-gg-jp-0023,1991-04-05,ギアスタジアム,ナムコ,T-14037,3500,税抜,,ギアスタジアム,Wikipedia+MADB+MAME,MAME,MADB,ギアスタジアム,M747012,gearstad
-gg-jp-0024,1991-04-19,スーパーゴルフ,シグマ商事,T-26017,3500,税抜,,スーパーゴルフ,Wikipedia+MADB+MAME,MAME,MADB,スーパーゴルフ,M749500,supgolfj
-gg-jp-0025,1991-04-26,The GG忍,セガ,G-3302,3800,税抜,,忍_-SHINOBI-,Wikipedia+MADB+MAME,MAME,MADB,The GG忍,M743208,shinobij
-gg-jp-0026,1991-04-26,スクウィーク,ビクター音楽産業,T-60017,3800,税抜,,スクウィーク,Wikipedia+MADB+MAME,MAME,MADB,スクウィーク,M749850,skweek
-gg-jp-0027,1991-04-26,紫禁城,サンソフト,T-15027,3800,税抜,,紫禁城,Wikipedia+MADB+MAME,MAME,MADB,紫禁城,M761836,shikinjo
-gg-jp-0028,1991-05-24,マッピー,ナムコ,T-14027,3500,税抜,,マッピー,Wikipedia+MADB+MAME,MAME+MADB,MADB,マッピー,M727031,mappy
-gg-jp-0029,1991-05-31,琉球,フェイス,T-54017,3800,税抜,,琉球 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,琉球,M727027,ryukyu
-gg-jp-0030,1991-06-21,ハレーウォーズ,タイトー,T-11027,3800,税抜,,ハレーウォーズ,Wikipedia+MADB+MAME,MAME,MADB,ハレーウォーズ,M754379,halleywj
-gg-jp-0031,1991-06-21,がんばれゴルビー!,セガ,G-3210,3500,税抜,「ゴルビー」とはソビエト連邦の元大統領ミハイル・ゴルバチョフのこと,がんばれゴルビー!,Wikipedia+MADB+MAME,MAME,MADB,がんばれ ゴルビー!,M746936,ggorby
-gg-jp-0032,1991-07-05,まじかる☆タルるートくん,ツクダアイデアル,T-65017,3980,税抜,同名アニメーションをゲーム化,まじかる☆タルるートくん,Wikipedia+MADB+MAME,MAME,MADB,まじかる☆タルるートくん,M756758,mtaruru
-gg-jp-0033,1991-07-12,マジカルパズル ポピルズ,テンゲン,T-48017,4800,税抜,,マジカルパズル ポピルズ,Wikipedia+MADB+MAME,MAME,MADB,マジカルパズル・ポピルズ,M756791,magiclpp
-gg-jp-0034,1991-07-19,ファンタジーゾーンGear オパオパJr.の冒険,シムス,T-44017,3900,税抜,,ファンタジーゾーン,Wikipedia+MADB+MAME,MAME,MADB,ファンタジーゾーンGear オパオパJr.の冒険,M726996,fantzone
-gg-jp-0035,1991-07-26,グリフォン,RIOT,T-49017,3800,税抜,,グリフォン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,グリフォン,M747703,griffin
-gg-jp-0036,1991-07-26,ワギャンランド,ナムコ,T-14047,4000,税抜,,ワギャンランド,Wikipedia+MADB+MAME,MAME,MADB,ワギャンランド,M759424,wagyan
-gg-jp-0037,1991-08-09,アウトラン,セガ,G-3222,3500,税抜,同名アーケードゲームの移植版,アウトラン,Wikipedia+MADB,MADB,MADB,OutRun,M726977,
-gg-jp-0038,1991-08-09,エターナルレジェンド 永遠の伝説,セガ,G-3402,4500,税抜,,エターナルレジェンド 永遠の伝説,Wikipedia+MADB,MADB,MADB,EternaL Legend,M726978,
-gg-jp-0039,1991-08-09,ラスタン・サーガ,タイトー,T-11037,4500,税抜,,ラスタンサーガ,Wikipedia+MADB+MAME,MAME,MADB,ラスタンサーガ,M758246,rastan
-gg-jp-0040,1991-09-27,パット&パター,セガ,G-3209,3500,税抜,セガ・ゲーム図書館で配信されていた『パターゴルフ』の移植,パット&パター,Wikipedia+MADB+MAME,MAME,MADB,パット＆パター,M754020,puttputtj
-gg-jp-0041,1991-09-28,対戦型大戦略G,システムソフト,T-51027,4800,税抜,,大戦略シリーズ,Wikipedia+MADB,MADB,MADB,対戦型大戦略G,M726957,
-gg-jp-0042,1991-10-25,ギャラガ'91,ナムコ,T-14057,3500,税抜,,ギャラガ'88,Wikipedia+MADB+MAME,MAME,MADB,ギャラガ'91,M747217,galaga91
-gg-jp-0043,1991-11-01,忍者外伝,セガ,G-3215,3500,税抜,,忍者外伝,Wikipedia+MADB+MAME,MAME,MADB,忍者外伝,M765159,ngaidenj
-gg-jp-0044,1991-11-01,アックス=バトラー ゴールデンアックス伝説,セガ,G-3306,3800,税抜,,ゴールデンアックス,Wikipedia+MADB+MAME,MAME,MADB,アックス=バトラー ゴールデンアックス伝説,M744899,axbattlrj
-gg-jp-0045,1991-11-22,クニちゃんのゲーム天国,セガ,G-3303,3800,税抜,タレントの山田邦子を主役としたミニゲーム集,クニちゃんのゲーム天国,Wikipedia+MADB+MAME,MAME,MADB,クニちゃんのゲーム天国,M747486,kunichan
-gg-jp-0046,1991-11-29,ベルリンの壁,KANEKO,T-33017,3500,税抜,日本国外で発売されていたアーケードゲームの移植版にストーリーなどを付与,ベルリンの壁 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ベルリンの壁,M756078,berlin
-gg-jp-0047,1991-12-13,アーリエル クリスタル伝説,セガ,G-3403,4500,税抜,,アーリエル クリスタル伝説,Wikipedia+MADB+MAME,MAME,MADB,アーリエル クリスタル伝説,M744411,arliel
-gg-jp-0048,1991-12-20,ドナルドダックのラッキーダイム,セガ,G-3309,3800,税抜,,ドナルドダックのラッキーダイム,Wikipedia+MADB+MAME,MAME,MADB,ドナルドダックのラッキーダイム,M752265,donaldld
-gg-jp-0049,1991-12-27,ヘビーウェイトチャンプ,シムス,T-44027,4200,税抜,,ヘビーウェイトチャンプ,Wikipedia+MADB+MAME,MAME,MADB,ヘビーウェイト チャンプ,M756010,heavyw
-gg-jp-0050,1991-12-27,フレイ 〜修行編〜,マイクロキャビン,T-52037,4500,税抜,,フレイ (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,フレイ～修行編～,M755738,fray
-gg-jp-0051,1991-12-28,ソニック・ザ・ヘッジホッグ,セガ,G-3307,3800,税抜,同時発売された、同名メガドライブ用ソフトとは内容が異なる,ソニック・ザ・ヘッジホッグ (1991年のゲーム),Wikipedia+MADB+MAME,MAME,MADB,ソニック・ザ・ヘッジホッグ,M750627,sonicj
-gg-jp-0052,1991-12-28,スペースハリアー,セガ,G-3212,3500,税抜,,スペースハリアー,Wikipedia+MADB+MAME,MAME,MADB,スペースハリアー,M750223,sharrier
-gg-jp-0053,1991-12-29,GGアレスタ,コンパイル,T-66017,,,アレスタシリーズの派生作品で、同シリーズ初のゲームギア作品,アレスタ,Wikipedia+MAME,MAME,,,,ggaleste
-gg-jp-0054,1992-02-07,ポケット雀荘,ナムコ,T-14067,3500,税抜,,ポケット雀荘,Wikipedia+MADB+MAME,MAME,MADB,ポケット雀荘,M756316,pocketj
-gg-jp-0055,1992-03-13,ファンタシースターアドベンチャー,セガ,G-3216,3500,税抜,,ファンタシースター,Wikipedia+MADB+MAME,MAME,MADB,ファンタシースターアドベンチャー,M755124,pstaradv
-gg-jp-0056,1992-03-19,エイリアンシンドローム,シムス,T-44037,4500,税抜,,エイリアンシンドローム,Wikipedia+MADB+MAME,MAME,MADB,エイリアンシンドローム,M745970,aliensynj
-gg-jp-0057,1992-03-20,バスターボール,リバーヒルソフト,T-53027,3800,税抜,,バスターボール,Wikipedia+MADB+MAME,MAME,MADB,バスターボール,M753752,busterb
-gg-jp-0058,1992-03-27,モンスターワールドII ドラゴンの罠,セガ,G-3308,3800,税抜,日本国外で発売されたマスターシステム用ソフトの移植,モンスターワールド,Wikipedia+MADB+MAME,MAME,MADB,モンスターワールド 2  ドラゴンの罠,M734486,mworld2
-gg-jp-0059,1992-04-24,超プロ野球'92,セガ,G-3217,3500,税抜,,超プロ野球'92,Wikipedia+MADB+MAME,MAME,MADB,ハイパー・プロ野球'92,M753658,hypyak92
-gg-jp-0060,1992-05-22,ジョー・モンタナ フットボール,セガ,G-3305,3800,税抜,,ジョー・モンタナ フットボール,Wikipedia+MADB+MAME,MAME+MADB,MADB,Joe Montana FOOTBALL,M726784,joemontj
-gg-jp-0061,1992-05-22,ひょっこりひょうたん島 ひょうたん島の大航海,セガ,G-3218,3500,税抜,,ひょっこりひょうたん島,Wikipedia+MADB+MAME,MAME,MADB,ひょっこりひょうたん島 ひょうたん島の大航海,M754749,hyokkohj
-gg-jp-0062,1992-06-05,エアリアルアサルト,セガ,G-3219,3500,税抜,,エアリアルアサルト,Wikipedia+MADB+MAME,MAME,MADB,エアリアル アサルト,M745943,aerialasj
-gg-jp-0063,1992-06-12,ぎゅわんぶらあ自己中心派,セガ,G-3309,3800,税抜,,ぎゅわんぶらあ自己中心派,Wikipedia+MADB,MADB,MADB,ぎゅわんぶらあ自己中心派,M726773,
-gg-jp-0064,1992-07-24,オリンピックゴールド,セガ,G-3316,3800,税抜,,オリンピックゴールド,Wikipedia+MADB+MAME,MAME,MADB,オリンピックゴールド,M746417,olympglda
-gg-jp-0065,1992-08-07,炎の闘球児 ドッジ弾平,セガ,G-3220,3200,税抜,,炎の闘球児 ドッジ弾平,Wikipedia+MADB+MAME,MAME,MADB,炎の闘球児 ドッジ弾平,M759921,ddanpei
-gg-jp-0066,1992-08-28,アイルトン・セナ スーパーモナコGP II,セガ,,3500,税抜,,アイルトン・セナ スーパーモナコGP II,Wikipedia+MADB,,MADB,アイルトン・セナ スーパーモナコ GP 2,M733918,
-gg-jp-0067,1992-09-18,シャダム・クルセイダー 〜遙かなる王国〜,セガ,G-3404,5500,税抜,日本では当初のタイトルは『シャダム戦記』,シャダム・クルセイダー 遥かなる王国,Wikipedia+MADB+MAME,MAME+MADB,MADB,シャダム・クルセイダー 遥かなる王国,M726707,shadam
-gg-jp-0068,1992-10-16,ファンタシースター外伝,セガ,G-3405,4500,税抜,,ファンタシースター,Wikipedia+MADB,MAME,MADB,ファンタシースター外伝,M755138,pstargdn
-gg-jp-0069,1992-10-23,バットマン・リターンズ,セガ,G-3314,3500,税抜,,バットマン・リターンズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,バットマン・リターンズ,M726688,batmanrn
-gg-jp-0070,1992-10-23,イン ザ ウエイク オブ バンパイア,シムス,T-44047,,,,IN THE WAKE OF VAMPIRE,Wikipedia+MAME,MAME,,,,wakevamp
-gg-jp-0071,1992-10-30,チャックロック,セガ,G-3320,3500,税抜,,チャックロック,Wikipedia+MADB+MAME,MAME,MADB,チャックロック,M751236,chuckrck
-gg-jp-0072,1992-11-21,ソニック・ザ・ヘッジホッグ2,セガ,G-3321,3800,税抜,,ソニック・ザ・ヘッジホッグ2,Wikipedia+MADB+MAME,MAME,MADB,ソニック・ザ・ヘッジホッグ 2,M750632,sonic2
-gg-jp-0073,1992-11-27,ベア・ナックル 怒りの鉄拳,セガ,G-3313,3500,税抜,,ベア・ナックル,Wikipedia+MADB+MAME,MAME,MADB,ベア・ナックル,M755958,sor
-gg-jp-0074,1992-12-11,The GG忍II,セガ,G-3315,3500,税抜,,忍 -SHINOBI-,Wikipedia+MADB+MAME,MAME,MADB,The GG忍2,M743209,shinobi2
-gg-jp-0075,1992-12-18,クニちゃんのゲーム天国Part2,セガ,G-3322,3500,税抜,,クニちゃんのゲーム天国Part2,Wikipedia+MADB+MAME,MAME,MADB,クニちゃんのゲーム天国Part2,M747487,kunichn2
-gg-jp-0076,1992-12-25,シャイニング・フォース外伝 〜遠征・邪神の国へ〜,セガ,G-3406,5500,税抜,,シャイニング・フォース外伝 遠征・邪神の国へ,Wikipedia+MADB,MADB,MADB,SHINING FORCE 外伝 遠征・邪神の国へ,M726608,
-gg-jp-0077,1993-02-05,レミングス,セガ,G-3317,3500,税抜,,レミングス,Wikipedia+MADB+MAME,MAME,MADB,レミングス,M758890,lemmings
-gg-jp-0078,1993-02-26,ウィンブルドン,セガ,G-3221,3200,税抜,,ウィンブルドン,Wikipedia+MADB+MAME,MAME,MADB,ウィンブルドン,M745687,wimbled
-gg-jp-0079,1993-03-19,ぷよぷよ,セガ,G-3324,3500,税抜,,ぷよぷよ,Wikipedia+MADB+MAME,MAME,MADB,ぷよぷよ,M755376,puyopuyo
-gg-jp-0080,1993-03-26,ミッキーマウスの魔法のクリスタル,セガ,G-3323,3800,税抜,本体同梱のプラスワンセットも発売,ミッキーマウスの魔法のクリスタル,Wikipedia+MADB+MAME,MAME,MADB,ミッキーマウスの魔法のクリスタル,M757238,landillj
-gg-jp-0081,1993-04-29,ドラえもん ノラのすけの野望,セガ,G-3326,3500,税抜,,ドラえもん,Wikipedia+MADB+MAME,MAME,MADB,ドラえもん ノラのすけの野望,M752353,ggdora
-gg-jp-0082,1993-04-29,プロ野球GGリーグ,セガ,G-3407,4500,税抜,当初のタイトルは『超（ハイパー）プロ野球93』,プロ野球GGリーグ,Wikipedia+MADB+MAME,MAME,MADB,プロ野球GGリーグ,M755919,proyakgg
-gg-jp-0083,1993-05-28,キック アンド ラッシュ,シムス,T-44057,,,,キック アンド ラッシュ,Wikipedia+MAME,MAME,,,,kickrush
-gg-jp-0084,1993-06-25,トム&ジェリー THE MOVIE,セガ,G-3319,3800,税抜,同名映画をゲーム化,,Wikipedia+MADB+MAME,MAME,MADB,トム＆ジェリー ザ・ムービー,M752285,tomjermvj
-gg-jp-0085,1993-06-25,シャイニング・フォース外伝II 〜邪神の覚醒〜,セガ,G-3409,,,シャイニング・フォース外伝シリーズ第2弾,シャイニング・フォース外伝II 邪神の覚醒,Wikipedia+MAME,MAME,,,,shinfrg2
-gg-jp-0086,1993-07-02,ああ播磨灘,セガ,G-3327,3800,税抜,同名漫画をゲーム化,ああ播磨灘,Wikipedia+MADB+MAME,MAME+MADB,MADB,ああ播磨灘,M726485,aaharima
-gg-jp-0087,1993-07-23,ベア・ナックルII 死闘への鎮魂歌,セガ,G-3328,3800,税抜,,ベア・ナックルII 死闘への鎮魂歌,Wikipedia+MADB+MAME,MAME,MADB,ベア・ナックル2,M734435,sor2
-gg-jp-0088,1993-07-23,なぞぷよ,セガ,,,,ゲームギア本体との同梱のみの販売。,なぞぷよ,Wikipedia,,,,,
-gg-jp-0089,1993-07-30,ジュラシック・パーク,セガ,G-3229,3800,税抜,同名映画をゲーム化,,Wikipedia+MADB+MAME,MAME,MADB,ジュラシック・パーク,M749351,jparkj
-gg-jp-0090,1993-10-01,GGアレスタII,セガ,G-3330,3800,税抜,,アレスタ,Wikipedia+MADB+MAME,MAME,MADB,GGアレスタ 2,M729912,pstrike2
-gg-jp-0091,1993-10-29,アルティメイトサッカー,セガ,G-3333,3800,税抜,,アルティメイトサッカー,Wikipedia+MADB+MAME,MAME,MADB,アルティメイトサッカー,M745141,ultsoccr
-gg-jp-0092,1993-11-19,ソニック&テイルス,セガ,G-3331,3800,税抜,ゲームギアオリジナルのソニック作品 日本では当初『ソニック・ザ・ヘッジホッグ3』という題名で発売される予定だった,ソニック&テイルス,Wikipedia+MADB+MAME,MAME+MADB,MADB,SONIC & TAILS,M726393,sonictls
-gg-jp-0093,1993-12-03,魔導物語I 3つの魔導球,セガ,G-3410,5500,税抜,,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語1 3つの魔導球,M726373,madoum1
-gg-jp-0094,1993-12-10,なぞぷよ2,セガ,G-3413,4500,税抜,,なぞぷよ,Wikipedia+MADB+MAME,MAME,MADB,なぞぷよ2,M752842,nazpuyo2
-gg-jp-0095,1993-12-17,モータルコンバット 神拳降臨伝説,アクレイムジャパン,T-81017,4800,税抜,,モータルコンバット,Wikipedia+MADB+MAME,MAME,MADB,モータルコンバット 神剣降臨伝説,M757827,mkj
-gg-jp-0096,1993-12-17,ドナルドダックの4つの秘宝,セガ,G-3332,3800,税抜,,ドナルドダックの4つの秘宝,Wikipedia+MADB+MAME,MAME,MADB,ドナルドダックの4つの秘宝,M752263,donald42
-gg-jp-0097,1993-12-17,対戦麻雀 好牌2,セガ,G-3335,3800,税抜,,対戦麻雀 好牌2,Wikipedia+MADB+MAME,MAME,MADB,対戦麻雀 好牌2,M734749,taisnmj2
-gg-jp-0098,1993-12-17,フェイスボール2000,リバーヒルソフト,T-53037,4500,税抜,,フェイスボール2000,Wikipedia+MADB+MAME,MAME+MADB,MADB,FACEBALL 2000,M726358,faceball
-gg-jp-0099,1994-01-14,バトルトード,セガ,G-3311,3800,税抜,,バトルトード,Wikipedia+MADB+MAME,MAME,MADB,バトルトード,M754133,btoads
-gg-jp-0100,1994-01-21,リディック・ボウ ボクシング,セガ,T-22027,3800,税抜,,リディック・ボウ ボクシング,Wikipedia+MADB+MAME,MAME,MADB,リディック ボウ ボクシング,M758499,riddickj
-gg-jp-0101,1994-02-11,ウインターオリンピック,セガ,G-3342,3800,税抜,,ウインターオリンピック,Wikipedia+MADB+MAME,MAME,MADB,ウインターオリンピック,M745685,wintolj
-gg-jp-0102,1994-02-11,バスターファイト,セガ,G-3341,3800,税抜,,バスターファイト,Wikipedia+MADB+MAME,MAME,MADB,バスター・ファイト,M753751,busterf
-gg-jp-0103,1994-02-25,T2ザ・アーケードゲーム,アクレイムジャパン,T-81027,4800,税抜,,T2ザ・アーケードゲーム,Wikipedia+MADB+MAME,MAME,MADB,T2ザ・アーケードゲーム,M743106,t2agj
-gg-jp-0104,1994-03-04,マクドナルド ドナルドのマジカルワールド,セガ,G-3340,3800,税抜,,マクドナルド ドナルドのマジカルワールド,Wikipedia+MADB+MAME,MAME,MADB,マクドナルド ドナルドのマジカルワールド,M756724,donaldmw
-gg-jp-0105,1994-03-11,エコー・ザ・ドルフィン,セガ,G-3344,3800,税抜,同名メガドライブ用ソフトの移植版,エコー・ザ・ドルフィン,Wikipedia+MADB+MAME,MAME,MADB,エコー・ザ・ドルフィン,M746059,eccoj
-gg-jp-0106,1994-03-18,ソニックドリフト,セガ,G-3415,4800,税抜,ソニックシリーズのキャラクターによるレースゲーム,ソニック ドリフト,Wikipedia+MADB+MAME,MAME,MADB,ソニックドリフト,M750659,sonicdr
-gg-jp-0107,1994-03-25,アラジン,セガ,G-3336,3800,税抜,,アラジン (1992年の映画),Wikipedia+MADB+MAME,MAME,MADB,アラジン,M745074,aladdinj
-gg-jp-0108,1994-03-25,スクラッチゴルフ,ビック東海,T-23017,4800,税抜,,スクラッチゴルフ,Wikipedia+MADB+MAME,MAME,MADB,スクラッチ ゴルフ,M749872,scratchgj
-gg-jp-0109,1994-03-25,幽☆遊☆白書 滅びし者の逆襲,セガ,G-3343,3800,税抜,,幽☆遊☆白書 滅びし者の逆襲,Wikipedia,MAME,MADB,幽☆遊☆白書 滅びし者の逆襲,M766447,yuyu
-gg-jp-0110,1994-04-22,GPライダー,セガ,G-3347,3800,税抜,,GPライダー,Wikipedia+MADB+MAME,MAME,MADB,GPライダー,M739575,gpriderj
-gg-jp-0111,1994-04-22,タントア〜ル,セガ,G-3345,3800,税抜,,タントアール,Wikipedia+MADB+MAME,MAME,MADB,タントア～ル,M751158,tantr
-gg-jp-0112,1994-04-22,女神転生外伝 ラストバイブル,セガ,G-3418,5500,税抜,ラストバイブルシリーズ第1作のリメイク,女神転生外伝 ラストバイブル,Wikipedia+MADB+MAME,MAME+MADB,MADB,女神転生外伝 Last Bible,M726249,lastbibl
-gg-jp-0113,1994-04-29,NBAジャム,アクレイムジャパン,T-81037,4800,税抜,,NBAジャム (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,NBA JAM,M741043,nbajamj
-gg-jp-0114,1994-05-20,魔導物語II アルル16才,セガ,G-3419,5500,税抜,『魔導物語1-2-3』のエピソード2のアレンジ移植,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語2 アルル16才,M726235,madoum2
-gg-jp-0115,1994-05-27,エイリアン3,アクレイムジャパン,T-81047,4500,税抜,同名映画をゲーム化,エイリアン3,Wikipedia+MADB+MAME,MAME,MADB,エイリアン3,M745962,alien3j
-gg-jp-0116,1994-05-27,ワールドダービー,CRI,T-68017,4980,税抜,当初のタイトルは『ウイニングホース』でセガから発売予定だった。,,Wikipedia+MADB+MAME,MAME,MADB,ワールドダービー,M759348,wderby
-gg-jp-0117,1994-06-03,とられてたまるか!?,セガ,G-3348,3800,税抜,同名映画をゲーム化,,Wikipedia+MADB+MAME,MAME,MADB,とられてたまるか! ?,M752635,torarete
-gg-jp-0118,1994-06-24,アダムス・ファミリー,アクレイムジャパン,T-81087,4500,税抜,,アダムス・ファミリー,Wikipedia+MADB+MAME,MAME,MADB,アダムスファミリー,M744896,addfam
-gg-jp-0119,1994-06-24,ロボコップ3,アクレイムジャパン,T-81097,4500,税抜,,ロボコップ3,Wikipedia+MADB+MAME,MAME,MADB,ロボコップ 3,M759222,robocop3
-gg-jp-0120,1994-07-22,JリーグGGプロストライカー'94,セガ,G-3417,4800,税抜,,JリーグGGプロストライカー'94,Wikipedia+MADB+MAME,MAME+MADB,MADB,Jリーグ GG PRO・STRIKER '94,M726196,jleagu94
-gg-jp-0121,1994-07-29,スマッシュT.V.,アクレイムジャパン,T-81057,4500,税抜,,スマッシュT.V.,Wikipedia+MADB+MAME,MAME,MADB,スマッシュTV,M750278,smashtv
-gg-jp-0122,1994-07-29,ズールのゆめぼうけん,インフォコム,T-149017,3800,税抜,,ズールのゆめぼうけん,Wikipedia+MADB+MAME,MAME,MADB,ズール,M749818,zoolj
-gg-jp-0123,1994-07-29,バートワールド,アクレイムジャパン,T-81077,4500,税抜,日本では当初のタイトルは『バートVSザ・ワールド』,バートワールド,Wikipedia+MADB+MAME,MAME,MADB,バート ワールド,M753404,bartvswd
-gg-jp-0124,1994-07-29,なぞぷよ アルルのルー,セガ,G-3357,3800,税抜,,なぞぷよ,Wikipedia+MADB+MAME,MAME,MADB,なぞぷよ アルルのルー,M752840,nazpyoar
-gg-jp-0125,1994-08-05,ダイナマイトヘッディー,セガ,G-3355,3800,税抜,同名メガドライブ用ソフトを移植。,ダイナマイトヘッディー,Wikipedia+MADB+MAME,MAME,MADB,ダイナマイト ヘッディー,M750868,dheadj
-gg-jp-0126,1994-08-05,颯爽少年英雄伝 コカ・コーラキッド,セガ,G-3350,3800,税抜,コカ・コーラ社とのタイアップ作品。 プレゼントキャンペーンの景品としてプラスワンセット（非売品）が配布された。,颯爽少年英雄伝 コカ・コーラキッド,Wikipedia+MADB+MAME,MAME,MADB,颯爽少年英雄伝コカ・コーラキッド,M766934,cocakid
-gg-jp-0127,1994-08-12,ポパイのビーチバレーボール,テクノスジャパン,T-154017,,,,ポパイのビーチバレーボール,Wikipedia+MAME,MAME,,,,popeye
-gg-jp-0128,1994-09-09,モータルコンバットII 究極神拳,アクレイムジャパン,T-81107,4800,税抜,,モータルコンバット,Wikipedia+MADB+MAME,MAME,MADB,モータルコンバット2  究極神拳,M734480,mk2
-gg-jp-0129,1994-09-09,剣勇伝説YAIBA,セガ,G-3346,3800,税抜,,YAIBA,Wikipedia+MADB+MAME,MAME,MADB,剣勇伝説YAIBA,M761090,yaiba
-gg-jp-0130,1994-09-16,ダンクキッズ,セガ,G-3352,3800,税抜,当初のタイトルは『ストリートバスケ』,ダンクキッズ,Wikipedia+MADB+MAME,MAME,MADB,ダンクキッズ,M751102,dunkkids
-gg-jp-0131,1994-09-30,クラッシュ・ダミー スリック坊やの大挑戦,アクレイムジャパン,T-81127,4500,税抜,,クラッシュ・ダミー スリック坊やの大挑戦,Wikipedia+MADB+MAME,MAME,MADB,クラッシュ・ダミー ～スリック坊やの大挑戦～,M747535,crashdum
-gg-jp-0132,1994-09-30,T2 ジャッジメントディ,アクレイムジャパン,,4500,税抜,,T2 ジャッジメントディ,Wikipedia+MADB,,MADB,T2 ジャッジメント・デイ,M743105,
-gg-jp-0133,1994-09-30,プロ野球GGリーグ'94,セガ,G-3353,3800,税抜,当初のタイトルは『とってもベースボール』,プロ野球GGリーグ'94,Wikipedia+MADB+MAME,MAME,MADB,プロ野球GGリーグ'94,M755920,proyak94
-gg-jp-0134,1994-09-30,幽☆遊☆白書II 激闘!七強の戦い,セガ,G-3354,3800,税抜,,幽☆遊☆白書II 激闘!七強の戦い,Wikipedia+MADB+MAME,MAME,MADB,幽☆遊☆白書2 激闘! 七強の戦い,M766449,yuyu2
-gg-jp-0135,1994-10-30,モルドリアン 〜光と闇の姉妹〜,セガ,G-3422,4800,税抜,,モルドリアン 〜光と闇の姉妹〜,Wikipedia+MADB+MAME,MAME+MADB,MADB,MOLDORIAN 光と闇の姉妹,M726121,moldoran
-gg-jp-0136,1994-11-11,ソニック&テイルス2,セガ,G-3356,3800,税抜,,ソニック・ザ・ヘッジホッグ,Wikipedia+MADB+MAME,MAME,MADB,ソニック＆テイルス 2,M750619,sonictl2
-gg-jp-0137,1994-11-25,餓狼伝説スペシャル,タカラ,,4800,税抜,,餓狼伝説スペシャル,Wikipedia+MADB,,MADB,餓狼伝説スペシャル,M760288,
-gg-jp-0138,1994-11-25,イチダントア〜ルGG,セガ,G-3359,3800,税抜,,イチダントア〜ル,Wikipedia+MADB+MAME,MAME+MADB,MADB,イチダントアールGG,M719648,ichirgg
-gg-jp-0139,1994-11-25,魔導物語III 究極女王様,セガ,G-3424,5500,税抜,,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語3 究極女王様,M726105,madoum3
-gg-jp-0140,1994-12-09,SAMURAI SPIRITS,タカラ,T-146027,4800,税抜,同名ネオジオ用ソフトの移植版,SAMURAI SPIRITS,Wikipedia+MAME,MAME,MADB,サムライスピリッツ,M726066,samspir
-gg-jp-0141,1994-12-16,ぷよぷよ通,コンパイル,T-66037,3800,税抜,本体同梱版（キャラクターパック）もセガより発売,ぷよぷよ通,Wikipedia+MADB+MAME,MAME+MADB,MADB,ぷよぷよ通,M726067,puyopuy2
-gg-jp-0142,1994-12-16,From TV animation SLAM DUNK 勝利へのスターティング5,バンダイ,T-133037,4800,税抜,,SLAM DUNK,Wikipedia+MADB+MAME,MAME+MADB,MADB,From TV animation SLAMDUNK 勝利へのスターティング5,M727993,slamdunk
-gg-jp-0143,1994-12-16,魔法騎士レイアース,セガ,G-3423,4800,税抜,本体同梱版（キャラクターパック）も発売,魔法騎士レイアース,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔法騎士レイアース,M719645,rayearth
-gg-jp-0144,1994-12-23,フレッド カプルスズ ゴルフ,セガ,G-3358,3800,税抜,,フレッド カプルスズ ゴルフ,Wikipedia+MADB+MAME,MAME,MADB,フレッド・カプルスズ ゴルフ,M755813,fredcoupj
-gg-jp-0145,1995-01-13,ライオン・キング,セガ,G-3363,3800,税抜,同名映画のゲーム化作品でメガドライブ版をアレンジ移植,,Wikipedia+MADB+MAME,MAME,MADB,ライオンキング,M758176,lionkingj
-gg-jp-0146,1995-01-13,ミッキーマウス 伝説の王国,セガ,G-3360,3800,税抜,,ミッキーマウス 伝説の王国,Wikipedia+MADB+MAME,MAME,MADB,ミッキーマウス 伝説の王国,M757236,legndillj
-gg-jp-0147,1995-01-27,ぎゃんぶるぱにっく,セガ,G-3364,3800,税抜,,ぎゃんぶるぱにっく,Wikipedia+MADB+MAME,MAME,MADB,ぎゃんぶるぱにっく,M747278,gamble
-gg-jp-0148,1995-01-27,シルヴァンテイル,セガ,G-3426,5500,税抜,,シルヴァンテイル,Wikipedia+MADB+MAME,MAME,MADB,シルヴァンテイル,M749413,sylvan
-gg-jp-0149,1995-01-27,美少女戦士セーラームーンS,バンダイ,T-133017,4500,税抜,同名テレビアニメを原作とする横スクロールアクション,美少女戦士セーラームーン,Wikipedia+MADB+MAME,MAME+MADB,MADB,美少女戦士セーラームーンS,M726024,sailorms
-gg-jp-0150,1995-02-03,エコー・ザ・ドルフィン2,セガ,G-3362,3800,税抜,同名メガドライブ用ソフトの移植版,エコー・ザ・ドルフィン,Wikipedia+MADB+MAME,MAME,MADB,エコー・ザ・ドルフィン2,M746062,ecco2j
-gg-jp-0151,1995-02-17,リスター・ザ・シューティングスター,セガ,G-3365,3800,税抜,メガドライブ版も同日発売,リスター・ザ・シューティングスター,Wikipedia+MADB+MAME,MAME,MADB,リスター ザ・シューティングスター,M758459,ristar
-gg-jp-0152,1995-02-24,NFLクォーターバッククラブ'95,アクレイムジャパン,T-81147,4800,税抜,,NFLクォーターバッククラブ'95,Wikipedia+MADB+MAME,MAME,MADB,NFLクォーターバッククラブ'95,M741214,nflqb
-gg-jp-0153,1995-02-24,NBAジャム トーナメントエディション,アクレイムジャパン,T-81137,4800,税抜,,NBAジャム (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,NBA JAMトーナメントエディション,M741049,nbajamte
-gg-jp-0154,1995-02-24,クレヨンしんちゃん 対決!カンタムパニック!!,バンダイ,T-133047,4800,税抜,漫画『クレヨンしんちゃん』を題材としたミニゲーム集,クレヨンしんちゃん,Wikipedia+MADB+MAME,MAME,MADB,クレヨンしんちゃん 対決! カンタムパニック!!,M747827,crayon
-gg-jp-0155,1995-02-24,ロイアル・ストーン 開かれし時の扉,セガ,G-3425,4800,税抜,『アーリエル クリスタル伝説』の続編。キャラクターデザイン：九月姫,ロイアル・ストーン 開かれし時の扉,Wikipedia+MADB+MAME,MAME,MADB,ロイアル・ストーン 開かれし時の扉,M758903,royalstn
-gg-jp-0156,1995-03-03,タマ&フレンズ 3丁目公園タマリンピック,セガ,G-3361,3800,税抜,,タマ&フレンズ 3丁目公園タマリンピック,Wikipedia+MADB+MAME,MAME,MADB,タマ＆フレンズ 3丁目公園タマリンピック,M751036,tamalymp
-gg-jp-0157,1995-03-17,ソニック ドリフト2,セガ,G-3366,3800,税抜,,ソニック ドリフト2,Wikipedia+MADB+MAME,MAME,MADB,ソニックドリフト 2,M750660,sonicdr2
-gg-jp-0158,1995-03-24,SDガンダム WINNER'S HISTORY,バンダイ,T-133027,,,,SDガンダム WINNER'S HISTORY,Wikipedia+MAME,MAME,,,,sdgundam
-gg-jp-0159,1995-03-24,ガンスターヒーローズ,セガ,G-3349,3800,税抜,同名メガドライブ用ソフトの移植,ガンスターヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ガンスターヒーローズ,M746862,gunstar
-gg-jp-0160,1995-03-24,女神転生外伝 ラストバイブルスペシャル,セガ,G-3427,5500,税抜,,女神転生外伝 ラストバイブルシリーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,女神転生外伝 Last Bible スペシャル,M719638,lastbibs
-gg-jp-0161,1995-04-07,THE クイズギアファイト!!,セガ,G-3367,3800,税抜,,THE クイズギアファイト!!,Wikipedia+MADB+MAME,MAME,MADB,THE クイズ ギアファイト!,M743328,quizgear
-gg-jp-0162,1995-04-28,TEMPO JR.,セガ,G-3369,3800,税抜,,TEMPO JR.,Wikipedia+MADB+MAME,MAME,MADB,テンポ Jr.,M752011,tempojr
-gg-jp-0163,1995-04-28,テイルスのスカイパトロール,セガ,G-3368,3800,税抜,ソニックシリーズの登場人物であるテイルスを主役とした作品,テイルスのスカイパトロール,Wikipedia+MADB+MAME,MAME,MADB,テイルスのスカイパトロール,M751594,tailskyp
-gg-jp-0164,1995-05-26,スターゲイト,アクレイムジャパン,T-81157,4500,税抜,,スターゲイト,Wikipedia+MADB+MAME,MAME,MADB,スターゲイト,M749942,stargate
-gg-jp-0165,1995-05-26,トゥルーライズ,アクレイムジャパン,T-81167,4800,税抜,,トゥルーライズ,Wikipedia,MAME,MADB,トゥルーライズ,M752067,truelies
-gg-jp-0166,1995-05-26,スーパーコラムス,セガ,G-3226,3800,税抜,,コラムス,Wikipedia+MADB+MAME,MAME,MADB,スーパーコラムス,M749499,supercolj
-gg-jp-0167,1995-06-30,シャイニング・フォース外伝 ファイナルコンフリクト,セガ,G-3428,5800,税抜,,シャイニング・フォース外伝 ファイナルコンフリクト,Wikipedia+MADB+MAME,MAME+MADB,MADB,SHINING FORCE 外伝 FINAL CONFLICT,M719629,shinfrgf
-gg-jp-0168,1995-07-14,闘え!プロ野球ツインリーグ,セガ,G-3371,3800,税抜,,闘え!プロ野球ツインリーグ,Wikipedia+MADB+MAME,MAME,MADB,闘え! プロ野球ツインリーグ,M764935,proyaktl
-gg-jp-0169,1995-07-21,忍空,セガ,G-3370,4800,税抜,本体同梱版（キャラクターパック）も発売,NINKU -忍空-,Wikipedia+MADB+MAME,MAME+MADB,MADB,NINKU,M725908,ninku
-gg-jp-0170,1995-08-04,魔法騎士レイアース2 〜making of magic knight〜,セガ,G-3429,4800,税抜,,魔法騎士レイアース,Wikipedia+MADB+MAME,MAME,MADB,魔法騎士レイアース2 making of magic knight,M766043,rayeart2
-gg-jp-0171,1995-09-01,鬼神童子ZENKI,セガ,G-3373,4800,税抜,,鬼神童子ZENKI,Wikipedia+MADB+MAME,MAME,MADB,鬼神童子ZENKI,M760641,zenki
-gg-jp-0172,1995-09-14,FIFAインターナショナル・サッカー,エレクトロニック・アーツ・ビクター,T-106017,4980,税抜,『SATURN FAN』1995年8月号掲載時点では1995年8月25日発売予定だった,FIFAシリーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,FIFA INTERNATIONAL SOCCER,M725869,fifaj
-gg-jp-0173,1995-09-22,テイルスアドベンチャー,セガ,G-3372,3800,税抜,テイルスがソニックと出会う前の様子を描いた作品,テイルスアドベンチャー,Wikipedia+MADB+MAME,MAME,MADB,テイルスアドベンチャー,M751593,tailsadv
-gg-jp-0174,1995-10-20,ギアスタジアム平成版,ナムコ,T-14077,3500,税抜,,ギアスタジアム,Wikipedia+MADB+MAME,MAME,MADB,ギアスタジアム平成版,M747013,gearstah
-gg-jp-0175,1995-10-27,バットマン フォーエヴァー,アクレイムジャパン,T-81187,4800,税抜,,バットマン フォーエヴァー,Wikipedia+MADB+MAME,MAME,MADB,バットマン フォーエヴァー,M754037,batmanf
-gg-jp-0176,1995-10-27,フォアマン フォーリアル,アクレイムジャパン,T-81197,4800,税抜,,フォアマン フォーリアル,Wikipedia+MADB+MAME,MAME,MADB,フォアマン フォー リアル,M755269,foreman
-gg-jp-0177,1995-11-03,忍空外伝 ヒロユキ大活劇,セガ,G-3377,4800,税抜,テレビアニメ『忍空』に登場するペンギン・ヒロユキを主役としたゲームで、ゲームシステムは『ペンゴ』を基にしている,ペンゴ,Wikipedia+MADB+MAME,MAME,MADB,忍空外伝 ヒロユキ大活劇,M765150,ninkug
-gg-jp-0178,1995-11-17,ソニックラビリンス,セガ,G-3374,,,ピンボール調のアクションゲームで、Dr.エッグマンによって走れなくなったソニックが転がって移動するという設定である,ソニックラビリンス,Wikipedia+MAME,MAME,,,,soniclab
-gg-jp-0179,1995-11-24,Jリーグサッカー ドリームイレブン,セガ,G-3431,5500,税抜,,Jリーグサッカー ドリームイレブン,Wikipedia+MADB+MAME,MAME,MADB,Jリーグサッカー ドリームイレブン,M740067,jleague
-gg-jp-0180,1995-11-24,魔導物語A ドキドキばけ〜しょん,コンパイル,T-66047,5500,税抜,,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語A ドキドキばけ～しょん,M725816,madouma
-gg-jp-0181,1995-12-01,野茂英雄のワールドシリーズベースボール,セガ,G-3442,4800,税抜,,野茂英雄のワールドシリーズベースボール,Wikipedia+MADB+MAME,MAME,MADB,野茂英雄のワールドシリーズベースボール,M766405,nomowsb
-gg-jp-0182,1995-12-08,ゴジラ 怪獣大進撃,セガ,G-3430,5500,税抜,,ゴジラ,Wikipedia+MADB+MAME,MAME,MADB,ゴジラ～怪獣大進撃～,M748243,godzilla
-gg-jp-0183,1995-12-15,スーパー桃太郎電鉄III,ハドソン,T-143017,5800,税抜,同名スーパーファミコン用ソフトの移植版で、雑誌『セガサターンFAN』1995年12月号掲載時点では1995年12月8日に発売される予定だった,スーパー桃太郎電鉄III,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパー桃太郎電鉄 3,M719599,smomo3
-gg-jp-0184,1995-12-22,忍空2 〜天空龍への道〜,セガ,G-3376,4800,税抜,,NINKU -忍空-,Wikipedia+MADB+MAME,MAME,MADB,NINKU 忍空 2 天空龍への道,M741298,ninku2
-gg-jp-0185,1996-01-12,LUNAR さんぽする学園,ゲームアーツ,T-45017,5800,税抜,雑誌『セガサターンFAN』1995年12月号掲載時点では1994年12月22日に発売される予定だった,LUNAR さんぽする学園,Wikipedia+MADB+MAME,MAME,MADB,LUNAR さんぽする学園,M740446,lunar
-gg-jp-0186,1996-01-26,ばくばくアニマル 世界飼育係選手権,セガ,G-3378,3800,税抜,アーケード等で展開されていた作品の移植版で、動物を題材とした落ちものパズル,ばくばくアニマル 世界飼育係選手権,Wikipedia+MADB+MAME,MAME,MADB,ばくばくアニマル 世界飼育係選手権,M753725,bakubakuj
-gg-jp-0187,1996-03-29,バーチャファイターMini,セガ,G-3380,4800,税抜,テレビアニメ『バーチャファイター』をゲーム化 キッズギア本体同梱版も発売,バーチャファイター,Wikipedia+MADB+MAME,MAME,MADB,バーチャファイター Mini,M753357,vfmini
-gg-jp-0188,1996-03-29,怪盗セイント・テール,セガ,G-3382,4800,税抜,同名テレビアニメのゲーム化,怪盗セイント・テール,Wikipedia+MADB+MAME,MAME,MADB,怪盗セイントテール,M760336,sainttal
-gg-jp-0189,1996-04-26,ドラえもん ワクワクポケットパラダイス,セガ,G-3383,4800,税抜,,ドラえもん,Wikipedia+MADB,MAME,MADB,ドラえもん ワクワクポケットパラダイス,M752355,doraemon
-gg-jp-0190,1996-07-19,ねこ大すき!,セガ,G-3434,4800,税抜,,ねこ大すき!,Wikipedia+MADB+MAME,MAME,MADB,ねこ大好き!,M753262,nekodais
-gg-jp-0191,1996-08-02,パズルボブル,タイトー,T-11047,4800,税抜,同名アーケードゲームの移植版,パズルボブル,Wikipedia+MADB+MAME,MAME,MADB,パズルボブル,M753809,pbobble
-gg-jp-0192,1996-11-01,GGポートレート ゆうきあきら,セガ,G-3386,3800,税抜,,GGポートレート ゆうきあきら,Wikipedia+MADB+MAME,MAME,MADB,GGポートレートシリーズ ゆうき あきら,M739464,ggport1
-gg-jp-0193,1996-11-22,GGポートレート パイ・チェン,セガ,G-3387,3800,税抜,,GGポートレート パイ・チェン,Wikipedia+MADB+MAME,MAME,MADB,GGポートレートシリーズ パイ・チェン,M739463,ggport
-gg-jp-0194,1996-11-22,パンツァードラグーンMINI,セガ,G-3384,4800,税抜,セガサターン用ソフト『パンツァードラグーン』をゲームギア向けにアレンジした作品,パンツァードラグーン,Wikipedia+MADB+MAME,MAME,MADB,パンツァードラグーンMINI,M754519,panzer
-gg-jp-0195,1996-12-06,ペット倶楽部 いぬ大すき!,セガ,G-3436,4800,税抜,,ペット倶楽部 いぬ大すき!,Wikipedia+MADB+MAME,MAME,MADB,ペット倶楽部 いぬ大好き,M756008,inudais
-gg-jp-0196,1996-12-13,G・ソニック,セガ,G-3385,4800,税抜,日本における最後のゲームギア用ソフト,Gソニック,Wikipedia+MADB+MAME,MAME,MADB,Gソニック,M739697,sonicbls
+id,release_date,title,publisher,model_number,price_yen,price_tax,price_note,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+gg-jp-0001,1990-10-06,コラムス,セガ,G-3104,2900,税抜,,ローンチタイトル。同名アーケードゲームの移植版,コラムス,Wikipedia+MADB,MADB,MADB,コラムス,M727172,
+gg-jp-0002,1990-10-06,スーパーモナコGP,セガ,G-3201,3500,税抜,,ローンチタイトル。同名アーケードゲームの移植版,スーパーモナコGP,Wikipedia+MADB+MAME,MAME+MADB,MADB,ス-パーモナコGP,M727173,smgpj
+gg-jp-0003,1990-10-06,ペンゴ,セガ,G-3102,2900,税抜,,ローンチタイトル。同名アーケードゲームの移植版,ペンゴ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ペンゴ,M727171,pengoj
+gg-jp-0004,1990-10-23,斬GEAR,ウルフ・チーム,T-32017,3800,税抜,,同名PCゲームの移植版,斬GEAR,Wikipedia+MADB+MAME,MAME,MADB,斬ギア,M761779,zangear
+gg-jp-0005,1990-11-10,対戦麻雀 好牌,セガ,,3500,税抜,,,対戦麻雀 好牌,Wikipedia+MADB,,MADB,対戦麻雀・好牌,M763970,
+gg-jp-0006,1990-12-08,ワンダーボーイ,セガ,G-3205,3500,税抜,,,ワンダーボーイ (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ワンダーボーイ,M759476,wboyj
+gg-jp-0007,1990-12-15,G-LOC AIR BATTLE,セガ,G-3204,3500,税抜,,,G-LOC: AIR BATTLE,Wikipedia+MADB+MAME,MAME,MADB,G-ロック Air Battle,M739700,glocj1
+gg-jp-0008,1990-12-15,倉庫番,リバーヒルソフト,T-53017,3500,税抜,,,倉庫番,Wikipedia+MADB+MAME,MAME,MADB,倉庫番,M763729,sokoban
+gg-jp-0009,1990-12-22,ドラゴンクリスタル ツラニの迷宮,セガ,G-3206,3500,税抜,,,ドラゴンクリスタル ツラニの迷宮,Wikipedia+MADB+MAME,MAME,MADB,ドラゴンクリスタル ツラニの迷宮,M752475,dcrystalj
+gg-jp-0010,1990-12-27,上海II,サンソフト,T-15017,3800,税抜,,,上海 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,上海 2 ゲームギア専用ソフト 名作コレクション,M727107,shangh2a
+gg-jp-0011,1991-01-26,THEプロ野球'91,セガ,G-3207,3500,税抜,,,THEプロ野球'91,Wikipedia+MADB+MAME,MAME,MADB,THE・プロ野球'91,M743338,proyak91
+gg-jp-0012,1991-01-29,パックマン,ナムコ,T-14017,3500,税抜,,,パックマン,Wikipedia+MADB+MAME,MAME,MADB,パックマン,M753997,pacmanj
+gg-jp-0013,1991-02-02,サイキック・ワールド,セガ,G-3203,3500,税抜,,,サイキック・ワールド,Wikipedia+MAME,MAME,MADB,サイキックワールド,M748671,psychicwj
+gg-jp-0014,1991-02-23,ポップブレイカー,マイクロキャビン,T-52017,3800,税抜,,,ポップブレイカー,Wikipedia+MADB+MAME,MAME,MADB,ポップブレイカー,M756406,popbreak
+gg-jp-0015,1991-02-24,ジャンクション,マイクロネット,T-22017,3000,税抜,,,ジャンクション (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ジャンクション,M749296,junctionj
+gg-jp-0016,1991-03-01,ウッディポップ,セガ,,2900,税抜,,,ウッディポップ,Wikipedia+MADB,,MADB,ウッディポップ,M745856,
+gg-jp-0017,1991-03-08,タイトーチェイスH.Q.,タイトー,T-11017,3800,税抜,,,タイトーチェイスH.Q.,Wikipedia+MADB+MAME,MAME,MADB,タイトーチェイスH.Q.,M750843,chasehqj
+gg-jp-0018,1991-03-08,タロットの館,セガ,G-3208,3500,税抜,,,タロットの館,Wikipedia+MADB+MAME,MAME,MADB,タロットの館,M751083,tarot
+gg-jp-0019,1991-03-15,ヘッドバスター,メサイヤ,T-25017,3500,税抜,,,ヘッドバスター,Wikipedia+MADB+MAME,MAME+MADB,MADB,ヘッドバスター,M727082,headbust
+gg-jp-0020,1991-03-21,ミッキーマウスのキャッスル・イリュージョン,セガ,G-3301,3500,税抜,,,ミッキーマウスのキャッスル・イリュージョン,Wikipedia+MADB+MAME,MAME,MADB,ミッキーマウスのキャッスル・イリュージョン,M757237,castlillj
+gg-jp-0021,1991-03-29,デビリッシュ,元気,T-28017,3800,税抜,,,デビリッシュ,Wikipedia+MADB+MAME,MAME,MADB,デビリッシュ,M751896,devilishj
+gg-jp-0022,1991-03-29,キネティックコネクション,セガ,G-3401,3800,税抜,,,キネティックコネクション,Wikipedia+MADB+MAME,MAME,MADB,キネティックコネクション,M747141,kineticc
+gg-jp-0023,1991-04-05,ギアスタジアム,ナムコ,T-14037,3500,税抜,,,ギアスタジアム,Wikipedia+MADB+MAME,MAME,MADB,ギアスタジアム,M747012,gearstad
+gg-jp-0024,1991-04-19,スーパーゴルフ,シグマ商事,T-26017,3500,税抜,,,スーパーゴルフ,Wikipedia+MADB+MAME,MAME,MADB,スーパーゴルフ,M749500,supgolfj
+gg-jp-0025,1991-04-26,The GG忍,セガ,G-3302,3800,税抜,,,忍_-SHINOBI-,Wikipedia+MADB+MAME,MAME,MADB,The GG忍,M743208,shinobij
+gg-jp-0026,1991-04-26,スクウィーク,ビクター音楽産業,T-60017,3800,税抜,,,スクウィーク,Wikipedia+MADB+MAME,MAME,MADB,スクウィーク,M749850,skweek
+gg-jp-0027,1991-04-26,紫禁城,サンソフト,T-15027,3800,税抜,,,紫禁城,Wikipedia+MADB+MAME,MAME,MADB,紫禁城,M761836,shikinjo
+gg-jp-0028,1991-05-24,マッピー,ナムコ,T-14027,3500,税抜,,,マッピー,Wikipedia+MADB+MAME,MAME+MADB,MADB,マッピー,M727031,mappy
+gg-jp-0029,1991-05-31,琉球,フェイス,T-54017,3800,税抜,,,琉球 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,琉球,M727027,ryukyu
+gg-jp-0030,1991-06-21,ハレーウォーズ,タイトー,T-11027,3800,税抜,,,ハレーウォーズ,Wikipedia+MADB+MAME,MAME,MADB,ハレーウォーズ,M754379,halleywj
+gg-jp-0031,1991-06-21,がんばれゴルビー!,セガ,G-3210,3500,税抜,,「ゴルビー」とはソビエト連邦の元大統領ミハイル・ゴルバチョフのこと,がんばれゴルビー!,Wikipedia+MADB+MAME,MAME,MADB,がんばれ ゴルビー!,M746936,ggorby
+gg-jp-0032,1991-07-05,まじかる☆タルるートくん,ツクダアイデアル,T-65017,3980,税抜,,同名アニメーションをゲーム化,まじかる☆タルるートくん,Wikipedia+MADB+MAME,MAME,MADB,まじかる☆タルるートくん,M756758,mtaruru
+gg-jp-0033,1991-07-12,マジカルパズル ポピルズ,テンゲン,T-48017,4800,税抜,,,マジカルパズル ポピルズ,Wikipedia+MADB+MAME,MAME,MADB,マジカルパズル・ポピルズ,M756791,magiclpp
+gg-jp-0034,1991-07-19,ファンタジーゾーンGear オパオパJr.の冒険,シムス,T-44017,3900,税抜,,,ファンタジーゾーン,Wikipedia+MADB+MAME,MAME,MADB,ファンタジーゾーンGear オパオパJr.の冒険,M726996,fantzone
+gg-jp-0035,1991-07-26,グリフォン,RIOT,T-49017,3800,税抜,,,グリフォン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,グリフォン,M747703,griffin
+gg-jp-0036,1991-07-26,ワギャンランド,ナムコ,T-14047,4000,税抜,,,ワギャンランド,Wikipedia+MADB+MAME,MAME,MADB,ワギャンランド,M759424,wagyan
+gg-jp-0037,1991-08-09,アウトラン,セガ,G-3222,3500,税抜,,同名アーケードゲームの移植版,アウトラン,Wikipedia+MADB,MADB,MADB,OutRun,M726977,
+gg-jp-0038,1991-08-09,エターナルレジェンド 永遠の伝説,セガ,G-3402,4500,税抜,,,エターナルレジェンド 永遠の伝説,Wikipedia+MADB,MADB,MADB,EternaL Legend,M726978,
+gg-jp-0039,1991-08-09,ラスタン・サーガ,タイトー,T-11037,4500,税抜,,,ラスタンサーガ,Wikipedia+MADB+MAME,MAME,MADB,ラスタンサーガ,M758246,rastan
+gg-jp-0040,1991-09-27,パット&パター,セガ,G-3209,3500,税抜,,セガ・ゲーム図書館で配信されていた『パターゴルフ』の移植,パット&パター,Wikipedia+MADB+MAME,MAME,MADB,パット＆パター,M754020,puttputtj
+gg-jp-0041,1991-09-28,対戦型大戦略G,システムソフト,T-51027,4800,税抜,,,大戦略シリーズ,Wikipedia+MADB,MADB,MADB,対戦型大戦略G,M726957,
+gg-jp-0042,1991-10-25,ギャラガ'91,ナムコ,T-14057,3500,税抜,,,ギャラガ'88,Wikipedia+MADB+MAME,MAME,MADB,ギャラガ'91,M747217,galaga91
+gg-jp-0043,1991-11-01,忍者外伝,セガ,G-3215,3500,税抜,,,忍者外伝,Wikipedia+MADB+MAME,MAME,MADB,忍者外伝,M765159,ngaidenj
+gg-jp-0044,1991-11-01,アックス=バトラー ゴールデンアックス伝説,セガ,G-3306,3800,税抜,,,ゴールデンアックス,Wikipedia+MADB+MAME,MAME,MADB,アックス=バトラー ゴールデンアックス伝説,M744899,axbattlrj
+gg-jp-0045,1991-11-22,クニちゃんのゲーム天国,セガ,G-3303,3800,税抜,,タレントの山田邦子を主役としたミニゲーム集,クニちゃんのゲーム天国,Wikipedia+MADB+MAME,MAME,MADB,クニちゃんのゲーム天国,M747486,kunichan
+gg-jp-0046,1991-11-29,ベルリンの壁,KANEKO,T-33017,3500,税抜,,日本国外で発売されていたアーケードゲームの移植版にストーリーなどを付与,ベルリンの壁 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ベルリンの壁,M756078,berlin
+gg-jp-0047,1991-12-13,アーリエル クリスタル伝説,セガ,G-3403,4500,税抜,,,アーリエル クリスタル伝説,Wikipedia+MADB+MAME,MAME,MADB,アーリエル クリスタル伝説,M744411,arliel
+gg-jp-0048,1991-12-20,ドナルドダックのラッキーダイム,セガ,G-3309,3800,税抜,,,ドナルドダックのラッキーダイム,Wikipedia+MADB+MAME,MAME,MADB,ドナルドダックのラッキーダイム,M752265,donaldld
+gg-jp-0049,1991-12-27,ヘビーウェイトチャンプ,シムス,T-44027,4200,税抜,,,ヘビーウェイトチャンプ,Wikipedia+MADB+MAME,MAME,MADB,ヘビーウェイト チャンプ,M756010,heavyw
+gg-jp-0050,1991-12-27,フレイ 〜修行編〜,マイクロキャビン,T-52037,4500,税抜,,,フレイ (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,フレイ～修行編～,M755738,fray
+gg-jp-0051,1991-12-28,ソニック・ザ・ヘッジホッグ,セガ,G-3307,3800,税抜,,同時発売された、同名メガドライブ用ソフトとは内容が異なる,ソニック・ザ・ヘッジホッグ (1991年のゲーム),Wikipedia+MADB+MAME,MAME,MADB,ソニック・ザ・ヘッジホッグ,M750627,sonicj
+gg-jp-0052,1991-12-28,スペースハリアー,セガ,G-3212,3500,税抜,,,スペースハリアー,Wikipedia+MADB+MAME,MAME,MADB,スペースハリアー,M750223,sharrier
+gg-jp-0053,1991-12-29,GGアレスタ,コンパイル,T-66017,,,,アレスタシリーズの派生作品で、同シリーズ初のゲームギア作品,アレスタ,Wikipedia+MAME,MAME,,,,ggaleste
+gg-jp-0054,1992-02-07,ポケット雀荘,ナムコ,T-14067,3500,税抜,,,ポケット雀荘,Wikipedia+MADB+MAME,MAME,MADB,ポケット雀荘,M756316,pocketj
+gg-jp-0055,1992-03-13,ファンタシースターアドベンチャー,セガ,G-3216,3500,税抜,,,ファンタシースター,Wikipedia+MADB+MAME,MAME,MADB,ファンタシースターアドベンチャー,M755124,pstaradv
+gg-jp-0056,1992-03-19,エイリアンシンドローム,シムス,T-44037,4500,税抜,,,エイリアンシンドローム,Wikipedia+MADB+MAME,MAME,MADB,エイリアンシンドローム,M745970,aliensynj
+gg-jp-0057,1992-03-20,バスターボール,リバーヒルソフト,T-53027,3800,税抜,,,バスターボール,Wikipedia+MADB+MAME,MAME,MADB,バスターボール,M753752,busterb
+gg-jp-0058,1992-03-27,モンスターワールドII ドラゴンの罠,セガ,G-3308,3800,税抜,,日本国外で発売されたマスターシステム用ソフトの移植,モンスターワールド,Wikipedia+MADB+MAME,MAME,MADB,モンスターワールド 2  ドラゴンの罠,M734486,mworld2
+gg-jp-0059,1992-04-24,超プロ野球'92,セガ,G-3217,3500,税抜,,,超プロ野球'92,Wikipedia+MADB+MAME,MAME,MADB,ハイパー・プロ野球'92,M753658,hypyak92
+gg-jp-0060,1992-05-22,ジョー・モンタナ フットボール,セガ,G-3305,3800,税抜,,,ジョー・モンタナ フットボール,Wikipedia+MADB+MAME,MAME+MADB,MADB,Joe Montana FOOTBALL,M726784,joemontj
+gg-jp-0061,1992-05-22,ひょっこりひょうたん島 ひょうたん島の大航海,セガ,G-3218,3500,税抜,,,ひょっこりひょうたん島,Wikipedia+MADB+MAME,MAME,MADB,ひょっこりひょうたん島 ひょうたん島の大航海,M754749,hyokkohj
+gg-jp-0062,1992-06-05,エアリアルアサルト,セガ,G-3219,3500,税抜,,,エアリアルアサルト,Wikipedia+MADB+MAME,MAME,MADB,エアリアル アサルト,M745943,aerialasj
+gg-jp-0063,1992-06-12,ぎゅわんぶらあ自己中心派,セガ,G-3309,3800,税抜,,,ぎゅわんぶらあ自己中心派,Wikipedia+MADB,MADB,MADB,ぎゅわんぶらあ自己中心派,M726773,
+gg-jp-0064,1992-07-24,オリンピックゴールド,セガ,G-3316,3800,税抜,,,オリンピックゴールド,Wikipedia+MADB+MAME,MAME,MADB,オリンピックゴールド,M746417,olympglda
+gg-jp-0065,1992-08-07,炎の闘球児 ドッジ弾平,セガ,G-3220,3200,税抜,,,炎の闘球児 ドッジ弾平,Wikipedia+MADB+MAME,MAME,MADB,炎の闘球児 ドッジ弾平,M759921,ddanpei
+gg-jp-0066,1992-08-28,アイルトン・セナ スーパーモナコGP II,セガ,,3500,税抜,,,アイルトン・セナ スーパーモナコGP II,Wikipedia+MADB,,MADB,アイルトン・セナ スーパーモナコ GP 2,M733918,
+gg-jp-0067,1992-09-18,シャダム・クルセイダー 〜遙かなる王国〜,セガ,G-3404,5500,税抜,,日本では当初のタイトルは『シャダム戦記』,シャダム・クルセイダー 遥かなる王国,Wikipedia+MADB+MAME,MAME+MADB,MADB,シャダム・クルセイダー 遥かなる王国,M726707,shadam
+gg-jp-0068,1992-10-16,ファンタシースター外伝,セガ,G-3405,4500,税抜,,,ファンタシースター,Wikipedia+MADB,MAME,MADB,ファンタシースター外伝,M755138,pstargdn
+gg-jp-0069,1992-10-23,バットマン・リターンズ,セガ,G-3314,3500,税抜,,,バットマン・リターンズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,バットマン・リターンズ,M726688,batmanrn
+gg-jp-0070,1992-10-23,イン ザ ウエイク オブ バンパイア,シムス,T-44047,,,,,IN THE WAKE OF VAMPIRE,Wikipedia+MAME,MAME,,,,wakevamp
+gg-jp-0071,1992-10-30,チャックロック,セガ,G-3320,3500,税抜,,,チャックロック,Wikipedia+MADB+MAME,MAME,MADB,チャックロック,M751236,chuckrck
+gg-jp-0072,1992-11-21,ソニック・ザ・ヘッジホッグ2,セガ,G-3321,3800,税抜,,,ソニック・ザ・ヘッジホッグ2,Wikipedia+MADB+MAME,MAME,MADB,ソニック・ザ・ヘッジホッグ 2,M750632,sonic2
+gg-jp-0073,1992-11-27,ベア・ナックル 怒りの鉄拳,セガ,G-3313,3500,税抜,,,ベア・ナックル,Wikipedia+MADB+MAME,MAME,MADB,ベア・ナックル,M755958,sor
+gg-jp-0074,1992-12-11,The GG忍II,セガ,G-3315,3500,税抜,,,忍 -SHINOBI-,Wikipedia+MADB+MAME,MAME,MADB,The GG忍2,M743209,shinobi2
+gg-jp-0075,1992-12-18,クニちゃんのゲーム天国Part2,セガ,G-3322,3500,税抜,,,クニちゃんのゲーム天国Part2,Wikipedia+MADB+MAME,MAME,MADB,クニちゃんのゲーム天国Part2,M747487,kunichn2
+gg-jp-0076,1992-12-25,シャイニング・フォース外伝 〜遠征・邪神の国へ〜,セガ,G-3406,5500,税抜,,,シャイニング・フォース外伝 遠征・邪神の国へ,Wikipedia+MADB,MADB,MADB,SHINING FORCE 外伝 遠征・邪神の国へ,M726608,
+gg-jp-0077,1993-02-05,レミングス,セガ,G-3317,3500,税抜,,,レミングス,Wikipedia+MADB+MAME,MAME,MADB,レミングス,M758890,lemmings
+gg-jp-0078,1993-02-26,ウィンブルドン,セガ,G-3221,3200,税抜,,,ウィンブルドン,Wikipedia+MADB+MAME,MAME,MADB,ウィンブルドン,M745687,wimbled
+gg-jp-0079,1993-03-19,ぷよぷよ,セガ,G-3324,3500,税抜,,,ぷよぷよ,Wikipedia+MADB+MAME,MAME,MADB,ぷよぷよ,M755376,puyopuyo
+gg-jp-0080,1993-03-26,ミッキーマウスの魔法のクリスタル,セガ,G-3323,3800,税抜,,本体同梱のプラスワンセットも発売,ミッキーマウスの魔法のクリスタル,Wikipedia+MADB+MAME,MAME,MADB,ミッキーマウスの魔法のクリスタル,M757238,landillj
+gg-jp-0081,1993-04-29,ドラえもん ノラのすけの野望,セガ,G-3326,3500,税抜,,,ドラえもん,Wikipedia+MADB+MAME,MAME,MADB,ドラえもん ノラのすけの野望,M752353,ggdora
+gg-jp-0082,1993-04-29,プロ野球GGリーグ,セガ,G-3407,4500,税抜,,当初のタイトルは『超（ハイパー）プロ野球93』,プロ野球GGリーグ,Wikipedia+MADB+MAME,MAME,MADB,プロ野球GGリーグ,M755919,proyakgg
+gg-jp-0083,1993-05-28,キック アンド ラッシュ,シムス,T-44057,,,,,キック アンド ラッシュ,Wikipedia+MAME,MAME,,,,kickrush
+gg-jp-0084,1993-06-25,トム&ジェリー THE MOVIE,セガ,G-3319,3800,税抜,,同名映画をゲーム化,,Wikipedia+MADB+MAME,MAME,MADB,トム＆ジェリー ザ・ムービー,M752285,tomjermvj
+gg-jp-0085,1993-06-25,シャイニング・フォース外伝II 〜邪神の覚醒〜,セガ,G-3409,,,,シャイニング・フォース外伝シリーズ第2弾,シャイニング・フォース外伝II 邪神の覚醒,Wikipedia+MAME,MAME,,,,shinfrg2
+gg-jp-0086,1993-07-02,ああ播磨灘,セガ,G-3327,3800,税抜,,同名漫画をゲーム化,ああ播磨灘,Wikipedia+MADB+MAME,MAME+MADB,MADB,ああ播磨灘,M726485,aaharima
+gg-jp-0087,1993-07-23,ベア・ナックルII 死闘への鎮魂歌,セガ,G-3328,3800,税抜,,,ベア・ナックルII 死闘への鎮魂歌,Wikipedia+MADB+MAME,MAME,MADB,ベア・ナックル2,M734435,sor2
+gg-jp-0088,1993-07-23,なぞぷよ,セガ,,,,,ゲームギア本体との同梱のみの販売。,なぞぷよ,Wikipedia,,,,,
+gg-jp-0089,1993-07-30,ジュラシック・パーク,セガ,G-3229,3800,税抜,,同名映画をゲーム化,,Wikipedia+MADB+MAME,MAME,MADB,ジュラシック・パーク,M749351,jparkj
+gg-jp-0090,1993-10-01,GGアレスタII,セガ,G-3330,3800,税抜,,,アレスタ,Wikipedia+MADB+MAME,MAME,MADB,GGアレスタ 2,M729912,pstrike2
+gg-jp-0091,1993-10-29,アルティメイトサッカー,セガ,G-3333,3800,税抜,,,アルティメイトサッカー,Wikipedia+MADB+MAME,MAME,MADB,アルティメイトサッカー,M745141,ultsoccr
+gg-jp-0092,1993-11-19,ソニック&テイルス,セガ,G-3331,3800,税抜,,ゲームギアオリジナルのソニック作品 日本では当初『ソニック・ザ・ヘッジホッグ3』という題名で発売される予定だった,ソニック&テイルス,Wikipedia+MADB+MAME,MAME+MADB,MADB,SONIC & TAILS,M726393,sonictls
+gg-jp-0093,1993-12-03,魔導物語I 3つの魔導球,セガ,G-3410,5500,税抜,,,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語1 3つの魔導球,M726373,madoum1
+gg-jp-0094,1993-12-10,なぞぷよ2,セガ,G-3413,4500,税抜,,,なぞぷよ,Wikipedia+MADB+MAME,MAME,MADB,なぞぷよ2,M752842,nazpuyo2
+gg-jp-0095,1993-12-17,モータルコンバット 神拳降臨伝説,アクレイムジャパン,T-81017,4800,税抜,,,モータルコンバット,Wikipedia+MADB+MAME,MAME,MADB,モータルコンバット 神剣降臨伝説,M757827,mkj
+gg-jp-0096,1993-12-17,ドナルドダックの4つの秘宝,セガ,G-3332,3800,税抜,,,ドナルドダックの4つの秘宝,Wikipedia+MADB+MAME,MAME,MADB,ドナルドダックの4つの秘宝,M752263,donald42
+gg-jp-0097,1993-12-17,対戦麻雀 好牌2,セガ,G-3335,3800,税抜,,,対戦麻雀 好牌2,Wikipedia+MADB+MAME,MAME,MADB,対戦麻雀 好牌2,M734749,taisnmj2
+gg-jp-0098,1993-12-17,フェイスボール2000,リバーヒルソフト,T-53037,4500,税抜,,,フェイスボール2000,Wikipedia+MADB+MAME,MAME+MADB,MADB,FACEBALL 2000,M726358,faceball
+gg-jp-0099,1994-01-14,バトルトード,セガ,G-3311,3800,税抜,,,バトルトード,Wikipedia+MADB+MAME,MAME,MADB,バトルトード,M754133,btoads
+gg-jp-0100,1994-01-21,リディック・ボウ ボクシング,セガ,T-22027,3800,税抜,,,リディック・ボウ ボクシング,Wikipedia+MADB+MAME,MAME,MADB,リディック ボウ ボクシング,M758499,riddickj
+gg-jp-0101,1994-02-11,ウインターオリンピック,セガ,G-3342,3800,税抜,,,ウインターオリンピック,Wikipedia+MADB+MAME,MAME,MADB,ウインターオリンピック,M745685,wintolj
+gg-jp-0102,1994-02-11,バスターファイト,セガ,G-3341,3800,税抜,,,バスターファイト,Wikipedia+MADB+MAME,MAME,MADB,バスター・ファイト,M753751,busterf
+gg-jp-0103,1994-02-25,T2ザ・アーケードゲーム,アクレイムジャパン,T-81027,4800,税抜,,,T2ザ・アーケードゲーム,Wikipedia+MADB+MAME,MAME,MADB,T2ザ・アーケードゲーム,M743106,t2agj
+gg-jp-0104,1994-03-04,マクドナルド ドナルドのマジカルワールド,セガ,G-3340,3800,税抜,,,マクドナルド ドナルドのマジカルワールド,Wikipedia+MADB+MAME,MAME,MADB,マクドナルド ドナルドのマジカルワールド,M756724,donaldmw
+gg-jp-0105,1994-03-11,エコー・ザ・ドルフィン,セガ,G-3344,3800,税抜,,同名メガドライブ用ソフトの移植版,エコー・ザ・ドルフィン,Wikipedia+MADB+MAME,MAME,MADB,エコー・ザ・ドルフィン,M746059,eccoj
+gg-jp-0106,1994-03-18,ソニックドリフト,セガ,G-3415,4800,税抜,,ソニックシリーズのキャラクターによるレースゲーム,ソニック ドリフト,Wikipedia+MADB+MAME,MAME,MADB,ソニックドリフト,M750659,sonicdr
+gg-jp-0107,1994-03-25,アラジン,セガ,G-3336,3800,税抜,,,アラジン (1992年の映画),Wikipedia+MADB+MAME,MAME,MADB,アラジン,M745074,aladdinj
+gg-jp-0108,1994-03-25,スクラッチゴルフ,ビック東海,T-23017,4800,税抜,,,スクラッチゴルフ,Wikipedia+MADB+MAME,MAME,MADB,スクラッチ ゴルフ,M749872,scratchgj
+gg-jp-0109,1994-03-25,幽☆遊☆白書 滅びし者の逆襲,セガ,G-3343,3800,税抜,,,幽☆遊☆白書 滅びし者の逆襲,Wikipedia,MAME,MADB,幽☆遊☆白書 滅びし者の逆襲,M766447,yuyu
+gg-jp-0110,1994-04-22,GPライダー,セガ,G-3347,3800,税抜,,,GPライダー,Wikipedia+MADB+MAME,MAME,MADB,GPライダー,M739575,gpriderj
+gg-jp-0111,1994-04-22,タントア〜ル,セガ,G-3345,3800,税抜,,,タントアール,Wikipedia+MADB+MAME,MAME,MADB,タントア～ル,M751158,tantr
+gg-jp-0112,1994-04-22,女神転生外伝 ラストバイブル,セガ,G-3418,5500,税抜,,ラストバイブルシリーズ第1作のリメイク,女神転生外伝 ラストバイブル,Wikipedia+MADB+MAME,MAME+MADB,MADB,女神転生外伝 Last Bible,M726249,lastbibl
+gg-jp-0113,1994-04-29,NBAジャム,アクレイムジャパン,T-81037,4800,税抜,,,NBAジャム (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,NBA JAM,M741043,nbajamj
+gg-jp-0114,1994-05-20,魔導物語II アルル16才,セガ,G-3419,5500,税抜,,『魔導物語1-2-3』のエピソード2のアレンジ移植,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語2 アルル16才,M726235,madoum2
+gg-jp-0115,1994-05-27,エイリアン3,アクレイムジャパン,T-81047,4500,税抜,,同名映画をゲーム化,エイリアン3,Wikipedia+MADB+MAME,MAME,MADB,エイリアン3,M745962,alien3j
+gg-jp-0116,1994-05-27,ワールドダービー,CRI,T-68017,4980,税抜,,当初のタイトルは『ウイニングホース』でセガから発売予定だった。,,Wikipedia+MADB+MAME,MAME,MADB,ワールドダービー,M759348,wderby
+gg-jp-0117,1994-06-03,とられてたまるか!?,セガ,G-3348,3800,税抜,,同名映画をゲーム化,,Wikipedia+MADB+MAME,MAME,MADB,とられてたまるか! ?,M752635,torarete
+gg-jp-0118,1994-06-24,アダムス・ファミリー,アクレイムジャパン,T-81087,4500,税抜,,,アダムス・ファミリー,Wikipedia+MADB+MAME,MAME,MADB,アダムスファミリー,M744896,addfam
+gg-jp-0119,1994-06-24,ロボコップ3,アクレイムジャパン,T-81097,4500,税抜,,,ロボコップ3,Wikipedia+MADB+MAME,MAME,MADB,ロボコップ 3,M759222,robocop3
+gg-jp-0120,1994-07-22,JリーグGGプロストライカー'94,セガ,G-3417,4800,税抜,,,JリーグGGプロストライカー'94,Wikipedia+MADB+MAME,MAME+MADB,MADB,Jリーグ GG PRO・STRIKER '94,M726196,jleagu94
+gg-jp-0121,1994-07-29,スマッシュT.V.,アクレイムジャパン,T-81057,4500,税抜,,,スマッシュT.V.,Wikipedia+MADB+MAME,MAME,MADB,スマッシュTV,M750278,smashtv
+gg-jp-0122,1994-07-29,ズールのゆめぼうけん,インフォコム,T-149017,3800,税抜,,,ズールのゆめぼうけん,Wikipedia+MADB+MAME,MAME,MADB,ズール,M749818,zoolj
+gg-jp-0123,1994-07-29,バートワールド,アクレイムジャパン,T-81077,4500,税抜,,日本では当初のタイトルは『バートVSザ・ワールド』,バートワールド,Wikipedia+MADB+MAME,MAME,MADB,バート ワールド,M753404,bartvswd
+gg-jp-0124,1994-07-29,なぞぷよ アルルのルー,セガ,G-3357,3800,税抜,,,なぞぷよ,Wikipedia+MADB+MAME,MAME,MADB,なぞぷよ アルルのルー,M752840,nazpyoar
+gg-jp-0125,1994-08-05,ダイナマイトヘッディー,セガ,G-3355,3800,税抜,,同名メガドライブ用ソフトを移植。,ダイナマイトヘッディー,Wikipedia+MADB+MAME,MAME,MADB,ダイナマイト ヘッディー,M750868,dheadj
+gg-jp-0126,1994-08-05,颯爽少年英雄伝 コカ・コーラキッド,セガ,G-3350,3800,税抜,,コカ・コーラ社とのタイアップ作品。 プレゼントキャンペーンの景品としてプラスワンセット（非売品）が配布された。,颯爽少年英雄伝 コカ・コーラキッド,Wikipedia+MADB+MAME,MAME,MADB,颯爽少年英雄伝コカ・コーラキッド,M766934,cocakid
+gg-jp-0127,1994-08-12,ポパイのビーチバレーボール,テクノスジャパン,T-154017,,,,,ポパイのビーチバレーボール,Wikipedia+MAME,MAME,,,,popeye
+gg-jp-0128,1994-09-09,モータルコンバットII 究極神拳,アクレイムジャパン,T-81107,4800,税抜,,,モータルコンバット,Wikipedia+MADB+MAME,MAME,MADB,モータルコンバット2  究極神拳,M734480,mk2
+gg-jp-0129,1994-09-09,剣勇伝説YAIBA,セガ,G-3346,3800,税抜,,,YAIBA,Wikipedia+MADB+MAME,MAME,MADB,剣勇伝説YAIBA,M761090,yaiba
+gg-jp-0130,1994-09-16,ダンクキッズ,セガ,G-3352,3800,税抜,,当初のタイトルは『ストリートバスケ』,ダンクキッズ,Wikipedia+MADB+MAME,MAME,MADB,ダンクキッズ,M751102,dunkkids
+gg-jp-0131,1994-09-30,クラッシュ・ダミー スリック坊やの大挑戦,アクレイムジャパン,T-81127,4500,税抜,,,クラッシュ・ダミー スリック坊やの大挑戦,Wikipedia+MADB+MAME,MAME,MADB,クラッシュ・ダミー ～スリック坊やの大挑戦～,M747535,crashdum
+gg-jp-0132,1994-09-30,T2 ジャッジメントディ,アクレイムジャパン,,4500,税抜,,,T2 ジャッジメントディ,Wikipedia+MADB,,MADB,T2 ジャッジメント・デイ,M743105,
+gg-jp-0133,1994-09-30,プロ野球GGリーグ'94,セガ,G-3353,3800,税抜,,当初のタイトルは『とってもベースボール』,プロ野球GGリーグ'94,Wikipedia+MADB+MAME,MAME,MADB,プロ野球GGリーグ'94,M755920,proyak94
+gg-jp-0134,1994-09-30,幽☆遊☆白書II 激闘!七強の戦い,セガ,G-3354,3800,税抜,,,幽☆遊☆白書II 激闘!七強の戦い,Wikipedia+MADB+MAME,MAME,MADB,幽☆遊☆白書2 激闘! 七強の戦い,M766449,yuyu2
+gg-jp-0135,1994-10-30,モルドリアン 〜光と闇の姉妹〜,セガ,G-3422,4800,税抜,,,モルドリアン 〜光と闇の姉妹〜,Wikipedia+MADB+MAME,MAME+MADB,MADB,MOLDORIAN 光と闇の姉妹,M726121,moldoran
+gg-jp-0136,1994-11-11,ソニック&テイルス2,セガ,G-3356,3800,税抜,,,ソニック・ザ・ヘッジホッグ,Wikipedia+MADB+MAME,MAME,MADB,ソニック＆テイルス 2,M750619,sonictl2
+gg-jp-0137,1994-11-25,餓狼伝説スペシャル,タカラ,,4800,税抜,,,餓狼伝説スペシャル,Wikipedia+MADB,,MADB,餓狼伝説スペシャル,M760288,
+gg-jp-0138,1994-11-25,イチダントア〜ルGG,セガ,G-3359,3800,税抜,,,イチダントア〜ル,Wikipedia+MADB+MAME,MAME+MADB,MADB,イチダントアールGG,M719648,ichirgg
+gg-jp-0139,1994-11-25,魔導物語III 究極女王様,セガ,G-3424,5500,税抜,,,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語3 究極女王様,M726105,madoum3
+gg-jp-0140,1994-12-09,SAMURAI SPIRITS,タカラ,T-146027,4800,税抜,,同名ネオジオ用ソフトの移植版,SAMURAI SPIRITS,Wikipedia+MAME,MAME,MADB,サムライスピリッツ,M726066,samspir
+gg-jp-0141,1994-12-16,ぷよぷよ通,コンパイル,T-66037,3800,税抜,,本体同梱版（キャラクターパック）もセガより発売,ぷよぷよ通,Wikipedia+MADB+MAME,MAME+MADB,MADB,ぷよぷよ通,M726067,puyopuy2
+gg-jp-0142,1994-12-16,From TV animation SLAM DUNK 勝利へのスターティング5,バンダイ,T-133037,4800,税抜,,,SLAM DUNK,Wikipedia+MADB+MAME,MAME+MADB,MADB,From TV animation SLAMDUNK 勝利へのスターティング5,M727993,slamdunk
+gg-jp-0143,1994-12-16,魔法騎士レイアース,セガ,G-3423,4800,税抜,,本体同梱版（キャラクターパック）も発売,魔法騎士レイアース,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔法騎士レイアース,M719645,rayearth
+gg-jp-0144,1994-12-23,フレッド カプルスズ ゴルフ,セガ,G-3358,3800,税抜,,,フレッド カプルスズ ゴルフ,Wikipedia+MADB+MAME,MAME,MADB,フレッド・カプルスズ ゴルフ,M755813,fredcoupj
+gg-jp-0145,1995-01-13,ライオン・キング,セガ,G-3363,3800,税抜,,同名映画のゲーム化作品でメガドライブ版をアレンジ移植,,Wikipedia+MADB+MAME,MAME,MADB,ライオンキング,M758176,lionkingj
+gg-jp-0146,1995-01-13,ミッキーマウス 伝説の王国,セガ,G-3360,3800,税抜,,,ミッキーマウス 伝説の王国,Wikipedia+MADB+MAME,MAME,MADB,ミッキーマウス 伝説の王国,M757236,legndillj
+gg-jp-0147,1995-01-27,ぎゃんぶるぱにっく,セガ,G-3364,3800,税抜,,,ぎゃんぶるぱにっく,Wikipedia+MADB+MAME,MAME,MADB,ぎゃんぶるぱにっく,M747278,gamble
+gg-jp-0148,1995-01-27,シルヴァンテイル,セガ,G-3426,5500,税抜,,,シルヴァンテイル,Wikipedia+MADB+MAME,MAME,MADB,シルヴァンテイル,M749413,sylvan
+gg-jp-0149,1995-01-27,美少女戦士セーラームーンS,バンダイ,T-133017,4500,税抜,,同名テレビアニメを原作とする横スクロールアクション,美少女戦士セーラームーン,Wikipedia+MADB+MAME,MAME+MADB,MADB,美少女戦士セーラームーンS,M726024,sailorms
+gg-jp-0150,1995-02-03,エコー・ザ・ドルフィン2,セガ,G-3362,3800,税抜,,同名メガドライブ用ソフトの移植版,エコー・ザ・ドルフィン,Wikipedia+MADB+MAME,MAME,MADB,エコー・ザ・ドルフィン2,M746062,ecco2j
+gg-jp-0151,1995-02-17,リスター・ザ・シューティングスター,セガ,G-3365,3800,税抜,,メガドライブ版も同日発売,リスター・ザ・シューティングスター,Wikipedia+MADB+MAME,MAME,MADB,リスター ザ・シューティングスター,M758459,ristar
+gg-jp-0152,1995-02-24,NFLクォーターバッククラブ'95,アクレイムジャパン,T-81147,4800,税抜,,,NFLクォーターバッククラブ'95,Wikipedia+MADB+MAME,MAME,MADB,NFLクォーターバッククラブ'95,M741214,nflqb
+gg-jp-0153,1995-02-24,NBAジャム トーナメントエディション,アクレイムジャパン,T-81137,4800,税抜,,,NBAジャム (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,NBA JAMトーナメントエディション,M741049,nbajamte
+gg-jp-0154,1995-02-24,クレヨンしんちゃん 対決!カンタムパニック!!,バンダイ,T-133047,4800,税抜,,漫画『クレヨンしんちゃん』を題材としたミニゲーム集,クレヨンしんちゃん,Wikipedia+MADB+MAME,MAME,MADB,クレヨンしんちゃん 対決! カンタムパニック!!,M747827,crayon
+gg-jp-0155,1995-02-24,ロイアル・ストーン 開かれし時の扉,セガ,G-3425,4800,税抜,,『アーリエル クリスタル伝説』の続編。キャラクターデザイン：九月姫,ロイアル・ストーン 開かれし時の扉,Wikipedia+MADB+MAME,MAME,MADB,ロイアル・ストーン 開かれし時の扉,M758903,royalstn
+gg-jp-0156,1995-03-03,タマ&フレンズ 3丁目公園タマリンピック,セガ,G-3361,3800,税抜,,,タマ&フレンズ 3丁目公園タマリンピック,Wikipedia+MADB+MAME,MAME,MADB,タマ＆フレンズ 3丁目公園タマリンピック,M751036,tamalymp
+gg-jp-0157,1995-03-17,ソニック ドリフト2,セガ,G-3366,3800,税抜,,,ソニック ドリフト2,Wikipedia+MADB+MAME,MAME,MADB,ソニックドリフト 2,M750660,sonicdr2
+gg-jp-0158,1995-03-24,SDガンダム WINNER'S HISTORY,バンダイ,T-133027,,,,,SDガンダム WINNER'S HISTORY,Wikipedia+MAME,MAME,,,,sdgundam
+gg-jp-0159,1995-03-24,ガンスターヒーローズ,セガ,G-3349,3800,税抜,,同名メガドライブ用ソフトの移植,ガンスターヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ガンスターヒーローズ,M746862,gunstar
+gg-jp-0160,1995-03-24,女神転生外伝 ラストバイブルスペシャル,セガ,G-3427,5500,税抜,,,女神転生外伝 ラストバイブルシリーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,女神転生外伝 Last Bible スペシャル,M719638,lastbibs
+gg-jp-0161,1995-04-07,THE クイズギアファイト!!,セガ,G-3367,3800,税抜,,,THE クイズギアファイト!!,Wikipedia+MADB+MAME,MAME,MADB,THE クイズ ギアファイト!,M743328,quizgear
+gg-jp-0162,1995-04-28,TEMPO JR.,セガ,G-3369,3800,税抜,,,TEMPO JR.,Wikipedia+MADB+MAME,MAME,MADB,テンポ Jr.,M752011,tempojr
+gg-jp-0163,1995-04-28,テイルスのスカイパトロール,セガ,G-3368,3800,税抜,,ソニックシリーズの登場人物であるテイルスを主役とした作品,テイルスのスカイパトロール,Wikipedia+MADB+MAME,MAME,MADB,テイルスのスカイパトロール,M751594,tailskyp
+gg-jp-0164,1995-05-26,スターゲイト,アクレイムジャパン,T-81157,4500,税抜,,,スターゲイト,Wikipedia+MADB+MAME,MAME,MADB,スターゲイト,M749942,stargate
+gg-jp-0165,1995-05-26,トゥルーライズ,アクレイムジャパン,T-81167,4800,税抜,,,トゥルーライズ,Wikipedia,MAME,MADB,トゥルーライズ,M752067,truelies
+gg-jp-0166,1995-05-26,スーパーコラムス,セガ,G-3226,3800,税抜,,,コラムス,Wikipedia+MADB+MAME,MAME,MADB,スーパーコラムス,M749499,supercolj
+gg-jp-0167,1995-06-30,シャイニング・フォース外伝 ファイナルコンフリクト,セガ,G-3428,5800,税抜,,,シャイニング・フォース外伝 ファイナルコンフリクト,Wikipedia+MADB+MAME,MAME+MADB,MADB,SHINING FORCE 外伝 FINAL CONFLICT,M719629,shinfrgf
+gg-jp-0168,1995-07-14,闘え!プロ野球ツインリーグ,セガ,G-3371,3800,税抜,,,闘え!プロ野球ツインリーグ,Wikipedia+MADB+MAME,MAME,MADB,闘え! プロ野球ツインリーグ,M764935,proyaktl
+gg-jp-0169,1995-07-21,忍空,セガ,G-3370,4800,税抜,,本体同梱版（キャラクターパック）も発売,NINKU -忍空-,Wikipedia+MADB+MAME,MAME+MADB,MADB,NINKU,M725908,ninku
+gg-jp-0170,1995-08-04,魔法騎士レイアース2 〜making of magic knight〜,セガ,G-3429,4800,税抜,,,魔法騎士レイアース,Wikipedia+MADB+MAME,MAME,MADB,魔法騎士レイアース2 making of magic knight,M766043,rayeart2
+gg-jp-0171,1995-09-01,鬼神童子ZENKI,セガ,G-3373,4800,税抜,,,鬼神童子ZENKI,Wikipedia+MADB+MAME,MAME,MADB,鬼神童子ZENKI,M760641,zenki
+gg-jp-0172,1995-09-14,FIFAインターナショナル・サッカー,エレクトロニック・アーツ・ビクター,T-106017,4980,税抜,,『SATURN FAN』1995年8月号掲載時点では1995年8月25日発売予定だった,FIFAシリーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,FIFA INTERNATIONAL SOCCER,M725869,fifaj
+gg-jp-0173,1995-09-22,テイルスアドベンチャー,セガ,G-3372,3800,税抜,,テイルスがソニックと出会う前の様子を描いた作品,テイルスアドベンチャー,Wikipedia+MADB+MAME,MAME,MADB,テイルスアドベンチャー,M751593,tailsadv
+gg-jp-0174,1995-10-20,ギアスタジアム平成版,ナムコ,T-14077,3500,税抜,,,ギアスタジアム,Wikipedia+MADB+MAME,MAME,MADB,ギアスタジアム平成版,M747013,gearstah
+gg-jp-0175,1995-10-27,バットマン フォーエヴァー,アクレイムジャパン,T-81187,4800,税抜,,,バットマン フォーエヴァー,Wikipedia+MADB+MAME,MAME,MADB,バットマン フォーエヴァー,M754037,batmanf
+gg-jp-0176,1995-10-27,フォアマン フォーリアル,アクレイムジャパン,T-81197,4800,税抜,,,フォアマン フォーリアル,Wikipedia+MADB+MAME,MAME,MADB,フォアマン フォー リアル,M755269,foreman
+gg-jp-0177,1995-11-03,忍空外伝 ヒロユキ大活劇,セガ,G-3377,4800,税抜,,テレビアニメ『忍空』に登場するペンギン・ヒロユキを主役としたゲームで、ゲームシステムは『ペンゴ』を基にしている,ペンゴ,Wikipedia+MADB+MAME,MAME,MADB,忍空外伝 ヒロユキ大活劇,M765150,ninkug
+gg-jp-0178,1995-11-17,ソニックラビリンス,セガ,G-3374,,,,ピンボール調のアクションゲームで、Dr.エッグマンによって走れなくなったソニックが転がって移動するという設定である,ソニックラビリンス,Wikipedia+MAME,MAME,,,,soniclab
+gg-jp-0179,1995-11-24,Jリーグサッカー ドリームイレブン,セガ,G-3431,5500,税抜,,,Jリーグサッカー ドリームイレブン,Wikipedia+MADB+MAME,MAME,MADB,Jリーグサッカー ドリームイレブン,M740067,jleague
+gg-jp-0180,1995-11-24,魔導物語A ドキドキばけ〜しょん,コンパイル,T-66047,5500,税抜,,,魔導物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,魔導物語A ドキドキばけ～しょん,M725816,madouma
+gg-jp-0181,1995-12-01,野茂英雄のワールドシリーズベースボール,セガ,G-3442,4800,税抜,,,野茂英雄のワールドシリーズベースボール,Wikipedia+MADB+MAME,MAME,MADB,野茂英雄のワールドシリーズベースボール,M766405,nomowsb
+gg-jp-0182,1995-12-08,ゴジラ 怪獣大進撃,セガ,G-3430,5500,税抜,,,ゴジラ,Wikipedia+MADB+MAME,MAME,MADB,ゴジラ～怪獣大進撃～,M748243,godzilla
+gg-jp-0183,1995-12-15,スーパー桃太郎電鉄III,ハドソン,T-143017,5800,税抜,,同名スーパーファミコン用ソフトの移植版で、雑誌『セガサターンFAN』1995年12月号掲載時点では1995年12月8日に発売される予定だった,スーパー桃太郎電鉄III,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパー桃太郎電鉄 3,M719599,smomo3
+gg-jp-0184,1995-12-22,忍空2 〜天空龍への道〜,セガ,G-3376,4800,税抜,,,NINKU -忍空-,Wikipedia+MADB+MAME,MAME,MADB,NINKU 忍空 2 天空龍への道,M741298,ninku2
+gg-jp-0185,1996-01-12,LUNAR さんぽする学園,ゲームアーツ,T-45017,5800,税抜,,雑誌『セガサターンFAN』1995年12月号掲載時点では1994年12月22日に発売される予定だった,LUNAR さんぽする学園,Wikipedia+MADB+MAME,MAME,MADB,LUNAR さんぽする学園,M740446,lunar
+gg-jp-0186,1996-01-26,ばくばくアニマル 世界飼育係選手権,セガ,G-3378,3800,税抜,,アーケード等で展開されていた作品の移植版で、動物を題材とした落ちものパズル,ばくばくアニマル 世界飼育係選手権,Wikipedia+MADB+MAME,MAME,MADB,ばくばくアニマル 世界飼育係選手権,M753725,bakubakuj
+gg-jp-0187,1996-03-29,バーチャファイターMini,セガ,G-3380,4800,税抜,,テレビアニメ『バーチャファイター』をゲーム化 キッズギア本体同梱版も発売,バーチャファイター,Wikipedia+MADB+MAME,MAME,MADB,バーチャファイター Mini,M753357,vfmini
+gg-jp-0188,1996-03-29,怪盗セイント・テール,セガ,G-3382,4800,税抜,,同名テレビアニメのゲーム化,怪盗セイント・テール,Wikipedia+MADB+MAME,MAME,MADB,怪盗セイントテール,M760336,sainttal
+gg-jp-0189,1996-04-26,ドラえもん ワクワクポケットパラダイス,セガ,G-3383,4800,税抜,,,ドラえもん,Wikipedia+MADB,MAME,MADB,ドラえもん ワクワクポケットパラダイス,M752355,doraemon
+gg-jp-0190,1996-07-19,ねこ大すき!,セガ,G-3434,4800,税抜,,,ねこ大すき!,Wikipedia+MADB+MAME,MAME,MADB,ねこ大好き!,M753262,nekodais
+gg-jp-0191,1996-08-02,パズルボブル,タイトー,T-11047,4800,税抜,,同名アーケードゲームの移植版,パズルボブル,Wikipedia+MADB+MAME,MAME,MADB,パズルボブル,M753809,pbobble
+gg-jp-0192,1996-11-01,GGポートレート ゆうきあきら,セガ,G-3386,3800,税抜,,,GGポートレート ゆうきあきら,Wikipedia+MADB+MAME,MAME,MADB,GGポートレートシリーズ ゆうき あきら,M739464,ggport1
+gg-jp-0193,1996-11-22,GGポートレート パイ・チェン,セガ,G-3387,3800,税抜,,,GGポートレート パイ・チェン,Wikipedia+MADB+MAME,MAME,MADB,GGポートレートシリーズ パイ・チェン,M739463,ggport
+gg-jp-0194,1996-11-22,パンツァードラグーンMINI,セガ,G-3384,4800,税抜,,セガサターン用ソフト『パンツァードラグーン』をゲームギア向けにアレンジした作品,パンツァードラグーン,Wikipedia+MADB+MAME,MAME,MADB,パンツァードラグーンMINI,M754519,panzer
+gg-jp-0195,1996-12-06,ペット倶楽部 いぬ大すき!,セガ,G-3436,4800,税抜,,,ペット倶楽部 いぬ大すき!,Wikipedia+MADB+MAME,MAME,MADB,ペット倶楽部 いぬ大好き,M756008,inudais
+gg-jp-0196,1996-12-13,G・ソニック,セガ,G-3385,4800,税抜,,日本における最後のゲームギア用ソフト,Gソニック,Wikipedia+MADB+MAME,MAME,MADB,Gソニック,M739697,sonicbls

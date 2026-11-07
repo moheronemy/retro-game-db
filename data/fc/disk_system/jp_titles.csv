@@ -1,199 +1,199 @@
-id,release_date,title,publisher,sales_channel,port_of_cartridge,single_sided,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
-fds-jp-0001,1986-02-21,ゼルダの伝説,任天堂,both,,,FMC-ZEL,2600,税なし,ローンチタイトル,ゼルダの伝説,Wikipedia+MADB+MAME,MAME+MADB,MADB,ゼルダの伝説,M727730,zelda
-fds-jp-0002,1986-02-21,スーパーマリオブラザーズ,任天堂,both,yes,yes,FMC-SMA,,,ローンチタイトル同名ROMカセット用ソフトの移植版,スーパーマリオブラザーズ,Wikipedia+MAME,MAME,,,,smb
-fds-jp-0003,1986-02-21,ゴルフ,任天堂,both,yes,yes,FMC-GLF,,,ローンチタイトル同名ROMカセット用ソフトの移植版,ゴルフ (任天堂),Wikipedia+MAME,MAME,,,,golf
-fds-jp-0004,1986-02-21,サッカー,任天堂,both,yes,yes,FMC-SCC,,,ローンチタイトル同名ROMカセット用ソフトの移植版,サッカー (任天堂),Wikipedia+MAME,MAME,,,,soccer
-fds-jp-0005,1986-02-21,テニス,任天堂,both,yes,yes,FMC-TEN,,,ローンチタイトル同名ROMカセット用ソフトの移植版,テニス (任天堂),Wikipedia+MAME,MAME,,,,tennis
-fds-jp-0006,1986-02-21,ベースボール,任天堂,both,yes,yes,FMC-BAS,,,ローンチタイトル同名ROMカセット用ソフトの移植版,ベースボール (ファミコン),Wikipedia+MAME,MAME,,,,baseball
-fds-jp-0007,1986-02-21,麻雀,任天堂,both,yes,yes,FMC-MJA,,,ローンチタイトル同名ROMカセット用ソフトの移植版,麻雀 (任天堂),Wikipedia+MAME,MAME,,,,mahjong
-fds-jp-0008,1986-04-14,謎の村雨城,任天堂,both,,,FMC-NMJ,2600,税なし,江戸時代を舞台に、主人公の鷹丸が、4つの城と村雨城に挑むアクション,謎の村雨城,Wikipedia+MADB+MAME,MAME+MADB,MADB,謎の村雨城,M727724,nazomura
-fds-jp-0009,1986-06-03,スーパーマリオブラザーズ2,任天堂,both,,yes,FMC-SMB,,,『スーパーマリオブラザーズ』シリーズ第2作,スーパーマリオブラザーズ2,Wikipedia+MAME,MAME,,,,smb2
-fds-jp-0010,1986-07-21,バレーボール,任天堂,both,,yes,FMC-VBW,,,バレーボールを題材としたゲーム,バレーボール (任天堂),Wikipedia+MAME,MAME,,,,volley
-fds-jp-0011,1986-07-30,涙の倉庫番スペシャル,アスキー,both,,,ASC-001,,,PCゲーム『倉庫番』および『倉庫番2』を収録,倉庫番,Wikipedia+MAME,MAME,,,,namidass
-fds-jp-0012,1986-08-06,メトロイド,任天堂,both,,,FMC-MET,2600,税なし,メトロイドシリーズ第1作,メトロイド,Wikipedia+MADB+MAME,MAME+MADB,MADB,メトロイド,M727708,metroid
-fds-jp-0013,1986-08-27,アイアムアティーチャー スーパーマリオのセーター,ロイヤル工業,package_only,,,ROY-ISM,,,セーターやベストを編むための練習用ソフト 一部の店舗でのみ販売,ロイヤル工業,Wikipedia+MAME,MAME,,,,teachsmb
-fds-jp-0014,1986-09-19,子猫物語,ポニーキャニオン,both,,,PNF-COM,,,同名映画のゲーム化,子猫物語,Wikipedia+MAME,MAME,,,,koneko
-fds-jp-0015,1986-09-26,悪魔城ドラキュラ,コナミ,both,,,KDS-AKM,,,コナミ初のディスクシステムオリジナル作品で、悪魔城ドラキュラシリーズ第1弾,悪魔城ドラキュラ,Wikipedia+MAME,MAME,,,,akumajo
-fds-jp-0016,1986-09-26,アイアムアティーチャー 手あみのきそ,ロイヤル工業,package_only,,,ROY-ITK,,,手編みの基礎を学べるソフトで、一部の店舗でのみ販売されていた,ロイヤル工業,Wikipedia+MAME,MAME,,,,teacher
-fds-jp-0017,1986-10-13,オセロ,河田,both,,yes,KWD-OTH,,,コンピュータオセロゲーム,オセロ (ボードゲーム),Wikipedia+MAME,MAME,,,,othello
-fds-jp-0018,1986-10-21,プロレス,任天堂,both,,yes,FMC-PRO,2500,税なし,開発はヒューマンが担当しており、のちに同社が発売したPCエンジン用ソフト『プロレス』のもとになった,プロレス (任天堂),Wikipedia+MADB+MAME,MAME+MADB,MADB,プロレス,M727700,prowres
-fds-jp-0019,1986-11-06,銀河伝承,イマジニア,package_only,,,IMA-GIN,,,メディアミックス・WAVE JACKシリーズ第1弾縦スクロールシューティングとアクションゲームを織り交ぜた作品,銀河伝承,Wikipedia+MAME,MAME,,,,galaxyod
-fds-jp-0020,1986-11-19,ガルフォース,HAL研究所,both,,,HAL-GAL,,,同名OVAのゲーム化,ガルフォース,Wikipedia,MAME,,,,galforce
-fds-jp-0021,1986-11-20,デッドゾーン,サンソフト[サン電子],both,,,SSD-DZN,,,合成音声で話すロボットが登場するSFアドベンチャー,デッドゾーン (ゲーム),Wikipedia+MAME,MAME,,,,deadzone
-fds-jp-0022,1986-11-21,もえろツインビー シナモン博士を救え!,コナミ,both,,,KDS-TIN,,,ツインビーシリーズ第2作で、シリーズで唯一3人プレイを可能とする,もえろツインビー シナモン博士を救え!,Wikipedia+MAME,MAME,,,,moetwinb
-fds-jp-0023,1986-11-28,きね子,アイレム,package_only,,,IFC-KIN,,,絵柄が動くジグソーパズルゲーム,きね子,Wikipedia+MAME,MAME,,,,kineticc
-fds-jp-0024,1986-11-28,ザナック,ポニーキャニオン,both,,yes,PNF-ZAN,,,同名PCゲームの移植版,ザナック (シューティングゲーム),Wikipedia+MAME,MAME,,,,zanac
-fds-jp-0025,1986-12-12,アディアンの杖,サンソフト[サン電子],both,,,SSD-ADA,,,算数を題材としたゲーム,アディアンの杖,Wikipedia+MAME,MAME,,,,adiantsu
-fds-jp-0026,1986-12-13,謎の壁 ブロックくずし,コナミ,both,,,KDS-NZN,2980,税なし,ブロック崩し,謎の壁 ブロックくずし,Wikipedia+MADB+MAME,MAME+MADB,MADB,謎の壁 ブロックくずし,M727684,nazokabe
-fds-jp-0027,1986-12-15,水晶の龍,DOG（スクウェア）,both,,,SQF-SSD,,,スクウェアを中心とした合同ブランド・DOGから初めて発表された作品 宇宙に現れた水晶の龍をめぐるアドベンチャーゲーム,水晶の龍,Wikipedia+MAME,MAME,,,,suishoun
-fds-jp-0028,1986-12-15,ブリーダー,ソフトプロ,both,,,SFC-BRE,,,ロボット組み立てと対戦を題材としたゲーム,ブリーダー,Wikipedia+MAME,MAME,,,,breeder
-fds-jp-0029,1986-12-19,光神話 パルテナの鏡,任天堂,both,,,FMC-PTM,2600,税なし,ギリシャ神話をモチーフとしたアクションゲーム,光神話 パルテナの鏡,Wikipedia+MADB+MAME,MAME+MADB,MADB,光神話 パルテナの鏡,M727681,hikaris
-fds-jp-0030,1986-12-19,ディープダンジョン 魔洞戦記,DOG（ハミングバードソフト）,both,,,SSD-DPD,,,ディープダンジョンシリーズ第1弾,ディープダンジョン,Wikipedia+MAME,MAME,,,,deepdng
-fds-jp-0031,1986-12-19,ナイト・ロアー,ジャレコ,both,,,JFD-KLM,,,狼男の呪いを解くため奔走する主人公を描いた斜め見おろし型アクションゲーム,ナイト・ロアー,Wikipedia+MAME,MAME,,,,knightlr
-fds-jp-0032,1986-12-20,消えたプリンセス,イマジニア,package_only,,,IMA-KIE,,,WAVE JACKシリーズ第2弾,消えたプリンセス,Wikipedia+MAME,MAME,,,,kietapr
-fds-jp-0033,1986-12-25,プロフェッショナル麻雀悟空,アスキー,both,,,ASC-GKU,2980,税なし,同名PCゲームの移植版,プロフェッショナル麻雀悟空,Wikipedia+MADB+MAME,MAME+MADB,MADB,プロフェッショナル 麻雀悟空,M727677,profmjg
-fds-jp-0034,1986-12-26,エレクトリシャン,KEMCO[コトブキシステム],both,,,KSC-ELC,,,同名PCゲームの移植版,エレクトリシャン,Wikipedia+MAME,MAME,,,,electric
-fds-jp-0035,1987-01-14,リンクの冒険,任天堂,both,,,FMC-LNK,2600,税なし,『ゼルダの伝説』の続編であるサイドビューアクション,リンクの冒険,Wikipedia+MADB+MAME,MAME+MADB,MADB,リンクの冒険,M727657,zelda2
-fds-jp-0036,1987-01-29,ウルトラマン 怪獣帝国の逆襲,バンダイ,both,,,BAN-ULM,,,ファミリーコンピュータ用ソフトとしては初めてとなる、『ウルトラマン』のゲーム化作品 書き換え版（ID: UL1）はパッケージ版（ID: ULM）から一部のBGMが変更されている,ウルトラマン 怪獣帝国の逆襲,Wikipedia+MAME,MAME,,,,ultraman
-fds-jp-0037,1987-01-29,エッガーランド,HAL研究所,both,,,HAL-EGL,,,MSX用ソフト『迷宮神話』をベースとした固定画面クリア型アクションゲーム,エッガーランド,Wikipedia+MAME,MAME,,,,eggerlnd
-fds-jp-0038,1987-02-06,ナゾラーランド 創刊号,サンソフト[サン電子],both,,,SSD-NZL,,,世界文化社との共同制作であるディスクマガジン,ナゾラーランド,Wikipedia+MAME,MAME,,,,nazoraa
-fds-jp-0039,1987-02-20,エスパードリーム,コナミ,both,,,,,,超能力を題材としたアクションRPG,エスパードリーム,Wikipedia,,,,,esperdrm
-fds-jp-0040,1987-02-21,ゴルフJAPANコース,任天堂,both,,,FSC-GFJE,,,最初の青ディスク専用ソフト,マリオゴルフ,Wikipedia+MAME,MAME,,,,fcgolf
-fds-jp-0041,1987-03-01,きね子II,アイレム,rewrite_only,,,,,,『きね子』の続編,きね子,Wikipedia,,,,,
-fds-jp-0042,1987-03-03,メルヘンヴェール,サンソフト[サン電子],both,,,SSD-MVL,,,同名PCゲームの移植版,メルヘンヴェール,Wikipedia+MAME,MAME,,,,marchen
-fds-jp-0043,1987-03-05,スーパーロードランナー,アイレム,both,,,IFD-SLR,3100,税なし,『ロードランナー』のアレンジ版,ロードランナー,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパーロードランナー,M727652,sloderun
-fds-jp-0044,1987-03-12,とびだせ大作戦,DOG（スクウェア）,both,,,SQF-TDS,,,赤青メガネによる3D立体視に対応,とびだせ大作戦,Wikipedia+MAME,MAME,,,,tobidais
-fds-jp-0045,1987-03-27,ウインターゲームズ,ポニーキャニオン,both,,,PNF-WIN,,,冬季オリンピックを題材としたスポーツゲーム,ウィンターゲームズ,Wikipedia+MAME,MAME,,,,wingames
-fds-jp-0046,1987-03-27,オトッキー,アスキー,both,,,ASC-OTO,3500,税なし,音楽を題材とした横スクロールシューティングゲーム,オトッキー,Wikipedia+MADB+MAME,MAME+MADB,MADB,オトッキー,M727648,otocky
-fds-jp-0047,1987-03-27,スーパーボーイ・アラン,サンソフト[サン電子],package_only,,,SSD-ALN,,,知能ゲームシリーズ第2弾で、分数を題材としている,スーパーボーイ・アラン,Wikipedia+MAME,MAME,,,,superboy
-fds-jp-0048,1987-03-27,地底大陸オルドーラ,サンソフト[サン電子],package_only,,,SSD-ORD,,,知能ゲームシリーズ第3弾で、小数を題材としている,地底大陸オルドーラ,Wikipedia+MAME,MAME,,,,orudora
-fds-jp-0049,1987-03-28,ダーティペア,バンダイ,both,,,BAN-DPR,,,同名作品のゲーム化,ダーティペア,Wikipedia+MAME,MAME,,,,dirtpair
-fds-jp-0050,1987-04-03,アップルタウン物語,DOG（スクウェア）,both,,,SQF-APT,,,PCゲーム『リトルコンピュータピープル』の内容差し替え版,アップルタウン物語,Wikipedia+MAME,MAME,,,,appltown
-fds-jp-0051,1987-04-10,グリーンベレー,コナミ,both,,,KDS-GRN,,,同名アーケードゲームの移植版,グリーンベレー (コナミ),Wikipedia+MAME,MAME,,,,gberet
-fds-jp-0052,1987-04-10,ココナワールド,ソフエル,both,,,SFL-CCN,,,魔法使いココナの日常を主題としたゲーム,ココナワールド,Wikipedia+MAME,MAME,,,,cocona
-fds-jp-0053,1987-04-10,レリクス 暗黒要塞,ボーステック,both,,,BTC-RLC,4200,税なし,同名PCゲームの移植版,レリクス 暗黒要塞,Wikipedia+MADB+MAME,MAME+MADB,MADB,レリクス 暗黒要塞,M727646,relics
-fds-jp-0054,1987-04-14,囲碁 九路盤対局,BPS,package_only,,,BPS-IGO,,,九路盤を採用した囲碁ゲーム,囲碁 九路盤対局,Wikipedia+MAME,MAME,,,,igokyuur
-fds-jp-0055,1987-04-17,風雲少林拳,ジャレコ,both,,,JFD-FSH,,,一対一のカンフーアクションゲーム,風雲少林拳,Wikipedia+MAME,MAME,,,,fuunsha
-fds-jp-0056,1987-04-24,愛戦士ニコル,コナミ,both,,,KDS-AIN,2980,税なし,SF風のアクションゲーム,愛戦士ニコル,Wikipedia+MADB+MAME,MAME+MADB,MADB,愛戦士ニコル,M727641,aisenshi
-fds-jp-0057,1987-04-24,探偵 神宮寺三郎 新宿中央公園殺人事件,DECO[データイースト],both,,,DFC-JUK,3300,税なし,『探偵 神宮寺三郎』シリーズ第1弾,探偵 神宮寺三郎 新宿中央公園殺人事件,Wikipedia+MADB+MAME,MAME+MADB,MADB,探偵 神宮寺三郎 新宿中央公園殺人事件,M727642,tjsshinj
-fds-jp-0058,1987-05-01,キン肉マン キン肉星王位争奪戦,バンダイ,both,,,BAN-KNM,,,漫画『キン肉マン』のゲーム化,キン肉マン キン肉星王位争奪戦,Wikipedia+MAME,MAME,,,,kinnikum
-fds-jp-0059,1987-05-01,ハオ君の不思議な旅,DOG（キャリーラボ）,both,,,SQF-HFT,,,魔法使いの弟子・ハオ君の冒険を描いたアクションゲーム,ハオ君の不思議な旅,Wikipedia+MAME,MAME,,,,haokun
-fds-jp-0060,1987-05-19,聖剣サイコカリバー,イマジニア,both,,,IMA-MAJ,,,WAVE JACKシリーズ最終作で、アイドルユニットポピンズとのタイアップである,聖剣サイコカリバー,Wikipedia+MAME,MAME,,,,psychocl
-fds-jp-0061,1987-05-25,セクションZ,カプコン,both,,,CAP-SCZ,,,横スクロールアクションゲーム,セクションZ,Wikipedia+MAME,MAME,,,,sectionz
-fds-jp-0062,1987-05-25,プロゴルファー猿 影のトーナメント,バンダイ,both,,,BAN-PGS,,,同名アニメのゲーム化,プロゴルファー猿,Wikipedia+MAME,MAME,,,,progolfr
-fds-jp-0063,1987-05-29,迷宮寺院ダババ,コナミ,both,,,KDS-MIK,,,インドの寺院を舞台としたアクションゲーム,迷宮寺院ダババ,Wikipedia+MAME,MAME,,,,meikyujd
-fds-jp-0064,1987-05-29,ディープダンジョン2 勇士の紋章,DOG（ハミングバードソフト）,both,,,SQF-YSM,,,『ディープダンジョン 魔洞戦記』の続編 書き換え版は一部のマップが変更されている,ディープダンジョン,Wikipedia,MAME,,,,deepdng2
-fds-jp-0065,1987-05-31,スマッシュピンポン,任天堂,both,,yes,FMC-PPN,,,卓球ゲームで、開発はコナミが担当した,スマッシュピンポン,Wikipedia,MAME,,,,smashpin
-fds-jp-0066,1987-06-02,リフレクトワールド,イーストキューブ,both,,,ECF-RWD,,,装甲車両を主題としたシューティングゲーム,リフレクトワールド,Wikipedia+MAME,MAME,,,,reflectw
-fds-jp-0067,1987-06-12,ナゾラーランド第2号,サンソフト[サン電子],both,,,SSD-NZB,,,ディスクマガジン『ナゾラーランド』第2弾,ナゾラーランド,Wikipedia+MAME,MAME,,,,nazoraa2
-fds-jp-0068,1987-06-14,ゴルフUSコース,任天堂,both,,,FSC-GFUE,,,青ディスク専用ソフトで、第2回FCゴルフトーナメントに用いられた,マリオゴルフ,Wikipedia+MAME,MAME,,,,fcgolfu
-fds-jp-0069,1987-06-19,Dr.カオス 地獄の扉,ポニーキャニオン,both,,,PNF-DRC,2900,税なし,館の探索を主題としたアクションアドベンチャーゲーム,Dr.カオス 地獄の扉,Wikipedia+MADB+MAME,MAME+MADB,MADB,DR.CHAOS 地獄の扉,M727637,drchaos
-fds-jp-0070,1987-06-19,マイケルEnglish大冒険,スコーピオンソフト,both,,,SCO-MEA,,,テレビアニメ『ホワッツマイケル』を題材とした英語学習ゲーム,ホワッツマイケル,Wikipedia+MAME,MAME,,,,michael
-fds-jp-0071,1987-06-26,エキサイティングビリヤード,コナミ,both,,,KDS-EKS,,,ストーリー性のあるビリヤードゲーム,エキサイティングビリヤード,Wikipedia+MAME,MAME,,,,excitbil
-fds-jp-0072,1987-07-03,磁界少年メット・マグ,DOG（シンキングラビット）,both,,,SQF-MTM,,,磁力をモチーフとした迷路型アクションゲーム,磁界少年メット・マグ,Wikipedia+MAME,MAME,,,,mettomag
-fds-jp-0073,1987-07-10,夢工場ドキドキパニック,フジテレビジョン、任天堂,both,,,FCG-DRM,2980,税なし,"フジテレビの大型イベント『夢工場』とのコラボレーション作品 日本国外では""Super Mario Bros. 2""として発売され、のちに日本においても『スーパーマリオUSA』として逆輸入された",夢工場ドキドキパニック,Wikipedia+MADB+MAME,MAME+MADB,MADB,夢工場ドキドキパニック,M727630,dokidoki
-fds-jp-0074,1987-07-24,エキサイティングバスケット,コナミ,both,,,KDS-EKB,,,アメリカのプロバスケットを題材としたゲーム,エキサイティングバスケット,Wikipedia+MAME,MAME,,,,excitbsk
-fds-jp-0075,1987-07-24,クレオパトラの魔宝,DOG（スクウェア）,both,,,SQF-CLO,,,古代エジプトを主題とした3DダンジョンアドベンチャーRPG,クレオパトラの魔宝,Wikipedia+MAME,MAME,,,,cleopatr
-fds-jp-0076,1987-07-24,タイタニックミステリー,学研,both,,,GAT-TIT,,,タイタニック引き上げを題材とした作品,タイタニックミステリー,Wikipedia+MAME,MAME,,,,titanic
-fds-jp-0077,1987-07-31,モンティのドキドキ大脱走,ジャレコ,both,,,JFD-MDD,,,冤罪で投獄された者の脱獄劇を描いたアクションゲーム,モンティのドキドキ大脱走,Wikipedia+MAME,MAME,,,,montyrun
-fds-jp-0078,1987-08-04,麻雀家族,アイレム,both,,,IFD-MJK,,,一人用の麻雀ゲーム,麻雀家族,Wikipedia+MAME,MAME,,,,mjkazoku
-fds-jp-0079,1987-08-11,アルマナの奇跡,コナミ,both,,,KDS-ARM,2500,税なし,ワイヤーアクションゲーム,アルマナの奇跡,Wikipedia+MADB+MAME,MAME+MADB,MADB,アルマナの奇跡,M727625,almana
-fds-jp-0080,1987-08-25,スーパーロードランナーII,アイレム,rewrite_only,,,IFD-SL2,,,『スーパーロードランナー』の続編,ロードランナー,Wikipedia+MAME,MAME,,,,slodern2
-fds-jp-0081,1987-08-28,奇々怪界 怒涛編,タイトー,both,,,TFD-KIK,,,巫女の小夜を主人公にしたアクションゲーム アイドル・伊藤美紀とのタイアップという側面もあり、本人も2Pキャラクターとして登場,奇々怪界,Wikipedia+MAME,MAME,,,,kikikai
-fds-jp-0082,1987-08-28,ドラキュラII 呪いの封印,コナミ,both,,,KDS-DRK,2980,税なし,『悪魔城ドラキュラ』の続編日本国外ではROMカセットとして発売,ドラキュラII 呪いの封印,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドラキュラ2 呪いの封印,M727623,dracula2
-fds-jp-0083,1987-08-28,トランスフォーマー ザ・ヘッドマスターズ,タカラ,both,,,TFC-TFH,,,同名テレビアニメのゲーム化,トランスフォーマー ザ☆ヘッドマスターズ,Wikipedia+MAME,MAME,,,,transfr2
-fds-jp-0084,1987-09-04,ふぁみこんむかし話 新・鬼ヶ島 前編,任天堂,both,,,FMC-ON,2600,税なし,日本の昔話やおとぎ話を題材としたアドベンチャーゲーム,ふぁみこんむかし話 新・鬼ヶ島,Wikipedia+MADB,MADB,MADB,ふぁみこんむかし話 新・鬼ヶ島 前編,M727622,
-fds-jp-0085,1987-09-30,ふぁみこんむかし話 新・鬼ヶ島 後編,任天堂,both,,,,,,,ふぁみこんむかし話 新・鬼ヶ島,Wikipedia,,,,,
-fds-jp-0086,1987-10-02,カリーンの剣,DOG（クリスタルソフト）,both,,,SQF-KRN,,,画面切り替え式のアクションRPG,カリーンの剣,Wikipedia+MAME,MAME,,,,kalin
-fds-jp-0087,1987-10-02,パルサーの光,ソフトプロ,both,,,SFC-PSR,,,宇宙海賊との戦いを描いたシミュレーションゲーム,パルサーの光,Wikipedia+MAME,MAME,,,,pulsar
-fds-jp-0088,1987-10-09,トップルジップ,ボーステック,both,,,BTC-TPZ,,,同名PCゲームの移植版,トップルジップ,Wikipedia+MAME,MAME,,,,topzip
-fds-jp-0089,1987-10-21,ファルシオン,コナミ,both,,,KDS-FAL,2980,税なし,ファミコン3Dシステム対応ソフト,ファルシオン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,FALSION,M727618,falsion
-fds-jp-0090,1987-10-23,妖怪屋敷,アイレム,both,,,IFD-YOK,,,同名MSX用ソフトの移植版妖怪を封じた屋敷を舞台としたアクションゲーム,妖怪屋敷,Wikipedia+MAME,MAME,,,,youkayas
-fds-jp-0091,1987-10-30,ファミコングランプリ F1レース,任天堂,both,,,FSC-FRGE,,,青ディスク専用ソフト,ファミコングランプリ F1レース,Wikipedia+MAME,MAME,,,,f1race
-fds-jp-0092,1987-10-30,バブルボブル,タイトー,both,,,TFD-BUB,,,泡吐きドラゴンを主題とした固定画面アクションゲーム,バブルボブル,Wikipedia+MAME,MAME,,,,bublbobl
-fds-jp-0093,1987-10-30,ファミリーコンポーザー,東京書籍,both,,,TKS-FCO,,,作曲ソフト,ファミリーコンポーザー,Wikipedia+MAME,MAME,,,,famcompo
-fds-jp-0094,1987-11-13,谷川浩司の将棋指南2,ポニーキャニオン,both,,,PNF-SHO,,,MSX用ソフト『谷川浩司の将棋指南』の続編,谷川浩司,Wikipedia+MAME,MAME,,,,shogish2
-fds-jp-0095,1987-11-20,キック・チャレンジャー エアフット,バップ,both,,,VAP-AFT,,,トマトを主人公とした縦スクロールアクションゲーム,キック・チャレンジャー エアフット,Wikipedia+MAME,MAME,,,,kickchal
-fds-jp-0096,1987-11-20,SDガンダムワールド ガチャポン戦士 スクランブルウォーズ,バンダイ,both,,,,,,『SDガンダムワールド ガチャポン戦士』シリーズ第1弾 書き換え版（1988年1月20日）（ID: SG1）はパッケージ版（ID: SGW）から一部のマップが変更されている,SDガンダムワールド ガチャポン戦士,Wikipedia,,,,,
-fds-jp-0097,1987-12-01,中山美穂のトキメキハイスクール,任天堂,both,,,FSC-THSE,,,アイドル・中山美穂とのタイアップであるアドベンチャーゲームで、青ディスク専用ソフト,中山美穂のトキメキハイスクール,Wikipedia+MAME,MAME,,,,idolhot
-fds-jp-0098,1987-12-04,サンタクロースの宝箱,DECO[データイースト],both,,,DFC-SAN,,,クリスマスカード作成ソフト,サンタクロースの宝箱,Wikipedia+MAME,MAME,,,,santa
-fds-jp-0099,1987-12-04,ドレミッコ,コナミ,package_only,,,KDS-DRE,,,キーボード練習ソフトで、専用キーボードを同梱,ドレミッコ,Wikipedia+MAME,MAME,,,,doremiko
-fds-jp-0100,1987-12-08,エキサイティングベースボール,コナミ,both,,,KDS-EBS,2980,税なし,野球ゲーム,エキサイティングベースボール,Wikipedia+MAME,MAME+MADB,MADB,エキサイティングベースボール,M727608,excitbb
-fds-jp-0101,1987-12-12,極楽遊戯（げーむてんごく）,ソフエル,both,,,SFL-GTG,,,ビンゴやルーレットなど、8種類のミニゲームを収録したパーティゲーム,極楽遊戯,Wikipedia+MAME,MAME,,,,gokuraku
-fds-jp-0102,1987-12-18,ウルトラマン2 出撃科特隊,バンダイ,both,,,BAN-UL2,,,『ウルトラマン 怪獣帝国の逆襲』の続編,ウルトラマン2 出撃科特隊,Wikipedia+MAME,MAME,,,,ultramn2
-fds-jp-0103,1987-12-18,ナゾラーランドスペシャル!!「クイズ王を探せ」,サンソフト[サン電子],both,,,SSD-NSP,,,「ナゾラーランド」の増刊号,ナゾラーランドスペシャル!!「クイズ王を探せ」,Wikipedia+MAME,MAME,,,,nazoraaq
-fds-jp-0104,1988-01-21,アイスホッケー,任天堂,both,,yes,FMC-ICE,,,アイスホッケーゲーム,アイスホッケー (任天堂),Wikipedia+MAME,MAME,,,,icehocky
-fds-jp-0105,1988-01-27,ガンスモーク,カプコン,both,,,CAP-GUN,,,西部劇を題材とした縦スクロールシューティングゲーム,ガンスモーク,Wikipedia+MAME,MAME,,,,gunsmoke
-fds-jp-0106,1988-02-01,ファイヤーバム,HAL研究所,both,,,HAL-FBM,,,ジャングルを舞台とした横スクロールアクションゲーム,ファイヤーバム,Wikipedia+MAME,MAME,,,,firebam
-fds-jp-0107,1988-02-16,エキサイティングサッカー コナミカップ,コナミ,both,,,KDS-ESC,3300,税なし,育成要素のあるサッカーゲーム,エキサイティングサッカー コナミカップ,Wikipedia+MADB+MAME,MAME+MADB,MADB,エキサイティングサッカー コナミカップ,M727558,excitsoc
-fds-jp-0108,1988-03-03,ドルイド 恐怖の扉,ジャレコ,both,,,JFD-DRD,,,ドルイドの冒険を描いたアクションゲーム,ドルイド 恐怖の扉,Wikipedia+MAME,MAME,,,,druid
-fds-jp-0109,1988-03-04,19 （ヌイーゼン）,ソフトプロ,both,,,SFC-NEU,,,独自の戦闘システムを採用したシミュレーションゲーム,19 (ゲーム),Wikipedia+MAME,MAME,,,,neunzehn
-fds-jp-0110,1988-03-11,ナゾラーランド第3号,サンソフト[サン電子],both,,,SSD-NZC,,,「ナゾラーランド」最終号,ナゾラーランド,Wikipedia+MAME,MAME,,,,nazoraa3
-fds-jp-0111,1988-03-11,ツインビー,コナミ,rewrite_only,yes,yes,KDS-TWN,,,同名ROMカセット用ソフトの移植版,ツインビー,Wikipedia+MAME,MAME,,,,twinbee
-fds-jp-0112,1988-03-25,おもいっきり探偵団 覇悪怒組 魔天郎の挑戦状,バンダイ,both,,,BAN-HRD,,,テレビドラマ『おもいっきり探偵団 覇悪怒組』のゲーム化,おもいっきり探偵団 覇悪怒組,Wikipedia+MAME,MAME,,,,matenroc
-fds-jp-0113,1988-03-25,ワードナの森,タイトー,both,,,TFD-WAD,,,同名アーケードゲームの移植版,ワードナの森,Wikipedia+MAME,MAME,,,,wardner
-fds-jp-0114,1988-03-31,アスピック,ボーステック,both,,,BTC-ASP,,,ファンタジー世界を舞台としたアクションRPG,アスピック (ゲーム),Wikipedia+MAME,MAME,,,,aspic
-fds-jp-0115,1988-04-08,ドンキーコング,任天堂,rewrite_only,yes,yes,FMC-DKD,,,同名アーケードゲームの移植版,ドンキーコング,Wikipedia+MAME,MAME,,,,dkong
-fds-jp-0116,1988-04-08,グーニーズ,コナミ,rewrite_only,yes,yes,KDS-GNS,,,同名ROMカセット用ソフトの移植版,グーニーズ (ゲーム),Wikipedia+MAME,MAME,,,,goonies
-fds-jp-0117,1988-04-14,ファミコングランプリII 3Dホットラリー,任天堂,both,,,FSC-TDRE,,,青ディスク専用ソフトディスクファクスを利用した大会対応ソフトとしては最後の作品 ファミコン3Dシステム対応ソフト,ファミコングランプリII 3Dホットラリー,Wikipedia+MAME,MAME,,,,famigp2
-fds-jp-0118,1988-04-15,仮面ライダーBLACK,バンダイ,both,,,BAN-BLA,3300,税なし,同名テレビ番組のゲーム化,仮面ライダーBLACK,Wikipedia+MADB+MAME,MAME+MADB,MADB,仮面ライダーBLACK 対決 シャドームーン,M727543,kamenrid
-fds-jp-0119,1988-04-22,バイオミラクル ぼくってウパ,コナミ,both,,,KDS-BOK,,,ROMカセット版あり,バイオミラクル ぼくってウパ,Wikipedia+MAME,MAME,,,,biomirac
-fds-jp-0120,1988-04-22,風雲少林拳 暗黒の魔王,ジャレコ,both,,,JFD-SAM,3200,税なし,風雲少林拳シリーズ第2作で、ファミコン3Dシステムに対応,風雲少林拳 暗黒の魔王,Wikipedia+MADB+MAME,MAME+MADB,MADB,風雲少林拳,M727542,fuunsham
-fds-jp-0121,1988-04-27,ファミコン探偵倶楽部 消えた後継者 前編,任天堂,both,,,,,,『ファミコン探偵俱楽部』シリーズ第1作,ファミコン探偵倶楽部 消えた後継者,Wikipedia,,,,,
-fds-jp-0122,1988-05-02,ファイナルコマンド 赤い要塞,コナミ,both,,,KDS-AKA,,,アーケードゲーム『特殊部隊ジャッカル』の移植版,特殊部隊ジャッカル,Wikipedia+MAME,MAME,,,,finalcom
-fds-jp-0123,1988-06-14,ファミコン探偵倶楽部 消えた後継者 後編,任天堂,both,,,,,,,ファミコン探偵倶楽部 消えた後継者,Wikipedia,,,,,
-fds-jp-0124,1988-06-20,ファイヤーロック,ユース,both,,,USE-FRC,,,地底を舞台としたアクションゲーム,ファイヤーロック,Wikipedia+MAME,MAME,,,,firerock
-fds-jp-0125,1988-06-21,リサの妖精伝説,コナミ,both,,,KDS-YOU,,,アイドル・立花理佐を題材としたアドベンチャーゲーム 青ディスク専用ソフトだが、ディスクファクス非対応,リサの妖精伝説,Wikipedia+MAME,MAME,,,,risayous
-fds-jp-0126,1988-07-12,亜空戦記ライジン,DOG（マイクロキャビン）,rewrite_only,,,SQF-RJN,,,歩行・飛行形態を切り替える任意スクロールアクションシューティングゲーム,亜空戦記ライジン,Wikipedia+MAME,MAME,,,,raijin
-fds-jp-0127,1988-07-12,ムーンボールマジック,DOG（システムサコム）,rewrite_only,,,SQF-MBM,,,ピンボールゲーム,ムーンボールマジック,Wikipedia+MAME,MAME,,,,moonball
-fds-jp-0128,1988-07-12,レプリカート,タイトー,both,,,,,,ヘビゲーム調のパズルゲーム,レプリカート,Wikipedia,,,,,
-fds-jp-0129,1988-07-19,ドンキーコングJR.,任天堂,rewrite_only,yes,yes,FMC-JRD,,,同名ROMカセット用ソフトの移植版,ドンキーコングJR.,Wikipedia+MAME,MAME,,,,dkongjr
-fds-jp-0130,1988-07-19,遠山の金さんすぺえす帖 MR.GOLD,東映動画,both,,,TDF-MRG,,,SF小説『遠山桜宇宙帖 奴の名はゴールド』のゲーム化,遠山桜宇宙帖 奴の名はゴールド,Wikipedia+MAME,MAME,,,,mrgold
-fds-jp-0131,1988-07-22,コナミックアイスホッケー,コナミ,both,,,KDS-HOC,,,アイスホッケーゲーム,コナミックアイスホッケー,Wikipedia+MAME,MAME,,,,konamice
-fds-jp-0132,1988-07-22,カラテ・チャンプ,DECO[データイースト],both,,,DFC-KAR,,,アーケードゲーム『空手道』の移植版1対1の空手アクションゲーム,空手道 (ゲーム),Wikipedia+MAME,MAME,,,,karatech
-fds-jp-0133,1988-07-29,らじかるぼんばー!! 地雷くん,ジャレコ,both,,,JFD-GRK,,,最大５人まで遊べる鬼ごっこゲーム,らじかるぼんばー!! 地雷くん,Wikipedia+MAME,MAME,,,,radicalb
-fds-jp-0134,1988-08-05,爆闘士パットンくん,ソフトプロ,both,,,SFC-PAT,,,戦車を題材としたシューティングゲーム,爆闘士パットンくん,Wikipedia+MAME,MAME,,,,patton
-fds-jp-0135,1988-08-10,ビッグチャレンジ! 柔道選手権,ジャレコ,both,,,JFD-CJS,,,柔道を題材としたスポーツゲーム,ビッグチャレンジ! 柔道選手権,Wikipedia+MAME,MAME,,,,judosens
-fds-jp-0136,1988-08-10,谷川浩司の将棋指南II 新版 詰め将棋・次の一手,ポニーキャニオン,rewrite_only,,yes,,,,ディスクライターでの書き換えは行われておらず、任天堂へディスクカードを送る必要があった,谷川浩司の将棋指南II 新版 詰め将棋・次の一手,Wikipedia,,,,,
-fds-jp-0137,1988-08-10,シルヴィアーナ,パック・イン・ビデオ,both,,,PAC-SIL,,,母親の治療薬を探す少女を描いたアクションRPG,シルヴィアーナ,Wikipedia+MAME,MAME,,,,silviana
-fds-jp-0138,1988-08-19,コナミックテニス,コナミ,both,,,KDS-TNI,,,トーナメント形式のテニスゲーム,コナミックテニス,Wikipedia+MAME,MAME,,,,kntennis
-fds-jp-0139,1988-09-02,魔塔の崩壊,ポニーキャニオン,both,,,PNF-MAT,,,バベルの塔を舞台としたアクションゲーム,魔塔の崩壊,Wikipedia+MAME,MAME,,,,herobabl
-fds-jp-0140,1988-09-13,キック アンド ラン,タイトー,both,,,TFD-KIC,,,サッカーゲーム,キック アンド ラン,Wikipedia+MAME,MAME,,,,kickrun
-fds-jp-0141,1988-09-23,バーガータイム,DECO[データイースト],rewrite_only,yes,,DFC-BGT,,,同名ROMカセット用ソフトの移植版,バーガータイム,Wikipedia+MAME,MAME,,,,btime
-fds-jp-0142,1988-10-04,パチコン,東芝EMI,rewrite_only,,yes,TFS-PCD,,,同名ROMカセット用ソフトの移植版,パチコン,Wikipedia+MAME,MAME,,,,pachicom
-fds-jp-0143,1988-10-18,エッガーランド 創造への旅立ち,HAL研究所,rewrite_only,,,,,,エッガーランドシリーズ第2弾,エッガーランド,Wikipedia,,,,,
-fds-jp-0144,1988-10-21,ダンディー,ポニーキャニオン,both,,,PNF-DAN,,,同名PCゲームの移植版,ダンディー,Wikipedia+MAME,MAME,,,,dandy
-fds-jp-0145,1988-10-21,ビッグチャレンジ! ドッグファイトスピリット,ジャレコ,both,,,JFD-DFS,,,ビッグチャレンジ!シリーズの一つ,ビッグチャレンジ! ドッグファイトスピリット,Wikipedia+MAME,MAME,,,,dogfspir
-fds-jp-0146,1988-10-22,ウルトラマン倶楽部,バンダイ,both,,,BAN-ULC,,,ウルトラマン倶楽部シリーズ第1弾,ウルトラマン倶楽部 (ゲーム),Wikipedia+MAME,MAME,,,,ultraclb
-fds-jp-0147,1988-10-28,遊メイズ,タイトー,both,,,TFD-UMZ,,,アーケードゲーム『レイメイズ』の移植版,レイメイズ,Wikipedia,MAME,,,,yuumaze
-fds-jp-0148,1988-11-15,サムライソード,カプコン,both,,,CAP-SMU,,,ファンタジー世界を舞台としたコマンド選択型アドベンチャーゲーム,サムライソード (ゲーム),Wikipedia+MAME,MAME,,,,samurai
-fds-jp-0149,1988-11-18,アイスクライマー,任天堂,rewrite_only,yes,,FMC-ICD,,,アーケードゲーム『VS.アイスクライマー』の移植版,アイスクライマー,Wikipedia+MAME,MAME,,,,iceclimb
-fds-jp-0150,1988-11-18,ジャイラス,コナミ,both,,,KDS-GRS,,,同名アーケードゲームの移植版,ジャイラス,Wikipedia+MAME,MAME,,,,gyruss
-fds-jp-0151,1988-11-18,パチンコGP,DECO[データイースト],both,,,DFC-PGP,,,パチンコゲーム,パチンコGP,Wikipedia+MAME,MAME,,,,pachingp
-fds-jp-0152,1988-11-29,じゃあまん探偵団 魔隣組,バンダイ,both,,,BAN-MAR,,,同名テレビ番組のゲーム化,じゃあまん探偵団 魔隣組,Wikipedia+MAME,MAME,,,,jtmk
-fds-jp-0153,1988-11-30,帰ってきたマリオブラザーズ,任天堂,rewrite_only,,,FMC-KMAR,,,ROMカートリッジ用ソフト『マリオブラザーズ』の移植版で、永谷園とのタイアップ このソフトのみ400円で書き換えが行われた,マリオブラザーズ,Wikipedia+MAME,MAME,,,,kmario
-fds-jp-0154,1988-12-09,探偵 神宮寺三郎 危険な二人 前編,DECO[データイースト],both,,,,,,神宮寺三郎シリーズ第3作,探偵 神宮寺三郎 危険な二人,Wikipedia,,,,,
-fds-jp-0155,1988-12-09,VS.エキサイトバイク,任天堂,both,,,FMC-EBD,,,アーケードゲーム『エキサイトバイク』のアレンジ移植,エキサイトバイク,Wikipedia+MAME,MAME,,,,excitbik
-fds-jp-0156,1988-12-09,なんきんのアドベンチア,サンソフト[サン電子],both,,,SSD-NAD,,,イラストレーター・なんきんの名を冠した「ナゾラーランド」の特別編,なんきんのアドベンチア,Wikipedia+MAME,MAME,,,,nanjing
-fds-jp-0157,1988-12-23,タロット占い,スコーピオンソフト,both,,,SCO-TAR,,,タロット占いゲーム,タロット占い,Wikipedia+MAME,MAME,,,,tarot
-fds-jp-0158,1989-01-14,ハレーウォーズ,タイトー,both,,,TFD-HAL,,,ハレーすい星を題材としたシューティングゲーム,ハレーウォーズ,Wikipedia+MAME,MAME,,,,halleywa
-fds-jp-0159,1989-01-24,機動警察パトレイバー,バンダイ,both,,,BAN-PTL,,,同名漫画のゲーム化,機動警察パトレイバー,Wikipedia+MAME,MAME,,,,patlabor
-fds-jp-0160,1989-02-03,レッキングクルー,任天堂,rewrite_only,,yes,FMC-WRD,,,同名ROMカセット用ソフトの移植版で、デザインモードで作成した面の保存が可能になった,レッキングクルー,Wikipedia+MAME,MAME,,,,wrecking
-fds-jp-0161,1989-02-10,探偵 神宮寺三郎 危険な二人 後編,DECO[データイースト],both,,,,,,,探偵 神宮寺三郎 危険な二人,Wikipedia,,,,,
-fds-jp-0162,1989-02-16,ロジャーラビット,KEMCO[コトブキシステム],both,,,KSC-RRR,,,同名映画のゲーム化,ロジャー・ラビット (コンピュータゲーム),Wikipedia+MAME,MAME,,,,rogerrab
-fds-jp-0163,1989-02-23,タマ&フレンズ,バンダイ,both,,,BAN-UTM,,,同名キャラクターのゲーム化,タマ&フレンズ,Wikipedia+MAME,MAME,,,,tamafrnd
-fds-jp-0164,1989-03-03,SDガンダムワールド ガチャポン戦士 スクランブルウォーズ マップコレクション,バンダイ,rewrite_only,,,BAN-SG2,,,『SDガンダムワールド ガチャポン戦士』シリーズ第2弾,SDガンダムワールド ガチャポン戦士,Wikipedia+MAME,MAME,,,,sdgndgsmap1
-fds-jp-0165,1989-03-20,光GENJI ローラーパニック,ポニーキャニオン,package_only,,,PNF-GEN,,,アイドルグループ・光GENJIを題材としたゲーム,光GENJI ローラーパニック,Wikipedia+MAME,MAME,,,,rolpanic
-fds-jp-0166,1989-03-28,ビッグチャレンジ! ガンファイター,ジャレコ,both,,,JFD-GNF,,,西部劇を題材とした横スクロールシューティングゲームで、ボス戦のみ3Dシューティング形式,ビッグチャレンジ! ガンファイター,Wikipedia+MAME,MAME,,,,gunfight
-fds-jp-0167,1989-03-30,パットパットゴルフ,パック・イン・ビデオ,both,,,PAC-PPG,,,ファンタジー要素のあるゴルフゲーム,パットパットゴルフ,Wikipedia+MAME,MAME,,,,puttputt
-fds-jp-0168,1989-04-28,フェアリーテイル,ソフトプロ,both,,,SFC-FYT,,,おとぎ話風のシューティングゲーム,フェアリーテイル (ゲーム),Wikipedia+MAME,MAME,,,,fairytal
-fds-jp-0169,1989-05-23,ファミコン探偵倶楽部 PARTII うしろに立つ少女 前編,任天堂,both,,,,,,ファミコン探偵倶楽部シリーズ第2作,ファミコン探偵倶楽部PartII うしろに立つ少女,Wikipedia,,,,,
-fds-jp-0170,1989-05-30,ピンボール,任天堂,rewrite_only,yes,yes,FMC-PND,,,同名ROMカセット用ソフトの移植版,ピンボール (任天堂),Wikipedia+MAME,MAME,,,,pinball
-fds-jp-0171,1989-06-23,ビッグチャレンジ! GOGOボウリング,ジャレコ,both,,,JFD-GGB,,,ボウリングゲーム,ビッグチャレンジ! GOGOボウリング,Wikipedia+MAME,MAME,,,,gogobowl
-fds-jp-0172,1989-06-30,ファミコン探偵倶楽部 PARTII うしろに立つ少女 後編,任天堂,both,,,,,,,ファミコン探偵倶楽部PartII うしろに立つ少女,Wikipedia,,,,,
-fds-jp-0173,1989-08-10,マグマプロジェクト ハッカー,徳間書店,both,,,GTS-MPH,,,同名PCゲームの移植版,マグマプロジェクト ハッカー,Wikipedia+MAME,MAME,,,,magmapro
-fds-jp-0174,1989-10-14,ふぁみこんむかし話 遊遊記 前編,任天堂,both,,,,,,西遊記をモチーフとしたアドベンチャーゲーム,ふぁみこんむかし話 遊遊記,Wikipedia,,,,,
-fds-jp-0175,1989-10-20,かっとび!童児,パック・イン・ビデオ,both,,,PAC-KTD,,,同名漫画のゲーム化作品,かっとび!童児,Wikipedia+MAME,MAME,,,,kattobiw
-fds-jp-0176,1989-11-14,ふぁみこんむかし話 遊遊記 後編,任天堂,both,,,,,,『ふぁみこんむかし話 遊遊記 前編』の続き,ふぁみこんむかし話 遊遊記,Wikipedia,,,,,
-fds-jp-0177,1989-11-24,LUTTER,アテナ,rewrite_only,,,ATH-LTD,,,面クリア形式のアクションパズル,LUTTER,Wikipedia+MAME,MAME,,,,lutter
-fds-jp-0178,1990-03-23,香港,徳間書店,both,,yes,GTS-HKD,,,ファミマガディスクシリーズ第1弾で、雑誌『MSX・FAN』の読者投稿作品の移植版にあたる,香港 (ゲーム),Wikipedia+MAME,MAME,,,,famimag1
-fds-jp-0179,1990-04-24,ボンバーマン,ハドソン,rewrite_only,yes,yes,HFC-BMD,,,同名ROMカセット用ソフトの移植版,ボンバーマン (ファミリーコンピュータ),manual+MAME,MAME,,,,bombermn
-fds-jp-0180,1990-05-18,ゼビウス,ナムコ,rewrite_only,yes,yes,NDS-XEV,,,同名ROMカセット用ソフトの移植版,ゼビウス,Wikipedia+MAME,MAME,,,,xevious
-fds-jp-0181,1990-05-18,パックマン,ナムコ,rewrite_only,yes,yes,NDS-PAC,,,同名ROMカセット用ソフトの移植版,パックマン,Wikipedia+MAME,MAME,,,,pacman
-fds-jp-0182,1990-06-05,ナイトムーブ,任天堂,both,,yes,FMC-KMV,,,チェスをモチーフとしたパズルゲーム,ナイトムーブ,Wikipedia+MAME,MAME,,,,knightmo
-fds-jp-0183,1990-06-22,ギャラガ,ナムコ,rewrite_only,yes,yes,NDS-GAG,,,同名ROMカセット用ソフトの移植版,ギャラガ,Wikipedia+MAME,MAME,,,,galaga
-fds-jp-0184,1990-07-20,ギャラクシアン,ナムコ,rewrite_only,yes,yes,NDS-GXN,,,同名ROMカセット用ソフトの移植版,ギャラクシアン,Wikipedia+MAME,MAME,,,,galaxian
-fds-jp-0185,1990-07-20,ディグダグ,ナムコ,rewrite_only,yes,yes,NDS-DIG,,,同名ROMカセット用ソフトの移植版,ディグダグ,Wikipedia+MAME,MAME,,,,digdug
-fds-jp-0186,1990-08-31,ディグダグII,ナムコ,rewrite_only,yes,yes,NDS-DD2,,,同名ROMカセット用ソフトの移植版で、ナムコにとって最後のディスクシステム作品,ディグダグII,Wikipedia+MAME,MAME,,,,digdug2
-fds-jp-0187,1990-09-07,バックギャモン,任天堂,both,,yes,FMC-BAG,,,日本バックギャモン協会監修,バックギャモン,Wikipedia+MAME,MAME,,,,backgamm
-fds-jp-0188,1990-10-19,パニックスペース,徳間書店,rewrite_only,,,GTS-PSD,,,ファミマガディスクシリーズ第2弾で、雑誌『MSX・FAN』の読者投稿作品の移植版にあたる,パニックスペース,Wikipedia+MAME,MAME,,,,famimag2
-fds-jp-0189,1990-11-16,パズルボーイズ,アトラス,rewrite_only,,,ATL-PUZ,,,同名ゲームボーイ用ソフトの移植版,パズルボーイズ,Wikipedia+MAME,MAME,,,,puzlboys
-fds-jp-0190,1990-12-07,石道,ヒロ,rewrite_only,,,HIR-ISD,,,同名PCゲームの移植版,石道,Wikipedia+MAME,MAME,,,,ishido
-fds-jp-0191,1991-01-25,ソロモンの鍵,テクモ,rewrite_only,yes,yes,TCF-SKD,,,同名ROMカセット用ソフトの移植版,ソロモンの鍵 (ゲーム),Wikipedia+MAME,MAME,,,,solomon
-fds-jp-0192,1991-02-22,オール1,徳間書店,rewrite_only,,yes,GTS-ALD,,,ファミマガディスクシリーズ第3弾で、「第1回ファミマガディスク大賞」受賞作品の商品化,オール1,Wikipedia+MAME,MAME,,,,famimag3
-fds-jp-0193,1991-04-19,クロックス,徳間書店,rewrite_only,,yes,GTS-CKD,,,ファミマガディスクシリーズ第4弾,クロックス (ゲーム),Wikipedia+MAME,MAME,,,,famimag4
-fds-jp-0194,1991-07-26,タイムツイスト 歴史のかたすみで… 前編,任天堂,both,,,,,,任天堂にとって最後のディスクシステムオリジナル作品,タイムツイスト 歴史のかたすみで…,Wikipedia,,,,,
-fds-jp-0195,1991-07-26,タイムツイスト 歴史のかたすみで… 後編,任天堂,both,,,FMC-TT1,,,,タイムツイスト 歴史のかたすみで…,Wikipedia+MAME,MAME,,,,timetwst
-fds-jp-0196,1991-10-25,ぷよぷよ,徳間書店,rewrite_only,,,GTS-PYO,,,ファミマガディスクシリーズ第5弾,ぷよぷよ,Wikipedia+MAME,MAME,,,,famimag5
-fds-jp-0197,1992-04-28,クルクルランド,任天堂,rewrite_only,yes,yes,FMC-CLD,,,アーケードゲーム「VS.クルクルランド」の移植版,クルクルランド,Wikipedia+MAME,MAME,,,,cluclu
-fds-jp-0198,1992-12-22,じゃんけんディスク城,徳間書店,rewrite_only,,,GTS-JKD,,,ファミマガディスク第6弾で、一般公募に入選した作品の商品化であり、最後のディスクシステム用ソフト,じゃんけんディスク城,Wikipedia+MAME,MAME,,,,famimag6
+id,release_date,title,publisher,sales_channel,port_of_cartridge,single_sided,model_number,price_yen,price_tax,price_note,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+fds-jp-0001,1986-02-21,ゼルダの伝説,任天堂,both,,,FMC-ZEL,2600,税なし,,ローンチタイトル,ゼルダの伝説,Wikipedia+MADB+MAME,MAME+MADB,MADB,ゼルダの伝説,M727730,zelda
+fds-jp-0002,1986-02-21,スーパーマリオブラザーズ,任天堂,both,yes,yes,FMC-SMA,,,,ローンチタイトル同名ROMカセット用ソフトの移植版,スーパーマリオブラザーズ,Wikipedia+MAME,MAME,,,,smb
+fds-jp-0003,1986-02-21,ゴルフ,任天堂,both,yes,yes,FMC-GLF,,,,ローンチタイトル同名ROMカセット用ソフトの移植版,ゴルフ (任天堂),Wikipedia+MAME,MAME,,,,golf
+fds-jp-0004,1986-02-21,サッカー,任天堂,both,yes,yes,FMC-SCC,,,,ローンチタイトル同名ROMカセット用ソフトの移植版,サッカー (任天堂),Wikipedia+MAME,MAME,,,,soccer
+fds-jp-0005,1986-02-21,テニス,任天堂,both,yes,yes,FMC-TEN,,,,ローンチタイトル同名ROMカセット用ソフトの移植版,テニス (任天堂),Wikipedia+MAME,MAME,,,,tennis
+fds-jp-0006,1986-02-21,ベースボール,任天堂,both,yes,yes,FMC-BAS,,,,ローンチタイトル同名ROMカセット用ソフトの移植版,ベースボール (ファミコン),Wikipedia+MAME,MAME,,,,baseball
+fds-jp-0007,1986-02-21,麻雀,任天堂,both,yes,yes,FMC-MJA,,,,ローンチタイトル同名ROMカセット用ソフトの移植版,麻雀 (任天堂),Wikipedia+MAME,MAME,,,,mahjong
+fds-jp-0008,1986-04-14,謎の村雨城,任天堂,both,,,FMC-NMJ,2600,税なし,,江戸時代を舞台に、主人公の鷹丸が、4つの城と村雨城に挑むアクション,謎の村雨城,Wikipedia+MADB+MAME,MAME+MADB,MADB,謎の村雨城,M727724,nazomura
+fds-jp-0009,1986-06-03,スーパーマリオブラザーズ2,任天堂,both,,yes,FMC-SMB,,,,『スーパーマリオブラザーズ』シリーズ第2作,スーパーマリオブラザーズ2,Wikipedia+MAME,MAME,,,,smb2
+fds-jp-0010,1986-07-21,バレーボール,任天堂,both,,yes,FMC-VBW,,,,バレーボールを題材としたゲーム,バレーボール (任天堂),Wikipedia+MAME,MAME,,,,volley
+fds-jp-0011,1986-07-30,涙の倉庫番スペシャル,アスキー,both,,,ASC-001,,,,PCゲーム『倉庫番』および『倉庫番2』を収録,倉庫番,Wikipedia+MAME,MAME,,,,namidass
+fds-jp-0012,1986-08-06,メトロイド,任天堂,both,,,FMC-MET,2600,税なし,,メトロイドシリーズ第1作,メトロイド,Wikipedia+MADB+MAME,MAME+MADB,MADB,メトロイド,M727708,metroid
+fds-jp-0013,1986-08-27,アイアムアティーチャー スーパーマリオのセーター,ロイヤル工業,package_only,,,ROY-ISM,,,,セーターやベストを編むための練習用ソフト 一部の店舗でのみ販売,ロイヤル工業,Wikipedia+MAME,MAME,,,,teachsmb
+fds-jp-0014,1986-09-19,子猫物語,ポニーキャニオン,both,,,PNF-COM,,,,同名映画のゲーム化,子猫物語,Wikipedia+MAME,MAME,,,,koneko
+fds-jp-0015,1986-09-26,悪魔城ドラキュラ,コナミ,both,,,KDS-AKM,,,,コナミ初のディスクシステムオリジナル作品で、悪魔城ドラキュラシリーズ第1弾,悪魔城ドラキュラ,Wikipedia+MAME,MAME,,,,akumajo
+fds-jp-0016,1986-09-26,アイアムアティーチャー 手あみのきそ,ロイヤル工業,package_only,,,ROY-ITK,,,,手編みの基礎を学べるソフトで、一部の店舗でのみ販売されていた,ロイヤル工業,Wikipedia+MAME,MAME,,,,teacher
+fds-jp-0017,1986-10-13,オセロ,河田,both,,yes,KWD-OTH,,,,コンピュータオセロゲーム,オセロ (ボードゲーム),Wikipedia+MAME,MAME,,,,othello
+fds-jp-0018,1986-10-21,プロレス,任天堂,both,,yes,FMC-PRO,2500,税なし,,開発はヒューマンが担当しており、のちに同社が発売したPCエンジン用ソフト『プロレス』のもとになった,プロレス (任天堂),Wikipedia+MADB+MAME,MAME+MADB,MADB,プロレス,M727700,prowres
+fds-jp-0019,1986-11-06,銀河伝承,イマジニア,package_only,,,IMA-GIN,,,,メディアミックス・WAVE JACKシリーズ第1弾縦スクロールシューティングとアクションゲームを織り交ぜた作品,銀河伝承,Wikipedia+MAME,MAME,,,,galaxyod
+fds-jp-0020,1986-11-19,ガルフォース,HAL研究所,both,,,HAL-GAL,,,,同名OVAのゲーム化,ガルフォース,Wikipedia,MAME,,,,galforce
+fds-jp-0021,1986-11-20,デッドゾーン,サンソフト[サン電子],both,,,SSD-DZN,,,,合成音声で話すロボットが登場するSFアドベンチャー,デッドゾーン (ゲーム),Wikipedia+MAME,MAME,,,,deadzone
+fds-jp-0022,1986-11-21,もえろツインビー シナモン博士を救え!,コナミ,both,,,KDS-TIN,,,,ツインビーシリーズ第2作で、シリーズで唯一3人プレイを可能とする,もえろツインビー シナモン博士を救え!,Wikipedia+MAME,MAME,,,,moetwinb
+fds-jp-0023,1986-11-28,きね子,アイレム,package_only,,,IFC-KIN,,,,絵柄が動くジグソーパズルゲーム,きね子,Wikipedia+MAME,MAME,,,,kineticc
+fds-jp-0024,1986-11-28,ザナック,ポニーキャニオン,both,,yes,PNF-ZAN,,,,同名PCゲームの移植版,ザナック (シューティングゲーム),Wikipedia+MAME,MAME,,,,zanac
+fds-jp-0025,1986-12-12,アディアンの杖,サンソフト[サン電子],both,,,SSD-ADA,,,,算数を題材としたゲーム,アディアンの杖,Wikipedia+MAME,MAME,,,,adiantsu
+fds-jp-0026,1986-12-13,謎の壁 ブロックくずし,コナミ,both,,,KDS-NZN,2980,税なし,,ブロック崩し,謎の壁 ブロックくずし,Wikipedia+MADB+MAME,MAME+MADB,MADB,謎の壁 ブロックくずし,M727684,nazokabe
+fds-jp-0027,1986-12-15,水晶の龍,DOG（スクウェア）,both,,,SQF-SSD,,,,スクウェアを中心とした合同ブランド・DOGから初めて発表された作品 宇宙に現れた水晶の龍をめぐるアドベンチャーゲーム,水晶の龍,Wikipedia+MAME,MAME,,,,suishoun
+fds-jp-0028,1986-12-15,ブリーダー,ソフトプロ,both,,,SFC-BRE,,,,ロボット組み立てと対戦を題材としたゲーム,ブリーダー,Wikipedia+MAME,MAME,,,,breeder
+fds-jp-0029,1986-12-19,光神話 パルテナの鏡,任天堂,both,,,FMC-PTM,2600,税なし,,ギリシャ神話をモチーフとしたアクションゲーム,光神話 パルテナの鏡,Wikipedia+MADB+MAME,MAME+MADB,MADB,光神話 パルテナの鏡,M727681,hikaris
+fds-jp-0030,1986-12-19,ディープダンジョン 魔洞戦記,DOG（ハミングバードソフト）,both,,,SSD-DPD,,,,ディープダンジョンシリーズ第1弾,ディープダンジョン,Wikipedia+MAME,MAME,,,,deepdng
+fds-jp-0031,1986-12-19,ナイト・ロアー,ジャレコ,both,,,JFD-KLM,,,,狼男の呪いを解くため奔走する主人公を描いた斜め見おろし型アクションゲーム,ナイト・ロアー,Wikipedia+MAME,MAME,,,,knightlr
+fds-jp-0032,1986-12-20,消えたプリンセス,イマジニア,package_only,,,IMA-KIE,,,,WAVE JACKシリーズ第2弾,消えたプリンセス,Wikipedia+MAME,MAME,,,,kietapr
+fds-jp-0033,1986-12-25,プロフェッショナル麻雀悟空,アスキー,both,,,ASC-GKU,2980,税なし,,同名PCゲームの移植版,プロフェッショナル麻雀悟空,Wikipedia+MADB+MAME,MAME+MADB,MADB,プロフェッショナル 麻雀悟空,M727677,profmjg
+fds-jp-0034,1986-12-26,エレクトリシャン,KEMCO[コトブキシステム],both,,,KSC-ELC,,,,同名PCゲームの移植版,エレクトリシャン,Wikipedia+MAME,MAME,,,,electric
+fds-jp-0035,1987-01-14,リンクの冒険,任天堂,both,,,FMC-LNK,2600,税なし,,『ゼルダの伝説』の続編であるサイドビューアクション,リンクの冒険,Wikipedia+MADB+MAME,MAME+MADB,MADB,リンクの冒険,M727657,zelda2
+fds-jp-0036,1987-01-29,ウルトラマン 怪獣帝国の逆襲,バンダイ,both,,,BAN-ULM,,,,ファミリーコンピュータ用ソフトとしては初めてとなる、『ウルトラマン』のゲーム化作品 書き換え版（ID: UL1）はパッケージ版（ID: ULM）から一部のBGMが変更されている,ウルトラマン 怪獣帝国の逆襲,Wikipedia+MAME,MAME,,,,ultraman
+fds-jp-0037,1987-01-29,エッガーランド,HAL研究所,both,,,HAL-EGL,,,,MSX用ソフト『迷宮神話』をベースとした固定画面クリア型アクションゲーム,エッガーランド,Wikipedia+MAME,MAME,,,,eggerlnd
+fds-jp-0038,1987-02-06,ナゾラーランド 創刊号,サンソフト[サン電子],both,,,SSD-NZL,,,,世界文化社との共同制作であるディスクマガジン,ナゾラーランド,Wikipedia+MAME,MAME,,,,nazoraa
+fds-jp-0039,1987-02-20,エスパードリーム,コナミ,both,,,,,,,超能力を題材としたアクションRPG,エスパードリーム,Wikipedia,,,,,esperdrm
+fds-jp-0040,1987-02-21,ゴルフJAPANコース,任天堂,both,,,FSC-GFJE,,,,最初の青ディスク専用ソフト,マリオゴルフ,Wikipedia+MAME,MAME,,,,fcgolf
+fds-jp-0041,1987-03-01,きね子II,アイレム,rewrite_only,,,,,,,『きね子』の続編,きね子,Wikipedia,,,,,
+fds-jp-0042,1987-03-03,メルヘンヴェール,サンソフト[サン電子],both,,,SSD-MVL,,,,同名PCゲームの移植版,メルヘンヴェール,Wikipedia+MAME,MAME,,,,marchen
+fds-jp-0043,1987-03-05,スーパーロードランナー,アイレム,both,,,IFD-SLR,3100,税なし,,『ロードランナー』のアレンジ版,ロードランナー,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパーロードランナー,M727652,sloderun
+fds-jp-0044,1987-03-12,とびだせ大作戦,DOG（スクウェア）,both,,,SQF-TDS,,,,赤青メガネによる3D立体視に対応,とびだせ大作戦,Wikipedia+MAME,MAME,,,,tobidais
+fds-jp-0045,1987-03-27,ウインターゲームズ,ポニーキャニオン,both,,,PNF-WIN,,,,冬季オリンピックを題材としたスポーツゲーム,ウィンターゲームズ,Wikipedia+MAME,MAME,,,,wingames
+fds-jp-0046,1987-03-27,オトッキー,アスキー,both,,,ASC-OTO,3500,税なし,,音楽を題材とした横スクロールシューティングゲーム,オトッキー,Wikipedia+MADB+MAME,MAME+MADB,MADB,オトッキー,M727648,otocky
+fds-jp-0047,1987-03-27,スーパーボーイ・アラン,サンソフト[サン電子],package_only,,,SSD-ALN,,,,知能ゲームシリーズ第2弾で、分数を題材としている,スーパーボーイ・アラン,Wikipedia+MAME,MAME,,,,superboy
+fds-jp-0048,1987-03-27,地底大陸オルドーラ,サンソフト[サン電子],package_only,,,SSD-ORD,,,,知能ゲームシリーズ第3弾で、小数を題材としている,地底大陸オルドーラ,Wikipedia+MAME,MAME,,,,orudora
+fds-jp-0049,1987-03-28,ダーティペア,バンダイ,both,,,BAN-DPR,,,,同名作品のゲーム化,ダーティペア,Wikipedia+MAME,MAME,,,,dirtpair
+fds-jp-0050,1987-04-03,アップルタウン物語,DOG（スクウェア）,both,,,SQF-APT,,,,PCゲーム『リトルコンピュータピープル』の内容差し替え版,アップルタウン物語,Wikipedia+MAME,MAME,,,,appltown
+fds-jp-0051,1987-04-10,グリーンベレー,コナミ,both,,,KDS-GRN,,,,同名アーケードゲームの移植版,グリーンベレー (コナミ),Wikipedia+MAME,MAME,,,,gberet
+fds-jp-0052,1987-04-10,ココナワールド,ソフエル,both,,,SFL-CCN,,,,魔法使いココナの日常を主題としたゲーム,ココナワールド,Wikipedia+MAME,MAME,,,,cocona
+fds-jp-0053,1987-04-10,レリクス 暗黒要塞,ボーステック,both,,,BTC-RLC,4200,税なし,,同名PCゲームの移植版,レリクス 暗黒要塞,Wikipedia+MADB+MAME,MAME+MADB,MADB,レリクス 暗黒要塞,M727646,relics
+fds-jp-0054,1987-04-14,囲碁 九路盤対局,BPS,package_only,,,BPS-IGO,,,,九路盤を採用した囲碁ゲーム,囲碁 九路盤対局,Wikipedia+MAME,MAME,,,,igokyuur
+fds-jp-0055,1987-04-17,風雲少林拳,ジャレコ,both,,,JFD-FSH,,,,一対一のカンフーアクションゲーム,風雲少林拳,Wikipedia+MAME,MAME,,,,fuunsha
+fds-jp-0056,1987-04-24,愛戦士ニコル,コナミ,both,,,KDS-AIN,2980,税なし,,SF風のアクションゲーム,愛戦士ニコル,Wikipedia+MADB+MAME,MAME+MADB,MADB,愛戦士ニコル,M727641,aisenshi
+fds-jp-0057,1987-04-24,探偵 神宮寺三郎 新宿中央公園殺人事件,DECO[データイースト],both,,,DFC-JUK,3300,税なし,,『探偵 神宮寺三郎』シリーズ第1弾,探偵 神宮寺三郎 新宿中央公園殺人事件,Wikipedia+MADB+MAME,MAME+MADB,MADB,探偵 神宮寺三郎 新宿中央公園殺人事件,M727642,tjsshinj
+fds-jp-0058,1987-05-01,キン肉マン キン肉星王位争奪戦,バンダイ,both,,,BAN-KNM,,,,漫画『キン肉マン』のゲーム化,キン肉マン キン肉星王位争奪戦,Wikipedia+MAME,MAME,,,,kinnikum
+fds-jp-0059,1987-05-01,ハオ君の不思議な旅,DOG（キャリーラボ）,both,,,SQF-HFT,,,,魔法使いの弟子・ハオ君の冒険を描いたアクションゲーム,ハオ君の不思議な旅,Wikipedia+MAME,MAME,,,,haokun
+fds-jp-0060,1987-05-19,聖剣サイコカリバー,イマジニア,both,,,IMA-MAJ,,,,WAVE JACKシリーズ最終作で、アイドルユニットポピンズとのタイアップである,聖剣サイコカリバー,Wikipedia+MAME,MAME,,,,psychocl
+fds-jp-0061,1987-05-25,セクションZ,カプコン,both,,,CAP-SCZ,,,,横スクロールアクションゲーム,セクションZ,Wikipedia+MAME,MAME,,,,sectionz
+fds-jp-0062,1987-05-25,プロゴルファー猿 影のトーナメント,バンダイ,both,,,BAN-PGS,,,,同名アニメのゲーム化,プロゴルファー猿,Wikipedia+MAME,MAME,,,,progolfr
+fds-jp-0063,1987-05-29,迷宮寺院ダババ,コナミ,both,,,KDS-MIK,,,,インドの寺院を舞台としたアクションゲーム,迷宮寺院ダババ,Wikipedia+MAME,MAME,,,,meikyujd
+fds-jp-0064,1987-05-29,ディープダンジョン2 勇士の紋章,DOG（ハミングバードソフト）,both,,,SQF-YSM,,,,『ディープダンジョン 魔洞戦記』の続編 書き換え版は一部のマップが変更されている,ディープダンジョン,Wikipedia,MAME,,,,deepdng2
+fds-jp-0065,1987-05-31,スマッシュピンポン,任天堂,both,,yes,FMC-PPN,,,,卓球ゲームで、開発はコナミが担当した,スマッシュピンポン,Wikipedia,MAME,,,,smashpin
+fds-jp-0066,1987-06-02,リフレクトワールド,イーストキューブ,both,,,ECF-RWD,,,,装甲車両を主題としたシューティングゲーム,リフレクトワールド,Wikipedia+MAME,MAME,,,,reflectw
+fds-jp-0067,1987-06-12,ナゾラーランド第2号,サンソフト[サン電子],both,,,SSD-NZB,,,,ディスクマガジン『ナゾラーランド』第2弾,ナゾラーランド,Wikipedia+MAME,MAME,,,,nazoraa2
+fds-jp-0068,1987-06-14,ゴルフUSコース,任天堂,both,,,FSC-GFUE,,,,青ディスク専用ソフトで、第2回FCゴルフトーナメントに用いられた,マリオゴルフ,Wikipedia+MAME,MAME,,,,fcgolfu
+fds-jp-0069,1987-06-19,Dr.カオス 地獄の扉,ポニーキャニオン,both,,,PNF-DRC,2900,税なし,,館の探索を主題としたアクションアドベンチャーゲーム,Dr.カオス 地獄の扉,Wikipedia+MADB+MAME,MAME+MADB,MADB,DR.CHAOS 地獄の扉,M727637,drchaos
+fds-jp-0070,1987-06-19,マイケルEnglish大冒険,スコーピオンソフト,both,,,SCO-MEA,,,,テレビアニメ『ホワッツマイケル』を題材とした英語学習ゲーム,ホワッツマイケル,Wikipedia+MAME,MAME,,,,michael
+fds-jp-0071,1987-06-26,エキサイティングビリヤード,コナミ,both,,,KDS-EKS,,,,ストーリー性のあるビリヤードゲーム,エキサイティングビリヤード,Wikipedia+MAME,MAME,,,,excitbil
+fds-jp-0072,1987-07-03,磁界少年メット・マグ,DOG（シンキングラビット）,both,,,SQF-MTM,,,,磁力をモチーフとした迷路型アクションゲーム,磁界少年メット・マグ,Wikipedia+MAME,MAME,,,,mettomag
+fds-jp-0073,1987-07-10,夢工場ドキドキパニック,フジテレビジョン、任天堂,both,,,FCG-DRM,2980,税なし,,"フジテレビの大型イベント『夢工場』とのコラボレーション作品 日本国外では""Super Mario Bros. 2""として発売され、のちに日本においても『スーパーマリオUSA』として逆輸入された",夢工場ドキドキパニック,Wikipedia+MADB+MAME,MAME+MADB,MADB,夢工場ドキドキパニック,M727630,dokidoki
+fds-jp-0074,1987-07-24,エキサイティングバスケット,コナミ,both,,,KDS-EKB,,,,アメリカのプロバスケットを題材としたゲーム,エキサイティングバスケット,Wikipedia+MAME,MAME,,,,excitbsk
+fds-jp-0075,1987-07-24,クレオパトラの魔宝,DOG（スクウェア）,both,,,SQF-CLO,,,,古代エジプトを主題とした3DダンジョンアドベンチャーRPG,クレオパトラの魔宝,Wikipedia+MAME,MAME,,,,cleopatr
+fds-jp-0076,1987-07-24,タイタニックミステリー,学研,both,,,GAT-TIT,,,,タイタニック引き上げを題材とした作品,タイタニックミステリー,Wikipedia+MAME,MAME,,,,titanic
+fds-jp-0077,1987-07-31,モンティのドキドキ大脱走,ジャレコ,both,,,JFD-MDD,,,,冤罪で投獄された者の脱獄劇を描いたアクションゲーム,モンティのドキドキ大脱走,Wikipedia+MAME,MAME,,,,montyrun
+fds-jp-0078,1987-08-04,麻雀家族,アイレム,both,,,IFD-MJK,,,,一人用の麻雀ゲーム,麻雀家族,Wikipedia+MAME,MAME,,,,mjkazoku
+fds-jp-0079,1987-08-11,アルマナの奇跡,コナミ,both,,,KDS-ARM,2500,税なし,,ワイヤーアクションゲーム,アルマナの奇跡,Wikipedia+MADB+MAME,MAME+MADB,MADB,アルマナの奇跡,M727625,almana
+fds-jp-0080,1987-08-25,スーパーロードランナーII,アイレム,rewrite_only,,,IFD-SL2,,,,『スーパーロードランナー』の続編,ロードランナー,Wikipedia+MAME,MAME,,,,slodern2
+fds-jp-0081,1987-08-28,奇々怪界 怒涛編,タイトー,both,,,TFD-KIK,,,,巫女の小夜を主人公にしたアクションゲーム アイドル・伊藤美紀とのタイアップという側面もあり、本人も2Pキャラクターとして登場,奇々怪界,Wikipedia+MAME,MAME,,,,kikikai
+fds-jp-0082,1987-08-28,ドラキュラII 呪いの封印,コナミ,both,,,KDS-DRK,2980,税なし,,『悪魔城ドラキュラ』の続編日本国外ではROMカセットとして発売,ドラキュラII 呪いの封印,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドラキュラ2 呪いの封印,M727623,dracula2
+fds-jp-0083,1987-08-28,トランスフォーマー ザ・ヘッドマスターズ,タカラ,both,,,TFC-TFH,,,,同名テレビアニメのゲーム化,トランスフォーマー ザ☆ヘッドマスターズ,Wikipedia+MAME,MAME,,,,transfr2
+fds-jp-0084,1987-09-04,ふぁみこんむかし話 新・鬼ヶ島 前編,任天堂,both,,,FMC-ON,2600,税なし,,日本の昔話やおとぎ話を題材としたアドベンチャーゲーム,ふぁみこんむかし話 新・鬼ヶ島,Wikipedia+MADB,MADB,MADB,ふぁみこんむかし話 新・鬼ヶ島 前編,M727622,
+fds-jp-0085,1987-09-30,ふぁみこんむかし話 新・鬼ヶ島 後編,任天堂,both,,,,,,,,ふぁみこんむかし話 新・鬼ヶ島,Wikipedia,,,,,
+fds-jp-0086,1987-10-02,カリーンの剣,DOG（クリスタルソフト）,both,,,SQF-KRN,,,,画面切り替え式のアクションRPG,カリーンの剣,Wikipedia+MAME,MAME,,,,kalin
+fds-jp-0087,1987-10-02,パルサーの光,ソフトプロ,both,,,SFC-PSR,,,,宇宙海賊との戦いを描いたシミュレーションゲーム,パルサーの光,Wikipedia+MAME,MAME,,,,pulsar
+fds-jp-0088,1987-10-09,トップルジップ,ボーステック,both,,,BTC-TPZ,,,,同名PCゲームの移植版,トップルジップ,Wikipedia+MAME,MAME,,,,topzip
+fds-jp-0089,1987-10-21,ファルシオン,コナミ,both,,,KDS-FAL,2980,税なし,,ファミコン3Dシステム対応ソフト,ファルシオン (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,FALSION,M727618,falsion
+fds-jp-0090,1987-10-23,妖怪屋敷,アイレム,both,,,IFD-YOK,,,,同名MSX用ソフトの移植版妖怪を封じた屋敷を舞台としたアクションゲーム,妖怪屋敷,Wikipedia+MAME,MAME,,,,youkayas
+fds-jp-0091,1987-10-30,ファミコングランプリ F1レース,任天堂,both,,,FSC-FRGE,,,,青ディスク専用ソフト,ファミコングランプリ F1レース,Wikipedia+MAME,MAME,,,,f1race
+fds-jp-0092,1987-10-30,バブルボブル,タイトー,both,,,TFD-BUB,,,,泡吐きドラゴンを主題とした固定画面アクションゲーム,バブルボブル,Wikipedia+MAME,MAME,,,,bublbobl
+fds-jp-0093,1987-10-30,ファミリーコンポーザー,東京書籍,both,,,TKS-FCO,,,,作曲ソフト,ファミリーコンポーザー,Wikipedia+MAME,MAME,,,,famcompo
+fds-jp-0094,1987-11-13,谷川浩司の将棋指南2,ポニーキャニオン,both,,,PNF-SHO,,,,MSX用ソフト『谷川浩司の将棋指南』の続編,谷川浩司,Wikipedia+MAME,MAME,,,,shogish2
+fds-jp-0095,1987-11-20,キック・チャレンジャー エアフット,バップ,both,,,VAP-AFT,,,,トマトを主人公とした縦スクロールアクションゲーム,キック・チャレンジャー エアフット,Wikipedia+MAME,MAME,,,,kickchal
+fds-jp-0096,1987-11-20,SDガンダムワールド ガチャポン戦士 スクランブルウォーズ,バンダイ,both,,,,,,,『SDガンダムワールド ガチャポン戦士』シリーズ第1弾 書き換え版（1988年1月20日）（ID: SG1）はパッケージ版（ID: SGW）から一部のマップが変更されている,SDガンダムワールド ガチャポン戦士,Wikipedia,,,,,
+fds-jp-0097,1987-12-01,中山美穂のトキメキハイスクール,任天堂,both,,,FSC-THSE,,,,アイドル・中山美穂とのタイアップであるアドベンチャーゲームで、青ディスク専用ソフト,中山美穂のトキメキハイスクール,Wikipedia+MAME,MAME,,,,idolhot
+fds-jp-0098,1987-12-04,サンタクロースの宝箱,DECO[データイースト],both,,,DFC-SAN,,,,クリスマスカード作成ソフト,サンタクロースの宝箱,Wikipedia+MAME,MAME,,,,santa
+fds-jp-0099,1987-12-04,ドレミッコ,コナミ,package_only,,,KDS-DRE,,,,キーボード練習ソフトで、専用キーボードを同梱,ドレミッコ,Wikipedia+MAME,MAME,,,,doremiko
+fds-jp-0100,1987-12-08,エキサイティングベースボール,コナミ,both,,,KDS-EBS,2980,税なし,,野球ゲーム,エキサイティングベースボール,Wikipedia+MAME,MAME+MADB,MADB,エキサイティングベースボール,M727608,excitbb
+fds-jp-0101,1987-12-12,極楽遊戯（げーむてんごく）,ソフエル,both,,,SFL-GTG,,,,ビンゴやルーレットなど、8種類のミニゲームを収録したパーティゲーム,極楽遊戯,Wikipedia+MAME,MAME,,,,gokuraku
+fds-jp-0102,1987-12-18,ウルトラマン2 出撃科特隊,バンダイ,both,,,BAN-UL2,,,,『ウルトラマン 怪獣帝国の逆襲』の続編,ウルトラマン2 出撃科特隊,Wikipedia+MAME,MAME,,,,ultramn2
+fds-jp-0103,1987-12-18,ナゾラーランドスペシャル!!「クイズ王を探せ」,サンソフト[サン電子],both,,,SSD-NSP,,,,「ナゾラーランド」の増刊号,ナゾラーランドスペシャル!!「クイズ王を探せ」,Wikipedia+MAME,MAME,,,,nazoraaq
+fds-jp-0104,1988-01-21,アイスホッケー,任天堂,both,,yes,FMC-ICE,,,,アイスホッケーゲーム,アイスホッケー (任天堂),Wikipedia+MAME,MAME,,,,icehocky
+fds-jp-0105,1988-01-27,ガンスモーク,カプコン,both,,,CAP-GUN,,,,西部劇を題材とした縦スクロールシューティングゲーム,ガンスモーク,Wikipedia+MAME,MAME,,,,gunsmoke
+fds-jp-0106,1988-02-01,ファイヤーバム,HAL研究所,both,,,HAL-FBM,,,,ジャングルを舞台とした横スクロールアクションゲーム,ファイヤーバム,Wikipedia+MAME,MAME,,,,firebam
+fds-jp-0107,1988-02-16,エキサイティングサッカー コナミカップ,コナミ,both,,,KDS-ESC,3300,税なし,,育成要素のあるサッカーゲーム,エキサイティングサッカー コナミカップ,Wikipedia+MADB+MAME,MAME+MADB,MADB,エキサイティングサッカー コナミカップ,M727558,excitsoc
+fds-jp-0108,1988-03-03,ドルイド 恐怖の扉,ジャレコ,both,,,JFD-DRD,,,,ドルイドの冒険を描いたアクションゲーム,ドルイド 恐怖の扉,Wikipedia+MAME,MAME,,,,druid
+fds-jp-0109,1988-03-04,19 （ヌイーゼン）,ソフトプロ,both,,,SFC-NEU,,,,独自の戦闘システムを採用したシミュレーションゲーム,19 (ゲーム),Wikipedia+MAME,MAME,,,,neunzehn
+fds-jp-0110,1988-03-11,ナゾラーランド第3号,サンソフト[サン電子],both,,,SSD-NZC,,,,「ナゾラーランド」最終号,ナゾラーランド,Wikipedia+MAME,MAME,,,,nazoraa3
+fds-jp-0111,1988-03-11,ツインビー,コナミ,rewrite_only,yes,yes,KDS-TWN,,,,同名ROMカセット用ソフトの移植版,ツインビー,Wikipedia+MAME,MAME,,,,twinbee
+fds-jp-0112,1988-03-25,おもいっきり探偵団 覇悪怒組 魔天郎の挑戦状,バンダイ,both,,,BAN-HRD,,,,テレビドラマ『おもいっきり探偵団 覇悪怒組』のゲーム化,おもいっきり探偵団 覇悪怒組,Wikipedia+MAME,MAME,,,,matenroc
+fds-jp-0113,1988-03-25,ワードナの森,タイトー,both,,,TFD-WAD,,,,同名アーケードゲームの移植版,ワードナの森,Wikipedia+MAME,MAME,,,,wardner
+fds-jp-0114,1988-03-31,アスピック,ボーステック,both,,,BTC-ASP,,,,ファンタジー世界を舞台としたアクションRPG,アスピック (ゲーム),Wikipedia+MAME,MAME,,,,aspic
+fds-jp-0115,1988-04-08,ドンキーコング,任天堂,rewrite_only,yes,yes,FMC-DKD,,,,同名アーケードゲームの移植版,ドンキーコング,Wikipedia+MAME,MAME,,,,dkong
+fds-jp-0116,1988-04-08,グーニーズ,コナミ,rewrite_only,yes,yes,KDS-GNS,,,,同名ROMカセット用ソフトの移植版,グーニーズ (ゲーム),Wikipedia+MAME,MAME,,,,goonies
+fds-jp-0117,1988-04-14,ファミコングランプリII 3Dホットラリー,任天堂,both,,,FSC-TDRE,,,,青ディスク専用ソフトディスクファクスを利用した大会対応ソフトとしては最後の作品 ファミコン3Dシステム対応ソフト,ファミコングランプリII 3Dホットラリー,Wikipedia+MAME,MAME,,,,famigp2
+fds-jp-0118,1988-04-15,仮面ライダーBLACK,バンダイ,both,,,BAN-BLA,3300,税なし,,同名テレビ番組のゲーム化,仮面ライダーBLACK,Wikipedia+MADB+MAME,MAME+MADB,MADB,仮面ライダーBLACK 対決 シャドームーン,M727543,kamenrid
+fds-jp-0119,1988-04-22,バイオミラクル ぼくってウパ,コナミ,both,,,KDS-BOK,,,,ROMカセット版あり,バイオミラクル ぼくってウパ,Wikipedia+MAME,MAME,,,,biomirac
+fds-jp-0120,1988-04-22,風雲少林拳 暗黒の魔王,ジャレコ,both,,,JFD-SAM,3200,税なし,,風雲少林拳シリーズ第2作で、ファミコン3Dシステムに対応,風雲少林拳 暗黒の魔王,Wikipedia+MADB+MAME,MAME+MADB,MADB,風雲少林拳,M727542,fuunsham
+fds-jp-0121,1988-04-27,ファミコン探偵倶楽部 消えた後継者 前編,任天堂,both,,,,,,,『ファミコン探偵俱楽部』シリーズ第1作,ファミコン探偵倶楽部 消えた後継者,Wikipedia,,,,,
+fds-jp-0122,1988-05-02,ファイナルコマンド 赤い要塞,コナミ,both,,,KDS-AKA,,,,アーケードゲーム『特殊部隊ジャッカル』の移植版,特殊部隊ジャッカル,Wikipedia+MAME,MAME,,,,finalcom
+fds-jp-0123,1988-06-14,ファミコン探偵倶楽部 消えた後継者 後編,任天堂,both,,,,,,,,ファミコン探偵倶楽部 消えた後継者,Wikipedia,,,,,
+fds-jp-0124,1988-06-20,ファイヤーロック,ユース,both,,,USE-FRC,,,,地底を舞台としたアクションゲーム,ファイヤーロック,Wikipedia+MAME,MAME,,,,firerock
+fds-jp-0125,1988-06-21,リサの妖精伝説,コナミ,both,,,KDS-YOU,,,,アイドル・立花理佐を題材としたアドベンチャーゲーム 青ディスク専用ソフトだが、ディスクファクス非対応,リサの妖精伝説,Wikipedia+MAME,MAME,,,,risayous
+fds-jp-0126,1988-07-12,亜空戦記ライジン,DOG（マイクロキャビン）,rewrite_only,,,SQF-RJN,,,,歩行・飛行形態を切り替える任意スクロールアクションシューティングゲーム,亜空戦記ライジン,Wikipedia+MAME,MAME,,,,raijin
+fds-jp-0127,1988-07-12,ムーンボールマジック,DOG（システムサコム）,rewrite_only,,,SQF-MBM,,,,ピンボールゲーム,ムーンボールマジック,Wikipedia+MAME,MAME,,,,moonball
+fds-jp-0128,1988-07-12,レプリカート,タイトー,both,,,,,,,ヘビゲーム調のパズルゲーム,レプリカート,Wikipedia,,,,,
+fds-jp-0129,1988-07-19,ドンキーコングJR.,任天堂,rewrite_only,yes,yes,FMC-JRD,,,,同名ROMカセット用ソフトの移植版,ドンキーコングJR.,Wikipedia+MAME,MAME,,,,dkongjr
+fds-jp-0130,1988-07-19,遠山の金さんすぺえす帖 MR.GOLD,東映動画,both,,,TDF-MRG,,,,SF小説『遠山桜宇宙帖 奴の名はゴールド』のゲーム化,遠山桜宇宙帖 奴の名はゴールド,Wikipedia+MAME,MAME,,,,mrgold
+fds-jp-0131,1988-07-22,コナミックアイスホッケー,コナミ,both,,,KDS-HOC,,,,アイスホッケーゲーム,コナミックアイスホッケー,Wikipedia+MAME,MAME,,,,konamice
+fds-jp-0132,1988-07-22,カラテ・チャンプ,DECO[データイースト],both,,,DFC-KAR,,,,アーケードゲーム『空手道』の移植版1対1の空手アクションゲーム,空手道 (ゲーム),Wikipedia+MAME,MAME,,,,karatech
+fds-jp-0133,1988-07-29,らじかるぼんばー!! 地雷くん,ジャレコ,both,,,JFD-GRK,,,,最大５人まで遊べる鬼ごっこゲーム,らじかるぼんばー!! 地雷くん,Wikipedia+MAME,MAME,,,,radicalb
+fds-jp-0134,1988-08-05,爆闘士パットンくん,ソフトプロ,both,,,SFC-PAT,,,,戦車を題材としたシューティングゲーム,爆闘士パットンくん,Wikipedia+MAME,MAME,,,,patton
+fds-jp-0135,1988-08-10,ビッグチャレンジ! 柔道選手権,ジャレコ,both,,,JFD-CJS,,,,柔道を題材としたスポーツゲーム,ビッグチャレンジ! 柔道選手権,Wikipedia+MAME,MAME,,,,judosens
+fds-jp-0136,1988-08-10,谷川浩司の将棋指南II 新版 詰め将棋・次の一手,ポニーキャニオン,rewrite_only,,yes,,,,,ディスクライターでの書き換えは行われておらず、任天堂へディスクカードを送る必要があった,谷川浩司の将棋指南II 新版 詰め将棋・次の一手,Wikipedia,,,,,
+fds-jp-0137,1988-08-10,シルヴィアーナ,パック・イン・ビデオ,both,,,PAC-SIL,,,,母親の治療薬を探す少女を描いたアクションRPG,シルヴィアーナ,Wikipedia+MAME,MAME,,,,silviana
+fds-jp-0138,1988-08-19,コナミックテニス,コナミ,both,,,KDS-TNI,,,,トーナメント形式のテニスゲーム,コナミックテニス,Wikipedia+MAME,MAME,,,,kntennis
+fds-jp-0139,1988-09-02,魔塔の崩壊,ポニーキャニオン,both,,,PNF-MAT,,,,バベルの塔を舞台としたアクションゲーム,魔塔の崩壊,Wikipedia+MAME,MAME,,,,herobabl
+fds-jp-0140,1988-09-13,キック アンド ラン,タイトー,both,,,TFD-KIC,,,,サッカーゲーム,キック アンド ラン,Wikipedia+MAME,MAME,,,,kickrun
+fds-jp-0141,1988-09-23,バーガータイム,DECO[データイースト],rewrite_only,yes,,DFC-BGT,,,,同名ROMカセット用ソフトの移植版,バーガータイム,Wikipedia+MAME,MAME,,,,btime
+fds-jp-0142,1988-10-04,パチコン,東芝EMI,rewrite_only,,yes,TFS-PCD,,,,同名ROMカセット用ソフトの移植版,パチコン,Wikipedia+MAME,MAME,,,,pachicom
+fds-jp-0143,1988-10-18,エッガーランド 創造への旅立ち,HAL研究所,rewrite_only,,,,,,,エッガーランドシリーズ第2弾,エッガーランド,Wikipedia,,,,,
+fds-jp-0144,1988-10-21,ダンディー,ポニーキャニオン,both,,,PNF-DAN,,,,同名PCゲームの移植版,ダンディー,Wikipedia+MAME,MAME,,,,dandy
+fds-jp-0145,1988-10-21,ビッグチャレンジ! ドッグファイトスピリット,ジャレコ,both,,,JFD-DFS,,,,ビッグチャレンジ!シリーズの一つ,ビッグチャレンジ! ドッグファイトスピリット,Wikipedia+MAME,MAME,,,,dogfspir
+fds-jp-0146,1988-10-22,ウルトラマン倶楽部,バンダイ,both,,,BAN-ULC,,,,ウルトラマン倶楽部シリーズ第1弾,ウルトラマン倶楽部 (ゲーム),Wikipedia+MAME,MAME,,,,ultraclb
+fds-jp-0147,1988-10-28,遊メイズ,タイトー,both,,,TFD-UMZ,,,,アーケードゲーム『レイメイズ』の移植版,レイメイズ,Wikipedia,MAME,,,,yuumaze
+fds-jp-0148,1988-11-15,サムライソード,カプコン,both,,,CAP-SMU,,,,ファンタジー世界を舞台としたコマンド選択型アドベンチャーゲーム,サムライソード (ゲーム),Wikipedia+MAME,MAME,,,,samurai
+fds-jp-0149,1988-11-18,アイスクライマー,任天堂,rewrite_only,yes,,FMC-ICD,,,,アーケードゲーム『VS.アイスクライマー』の移植版,アイスクライマー,Wikipedia+MAME,MAME,,,,iceclimb
+fds-jp-0150,1988-11-18,ジャイラス,コナミ,both,,,KDS-GRS,,,,同名アーケードゲームの移植版,ジャイラス,Wikipedia+MAME,MAME,,,,gyruss
+fds-jp-0151,1988-11-18,パチンコGP,DECO[データイースト],both,,,DFC-PGP,,,,パチンコゲーム,パチンコGP,Wikipedia+MAME,MAME,,,,pachingp
+fds-jp-0152,1988-11-29,じゃあまん探偵団 魔隣組,バンダイ,both,,,BAN-MAR,,,,同名テレビ番組のゲーム化,じゃあまん探偵団 魔隣組,Wikipedia+MAME,MAME,,,,jtmk
+fds-jp-0153,1988-11-30,帰ってきたマリオブラザーズ,任天堂,rewrite_only,,,FMC-KMAR,,,,ROMカートリッジ用ソフト『マリオブラザーズ』の移植版で、永谷園とのタイアップ このソフトのみ400円で書き換えが行われた,マリオブラザーズ,Wikipedia+MAME,MAME,,,,kmario
+fds-jp-0154,1988-12-09,探偵 神宮寺三郎 危険な二人 前編,DECO[データイースト],both,,,,,,,神宮寺三郎シリーズ第3作,探偵 神宮寺三郎 危険な二人,Wikipedia,,,,,
+fds-jp-0155,1988-12-09,VS.エキサイトバイク,任天堂,both,,,FMC-EBD,,,,アーケードゲーム『エキサイトバイク』のアレンジ移植,エキサイトバイク,Wikipedia+MAME,MAME,,,,excitbik
+fds-jp-0156,1988-12-09,なんきんのアドベンチア,サンソフト[サン電子],both,,,SSD-NAD,,,,イラストレーター・なんきんの名を冠した「ナゾラーランド」の特別編,なんきんのアドベンチア,Wikipedia+MAME,MAME,,,,nanjing
+fds-jp-0157,1988-12-23,タロット占い,スコーピオンソフト,both,,,SCO-TAR,,,,タロット占いゲーム,タロット占い,Wikipedia+MAME,MAME,,,,tarot
+fds-jp-0158,1989-01-14,ハレーウォーズ,タイトー,both,,,TFD-HAL,,,,ハレーすい星を題材としたシューティングゲーム,ハレーウォーズ,Wikipedia+MAME,MAME,,,,halleywa
+fds-jp-0159,1989-01-24,機動警察パトレイバー,バンダイ,both,,,BAN-PTL,,,,同名漫画のゲーム化,機動警察パトレイバー,Wikipedia+MAME,MAME,,,,patlabor
+fds-jp-0160,1989-02-03,レッキングクルー,任天堂,rewrite_only,,yes,FMC-WRD,,,,同名ROMカセット用ソフトの移植版で、デザインモードで作成した面の保存が可能になった,レッキングクルー,Wikipedia+MAME,MAME,,,,wrecking
+fds-jp-0161,1989-02-10,探偵 神宮寺三郎 危険な二人 後編,DECO[データイースト],both,,,,,,,,探偵 神宮寺三郎 危険な二人,Wikipedia,,,,,
+fds-jp-0162,1989-02-16,ロジャーラビット,KEMCO[コトブキシステム],both,,,KSC-RRR,,,,同名映画のゲーム化,ロジャー・ラビット (コンピュータゲーム),Wikipedia+MAME,MAME,,,,rogerrab
+fds-jp-0163,1989-02-23,タマ&フレンズ,バンダイ,both,,,BAN-UTM,,,,同名キャラクターのゲーム化,タマ&フレンズ,Wikipedia+MAME,MAME,,,,tamafrnd
+fds-jp-0164,1989-03-03,SDガンダムワールド ガチャポン戦士 スクランブルウォーズ マップコレクション,バンダイ,rewrite_only,,,BAN-SG2,,,,『SDガンダムワールド ガチャポン戦士』シリーズ第2弾,SDガンダムワールド ガチャポン戦士,Wikipedia+MAME,MAME,,,,sdgndgsmap1
+fds-jp-0165,1989-03-20,光GENJI ローラーパニック,ポニーキャニオン,package_only,,,PNF-GEN,,,,アイドルグループ・光GENJIを題材としたゲーム,光GENJI ローラーパニック,Wikipedia+MAME,MAME,,,,rolpanic
+fds-jp-0166,1989-03-28,ビッグチャレンジ! ガンファイター,ジャレコ,both,,,JFD-GNF,,,,西部劇を題材とした横スクロールシューティングゲームで、ボス戦のみ3Dシューティング形式,ビッグチャレンジ! ガンファイター,Wikipedia+MAME,MAME,,,,gunfight
+fds-jp-0167,1989-03-30,パットパットゴルフ,パック・イン・ビデオ,both,,,PAC-PPG,,,,ファンタジー要素のあるゴルフゲーム,パットパットゴルフ,Wikipedia+MAME,MAME,,,,puttputt
+fds-jp-0168,1989-04-28,フェアリーテイル,ソフトプロ,both,,,SFC-FYT,,,,おとぎ話風のシューティングゲーム,フェアリーテイル (ゲーム),Wikipedia+MAME,MAME,,,,fairytal
+fds-jp-0169,1989-05-23,ファミコン探偵倶楽部 PARTII うしろに立つ少女 前編,任天堂,both,,,,,,,ファミコン探偵倶楽部シリーズ第2作,ファミコン探偵倶楽部PartII うしろに立つ少女,Wikipedia,,,,,
+fds-jp-0170,1989-05-30,ピンボール,任天堂,rewrite_only,yes,yes,FMC-PND,,,,同名ROMカセット用ソフトの移植版,ピンボール (任天堂),Wikipedia+MAME,MAME,,,,pinball
+fds-jp-0171,1989-06-23,ビッグチャレンジ! GOGOボウリング,ジャレコ,both,,,JFD-GGB,,,,ボウリングゲーム,ビッグチャレンジ! GOGOボウリング,Wikipedia+MAME,MAME,,,,gogobowl
+fds-jp-0172,1989-06-30,ファミコン探偵倶楽部 PARTII うしろに立つ少女 後編,任天堂,both,,,,,,,,ファミコン探偵倶楽部PartII うしろに立つ少女,Wikipedia,,,,,
+fds-jp-0173,1989-08-10,マグマプロジェクト ハッカー,徳間書店,both,,,GTS-MPH,,,,同名PCゲームの移植版,マグマプロジェクト ハッカー,Wikipedia+MAME,MAME,,,,magmapro
+fds-jp-0174,1989-10-14,ふぁみこんむかし話 遊遊記 前編,任天堂,both,,,,,,,西遊記をモチーフとしたアドベンチャーゲーム,ふぁみこんむかし話 遊遊記,Wikipedia,,,,,
+fds-jp-0175,1989-10-20,かっとび!童児,パック・イン・ビデオ,both,,,PAC-KTD,,,,同名漫画のゲーム化作品,かっとび!童児,Wikipedia+MAME,MAME,,,,kattobiw
+fds-jp-0176,1989-11-14,ふぁみこんむかし話 遊遊記 後編,任天堂,both,,,,,,,『ふぁみこんむかし話 遊遊記 前編』の続き,ふぁみこんむかし話 遊遊記,Wikipedia,,,,,
+fds-jp-0177,1989-11-24,LUTTER,アテナ,rewrite_only,,,ATH-LTD,,,,面クリア形式のアクションパズル,LUTTER,Wikipedia+MAME,MAME,,,,lutter
+fds-jp-0178,1990-03-23,香港,徳間書店,both,,yes,GTS-HKD,,,,ファミマガディスクシリーズ第1弾で、雑誌『MSX・FAN』の読者投稿作品の移植版にあたる,香港 (ゲーム),Wikipedia+MAME,MAME,,,,famimag1
+fds-jp-0179,1990-04-24,ボンバーマン,ハドソン,rewrite_only,yes,yes,HFC-BMD,,,,同名ROMカセット用ソフトの移植版,ボンバーマン (ファミリーコンピュータ),manual+MAME,MAME,,,,bombermn
+fds-jp-0180,1990-05-18,ゼビウス,ナムコ,rewrite_only,yes,yes,NDS-XEV,,,,同名ROMカセット用ソフトの移植版,ゼビウス,Wikipedia+MAME,MAME,,,,xevious
+fds-jp-0181,1990-05-18,パックマン,ナムコ,rewrite_only,yes,yes,NDS-PAC,,,,同名ROMカセット用ソフトの移植版,パックマン,Wikipedia+MAME,MAME,,,,pacman
+fds-jp-0182,1990-06-05,ナイトムーブ,任天堂,both,,yes,FMC-KMV,,,,チェスをモチーフとしたパズルゲーム,ナイトムーブ,Wikipedia+MAME,MAME,,,,knightmo
+fds-jp-0183,1990-06-22,ギャラガ,ナムコ,rewrite_only,yes,yes,NDS-GAG,,,,同名ROMカセット用ソフトの移植版,ギャラガ,Wikipedia+MAME,MAME,,,,galaga
+fds-jp-0184,1990-07-20,ギャラクシアン,ナムコ,rewrite_only,yes,yes,NDS-GXN,,,,同名ROMカセット用ソフトの移植版,ギャラクシアン,Wikipedia+MAME,MAME,,,,galaxian
+fds-jp-0185,1990-07-20,ディグダグ,ナムコ,rewrite_only,yes,yes,NDS-DIG,,,,同名ROMカセット用ソフトの移植版,ディグダグ,Wikipedia+MAME,MAME,,,,digdug
+fds-jp-0186,1990-08-31,ディグダグII,ナムコ,rewrite_only,yes,yes,NDS-DD2,,,,同名ROMカセット用ソフトの移植版で、ナムコにとって最後のディスクシステム作品,ディグダグII,Wikipedia+MAME,MAME,,,,digdug2
+fds-jp-0187,1990-09-07,バックギャモン,任天堂,both,,yes,FMC-BAG,,,,日本バックギャモン協会監修,バックギャモン,Wikipedia+MAME,MAME,,,,backgamm
+fds-jp-0188,1990-10-19,パニックスペース,徳間書店,rewrite_only,,,GTS-PSD,,,,ファミマガディスクシリーズ第2弾で、雑誌『MSX・FAN』の読者投稿作品の移植版にあたる,パニックスペース,Wikipedia+MAME,MAME,,,,famimag2
+fds-jp-0189,1990-11-16,パズルボーイズ,アトラス,rewrite_only,,,ATL-PUZ,,,,同名ゲームボーイ用ソフトの移植版,パズルボーイズ,Wikipedia+MAME,MAME,,,,puzlboys
+fds-jp-0190,1990-12-07,石道,ヒロ,rewrite_only,,,HIR-ISD,,,,同名PCゲームの移植版,石道,Wikipedia+MAME,MAME,,,,ishido
+fds-jp-0191,1991-01-25,ソロモンの鍵,テクモ,rewrite_only,yes,yes,TCF-SKD,,,,同名ROMカセット用ソフトの移植版,ソロモンの鍵 (ゲーム),Wikipedia+MAME,MAME,,,,solomon
+fds-jp-0192,1991-02-22,オール1,徳間書店,rewrite_only,,yes,GTS-ALD,,,,ファミマガディスクシリーズ第3弾で、「第1回ファミマガディスク大賞」受賞作品の商品化,オール1,Wikipedia+MAME,MAME,,,,famimag3
+fds-jp-0193,1991-04-19,クロックス,徳間書店,rewrite_only,,yes,GTS-CKD,,,,ファミマガディスクシリーズ第4弾,クロックス (ゲーム),Wikipedia+MAME,MAME,,,,famimag4
+fds-jp-0194,1991-07-26,タイムツイスト 歴史のかたすみで… 前編,任天堂,both,,,,,,,任天堂にとって最後のディスクシステムオリジナル作品,タイムツイスト 歴史のかたすみで…,Wikipedia,,,,,
+fds-jp-0195,1991-07-26,タイムツイスト 歴史のかたすみで… 後編,任天堂,both,,,FMC-TT1,,,,,タイムツイスト 歴史のかたすみで…,Wikipedia+MAME,MAME,,,,timetwst
+fds-jp-0196,1991-10-25,ぷよぷよ,徳間書店,rewrite_only,,,GTS-PYO,,,,ファミマガディスクシリーズ第5弾,ぷよぷよ,Wikipedia+MAME,MAME,,,,famimag5
+fds-jp-0197,1992-04-28,クルクルランド,任天堂,rewrite_only,yes,yes,FMC-CLD,,,,アーケードゲーム「VS.クルクルランド」の移植版,クルクルランド,Wikipedia+MAME,MAME,,,,cluclu
+fds-jp-0198,1992-12-22,じゃんけんディスク城,徳間書店,rewrite_only,,,GTS-JKD,,,,ファミマガディスク第6弾で、一般公募に入選した作品の商品化であり、最後のディスクシステム用ソフト,じゃんけんディスク城,Wikipedia+MAME,MAME,,,,famimag6

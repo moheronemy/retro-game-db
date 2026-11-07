@@ -24,7 +24,7 @@ import sys
 import common as C
 import platforms as P
 
-BASE_FIELDS = ["id", "release_date", "title", "publisher", "model_number", "price_yen", "price_tax",
+BASE_FIELDS = ["id", "release_date", "title", "publisher", "model_number", "price_yen", "price_tax", "price_note",
                "notes", "wikipedia_article", "release_date_sources", "model_number_source", "price_source",
                "price_package", "madb_id", "mame_name"]
 
@@ -154,6 +154,19 @@ def main():
     print(f"MADB: {len(madb)} 件 / MAME 日本版: {len(mame)} 件"
           + (f" / maru-chang: {len(maru)} 件" if maru is not None else ""), file=sys.stderr)
     m_madb = C.match(rows, madb, overrides, "madb_id", cfg.get("match_date_only", False), cfg.get("match_undated"))
+    # 照合した MADB の商品が見本盤（価格欄が「SAMPLE」「見本盤」。型番も見本盤のもの〈PS の SCPS-45xxx〉）なら、
+    # 同じ発売日・同じ題名で版の印の無い通常版の商品に置き換える（無ければ見本盤のまま。価格は空欄）
+    is_sample = lambda x: bool(re.search(r"SAMPLE|見本", str(x.get("price") or ""), re.I))
+    taken = {v[0]["key"] for v in m_madb.values() if v[0]}
+    for i, (md0, sc0, how0) in list(m_madb.items()):
+        if not md0 or how0 == "manual" or not is_sample(md0):
+            continue
+        same = [x for x in madb if x["key"] not in taken and x["date"] == md0["date"] and not is_sample(x)
+                and C.norm(x["label"]) == C.norm(md0["label"]) and not C.VARIANT.search(x["label"])]
+        if len(same) == 1:
+            m_madb[i] = (same[0], sc0, how0)
+            taken.add(same[0]["key"])
+            rows[i]["_sample_swap"] = md0["key"]
     m_mame = C.match(rows, mame, overrides, "mame_name", cfg.get("match_date_only", False), cfg.get("match_undated"))
     models_from = cfg["models_from"]
     key = cfg.get("model_key", lambda m: m)   # 照合で同じとみなす型番の表記ゆれ（PCE のハイフン有無など）
@@ -189,6 +202,8 @@ def main():
             issues.append(f"MADB低スコア{md_sc:.2f}")
         if mm_how == "auto" and mm_sc < C.REVIEW_SIM:
             issues.append(f"MAME低スコア{mm_sc:.2f}")
+        if r.get("_sample_swap"):
+            issues.append(f"MADBの見本盤（{r['_sample_swap']}）を同じ題名の通常版に置き換え")
         for name, src, how in (("MADB", md, md_how), ("MAME", mm, mm_how)):
             if how == "date_only":
                 issues.append(f"{name}同日1件のみで照合（{src['label']}）")
@@ -350,6 +365,7 @@ def main():
         date0 = r["release_date"]
         yen, tax = C.parse_price(md["price"]) if md else ("", "")
         price_src, package = ("MADB", md["label"]) if yen else ("", "")
+        price_note = "オープン価格" if md and not yen and "オープン価格" in str(md["price"] or "") else ""
         my, mt = (ma["yen"], ma["tax"]) if ma and ma["yen"] else ("", "")
         if ov.get("price_yen"):
             yen, tax, price_src, package = ov["price_yen"], ov.get("price_tax", ""), "manual", ""
@@ -445,6 +461,7 @@ def main():
             "release_date": date, "release_date_sources": "+".join(dsrc),
             "model_number": model, "model_number_source": "+".join(srcs),
             "price_yen": yen, "price_tax": tax, "price_source": price_src,
+            "price_note": price_note if not yen else "",
             # 価格の根拠になったMADBのパッケージ名（限定版・セット品等の場合に判別できるように）
             "price_package": package if price_src.startswith("MADB") else "",
             "maru_code": ma["key"] if ma else "",

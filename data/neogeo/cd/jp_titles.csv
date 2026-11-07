@@ -1,98 +1,98 @@
-id,release_date,title,publisher,rom_version,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
-neocd-jp-0001,1994-09-09,ASO II 〜ラストガーディアン〜,SNK,yes,NGCD-007,4800,税抜,『A.S.O』の続編,ASOII,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ASO2  ～ラストガーディアン～ CD-ROM版,M728470,alpham2
-neocd-jp-0002,1994-09-09,餓狼伝説 〜宿命の闘い〜,SNK,yes,NGCD-033,5800,税抜,,餓狼伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,餓狼伝説 宿命の戦い― CD-ROM版,M760278,fatfury1
-neocd-jp-0003,1994-09-09,餓狼伝説2 〜新たなる闘い〜,SNK,yes,NGCD-047,6800,税抜,,餓狼伝説2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,餓狼伝説2 REAL BATTLE ACTION GAME CD-ROM版,M726162,fatfury2
-neocd-jp-0004,1994-09-09,餓狼伝説スペシャル,SNK,yes,NGCD-058,7800,税抜,,餓狼伝説スペシャル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,餓狼伝説スペシャル CD-ROM版,M760289,fatfursp
-neocd-jp-0005,1994-09-09,キング・オブ・ザ・モンスターズ2 〜THE NEXT THING〜,SNK,yes,NGCD-039,5800,税抜,,キング・オブ・ザ・モンスターズ2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キング・オブ・ザ・モンスターズ2 CD-ROM版,M747350,kotm2
-neocd-jp-0006,1994-09-09,ザ・スーパースパイ,SNK,yes,NGCD-011,4800,税抜,,ザ・スーパースパイ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・スーパースパイ CD-ROM版,M748583,superspy
-neocd-jp-0007,1994-09-09,SAMURAI SPIRITS,SNK,yes,NGCD-045,7800,税抜,,SAMURAI SPIRITS,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サムライスピリッツ KATANA BATTLE ACTION GAME CD-ROM版,M726166,samsho
-neocd-jp-0008,1994-09-09,ジョイジョイキッド,SNK,yes,NGCD-021,,,,ジョイジョイキッド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726163,joyjoy
-neocd-jp-0009,1994-09-09,得点王2,SNK,yes,NGCD-061,,,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726164,ssideki2
-neocd-jp-0010,1994-09-09,トッププレイヤーズゴルフ,SNK,yes,NGCD-003,,,,トッププレイヤーズゴルフ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726165,tpgolf
-neocd-jp-0011,1994-09-09,NAM-1975,SNK,yes,NGCD-001,4800,税抜,,NAM-1975,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NAM-1975 CD-ROM版,M740913,nam1975
-neocd-jp-0012,1994-09-09,バーニングファイト,SNK,yes,NGCD-018,4800,税抜,,バーニングファイト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーニングファイト CD-ROM版,M753437,burningf
-neocd-jp-0013,1994-09-09,フットボールフレンジー,SNK,yes,NGCD-034,5800,税抜,,フットボールフレンジー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フットボールフレンジー CD-ROM版,M755364,fbfrenzy
-neocd-jp-0014,1994-09-09,ベースボールスターズ2,SNK,yes,NGCD-041,5800,税抜,,ベースボールスターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ベースボールスターズ2 CD-ROM版,M755989,bstars2
-neocd-jp-0015,1994-09-09,麻雀狂列伝 -西日本編-,SNK,yes,NGCD-004,4800,税抜,,麻雀狂列伝 -西日本編-,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀狂列伝 -西日本編- CD-ROM版,M766111,mahretsu
-neocd-jp-0016,1994-09-09,ラストリゾート,SNK,yes,NGCD-024,5800,税抜,,ラストリゾート,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラストリゾート CD-ROM版,M758259,lresort
-neocd-jp-0017,1994-09-09,リーグボウリング,SNK,yes,NGCD-019,,,,リーグボウリング,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726161,lbowling
-neocd-jp-0018,1994-09-09,龍虎の拳,SNK,yes,NGCD-044,6800,税抜,,龍虎の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,龍虎の拳 CD-ROM版,M766731,aof
-neocd-jp-0019,1994-09-09,龍虎の拳2,SNK,yes,NGCD-056,7800,税抜,,龍虎の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,龍虎の拳2 CD-ROM版,M766736,aof2
-neocd-jp-0020,1994-09-29,ソニックウィングス2,ビデオシステム,yes,NGCD-075,6800,税抜,,ソニックウィングス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ソニックウィングス2 REAL SHOOTING GAME CD-ROM版,M726147,sonicwi2
-neocd-jp-0021,1994-09-29,トップハンター 〜ロディー&キャシー〜,SNK,yes,NGCD-046,6800,税抜,,トップハンター 〜ロディー&キャシー〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トップハンター CD-ROM版,M752242,tophuntr
-neocd-jp-0022,1994-10-31,クロススウォード,アルファ電子,yes,ADCD-002,4800,税抜,,クロスソード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クロススウォード,M747864,crsword
-neocd-jp-0023,1994-10-31,ニンジャコマンドー,アルファ電子,yes,ADCD-004,4800,税抜,,ニンジャコマンドー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ニンジャコマンドー CD-ROM版,M753148,ncommand
-neocd-jp-0024,1994-10-31,ニンジャコンバット,アルファ電子,yes,ADCD-101,4800,税抜,,ニンジャコンバット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ニンジャコンバット CD-ROM版,M753151,ncombat
-neocd-jp-0025,1994-10-31,マジシャンロード,アルファ電子,yes,ADCD-100,4800,税抜,,マジシャンロード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジシャンロード CD-ROM版,M756811,maglord
-neocd-jp-0026,1994-10-31,ラギ,アルファ電子,yes,ADCD-001,4800,税抜,,ラギ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラギ CD-ROM版,M758209,bjourney
-neocd-jp-0027,1994-10-31,ラリーチェイス,アルファ電子,yes,ADCD-003,4800,税抜,アーケードゲーム『スラッシュラリー』の移植版,スラッシュラリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラリーチェイス CD-ROM版,M758372,trally
-neocd-jp-0028,1994-11-02,ザ・キング・オブ・ファイターズ'94,SNK,yes,NGCD-055,7800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ザ・キング・オブ・ファイターズ'94 CD-ROM版,M726120,kof94
-neocd-jp-0029,1994-11-11,ワールドヒーローズ2 JET,SNK,yes,ADCD-007,6800,税抜,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ワールドヒーローズ2JET HYPER HEROES BATTLE CD-ROM版,M726118,wh2j
-neocd-jp-0030,1994-12-15,真SAMURAI SPIRITS 覇王丸地獄変,SNK,yes,NGCD-063,8800,税抜,,真SAMURAI SPIRITS 覇王丸地獄変,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,真サムライスピリッツ KATANA BATTLE ACTION GAME CD-ROM版,M726076,samsho2
-neocd-jp-0031,1994-12-22,ファイターズヒストリーダイナマイト,データイースト,yes,DECD-003,7800,税抜,,ファイターズヒストリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイターズヒストリー・ダイナマイト CD-ROM版,M754893,karnovr
-neocd-jp-0032,1995-01-13,痛快GANGAN行進曲,ADK,yes,ADCD-008,,,,痛快GANGAN行進曲,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726031,aodk
-neocd-jp-0033,1995-01-20,ダンクドリーム,データイースト,yes,DECD-004,,,,ダンクドリーム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726029,strhoop
-neocd-jp-0034,1995-01-20,フライングパワーディスク,データイースト,yes,DECD-002,5800,税抜,,フライングパワーディスク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フライングパワーディスク CD-ROM版,M755470,wjammers
-neocd-jp-0035,1995-02-25,2020年スーパーベースボール,SNK,yes,NGCD-030,,,,2020年スーパーベースボール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726007,2020bb
-neocd-jp-0036,1995-02-25,ビューポイント,サミー工業,yes,AICD-051,,,,ビューポイント (コンピュータゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726006,viewpoin
-neocd-jp-0037,1995-02-25,ミューテイション・ネイション,SNK,yes,NGCD-014,5800,税抜,,ミューテイション・ネイション,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ミューテイション・ネイション CD-ROM版,M757280,mutnat
-neocd-jp-0038,1995-03-17,ゴーストパイロット,SNK,yes,NGCD-020,5800,税抜,,ゴーストパイロット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゴーストパイロット CD-ROM版,M748079,gpilots
-neocd-jp-0039,1995-03-17,戦国伝承,SNK,yes,NGCD-017,5800,税抜,,戦国伝承,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,戦国伝承 CD-ROM版,M763524,sengoku
-neocd-jp-0040,1995-03-17,戦国伝承2,SNK,yes,NGCD-040,5800,税抜,,戦国伝承2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,戦国伝承 2 CD-ROM版,M763527,sengoku2
-neocd-jp-0041,1995-03-17,パワースパイクスII,ビデオシステム,,NGCD-068,,,スーパーファミコン版でも『スーパーバレーII』というタイトルでリリースされている。,スーパーバレーボール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725996,pspikes2
-neocd-jp-0042,1995-03-17,ワールドヒーローズ,アルファ電子,yes,ADCD-005,4800,税抜,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワールドヒーローズ CD-ROM版,M759360,wh1
-neocd-jp-0043,1995-03-31,サッカーブロール,SNK,yes,NGCD-031,5800,税抜,,サッカーブロール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サッカーブロール CD-ROM版,M748827,socbrawl
-neocd-jp-0044,1995-03-31,得点王,SNK,yes,NGCD-052,5800,税抜,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,得点王 CD-ROM版,M764976,ssideki
-neocd-jp-0045,1995-03-31,雀神伝説 QUEST OF JONGMASTER,エイコム,,AICD-048,,,PCエンジン版もアーケードカード専用ソフトとしてリリースされている。,雀神伝説,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725981,janshin
-neocd-jp-0046,1995-04-07,クイズ キング・オブ・ファイターズ,ザウルス,yes,NGCD-080,5800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クイズ キング・オブ・ファイターズ CD-ROM版,M747384,quizkof
-neocd-jp-0047,1995-04-14,ワールドヒーローズ2,ADK,yes,ADCD-006,,,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725973,wh2
-neocd-jp-0048,1995-04-21,ギャラクシーファイト ユニバーサル・ウォーリアーズ,サンソフト,yes,NGCD-078,7800,税抜,,ギャラクシーファイト ユニバーサル・ウォーリアーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ギャラクシーファイト HIGH SPEED BATTLE ACTION GAME CD-ROM版,M725967,galaxyfg
-neocd-jp-0049,1995-04-21,サイバーリップ,SNK,yes,NGCD-010,5800,税抜,,サイバーリップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイバーリップ CD-ROM版,M748712,cyberlip
-neocd-jp-0050,1995-04-21,ファイヤースープレックス,SNK,yes,NGCD-043,,,,ファイヤースープレックス,Wikipedia+MADB+MAME,manual+MADB+No-Intro,,,M725968,3countb
-neocd-jp-0051,1995-04-21,ベースボールスターズプロフェッショナル,SNK,yes,NGCD-002,4800,税抜,,ベースボールスターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ベースボールスターズプロフェッショナル CD-ROM版,M755991,bstars
-neocd-jp-0052,1995-04-21,ロボアーミー,SNK,yes,NGCD-032,5800,税抜,,ロボアーミー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロボアーミー CD-ROM版,M759217,roboarmy
-neocd-jp-0053,1995-04-28,餓狼伝説3 〜遥かなる闘い〜,SNK,yes,NGCD-069,8800,税抜,,餓狼伝説3,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,餓狼伝説3 REAL BATTLE ACTION GAME CD-ROM版,M725962,fatfury3
-neocd-jp-0054,1995-05-02,クロススウォードII,ADK,,ADCD-102,5800,税抜,ネオジオCD専用タイトル。もともとは、没になったアーケードゲームの企画だった,クロスソード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クロススウォード2,M734062,crsword2
-neocd-jp-0055,1995-05-02,パズルボブル,タイトー,,NGCD-083,6800,税抜,スーパーファミコン版もリリースされている。,パズルボブル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パズルボブル,M753813,pbobble
-neocd-jp-0056,1995-05-26,ライディングヒーロー,SNK,yes,NGCD-006,4800,税抜,,ライディングヒーロー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ライディングヒーロー CD-ROM版,M758187,ridhero
-neocd-jp-0057,1995-06-02,ダブルドラゴン,テクノスジャパン,yes,NGCD-082,,,,ダブルドラゴンシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725947,doubledra
-neocd-jp-0058,1995-06-16,風雲黙示録,SNK,yes,NGCD-059,8800,税抜,,風雲黙示録,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,風雲黙示録 格闘創生― CD-ROM版,M765678,savagere
-neocd-jp-0059,1995-06-23,得点王3 〜栄光への挑戦〜,SNK,yes,NGCD-081,7800,税抜,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,得点王3 CD-ROM版,M764981,ssideki3
-neocd-jp-0060,1995-07-21,ワールドヒーローズパーフェクト,SNK,yes,ADCD-009,8800,税抜,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ワールドヒーローズパーフェクト,M725907,whp
-neocd-jp-0061,1995-08-25,対戦アイドル麻雀ファイナルロマンス2,ビデオシステム,,NGCD-098,7800,税抜,ネオジオCD専用タイトル。MVS版以外からの移植作品。,対戦アイドル麻雀ファイナルロマンス2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アイドル麻雀ファイナルロマンス2,M744518,fromanc2
-neocd-jp-0062,1995-09-27,ザ・キング・オブ・ファイターズ'95,SNK,yes,NGCD-084,,,,ザ・キング・オブ・ファイターズ,Wikipedia,MAME+MADB+No-Intro,,,M725856,kof95
-neocd-jp-0063,1995-10-20,将棋の達人,SNK,yes,ADCD-010,7800,税抜,開発：ADK,将棋の達人,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,将棋の達人 CD-ROM版,M762277,mosyougi
-neocd-jp-0064,1995-10-27,パルスター,SNK,yes,NGCD-089,8800,税抜,,パルスター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パルスター CD-ROM版,M754355,pulstar
-neocd-jp-0065,1995-11-10,ADKワールド,ADK,,ADCD-103,6800,税抜,ネオジオCD専用タイトル,ADKワールド,Wikipedia+MADB+MAME,manual+MAME+No-Intro,MADB,ADKワールド,M737163,adkworld
-neocd-jp-0066,1995-11-24,超人学園ゴウカイザー,テクノスジャパン,yes,NGCD-094,,,,超人学園ゴウカイザー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725819,gowcaizr
-neocd-jp-0067,1995-11-24,天外魔境 真伝,ハドソン,yes,NGCD-092,,,,天外魔境 真伝,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725818,kabukikl
-neocd-jp-0068,1995-12-08,ソニックウィングス3,ビデオシステム,yes,NGCD-097,7800,税抜,,ソニックウィングス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ソニックウイングス3 CD-ROM版,M750648,sonicwi3
-neocd-jp-0069,1995-12-22,NEO・GEO CD SPECIAL,SNK,,NGCD-205,3800,税抜,ネオジオCD専用タイトル,NEO・GEO CD SPECIAL,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NEO・GEO CD SPECIAL,M741122,ngcdspec
-neocd-jp-0070,1995-12-29,サムライスピリッツ 斬紅郎無双剣,SNK,yes,NGCD-087,,,,サムライスピリッツ 斬紅郎無双剣,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725773,samsho3
-neocd-jp-0071,1996-02-23,リアルバウト餓狼伝説,SNK,yes,NGCD-095,,,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725735,rbff1
-neocd-jp-0072,1996-03-22,押し出しジントリック,ADK,,ADCD-104,4800,税抜,ネオジオCD専用タイトル もともとはMVS向けの企画であり、ロケーションテストで『ぷよぷよ』との類似性を指摘され、いったんお蔵入りした後、SNKからの要請を受けてネオジオCD用ソフトとして発売された,押し出しジントリック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,押し出しジントリック CD-ROM版,M759930,zintrick
-neocd-jp-0073,1996-03-22,ステークスウィナー,ザウルス,yes,NGCD-088,,,,ステークスウィナー,manual+MADB,MADB+No-Intro,,,M725707,
-neocd-jp-0074,1996-05-01,ビッグトーナメントゴルフ,ナスカ,yes,NGCD-200,7800,税抜,,ビッグトーナメントゴルフ,Wikipedia,MAME+No-Intro,MADB,ビッグトーナメントゴルフ CD-ROM版,M754661,turfmast
-neocd-jp-0075,1996-05-24,マジカルドロップ2,SNK,yes,NGCD-221,6800,税抜,,マジカルドロップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジカルドロップ2 CD-ROM版,M756785,magdrop2
-neocd-jp-0076,1996-06-14,ART OF FIGHTING 龍虎の拳 外伝,SNK,yes,NGCD-096,7800,税抜,,龍虎の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ART OF FIGHTING 龍虎の拳外伝 CD-ROM版,M725644,aof3a
-neocd-jp-0077,1996-07-05,オーバートップ,ADK,yes,ADCD-011,4800,税抜,,オーバートップ,Wikipedia,MAME+No-Intro,MADB,オーバートップ CD-ROM版,M746236,overtop
-neocd-jp-0078,1996-07-05,メタルスラッグ,ナスカ,yes,NGCD-201,7800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メタルスラッグ CD-ROM版,M757552,mslug
-neocd-jp-0079,1996-07-19,フットサル 〜5 ON 5 MINI SOCCER〜,ザウルス,,NGCD-219,6800,税抜,日本国外のみの移植作品,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フットサル CD-ROM版,M755362,pgoal
-neocd-jp-0080,1996-07-26,NEOドリフトアウト,ビスコ,,NGCD-213,6800,税抜,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NEOドリフトアウト,M741145,neodrift
-neocd-jp-0081,1996-08-23,神凰拳,SNK,yes,NGCD-218,7800,税抜,,神凰拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,神凰拳 CD-ROM版,M762999,ragnagrd
-neocd-jp-0082,1996-09-20,超鉄ブリキンガー,ザウルス,,NGCD-220,6800,税抜,ネオジオCD専用タイトル。MVS版もロケーションテストのみ行われており、バーチャルコンソールで配信されているのはMVSバージョンである。,超鉄ブリキンガー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超鉄ブリキンガー CD-ROM版,M764447,ironclad
-neocd-jp-0083,1996-09-27,NINJA MASTER'S〜覇王忍法帖〜,SNK,yes,ADCD-012,7800,税抜,,NINJA MASTER'S〜覇王忍法帖〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NINJA MASTER'S ～覇王忍法帖～ CD-ROM版,M741288,ninjamas
-neocd-jp-0084,1996-10-25,ザ・キング・オブ・ファイターズ'96,SNK,yes,NGCD-214,,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725515,kof96a
-neocd-jp-0085,1996-12-27,サムライスピリッツ 天草降臨,SNK,yes,NGCD-222,6800,税抜,,サムライスピリッツ 天草降臨,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,サムライスピリッツ天草降臨 CD-ROM版,M725446,samsho4
-neocd-jp-0086,1997-02-14,ザ・キング・オブ・ファイターズ'96 ネオジオコレクション,SNK,,NGCD-229,3800,税抜,ネオジオCD専用タイトル,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,K.O.F.'96 ネオジオコレクション,M740076,kof96col
-neocd-jp-0087,1997-02-21,ティンクルスタースプライツ,ADK,yes,ADCD-013,5800,税抜,,ティンクルスタースプライツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ティンクルスター スプライツ CD-ROM版,M751602,twinspri
-neocd-jp-0088,1997-03-28,リアルバウト餓狼伝説スペシャル,SNK,yes,NGCD-2230,6800,税抜,,リアルバウト餓狼伝説,Wikipedia,MAME+MADB+No-Intro,MADB,リアルバウト餓狼伝説スペシャル REAL BATTLE ACTION GAME CD-ROM版,M725306,rbffspec
-neocd-jp-0089,1997-04-25,ブレイカーズ,ビスコ,yes,NGCD-2300,6800,税抜,,ブレイカーズ (テレビゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブレイカーズ CD-ROM版,M755741,breakers
-neocd-jp-0090,1997-06-27,真説サムライスピリッツ武士道烈伝,SNK,,NGCD-0850,6800,税抜,ネオジオCD専用タイトル。セガサターン版とPlayStation版もリリースされている。,サムライスピリッツ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,真説 サムライスピリッツ 武士道烈伝 CD-ROM版,M725224,samsprpg
-neocd-jp-0091,1997-10-30,ザ・キング・オブ・ファイターズ'97,SNK,yes,NGCD-2320,,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725105,kof97
-neocd-jp-0092,1998-03-26,幕末浪漫 月華の剣士,SNK,yes,NGCD-2340,6800,税抜,,月華の剣士,Wikipedia+MADB,MAME+No-Intro,MADB,～幕末浪漫～ 月華の剣士 CD-ROM版,M736873,lastblad
-neocd-jp-0093,1998-06-25,メタルスラッグ2,SNK,yes,NGCD-2410,6800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メタルスラッグ 2 CD-ROM版,M757558,mslug2
-neocd-jp-0094,1998-07-23,リアルバウト餓狼伝説2 〜THE NEWCOMERS〜,SNK,yes,NGCD-2400,,,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724790,rbff2
-neocd-jp-0095,1998-12-23,ザ・キング・オブ・ファイターズ'98 〜DREAM MATCH NEVER ENDS〜,SNK,yes,NGCD-2420,6800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・キング・オブ・ファイターズ'98 DREAM MATCH NEVER ENDS CD-ROM版,M748538,kof98
-neocd-jp-0096,1999-02-25,幕末浪漫第二幕 月華の剣士 〜月に咲く華、散りゆく花〜,SNK,yes,NGCD-2430,6800,税抜,,月華の剣士,Wikipedia,manual+No-Intro,MADB,幕末浪漫第二幕 月華の剣士 ～月に咲く華、散り行く花～ CD-ROM版,M766190,
-neocd-jp-0097,1999-12-02,ザ・キング・オブ・ファイターズ'99 〜Millennium Battle〜,SNK,yes,NGCD-2510,,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724087,kof99
+id,release_date,title,publisher,rom_version,model_number,price_yen,price_tax,price_note,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+neocd-jp-0001,1994-09-09,ASO II 〜ラストガーディアン〜,SNK,yes,NGCD-007,4800,税抜,,『A.S.O』の続編,ASOII,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ASO2  ～ラストガーディアン～ CD-ROM版,M728470,alpham2
+neocd-jp-0002,1994-09-09,餓狼伝説 〜宿命の闘い〜,SNK,yes,NGCD-033,5800,税抜,,,餓狼伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,餓狼伝説 宿命の戦い― CD-ROM版,M760278,fatfury1
+neocd-jp-0003,1994-09-09,餓狼伝説2 〜新たなる闘い〜,SNK,yes,NGCD-047,6800,税抜,,,餓狼伝説2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,餓狼伝説2 REAL BATTLE ACTION GAME CD-ROM版,M726162,fatfury2
+neocd-jp-0004,1994-09-09,餓狼伝説スペシャル,SNK,yes,NGCD-058,7800,税抜,,,餓狼伝説スペシャル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,餓狼伝説スペシャル CD-ROM版,M760289,fatfursp
+neocd-jp-0005,1994-09-09,キング・オブ・ザ・モンスターズ2 〜THE NEXT THING〜,SNK,yes,NGCD-039,5800,税抜,,,キング・オブ・ザ・モンスターズ2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,キング・オブ・ザ・モンスターズ2 CD-ROM版,M747350,kotm2
+neocd-jp-0006,1994-09-09,ザ・スーパースパイ,SNK,yes,NGCD-011,4800,税抜,,,ザ・スーパースパイ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・スーパースパイ CD-ROM版,M748583,superspy
+neocd-jp-0007,1994-09-09,SAMURAI SPIRITS,SNK,yes,NGCD-045,7800,税抜,,,SAMURAI SPIRITS,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,サムライスピリッツ KATANA BATTLE ACTION GAME CD-ROM版,M726166,samsho
+neocd-jp-0008,1994-09-09,ジョイジョイキッド,SNK,yes,NGCD-021,,,,,ジョイジョイキッド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726163,joyjoy
+neocd-jp-0009,1994-09-09,得点王2,SNK,yes,NGCD-061,,,,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726164,ssideki2
+neocd-jp-0010,1994-09-09,トッププレイヤーズゴルフ,SNK,yes,NGCD-003,,,,,トッププレイヤーズゴルフ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726165,tpgolf
+neocd-jp-0011,1994-09-09,NAM-1975,SNK,yes,NGCD-001,4800,税抜,,,NAM-1975,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NAM-1975 CD-ROM版,M740913,nam1975
+neocd-jp-0012,1994-09-09,バーニングファイト,SNK,yes,NGCD-018,4800,税抜,,,バーニングファイト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーニングファイト CD-ROM版,M753437,burningf
+neocd-jp-0013,1994-09-09,フットボールフレンジー,SNK,yes,NGCD-034,5800,税抜,,,フットボールフレンジー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フットボールフレンジー CD-ROM版,M755364,fbfrenzy
+neocd-jp-0014,1994-09-09,ベースボールスターズ2,SNK,yes,NGCD-041,5800,税抜,,,ベースボールスターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ベースボールスターズ2 CD-ROM版,M755989,bstars2
+neocd-jp-0015,1994-09-09,麻雀狂列伝 -西日本編-,SNK,yes,NGCD-004,4800,税抜,,,麻雀狂列伝 -西日本編-,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀狂列伝 -西日本編- CD-ROM版,M766111,mahretsu
+neocd-jp-0016,1994-09-09,ラストリゾート,SNK,yes,NGCD-024,5800,税抜,,,ラストリゾート,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラストリゾート CD-ROM版,M758259,lresort
+neocd-jp-0017,1994-09-09,リーグボウリング,SNK,yes,NGCD-019,,,,,リーグボウリング,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726161,lbowling
+neocd-jp-0018,1994-09-09,龍虎の拳,SNK,yes,NGCD-044,6800,税抜,,,龍虎の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,龍虎の拳 CD-ROM版,M766731,aof
+neocd-jp-0019,1994-09-09,龍虎の拳2,SNK,yes,NGCD-056,7800,税抜,,,龍虎の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,龍虎の拳2 CD-ROM版,M766736,aof2
+neocd-jp-0020,1994-09-29,ソニックウィングス2,ビデオシステム,yes,NGCD-075,6800,税抜,,,ソニックウィングス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ソニックウィングス2 REAL SHOOTING GAME CD-ROM版,M726147,sonicwi2
+neocd-jp-0021,1994-09-29,トップハンター 〜ロディー&キャシー〜,SNK,yes,NGCD-046,6800,税抜,,,トップハンター 〜ロディー&キャシー〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トップハンター CD-ROM版,M752242,tophuntr
+neocd-jp-0022,1994-10-31,クロススウォード,アルファ電子,yes,ADCD-002,4800,税抜,,,クロスソード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クロススウォード,M747864,crsword
+neocd-jp-0023,1994-10-31,ニンジャコマンドー,アルファ電子,yes,ADCD-004,4800,税抜,,,ニンジャコマンドー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ニンジャコマンドー CD-ROM版,M753148,ncommand
+neocd-jp-0024,1994-10-31,ニンジャコンバット,アルファ電子,yes,ADCD-101,4800,税抜,,,ニンジャコンバット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ニンジャコンバット CD-ROM版,M753151,ncombat
+neocd-jp-0025,1994-10-31,マジシャンロード,アルファ電子,yes,ADCD-100,4800,税抜,,,マジシャンロード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジシャンロード CD-ROM版,M756811,maglord
+neocd-jp-0026,1994-10-31,ラギ,アルファ電子,yes,ADCD-001,4800,税抜,,,ラギ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラギ CD-ROM版,M758209,bjourney
+neocd-jp-0027,1994-10-31,ラリーチェイス,アルファ電子,yes,ADCD-003,4800,税抜,,アーケードゲーム『スラッシュラリー』の移植版,スラッシュラリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ラリーチェイス CD-ROM版,M758372,trally
+neocd-jp-0028,1994-11-02,ザ・キング・オブ・ファイターズ'94,SNK,yes,NGCD-055,7800,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ザ・キング・オブ・ファイターズ'94 CD-ROM版,M726120,kof94
+neocd-jp-0029,1994-11-11,ワールドヒーローズ2 JET,SNK,yes,ADCD-007,6800,税抜,,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ワールドヒーローズ2JET HYPER HEROES BATTLE CD-ROM版,M726118,wh2j
+neocd-jp-0030,1994-12-15,真SAMURAI SPIRITS 覇王丸地獄変,SNK,yes,NGCD-063,8800,税抜,,,真SAMURAI SPIRITS 覇王丸地獄変,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,真サムライスピリッツ KATANA BATTLE ACTION GAME CD-ROM版,M726076,samsho2
+neocd-jp-0031,1994-12-22,ファイターズヒストリーダイナマイト,データイースト,yes,DECD-003,7800,税抜,,,ファイターズヒストリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイターズヒストリー・ダイナマイト CD-ROM版,M754893,karnovr
+neocd-jp-0032,1995-01-13,痛快GANGAN行進曲,ADK,yes,ADCD-008,,,,,痛快GANGAN行進曲,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726031,aodk
+neocd-jp-0033,1995-01-20,ダンクドリーム,データイースト,yes,DECD-004,,,,,ダンクドリーム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726029,strhoop
+neocd-jp-0034,1995-01-20,フライングパワーディスク,データイースト,yes,DECD-002,5800,税抜,,,フライングパワーディスク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フライングパワーディスク CD-ROM版,M755470,wjammers
+neocd-jp-0035,1995-02-25,2020年スーパーベースボール,SNK,yes,NGCD-030,,,,,2020年スーパーベースボール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726007,2020bb
+neocd-jp-0036,1995-02-25,ビューポイント,サミー工業,yes,AICD-051,,,,,ビューポイント (コンピュータゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726006,viewpoin
+neocd-jp-0037,1995-02-25,ミューテイション・ネイション,SNK,yes,NGCD-014,5800,税抜,,,ミューテイション・ネイション,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ミューテイション・ネイション CD-ROM版,M757280,mutnat
+neocd-jp-0038,1995-03-17,ゴーストパイロット,SNK,yes,NGCD-020,5800,税抜,,,ゴーストパイロット,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゴーストパイロット CD-ROM版,M748079,gpilots
+neocd-jp-0039,1995-03-17,戦国伝承,SNK,yes,NGCD-017,5800,税抜,,,戦国伝承,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,戦国伝承 CD-ROM版,M763524,sengoku
+neocd-jp-0040,1995-03-17,戦国伝承2,SNK,yes,NGCD-040,5800,税抜,,,戦国伝承2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,戦国伝承 2 CD-ROM版,M763527,sengoku2
+neocd-jp-0041,1995-03-17,パワースパイクスII,ビデオシステム,,NGCD-068,,,,スーパーファミコン版でも『スーパーバレーII』というタイトルでリリースされている。,スーパーバレーボール,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725996,pspikes2
+neocd-jp-0042,1995-03-17,ワールドヒーローズ,アルファ電子,yes,ADCD-005,4800,税抜,,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワールドヒーローズ CD-ROM版,M759360,wh1
+neocd-jp-0043,1995-03-31,サッカーブロール,SNK,yes,NGCD-031,5800,税抜,,,サッカーブロール,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サッカーブロール CD-ROM版,M748827,socbrawl
+neocd-jp-0044,1995-03-31,得点王,SNK,yes,NGCD-052,5800,税抜,,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,得点王 CD-ROM版,M764976,ssideki
+neocd-jp-0045,1995-03-31,雀神伝説 QUEST OF JONGMASTER,エイコム,,AICD-048,,,,PCエンジン版もアーケードカード専用ソフトとしてリリースされている。,雀神伝説,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725981,janshin
+neocd-jp-0046,1995-04-07,クイズ キング・オブ・ファイターズ,ザウルス,yes,NGCD-080,5800,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クイズ キング・オブ・ファイターズ CD-ROM版,M747384,quizkof
+neocd-jp-0047,1995-04-14,ワールドヒーローズ2,ADK,yes,ADCD-006,,,,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725973,wh2
+neocd-jp-0048,1995-04-21,ギャラクシーファイト ユニバーサル・ウォーリアーズ,サンソフト,yes,NGCD-078,7800,税抜,,,ギャラクシーファイト ユニバーサル・ウォーリアーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ギャラクシーファイト HIGH SPEED BATTLE ACTION GAME CD-ROM版,M725967,galaxyfg
+neocd-jp-0049,1995-04-21,サイバーリップ,SNK,yes,NGCD-010,5800,税抜,,,サイバーリップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,サイバーリップ CD-ROM版,M748712,cyberlip
+neocd-jp-0050,1995-04-21,ファイヤースープレックス,SNK,yes,NGCD-043,,,,,ファイヤースープレックス,Wikipedia+MADB+MAME,manual+MADB+No-Intro,,,M725968,3countb
+neocd-jp-0051,1995-04-21,ベースボールスターズプロフェッショナル,SNK,yes,NGCD-002,4800,税抜,,,ベースボールスターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ベースボールスターズプロフェッショナル CD-ROM版,M755991,bstars
+neocd-jp-0052,1995-04-21,ロボアーミー,SNK,yes,NGCD-032,5800,税抜,,,ロボアーミー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロボアーミー CD-ROM版,M759217,roboarmy
+neocd-jp-0053,1995-04-28,餓狼伝説3 〜遥かなる闘い〜,SNK,yes,NGCD-069,8800,税抜,,,餓狼伝説3,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,餓狼伝説3 REAL BATTLE ACTION GAME CD-ROM版,M725962,fatfury3
+neocd-jp-0054,1995-05-02,クロススウォードII,ADK,,ADCD-102,5800,税抜,,ネオジオCD専用タイトル。もともとは、没になったアーケードゲームの企画だった,クロスソード,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,クロススウォード2,M734062,crsword2
+neocd-jp-0055,1995-05-02,パズルボブル,タイトー,,NGCD-083,6800,税抜,,スーパーファミコン版もリリースされている。,パズルボブル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パズルボブル,M753813,pbobble
+neocd-jp-0056,1995-05-26,ライディングヒーロー,SNK,yes,NGCD-006,4800,税抜,,,ライディングヒーロー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ライディングヒーロー CD-ROM版,M758187,ridhero
+neocd-jp-0057,1995-06-02,ダブルドラゴン,テクノスジャパン,yes,NGCD-082,,,,,ダブルドラゴンシリーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725947,doubledra
+neocd-jp-0058,1995-06-16,風雲黙示録,SNK,yes,NGCD-059,8800,税抜,,,風雲黙示録,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,風雲黙示録 格闘創生― CD-ROM版,M765678,savagere
+neocd-jp-0059,1995-06-23,得点王3 〜栄光への挑戦〜,SNK,yes,NGCD-081,7800,税抜,,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,得点王3 CD-ROM版,M764981,ssideki3
+neocd-jp-0060,1995-07-21,ワールドヒーローズパーフェクト,SNK,yes,ADCD-009,8800,税抜,,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ワールドヒーローズパーフェクト,M725907,whp
+neocd-jp-0061,1995-08-25,対戦アイドル麻雀ファイナルロマンス2,ビデオシステム,,NGCD-098,7800,税抜,,ネオジオCD専用タイトル。MVS版以外からの移植作品。,対戦アイドル麻雀ファイナルロマンス2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アイドル麻雀ファイナルロマンス2,M744518,fromanc2
+neocd-jp-0062,1995-09-27,ザ・キング・オブ・ファイターズ'95,SNK,yes,NGCD-084,,,,,ザ・キング・オブ・ファイターズ,Wikipedia,MAME+MADB+No-Intro,,,M725856,kof95
+neocd-jp-0063,1995-10-20,将棋の達人,SNK,yes,ADCD-010,7800,税抜,,開発：ADK,将棋の達人,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,将棋の達人 CD-ROM版,M762277,mosyougi
+neocd-jp-0064,1995-10-27,パルスター,SNK,yes,NGCD-089,8800,税抜,,,パルスター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パルスター CD-ROM版,M754355,pulstar
+neocd-jp-0065,1995-11-10,ADKワールド,ADK,,ADCD-103,6800,税抜,,ネオジオCD専用タイトル,ADKワールド,Wikipedia+MADB+MAME,manual+MAME+No-Intro,MADB,ADKワールド,M737163,adkworld
+neocd-jp-0066,1995-11-24,超人学園ゴウカイザー,テクノスジャパン,yes,NGCD-094,,,,,超人学園ゴウカイザー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725819,gowcaizr
+neocd-jp-0067,1995-11-24,天外魔境 真伝,ハドソン,yes,NGCD-092,,,,,天外魔境 真伝,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725818,kabukikl
+neocd-jp-0068,1995-12-08,ソニックウィングス3,ビデオシステム,yes,NGCD-097,7800,税抜,,,ソニックウィングス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ソニックウイングス3 CD-ROM版,M750648,sonicwi3
+neocd-jp-0069,1995-12-22,NEO・GEO CD SPECIAL,SNK,,NGCD-205,3800,税抜,,ネオジオCD専用タイトル,NEO・GEO CD SPECIAL,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NEO・GEO CD SPECIAL,M741122,ngcdspec
+neocd-jp-0070,1995-12-29,サムライスピリッツ 斬紅郎無双剣,SNK,yes,NGCD-087,,,,,サムライスピリッツ 斬紅郎無双剣,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725773,samsho3
+neocd-jp-0071,1996-02-23,リアルバウト餓狼伝説,SNK,yes,NGCD-095,,,,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725735,rbff1
+neocd-jp-0072,1996-03-22,押し出しジントリック,ADK,,ADCD-104,4800,税抜,,ネオジオCD専用タイトル もともとはMVS向けの企画であり、ロケーションテストで『ぷよぷよ』との類似性を指摘され、いったんお蔵入りした後、SNKからの要請を受けてネオジオCD用ソフトとして発売された,押し出しジントリック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,押し出しジントリック CD-ROM版,M759930,zintrick
+neocd-jp-0073,1996-03-22,ステークスウィナー,ザウルス,yes,NGCD-088,,,,,ステークスウィナー,manual+MADB,MADB+No-Intro,,,M725707,
+neocd-jp-0074,1996-05-01,ビッグトーナメントゴルフ,ナスカ,yes,NGCD-200,7800,税抜,,,ビッグトーナメントゴルフ,Wikipedia,MAME+No-Intro,MADB,ビッグトーナメントゴルフ CD-ROM版,M754661,turfmast
+neocd-jp-0075,1996-05-24,マジカルドロップ2,SNK,yes,NGCD-221,6800,税抜,,,マジカルドロップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マジカルドロップ2 CD-ROM版,M756785,magdrop2
+neocd-jp-0076,1996-06-14,ART OF FIGHTING 龍虎の拳 外伝,SNK,yes,NGCD-096,7800,税抜,,,龍虎の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ART OF FIGHTING 龍虎の拳外伝 CD-ROM版,M725644,aof3a
+neocd-jp-0077,1996-07-05,オーバートップ,ADK,yes,ADCD-011,4800,税抜,,,オーバートップ,Wikipedia,MAME+No-Intro,MADB,オーバートップ CD-ROM版,M746236,overtop
+neocd-jp-0078,1996-07-05,メタルスラッグ,ナスカ,yes,NGCD-201,7800,税抜,,,メタルスラッグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メタルスラッグ CD-ROM版,M757552,mslug
+neocd-jp-0079,1996-07-19,フットサル 〜5 ON 5 MINI SOCCER〜,ザウルス,,NGCD-219,6800,税抜,,日本国外のみの移植作品,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,フットサル CD-ROM版,M755362,pgoal
+neocd-jp-0080,1996-07-26,NEOドリフトアウト,ビスコ,,NGCD-213,6800,税抜,,,,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NEOドリフトアウト,M741145,neodrift
+neocd-jp-0081,1996-08-23,神凰拳,SNK,yes,NGCD-218,7800,税抜,,,神凰拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,神凰拳 CD-ROM版,M762999,ragnagrd
+neocd-jp-0082,1996-09-20,超鉄ブリキンガー,ザウルス,,NGCD-220,6800,税抜,,ネオジオCD専用タイトル。MVS版もロケーションテストのみ行われており、バーチャルコンソールで配信されているのはMVSバージョンである。,超鉄ブリキンガー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超鉄ブリキンガー CD-ROM版,M764447,ironclad
+neocd-jp-0083,1996-09-27,NINJA MASTER'S〜覇王忍法帖〜,SNK,yes,ADCD-012,7800,税抜,,,NINJA MASTER'S〜覇王忍法帖〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NINJA MASTER'S ～覇王忍法帖～ CD-ROM版,M741288,ninjamas
+neocd-jp-0084,1996-10-25,ザ・キング・オブ・ファイターズ'96,SNK,yes,NGCD-214,,,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725515,kof96a
+neocd-jp-0085,1996-12-27,サムライスピリッツ 天草降臨,SNK,yes,NGCD-222,6800,税抜,,,サムライスピリッツ 天草降臨,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,サムライスピリッツ天草降臨 CD-ROM版,M725446,samsho4
+neocd-jp-0086,1997-02-14,ザ・キング・オブ・ファイターズ'96 ネオジオコレクション,SNK,,NGCD-229,3800,税抜,,ネオジオCD専用タイトル,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,K.O.F.'96 ネオジオコレクション,M740076,kof96col
+neocd-jp-0087,1997-02-21,ティンクルスタースプライツ,ADK,yes,ADCD-013,5800,税抜,,,ティンクルスタースプライツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ティンクルスター スプライツ CD-ROM版,M751602,twinspri
+neocd-jp-0088,1997-03-28,リアルバウト餓狼伝説スペシャル,SNK,yes,NGCD-2230,6800,税抜,,,リアルバウト餓狼伝説,Wikipedia,MAME+MADB+No-Intro,MADB,リアルバウト餓狼伝説スペシャル REAL BATTLE ACTION GAME CD-ROM版,M725306,rbffspec
+neocd-jp-0089,1997-04-25,ブレイカーズ,ビスコ,yes,NGCD-2300,6800,税抜,,,ブレイカーズ (テレビゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ブレイカーズ CD-ROM版,M755741,breakers
+neocd-jp-0090,1997-06-27,真説サムライスピリッツ武士道烈伝,SNK,,NGCD-0850,6800,税抜,,ネオジオCD専用タイトル。セガサターン版とPlayStation版もリリースされている。,サムライスピリッツ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,真説 サムライスピリッツ 武士道烈伝 CD-ROM版,M725224,samsprpg
+neocd-jp-0091,1997-10-30,ザ・キング・オブ・ファイターズ'97,SNK,yes,NGCD-2320,,,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725105,kof97
+neocd-jp-0092,1998-03-26,幕末浪漫 月華の剣士,SNK,yes,NGCD-2340,6800,税抜,,,月華の剣士,Wikipedia+MADB,MAME+No-Intro,MADB,～幕末浪漫～ 月華の剣士 CD-ROM版,M736873,lastblad
+neocd-jp-0093,1998-06-25,メタルスラッグ2,SNK,yes,NGCD-2410,6800,税抜,,,メタルスラッグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メタルスラッグ 2 CD-ROM版,M757558,mslug2
+neocd-jp-0094,1998-07-23,リアルバウト餓狼伝説2 〜THE NEWCOMERS〜,SNK,yes,NGCD-2400,,,,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724790,rbff2
+neocd-jp-0095,1998-12-23,ザ・キング・オブ・ファイターズ'98 〜DREAM MATCH NEVER ENDS〜,SNK,yes,NGCD-2420,6800,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ザ・キング・オブ・ファイターズ'98 DREAM MATCH NEVER ENDS CD-ROM版,M748538,kof98
+neocd-jp-0096,1999-02-25,幕末浪漫第二幕 月華の剣士 〜月に咲く華、散りゆく花〜,SNK,yes,NGCD-2430,6800,税抜,,,月華の剣士,Wikipedia,manual+No-Intro,MADB,幕末浪漫第二幕 月華の剣士 ～月に咲く華、散り行く花～ CD-ROM版,M766190,
+neocd-jp-0097,1999-12-02,ザ・キング・オブ・ファイターズ'99 〜Millennium Battle〜,SNK,yes,NGCD-2510,,,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724087,kof99

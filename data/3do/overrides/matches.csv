@@ -6,7 +6,7 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 1994-03-26,バーチャルホラー 〜呪われた館〜,,,,FZ-SJ1655,,,,MADB・MAME に型番が無い。Redump「Virtual Horror - Norowareta Yakata」のレーベル面のシリアル
 1994-03-26,ドラゴンズレア,,,,FZ-SJ0153,,,,MADB・MAME に型番が無い。Redump「Dragon's Lair」のレーベル面のシリアル
 1994-04-29,寺沢武一の「武」,,,,FZ-SJ1201,,,,MADB・MAME に型番が無い。Redump「Takeru」のレーベル面のシリアル
-1994-05-14,娯楽の殿堂,,,,FZ-SJ0301,,,,MADB・MAME に型番が無い。Redump「Theatre Wars - Goraku no Dendou」のレーベル面のシリアル
+1994-05-14,娯楽の殿堂,M726241,,,FZ-SJ0301,,,,MADB・MAME に型番が無い。Redump「Theatre Wars - Goraku no Dendou」のレーベル面のシリアル。MADB「THEATRE WARS 娯楽の殿堂」（題名の表記違いで自動照合されない。価格の調査で手動対応）
 1994-06-11,パワーズキングダム,,,,FZ-SJ0202,,,,MADB・MAME に型番が無い。Redump「Powers Kingdom」のレーベル面のシリアル
 1994-06-25,ナイト・トラップ,,,,FZ-SJ1951,,,,MADB・MAME に型番が無い。Redump「Night Trap」のレーベル面のシリアル
 1994-06-25,ファラオの封印,,,,FZ-SJ1751,,,,MADB・MAME に型番が無い。Redump「Virtual Quest - Pharaoh no Fuuin」のレーベル面のシリアル
@@ -79,7 +79,7 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 1995-10-13,ゴールFH,,,,FZ-SJ7351,,,,MADB・MAME に型番が無い。Redump「Goal FH (Field Hunter)」のレーベル面のシリアル
 1995-10-20,シンジケート,,,,E3D-7025,,,,MADB・MAME に型番が無い。Redump「Syndicate」のレーベル面のシリアル
 1995-10-20,ブレードフォース,,,,FZ-SJ6753,,,,MADB・MAME に型番が無い。Redump「Blade Force」のレーベル面のシリアル
-1995-10-20,ペペロン村の四季,,,,FZ-SJ6351,,,,MADB・MAME に型番が無い。Redump「Anno Mitsumasa Pepperon-mura no Shiki」のレーベル面のシリアル
+1995-10-20,ペペロン村の四季,M759645,,,FZ-SJ6351,,,,MADB・MAME に型番が無い。Redump「Anno Mitsumasa Pepperon-mura no Shiki」のレーベル面のシリアル。MADB「安野光雅 ペペロン村の四季」（題名の表記違いで自動照合されない。価格の調査で手動対応）
 1995-10-27,Jリーグ バーチャルスタジアム‘95,,,,E3D-7032,,,,MADB・MAME に型番が無い。Redump「J.League Virtual Stadium '95」のレーベル面のシリアル
 1995-10-27,「占都物語」その1,,,,FZ-SJ4054,,,,MADB・MAME に型番が無い。Redump「Sento Monogatari - Sono I」のレーベル面のシリアル
 1995-11-10,デイドラス〜エピソード1：難破船のエイリアン〜,,,,FZ-SJ3751,,,,"MADB・MAME に型番が無い。Redump「Daedalus Encounter, The - Episode 1」のレーベル面のシリアル"
@@ -106,9 +106,9 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 1996-04-26,ブルーフォレスト物語,,,,FZ-SJ4101,,,,MADB・MAME に型番が無い。Redump「BFS - Blue Forest Story」のレーベル面のシリアル
 1996-05-17,DEFCON5,,,,MS3018,,,,MADB・MAME に型番が無い。Redump「Defcon 5」のレーベル面のシリアル
 1996-06-28,井出洋介名人の新実戦麻雀,,,,FZ-SJ3852,,,,MADB・MAME に型番が無い。Redump「Ide Yousuke Meijin no Shin Jissen Mahjong」のレーベル面のシリアル
-1995-09-14,カランティーン,,,,IM-TS9503,,,,MADB・MAME に型番が無い。Redump「Quarantine (USA, Japan)」のレーベル面のシリアル
+1995-09-14,カランティーン,,,,IM-TS9503,,,,MADB・MAME に型番が無い。Redump「Quarantine (USA
 1994-07-20,麻雀狂時代 〜AVギャル制服編〜,,,,MC-700,,,,MADB・MAME に型番が無い。Redump「Mahjong-kyou Jidai - AV Gal Seifuku-hen」のレーベル面のシリアル
 1995-10-18,麻雀狂時代 コギャル放課後編,,,,MC-701,,,,MADB・MAME に型番が無い。Redump「Mahjong-kyou Jidai Cogal Houkago-hen」のレーベル面のシリアル
-1995-01-28,スーパーモデル ゲイル・マッケンナ,,,,TPS-18012,,,,MADB・MAME に型番が無い。Redump「Super Model, The - Gail McKenna」のレーベル面のシリアル
+1995-01-28,スーパーモデル ゲイル・マッケンナ,,,,TPS-18012,,,,MADB・MAME に型番が無い。Redump「Super Model
 1994-10-21,アウターワールド,,,,FZ-SJ3451,,,,MADB・MAME に型番が無い。Redump「Outer World」のレーベル面のシリアル
 1994-08-06,パットパットシリーズ,,,,FZ-SJ2151,,,,MADB・MAME に型番が無い。Redump「Putt-Putt's Fun Pack」のレーベル面のシリアル（Wikipedia の表示名はパットパット・ファンパック）

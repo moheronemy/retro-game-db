@@ -1,199 +1,199 @@
-id,release_date,title,publisher,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
-n64-jp-0001,1996-06-23,スーパーマリオ64,任天堂,NUS-NSMJ-JPN,,,ローンチタイトル,スーパーマリオ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725636,sm64j
-n64-jp-0002,1996-06-23,パイロットウイングス64,任天堂,NUS-NPWJ-JPN,,,ローンチタイトル,パイロットウイングス64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725635,pilotwinj
-n64-jp-0003,1996-06-23,最強羽生将棋,セタ,NUS-NSHJ-JPN,9800,税抜,ローンチタイトル、コントローラーパック同梱,最強羽生将棋,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,最強羽生将棋,M725637,saikyou
-n64-jp-0004,1996-09-27,ウエーブレース64,任天堂,NUS-NWRJ-JPN,,,水上スキーレースを題材としたウエーブレースシリーズ第2作で、日本で初めて発売された作品でもある,ウェーブレース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725542,waveracej2
-n64-jp-0005,1996-11-22,ワンダープロジェクトJ2 コルロの森のジョゼット,エニックス,NUS-NJ2J-JPN,,,コントローラーパック同梱,ワンダープロジェクトJ2 コルロの森のジョゼット,Wikipedia+MAME,MAME+MADB+No-Intro,,,M725499,wprojj2
-n64-jp-0006,1996-11-29,栄光のセントアンドリュース,セタ,NUS-NSTJ-JPN,,,,栄光のセントアンドリュース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725462,eikousa
-n64-jp-0007,1996-12-14,マリオカート64,任天堂,NUS-NKTJ-JPN,9800,税抜,マリオカートシリーズ第2作。コントローラー・グレー&ブラック同梱,マリオカート64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリオカート64,M757014,mariokrtj1
-n64-jp-0008,1996-12-20,実況Jリーグ パーフェクトストライカー,コナミ,NUS-NJPJ-JPN,9800,税抜,,実況Jリーグ パーフェクトストライカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況Jリーグ パーフェクトストライカー,M761914,jikkjlea
-n64-jp-0009,1996-12-20,超空間ナイター プロ野球キング,イマジニア,NUS-NPKJ-JPN,,,,超空間ナイター プロ野球キング,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725418,cknight
-n64-jp-0010,1996-12-20,麻雀MASTER,コナミ,NUS-NMMJ-JPN,9800,税抜,,麻雀MASTER,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀 MASTER,M766073,mjmaster
-n64-jp-0011,1997-03-14,実況パワフルプロ野球4,コナミ,NUS-NP4J-JPN,,,実況パワフルプロ野球シリーズにおける初のNINTENDO 64用ソフト,実況パワフルプロ野球4,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725342,powyak4
-n64-jp-0012,1997-03-21,ブラストドーザー,任天堂,NUS-NBCJ-JPN,,,,ブラストドーザー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725325,blastdoz
-n64-jp-0013,1997-03-21,ドラえもん のび太と3つの精霊石,エポック社,NUS-NDRJ-JPN,,,,ドラえもん のび太と3つの精霊石,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725326,doraemon
-n64-jp-0014,1997-03-28,ヒューマングランプリ ザ・ニュージェネレーション,ヒューマン,NUS-NHGJ-JPN,,,,ヒューマングランプリ ザ・ニュージェネレーション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725308,humangp
-n64-jp-0015,1997-03-28,JリーグLIVE64,エレクトロニック・アーツ・ビクター,NUS-NJLJ-JPN,9800,税抜,,JリーグLIVE64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,JリーグLIVE 64,M740060,jllive64
-n64-jp-0016,1997-04-04,麻雀64,光栄,NUS-NMJJ-JPN,7800,税抜,,麻雀64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀 64,M766072,mahjong
-n64-jp-0017,1997-04-27,スターフォックス64,任天堂,NUS-NFXJ-JPN,8700,税抜,振動パック同梱,スターフォックス64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スターフォックス 64,M749966,starfoxj
-n64-jp-0018,1997-05-30,時空戦士テュロック,アクレイムジャパン,NUS-NTUJ-JPN,,,,時空戦士テュロック,Wikipedia+MADB+MAME,MAME+No-Intro,,,M725265,turokj
-n64-jp-0019,1997-06-14,スター・ウォーズ 帝国の影,任天堂,NUS-NSWJ-JPN,,,映画『スター・ウォーズ』の関連作品で、『スター・ウォーズ エピソード5/帝国の逆襲』と『スター・ウォーズ エピソード6/ジェダイの帰還』の間を出来事を題材としている,スター・ウォーズ 帝国の影,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725249,swteiko
-n64-jp-0020,1997-06-27,ゆけゆけ!!トラブルメーカーズ,エニックス,NUS-NTMJ-JPN,8900,税抜,,ゆけゆけ!!トラブルメーカーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゆけゆけ!! トラブルメーカーズ,M725235,yukeyuke
-n64-jp-0021,1997-07-18,マルチレーシングチャンピオンシップ,イマジニア,NUS-NMRJ-JPN,7900,税抜,,マルチレーシングチャンピオンシップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マルチレーシングチャンピオンシップ,M757087,mrcj
-n64-jp-0022,1997-07-18,ウエーブレース64 振動パック対応バージョン,任天堂,NUS-NWRJ-JPN,6800,税抜,,ウェーブレース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,WAVE RACE 64 振動パック対応バージョン,M725203,waveracej1
-n64-jp-0023,1997-07-18,スーパーマリオ64 振動パック対応バージョン,任天堂,NUS-NSMJ-JPN,4800,税抜,,スーパーマリオ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SUPER MARIO 64,M725201,sm64jse
-n64-jp-0024,1997-07-25,雀豪シミュレーション 麻雀道64,ビデオシステム,NUS-NMAJ-JPN,6980,税抜,,雀豪シミュレーション 麻雀道64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,雀豪シミュレーション 麻雀道 64,M763140,jangsim
-n64-jp-0025,1997-08-01,Doom 64,ゲームバンク,NUS-NDMJ-JPN,7800,税抜,,Doom 64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DOOM 64,M725179,doom64j
-n64-jp-0026,1997-08-01,麻雀放浪記CLASSIC,イマジニア,NUS-NMHJ-JPN,,,,麻雀放浪記CLASSIC,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725178,mjhoroki
-n64-jp-0027,1997-08-07,がんばれゴエモン〜ネオ桃山幕府のおどり〜,コナミ,NUS-NG5J-JPN,,,,がんばれゴエモン〜ネオ桃山幕府のおどり〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725166,ggoemneo
-n64-jp-0028,1997-08-08,パワーリーグ64,ハドソン,NUS-NPLJ-JPN,6980,税抜,,パワーリーグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パワーリーグ 64,M754470,pleague
-n64-jp-0029,1997-08-23,ゴールデンアイ 007,任天堂,NUS-NGEJ-JPN,,,映画『007/ゴールデンアイ』のゲーム化 もともとはスーパーファミコン用ソフトとして企画されていたが、開発元であるレアの意向によりNINTENDO 64用ソフトに変更された,ゴールデンアイ 007,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725162,007goldnj
-n64-jp-0030,1997-09-05,Jリーグダイナマイトサッカー64,イマジニア,NUS-NDSJ-JPN,,,,Jリーグダイナマイトサッカー64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725152,jldyna64
-n64-jp-0031,1997-09-18,実況ワールドサッカー3,コナミ,NUS-NJ3J-JPN,7500,税抜,,実況ワールドサッカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況ワールドサッカー 3,M761991,jikkscr3
-n64-jp-0032,1997-09-26,爆ボンバーマン,ハドソン,NUS-NBMJ-JPN,6980,税抜,,爆ボンバーマン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,爆ボンバーマン,M725124,bakubomb
-n64-jp-0033,1997-10-24,Jリーグ イレブンビート1997,ハドソン,NUS-NJEJ-JPN,6980,税抜,,Jリーグ イレブンビート1997,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Jリーグ イレブンビート 1997,M740048,jleleven
-n64-jp-0034,1997-10-31,ぷよぷよSUN64,コンパイル,NUS-NPYJ-JPN,,,,ぷよぷよSUN,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725104,puyopsun
-n64-jp-0035,1997-11-21,ディディーコングレーシング,任天堂,NUS-NDYJ-JPN,,,ディディーコングを主役としたレースゲーム,ディディーコングレーシング,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725081,dkracingj
-n64-jp-0036,1997-11-21,プロ麻雀 極64,アテナ,NUS-NKMJ-JPN,6800,税抜,,極 (麻雀ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,プロ麻雀 極 64,M725082,mjkiwame
-n64-jp-0037,1997-11-28,ワイルドチョッパーズ,セタ,NUS-NWCJ-JPN,6980,税抜,,ワイルドチョッパーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワイルド チョッパーズ,M759379,wildchop
-n64-jp-0038,1997-11-28,HEIWAパチンコワールド64,アムテックス,NUS-NHPJ-JPN,7900,税抜,,HEIWAパチンコワールド64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,HEIWA パチンコワールド 64,M739796,heiwapw
-n64-jp-0039,1997-11-28,ファミスタ64,ナムコ,NUS-NFSJ-JPN,,,ナムコにとっては初めてのNINTENDO 64タイトル,ファミスタ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725063,famista
-n64-jp-0040,1997-11-28,64大相撲,ボトムアップ,NUS-NOSJ-JPN,7980,税抜,NINTENDO 64用ソフトにおいてはじめて相撲を題材とした作品,64大相撲,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,64大相撲,M725062,64oozumo
-n64-jp-0041,1997-12-05,トップギア・ラリー,コトブキシステム,NUS-NTRJ-JPN,,,NINTENDO 64用ソフトにおいてはじめてラリーを題材としたレースゲーム,トップギア・ラリー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725056,tgrallyj
-n64-jp-0042,1997-12-05,デュアルヒーローズ,ハドソン,NUS-NDHJ-JPN,6980,税抜,NINTENDO 64用ソフトにおける初の3D対戦型格闘ゲーム,デュアルヒーローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デュアルヒーローズ,M751945,dualheroj
-n64-jp-0043,1997-12-12,カメレオンツイスト,日本システムサプライ,NUS-NCTJ-JPN,6980,税抜,,カメレオンツイスト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カメレオン・ツイスト,M746747,chtwistj
-n64-jp-0044,1997-12-12,スノボキッズ,アトラス,NUS-NSKJ-JPN,6800,税抜,スノーボードを題材としたレースゲーム,スノボキッズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スノボキッズ,M750132,snobokidj
-n64-jp-0045,1997-12-18,ヘクセン,ゲームバンク,NUS-NHXJ-JPN,6800,税抜,ダークファンタジー調のファーストパーソン・シューティングゲーム,ヘクセン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ヘクセン,M755999,hexenj
-n64-jp-0046,1997-12-18,ハイパーオリンピック イン ナガノ64,コナミ,NUS-NH5J-JPN,,,,ハイパーオリンピック,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725029,naganoj
-n64-jp-0047,1997-12-18,飛龍の拳ツイン,カルチャーブレーン,NUS-NHKJ-JPN,6980,税抜,任天堂スペースワールド’97出展時点では1997年11月28日に発売される予定だった。,飛龍の拳,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,飛龍の拳ツイン,M725045,hiryuken
-n64-jp-0048,1997-12-19,エアロゲイジ,アスキー,NUS-NAGJ-JPN,7800,税抜,エアカーによるレースゲーム,エアロゲイジ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エアロゲイジ,M745944,aerogaugj
-n64-jp-0049,1997-12-19,ウッチャンナンチャンの炎のチャレンジャー 電流イライラ棒,ハドソン,NUS-NIRJ-JPN,,,テレビ番組『ウッチャンナンチャンの炎のチャレンジャー』の種目「イライラ棒」のコンピュータゲーム化,イライラ棒,Wikipedia+MAME,MAME+No-Intro,,,,utchan
-n64-jp-0050,1997-12-19,バーチャル・プロレスリング64,アスミック,NUS-NVPJ-JPN,6800,税抜,,バーチャル・プロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャル・プロレスリング 64,M753374,vprowres
-n64-jp-0051,1997-12-19,64で発見!!たまごっち みんなでたまごっちワールド,バンダイ,NUS-NTWJ-JPN,6800,税抜,,64で発見!!たまごっち みんなでたまごっちワールド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,64で発見! たまごっち みんなでたまごっちワールド,M737113,64dhtama
-n64-jp-0052,1997-12-21,ヨッシーストーリー,任天堂,NUS-NYSJ-JPN,6800,税抜,振動パック対応,ヨッシーストーリー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ヨッシーストーリー,M725026,yoshistoj
-n64-jp-0053,1997-12-26,遙かなるオーガスタ MASTERS'98,ティーアンドイーソフト,NUS-NM9J-JPN,7980,税抜,任天堂スペースワールド’97出展時点では1997年12月19日に発売される予定だった,遙かなるオーガスタ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,遥かなるオーガスタ MASTERS'98,M766576,harukana
-n64-jp-0054,1998-01-04,新日本プロレスリング 闘魂炎導 BRAVE SPIRITS,ハドソン,NUS-NTOJ-JPN,6980,税抜,新日本プロレスの人気選手が実名で登場するプロレスゲーム,新日本プロレスリング 闘魂炎導,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新日本プロレス 闘魂炎導 ～BRAVE SPIRITS～,M762659,sprowres
-n64-jp-0055,1998-01-29,NBA IN THE ZONE'98,コナミ,NUS-NBAJ-JPN,6800,税抜,,NBA IN THE ZONE,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,NBA IN THE ZONE'98,M724992,nbazon98j
-n64-jp-0056,1998-01-30,シムシティ2000,イマジニア,NUS-NS2J-JPN,,,任天堂スペースワールド’97出展時点では1997年12月に発売される予定だった。,シムシティ2000,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724980,simcit2k
-n64-jp-0057,1998-02-28,ウェイン・グレツキー 3Dホッケー,ゲームバンク,NUS-NWGJ-JPN,6800,税抜,,ウェイン・グレツキー 3Dホッケー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウェイン・グレツキー・3Dホッケー,M745695,wg3dhj
-n64-jp-0058,1998-02-28,テン・エイティ スノーボーディング,任天堂,NUS-NTEJ-JPN,,,,テン・エイティ スノーボーディング,Wikipedia+MADB+MAME,MAME+MADB,,,M724955,1080snowu
-n64-jp-0059,1998-03-19,ソニックウイングス アサルト,ビデオシステム,NUS-NSAJ-JPN,6980,税抜,,ソニックウィングス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SONIC WINGS ASSAULT,M724938,sonicwing
-n64-jp-0060,1998-03-26,G.A.S.P!! Fighters' NEXTream,コナミ,NUS-NGAJ-JPN,6800,税抜,,G.A.S.P!! Fighters' NEXTream,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,G.A.S.P!! Fighter's NEXTream,M739385,gaspj
-n64-jp-0061,1998-03-26,実況パワフルプロ野球5,コナミ,NUS-NJ5J-JPN,7800,税抜,,実況パワフルプロ野球5,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,実況パワフルプロ野球 5,M724906,powyak5
-n64-jp-0062,1998-03-26,進め!対戦ぱずるだま 闘魂!まるたま町,コナミ,NUS-NPZJ-JPN,6800,税抜,,対戦ぱずるだま,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,進め! 対戦ぱずるだま 闘魂! まるたま町,M763013,puzldama
-n64-jp-0063,1998-03-27,スペースダイナマイツ,ビック東海,NUS-NDKJ-JPN,6800,税抜,,スペースダイナマイツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スペースダイナマイツ,M750214,spacedyn
-n64-jp-0064,1998-03-27,エアーボーダー64,ヒューマン,NUS-NABJ-JPN,7980,税抜,"北米においても""Air Boardin' USA""として発売される予定だった。",エアーボーダー64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エアボーダー 64,M745941,airboardj
-n64-jp-0065,1998-04-03,森田将棋64,セタ,NUS-NMSJ-JPN,,,,森田将棋,Wikipedia+MAME,MAME+No-Intro,,,,moritash
-n64-jp-0066,1998-04-24,FIFA Road to WORLD CUP 98 ワールドカップへの道,エレクトロニック・アーツ,NUS-N8IJ-JPN,6800,税抜,,FIFA Road to WORLD CUP 98 ワールドカップへの道,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,FIFA Road to WORLD CUP 98 ～ワールドカップへの道～,M739180,fifa98j
-n64-jp-0067,1998-04-30,ボンバーマンヒーロー ミリアン王女を救え!,ハドソン,NUS-NBDJ-JPN,6800,税抜,ボンバーマンシリーズの1作である一人用のアクションゲーム,ボンバーマンヒーロー ミリアン王女を救え!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BOMBERMAN HERO ミリアン王女を救え!,M724877,bombheroj
-n64-jp-0068,1998-05-29,エクストリームG,アクレイムジャパン,NUS-NEGJ-JPN,6800,税抜,,エクストリームG,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エクストリームG,M746045,extremegj
-n64-jp-0069,1998-05-29,スーパースピードレース64,タイトー,NUS-NLCJ-JPN,6800,税抜,,スーパースピードレース64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパースピードレース 64,M749515,ssrace64
-n64-jp-0070,1998-05-29,パチンコ365日,セタ,NUS-NPCJ-JPN,6980,税抜,パチンコメーカー・平和の機種を収録した実機シミュレータで、任天堂スペースワールド’97出展時点では1998年5月に発売される予定だった。,パチンコ365日,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パチンコ365日,M753951,pachinko
-n64-jp-0071,1998-06-04,実況ワールドサッカー ワールドカップフランス'98,コナミ,NUS-NWSJ-JPN,7800,税抜,,実況ワールドサッカー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,実況ワールドサッカー WORLD CUP FRANCE'98 ファミ通殿堂入りソフト,M724850,jikksc98b
-n64-jp-0072,1998-06-26,デザエモン3D,アテナ,NUS-CDZJ-JPN,,,,デザエモン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724818,dezaemon
-n64-jp-0073,1998-07-10,スターソルジャー バニシングアース,ハドソン,NUS-NS6J-JPN,6800,税抜,,スターソルジャー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スターソルジャー バニシング・アース,M749955,starsoldj
-n64-jp-0074,1998-07-14,F-ZERO X,任天堂,NUS-CFZJ-JPN,5800,税抜,スーパーファミコン用ソフト『F-ZERO』の続編,F-ZERO X,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,F ZERO X,M724807,fzeroxj
-n64-jp-0075,1998-07-16,オリンピックホッケー ナガノ98,コナミ,NUS-NHNJ-JPN,6800,税抜,,オリンピックホッケー ナガノ98,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,OLYMPIC HOCKEY NAGANO 98,M741357,olymph98j
-n64-jp-0076,1998-07-17,チョロQ64,タカラ,NUS-NCRJ-JPN,6800,税抜,玩具・チョロQのゲーム化作品第6弾,チョロQ (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,チョロQ 64,M751302,choroq
-n64-jp-0077,1998-07-17,スーパーロボットスピリッツ,バンプレスト,NUS-NSSJ-JPN,7800,税抜,ロボットアニメに登場する機体による対戦型格闘ゲーム,スーパーロボットスピリッツ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スーパーロボットスピリッツ,M724800,srobospi
-n64-jp-0078,1998-07-23,らくがきっず RAKUGAKIDS,コナミ,NUS-NKRJ-JPN,6800,税抜,,らくがきっず,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,RAKUGAKIDS,M724786,rakugaj
-n64-jp-0079,1998-07-24,スーパービーダマン バトルフェニックス64,ハドソン,NUS-NB6J-JPN,6800,税抜,,スーパービーダマン バトルフェニックス64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スーパービーダマン バトルフェニックス 64,M724785,sbdaman
-n64-jp-0080,1998-08-01,ポケモンスタジアム,任天堂,NUS-CPSJ-JPN,6800,税抜,64GBパック同梱,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ポケモンスタジアム,M756335,pokestdj
-n64-jp-0081,1998-08-07,64トランプコレクション アリスのわくわくトランプワールド,ボトムアップ,NUS-NTCJ-JPN,7329,税込,,64トランプコレクション アリスのわくわくトランプワールド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,64トランプコレクション アリスのわくわくトランプワールド,M724757,64trumpc
-n64-jp-0082,1998-08-28,イギーくんのぶら²ぽよん,アクレイムジャパン,NUS-NWBJ-JPN,5800,税抜,主人公のイギーは、開発元ののマスコットキャラクターをモデルとしている,イギーくんのぶら²ぽよん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,イギーくんのぶら2ぽよん,M733952,iggyreckj
-n64-jp-0083,1998-10-09,Let'sスマッシュ,ハドソン,NUS-NTSJ-JPN,,,,Let'sスマッシュ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724690,letsmash
-n64-jp-0084,1998-10-23,キラッと解決!64探偵団,イマジニア,NUS-N64J-JPN,6800,税抜,任天堂スペースワールド’97出展時点では1998年3月に発売される予定だった。,キラッと解決!64探偵団,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,キラッと解決! 64探偵団,M724669,kiratt64
-n64-jp-0085,1998-10-30,CITY TOUR GRANDPRIX 全日本GT選手権,イマジニア,NUS-NGTJ-JPN,6800,税抜,,CITY TOUR GRANDPRIX 全日本GT選手権,Wikipedia+MADB+MAME,manual+MAME+No-Intro,MADB,CITY TOUR GRANDPRIX,M738008,citytour
-n64-jp-0086,1998-11-13,テトリス64,セタ,NUS-NT6J-JPN,4980,税抜,周辺機器・バイオセンサー対応,テトリス64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,TETRIS 64,M743163,tetris64
-n64-jp-0087,1998-11-20,マジカルテトリスチャレンジ featuring ミッキー,カプコン,NUS-NMTJ-JPN,,,,マジカルテトリスチャレンジ featuring ミッキー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724626,mtetriscj
-n64-jp-0088,1998-11-21,ゼルダの伝説 時のオカリナ,任天堂,NUS-CZLJ-JPN,,,,ゼルダの伝説 時のオカリナ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724625,zeldaootj2
-n64-jp-0089,1998-11-27,ウェットリス,イマジニア,NUS-NWTJ-JPN,5800,税抜,,ウェットリス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウエットリス,M745701,wetrixj
-n64-jp-0090,1998-11-27,ナイフエッジ ノーズガンナー,コトブキシステム,NUS-NKEJ-JPN,6980,税抜,,ナイフエッジ ノーズガンナー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイフエッジ ～ノーズガンナー～,M752819,knifeedgj
-n64-jp-0091,1998-11-27,ぬし釣り64,ビクターインタラクティブソフトウェア,NUS-NUTJ-JPN,6800,税抜,,ぬし釣り64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぬし釣り 64,M753171,nustsu64
-n64-jp-0092,1998-12-02,マリオのふぉとぴー,東京エレクトロン デバイス,NUS-NMPJ-JPN,9800,税抜,写真やクリップアートを用いたカード制作ソフト,マリオのふぉとぴー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリオのふぉとぴー,M757054,mariopho
-n64-jp-0093,1998-12-04,ゲッターラブ!! ちょー恋愛パーティーゲーム,ハドソン,NUS-NGLJ-JPN,6800,税抜,,ゲッターラブ!! ちょー恋愛パーティーゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲッターラブ!! ちょー恋愛パーティーゲーム,M748035,gettlove
-n64-jp-0094,1998-12-06,バンジョーとカズーイの大冒険,任天堂,NUS-NBKJ-JPN,,,,バンジョーとカズーイの大冒険,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724594,banjokazj
-n64-jp-0095,1998-12-11,ファイティングカップ,イマジニア,NUS-NKAJ-JPN,6800,税抜,ポイント制を採用した3D対戦型格闘ゲームで、任天堂スペースワールド’97出展時点では1998年4月に発売される予定だった。,ファイティングカップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイティングカップ,M754898,fightcup
-n64-jp-0096,1998-12-11,ドラえもん2 のび太と光の神殿,エポック社,NUS-ND2J-JPN,6800,税抜,,ドラえもん2 のび太と光の神殿,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラえもん 2 のび太と光の神殿,M752336,doraemn2
-n64-jp-0097,1998-12-12,ピカチュウげんきでちゅう,任天堂,NUS-NPGJ-JPN,9800,税抜,VRS（音声認識システム）マイク同梱,ピカチュウげんきでちゅう,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ピカチュウげんきでちゅう,M724582,pikachu
-n64-jp-0098,1998-12-18,F-1 WORLD GRAND PRIX,任天堂,NUS-NFWJ-JPN,5800,税抜,,F-1 WORLD GRAND PRIX,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,F-1 WORLD GRAND PRIX,M724561,f1wgpj
-n64-jp-0099,1998-12-18,バックバンブル,ユービーアイソフト,NUS-NBLJ-JPN,,,,バックバンブル,Wikipedia+MAME,MAME+No-Intro,,,,buckbumbj
-n64-jp-0100,1998-12-18,キングヒル64 エクストリームスノーボーディング,コトブキシステム,NUS-NSBJ-JPN,6980,税抜,,キングヒル64 エクストリームスノーボーディング,Wikipedia+MADB,MAME+No-Intro,MADB,KING HILL 64 ～エクストリームスノーボーディング～,M740147,kinghill
-n64-jp-0101,1998-12-18,マリオパーティ,任天堂,NUS-CLBJ-JPN,5800,税抜,,マリオパーティ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マリオパーティ,M724563,marioparj
-n64-jp-0102,1998-12-18,AI将棋3,アスキーサムシンググッド,NUS-NS3J-JPN,7800,税抜,,AI将棋3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,AI将棋 3 NINTENDO64版,M737204,aishogi3
-n64-jp-0103,1998-12-23,がんばれゴエモン〜でろでろ道中 オバケてんこ盛り〜,コナミ,NUS-NG6J-JPN,7800,税抜,,がんばれゴエモン〜でろでろ道中 オバケてんこ盛り〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,がんばれゴエモン でろでろ道中オバケてんこ盛り,M746957,ggoemddd
-n64-jp-0104,1998-12-24,爆笑人生64 めざせ!リゾート王,タイトー,NUS-NBJJ-JPN,6800,税抜,,爆笑!!人生劇場,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,爆笑人生 64 めざせ! リゾート王,M765367,bakushou
-n64-jp-0105,1998-12-25,カメレオンツイスト2,日本システムサプライ,NUS-NV2J-JPN,6300,税抜,,カメレオンツイスト2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カメレオンツイスト 2,M746748,chtwist2j
-n64-jp-0106,1998-12-26,スノースピーダー,イマジニア,NUS-NSNJ-JPN,,,任天堂スペースワールド’97出展時点では1998年3月に発売される予定だった。,スノースピーダー,Wikipedia+MAME,MAME+No-Intro,,,,snowsped
-n64-jp-0107,1998-12-26,新日本プロレスリング 闘魂炎導2 the next generation,ハドソン,NUS-NT3J-JPN,6800,税抜,,闘魂炎導2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新日本プロレスリング闘魂炎導2 ～the next generation～,M762665,sprowrs2
-n64-jp-0108,1999-01-15,Jリーグ タクティクスサッカー,アスキー,NUS-NSJJ-JPN,7800,税抜,,Jリーグ タクティクスサッカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Jリーグ タクティクス・サッカー,M740052,jltactic
-n64-jp-0109,1999-01-21,ニンテンドウオールスター!大乱闘スマッシュブラザーズ,任天堂,NUS-NALJ-JPN,5800,税抜,任天堂のキャラクター群によるクロスオーバー作品である、大乱闘スマッシュブラザーズシリーズ第1弾。,ニンテンドウオールスター!大乱闘スマッシュブラザーズ,Wikipedia+MADB,MAME+MADB+No-Intro,MADB,ニンテンドウオールスター! 大乱闘スマッシュブラザーズ,M724520,smashbroj
-n64-jp-0110,1999-01-29,SD飛龍の拳伝説,カルチャーブレーン,NUS-NDCJ-JPN,6480,税抜,,飛龍の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,SD飛龍の拳伝説,M742163,sdhiryu
-n64-jp-0111,1999-01-29,Parlor!PRO64 パチンコ実機シミュレーションゲーム,日本テレネット,NUS-NPPJ-JPN,6980,税抜,,Parlor!PRO64 パチンコ実機シミュレーションゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Parlor! PRO 64 パチンコ実機シミュレーションゲーム,M741468,parlpro
-n64-jp-0112,1999-02-05,牧場物語2,ビクターインタラクティブソフトウェア,NUS-NYWJ-JPN,6800,税抜,,牧場物語2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,牧場物語 2,M724495,bokujom2b
-n64-jp-0113,1999-02-19,超スノボキッズ,アトラス,NUS-NK2J-JPN,6800,税抜,,スノボキッズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超スノボキッズ,M764363,snobokd2j
-n64-jp-0114,1999-03-05,パズルボブル64,タイトー,NUS-NPBJ-JPN,4800,税抜,,パズルボブル3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パズルボブル 64,M753814,pbobble
-n64-jp-0115,1999-03-11,悪魔城ドラキュラ黙示録,コナミ,NUS-ND3J-JPN,7800,税抜,,悪魔城ドラキュラ黙示録,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悪魔城ドラキュラ黙示録,M724448,akumajo
-n64-jp-0116,1999-03-19,トップギア オーバードライブ,コトブキシステム,NUS-NRCJ-JPN,,,,トップギア オーバードライブ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724434,tgoverdrj
-n64-jp-0117,1999-03-19,人生ゲーム64,タカラ,NUS-NJGJ-JPN,6800,税抜,,人生ゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,人生ゲーム 64,M763044,jinsei64
-n64-jp-0118,1999-03-19,超空間ナイター プロ野球キング2,イマジニア,NUS-NP2J-JPN,6800,税抜,『超空間ナイター プロ野球キング』の続編で、任天堂スペースワールド’97出展時点では1998年1月に発売される予定だった。,超空間ナイター プロ野球キング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超空間ナイター プロ野球キング2,M764377,cknight2
-n64-jp-0119,1999-03-19,64大相撲2,ボトムアップ,NUS-NO2J-JPN,6980,税抜,,64大相撲,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,64大相撲 2,M737115,64oozum2
-n64-jp-0120,1999-03-21,ポケモンスナップ,任天堂,NUS-NPFJ-JPN,6800,税抜,,ポケモンスナップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスナップ,M727970,pokesnapj
-n64-jp-0121,1999-03-25,実況パワフルプロ野球6,コナミ,NUS-NP6J-JPN,7800,税抜,,実況パワフルプロ野球6,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,実況パワフルプロ野球 6 ファミ通殿堂入りソフト,M724416,powyak6
-n64-jp-0122,1999-03-26,スーパーボウリング,アテナ,NUS-NBWJ-JPN,6800,税抜,,スーパーボウリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーボウリング,M749624,sbowlingj
-n64-jp-0123,1999-04-09,おねがいモンスター,ボトムアップ,NUS-NOMJ-JPN,6980,税抜,,おねがいモンスター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,おねがいモンスター,M746369,onegai
-n64-jp-0124,1999-04-28,実況GIステイブル,コナミ,NUS-NGSJ-JPN,7800,税抜,,実況GIステイブル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況GIステイブル,M761913,jikkg1
-n64-jp-0125,1999-04-30,ポケモンスタジアム2,任天堂,NUS-CP2J-JPN,5800,税抜,,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスタジアム 2,M724363,pokestd2j
-n64-jp-0126,1999-05-28,ラストレジオンUX,ハドソン,NUS-NLLJ-JPN,6800,税抜,,ラストレジオンUX,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,LAST LEGION UX,M740241,lastleg
-n64-jp-0127,1999-06-03,NBA IN THE ZONE2,コナミ,NUS-NB2J-JPN,7800,税抜,,NBA IN THE ZONE,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NBA IN THE ZONE 2,M741042,nbazone2
-n64-jp-0128,1999-06-11,マリオゴルフ64,任天堂,NUS-NMFJ-JPN,6800,税抜,ゲームボーイ用ソフト『マリオゴルフGB』との連動要素あり 開発元のキャメロットにとってはNINTENDO 64参入作である,マリオゴルフ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マリオゴルフ 64,M724331,marioglfj1
-n64-jp-0129,1999-06-11,ズール 魔獣使い伝説,イマジニア,NUS-NMZJ-JPN,6800,税抜,,ズール 魔獣使い伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ズール ～魔獣使い伝説～,M749819,zool
-n64-jp-0130,1999-06-18,バイオレンスキラー TUROK NEW GENERATION,アクレイムジャパン,NUS-NT2J-JPN,,,,バイオレンスキラー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727966,vkiller
-n64-jp-0131,1999-06-25,新世紀エヴァンゲリオン,バンダイ,NUS-NEVJ-JPN,,,,新世紀エヴァンゲリオン (NINTENDO64),Wikipedia+MAME,MAME+No-Intro,,,,evangeln
-n64-jp-0132,1999-07-09,エルテイルモンスターズ,イマジニア,NUS-NETJ-JPN,6800,税抜,任天堂スペースワールド’97出展時点では「エルテイル」という仮称が割り振られており、1998年3月に発売される予定だった。,エルテイルモンスターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エルテイル モンスターズ,M746119,eltale
-n64-jp-0133,1999-07-14,オウガバトル64 Person of Lordly Caliber,任天堂,NUS-NOBJ-JPN,7800,税抜,オウガバトルシリーズ第3弾で、システムは『伝説のオウガバトル』をもとにしている,オウガバトル64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,OgreBattle 64 Person Of Lordly Caliber,M724303,ogrebatlj
-n64-jp-0134,1999-07-16,PDウルトラマンバトルコレクション64,バンダイ,NUS-NUBJ-JPN,6800,税抜,,PDウルトラマンバトルコレクション64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,PDウルトラマン バトルコレクション 64,M741500,pdultram
-n64-jp-0135,1999-07-21,スター・ウォーズ エピソード1 レーサー,任天堂,NUS-NEPJ-JPN,6800,税抜,,スター・ウォーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,STAR WARS EPISODE 1 RACER,M724298,swracerj
-n64-jp-0136,1999-07-29,実況Jリーグ1999 パーフェクトストライカー2,コナミ,NUS-NPSJ-JPN,7800,税抜,,実況Jリーグ1999 パーフェクトストライカー2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況Jリーグ1999 パーフェクトストライカー2,M761915,jikkjl99
-n64-jp-0137,1999-07-30,ロードランナー3-D,バンプレスト,NUS-NLRJ-JPN,,,,ロードランナー,Wikipedia+MAME,MAME+No-Intro,,,,ldrun3dj
-n64-jp-0138,1999-07-30,電車でGO!64,タイトー,NUS-ND6J-JPN,9800,税抜,運転士さんパックあり NINTENDO 64 VRS対応,電車でGO!2高速編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,電車でGO! 64 運転士さんパック,M764689,dendeg64
-n64-jp-0139,1999-08-05,ハイブリッドヘブン,コナミ,NUS-NHYJ-JPN,,,,HYBRID HEAVEN,Wikipedia+MAME,MAME+No-Intro,,,,hybridhj
-n64-jp-0140,1999-08-06,Rally'99,イマジニア,NUS-NRAJ-JPN,6800,税抜,,Rally'99,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Rally'99,M741813,rally99
-n64-jp-0141,1999-08-13,シャドウゲイト64 TRIALS OF THE FOUR TOWERS,コトブキシステム,NUS-NSGJ-JPN,,,,シャドウゲイト,Wikipedia+MAME,MAME+No-Intro,,,,shadgatej
-n64-jp-0142,1999-08-27,スター・ウォーズ 出撃!ローグ中隊,任天堂,NUS-NRSJ-JPN,6800,税抜,,スター・ウォーズ 出撃!ローグ中隊,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,STAR WARS 出撃! ローグ中隊,M724236,swshutsu
-n64-jp-0143,1999-08-27,格闘伝承 F-Cup Maniax,イマジニア,NUS-NFYJ-JPN,6800,税抜,,格闘伝承 F-Cup Maniax,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,格闘伝承 ～F-Cup Maniax～,M760407,fcmaniax
-n64-jp-0144,1999-09-03,爆裂無敵 バンガイオー,ESP,NUS-NBNJ-JPN,,,,爆裂無敵 バンガイオー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727960,bangaioh
-n64-jp-0145,1999-09-10,エクストリームG2,アクレイムジャパン,NUS-NG2J-JPN,5800,税抜,,エクストリームG2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エクストリームG2,M746046,extremg2j
-n64-jp-0146,1999-09-23,WIN BACK,コーエー,NUS-NWDJ-JPN,7800,税抜,,WIN BACK,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,WIN BACK,M743871,winbackj1
-n64-jp-0147,1999-10-01,トランスフォーマー ビーストウォーズメタルス64,タカラ,NUS-NTBJ-JPN,7800,税抜,テレビアニメ『ビーストウォーズメタルス 超生命体トランスフォーマー』のゲーム化,トランスフォーマー ビーストウォーズメタルス64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ビーストウォーズ メタルス 64,M754535,bwmetal
-n64-jp-0148,1999-10-14,V-RALLY EDITION99,スパイク,NUS-NVYJ-JPN,7800,税抜,,V-RALLY EDITION99,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,V-RALLY EDITION 99,M743759,vrally99j
-n64-jp-0149,1999-10-22,夜光虫II〜殺人航路〜,アテナ,NUS-NYKJ-JPN,6800,税抜,スーパーファミコン用ソフト『夜光虫』の続編,夜光虫II〜殺人航路〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,夜光虫 2 ～殺人航路～,M766387,yakouch2
-n64-jp-0150,1999-10-29,スーパーロボット大戦64,バンプレスト,NUS-NS4J-JPN,,,スーパーロボット大戦シリーズ唯一のNINTENDO 64用ソフト,スーパーロボット大戦64,Wikipedia+MADB+MAME,MAME+No-Intro,,,M724151,srobot64
-n64-jp-0151,1999-11-05,プロ麻雀 兵64 雀荘バトルに挑戦,カルチャーブレーン,NUS-NNRJ-JPN,6480,税抜,,プロ麻雀 兵64 雀荘バトルに挑戦,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プロ麻雀「兵」 64,M755897,mjtsuwa
-n64-jp-0152,1999-11-05,64花札 天使の約束,アルトロン,NUS-NHFJ-JPN,6800,税抜,,64花札 天使の約束,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,64花札～天使の約束～,M737114,64hana
-n64-jp-0153,1999-11-26,ビートルアドベンチャーレーシング,エレクトロニック・アーツ・スクウェア,NUS-NB8J-JPN,6800,税抜,,ビートルアドベンチャーレーシング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ビートル アドベンチャーレーシング,M754549,beetlearj
-n64-jp-0154,1999-12-01,スターツインズ,任天堂,NUS-NJFJ-JPN,6800,税抜,当初は日本においても「ジェット フォース ジェミニ」という題名で1999年11月に発売が予定されていた。,スターツインズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スターツインズ,M749957,startwin
-n64-jp-0155,1999-12-03,爆ボンバーマン2,ハドソン,NUS-NBVJ-JPN,6800,税抜,,爆ボンバーマン2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,爆BOMBERMAN2,M724081,bakubom2
-n64-jp-0156,1999-12-03,ぷよぷよ〜んパーティー,コンパイル,NUS-NPTJ-JPN,5980,税抜,,ぷよぷよ〜ん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぷよぷよ～んパーティー,M755400,puyopuy4
-n64-jp-0157,1999-12-08,カスタムロボ,任天堂,NUS-NCXJ-JPN,6800,税抜,,カスタムロボ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,カスタムロボ,M724080,custrobo
-n64-jp-0158,1999-12-10,ドンキーコング64,任天堂,NUS-NDOJ-JPN,7800,税抜,メモリー拡張パック同梱,ドンキーコング64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ドンキーコング 64,M724065,dk64j
-n64-jp-0159,1999-12-17,マリオパーティ2,任天堂,NUS-NMWJ-JPN,5800,税抜,,マリオパーティ2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マリオパーティ 2,M724042,mariopr2j
-n64-jp-0160,1999-12-24,チョロQ64 2 ハチャメチャグランプリレース,タカラ,NUS-NCGJ-JPN,6800,税抜,『チョロQ64』の続編で当初は1999年11月に発売される予定だった,チョロQ (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,チョロQ 64 2 ハチャメチャグランプリレース,M751303,choroq2
-n64-jp-0161,1999-12-24,ロボットポンコッツ64 七つの海のカラメル,ハドソン,NUS-NR7J-JPN,6800,税抜,ゲームボーイで発売された『ロボットポンコッツ』シリーズとの連携機能あり（64GBパックが必要）,ロボットポンコッツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロボットポンコッツ 64 ～七つの海のカラメル～,M759229,robotpon
-n64-jp-0162,1999-12-25,悪魔城ドラキュラ黙示録外伝 LEGEND OF CORNELL,コナミ,NUS-ND4J-JPN,7800,税抜,,悪魔城ドラキュラ黙示録外伝 LEGEND OF CORNELL,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悪魔城ドラキュラ黙示録外伝 LEGEND OF CORNELL,M724014,akumajog
-n64-jp-0163,1999-12-25,ゴエモン もののけ双六,コナミ,NUS-NGPJ-JPN,7800,税抜,,ゴエモン もののけ双六,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゴエモンもののけ双六,M748067,goemnsug
-n64-jp-0164,2000-01-28,バイオハザード2,カプコン,NUS-NB5J-JPN,7800,税抜,同名PlayStation用ソフトの移植版,バイオハザード2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バイオハザード 2,M753505,biohaz2
-n64-jp-0165,2000-01-28,バーチャルプロレス2 ～王道継承～,アスミック・エースエンタテインメント,NUS-NA2J-JPN,6980,税抜,,バーチャル・プロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャル・プロレス2 ～王道継承～,M753373,vprowrs2
-n64-jp-0166,2000-02-04,トップギア・ラリー2,コトブキシステム,NUS-NL2J-JPN,6980,税抜,,トップギア・ラリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トップギア・ラリー2,M752235,tgrally2j
-n64-jp-0167,2000-03-17,トップギア・ハイパーバイク,コトブキシステム,NUS-NGBJ-JPN,,,,トップギア・ハイパーバイク,Wikipedia+MAME,MAME+No-Intro,,,,tghj
-n64-jp-0168,2000-03-24,星のカービィ64,任天堂,NUS-NK4J-JPN,,,星のカービィシリーズの1作品,星のカービィ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723891,kirby64j3
-n64-jp-0169,2000-03-31,糸井重里のバス釣りNo.1 決定版!,任天堂,NUS-NIBJ-JPN,6800,税抜,,糸井重里のバス釣りNo.1,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,糸井重里のバス釣りNo.1 決定版!,M761828,itoishig
-n64-jp-0170,2000-04-07,ガントレットレジェンド,エポック社,NUS-NGDJ-JPN,6800,税抜,アーケードゲーム『ガントレット』関連作品,ガントレット (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガントレット レジェンド,M746927,gauntlegj
-n64-jp-0171,2000-04-07,大刀 DAIKATANA,コトブキシステム,NUS-NDWJ-JPN,6980,税抜,アメリカでは当初レンタル向けとして流通していた,大刀 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大刀 ～DAIKATANA～,M764144,daikatanj
-n64-jp-0172,2000-04-21,井出洋介の麻雀塾,セタ,NUS-NIMJ-JPN,5800,税抜,,井出洋介,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,井出洋介の麻雀塾,M759676,ideyumjj
-n64-jp-0173,2000-04-21,忍たま乱太郎64 ゲームギャラリー,カルチャーブレーン,NUS-NHBJ-JPN,6480,税抜,,忍たま乱太郎,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,忍たま乱太郎 64ゲームギャラリー,M765129,nintama
-n64-jp-0174,2000-04-27,ゼルダの伝説 ムジュラの仮面,任天堂,NUS-NZSJ-JPN,,,メモリー拡張パック同梱版あり,ゼルダの伝説 ムジュラの仮面,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723838,zeldamajj1
-n64-jp-0175,2000-04-28,バスラッシュ ～ECOGEAR PowerWorm Championship～,ビスコ,NUS-NVBJ-JPN,7800,税抜,,バスラッシュ ～ECOGEAR PowerWorm Championship～,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Bass Rush～ECOGEAR POWER WORM CHAMPIONSHIP,M737492,bassrush
-n64-jp-0176,2000-04-29,実況パワフルプロ野球2000,コナミ,NUS-NPAJ-JPN,,,,実況パワフルプロ野球2000,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723834,powyak2k
-n64-jp-0177,2000-05-26,ぬし釣り64 -潮風にのって-,ビクターインタラクティブソフトウェア,NUS-NUMJ-JPN,6800,税抜,,ぬし釣りシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぬし釣り 64,M753172,nusts64s
-n64-jp-0178,2000-06-23,エキサイトバイク64,任天堂,NUS-NMXJ-JPN,6800,税抜,,エキサイトバイク64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エキサイトバイク 64,M746024,excitbikj
-n64-jp-0179,2000-07-13,がんばれ!ニッポン!オリンピック2000,コナミ,NUS-N3HJ-JPN,7800,税抜,,ハイパーオリンピック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,がんばれ! ニッポン! オリンピック2000,M746938,olymp2k
-n64-jp-0180,2000-07-21,マリオテニス64,任天堂,NUS-NM8J-JPN,,,64GBによる『マリオテニスGB』との連携機能あり,マリオテニス64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723748,mariotenj
-n64-jp-0181,2000-07-28,ドラえもん3 のび太の町SOS!,エポック社,NUS-N3DJ-JPN,6800,税抜,,ドラえもん3 のび太の町SOS!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラえもん 3 のび太の町SOS!,M752338,doraemn3
-n64-jp-0182,2000-08-11,マリオストーリー,任天堂,NUS-NMQJ-JPN,,,『ペーパーマリオ』シリーズの第1作。,マリオストーリー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723713,mariosto
-n64-jp-0183,2000-09-15,WWFレッスルマニア2000,アスミック・エースエンタテインメント,NUS-NWXJ-JPN,8800,税抜,「バーチャル・プロレス」シリーズの1作品,バーチャル・プロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レッスルマニア2000,M758841,wmania2kj
-n64-jp-0184,2000-09-27,不思議のダンジョン 風来のシレン2 鬼襲来!シレン城!,任天堂,NUS-NSIJ-JPN,6800,税抜,『不思議のダンジョン 風来のシレンGB 月影村の怪物』の続編,不思議のダンジョン 風来のシレン2 鬼襲来!シレン城!,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,不思議のダンジョン 風来のシレン2 鬼襲来! シレン城!,M723671,furaish2
-n64-jp-0185,2000-10-21,パーフェクトダーク,任天堂,NUS-NPDJ-JPN,5800,税抜,『ゴールデンアイ 007』のシステムを基にしたシューティングゲームで、当初は2000年2月に発売が予定されていた メモリー拡張パック同梱版あり,パーフェクトダーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パーフェクトダーク,M753440,pdarkj
-n64-jp-0186,2000-11-10,カスタムロボV2,任天堂,NUS-NCZJ-JPN,,,『カスタムロボ』の続編,カスタムロボ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723607,custrob2
-n64-jp-0187,2000-11-21,罪と罰 〜地球の継承者〜,任天堂,NUS-NGUJ-JPN,5800,税抜,人類と人工生命体との戦いを描いたアクションシューティング,罪と罰 〜地球の継承者〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,罪と罰 地球の継承者,M723595,tsumibat
-n64-jp-0188,2000-11-22,ロックマンDASH 鋼の冒険心,カプコン,NUS-NRHJ-JPN,6800,税抜,同名作品の移植版,ロックマンDASH 鋼の冒険心,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロックマンダッシュ 鋼の冒険心,M759186,rockmand
-n64-jp-0189,2000-11-27,バンジョーとカズーイの大冒険2,任天堂,NUS-NB7J-JPN,6800,税抜,,バンジョーとカズーイの大冒険2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バンジョーとカズーイの大冒険2,M754506,banjotooj
-n64-jp-0190,2000-11-30,DANCE DANCE REVOLUTION ディズニーダンシングミュージアム,コナミ,NUS-NDFJ-JPN,7800,税抜,『Dance Dance Revolution』シリーズの1作品で、ディズニーキャラクターを題材としている 任天堂スペースワールド2000の時点では2000年12月14日に発売が予定されていた。,Dance Dance Revolution,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Dance Dance Revolution ディズニーダンシングミュージアム,M738229,ddrdisny
-n64-jp-0191,2000-12-07,マリオパーティ3,任天堂,NUS-NMVJ-JPN,,,,マリオパーティ3,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723550,mariopr3j
-n64-jp-0192,2000-12-14,ポケモンスタジアム金銀,任天堂,NUS-NP3J-JPN,6800,税抜,,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスタジアム金銀,M723527,pokestdk
-n64-jp-0193,2001-01-21,ミッキーのレーシングチャレンジUSA,任天堂,NUS-NMLJ-JPN,6800,税抜,ミッキーマウスを主役としたレースゲームで、『ディディーコングレーシング』のエンジンが用いられている。 振動パック対応,ミッキーのレーシングチャレンジUSA,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ミッキーのレーシングチャレンジUSA,M723475,mickspedj
-n64-jp-0194,2001-03-29,実況パワフルプロ野球Basic版2001,コナミ,NUS-NPEJ-JPN,,,,実況パワフルプロ野球Basic版2001,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723384,powyk2k1
-n64-jp-0195,2001-04-06,ハムスター物語64,カルチャーブレーン,NUS-NHSJ-JPN,6480,税抜,,ハムスター物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ハムスター物語 64,M754284,hamstmon
-n64-jp-0196,2001-04-14,どうぶつの森,任天堂,NUS-NAFJ-JPN,,,コントローラパック同梱版あり,どうぶつの森,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723369,doubutsu
-n64-jp-0197,2001-08-10,ダービースタリオン64,メディアファクトリー,NUS-NDAJ-JPN,,,,ダービースタリオン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727932,dstall64
-n64-jp-0198,2001-12-20,ボンバーマン64,ハドソン,NUS-NHAJ-JPN,5800,税抜,,ボンバーマン64,Wikipedia+MADB+MAME,MAME,MADB,ボンバーマン 64,M756532,bombmnae
+id,release_date,title,publisher,model_number,price_yen,price_tax,price_note,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+n64-jp-0001,1996-06-23,スーパーマリオ64,任天堂,NUS-NSMJ-JPN,,,,ローンチタイトル,スーパーマリオ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725636,sm64j
+n64-jp-0002,1996-06-23,パイロットウイングス64,任天堂,NUS-NPWJ-JPN,,,,ローンチタイトル,パイロットウイングス64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725635,pilotwinj
+n64-jp-0003,1996-06-23,最強羽生将棋,セタ,NUS-NSHJ-JPN,9800,税抜,,ローンチタイトル、コントローラーパック同梱,最強羽生将棋,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,最強羽生将棋,M725637,saikyou
+n64-jp-0004,1996-09-27,ウエーブレース64,任天堂,NUS-NWRJ-JPN,,,,水上スキーレースを題材としたウエーブレースシリーズ第2作で、日本で初めて発売された作品でもある,ウェーブレース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725542,waveracej2
+n64-jp-0005,1996-11-22,ワンダープロジェクトJ2 コルロの森のジョゼット,エニックス,NUS-NJ2J-JPN,,,,コントローラーパック同梱,ワンダープロジェクトJ2 コルロの森のジョゼット,Wikipedia+MAME,MAME+MADB+No-Intro,,,M725499,wprojj2
+n64-jp-0006,1996-11-29,栄光のセントアンドリュース,セタ,NUS-NSTJ-JPN,,,,,栄光のセントアンドリュース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725462,eikousa
+n64-jp-0007,1996-12-14,マリオカート64,任天堂,NUS-NKTJ-JPN,9800,税抜,,マリオカートシリーズ第2作。コントローラー・グレー&ブラック同梱,マリオカート64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリオカート64,M757014,mariokrtj1
+n64-jp-0008,1996-12-20,実況Jリーグ パーフェクトストライカー,コナミ,NUS-NJPJ-JPN,9800,税抜,,,実況Jリーグ パーフェクトストライカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況Jリーグ パーフェクトストライカー,M761914,jikkjlea
+n64-jp-0009,1996-12-20,超空間ナイター プロ野球キング,イマジニア,NUS-NPKJ-JPN,,,,,超空間ナイター プロ野球キング,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725418,cknight
+n64-jp-0010,1996-12-20,麻雀MASTER,コナミ,NUS-NMMJ-JPN,9800,税抜,,,麻雀MASTER,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀 MASTER,M766073,mjmaster
+n64-jp-0011,1997-03-14,実況パワフルプロ野球4,コナミ,NUS-NP4J-JPN,,,,実況パワフルプロ野球シリーズにおける初のNINTENDO 64用ソフト,実況パワフルプロ野球4,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725342,powyak4
+n64-jp-0012,1997-03-21,ブラストドーザー,任天堂,NUS-NBCJ-JPN,,,,,ブラストドーザー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725325,blastdoz
+n64-jp-0013,1997-03-21,ドラえもん のび太と3つの精霊石,エポック社,NUS-NDRJ-JPN,,,,,ドラえもん のび太と3つの精霊石,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725326,doraemon
+n64-jp-0014,1997-03-28,ヒューマングランプリ ザ・ニュージェネレーション,ヒューマン,NUS-NHGJ-JPN,,,,,ヒューマングランプリ ザ・ニュージェネレーション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725308,humangp
+n64-jp-0015,1997-03-28,JリーグLIVE64,エレクトロニック・アーツ・ビクター,NUS-NJLJ-JPN,9800,税抜,,,JリーグLIVE64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,JリーグLIVE 64,M740060,jllive64
+n64-jp-0016,1997-04-04,麻雀64,光栄,NUS-NMJJ-JPN,7800,税抜,,,麻雀64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,麻雀 64,M766072,mahjong
+n64-jp-0017,1997-04-27,スターフォックス64,任天堂,NUS-NFXJ-JPN,8700,税抜,,振動パック同梱,スターフォックス64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スターフォックス 64,M749966,starfoxj
+n64-jp-0018,1997-05-30,時空戦士テュロック,アクレイムジャパン,NUS-NTUJ-JPN,,,,,時空戦士テュロック,Wikipedia+MADB+MAME,MAME+No-Intro,,,M725265,turokj
+n64-jp-0019,1997-06-14,スター・ウォーズ 帝国の影,任天堂,NUS-NSWJ-JPN,,,,映画『スター・ウォーズ』の関連作品で、『スター・ウォーズ エピソード5/帝国の逆襲』と『スター・ウォーズ エピソード6/ジェダイの帰還』の間を出来事を題材としている,スター・ウォーズ 帝国の影,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725249,swteiko
+n64-jp-0020,1997-06-27,ゆけゆけ!!トラブルメーカーズ,エニックス,NUS-NTMJ-JPN,8900,税抜,,,ゆけゆけ!!トラブルメーカーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ゆけゆけ!! トラブルメーカーズ,M725235,yukeyuke
+n64-jp-0021,1997-07-18,マルチレーシングチャンピオンシップ,イマジニア,NUS-NMRJ-JPN,7900,税抜,,,マルチレーシングチャンピオンシップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マルチレーシングチャンピオンシップ,M757087,mrcj
+n64-jp-0022,1997-07-18,ウエーブレース64 振動パック対応バージョン,任天堂,NUS-NWRJ-JPN,6800,税抜,,,ウェーブレース,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,WAVE RACE 64 振動パック対応バージョン,M725203,waveracej1
+n64-jp-0023,1997-07-18,スーパーマリオ64 振動パック対応バージョン,任天堂,NUS-NSMJ-JPN,4800,税抜,,,スーパーマリオ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SUPER MARIO 64,M725201,sm64jse
+n64-jp-0024,1997-07-25,雀豪シミュレーション 麻雀道64,ビデオシステム,NUS-NMAJ-JPN,6980,税抜,,,雀豪シミュレーション 麻雀道64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,雀豪シミュレーション 麻雀道 64,M763140,jangsim
+n64-jp-0025,1997-08-01,Doom 64,ゲームバンク,NUS-NDMJ-JPN,7800,税抜,,,Doom 64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DOOM 64,M725179,doom64j
+n64-jp-0026,1997-08-01,麻雀放浪記CLASSIC,イマジニア,NUS-NMHJ-JPN,,,,,麻雀放浪記CLASSIC,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725178,mjhoroki
+n64-jp-0027,1997-08-07,がんばれゴエモン〜ネオ桃山幕府のおどり〜,コナミ,NUS-NG5J-JPN,,,,,がんばれゴエモン〜ネオ桃山幕府のおどり〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725166,ggoemneo
+n64-jp-0028,1997-08-08,パワーリーグ64,ハドソン,NUS-NPLJ-JPN,6980,税抜,,,パワーリーグ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パワーリーグ 64,M754470,pleague
+n64-jp-0029,1997-08-23,ゴールデンアイ 007,任天堂,NUS-NGEJ-JPN,,,,映画『007/ゴールデンアイ』のゲーム化 もともとはスーパーファミコン用ソフトとして企画されていたが、開発元であるレアの意向によりNINTENDO 64用ソフトに変更された,ゴールデンアイ 007,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725162,007goldnj
+n64-jp-0030,1997-09-05,Jリーグダイナマイトサッカー64,イマジニア,NUS-NDSJ-JPN,,,,,Jリーグダイナマイトサッカー64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725152,jldyna64
+n64-jp-0031,1997-09-18,実況ワールドサッカー3,コナミ,NUS-NJ3J-JPN,7500,税抜,,,実況ワールドサッカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況ワールドサッカー 3,M761991,jikkscr3
+n64-jp-0032,1997-09-26,爆ボンバーマン,ハドソン,NUS-NBMJ-JPN,6980,税抜,,,爆ボンバーマン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,爆ボンバーマン,M725124,bakubomb
+n64-jp-0033,1997-10-24,Jリーグ イレブンビート1997,ハドソン,NUS-NJEJ-JPN,6980,税抜,,,Jリーグ イレブンビート1997,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Jリーグ イレブンビート 1997,M740048,jleleven
+n64-jp-0034,1997-10-31,ぷよぷよSUN64,コンパイル,NUS-NPYJ-JPN,,,,,ぷよぷよSUN,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725104,puyopsun
+n64-jp-0035,1997-11-21,ディディーコングレーシング,任天堂,NUS-NDYJ-JPN,6800,税抜,,ディディーコングを主役としたレースゲーム,ディディーコングレーシング,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ディディーコングレーシング,M725081,dkracingj
+n64-jp-0036,1997-11-21,プロ麻雀 極64,アテナ,NUS-NKMJ-JPN,6800,税抜,,,極 (麻雀ゲーム),Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,プロ麻雀 極 64,M725082,mjkiwame
+n64-jp-0037,1997-11-28,ワイルドチョッパーズ,セタ,NUS-NWCJ-JPN,6980,税抜,,,ワイルドチョッパーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ワイルド チョッパーズ,M759379,wildchop
+n64-jp-0038,1997-11-28,HEIWAパチンコワールド64,アムテックス,NUS-NHPJ-JPN,7900,税抜,,,HEIWAパチンコワールド64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,HEIWA パチンコワールド 64,M739796,heiwapw
+n64-jp-0039,1997-11-28,ファミスタ64,ナムコ,NUS-NFSJ-JPN,,,,ナムコにとっては初めてのNINTENDO 64タイトル,ファミスタ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725063,famista
+n64-jp-0040,1997-11-28,64大相撲,ボトムアップ,NUS-NOSJ-JPN,7980,税抜,,NINTENDO 64用ソフトにおいてはじめて相撲を題材とした作品,64大相撲,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,64大相撲,M725062,64oozumo
+n64-jp-0041,1997-12-05,トップギア・ラリー,コトブキシステム,NUS-NTRJ-JPN,,,,NINTENDO 64用ソフトにおいてはじめてラリーを題材としたレースゲーム,トップギア・ラリー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725056,tgrallyj
+n64-jp-0042,1997-12-05,デュアルヒーローズ,ハドソン,NUS-NDHJ-JPN,6980,税抜,,NINTENDO 64用ソフトにおける初の3D対戦型格闘ゲーム,デュアルヒーローズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,デュアルヒーローズ,M751945,dualheroj
+n64-jp-0043,1997-12-12,カメレオンツイスト,日本システムサプライ,NUS-NCTJ-JPN,6980,税抜,,,カメレオンツイスト,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カメレオン・ツイスト,M746747,chtwistj
+n64-jp-0044,1997-12-12,スノボキッズ,アトラス,NUS-NSKJ-JPN,6800,税抜,,スノーボードを題材としたレースゲーム,スノボキッズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スノボキッズ,M750132,snobokidj
+n64-jp-0045,1997-12-18,ヘクセン,ゲームバンク,NUS-NHXJ-JPN,6800,税抜,,ダークファンタジー調のファーストパーソン・シューティングゲーム,ヘクセン,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ヘクセン,M755999,hexenj
+n64-jp-0046,1997-12-18,ハイパーオリンピック イン ナガノ64,コナミ,NUS-NH5J-JPN,,,,,ハイパーオリンピック,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M725029,naganoj
+n64-jp-0047,1997-12-18,飛龍の拳ツイン,カルチャーブレーン,NUS-NHKJ-JPN,6980,税抜,,任天堂スペースワールド’97出展時点では1997年11月28日に発売される予定だった。,飛龍の拳,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,飛龍の拳ツイン,M725045,hiryuken
+n64-jp-0048,1997-12-19,エアロゲイジ,アスキー,NUS-NAGJ-JPN,7800,税抜,,エアカーによるレースゲーム,エアロゲイジ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エアロゲイジ,M745944,aerogaugj
+n64-jp-0049,1997-12-19,ウッチャンナンチャンの炎のチャレンジャー 電流イライラ棒,ハドソン,NUS-NIRJ-JPN,,,,テレビ番組『ウッチャンナンチャンの炎のチャレンジャー』の種目「イライラ棒」のコンピュータゲーム化,イライラ棒,Wikipedia+MAME,MAME+No-Intro,,,,utchan
+n64-jp-0050,1997-12-19,バーチャル・プロレスリング64,アスミック,NUS-NVPJ-JPN,6800,税抜,,,バーチャル・プロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャル・プロレスリング 64,M753374,vprowres
+n64-jp-0051,1997-12-19,64で発見!!たまごっち みんなでたまごっちワールド,バンダイ,NUS-NTWJ-JPN,6800,税抜,,,64で発見!!たまごっち みんなでたまごっちワールド,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,64で発見! たまごっち みんなでたまごっちワールド,M737113,64dhtama
+n64-jp-0052,1997-12-21,ヨッシーストーリー,任天堂,NUS-NYSJ-JPN,6800,税抜,,振動パック対応,ヨッシーストーリー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ヨッシーストーリー,M725026,yoshistoj
+n64-jp-0053,1997-12-26,遙かなるオーガスタ MASTERS'98,ティーアンドイーソフト,NUS-NM9J-JPN,7980,税抜,,任天堂スペースワールド’97出展時点では1997年12月19日に発売される予定だった,遙かなるオーガスタ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,遥かなるオーガスタ MASTERS'98,M766576,harukana
+n64-jp-0054,1998-01-04,新日本プロレスリング 闘魂炎導 BRAVE SPIRITS,ハドソン,NUS-NTOJ-JPN,6980,税抜,,新日本プロレスの人気選手が実名で登場するプロレスゲーム,新日本プロレスリング 闘魂炎導,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新日本プロレス 闘魂炎導 ～BRAVE SPIRITS～,M762659,sprowres
+n64-jp-0055,1998-01-29,NBA IN THE ZONE'98,コナミ,NUS-NBAJ-JPN,6800,税抜,,,NBA IN THE ZONE,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,NBA IN THE ZONE'98,M724992,nbazon98j
+n64-jp-0056,1998-01-30,シムシティ2000,イマジニア,NUS-NS2J-JPN,,,,任天堂スペースワールド’97出展時点では1997年12月に発売される予定だった。,シムシティ2000,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724980,simcit2k
+n64-jp-0057,1998-02-28,ウェイン・グレツキー 3Dホッケー,ゲームバンク,NUS-NWGJ-JPN,6800,税抜,,,ウェイン・グレツキー 3Dホッケー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウェイン・グレツキー・3Dホッケー,M745695,wg3dhj
+n64-jp-0058,1998-02-28,テン・エイティ スノーボーディング,任天堂,NUS-NTEJ-JPN,,,,,テン・エイティ スノーボーディング,Wikipedia+MADB+MAME,MAME+MADB,,,M724955,1080snowu
+n64-jp-0059,1998-03-19,ソニックウイングス アサルト,ビデオシステム,NUS-NSAJ-JPN,6980,税抜,,,ソニックウィングス,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,SONIC WINGS ASSAULT,M724938,sonicwing
+n64-jp-0060,1998-03-26,G.A.S.P!! Fighters' NEXTream,コナミ,NUS-NGAJ-JPN,6800,税抜,,,G.A.S.P!! Fighters' NEXTream,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,G.A.S.P!! Fighter's NEXTream,M739385,gaspj
+n64-jp-0061,1998-03-26,実況パワフルプロ野球5,コナミ,NUS-NJ5J-JPN,7800,税抜,,,実況パワフルプロ野球5,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,実況パワフルプロ野球 5,M724906,powyak5
+n64-jp-0062,1998-03-26,進め!対戦ぱずるだま 闘魂!まるたま町,コナミ,NUS-NPZJ-JPN,6800,税抜,,,対戦ぱずるだま,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,進め! 対戦ぱずるだま 闘魂! まるたま町,M763013,puzldama
+n64-jp-0063,1998-03-27,スペースダイナマイツ,ビック東海,NUS-NDKJ-JPN,6800,税抜,,,スペースダイナマイツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スペースダイナマイツ,M750214,spacedyn
+n64-jp-0064,1998-03-27,エアーボーダー64,ヒューマン,NUS-NABJ-JPN,7980,税抜,,"北米においても""Air Boardin' USA""として発売される予定だった。",エアーボーダー64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エアボーダー 64,M745941,airboardj
+n64-jp-0065,1998-04-03,森田将棋64,セタ,NUS-NMSJ-JPN,,,,,森田将棋,Wikipedia+MAME,MAME+No-Intro,,,,moritash
+n64-jp-0066,1998-04-24,FIFA Road to WORLD CUP 98 ワールドカップへの道,エレクトロニック・アーツ,NUS-N8IJ-JPN,6800,税抜,,,FIFA Road to WORLD CUP 98 ワールドカップへの道,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,FIFA Road to WORLD CUP 98 ～ワールドカップへの道～,M739180,fifa98j
+n64-jp-0067,1998-04-30,ボンバーマンヒーロー ミリアン王女を救え!,ハドソン,NUS-NBDJ-JPN,6800,税抜,,ボンバーマンシリーズの1作である一人用のアクションゲーム,ボンバーマンヒーロー ミリアン王女を救え!,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,BOMBERMAN HERO ミリアン王女を救え!,M724877,bombheroj
+n64-jp-0068,1998-05-29,エクストリームG,アクレイムジャパン,NUS-NEGJ-JPN,6800,税抜,,,エクストリームG,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エクストリームG,M746045,extremegj
+n64-jp-0069,1998-05-29,スーパースピードレース64,タイトー,NUS-NLCJ-JPN,6800,税抜,,,スーパースピードレース64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパースピードレース 64,M749515,ssrace64
+n64-jp-0070,1998-05-29,パチンコ365日,セタ,NUS-NPCJ-JPN,6980,税抜,,パチンコメーカー・平和の機種を収録した実機シミュレータで、任天堂スペースワールド’97出展時点では1998年5月に発売される予定だった。,パチンコ365日,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パチンコ365日,M753951,pachinko
+n64-jp-0071,1998-06-04,実況ワールドサッカー ワールドカップフランス'98,コナミ,NUS-NWSJ-JPN,7800,税抜,,,実況ワールドサッカー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,実況ワールドサッカー WORLD CUP FRANCE'98 ファミ通殿堂入りソフト,M724850,jikksc98b
+n64-jp-0072,1998-06-26,デザエモン3D,アテナ,NUS-CDZJ-JPN,,,,,デザエモン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724818,dezaemon
+n64-jp-0073,1998-07-10,スターソルジャー バニシングアース,ハドソン,NUS-NS6J-JPN,6800,税抜,,,スターソルジャー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スターソルジャー バニシング・アース,M749955,starsoldj
+n64-jp-0074,1998-07-14,F-ZERO X,任天堂,NUS-CFZJ-JPN,5800,税抜,,スーパーファミコン用ソフト『F-ZERO』の続編,F-ZERO X,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,F ZERO X,M724807,fzeroxj
+n64-jp-0075,1998-07-16,オリンピックホッケー ナガノ98,コナミ,NUS-NHNJ-JPN,6800,税抜,,,オリンピックホッケー ナガノ98,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,OLYMPIC HOCKEY NAGANO 98,M741357,olymph98j
+n64-jp-0076,1998-07-17,チョロQ64,タカラ,NUS-NCRJ-JPN,6800,税抜,,玩具・チョロQのゲーム化作品第6弾,チョロQ (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,チョロQ 64,M751302,choroq
+n64-jp-0077,1998-07-17,スーパーロボットスピリッツ,バンプレスト,NUS-NSSJ-JPN,7800,税抜,,ロボットアニメに登場する機体による対戦型格闘ゲーム,スーパーロボットスピリッツ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スーパーロボットスピリッツ,M724800,srobospi
+n64-jp-0078,1998-07-23,らくがきっず RAKUGAKIDS,コナミ,NUS-NKRJ-JPN,6800,税抜,,,らくがきっず,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,RAKUGAKIDS,M724786,rakugaj
+n64-jp-0079,1998-07-24,スーパービーダマン バトルフェニックス64,ハドソン,NUS-NB6J-JPN,6800,税抜,,,スーパービーダマン バトルフェニックス64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,スーパービーダマン バトルフェニックス 64,M724785,sbdaman
+n64-jp-0080,1998-08-01,ポケモンスタジアム,任天堂,NUS-CPSJ-JPN,6800,税抜,,64GBパック同梱,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ポケモンスタジアム,M756335,pokestdj
+n64-jp-0081,1998-08-07,64トランプコレクション アリスのわくわくトランプワールド,ボトムアップ,NUS-NTCJ-JPN,7329,税込,,,64トランプコレクション アリスのわくわくトランプワールド,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,64トランプコレクション アリスのわくわくトランプワールド,M724757,64trumpc
+n64-jp-0082,1998-08-28,イギーくんのぶら²ぽよん,アクレイムジャパン,NUS-NWBJ-JPN,5800,税抜,,主人公のイギーは、開発元ののマスコットキャラクターをモデルとしている,イギーくんのぶら²ぽよん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,イギーくんのぶら2ぽよん,M733952,iggyreckj
+n64-jp-0083,1998-10-09,Let'sスマッシュ,ハドソン,NUS-NTSJ-JPN,,,,,Let'sスマッシュ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724690,letsmash
+n64-jp-0084,1998-10-23,キラッと解決!64探偵団,イマジニア,NUS-N64J-JPN,6800,税抜,,任天堂スペースワールド’97出展時点では1998年3月に発売される予定だった。,キラッと解決!64探偵団,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,キラッと解決! 64探偵団,M724669,kiratt64
+n64-jp-0085,1998-10-30,CITY TOUR GRANDPRIX 全日本GT選手権,イマジニア,NUS-NGTJ-JPN,6800,税抜,,,CITY TOUR GRANDPRIX 全日本GT選手権,Wikipedia+MADB+MAME,manual+MAME+No-Intro,MADB,CITY TOUR GRANDPRIX,M738008,citytour
+n64-jp-0086,1998-11-13,テトリス64,セタ,NUS-NT6J-JPN,4980,税抜,,周辺機器・バイオセンサー対応,テトリス64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,TETRIS 64,M743163,tetris64
+n64-jp-0087,1998-11-20,マジカルテトリスチャレンジ featuring ミッキー,カプコン,NUS-NMTJ-JPN,,,,,マジカルテトリスチャレンジ featuring ミッキー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724626,mtetriscj
+n64-jp-0088,1998-11-21,ゼルダの伝説 時のオカリナ,任天堂,NUS-CZLJ-JPN,,,,,ゼルダの伝説 時のオカリナ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724625,zeldaootj2
+n64-jp-0089,1998-11-27,ウェットリス,イマジニア,NUS-NWTJ-JPN,5800,税抜,,,ウェットリス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ウエットリス,M745701,wetrixj
+n64-jp-0090,1998-11-27,ナイフエッジ ノーズガンナー,コトブキシステム,NUS-NKEJ-JPN,6980,税抜,,,ナイフエッジ ノーズガンナー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ナイフエッジ ～ノーズガンナー～,M752819,knifeedgj
+n64-jp-0091,1998-11-27,ぬし釣り64,ビクターインタラクティブソフトウェア,NUS-NUTJ-JPN,6800,税抜,,,ぬし釣り64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぬし釣り 64,M753171,nustsu64
+n64-jp-0092,1998-12-02,マリオのふぉとぴー,東京エレクトロン デバイス,NUS-NMPJ-JPN,9800,税抜,,写真やクリップアートを用いたカード制作ソフト,マリオのふぉとぴー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,マリオのふぉとぴー,M757054,mariopho
+n64-jp-0093,1998-12-04,ゲッターラブ!! ちょー恋愛パーティーゲーム,ハドソン,NUS-NGLJ-JPN,6800,税抜,,,ゲッターラブ!! ちょー恋愛パーティーゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゲッターラブ!! ちょー恋愛パーティーゲーム,M748035,gettlove
+n64-jp-0094,1998-12-06,バンジョーとカズーイの大冒険,任天堂,NUS-NBKJ-JPN,,,,,バンジョーとカズーイの大冒険,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724594,banjokazj
+n64-jp-0095,1998-12-11,ファイティングカップ,イマジニア,NUS-NKAJ-JPN,6800,税抜,,ポイント制を採用した3D対戦型格闘ゲームで、任天堂スペースワールド’97出展時点では1998年4月に発売される予定だった。,ファイティングカップ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ファイティングカップ,M754898,fightcup
+n64-jp-0096,1998-12-11,ドラえもん2 のび太と光の神殿,エポック社,NUS-ND2J-JPN,6800,税抜,,,ドラえもん2 のび太と光の神殿,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラえもん 2 のび太と光の神殿,M752336,doraemn2
+n64-jp-0097,1998-12-12,ピカチュウげんきでちゅう,任天堂,NUS-NPGJ-JPN,9800,税抜,,VRS（音声認識システム）マイク同梱,ピカチュウげんきでちゅう,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ピカチュウげんきでちゅう,M724582,pikachu
+n64-jp-0098,1998-12-18,F-1 WORLD GRAND PRIX,任天堂,NUS-NFWJ-JPN,5800,税抜,,,F-1 WORLD GRAND PRIX,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,F-1 WORLD GRAND PRIX,M724561,f1wgpj
+n64-jp-0099,1998-12-18,バックバンブル,ユービーアイソフト,NUS-NBLJ-JPN,,,,,バックバンブル,Wikipedia+MAME,MAME+No-Intro,,,,buckbumbj
+n64-jp-0100,1998-12-18,キングヒル64 エクストリームスノーボーディング,コトブキシステム,NUS-NSBJ-JPN,6980,税抜,,,キングヒル64 エクストリームスノーボーディング,Wikipedia+MADB,MAME+No-Intro,MADB,KING HILL 64 ～エクストリームスノーボーディング～,M740147,kinghill
+n64-jp-0101,1998-12-18,マリオパーティ,任天堂,NUS-CLBJ-JPN,5800,税抜,,,マリオパーティ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マリオパーティ,M724563,marioparj
+n64-jp-0102,1998-12-18,AI将棋3,アスキーサムシンググッド,NUS-NS3J-JPN,7800,税抜,,,AI将棋3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,AI将棋 3 NINTENDO64版,M737204,aishogi3
+n64-jp-0103,1998-12-23,がんばれゴエモン〜でろでろ道中 オバケてんこ盛り〜,コナミ,NUS-NG6J-JPN,7800,税抜,,,がんばれゴエモン〜でろでろ道中 オバケてんこ盛り〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,がんばれゴエモン でろでろ道中オバケてんこ盛り,M746957,ggoemddd
+n64-jp-0104,1998-12-24,爆笑人生64 めざせ!リゾート王,タイトー,NUS-NBJJ-JPN,6800,税抜,,,爆笑!!人生劇場,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,爆笑人生 64 めざせ! リゾート王,M765367,bakushou
+n64-jp-0105,1998-12-25,カメレオンツイスト2,日本システムサプライ,NUS-NV2J-JPN,6300,税抜,,,カメレオンツイスト2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,カメレオンツイスト 2,M746748,chtwist2j
+n64-jp-0106,1998-12-26,スノースピーダー,イマジニア,NUS-NSNJ-JPN,,,,任天堂スペースワールド’97出展時点では1998年3月に発売される予定だった。,スノースピーダー,Wikipedia+MAME,MAME+No-Intro,,,,snowsped
+n64-jp-0107,1998-12-26,新日本プロレスリング 闘魂炎導2 the next generation,ハドソン,NUS-NT3J-JPN,6800,税抜,,,闘魂炎導2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,新日本プロレスリング闘魂炎導2 ～the next generation～,M762665,sprowrs2
+n64-jp-0108,1999-01-15,Jリーグ タクティクスサッカー,アスキー,NUS-NSJJ-JPN,7800,税抜,,,Jリーグ タクティクスサッカー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Jリーグ タクティクス・サッカー,M740052,jltactic
+n64-jp-0109,1999-01-21,ニンテンドウオールスター!大乱闘スマッシュブラザーズ,任天堂,NUS-NALJ-JPN,5800,税抜,,任天堂のキャラクター群によるクロスオーバー作品である、大乱闘スマッシュブラザーズシリーズ第1弾。,ニンテンドウオールスター!大乱闘スマッシュブラザーズ,Wikipedia+MADB,MAME+MADB+No-Intro,MADB,ニンテンドウオールスター! 大乱闘スマッシュブラザーズ,M724520,smashbroj
+n64-jp-0110,1999-01-29,SD飛龍の拳伝説,カルチャーブレーン,NUS-NDCJ-JPN,6480,税抜,,,飛龍の拳,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,SD飛龍の拳伝説,M742163,sdhiryu
+n64-jp-0111,1999-01-29,Parlor!PRO64 パチンコ実機シミュレーションゲーム,日本テレネット,NUS-NPPJ-JPN,6980,税抜,,,Parlor!PRO64 パチンコ実機シミュレーションゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Parlor! PRO 64 パチンコ実機シミュレーションゲーム,M741468,parlpro
+n64-jp-0112,1999-02-05,牧場物語2,ビクターインタラクティブソフトウェア,NUS-NYWJ-JPN,6800,税抜,,,牧場物語2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,牧場物語 2,M724495,bokujom2b
+n64-jp-0113,1999-02-19,超スノボキッズ,アトラス,NUS-NK2J-JPN,6800,税抜,,,スノボキッズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超スノボキッズ,M764363,snobokd2j
+n64-jp-0114,1999-03-05,パズルボブル64,タイトー,NUS-NPBJ-JPN,4800,税抜,,,パズルボブル3,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パズルボブル 64,M753814,pbobble
+n64-jp-0115,1999-03-11,悪魔城ドラキュラ黙示録,コナミ,NUS-ND3J-JPN,7800,税抜,,,悪魔城ドラキュラ黙示録,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悪魔城ドラキュラ黙示録,M724448,akumajo
+n64-jp-0116,1999-03-19,トップギア オーバードライブ,コトブキシステム,NUS-NRCJ-JPN,,,,,トップギア オーバードライブ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M724434,tgoverdrj
+n64-jp-0117,1999-03-19,人生ゲーム64,タカラ,NUS-NJGJ-JPN,6800,税抜,,,人生ゲーム,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,人生ゲーム 64,M763044,jinsei64
+n64-jp-0118,1999-03-19,超空間ナイター プロ野球キング2,イマジニア,NUS-NP2J-JPN,6800,税抜,,『超空間ナイター プロ野球キング』の続編で、任天堂スペースワールド’97出展時点では1998年1月に発売される予定だった。,超空間ナイター プロ野球キング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,超空間ナイター プロ野球キング2,M764377,cknight2
+n64-jp-0119,1999-03-19,64大相撲2,ボトムアップ,NUS-NO2J-JPN,6980,税抜,,,64大相撲,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,64大相撲 2,M737115,64oozum2
+n64-jp-0120,1999-03-21,ポケモンスナップ,任天堂,NUS-NPFJ-JPN,6800,税抜,,,ポケモンスナップ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスナップ,M727970,pokesnapj
+n64-jp-0121,1999-03-25,実況パワフルプロ野球6,コナミ,NUS-NP6J-JPN,7800,税抜,,,実況パワフルプロ野球6,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,実況パワフルプロ野球 6 ファミ通殿堂入りソフト,M724416,powyak6
+n64-jp-0122,1999-03-26,スーパーボウリング,アテナ,NUS-NBWJ-JPN,6800,税抜,,,スーパーボウリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スーパーボウリング,M749624,sbowlingj
+n64-jp-0123,1999-04-09,おねがいモンスター,ボトムアップ,NUS-NOMJ-JPN,6980,税抜,,,おねがいモンスター,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,おねがいモンスター,M746369,onegai
+n64-jp-0124,1999-04-28,実況GIステイブル,コナミ,NUS-NGSJ-JPN,7800,税抜,,,実況GIステイブル,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況GIステイブル,M761913,jikkg1
+n64-jp-0125,1999-04-30,ポケモンスタジアム2,任天堂,NUS-CP2J-JPN,5800,税抜,,,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスタジアム 2,M724363,pokestd2j
+n64-jp-0126,1999-05-28,ラストレジオンUX,ハドソン,NUS-NLLJ-JPN,6800,税抜,,,ラストレジオンUX,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,LAST LEGION UX,M740241,lastleg
+n64-jp-0127,1999-06-03,NBA IN THE ZONE2,コナミ,NUS-NB2J-JPN,7800,税抜,,,NBA IN THE ZONE,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,NBA IN THE ZONE 2,M741042,nbazone2
+n64-jp-0128,1999-06-11,マリオゴルフ64,任天堂,NUS-NMFJ-JPN,6800,税抜,,ゲームボーイ用ソフト『マリオゴルフGB』との連動要素あり 開発元のキャメロットにとってはNINTENDO 64参入作である,マリオゴルフ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マリオゴルフ 64,M724331,marioglfj1
+n64-jp-0129,1999-06-11,ズール 魔獣使い伝説,イマジニア,NUS-NMZJ-JPN,6800,税抜,,,ズール 魔獣使い伝説,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ズール ～魔獣使い伝説～,M749819,zool
+n64-jp-0130,1999-06-18,バイオレンスキラー TUROK NEW GENERATION,アクレイムジャパン,NUS-NT2J-JPN,,,,,バイオレンスキラー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727966,vkiller
+n64-jp-0131,1999-06-25,新世紀エヴァンゲリオン,バンダイ,NUS-NEVJ-JPN,,,,,新世紀エヴァンゲリオン (NINTENDO64),Wikipedia+MAME,MAME+No-Intro,,,,evangeln
+n64-jp-0132,1999-07-09,エルテイルモンスターズ,イマジニア,NUS-NETJ-JPN,6800,税抜,,任天堂スペースワールド’97出展時点では「エルテイル」という仮称が割り振られており、1998年3月に発売される予定だった。,エルテイルモンスターズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エルテイル モンスターズ,M746119,eltale
+n64-jp-0133,1999-07-14,オウガバトル64 Person of Lordly Caliber,任天堂,NUS-NOBJ-JPN,7800,税抜,,オウガバトルシリーズ第3弾で、システムは『伝説のオウガバトル』をもとにしている,オウガバトル64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,OgreBattle 64 Person Of Lordly Caliber,M724303,ogrebatlj
+n64-jp-0134,1999-07-16,PDウルトラマンバトルコレクション64,バンダイ,NUS-NUBJ-JPN,6800,税抜,,,PDウルトラマンバトルコレクション64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,PDウルトラマン バトルコレクション 64,M741500,pdultram
+n64-jp-0135,1999-07-21,スター・ウォーズ エピソード1 レーサー,任天堂,NUS-NEPJ-JPN,6800,税抜,,,スター・ウォーズ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,STAR WARS EPISODE 1 RACER,M724298,swracerj
+n64-jp-0136,1999-07-29,実況Jリーグ1999 パーフェクトストライカー2,コナミ,NUS-NPSJ-JPN,7800,税抜,,,実況Jリーグ1999 パーフェクトストライカー2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,実況Jリーグ1999 パーフェクトストライカー2,M761915,jikkjl99
+n64-jp-0137,1999-07-30,ロードランナー3-D,バンプレスト,NUS-NLRJ-JPN,,,,,ロードランナー,Wikipedia+MAME,MAME+No-Intro,,,,ldrun3dj
+n64-jp-0138,1999-07-30,電車でGO!64,タイトー,NUS-ND6J-JPN,9800,税抜,,運転士さんパックあり NINTENDO 64 VRS対応,電車でGO!2高速編,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,電車でGO! 64 運転士さんパック,M764689,dendeg64
+n64-jp-0139,1999-08-05,ハイブリッドヘブン,コナミ,NUS-NHYJ-JPN,,,,,HYBRID HEAVEN,Wikipedia+MAME,MAME+No-Intro,,,,hybridhj
+n64-jp-0140,1999-08-06,Rally'99,イマジニア,NUS-NRAJ-JPN,6800,税抜,,,Rally'99,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Rally'99,M741813,rally99
+n64-jp-0141,1999-08-13,シャドウゲイト64 TRIALS OF THE FOUR TOWERS,コトブキシステム,NUS-NSGJ-JPN,,,,,シャドウゲイト,Wikipedia+MAME,MAME+No-Intro,,,,shadgatej
+n64-jp-0142,1999-08-27,スター・ウォーズ 出撃!ローグ中隊,任天堂,NUS-NRSJ-JPN,6800,税抜,,,スター・ウォーズ 出撃!ローグ中隊,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,STAR WARS 出撃! ローグ中隊,M724236,swshutsu
+n64-jp-0143,1999-08-27,格闘伝承 F-Cup Maniax,イマジニア,NUS-NFYJ-JPN,6800,税抜,,,格闘伝承 F-Cup Maniax,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,格闘伝承 ～F-Cup Maniax～,M760407,fcmaniax
+n64-jp-0144,1999-09-03,爆裂無敵 バンガイオー,ESP,NUS-NBNJ-JPN,,,,,爆裂無敵 バンガイオー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727960,bangaioh
+n64-jp-0145,1999-09-10,エクストリームG2,アクレイムジャパン,NUS-NG2J-JPN,5800,税抜,,,エクストリームG2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エクストリームG2,M746046,extremg2j
+n64-jp-0146,1999-09-23,WIN BACK,コーエー,NUS-NWDJ-JPN,7800,税抜,,,WIN BACK,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,WIN BACK,M743871,winbackj1
+n64-jp-0147,1999-10-01,トランスフォーマー ビーストウォーズメタルス64,タカラ,NUS-NTBJ-JPN,7800,税抜,,テレビアニメ『ビーストウォーズメタルス 超生命体トランスフォーマー』のゲーム化,トランスフォーマー ビーストウォーズメタルス64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ビーストウォーズ メタルス 64,M754535,bwmetal
+n64-jp-0148,1999-10-14,V-RALLY EDITION99,スパイク,NUS-NVYJ-JPN,7800,税抜,,,V-RALLY EDITION99,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,V-RALLY EDITION 99,M743759,vrally99j
+n64-jp-0149,1999-10-22,夜光虫II〜殺人航路〜,アテナ,NUS-NYKJ-JPN,6800,税抜,,スーパーファミコン用ソフト『夜光虫』の続編,夜光虫II〜殺人航路〜,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,夜光虫 2 ～殺人航路～,M766387,yakouch2
+n64-jp-0150,1999-10-29,スーパーロボット大戦64,バンプレスト,NUS-NS4J-JPN,,,,スーパーロボット大戦シリーズ唯一のNINTENDO 64用ソフト,スーパーロボット大戦64,Wikipedia+MADB+MAME,MAME+No-Intro,,,M724151,srobot64
+n64-jp-0151,1999-11-05,プロ麻雀 兵64 雀荘バトルに挑戦,カルチャーブレーン,NUS-NNRJ-JPN,6480,税抜,,,プロ麻雀 兵64 雀荘バトルに挑戦,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,プロ麻雀「兵」 64,M755897,mjtsuwa
+n64-jp-0152,1999-11-05,64花札 天使の約束,アルトロン,NUS-NHFJ-JPN,6800,税抜,,,64花札 天使の約束,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,64花札～天使の約束～,M737114,64hana
+n64-jp-0153,1999-11-26,ビートルアドベンチャーレーシング,エレクトロニック・アーツ・スクウェア,NUS-NB8J-JPN,6800,税抜,,,ビートルアドベンチャーレーシング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ビートル アドベンチャーレーシング,M754549,beetlearj
+n64-jp-0154,1999-12-01,スターツインズ,任天堂,NUS-NJFJ-JPN,6800,税抜,,当初は日本においても「ジェット フォース ジェミニ」という題名で1999年11月に発売が予定されていた。,スターツインズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,スターツインズ,M749957,startwin
+n64-jp-0155,1999-12-03,爆ボンバーマン2,ハドソン,NUS-NBVJ-JPN,6800,税抜,,,爆ボンバーマン2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,爆BOMBERMAN2,M724081,bakubom2
+n64-jp-0156,1999-12-03,ぷよぷよ〜んパーティー,コンパイル,NUS-NPTJ-JPN,5980,税抜,,,ぷよぷよ〜ん,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぷよぷよ～んパーティー,M755400,puyopuy4
+n64-jp-0157,1999-12-08,カスタムロボ,任天堂,NUS-NCXJ-JPN,6800,税抜,,,カスタムロボ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,カスタムロボ,M724080,custrobo
+n64-jp-0158,1999-12-10,ドンキーコング64,任天堂,NUS-NDOJ-JPN,7800,税抜,,メモリー拡張パック同梱,ドンキーコング64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ドンキーコング 64,M724065,dk64j
+n64-jp-0159,1999-12-17,マリオパーティ2,任天堂,NUS-NMWJ-JPN,5800,税抜,,,マリオパーティ2,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,マリオパーティ 2,M724042,mariopr2j
+n64-jp-0160,1999-12-24,チョロQ64 2 ハチャメチャグランプリレース,タカラ,NUS-NCGJ-JPN,6800,税抜,,『チョロQ64』の続編で当初は1999年11月に発売される予定だった,チョロQ (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,チョロQ 64 2 ハチャメチャグランプリレース,M751303,choroq2
+n64-jp-0161,1999-12-24,ロボットポンコッツ64 七つの海のカラメル,ハドソン,NUS-NR7J-JPN,6800,税抜,,ゲームボーイで発売された『ロボットポンコッツ』シリーズとの連携機能あり（64GBパックが必要）,ロボットポンコッツ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロボットポンコッツ 64 ～七つの海のカラメル～,M759229,robotpon
+n64-jp-0162,1999-12-25,悪魔城ドラキュラ黙示録外伝 LEGEND OF CORNELL,コナミ,NUS-ND4J-JPN,7800,税抜,,,悪魔城ドラキュラ黙示録外伝 LEGEND OF CORNELL,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,悪魔城ドラキュラ黙示録外伝 LEGEND OF CORNELL,M724014,akumajog
+n64-jp-0163,1999-12-25,ゴエモン もののけ双六,コナミ,NUS-NGPJ-JPN,7800,税抜,,,ゴエモン もののけ双六,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ゴエモンもののけ双六,M748067,goemnsug
+n64-jp-0164,2000-01-28,バイオハザード2,カプコン,NUS-NB5J-JPN,7800,税抜,,同名PlayStation用ソフトの移植版,バイオハザード2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バイオハザード 2,M753505,biohaz2
+n64-jp-0165,2000-01-28,バーチャルプロレス2 ～王道継承～,アスミック・エースエンタテインメント,NUS-NA2J-JPN,6980,税抜,,,バーチャル・プロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バーチャル・プロレス2 ～王道継承～,M753373,vprowrs2
+n64-jp-0166,2000-02-04,トップギア・ラリー2,コトブキシステム,NUS-NL2J-JPN,6980,税抜,,,トップギア・ラリー,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,トップギア・ラリー2,M752235,tgrally2j
+n64-jp-0167,2000-03-17,トップギア・ハイパーバイク,コトブキシステム,NUS-NGBJ-JPN,,,,,トップギア・ハイパーバイク,Wikipedia+MAME,MAME+No-Intro,,,,tghj
+n64-jp-0168,2000-03-24,星のカービィ64,任天堂,NUS-NK4J-JPN,,,,星のカービィシリーズの1作品,星のカービィ64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723891,kirby64j3
+n64-jp-0169,2000-03-31,糸井重里のバス釣りNo.1 決定版!,任天堂,NUS-NIBJ-JPN,6800,税抜,,,糸井重里のバス釣りNo.1,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,糸井重里のバス釣りNo.1 決定版!,M761828,itoishig
+n64-jp-0170,2000-04-07,ガントレットレジェンド,エポック社,NUS-NGDJ-JPN,6800,税抜,,アーケードゲーム『ガントレット』関連作品,ガントレット (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ガントレット レジェンド,M746927,gauntlegj
+n64-jp-0171,2000-04-07,大刀 DAIKATANA,コトブキシステム,NUS-NDWJ-JPN,6980,税抜,,アメリカでは当初レンタル向けとして流通していた,大刀 (ゲーム),Wikipedia+MADB+MAME,MAME+No-Intro,MADB,大刀 ～DAIKATANA～,M764144,daikatanj
+n64-jp-0172,2000-04-21,井出洋介の麻雀塾,セタ,NUS-NIMJ-JPN,5800,税抜,,,井出洋介,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,井出洋介の麻雀塾,M759676,ideyumjj
+n64-jp-0173,2000-04-21,忍たま乱太郎64 ゲームギャラリー,カルチャーブレーン,NUS-NHBJ-JPN,6480,税抜,,,忍たま乱太郎,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,忍たま乱太郎 64ゲームギャラリー,M765129,nintama
+n64-jp-0174,2000-04-27,ゼルダの伝説 ムジュラの仮面,任天堂,NUS-NZSJ-JPN,,,,メモリー拡張パック同梱版あり,ゼルダの伝説 ムジュラの仮面,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723838,zeldamajj1
+n64-jp-0175,2000-04-28,バスラッシュ ～ECOGEAR PowerWorm Championship～,ビスコ,NUS-NVBJ-JPN,7800,税抜,,,バスラッシュ ～ECOGEAR PowerWorm Championship～,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Bass Rush～ECOGEAR POWER WORM CHAMPIONSHIP,M737492,bassrush
+n64-jp-0176,2000-04-29,実況パワフルプロ野球2000,コナミ,NUS-NPAJ-JPN,,,,,実況パワフルプロ野球2000,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723834,powyak2k
+n64-jp-0177,2000-05-26,ぬし釣り64 -潮風にのって-,ビクターインタラクティブソフトウェア,NUS-NUMJ-JPN,6800,税抜,,,ぬし釣りシリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ぬし釣り 64,M753172,nusts64s
+n64-jp-0178,2000-06-23,エキサイトバイク64,任天堂,NUS-NMXJ-JPN,6800,税抜,,,エキサイトバイク64,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,エキサイトバイク 64,M746024,excitbikj
+n64-jp-0179,2000-07-13,がんばれ!ニッポン!オリンピック2000,コナミ,NUS-N3HJ-JPN,7800,税抜,,,ハイパーオリンピック,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,がんばれ! ニッポン! オリンピック2000,M746938,olymp2k
+n64-jp-0180,2000-07-21,マリオテニス64,任天堂,NUS-NM8J-JPN,,,,64GBによる『マリオテニスGB』との連携機能あり,マリオテニス64,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723748,mariotenj
+n64-jp-0181,2000-07-28,ドラえもん3 のび太の町SOS!,エポック社,NUS-N3DJ-JPN,6800,税抜,,,ドラえもん3 のび太の町SOS!,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ドラえもん 3 のび太の町SOS!,M752338,doraemn3
+n64-jp-0182,2000-08-11,マリオストーリー,任天堂,NUS-NMQJ-JPN,,,,『ペーパーマリオ』シリーズの第1作。,マリオストーリー,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723713,mariosto
+n64-jp-0183,2000-09-15,WWFレッスルマニア2000,アスミック・エースエンタテインメント,NUS-NWXJ-JPN,8800,税抜,,「バーチャル・プロレス」シリーズの1作品,バーチャル・プロレスリング,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,レッスルマニア2000,M758841,wmania2kj
+n64-jp-0184,2000-09-27,不思議のダンジョン 風来のシレン2 鬼襲来!シレン城!,任天堂,NUS-NSIJ-JPN,6800,税抜,,『不思議のダンジョン 風来のシレンGB 月影村の怪物』の続編,不思議のダンジョン 風来のシレン2 鬼襲来!シレン城!,Wikipedia+MAME,MAME+MADB+No-Intro,MADB,不思議のダンジョン 風来のシレン2 鬼襲来! シレン城!,M723671,furaish2
+n64-jp-0185,2000-10-21,パーフェクトダーク,任天堂,NUS-NPDJ-JPN,5800,税抜,,『ゴールデンアイ 007』のシステムを基にしたシューティングゲームで、当初は2000年2月に発売が予定されていた メモリー拡張パック同梱版あり,パーフェクトダーク,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,パーフェクトダーク,M753440,pdarkj
+n64-jp-0186,2000-11-10,カスタムロボV2,任天堂,NUS-NCZJ-JPN,,,,『カスタムロボ』の続編,カスタムロボ,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723607,custrob2
+n64-jp-0187,2000-11-21,罪と罰 〜地球の継承者〜,任天堂,NUS-NGUJ-JPN,5800,税抜,,人類と人工生命体との戦いを描いたアクションシューティング,罪と罰 〜地球の継承者〜,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,罪と罰 地球の継承者,M723595,tsumibat
+n64-jp-0188,2000-11-22,ロックマンDASH 鋼の冒険心,カプコン,NUS-NRHJ-JPN,6800,税抜,,同名作品の移植版,ロックマンDASH 鋼の冒険心,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ロックマンダッシュ 鋼の冒険心,M759186,rockmand
+n64-jp-0189,2000-11-27,バンジョーとカズーイの大冒険2,任天堂,NUS-NB7J-JPN,6800,税抜,,,バンジョーとカズーイの大冒険2,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,バンジョーとカズーイの大冒険2,M754506,banjotooj
+n64-jp-0190,2000-11-30,DANCE DANCE REVOLUTION ディズニーダンシングミュージアム,コナミ,NUS-NDFJ-JPN,7800,税抜,,『Dance Dance Revolution』シリーズの1作品で、ディズニーキャラクターを題材としている 任天堂スペースワールド2000の時点では2000年12月14日に発売が予定されていた。,Dance Dance Revolution,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,Dance Dance Revolution ディズニーダンシングミュージアム,M738229,ddrdisny
+n64-jp-0191,2000-12-07,マリオパーティ3,任天堂,NUS-NMVJ-JPN,,,,,マリオパーティ3,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723550,mariopr3j
+n64-jp-0192,2000-12-14,ポケモンスタジアム金銀,任天堂,NUS-NP3J-JPN,6800,税抜,,,ポケモンスタジアム,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ポケモンスタジアム金銀,M723527,pokestdk
+n64-jp-0193,2001-01-21,ミッキーのレーシングチャレンジUSA,任天堂,NUS-NMLJ-JPN,6800,税抜,,ミッキーマウスを主役としたレースゲームで、『ディディーコングレーシング』のエンジンが用いられている。 振動パック対応,ミッキーのレーシングチャレンジUSA,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ミッキーのレーシングチャレンジUSA,M723475,mickspedj
+n64-jp-0194,2001-03-29,実況パワフルプロ野球Basic版2001,コナミ,NUS-NPEJ-JPN,,,,,実況パワフルプロ野球Basic版2001,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723384,powyk2k1
+n64-jp-0195,2001-04-06,ハムスター物語64,カルチャーブレーン,NUS-NHSJ-JPN,6480,税抜,,,ハムスター物語,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,ハムスター物語 64,M754284,hamstmon
+n64-jp-0196,2001-04-14,どうぶつの森,任天堂,NUS-NAFJ-JPN,,,,コントローラパック同梱版あり,どうぶつの森,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M723369,doubutsu
+n64-jp-0197,2001-08-10,ダービースタリオン64,メディアファクトリー,NUS-NDAJ-JPN,,,,,ダービースタリオン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M727932,dstall64
+n64-jp-0198,2001-12-20,ボンバーマン64,ハドソン,NUS-NHAJ-JPN,5800,税抜,,,ボンバーマン64,Wikipedia+MADB+MAME,MAME,MADB,ボンバーマン 64,M756532,bombmnae

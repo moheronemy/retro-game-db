@@ -1,118 +1,118 @@
-id,release_date,title,publisher,genre,cd_version,rental,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
-neogeo-jp-0001,1990-04-26,NAM-1975,SNK,ACT,yes,yes,NGH-001,13800,税抜,ローンチタイトル 1991年7月1日に販売開始（廉価版）,NAM-1975,Wikipedia,MAME,MADB,NAM-1975,M740912,nam1975
-neogeo-jp-0002,1990-04-26,ベースボールスターズプロフェッショナル,SNK,SPT,yes,yes,NGH-002,18000,税抜,1991年7月1日に販売開始（廉価版）,ベースボールスターズプロフェッショナル,Wikipedia,MAME,MADB,ベースボールスターズプロフェッショナル,M755990,bstarsh
-neogeo-jp-0003,1990-04-26,麻雀狂列伝 -西日本編-,SNK,TBL,yes,yes,NGH-004,15800,税抜,1991年7月1日に販売開始（廉価版）,麻雀狂列伝 -西日本編-,Wikipedia,MAME,MADB,麻雀狂列伝 -西日本編-,M766110,mahretsu
-neogeo-jp-0004,1990-04-26,マジシャンロード,アルファ電子,ACT,yes,yes,NGH-005,15800,税抜,1991年7月1日に販売開始（廉価版）,マジシャンロード,Wikipedia,MAME,MADB,マジシャンロード,M756810,maglordh
-neogeo-jp-0005,1990-05-23,トッププレイヤーズゴルフ,SNK,SPT,yes,yes,NGH-003,21000,税抜,1991年7月1日に販売開始（廉価版）,トッププレイヤーズゴルフ,Wikipedia,MAME,MADB,トッププレイヤーズゴルフ,M752243,tpgolf
-neogeo-jp-0006,1990-07-24,ライディングヒーロー,SNK,RCG,yes,yes,NGH-006,21000,税抜,1991年7月1日に販売開始（廉価版）,ライディングヒーロー,Wikipedia,MAME,MADB,ライディングヒーロー,M758186,ridhero
-neogeo-jp-0007,1990-07-24,ニンジャコンバット,アルファ電子,ACT,yes,yes,NGH-009,18000,税抜,1991年7月1日に販売開始（廉価版）,ニンジャコンバット,Wikipedia,MAME,MADB,ニンジャコンバット,M753150,ncombath
-neogeo-jp-0008,1990-10-08,ザ・スーパースパイ,SNK,ACT,yes,yes,NGH-011,19000,税抜,1991年7月1日に販売開始（廉価版）,ザ・スーパースパイ,Wikipedia,MAME,MADB,ザ・スーパースパイ,M748582,superspy
-neogeo-jp-0009,1990-11-07,サイバーリップ,SNK,STG,yes,yes,,18000,税抜,1991年7月1日に販売開始（廉価版）,サイバーリップ,Wikipedia,,MADB,サイバーリップ,M748711,
-neogeo-jp-0010,1990-11-20,ジョイジョイキッド,SNK,PZL,yes,yes,NGH-021,13800,税抜,1991年7月1日に販売開始（廉価版）,ジョイジョイキッド,Wikipedia,MAME+MADB,MADB,ジョイジョイキッド,M727007,joyjoy
-neogeo-jp-0011,1990-12-10,リーグボウリング,SNK,SPT,yes,yes,NGH-019,16800,税抜,1991年7月1日に販売開始（廉価版）,リーグボウリング,Wikipedia,MAME,MADB,リーグボウリング,M758435,lbowling
-neogeo-jp-0012,1991-07-01,ゴーストパイロット,SNK,STG,yes,,NGH-020,19800,税抜,,ゴーストパイロット,Wikipedia+MADB+MAME,MAME,MADB,ゴーストパイロット,M748078,gpilots
-neogeo-jp-0013,1991-07-01,戦国伝承,SNK,SPT,yes,,NGH-017,19800,税抜,,戦国伝承,Wikipedia+MADB+MAME,MAME,MADB,戦国伝承,M763521,sengoku
-neogeo-jp-0014,1991-07-01,キング・オブ・ザ・モンスターズ,SNK,ACT,,,NGH-016,19800,税抜,,キング・オブ・ザ・モンスターズ,Wikipedia+MADB+MAME,MAME,MADB,キング・オブ・ザ・モンスターズ,M747344,kotmh
-neogeo-jp-0015,1991-07-01,ラギ,アルファ電子,ACT,yes,,NGH-022,19800,税抜,日本国外ではBlue’s Journeyという題名で発売された,ラギ,Wikipedia+MADB+MAME,MAME,MADB,ラギ,M758208,bjourneyh
-neogeo-jp-0016,1991-07-01,ASO II 〜ラストガーディアン〜,SNK,STG,yes,,NGH-007,18800,税抜,,ASOII,Wikipedia+MADB+MAME,MAME,MADB,ASO2  ～ラストガーディアン～,M728469,alpham2
-neogeo-jp-0017,1991-07-01,みなさんのおかげさまです! 大スゴロク大会,モノリス,TBL,,,NGH-027,21000,税抜,,みなさんのおかげさまです! 大スゴロク大会,Wikipedia+MAME,MAME,MADB,みなさんのおかげさまです,M757257,minasan
-neogeo-jp-0018,1991-08-09,バーニングファイト,アルファ電子,ACT,yes,,NGH-018,19800,税抜,,バーニングファイト,Wikipedia+MADB+MAME,MAME,MADB,バーニングファイト,M753436,burningf
-neogeo-jp-0019,1991-08-30,クイズ大捜査線 〜THE LAST COUNT DOWN〜,SNK,TBL,,,NGH-023,16800,税抜,,クイズ大捜査線 〜THE LAST COUNT DOWN〜,Wikipedia+MADB+MAME,MAME,MADB,クイズ大捜査線,M747401,quizdais
-neogeo-jp-0020,1991-08-30,あしたのジョー伝説,ウェイブ,ACT,,,NGH-029,19800,税抜,,あしたのジョー,Wikipedia+MADB+MAME,MAME,MADB,あしたのジョー伝説,M744852,legendos
-neogeo-jp-0021,1991-10-01,クロスソード,SNK,ACT,yes,,NGH-037,21800,税抜,ネオジオCD版のタイトルは『クロススウォード』,クロスソード,Wikipedia+MADB+MAME,MAME,MADB,クロスソード,M747866,crsword
-neogeo-jp-0022,1991-10-25,2020年スーパーベースボール,SNK,SPT,yes,,NGH-030,21800,税抜,,2020年スーパーベースボール,Wikipedia+MADB+MAME,MAME,MADB,2020年スーパーベースボール,M737024,2020bb
-neogeo-jp-0023,1991-11-20,8マン,SNK,ACT,,,NGH-025,21800,税抜,同名映画のゲーム化,8マン,Wikipedia+MADB+MAME,MAME,MADB,エイトマン,M745957,eightman
-neogeo-jp-0024,1991-12-20,餓狼伝説 〜宿命の闘い〜,SNK,ACT,yes,,NGH-033,23800,税抜,,餓狼伝説,manual+MADB+MAME,MAME,MADB,餓狼伝説 宿命の戦い―,M760277,fatfury1
-neogeo-jp-0025,1991-12-20,スラッシュラリー,アルファ電子,RCG,yes,,NGH-038,23800,税抜,ネオジオCD版のタイトルは『ラリーチェイス』,スラッシュラリー,Wikipedia+MADB+MAME,MAME,MADB,スラッシュ ラリー,M750307,trally
-neogeo-jp-0026,1991-12-20,バカ殿様麻雀漫遊記,モノリス,TBL,,,NGH-036,21000,税抜,,バカ殿様麻雀漫遊記,Wikipedia+MAME,MAME,MADB,バカ殿様麻雀漫遊記,M753717,bakatono
-neogeo-jp-0027,1991-12-10,ロボアーミー,SNK,ACT,yes,,NGH-032,21800,税抜,,ロボアーミー,Wikipedia,MAME,MADB,ロボアーミー,M759216,roboarmya
-neogeo-jp-0028,1992-02-21,フットボールフレンジー,SNK,SPT,yes,,NGH-034,23800,税抜,,フットボールフレンジー,Wikipedia+MADB+MAME,MAME,MADB,フットボールフレンジー,M755363,fbfrenzy
-neogeo-jp-0029,1992-03-13,サッカーブロール,SNK,SPT,yes,,NGH-031,21800,税抜,,サッカーブロール,Wikipedia+MADB+MAME,MAME,MADB,サッカーブロール,M748826,socbrawlh
-neogeo-jp-0030,1992-04-17,ミューテイション・ネイション,SNK,ACT,yes,,NGH-014,21800,税抜,,ミューテイション・ネイション,Wikipedia+MADB+MAME,MAME,MADB,ミューテイション・ネイション,M757279,mutnat
-neogeo-jp-0031,1992-04-24,クイズ迷探偵ネオ&ジオ -クイズ大捜査線パート2-,SNK,TBL,,,NGH-042,21800,税抜,,クイズ大捜査線,Wikipedia+MADB+MAME,MAME,MADB,クイズ迷探偵ネオ＆ジオ クイズ大捜査線パート2,M747403,quizdai2
-neogeo-jp-0032,1992-04-24,ラストリゾート,SNK,STG,yes,,NGH-024,22800,税抜,,ラストリゾート,Wikipedia+MADB+MAME,MAME,MADB,ラストリゾート,M758258,lresort
-neogeo-jp-0033,1992-04-28,ベースボールスターズ2,SNK,SPT,yes,,NGH-041,23800,税抜,,ベースボールスターズ,Wikipedia+MADB+MAME,MAME,MADB,ベースボールスターズ2,M755988,bstars2
-neogeo-jp-0034,1992-05-29,ニンジャコマンドー,アルファ電子,ACT,yes,,NGH-050,23800,税抜,,ニンジャコマンドー,Wikipedia+MADB+MAME,MAME,MADB,ニンジャコマンドー,M753147,ncommand
-neogeo-jp-0035,1992-06-01,キング・オブ・ザ・モンスターズ2 〜THE NEXT THING〜,SNK,ACT,yes,,NGH-039,25800,税抜,,キング・オブ・ザ・モンスターズ2,Wikipedia+MAME,MAME,MADB,キング・オブ・ザ・モンスターズ2,M747348,kotm2
-neogeo-jp-0036,1992-07-17,アンドロデュノス,ビスコ,STG,,,NGH-049,23800,税抜,2012年にはフランスのNeo Conception InternationalからネオジオCD移植版が発売されたほか、2020年8月6日には家庭用ネオジオ版の復刻版の発売、2021年に復刻版の再販がされた,アンドロデュノス,Wikipedia+MADB+MAME,MAME,MADB,アンドロデュノス,M745270,androdun
-neogeo-jp-0037,1992-09-11,ワールドヒーローズ,アルファ電子,ACT,yes,,NGH-053,25800,税抜,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズ,M759358,wh1h
-neogeo-jp-0038,1992-12-11,龍虎の拳,SNK,ACT,yes,,NGH-044,28000,税抜,,龍虎の拳,Wikipedia+MADB+MAME,MAME+MADB,MADB,龍虎の拳,M726645,aof
-neogeo-jp-0039,1992-12-11,ビューポイント,サミー工業,STG,yes,,NGH-051,25000,税抜,,ビューポイント (コンピュータゲーム),Wikipedia+MADB+MAME,MAME,MADB,ビューポイント,M754740,viewpoin
-neogeo-jp-0040,1993-02-19,得点王,SNK,SPT,yes,,NGH-052,23000,税抜,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,得点王,M764975,ssideki
-neogeo-jp-0041,1993-03-05,餓狼伝説2 〜新たなる闘い〜,SNK,ACT,yes,,NGH-047,28000,税抜,,餓狼伝説2,Wikipedia+MADB+MAME,MAME+MADB,MADB,餓狼伝説2 新たなる闘い,M726566,fatfury2
-neogeo-jp-0042,1993-04-09,戦国伝承2,SNK,ACT,yes,,NGH-040,25000,税抜,,戦国伝承2,Wikipedia+MADB+MAME,MAME,MADB,戦国伝承 2,M763526,sengoku2
-neogeo-jp-0043,1993-04-23,ファイヤースープレックス,SNK,ACT,yes,,NGH-043,28000,税抜,,ファイヤースープレックス,Wikipedia+MADB+MAME,MAME,MADB,ファイヤー・スープレックス,M755004,3countb
-neogeo-jp-0044,1993-06-04,ワールドヒーローズ2,ADK,ACT,yes,,NGH-057,28000,税抜,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズ2,M726504,wh2
-neogeo-jp-0045,1993-08-11,SAMURAI SPIRITS,SNK,ACT,yes,,NGH-045,29800,税抜,,SAMURAI SPIRITS,Wikipedia+MADB+MAME,MAME,MADB,SAMURAI SPIRITS,M726446,samshoh
-neogeo-jp-0046,1993-12-22,餓狼伝説スペシャル,SNK,ACT,yes,,NGH-058,28000,税抜,,餓狼伝説スペシャル,Wikipedia+MADB+MAME,MAME,MADB,餓狼伝説スペシャル,M726345,fatfursp
-neogeo-jp-0047,1994-02-18,ミラクルアドベンチャー,データイースト,ACT,,,NGH-062,25000,税抜,,ミラクルアドベンチャー,Wikipedia+MADB+MAME,MAME,MADB,ミラクルアドベンチャー,M757291,spinmast
-neogeo-jp-0048,1994-03-11,龍虎の拳2,SNK,ACT,yes,,NGH-056,29800,税抜,,龍虎の拳,Wikipedia+MADB+MAME,MAME,MADB,龍虎の拳2,M726293,aof2a
-neogeo-jp-0049,1994-04-08,フライングパワーディスク,データイースト,ACT,yes,,NGH-065,25000,税抜,2017年8月29日にPS4とPS Vitaにリメイク版が配信,フライングパワーディスク,Wikipedia+MADB+MAME,MAME,MADB,フライングパワーディスク,M755469,wjammers
-neogeo-jp-0050,1994-04-28,ファイターズヒストリーダイナマイト,データイースト,ACT,yes,,NGH-066,28000,税抜,,ファイターズヒストリーダイナマイト,Wikipedia+MADB+MAME,MAME,MADB,FIGHTER'S HISTORY DYNAMITE,M726245,karnovr
-neogeo-jp-0051,1994-05-27,得点王2,SNK,STG,yes,,NGH-061,28000,税抜,,得点王2,Wikipedia+MADB+MAME,MAME,MADB,得点王2,M764979,ssideki2
-neogeo-jp-0052,1994-06-10,ワールドヒーローズ2 JET,SNK,SPT,yes,,NGH-064,29800,税抜,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズ2JET,M759366,wh2j
-neogeo-jp-0053,1994-06-24,トップハンター 〜ロディー&キャシー〜,SNK,ACT,yes,,NGH-046,28000,税抜,,トップハンター 〜ロディー&キャシー〜,Wikipedia+MADB+MAME,MAME,MADB,トップハンター,M752241,tophuntrh
-neogeo-jp-0054,1994-08-26,ソニックウィングス2,ビデオシステム,STG,yes,,NGH-075,28000,税抜,,ソニックウィングス2,Wikipedia+MADB+MAME,MAME,MADB,ソニックウイングス2,M750646,sonicwi2
-neogeo-jp-0055,1994-08-26,痛快GANGAN行進曲,ADK,ACT,yes,,NGH-074,29800,税抜,,痛快GANGAN行進曲,Wikipedia+MADB+MAME,MAME,MADB,痛快ガンガン行進曲,M764484,aodk
-neogeo-jp-0056,1994-10-01,ザ・キング・オブ・ファイターズ'94,SNK,ACT,yes,,NGH-055,29800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ザ・キング・オブ・ファイターズ'94,M726138,kof94
-neogeo-jp-0057,1994-12-02,真SAMURAI SPIRITS 覇王丸地獄変,SNK,ACT,yes,,NGH-063,29800,税抜,,真SAMURAI SPIRITS 覇王丸地獄変,Wikipedia+MADB+MAME,MAME+MADB,MADB,真SAMURAI SPIRITS 覇王丸地獄変,M726096,samsho2
-neogeo-jp-0058,1994-12-09,ダンクドリーム,データイースト,SPT,yes,,NGH-079,28000,税抜,,ダンクドリーム,Wikipedia+MADB+MAME,MAME,MADB,ダンクドリーム,M751104,strhoop
-neogeo-jp-0059,1995-02-25,ギャラクシーファイト ユニバーサル・ウォーリアーズ,サンソフト,ACT,yes,,NGH-078,29800,税抜,,ギャラクシーファイト ユニバーサル・ウォーリアーズ,Wikipedia+MADB+MAME,MAME,MADB,ギャラクシーファイト,M747236,galaxyfg
-neogeo-jp-0060,1995-03-10,クイズ キング・オブ・ファイターズ,ザウルス,TBL,yes,,NGH-080,29800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,クイズ キング・オブ・ファイターズ,M747383,quizkof
-neogeo-jp-0061,1995-03-31,ダブルドラゴン,テクノスジャパン,ACT,yes,,NGH-082,29800,税抜,同名作品を題材とした対戦型格闘ゲームであり、テクノスジャパンのMVS参入作品にあたる,ダブルドラゴンシリーズ,Wikipedia+MADB+MAME,MAME,MADB,ダブルドラゴン,M751023,doubledr
-neogeo-jp-0062,1995-04-07,得点王3 〜栄光への挑戦〜,SNK,SPT,yes,,NGH-081,29800,税抜,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,得点王3,M764980,ssideki3
-neogeo-jp-0063,1995-04-21,餓狼伝説3 〜遥かなる闘い〜,SNK,ACT,yes,,NGH-069,32000,税抜,,餓狼伝説3,Wikipedia+MADB+MAME,MAME+MADB,MADB,餓狼伝説3 ROAD TO THE FINAL VICTORY ―遥かなる闘い―,M725966,fatfury3
-neogeo-jp-0064,1995-05-26,風雲黙示録〜格闘創世〜,SNK,ACT,yes,,NGH-059,29800,税抜,,風雲黙示録,Wikipedia+MADB+MAME,MAME,MADB,風雲黙示録 格闘創生―,M765677,savagere
-neogeo-jp-0065,1995-06-30,ワールドヒーローズ パーフェクト,SNK,ACT,yes,,NGH-090,29800,税抜,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズパーフェクト,M759368,whp
-neogeo-jp-0066,1995-07-28,天外魔境 真伝,ハドソン,ACT,yes,,NGH-092,29800,税抜,,天外魔境 真伝,Wikipedia+MADB+MAME,MAME,MADB,天外魔境真伝,M764588,kabukikl
-neogeo-jp-0067,1995-09-01,ザ・キング・オブ・ファイターズ'95,SNK,ACT,yes,,NGH-084,29800,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ザ・キング・オブ・ファイターズ'95,M725874,kof95h
-neogeo-jp-0068,1995-09-29,パルスター,SNK,STG,yes,,NGH-089,32000,税抜,,パルスター,manual+MADB+MAME,MAME,MADB,パルスター,M754354,pulstar
-neogeo-jp-0069,1995-10-13,将棋の達人,SNK,TBL,yes,,NGH-203,29800,税抜,開発：ADK,将棋の達人,Wikipedia+MADB+MAME,MAME,MADB,将棋の達人,M762276,moshougi
-neogeo-jp-0070,1995-10-20,超人学園ゴウカイザー,テクノスジャパン,ACT,yes,,NGH-094,29800,税抜,,超人学園ゴウカイザー,Wikipedia+MADB+MAME,MAME,MADB,超人学園ゴウカイザー,M764438,gowcaizr
-neogeo-jp-0071,1995-10-27,ステークスウィナー,ザウルス,ACT,yes,,NGH-088,29800,税抜,,ステークスウィナー,Wikipedia+MADB+MAME,MAME,MADB,ステークスウィナー,M750020,stakwin
-neogeo-jp-0072,1995-11-17,ソニックウィングス3,ビデオシステム,STG,yes,,NGH-097,29800,税抜,,ソニックウィングス,Wikipedia+MADB+MAME,MAME,MADB,ソニックウイングス3,M750647,sonicwi3
-neogeo-jp-0073,1995-12-01,サムライスピリッツ 斬紅郎無双剣,SNK,ACT,yes,,NGH-087,32000,税抜,,サムライスピリッツ 斬紅郎無双剣,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ 斬紅郎無双剣,M748867,samsho3h
-neogeo-jp-0074,1996-01-26,ちびまる子ちゃん まる子デラックスクイズ,タカラ,TBL,,,NGH-206,29800,税抜,,ちびまる子ちゃん まる子デラックスクイズ,Wikipedia+MADB+MAME,MAME,MADB,まる子デラックスクイズ,M757176,marukodq
-neogeo-jp-0075,1996-01-26,リアルバウト餓狼伝説,SNK,ACT,yes,,NGH-095,34000,税抜,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,リアルバウト餓狼伝説,M758408,rbff1
-neogeo-jp-0076,1996-03-01,ビッグトーナメントゴルフ,ナスカ,SPT,yes,,NGH-200,29800,税抜,,ビッグトーナメントゴルフ,Wikipedia+MADB+MAME,MAME,MADB,ビッグトーナメントゴルフ,M754660,turfmast
-neogeo-jp-0077,1996-04-19,マジカルドロップ2,SNK,PZL,yes,,NGH-221,29800,税抜,,マジカルドロップ,Wikipedia+MADB+MAME,MAME,MADB,マジカルドロップ2,M756783,magdrop2
-neogeo-jp-0078,1996-04-26,ART OF FIGHTING 龍虎の拳 外伝,SNK,ACT,yes,,NGH-096,32000,税抜,,龍虎の拳,Wikipedia+MADB+MAME,MAME,MADB,ART OF FIGHTING 龍虎の拳外伝,M737382,aof3
-neogeo-jp-0079,1996-05-24,メタルスラッグ,ナスカ,ACT,yes,,NGH-201,29800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ,M757548,mslug
-neogeo-jp-0080,1996-05-24,オーバートップ,ADK,RCG,yes,,NGH-212,29800,税抜,,オーバートップ,Wikipedia+MAME,MAME,MADB,オーバートップ,M746235,overtop
-neogeo-jp-0081,1996-06-28,NINJA MASTER'S〜覇王忍法帖〜,SNK,ACT,yes,,NGH-217,32000,税抜,,NINJA MASTER'S〜覇王忍法帖〜,Wikipedia+MADB+MAME,MAME,MADB,NINJA MASTER'S ～覇王忍法帖～,M741287,ninjamas
-neogeo-jp-0082,1996-07-26,神凰拳,SNK,ACT,yes,,NGH-218,32000,税抜,,神凰拳,Wikipedia+MADB+MAME,MAME,MADB,神凰拳,M762998,ragnagrd
-neogeo-jp-0083,1996-09-27,ザ・キング・オブ・ファイターズ'96,SNK,ACT,yes,,NGH-214,32000,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ'96,M748527,kof96h
-neogeo-jp-0084,1996-11-08,風雲スーパータッグバトル,SNK,ACT,,,NGH-216,32000,税抜,,風雲スーパータッグバトル,Wikipedia+MADB+MAME,MAME,MADB,風雲スーパータッグバトル,M765672,kizuna
-neogeo-jp-0085,1996-11-29,サムライスピリッツ 天草降臨,SNK,ACT,yes,,NGH-222,32000,税抜,,サムライスピリッツ 天草降臨,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ 天草降臨,M748870,samsho4
-neogeo-jp-0086,1996-12-13,ステークスウィナー2,ザウルス,ACT,,,NGH-227,29800,税抜,,ステークスウィナー2,Wikipedia+MADB+MAME,MAME,MADB,ステークスウィナー 2,M750021,stakwin2
-neogeo-jp-0087,1996-12-20,得点王 炎のリベロ,SNK,SPT,,,NGH-215,29800,税抜,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,得点王 炎のリベロ,M764978,ssideki4
-neogeo-jp-0088,1996-12-27,わくわく7,サンソフト,ACT,,,NGH-225,29800,税抜,,わくわく7,Wikipedia+MADB+MAME,MAME,MADB,わくわく7,M759428,wakuwak7
-neogeo-jp-0089,1997-01-31,ティンクルスタースプライツ,ADK,STG,yes,,NGH-224,29800,税抜,,ティンクルスタースプライツ,Wikipedia+MADB+MAME,MAME,MADB,ティンクルスター スプライツ,M751601,twinspri
-neogeo-jp-0090,1997-02-28,リアルバウト餓狼伝説スペシャル,SNK,ACT,yes,,NGH-223,32000,税抜,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,リアルバウト餓狼伝説スペシャル,M758415,rbffspec
-neogeo-jp-0091,1997-03-21,ブレイカーズ,ビスコ,ACT,yes,,NGH-2300,29800,税抜,,ブレイカーズ (テレビゲーム),Wikipedia+MADB+MAME,MAME,MADB,ブレイカーズ,M755740,breakers
-neogeo-jp-0092,1997-04-25,マジカルドロップ3,SNK,PZL,,,NGH-2330,29800,税抜,,マジカルドロップ,Wikipedia+MADB+MAME,MAME,MADB,マジカルドロップ3,M734455,magdrop3
-neogeo-jp-0093,1997-09-25,ザ・キング・オブ・ファイターズ'97,SNK,ACT,yes,,NGH-2320,32000,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ'97,M748531,kof97h
-neogeo-jp-0094,1998-01-29,幕末浪漫 月華の剣士,SNK,,yes,,NGH-2340,32000,税抜,,月華の剣士,Wikipedia+MADB+MAME,MAME,MADB,～幕末浪漫～ 月華の剣士,M736871,lastbladh
-neogeo-jp-0095,1998-02-26,ブレイジングスター,SNK,,,,NGH-2390,29800,税抜,開発を担当した夢工房にとっては参入作 仮タイトルは『パルスター2』,ブレイジングスター,Wikipedia+MADB+MAME,MAME,MADB,ブレイジングスター,M755752,blazstar
-neogeo-jp-0096,1998-04-02,メタルスラッグ2,SNK,,yes,,NGH-2410,29800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 2,M757557,mslug2
-neogeo-jp-0097,1998-04-29,リアルバウト餓狼伝説2 〜THE NEWCOMERS〜,SNK,,yes,,NGH-2400,32000,税抜,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,リアルバウト餓狼伝説2 THE NEWCOMERS,M758413,rbff2h
-neogeo-jp-0098,1999-06-24,ショックトルーパーズ セカンドスカッド,SNK,,,,NGH-2460,29800,税抜,開発：ザウルス,ショックトルーパーズ,manual+MADB+MAME,MAME,MADB,ショックトルーパーズ セカンドスカッド,M749397,shocktr2
-neogeo-jp-0099,1998-07-30,ネオジオカップ'98 〜THE ROAD TO THE VICTORY〜,SNK,,,,NGH-2440,29800,税抜,,ネオジオカップ'98 〜THE ROAD TO THE VICTORY〜,Wikipedia+MADB+MAME,MAME,MADB,ネオジオカップ'98 THE ROAD TO THE VICTORY,M753197,neocup98
-neogeo-jp-0100,1998-09-28,ザ・キング・オブ・ファイターズ'98 〜DREAM MATCH NEVER ENDS〜,SNK,,yes,,NGH-2420,38000,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia,MAME+MADB,MADB,THE KING OF FIGHTERS '98 DREAM MATCH NEVER ENDS,M724714,kof98h
-neogeo-jp-0101,1999-01-28,幕末浪漫第二幕 月華の剣士 〜月に咲く華、散りゆく花〜,SNK,,yes,,NGH-2430,32000,税抜,,月華の剣士,Wikipedia+MADB+MAME,MAME,MADB,幕末浪漫第二幕 月華の剣士 ～月に咲く華、散り行く花～,M766189,lastbld2
-neogeo-jp-0102,1999-05-27,メタルスラッグX,SNK,,,,NGH-2500,29800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグX,M757589,mslugx
-neogeo-jp-0103,1999-09-23,ザ・キング・オブ・ファイターズ'99 〜Millennium Battle〜,SNK,,yes,,NGH-2510,38000,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ'99,M748540,kof99h
-neogeo-jp-0104,2000-02-25,餓狼 MARK OF THE WOLVES,SNK,,,,NGH-2530,32000,税抜,,餓狼 MARK OF THE WOLVES,Wikipedia+MADB+MAME,MAME,MADB,餓狼 MARK OF THE WOLVES,M760262,garouh
-neogeo-jp-0105,2000-06-01,メタルスラッグ3,SNK,,,,NGH-2560,32000,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 3,M757568,mslug3h
-neogeo-jp-0106,2000-12-21,ザ・キング・オブ・ファイターズ2000,SNK,,,,NGH-2570,38000,税抜,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ2000,M748522,kof2000
-neogeo-jp-0107,2001-10-25,戦国伝承2001,SNK,,,,,32000,税抜,開発：ノイズファクトリー,戦国伝承2001,Wikipedia+MADB,,MADB,戦国伝承2001,M763529,
-neogeo-jp-0108,2002-03-14,ザ・キング・オブ・ファイターズ2001,サン・アミューズメント,,,,NGH-2621,39800,税抜,開発：イオリス,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ2001,M722956,kof2001h
-neogeo-jp-0109,2002-06-13,メタルスラッグ4,プレイモア,,,,NGH-2630,39800,税抜,開発：メガ・エンタープライズ,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 4,M757573,mslug4h
-neogeo-jp-0110,2002-09-26,レイジ・オブ・ザ・ドラゴンズ,SNKネオジオ,,,,NGH-2640,39800,税抜,企画：エヴォガエンターテイメント、開発：ノイズファクトリー,レイジ・オブ・ザ・ドラゴンズ,Wikipedia+MADB+MAME,MAME,MADB,レイジ・オブ・ザ・ドラゴンズ,M758698,rotdh
-neogeo-jp-0111,2002-12-19,ザ・キング・オブ・ファイターズ2002 〜CHALLENGE TO ULTIMATE BATTLE〜,プレイモア,,,,NGH-2650,39800,税抜,開発：イオリス,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ザ・キング・オブ・ファイターズ2002,M722605,kof2002
-neogeo-jp-0112,2003-05-29,新・豪血寺一族 闘婚-Matrimelee-,プレイモア,,,,NGH-2660,39800,税抜,,豪血寺一族,Wikipedia+MADB+MAME,MAME,MADB,新 豪血寺一族 闘婚-Matrimelee-,M762530,matrim
-neogeo-jp-0113,2003-11-13,SNK VS. CAPCOM SVC CHAOS,プレイモア,,,,NGH-2690,39800,税抜,,SNK VS. CAPCOM SVC CHAOS,Wikipedia+MADB+MAME,MAME,MADB,SNK VS CAPCOM SVC CHAOS,M742594,svc
-neogeo-jp-0114,2003-12-11,サムライスピリッツ零,SNKプレイモア,,,,NGH-2700,39800,税抜,開発：悠紀エンタープライズ,サムライスピリッツ零,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ零,M748886,samsho5h
-neogeo-jp-0115,2004-02-19,メタルスラッグ5,SNKプレイモア,,,,NGH-2680,39800,税抜,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 5,M757578,mslug5h
-neogeo-jp-0116,2004-03-18,ザ・キング・オブ・ファイターズ2003,SNKプレイモア,,,,NGH-2710,39800,税抜,開発：SNKネオジオ,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ2003,M748524,kof2003h
-neogeo-jp-0117,2004-07-15,サムライスピリッツ零スペシャル,SNKプレイモア,,,,NGH-2720,39800,税抜,開発：悠紀エンタープライズ,サムライスピリッツ零,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ零 スペシャル,M748887,samsh5spho
+id,release_date,title,publisher,genre,cd_version,rental,model_number,price_yen,price_tax,price_note,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+neogeo-jp-0001,1990-04-26,NAM-1975,SNK,ACT,yes,yes,NGH-001,13800,税抜,,ローンチタイトル 1991年7月1日に販売開始（廉価版）,NAM-1975,Wikipedia,MAME,MADB,NAM-1975,M740912,nam1975
+neogeo-jp-0002,1990-04-26,ベースボールスターズプロフェッショナル,SNK,SPT,yes,yes,NGH-002,18000,税抜,,1991年7月1日に販売開始（廉価版）,ベースボールスターズプロフェッショナル,Wikipedia,MAME,MADB,ベースボールスターズプロフェッショナル,M755990,bstarsh
+neogeo-jp-0003,1990-04-26,麻雀狂列伝 -西日本編-,SNK,TBL,yes,yes,NGH-004,15800,税抜,,1991年7月1日に販売開始（廉価版）,麻雀狂列伝 -西日本編-,Wikipedia,MAME,MADB,麻雀狂列伝 -西日本編-,M766110,mahretsu
+neogeo-jp-0004,1990-04-26,マジシャンロード,アルファ電子,ACT,yes,yes,NGH-005,15800,税抜,,1991年7月1日に販売開始（廉価版）,マジシャンロード,Wikipedia,MAME,MADB,マジシャンロード,M756810,maglordh
+neogeo-jp-0005,1990-05-23,トッププレイヤーズゴルフ,SNK,SPT,yes,yes,NGH-003,21000,税抜,,1991年7月1日に販売開始（廉価版）,トッププレイヤーズゴルフ,Wikipedia,MAME,MADB,トッププレイヤーズゴルフ,M752243,tpgolf
+neogeo-jp-0006,1990-07-24,ライディングヒーロー,SNK,RCG,yes,yes,NGH-006,21000,税抜,,1991年7月1日に販売開始（廉価版）,ライディングヒーロー,Wikipedia,MAME,MADB,ライディングヒーロー,M758186,ridhero
+neogeo-jp-0007,1990-07-24,ニンジャコンバット,アルファ電子,ACT,yes,yes,NGH-009,18000,税抜,,1991年7月1日に販売開始（廉価版）,ニンジャコンバット,Wikipedia,MAME,MADB,ニンジャコンバット,M753150,ncombath
+neogeo-jp-0008,1990-10-08,ザ・スーパースパイ,SNK,ACT,yes,yes,NGH-011,19000,税抜,,1991年7月1日に販売開始（廉価版）,ザ・スーパースパイ,Wikipedia,MAME,MADB,ザ・スーパースパイ,M748582,superspy
+neogeo-jp-0009,1990-11-07,サイバーリップ,SNK,STG,yes,yes,,18000,税抜,,1991年7月1日に販売開始（廉価版）,サイバーリップ,Wikipedia,,MADB,サイバーリップ,M748711,
+neogeo-jp-0010,1990-11-20,ジョイジョイキッド,SNK,PZL,yes,yes,NGH-021,13800,税抜,,1991年7月1日に販売開始（廉価版）,ジョイジョイキッド,Wikipedia,MAME+MADB,MADB,ジョイジョイキッド,M727007,joyjoy
+neogeo-jp-0011,1990-12-10,リーグボウリング,SNK,SPT,yes,yes,NGH-019,16800,税抜,,1991年7月1日に販売開始（廉価版）,リーグボウリング,Wikipedia,MAME,MADB,リーグボウリング,M758435,lbowling
+neogeo-jp-0012,1991-07-01,ゴーストパイロット,SNK,STG,yes,,NGH-020,19800,税抜,,,ゴーストパイロット,Wikipedia+MADB+MAME,MAME,MADB,ゴーストパイロット,M748078,gpilots
+neogeo-jp-0013,1991-07-01,戦国伝承,SNK,SPT,yes,,NGH-017,19800,税抜,,,戦国伝承,Wikipedia+MADB+MAME,MAME,MADB,戦国伝承,M763521,sengoku
+neogeo-jp-0014,1991-07-01,キング・オブ・ザ・モンスターズ,SNK,ACT,,,NGH-016,19800,税抜,,,キング・オブ・ザ・モンスターズ,Wikipedia+MADB+MAME,MAME,MADB,キング・オブ・ザ・モンスターズ,M747344,kotmh
+neogeo-jp-0015,1991-07-01,ラギ,アルファ電子,ACT,yes,,NGH-022,19800,税抜,,日本国外ではBlue’s Journeyという題名で発売された,ラギ,Wikipedia+MADB+MAME,MAME,MADB,ラギ,M758208,bjourneyh
+neogeo-jp-0016,1991-07-01,ASO II 〜ラストガーディアン〜,SNK,STG,yes,,NGH-007,18800,税抜,,,ASOII,Wikipedia+MADB+MAME,MAME,MADB,ASO2  ～ラストガーディアン～,M728469,alpham2
+neogeo-jp-0017,1991-07-01,みなさんのおかげさまです! 大スゴロク大会,モノリス,TBL,,,NGH-027,21000,税抜,,,みなさんのおかげさまです! 大スゴロク大会,Wikipedia+MAME,MAME,MADB,みなさんのおかげさまです,M757257,minasan
+neogeo-jp-0018,1991-08-09,バーニングファイト,アルファ電子,ACT,yes,,NGH-018,19800,税抜,,,バーニングファイト,Wikipedia+MADB+MAME,MAME,MADB,バーニングファイト,M753436,burningf
+neogeo-jp-0019,1991-08-30,クイズ大捜査線 〜THE LAST COUNT DOWN〜,SNK,TBL,,,NGH-023,16800,税抜,,,クイズ大捜査線 〜THE LAST COUNT DOWN〜,Wikipedia+MADB+MAME,MAME,MADB,クイズ大捜査線,M747401,quizdais
+neogeo-jp-0020,1991-08-30,あしたのジョー伝説,ウェイブ,ACT,,,NGH-029,19800,税抜,,,あしたのジョー,Wikipedia+MADB+MAME,MAME,MADB,あしたのジョー伝説,M744852,legendos
+neogeo-jp-0021,1991-10-01,クロスソード,SNK,ACT,yes,,NGH-037,21800,税抜,,ネオジオCD版のタイトルは『クロススウォード』,クロスソード,Wikipedia+MADB+MAME,MAME,MADB,クロスソード,M747866,crsword
+neogeo-jp-0022,1991-10-25,2020年スーパーベースボール,SNK,SPT,yes,,NGH-030,21800,税抜,,,2020年スーパーベースボール,Wikipedia+MADB+MAME,MAME,MADB,2020年スーパーベースボール,M737024,2020bb
+neogeo-jp-0023,1991-11-20,8マン,SNK,ACT,,,NGH-025,21800,税抜,,同名映画のゲーム化,8マン,Wikipedia+MADB+MAME,MAME,MADB,エイトマン,M745957,eightman
+neogeo-jp-0024,1991-12-20,餓狼伝説 〜宿命の闘い〜,SNK,ACT,yes,,NGH-033,23800,税抜,,,餓狼伝説,manual+MADB+MAME,MAME,MADB,餓狼伝説 宿命の戦い―,M760277,fatfury1
+neogeo-jp-0025,1991-12-20,スラッシュラリー,アルファ電子,RCG,yes,,NGH-038,23800,税抜,,ネオジオCD版のタイトルは『ラリーチェイス』,スラッシュラリー,Wikipedia+MADB+MAME,MAME,MADB,スラッシュ ラリー,M750307,trally
+neogeo-jp-0026,1991-12-20,バカ殿様麻雀漫遊記,モノリス,TBL,,,NGH-036,21000,税抜,,,バカ殿様麻雀漫遊記,Wikipedia+MAME,MAME,MADB,バカ殿様麻雀漫遊記,M753717,bakatono
+neogeo-jp-0027,1991-12-10,ロボアーミー,SNK,ACT,yes,,NGH-032,21800,税抜,,,ロボアーミー,Wikipedia,MAME,MADB,ロボアーミー,M759216,roboarmya
+neogeo-jp-0028,1992-02-21,フットボールフレンジー,SNK,SPT,yes,,NGH-034,23800,税抜,,,フットボールフレンジー,Wikipedia+MADB+MAME,MAME,MADB,フットボールフレンジー,M755363,fbfrenzy
+neogeo-jp-0029,1992-03-13,サッカーブロール,SNK,SPT,yes,,NGH-031,21800,税抜,,,サッカーブロール,Wikipedia+MADB+MAME,MAME,MADB,サッカーブロール,M748826,socbrawlh
+neogeo-jp-0030,1992-04-17,ミューテイション・ネイション,SNK,ACT,yes,,NGH-014,21800,税抜,,,ミューテイション・ネイション,Wikipedia+MADB+MAME,MAME,MADB,ミューテイション・ネイション,M757279,mutnat
+neogeo-jp-0031,1992-04-24,クイズ迷探偵ネオ&ジオ -クイズ大捜査線パート2-,SNK,TBL,,,NGH-042,21800,税抜,,,クイズ大捜査線,Wikipedia+MADB+MAME,MAME,MADB,クイズ迷探偵ネオ＆ジオ クイズ大捜査線パート2,M747403,quizdai2
+neogeo-jp-0032,1992-04-24,ラストリゾート,SNK,STG,yes,,NGH-024,22800,税抜,,,ラストリゾート,Wikipedia+MADB+MAME,MAME,MADB,ラストリゾート,M758258,lresort
+neogeo-jp-0033,1992-04-28,ベースボールスターズ2,SNK,SPT,yes,,NGH-041,23800,税抜,,,ベースボールスターズ,Wikipedia+MADB+MAME,MAME,MADB,ベースボールスターズ2,M755988,bstars2
+neogeo-jp-0034,1992-05-29,ニンジャコマンドー,アルファ電子,ACT,yes,,NGH-050,23800,税抜,,,ニンジャコマンドー,Wikipedia+MADB+MAME,MAME,MADB,ニンジャコマンドー,M753147,ncommand
+neogeo-jp-0035,1992-06-01,キング・オブ・ザ・モンスターズ2 〜THE NEXT THING〜,SNK,ACT,yes,,NGH-039,25800,税抜,,,キング・オブ・ザ・モンスターズ2,Wikipedia+MAME,MAME,MADB,キング・オブ・ザ・モンスターズ2,M747348,kotm2
+neogeo-jp-0036,1992-07-17,アンドロデュノス,ビスコ,STG,,,NGH-049,23800,税抜,,2012年にはフランスのNeo Conception InternationalからネオジオCD移植版が発売されたほか、2020年8月6日には家庭用ネオジオ版の復刻版の発売、2021年に復刻版の再販がされた,アンドロデュノス,Wikipedia+MADB+MAME,MAME,MADB,アンドロデュノス,M745270,androdun
+neogeo-jp-0037,1992-09-11,ワールドヒーローズ,アルファ電子,ACT,yes,,NGH-053,25800,税抜,,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズ,M759358,wh1h
+neogeo-jp-0038,1992-12-11,龍虎の拳,SNK,ACT,yes,,NGH-044,28000,税抜,,,龍虎の拳,Wikipedia+MADB+MAME,MAME+MADB,MADB,龍虎の拳,M726645,aof
+neogeo-jp-0039,1992-12-11,ビューポイント,サミー工業,STG,yes,,NGH-051,25000,税抜,,,ビューポイント (コンピュータゲーム),Wikipedia+MADB+MAME,MAME,MADB,ビューポイント,M754740,viewpoin
+neogeo-jp-0040,1993-02-19,得点王,SNK,SPT,yes,,NGH-052,23000,税抜,,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,得点王,M764975,ssideki
+neogeo-jp-0041,1993-03-05,餓狼伝説2 〜新たなる闘い〜,SNK,ACT,yes,,NGH-047,28000,税抜,,,餓狼伝説2,Wikipedia+MADB+MAME,MAME+MADB,MADB,餓狼伝説2 新たなる闘い,M726566,fatfury2
+neogeo-jp-0042,1993-04-09,戦国伝承2,SNK,ACT,yes,,NGH-040,25000,税抜,,,戦国伝承2,Wikipedia+MADB+MAME,MAME,MADB,戦国伝承 2,M763526,sengoku2
+neogeo-jp-0043,1993-04-23,ファイヤースープレックス,SNK,ACT,yes,,NGH-043,28000,税抜,,,ファイヤースープレックス,Wikipedia+MADB+MAME,MAME,MADB,ファイヤー・スープレックス,M755004,3countb
+neogeo-jp-0044,1993-06-04,ワールドヒーローズ2,ADK,ACT,yes,,NGH-057,28000,税抜,,,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズ2,M726504,wh2
+neogeo-jp-0045,1993-08-11,SAMURAI SPIRITS,SNK,ACT,yes,,NGH-045,29800,税抜,,,SAMURAI SPIRITS,Wikipedia+MADB+MAME,MAME,MADB,SAMURAI SPIRITS,M726446,samshoh
+neogeo-jp-0046,1993-12-22,餓狼伝説スペシャル,SNK,ACT,yes,,NGH-058,28000,税抜,,,餓狼伝説スペシャル,Wikipedia+MADB+MAME,MAME,MADB,餓狼伝説スペシャル,M726345,fatfursp
+neogeo-jp-0047,1994-02-18,ミラクルアドベンチャー,データイースト,ACT,,,NGH-062,25000,税抜,,,ミラクルアドベンチャー,Wikipedia+MADB+MAME,MAME,MADB,ミラクルアドベンチャー,M757291,spinmast
+neogeo-jp-0048,1994-03-11,龍虎の拳2,SNK,ACT,yes,,NGH-056,29800,税抜,,,龍虎の拳,Wikipedia+MADB+MAME,MAME,MADB,龍虎の拳2,M726293,aof2a
+neogeo-jp-0049,1994-04-08,フライングパワーディスク,データイースト,ACT,yes,,NGH-065,25000,税抜,,2017年8月29日にPS4とPS Vitaにリメイク版が配信,フライングパワーディスク,Wikipedia+MADB+MAME,MAME,MADB,フライングパワーディスク,M755469,wjammers
+neogeo-jp-0050,1994-04-28,ファイターズヒストリーダイナマイト,データイースト,ACT,yes,,NGH-066,28000,税抜,,,ファイターズヒストリーダイナマイト,Wikipedia+MADB+MAME,MAME,MADB,FIGHTER'S HISTORY DYNAMITE,M726245,karnovr
+neogeo-jp-0051,1994-05-27,得点王2,SNK,STG,yes,,NGH-061,28000,税抜,,,得点王2,Wikipedia+MADB+MAME,MAME,MADB,得点王2,M764979,ssideki2
+neogeo-jp-0052,1994-06-10,ワールドヒーローズ2 JET,SNK,SPT,yes,,NGH-064,29800,税抜,,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズ2JET,M759366,wh2j
+neogeo-jp-0053,1994-06-24,トップハンター 〜ロディー&キャシー〜,SNK,ACT,yes,,NGH-046,28000,税抜,,,トップハンター 〜ロディー&キャシー〜,Wikipedia+MADB+MAME,MAME,MADB,トップハンター,M752241,tophuntrh
+neogeo-jp-0054,1994-08-26,ソニックウィングス2,ビデオシステム,STG,yes,,NGH-075,28000,税抜,,,ソニックウィングス2,Wikipedia+MADB+MAME,MAME,MADB,ソニックウイングス2,M750646,sonicwi2
+neogeo-jp-0055,1994-08-26,痛快GANGAN行進曲,ADK,ACT,yes,,NGH-074,29800,税抜,,,痛快GANGAN行進曲,Wikipedia+MADB+MAME,MAME,MADB,痛快ガンガン行進曲,M764484,aodk
+neogeo-jp-0056,1994-10-01,ザ・キング・オブ・ファイターズ'94,SNK,ACT,yes,,NGH-055,29800,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ザ・キング・オブ・ファイターズ'94,M726138,kof94
+neogeo-jp-0057,1994-12-02,真SAMURAI SPIRITS 覇王丸地獄変,SNK,ACT,yes,,NGH-063,29800,税抜,,,真SAMURAI SPIRITS 覇王丸地獄変,Wikipedia+MADB+MAME,MAME+MADB,MADB,真SAMURAI SPIRITS 覇王丸地獄変,M726096,samsho2
+neogeo-jp-0058,1994-12-09,ダンクドリーム,データイースト,SPT,yes,,NGH-079,28000,税抜,,,ダンクドリーム,Wikipedia+MADB+MAME,MAME,MADB,ダンクドリーム,M751104,strhoop
+neogeo-jp-0059,1995-02-25,ギャラクシーファイト ユニバーサル・ウォーリアーズ,サンソフト,ACT,yes,,NGH-078,29800,税抜,,,ギャラクシーファイト ユニバーサル・ウォーリアーズ,Wikipedia+MADB+MAME,MAME,MADB,ギャラクシーファイト,M747236,galaxyfg
+neogeo-jp-0060,1995-03-10,クイズ キング・オブ・ファイターズ,ザウルス,TBL,yes,,NGH-080,29800,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,クイズ キング・オブ・ファイターズ,M747383,quizkof
+neogeo-jp-0061,1995-03-31,ダブルドラゴン,テクノスジャパン,ACT,yes,,NGH-082,29800,税抜,,同名作品を題材とした対戦型格闘ゲームであり、テクノスジャパンのMVS参入作品にあたる,ダブルドラゴンシリーズ,Wikipedia+MADB+MAME,MAME,MADB,ダブルドラゴン,M751023,doubledr
+neogeo-jp-0062,1995-04-07,得点王3 〜栄光への挑戦〜,SNK,SPT,yes,,NGH-081,29800,税抜,,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,得点王3,M764980,ssideki3
+neogeo-jp-0063,1995-04-21,餓狼伝説3 〜遥かなる闘い〜,SNK,ACT,yes,,NGH-069,32000,税抜,,,餓狼伝説3,Wikipedia+MADB+MAME,MAME+MADB,MADB,餓狼伝説3 ROAD TO THE FINAL VICTORY ―遥かなる闘い―,M725966,fatfury3
+neogeo-jp-0064,1995-05-26,風雲黙示録〜格闘創世〜,SNK,ACT,yes,,NGH-059,29800,税抜,,,風雲黙示録,Wikipedia+MADB+MAME,MAME,MADB,風雲黙示録 格闘創生―,M765677,savagere
+neogeo-jp-0065,1995-06-30,ワールドヒーローズ パーフェクト,SNK,ACT,yes,,NGH-090,29800,税抜,,開発：ADK,ワールドヒーローズ,Wikipedia+MADB+MAME,MAME,MADB,ワールドヒーローズパーフェクト,M759368,whp
+neogeo-jp-0066,1995-07-28,天外魔境 真伝,ハドソン,ACT,yes,,NGH-092,29800,税抜,,,天外魔境 真伝,Wikipedia+MADB+MAME,MAME,MADB,天外魔境真伝,M764588,kabukikl
+neogeo-jp-0067,1995-09-01,ザ・キング・オブ・ファイターズ'95,SNK,ACT,yes,,NGH-084,29800,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ザ・キング・オブ・ファイターズ'95,M725874,kof95h
+neogeo-jp-0068,1995-09-29,パルスター,SNK,STG,yes,,NGH-089,32000,税抜,,,パルスター,manual+MADB+MAME,MAME,MADB,パルスター,M754354,pulstar
+neogeo-jp-0069,1995-10-13,将棋の達人,SNK,TBL,yes,,NGH-203,29800,税抜,,開発：ADK,将棋の達人,Wikipedia+MADB+MAME,MAME,MADB,将棋の達人,M762276,moshougi
+neogeo-jp-0070,1995-10-20,超人学園ゴウカイザー,テクノスジャパン,ACT,yes,,NGH-094,29800,税抜,,,超人学園ゴウカイザー,Wikipedia+MADB+MAME,MAME,MADB,超人学園ゴウカイザー,M764438,gowcaizr
+neogeo-jp-0071,1995-10-27,ステークスウィナー,ザウルス,ACT,yes,,NGH-088,29800,税抜,,,ステークスウィナー,Wikipedia+MADB+MAME,MAME,MADB,ステークスウィナー,M750020,stakwin
+neogeo-jp-0072,1995-11-17,ソニックウィングス3,ビデオシステム,STG,yes,,NGH-097,29800,税抜,,,ソニックウィングス,Wikipedia+MADB+MAME,MAME,MADB,ソニックウイングス3,M750647,sonicwi3
+neogeo-jp-0073,1995-12-01,サムライスピリッツ 斬紅郎無双剣,SNK,ACT,yes,,NGH-087,32000,税抜,,,サムライスピリッツ 斬紅郎無双剣,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ 斬紅郎無双剣,M748867,samsho3h
+neogeo-jp-0074,1996-01-26,ちびまる子ちゃん まる子デラックスクイズ,タカラ,TBL,,,NGH-206,29800,税抜,,,ちびまる子ちゃん まる子デラックスクイズ,Wikipedia+MADB+MAME,MAME,MADB,まる子デラックスクイズ,M757176,marukodq
+neogeo-jp-0075,1996-01-26,リアルバウト餓狼伝説,SNK,ACT,yes,,NGH-095,34000,税抜,,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,リアルバウト餓狼伝説,M758408,rbff1
+neogeo-jp-0076,1996-03-01,ビッグトーナメントゴルフ,ナスカ,SPT,yes,,NGH-200,29800,税抜,,,ビッグトーナメントゴルフ,Wikipedia+MADB+MAME,MAME,MADB,ビッグトーナメントゴルフ,M754660,turfmast
+neogeo-jp-0077,1996-04-19,マジカルドロップ2,SNK,PZL,yes,,NGH-221,29800,税抜,,,マジカルドロップ,Wikipedia+MADB+MAME,MAME,MADB,マジカルドロップ2,M756783,magdrop2
+neogeo-jp-0078,1996-04-26,ART OF FIGHTING 龍虎の拳 外伝,SNK,ACT,yes,,NGH-096,32000,税抜,,,龍虎の拳,Wikipedia+MADB+MAME,MAME,MADB,ART OF FIGHTING 龍虎の拳外伝,M737382,aof3
+neogeo-jp-0079,1996-05-24,メタルスラッグ,ナスカ,ACT,yes,,NGH-201,29800,税抜,,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ,M757548,mslug
+neogeo-jp-0080,1996-05-24,オーバートップ,ADK,RCG,yes,,NGH-212,29800,税抜,,,オーバートップ,Wikipedia+MAME,MAME,MADB,オーバートップ,M746235,overtop
+neogeo-jp-0081,1996-06-28,NINJA MASTER'S〜覇王忍法帖〜,SNK,ACT,yes,,NGH-217,32000,税抜,,,NINJA MASTER'S〜覇王忍法帖〜,Wikipedia+MADB+MAME,MAME,MADB,NINJA MASTER'S ～覇王忍法帖～,M741287,ninjamas
+neogeo-jp-0082,1996-07-26,神凰拳,SNK,ACT,yes,,NGH-218,32000,税抜,,,神凰拳,Wikipedia+MADB+MAME,MAME,MADB,神凰拳,M762998,ragnagrd
+neogeo-jp-0083,1996-09-27,ザ・キング・オブ・ファイターズ'96,SNK,ACT,yes,,NGH-214,32000,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ'96,M748527,kof96h
+neogeo-jp-0084,1996-11-08,風雲スーパータッグバトル,SNK,ACT,,,NGH-216,32000,税抜,,,風雲スーパータッグバトル,Wikipedia+MADB+MAME,MAME,MADB,風雲スーパータッグバトル,M765672,kizuna
+neogeo-jp-0085,1996-11-29,サムライスピリッツ 天草降臨,SNK,ACT,yes,,NGH-222,32000,税抜,,,サムライスピリッツ 天草降臨,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ 天草降臨,M748870,samsho4
+neogeo-jp-0086,1996-12-13,ステークスウィナー2,ザウルス,ACT,,,NGH-227,29800,税抜,,,ステークスウィナー2,Wikipedia+MADB+MAME,MAME,MADB,ステークスウィナー 2,M750021,stakwin2
+neogeo-jp-0087,1996-12-20,得点王 炎のリベロ,SNK,SPT,,,NGH-215,29800,税抜,,,得点王 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,得点王 炎のリベロ,M764978,ssideki4
+neogeo-jp-0088,1996-12-27,わくわく7,サンソフト,ACT,,,NGH-225,29800,税抜,,,わくわく7,Wikipedia+MADB+MAME,MAME,MADB,わくわく7,M759428,wakuwak7
+neogeo-jp-0089,1997-01-31,ティンクルスタースプライツ,ADK,STG,yes,,NGH-224,29800,税抜,,,ティンクルスタースプライツ,Wikipedia+MADB+MAME,MAME,MADB,ティンクルスター スプライツ,M751601,twinspri
+neogeo-jp-0090,1997-02-28,リアルバウト餓狼伝説スペシャル,SNK,ACT,yes,,NGH-223,32000,税抜,,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,リアルバウト餓狼伝説スペシャル,M758415,rbffspec
+neogeo-jp-0091,1997-03-21,ブレイカーズ,ビスコ,ACT,yes,,NGH-2300,29800,税抜,,,ブレイカーズ (テレビゲーム),Wikipedia+MADB+MAME,MAME,MADB,ブレイカーズ,M755740,breakers
+neogeo-jp-0092,1997-04-25,マジカルドロップ3,SNK,PZL,,,NGH-2330,29800,税抜,,,マジカルドロップ,Wikipedia+MADB+MAME,MAME,MADB,マジカルドロップ3,M734455,magdrop3
+neogeo-jp-0093,1997-09-25,ザ・キング・オブ・ファイターズ'97,SNK,ACT,yes,,NGH-2320,32000,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ'97,M748531,kof97h
+neogeo-jp-0094,1998-01-29,幕末浪漫 月華の剣士,SNK,,yes,,NGH-2340,32000,税抜,,,月華の剣士,Wikipedia+MADB+MAME,MAME,MADB,～幕末浪漫～ 月華の剣士,M736871,lastbladh
+neogeo-jp-0095,1998-02-26,ブレイジングスター,SNK,,,,NGH-2390,29800,税抜,,開発を担当した夢工房にとっては参入作 仮タイトルは『パルスター2』,ブレイジングスター,Wikipedia+MADB+MAME,MAME,MADB,ブレイジングスター,M755752,blazstar
+neogeo-jp-0096,1998-04-02,メタルスラッグ2,SNK,,yes,,NGH-2410,29800,税抜,,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 2,M757557,mslug2
+neogeo-jp-0097,1998-04-29,リアルバウト餓狼伝説2 〜THE NEWCOMERS〜,SNK,,yes,,NGH-2400,32000,税抜,,,リアルバウト餓狼伝説,Wikipedia+MADB+MAME,MAME,MADB,リアルバウト餓狼伝説2 THE NEWCOMERS,M758413,rbff2h
+neogeo-jp-0098,1999-06-24,ショックトルーパーズ セカンドスカッド,SNK,,,,NGH-2460,29800,税抜,,開発：ザウルス,ショックトルーパーズ,manual+MADB+MAME,MAME,MADB,ショックトルーパーズ セカンドスカッド,M749397,shocktr2
+neogeo-jp-0099,1998-07-30,ネオジオカップ'98 〜THE ROAD TO THE VICTORY〜,SNK,,,,NGH-2440,29800,税抜,,,ネオジオカップ'98 〜THE ROAD TO THE VICTORY〜,Wikipedia+MADB+MAME,MAME,MADB,ネオジオカップ'98 THE ROAD TO THE VICTORY,M753197,neocup98
+neogeo-jp-0100,1998-09-28,ザ・キング・オブ・ファイターズ'98 〜DREAM MATCH NEVER ENDS〜,SNK,,yes,,NGH-2420,38000,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia,MAME+MADB,MADB,THE KING OF FIGHTERS '98 DREAM MATCH NEVER ENDS,M724714,kof98h
+neogeo-jp-0101,1999-01-28,幕末浪漫第二幕 月華の剣士 〜月に咲く華、散りゆく花〜,SNK,,yes,,NGH-2430,32000,税抜,,,月華の剣士,Wikipedia+MADB+MAME,MAME,MADB,幕末浪漫第二幕 月華の剣士 ～月に咲く華、散り行く花～,M766189,lastbld2
+neogeo-jp-0102,1999-05-27,メタルスラッグX,SNK,,,,NGH-2500,29800,税抜,,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグX,M757589,mslugx
+neogeo-jp-0103,1999-09-23,ザ・キング・オブ・ファイターズ'99 〜Millennium Battle〜,SNK,,yes,,NGH-2510,38000,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ'99,M748540,kof99h
+neogeo-jp-0104,2000-02-25,餓狼 MARK OF THE WOLVES,SNK,,,,NGH-2530,32000,税抜,,,餓狼 MARK OF THE WOLVES,Wikipedia+MADB+MAME,MAME,MADB,餓狼 MARK OF THE WOLVES,M760262,garouh
+neogeo-jp-0105,2000-06-01,メタルスラッグ3,SNK,,,,NGH-2560,32000,税抜,,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 3,M757568,mslug3h
+neogeo-jp-0106,2000-12-21,ザ・キング・オブ・ファイターズ2000,SNK,,,,NGH-2570,38000,税抜,,,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ2000,M748522,kof2000
+neogeo-jp-0107,2001-10-25,戦国伝承2001,SNK,,,,,32000,税抜,,開発：ノイズファクトリー,戦国伝承2001,Wikipedia+MADB,,MADB,戦国伝承2001,M763529,
+neogeo-jp-0108,2002-03-14,ザ・キング・オブ・ファイターズ2001,サン・アミューズメント,,,,NGH-2621,39800,税抜,,開発：イオリス,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ2001,M722956,kof2001h
+neogeo-jp-0109,2002-06-13,メタルスラッグ4,プレイモア,,,,NGH-2630,39800,税抜,,開発：メガ・エンタープライズ,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 4,M757573,mslug4h
+neogeo-jp-0110,2002-09-26,レイジ・オブ・ザ・ドラゴンズ,SNKネオジオ,,,,NGH-2640,39800,税抜,,企画：エヴォガエンターテイメント、開発：ノイズファクトリー,レイジ・オブ・ザ・ドラゴンズ,Wikipedia+MADB+MAME,MAME,MADB,レイジ・オブ・ザ・ドラゴンズ,M758698,rotdh
+neogeo-jp-0111,2002-12-19,ザ・キング・オブ・ファイターズ2002 〜CHALLENGE TO ULTIMATE BATTLE〜,プレイモア,,,,NGH-2650,39800,税抜,,開発：イオリス,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ザ・キング・オブ・ファイターズ2002,M722605,kof2002
+neogeo-jp-0112,2003-05-29,新・豪血寺一族 闘婚-Matrimelee-,プレイモア,,,,NGH-2660,39800,税抜,,,豪血寺一族,Wikipedia+MADB+MAME,MAME,MADB,新 豪血寺一族 闘婚-Matrimelee-,M762530,matrim
+neogeo-jp-0113,2003-11-13,SNK VS. CAPCOM SVC CHAOS,プレイモア,,,,NGH-2690,39800,税抜,,,SNK VS. CAPCOM SVC CHAOS,Wikipedia+MADB+MAME,MAME,MADB,SNK VS CAPCOM SVC CHAOS,M742594,svc
+neogeo-jp-0114,2003-12-11,サムライスピリッツ零,SNKプレイモア,,,,NGH-2700,39800,税抜,,開発：悠紀エンタープライズ,サムライスピリッツ零,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ零,M748886,samsho5h
+neogeo-jp-0115,2004-02-19,メタルスラッグ5,SNKプレイモア,,,,NGH-2680,39800,税抜,,,メタルスラッグ,Wikipedia+MADB+MAME,MAME,MADB,メタルスラッグ 5,M757578,mslug5h
+neogeo-jp-0116,2004-03-18,ザ・キング・オブ・ファイターズ2003,SNKプレイモア,,,,NGH-2710,39800,税抜,,開発：SNKネオジオ,ザ・キング・オブ・ファイターズ,Wikipedia+MADB+MAME,MAME,MADB,ザ・キング・オブ・ファイターズ2003,M748524,kof2003h
+neogeo-jp-0117,2004-07-15,サムライスピリッツ零スペシャル,SNKプレイモア,,,,NGH-2720,39800,税抜,,開発：悠紀エンタープライズ,サムライスピリッツ零,Wikipedia+MADB+MAME,MAME,MADB,サムライスピリッツ零 スペシャル,M748887,samsh5spho

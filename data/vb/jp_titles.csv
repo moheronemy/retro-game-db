@@ -1,20 +1,20 @@
-id,release_date,title,publisher,capacity,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
-vb-jp-0001,1995-07-21,マリオズテニス,任天堂,4M,VUE-VMTJ-JPN,4900,税抜,ローンチタイトル,マリオズテニス,Wikipedia+MADB+MAME,MAME+MADB,MADB,MARIO'S TENNIS,M725912,marioten
-vb-jp-0002,1995-07-21,ギャラクティック・ピンボール,任天堂,8M,VUE-VGPJ-JPN,4900,税抜,ローンチタイトル,ギャラクティック・ピンボール,Wikipedia+MADB,MAME+MADB,MADB,GALACTIC PINBALL,M725913,galactic
-vb-jp-0003,1995-07-21,テレロボクサー,任天堂,8M,VUE-VTBJ-JPN,4900,税抜,ローンチタイトル,テレロボクサー,Wikipedia+MADB+MAME,MAME+MADB,MADB,TELEROBOXER,M725911,telerobo
-vb-jp-0004,1995-07-21,レッドアラーム,T&E SOFT,8M,VUE-VREJ-JPN,,,ローンチタイトル,レッドアラーム,Wikipedia+MADB+MAME,MAME+MADB,,,M725909,redalarmj
-vb-jp-0005,1995-07-21,とびだせ!ぱにボン,ハドソン,4M,VUE-VH2J-JPN,,,日本ではローンチタイトル,とびだせ!ぱにボン,Wikipedia+MADB+MAME,MAME+MADB,,,M725910,tobidase
-vb-jp-0006,1995-08-11,T&E ヴァーチャルゴルフ,T&E SOFT,,VUE-VVGJ-JPN,,,,T&E ヴァーチャルゴルフ,Wikipedia+MADB+MAME,MAME+MADB,,,M725887,vgolf
-vb-jp-0007,1995-08-11,バーチャルプロ野球'95,ケムコ,8M,VUE-VVPJ-JPN,,,,バーチャルプロ野球'95,Wikipedia+MADB+MAME,MAME+MADB,,,M725886,vproyak
-vb-jp-0008,1995-08-12,バーティカルフォース,ハドソン,8M,VUE-VH3J-JPN,,,,バーティカルフォース,Wikipedia+MADB+MAME,MAME+MADB,,,M725882,vforcej
-vb-jp-0009,1995-08-25,V・テトリス,BPS,4M,VUE-VTRJ-JPN,,,Nintendo Classics版での邦題は、タイトルロゴの『V-TETRIS』になっている。 北米未発売だったが、Nintendo Classics版で英題がつけられている。,V・テトリス,Wikipedia+MADB+MAME,MAME+MADB,,,M725877,vtetris
-vb-jp-0010,1995-09-28,マリオクラッシュ,任天堂,8M,VUE-VMCJ-JPN,4900,税抜,,マリオクラッシュ,Wikipedia+MADB+MAME,MAME+MADB,MADB,MARIO CLASH,M725861,mariocla
-vb-jp-0011,1995-09-28,スペーススカッシュ,ココナッツジャパンエンターテイメント,16M,VUE-VSSJ-JPN,,,,スペーススカッシュ,Wikipedia,MAME,,,,ssquash
-vb-jp-0012,1995-09-29,ジャック・ブラザースの迷路でヒーホー!,アトラス,8M,VUE-VJBJ-JPN,,,Nintendo Classics版での邦題は、タイトルロゴの部分も含んだ『JACK BROS. ジャック・ブラザースの迷路でヒーホー!』になっている。,ジャック・ブラザースの迷路でヒーホー!,Wikipedia+MADB+MAME,MAME+MADB,,,M722075,jackbrosj
-vb-jp-0013,1995-10-06,バーチャルフィッシング,パック・イン・ビデオ,8M,VUE-VVFJ-JPN,,,Nintendo Classics版では日本版のみ配信,バーチャルフィッシング,Wikipedia,MAME,,,,vfishing
-vb-jp-0014,1995-10-13,インスマウスの館,アイマックス,8M,VUE-VIMJ-JPN,,,北米では『House of Insmouse』の題で発売予定だった。Nintendo Classics版で新たに英題がつけられている。,インスマウスの館,Wikipedia+MAME,MAME,,,,insmouse
-vb-jp-0015,1995-12-01,バーチャルボーイ ワリオランド アワゾンの秘宝,任天堂,16M,VUE-VWCJ-JPN,,,,バーチャルボーイ ワリオランド アワゾンの秘宝,Wikipedia+MAME,MAME,,,,wariolnd
-vb-jp-0016,1995-12-01,スペースインベーダー バーチャルコレクション,タイトー,4M,VUE-VSPJ-JPN,,,北米未発売だったが、Nintendo Classics版で英題がつけられている。,スペースインベーダー バーチャルコレクション,Wikipedia+MAME,MAME,,,,spaceinv
-vb-jp-0017,1995-12-08,バーチャルLAB,J・ウイング,8M,VUE-VJVJ-JPN,,,,バーチャルLAB,Wikipedia+MAME,MAME,,,,vlab
-vb-jp-0018,1995-12-22,バーチャルボウリング,アテナ,8M,VUE-VVBJ-JPN,,,北米未発売だったが、Nintendo Classics版で英題がつけられている。,バーチャルボウリング,Wikipedia+MAME,MAME,,,,vbowling
-vb-jp-0019,1995-12-22,SDガンダム DIMENSION WAR,バンダイ,8M,VUE-VSDJ-JPN,,,,SDガンダム DIMENSION WAR,Wikipedia+MAME,MAME,,,,sdgundam
+id,release_date,title,publisher,capacity,model_number,price_yen,price_tax,price_note,notes,wikipedia_article,release_date_sources,model_number_source,price_source,price_package,madb_id,mame_name
+vb-jp-0001,1995-07-21,マリオズテニス,任天堂,4M,VUE-VMTJ-JPN,4900,税抜,,ローンチタイトル,マリオズテニス,Wikipedia+MADB+MAME,MAME+MADB,MADB,MARIO'S TENNIS,M725912,marioten
+vb-jp-0002,1995-07-21,ギャラクティック・ピンボール,任天堂,8M,VUE-VGPJ-JPN,4900,税抜,,ローンチタイトル,ギャラクティック・ピンボール,Wikipedia+MADB,MAME+MADB,MADB,GALACTIC PINBALL,M725913,galactic
+vb-jp-0003,1995-07-21,テレロボクサー,任天堂,8M,VUE-VTBJ-JPN,4900,税抜,,ローンチタイトル,テレロボクサー,Wikipedia+MADB+MAME,MAME+MADB,MADB,TELEROBOXER,M725911,telerobo
+vb-jp-0004,1995-07-21,レッドアラーム,T&E SOFT,8M,VUE-VREJ-JPN,,,,ローンチタイトル,レッドアラーム,Wikipedia+MADB+MAME,MAME+MADB,,,M725909,redalarmj
+vb-jp-0005,1995-07-21,とびだせ!ぱにボン,ハドソン,4M,VUE-VH2J-JPN,,,,日本ではローンチタイトル,とびだせ!ぱにボン,Wikipedia+MADB+MAME,MAME+MADB,,,M725910,tobidase
+vb-jp-0006,1995-08-11,T&E ヴァーチャルゴルフ,T&E SOFT,,VUE-VVGJ-JPN,,,,,T&E ヴァーチャルゴルフ,Wikipedia+MADB+MAME,MAME+MADB,,,M725887,vgolf
+vb-jp-0007,1995-08-11,バーチャルプロ野球'95,ケムコ,8M,VUE-VVPJ-JPN,,,,,バーチャルプロ野球'95,Wikipedia+MADB+MAME,MAME+MADB,,,M725886,vproyak
+vb-jp-0008,1995-08-12,バーティカルフォース,ハドソン,8M,VUE-VH3J-JPN,,,,,バーティカルフォース,Wikipedia+MADB+MAME,MAME+MADB,,,M725882,vforcej
+vb-jp-0009,1995-08-25,V・テトリス,BPS,4M,VUE-VTRJ-JPN,,,,Nintendo Classics版での邦題は、タイトルロゴの『V-TETRIS』になっている。 北米未発売だったが、Nintendo Classics版で英題がつけられている。,V・テトリス,Wikipedia+MADB+MAME,MAME+MADB,,,M725877,vtetris
+vb-jp-0010,1995-09-28,マリオクラッシュ,任天堂,8M,VUE-VMCJ-JPN,4900,税抜,,,マリオクラッシュ,Wikipedia+MADB+MAME,MAME+MADB,MADB,MARIO CLASH,M725861,mariocla
+vb-jp-0011,1995-09-28,スペーススカッシュ,ココナッツジャパンエンターテイメント,16M,VUE-VSSJ-JPN,,,,,スペーススカッシュ,Wikipedia,MAME,,,,ssquash
+vb-jp-0012,1995-09-29,ジャック・ブラザースの迷路でヒーホー!,アトラス,8M,VUE-VJBJ-JPN,,,,Nintendo Classics版での邦題は、タイトルロゴの部分も含んだ『JACK BROS. ジャック・ブラザースの迷路でヒーホー!』になっている。,ジャック・ブラザースの迷路でヒーホー!,Wikipedia+MADB+MAME,MAME+MADB,,,M722075,jackbrosj
+vb-jp-0013,1995-10-06,バーチャルフィッシング,パック・イン・ビデオ,8M,VUE-VVFJ-JPN,,,,Nintendo Classics版では日本版のみ配信,バーチャルフィッシング,Wikipedia,MAME,,,,vfishing
+vb-jp-0014,1995-10-13,インスマウスの館,アイマックス,8M,VUE-VIMJ-JPN,,,,北米では『House of Insmouse』の題で発売予定だった。Nintendo Classics版で新たに英題がつけられている。,インスマウスの館,Wikipedia+MAME,MAME,,,,insmouse
+vb-jp-0015,1995-12-01,バーチャルボーイ ワリオランド アワゾンの秘宝,任天堂,16M,VUE-VWCJ-JPN,,,,,バーチャルボーイ ワリオランド アワゾンの秘宝,Wikipedia+MAME,MAME,,,,wariolnd
+vb-jp-0016,1995-12-01,スペースインベーダー バーチャルコレクション,タイトー,4M,VUE-VSPJ-JPN,,,,北米未発売だったが、Nintendo Classics版で英題がつけられている。,スペースインベーダー バーチャルコレクション,Wikipedia+MAME,MAME,,,,spaceinv
+vb-jp-0017,1995-12-08,バーチャルLAB,J・ウイング,8M,VUE-VJVJ-JPN,,,,,バーチャルLAB,Wikipedia+MAME,MAME,,,,vlab
+vb-jp-0018,1995-12-22,バーチャルボウリング,アテナ,8M,VUE-VVBJ-JPN,,,,北米未発売だったが、Nintendo Classics版で英題がつけられている。,バーチャルボウリング,Wikipedia+MAME,MAME,,,,vbowling
+vb-jp-0019,1995-12-22,SDガンダム DIMENSION WAR,バンダイ,8M,VUE-VSDJ-JPN,,,,,SDガンダム DIMENSION WAR,Wikipedia+MAME,MAME,,,,sdgundam

@@ -102,7 +102,9 @@ def days(a, b):
 
 def parse_price(s):
     s = unicodedata.normalize("NFKC", s)
-    m = re.search(r"([\d,]+)\s*円", s) or re.search(r"\\\s*([\d,]+)", s)
+    m = (re.search(r"([\d,]+)\s*円", s) or re.search(r"[\\¥]\s*([\d,]+)", s)   # 「標準価格¥5,800(税抜)」（NFKC で ￥ も ¥ になる）
+         or re.search(r"標準価格\s*[:：]?\s*([\d,]{3,})", s)                         # 「標準価格:6,800 (税抜)」
+         or re.match(r"\[?\s*([\d,]{3,})\s*(?:[(\]]|$)", s.strip()))               # 「[5,800(税抜)]」「9600」
     if not m:
         return "", ""
     yen = m.group(1).replace(",", "")

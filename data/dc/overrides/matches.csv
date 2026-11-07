@@ -24,7 +24,7 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 2000-08-10,シーマン 〜禁断のペット〜 （2001年対応版）,,,,T-39405M,,,,Redump のレーベル面のシリアル（題名を見て手動で対応）
 2000-08-10,ハローキティのわくわくクッキーズ,,,,HDR-0090,,,,Redump「Hello Kitty no Waku Waku Cookies」のレーベル面のシリアル（題名を見て手動で対応）
 2000-08-24,プリズマティカリゼーション,,,,T-22002M,,,,Redump「Prismaticallization」のレーベル面のシリアル（題名を見て手動で対応）
-2000-09-07,CAPCOM VS. SNK ミレニアムファイト2000,,,,T-1217M,,,,Redump「Capcom vs. SNK - Millennium Fight 2000」のレーベル面のシリアル（題名を見て手動で対応）
+2000-09-07,CAPCOM VS. SNK ミレニアムファイト2000,M719216,,,T-1217M,,,,Redump「Capcom vs. SNK - Millennium Fight 2000」のレーベル面のシリアル（題名を見て手動で対応）。MADB「CAPCOM VS. SNK MILLENNIUM FIGHT 2000」（題名の表記違いで自動照合されない。価格の調査で手動対応）
 2000-09-28,聖霊機ライブレード,,,,T-42201M,,,,Redump のレーベル面のシリアル（題名を見て手動で対応）
 2000-10-09,ねっとdeテニス,,,,T-1234M,,,,Redump「Net de Tennis」のレーベル面のシリアル（題名を見て手動で対応）
 2000-10-26,シドニー2000,,,,T-1237M,,,,Redump「Sydney 2000」のレーベル面のシリアル（題名を見て手動で対応）
@@ -69,4 +69,4 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 2006-02-16,ラジルギ,,,,T-47802M,,,,Redump「Radirgy」のレーベル面のシリアル（題名を見て手動で対応）
 2001-12-27,21 -TwoOne-,,,,T-46504M,,,,MADB・Redump は T-46504M（MAME の T-46503M は採らない）
 2001-05-24,NET VERSUS 囲碁,,,,T-45703M,,,,MADB・Redump は T-45703M（MAME の T-45701M は採らない）
-2000-09-07,ディノクライシス,,,,,,,2000-09-06,発売日: 一覧の表は 2000-09-07。MAME と記事「ディノクライシス」の基本情報欄は 2000-09-06
+2000-09-07,ディノクライシス,M738481,,,,,,2000-09-06,発売日: 一覧の表は 2000-09-07。MAME と記事「ディノクライシス」の基本情報欄は 2000-09-06。MADB「DINO CRISIS」（題名の表記違いで自動照合されない。価格の調査で手動対応）
