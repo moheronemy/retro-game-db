@@ -34,6 +34,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームポケコン | [`data/gamepock/jp_titles.csv`](data/gamepock/jp_titles.csv) | 5 | 0 | 0 | [`data/gamepock/jp_rom_dumps.csv`](data/gamepock/jp_rom_dumps.csv)（5 行） |
 | ぴゅう太 | [`data/pyuuta/jp_titles.csv`](data/pyuuta/jp_titles.csv) | 26 | 0 | 7 | [`data/pyuuta/jp_rom_dumps.csv`](data/pyuuta/jp_rom_dumps.csv)（26 行） |
 | アルカディア | [`data/arcadia/jp_titles.csv`](data/arcadia/jp_titles.csv) | 19 | 0 | 4 | [`data/arcadia/jp_rom_dumps.csv`](data/arcadia/jp_rom_dumps.csv)（4 行） |
+| 光速船 | [`data/vectrex/jp_titles.csv`](data/vectrex/jp_titles.csv) | 5（全件ではない） | 0 | 0 | （日本版の記録なし） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -75,6 +76,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ゲームポケコン | （出典に記載なし・0 件） | （0 件） | |
 | ぴゅう太 | （未調査・0 件） | （0 件） | カセットテープ [`jp_tape.csv`](data/pyuuta/jp_tape.csv)（8 件） |
 | アルカディア | （出典に記載なし・0 件） | （0 件） | |
+| 光速船 | （出典に記載なし・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -1025,6 +1027,22 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   （対応する Emerson 版の題名は出典で確かめられないものがあり、推測しない）。
 - MADB の「[システム] アルカディア」の商品はクリエイトビジョン版・ソード版など他機種のもので、使わない。
 
+## 光速船
+
+バンダイの光速船（1983年7月発売。米国 GCE の Vectrex の日本版）用のソフト。`id` は `vectrex-jp-<連番>`（記事の並び順）。
+`scripts/build_vectrex.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル | ja.wikipedia「光速船」の「ソフトウェア」節の箇条書き（本体内蔵の『マインストーム』を除く 5 本） |
+
+- **全件ではない**。記事は 6 本を挙げて「などが発売された」としているだけで、日本で発売されたソフトの一覧として使える出典が無い
+  （MAME `hash/vectrex.xml` と No-Intro〈`GCE - Vectrex`〉は米国の GCE 版と個人制作ソフトだけで日本版の項目が無く、MADB にも記録が無い。
+  英語版 Wikipedia などはこの環境から接続できない）。分かっている 5 本だけを載せた（合意済み）。
+- 発売日・価格・型番は空欄（本体の発売〈1983年7月〉と同時かどうかも分からないので当てない）。発売元はバンダイ。
+- ハッシュは載せない（日本版の吸い出しの記録が無く、米国版と中身が同じかは出典で確かめられない）。
+- 日本版の一覧の載った出典（当時の雑誌・バンダイのカタログなど）が見つかれば追加する。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1522,6 +1540,7 @@ python3 scripts/build_pv1000.py                # PV-1000（Wikipedia の記事 �
 python3 scripts/build_gamepock.py              # ゲームポケコン（Wikipedia の記事 ＋ MAME）→ data/gamepock/
 python3 scripts/build_pyuuta.py                # ぴゅう太（Wikipedia の記事 ＋ MADB ＋ MAME）→ data/pyuuta/
 python3 scripts/build_arcadia.py               # アルカディア（Wikipedia の記事 ＋ MAME）→ data/arcadia/
+python3 scripts/build_vectrex.py               # 光速船（Wikipedia の記事のみ。全件ではない）→ data/vectrex/
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧
