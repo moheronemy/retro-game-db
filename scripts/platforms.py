@@ -1379,6 +1379,26 @@ PLATFORMS = {
         "normalize_code": lambda c: "",
         "nointro_dats": [],
     },
+    # ポケモンミニ（ポケモン、2001年）。本体の記事の「ソフトウェア」節の表（10 本。全て株式会社ポケモンの発売）
+    "pokemini": {
+        "name": "ポケモンミニ",
+        "dir": ROOT / "data" / "pokemini",
+        "id_prefix": "pokemini-jp",
+        "wikipedia": {"tables": [{"page": "ポケモンミニ", "section": "ソフトウェア", "columns": ("title", "jp"),
+                                  "min_cells": 2, "extra": {"publisher": "ポケモン"},
+                                  # 『ポケモンパーティミニ』は本体同梱（2001-12-14）と単品（2002-04-26）。最初の日付を採り、単品を備考に
+                                  "derive": {"notes": lambda r: "本体同梱で2001年12月14日、単品で2002年4月26日に発売"
+                                             if r["title"] == "ポケモンパーティミニ" else r["notes"]}}]},
+        "madb_platforms": [],
+        "mame_lists": [],   # MAME `pokemini` は日本版の多くが米国版の別版で、型番・発売日も無く補えるものが無い（ハッシュは No-Intro）
+        "models_from": lambda t: [],   # 型番の出典が無い
+        "models_from_serial": lambda s: re.findall(r"\bM[A-Z0-9]{2}J\b", s or ""),   # DAT のゲームコード（'MBRJ'）。吸い出し一覧の game_code
+        "code_of": lambda m: "",
+        "normalize_code": lambda c: c if re.fullmatch(r"M[A-Z0-9]{2}J", c or "") else "",   # 吸い出し一覧の game_code
+        "nointro_dats": ["Nintendo - Pokemon Mini"],
+        "nointro_export": ["Nintendo - Pokemon Mini (DB Export)"],
+        "nointro_export_fallback": {"Nintendo - Pokemon Mini (DB Export)": "Nintendo - Pokemon Mini"},
+    },
     # キッズコンピュータ・ピコ（セガ、1993年）。本体とのセットは別リスト bundles、コペラ（ヤマハの互換機）対応のソフトは別リスト copera。
     # 再販は行にせず元の行の備考に（_pico_main）。キャンペーン非売品は jp_not_for_sale.csv（手で管理）。MADB に記録が無い
     "pico": {

@@ -38,6 +38,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | インテレビジョン | [`data/intv/jp_titles.csv`](data/intv/jp_titles.csv) | 22（全件かは不明） | 0 | 22 | （日本版の記録なし） |
 | キッズコンピュータ・ピコ | [`data/pico/jp_titles.csv`](data/pico/jp_titles.csv) | 245 | 214 | 0 | [`data/pico/jp_rom_dumps.csv`](data/pico/jp_rom_dumps.csv)（224 行） |
 | マイビジョン | [`data/myvision/jp_titles.csv`](data/myvision/jp_titles.csv) | 6 | 0 | 6 | [`data/myvision/jp_rom_dumps.csv`](data/myvision/jp_rom_dumps.csv)（11 行） |
+| ポケモンミニ | [`data/pokemini/jp_titles.csv`](data/pokemini/jp_titles.csv) | 10 | 0 | 0 | [`data/pokemini/jp_rom_dumps.csv`](data/pokemini/jp_rom_dumps.csv)（19 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -83,6 +84,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | インテレビジョン | （未調査・0 件） | （0 件） | |
 | ピコ | [`jp_not_for_sale.csv`](data/pico/jp_not_for_sale.csv)（キャンペーン非売品 1 件） | （0 件） | 本体とのセット [`jp_bundles.csv`](data/pico/jp_bundles.csv)（11 件）・コペラ対応 [`jp_copera.csv`](data/pico/jp_copera.csv)（9 件） |
 | マイビジョン | （出典に記載なし・0 件） | （0 件） | |
+| ポケモンミニ | （出典に記載なし・0 件） | [`jp_non_retail.csv`](data/pokemini/jp_non_retail.csv)（体験版 5 件・GC ソフト収録版 3 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -217,6 +219,8 @@ No-Intro の DB Export から `scripts/build_dumps.py` が生成する。
 | `tech_demo` 技術デモ | 開発キット付属のサンプル | 2 |
 
 - 配布経路の記録がない体験版（ヒカルの碁 体験版など）と、非公式品・後年の自主制作は載せない。
+  例外としてポケモンミニは、No-Intro の「Preview」の版を `demo`（体験版。配布の経路は出典に無い）、GC 用ソフトの中で遊べる版を `gc_bonus` として
+  手で載せた（合意済み。「ポケモンミニ」節）。
 - `id` は `gba-jp-nr-<No-Intro のアーカイブ番号>`。`parent_id` は No-Intro 名が製品版と一致するもので対応づける
   （開発版・試作品はゲームコードを別作品と共有していることがあるため、コードは使わない）。
   名前が一致しないものは [`data/gba/overrides/non_retail_parents.csv`](data/gba/overrides/non_retail_parents.csv) で補う。
@@ -1106,6 +1110,25 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - 型番: MAME のカートリッジのラベルの番号（`LT-0319953` など。ラベルの「CORTRIDGE」の綴りは除いた）は型番かどうか分からないので `mame_label` に置き、`model_number` は空欄。
 - ハッシュは MAME（No-Intro の DAT が無い）。MADB の「[システム] マイビジョン」の商品は他機種（スーパービジョン8000・ぴゅう太・PC-8801 など）のもので使わない。
 
+## ポケモンミニ
+
+株式会社ポケモンのポケモンミニ（2001年12月14日発売。型番 MIN-001）用のソフト。`id` は `pokemini-jp-<連番>`（発売順）。
+以前は対象外としていたが、ピコと合わせて見直して収録した。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日 | ja.wikipedia「ポケモンミニ」の「ソフトウェア」節の表（10 本。本文に「全て株式会社ポケモンから発売された」） |
+| ハッシュ・ゲームコード | No-Intro DAT（libretro 収録の Nintendo - Pokemon Mini） |
+
+- 全 10 本。発売元は全てポケモン。発売日は全件が日まで。『ポケモンパーティミニ』は本体同梱（2001-12-14）と単品（2002-04-26）の
+  2 つの日付があり、最初の本体同梱の日付を採って単品の発売を `notes` に書いた。
+- 型番・価格は出典が無く空欄（MADB に記録が無い）。任天堂の他機種の型番の形から推測しない。No-Intro のゲームコード（`MPTJ` など）は吸い出し一覧の `game_code`。
+- 吸い出しは型番で結びつけられないので題名で手動対応（`overrides/dump_matches.csv`）。MAME `hash/pokemini.xml` は日本版の多くが米国版の別版として登録され、
+  型番・発売日も無いので使わない。
+- No-Intro の「Preview」の版（5 件。体験版。配布の経路は出典に無い）は別リスト `jp_non_retail.csv` の `demo`、「GameCube」の版のうち製品版の無いもの
+  （3 件。GC 用ソフトの中で遊べる版とみられる）は `gc_bonus`（どちらも `overrides/non_retail_manual.csv` で手動）。製品版のある『ポケモンパズルコレクション』の
+  GameCube の版は、ほかの機種の GC 用ソフト収録版と同じく製品版の行の吸い出し（`dump_kind` が `collection`）にした。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1613,6 +1636,10 @@ python3 scripts/enrich.py pico
 python3 scripts/build_dumps.py pico
 
 python3 scripts/build_myvision.py              # マイビジョン（Wikipedia の記事 ＋ MAME）→ data/myvision/
+
+python3 scripts/fetch_wikipedia_list.py pokemini   # 本体の記事の表（2 列）
+python3 scripts/enrich.py pokemini
+python3 scripts/build_dumps.py pokemini
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧

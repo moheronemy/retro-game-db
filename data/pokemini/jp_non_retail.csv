@@ -1,0 +1,9 @@
+id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
+pokemini-jp-nr-m004,ポケモンレースミニ（体験版）,demo,cartridge,pokemini-jp-0007,MRCJ,Pokemon Race Mini (Japan) (Preview),No-Intro: Preview（体験版。配布の経路は出典に無い）,dat_only
+pokemini-jp-nr-m001,Pichu Bros. Mini - Hoppip's Jump Match（体験版）,demo,cartridge,pokemini-jp-0008,MBRJ,Pichu Bros. Mini - Hoppip's Jump Match (Japan) (Preview),No-Intro: Preview（体験版。配布の経路は出典に無い）,dat_only
+pokemini-jp-nr-m002,Pichu Bros. Mini - Netsukikyuu（体験版）,demo,cartridge,pokemini-jp-0008,MBRJ,Pichu Bros. Mini - Netsukikyuu (Japan) (Preview),No-Intro: Preview（体験版。配布の経路は出典に無い）,dat_only
+pokemini-jp-nr-m003,Pichu Bros. Mini - Skateboard（体験版）,demo,cartridge,pokemini-jp-0008,MBRJ,Pichu Bros. Mini - Skateboard (Japan) (Preview),No-Intro: Preview（体験版。配布の経路は出典に無い）,dat_only
+pokemini-jp-nr-m005,トゲピーのだいぼうけん（体験版）,demo,cartridge,pokemini-jp-0009,MTAJ,Togepi no Daibouken (Japan) (Preview),No-Intro: Preview（体験版。配布の経路は出典に無い）,dat_only
+pokemini-jp-nr-m006,Pokemon Party Mini - Baseline Judge,gc_bonus,gc_download,pokemini-jp-0001,MPTJ,Pokemon Party Mini - Baseline Judge (Japan) (GameCube),No-Intro: GameCube（GC 用ソフトの中で遊べる版とみられる。製品版のカートリッジは無い）,dat_only
+pokemini-jp-nr-m007,Pokemon Party Mini - Ricochet Dribble,gc_bonus,gc_download,pokemini-jp-0001,MPTJ,Pokemon Party Mini - Ricochet Dribble (Japan) (GameCube),No-Intro: GameCube（GC 用ソフトの中で遊べる版とみられる。製品版のカートリッジは無い）,dat_only
+pokemini-jp-nr-m008,Snorlax's Lunch Time,gc_bonus,gc_download,,MLTJ,Snorlax's Lunch Time (Japan) (GameCube),No-Intro: GameCube（GC 用ソフトの中で遊べる版とみられる。製品版のカートリッジは無い）,dat_only

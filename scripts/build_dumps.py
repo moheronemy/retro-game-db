@@ -45,7 +45,8 @@ EXCLUDE = re.compile(r"^(Proto|Proto \d+|Beta|Beta \d+|Demo|Sample|Kiosk|Promo|P
                      # 非公式品（Hacker）、後年の書籍付録・配信版など
                      r"|FamicomBox|Family BASIC|Menu Cart|EPROM|Digital|Disc|Sansai Mook|Ending Credits Program"
                      r"|Not For Resale|Shouhin Golf Tournament US Course|Hacker|SA-0\d+( \d+)? PCB"
-                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On|Hibaihin|Demo \d+|Java Tea Original)$")
+                     r"|Prize Card|Developer Card|National Tax Agency Demo|Lock-On|Hibaihin|Demo \d+|Java Tea Original"
+                     r"|Preview)$")   # ポケモンミニの体験版（配布経路の記録が無い。手動の別リストで demo）
 VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$"
                         r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
@@ -369,7 +370,7 @@ def main():
         if r["dump_kind"] == "retail":
             retail_by_base.setdefault(base(r["dump_name"]), set()).add(r["title_id"])
     labels = {"store_demo": "店頭体験版", "event_demo": "イベント体験版", "beta": "開発版", "prototype": "試作品",
-              "tech_demo": "技術デモ", "business": "業務用"}
+              "tech_demo": "技術デモ", "business": "業務用", "demo": "体験版", "gc_bonus": "GC ソフト収録版"}
     disc_re = re.compile(r" \(Dis[ck] [0-9A-Z]+\)")
     seen_nr = set()
     for name, g, ref, codes, cat in pending:
@@ -449,12 +450,12 @@ def main():
                 r["hash_source"] = cfg["hash_source"]
 
     kind_order = {"retail": 0, "collection": 1, "online": 1.5, "virtual_console": 2, "not_for_sale": 3, "nintendo_power": 4,
-                  "store_demo": 5, "event_demo": 6, "beta": 7, "prototype": 8, "tech_demo": 9, "business": 10}
+                  "store_demo": 5, "event_demo": 6, "demo": 6.5, "gc_bonus": 6.7, "beta": 7, "prototype": 8, "tech_demo": 9, "business": 10}
     rows.sort(key=lambda r: (r["title_id"], kind_order[r["dump_kind"]], r["revision"], r["dump_name"]))
     cols = ["title_id", "title", "game_code", "dump_name", "revision", "dump_kind"]
     rows = [{**{c: r[c] for c in cols}, **{k: v for k, v in r.items() if k not in cols}} for r in rows]
     C.write_csv(DATA / "jp_rom_dumps.csv", rows)
-    non_retail.sort(key=lambda r: (["store_demo", "event_demo", "beta", "prototype", "tech_demo", "business"]
+    non_retail.sort(key=lambda r: (["store_demo", "event_demo", "demo", "gc_bonus", "beta", "prototype", "tech_demo", "business"]
                                    .index(r["category"]),
                                    r["parent_id"] or "~", r["nointro_name"]))
     C.write_csv(DATA / "jp_non_retail.csv", non_retail)

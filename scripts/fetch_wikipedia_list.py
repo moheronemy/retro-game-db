@@ -219,7 +219,7 @@ KNOWN_COLUMNS = {"jp", "na", "eu", "br", "title", "publisher", "notes", "sgb", "
 
 
 def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, year=None, ref_code=None,
-               row_filter=None, derive=None, strip_title_mark=None, date_text=False):
+               row_filter=None, derive=None, strip_title_mark=None, date_text=False, min_cells=3):
     """表の各行を読む。columns は先頭からの列の意味（jp=日本の発売日）。日本未発売の行は除く。"""
     rows = []
     in_table = False
@@ -271,7 +271,7 @@ def parse_rows(text, columns=("jp", "title", "publisher", "notes"), extra=None, 
                 break
             col += 1
         cells = filled
-        if len(cells) < 3:
+        if len(cells) < min_cells:   # 表が 2 列だけの記事（ポケモンミニ）は min_cells=2
             print("skip:", cells, file=sys.stderr)
             continue
         c = dict(zip(columns, cells))
@@ -388,7 +388,7 @@ def main():
             text = re.sub(r"<!--.*?-->", "", text, flags=re.S)
         got = parse_rows(text, t.get("columns", ("jp", "title", "publisher", "notes")), t.get("extra"),
                          t.get("year"), wcfg.get("ref_code"), t.get("row_filter"), t.get("derive"),
-                         t.get("strip_title_mark"), t.get("date_text", False))
+                         t.get("strip_title_mark"), t.get("date_text", False), t.get("min_cells", 3))
         print(f"  {t['section']}: {len(got)} 行", file=sys.stderr)
         rows += got
     for r in rows:   # 表の発売日の欄が空・誤っている行の補正（platforms.py の date_fixes。根拠はそこに書く）
