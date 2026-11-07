@@ -1,0 +1,6 @@
+id,release_date,title,publisher,cassette_no,model_number,price_yen,price_tax,notes,wikipedia_article,release_date_sources,mame_name
+gamepock-jp-0001,1984,アストロボンバー,エポック社,1,,,,カセットビジョン用ソフト『アストロコマンド』の移植,,MAME（年のみ）,astrobom
+gamepock-jp-0002,1984,ブロックメイズ,エポック社,2,,,,スーパーカセットビジョン用ソフト『パンチボーイ』に類似,,MAME（年のみ）,blockmaz
+gamepock-jp-0003,1984,ポケコン マージャン,エポック社,3,,,,,,MAME（年のみ）,pokemahj
+gamepock-jp-0004,1984,ポケコン リバーシ,エポック社,4,,,,,,MAME（年のみ）,pokereve
+gamepock-jp-0005,1985,倉庫番,エポック社,5,,,,,倉庫番,MAME（年のみ）,sokoban

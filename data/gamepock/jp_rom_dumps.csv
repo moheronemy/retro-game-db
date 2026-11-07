@@ -1,0 +1,6 @@
+title_id,title,mame_name,mame_description,rom_name,size,crc32,sha1,mame_status,hash_source
+gamepock-jp-0001,アストロボンバー,astrobom,Astro Bomber,astrobom.bin,8192,b0fd260f,453a0f3c0952ebd8e691316c39960731f1996c09,yes,MAME
+gamepock-jp-0002,ブロックメイズ,blockmaz,Block Maze,blockmaz.bin,8192,cfb3291b,50dc5736200986b326b372c17c233c4180474471,yes,MAME
+gamepock-jp-0003,ポケコン マージャン,pokemahj,Pokekon Mahjongg,pokemahj.bin,16384,5c3eed48,918e1caa16cfae6b74da2026f3426d0a5818061c,yes,MAME
+gamepock-jp-0004,ポケコン リバーシ,pokereve,Pokekon Reversi,pokereve.bin,8192,1c461f91,ead4a4efe5439e2ec1f6befb50c350f73919da8d,yes,MAME
+gamepock-jp-0005,倉庫番,sokoban,Sokoban: Store Keepers,sokoban.bin,8192,5d6f7819,61ef6483e8f9935dd8b6351fd2bdfda3af3899bd,yes,MAME

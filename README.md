@@ -31,6 +31,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ピピンアットマーク | [`data/pippin/jp_titles.csv`](data/pippin/jp_titles.csv) | 52 | 50 | 0 | [`data/pippin/jp_rom_dumps.csv`](data/pippin/jp_rom_dumps.csv)（54 行） |
 | カシオ ルーピー | [`data/loopy/jp_titles.csv`](data/loopy/jp_titles.csv) | 11 | 11 | 6 | [`data/loopy/jp_rom_dumps.csv`](data/loopy/jp_rom_dumps.csv)（20 行） |
 | カシオ PV-1000 | [`data/pv1000/jp_titles.csv`](data/pv1000/jp_titles.csv) | 13 | 13 | 8 | [`data/pv1000/jp_rom_dumps.csv`](data/pv1000/jp_rom_dumps.csv)（13 行） |
+| ゲームポケコン | [`data/gamepock/jp_titles.csv`](data/gamepock/jp_titles.csv) | 5 | 0 | 0 | [`data/gamepock/jp_rom_dumps.csv`](data/gamepock/jp_rom_dumps.csv)（5 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -69,6 +70,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ピピンアットマーク | （未調査・0 件） | （0 件） | 本体同梱・通信用ディスク [`jp_system_discs.csv`](data/pippin/jp_system_discs.csv)（16 件。吸い出し [`jp_system_discs_rom_dumps.csv`](data/pippin/jp_system_discs_rom_dumps.csv) 19 行） |
 | ルーピー | （出典に記載なし・0 件） | （0 件） | |
 | PV-1000 | （出典に記載なし・0 件） | （0 件） | |
+| ゲームポケコン | （出典に記載なし・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -957,6 +959,23 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - 発売元は全てカシオ計算機。`original` は記事にある原作（コナミ・ナムコ・ユニバーサル・ジャレコのアーケードゲームの移植、カシオのオリジナル）。
 - 同時発売の上位機種 PV-2000（キーボード一体型。ソフトの互換性なし）は対象外。
 
+## ゲームポケコン
+
+エポック社のゲームポケコン（正式名称はゲームポケットコンピュータ。1984年発売、本体の定価 12,800 円）用のソフト。`id` は `gamepock-jp-<連番>`
+（年 → カセットの番号の順）。`scripts/build_gamepock.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・説明 | ja.wikipedia「ゲームポケコン」の「ソフトウェア」節（箇条書き。5 本） |
+| 年・カセットの番号・ハッシュ | MAME `hash/gamepock.xml` |
+
+- 全 5 本（本文に「ソフトは自社のみからの供給で5本のみ」。MAME と 1 対 1 で対応）。MAME の 2010年の個人制作デモと、
+  本体内蔵の機能（15 パズルの 3×4 版・グラフィック機能）は対象外。
+- 発売日は MAME の年だけ（4 本が 1984、『倉庫番』が 1985）。MAME の年が発売年か著作権表記の年かは分からない（`release_date_sources` が `MAME（年のみ）`）。
+- `cassette_no` は MAME の serial（`1`〜`5`）。カセットの番号とみられるが、パッケージの型番かどうか分からないので `model_number` は空欄。
+- 価格は出典が無く空欄。発売元は全てエポック社。`notes` は Wikipedia の説明（『アストロボンバー』はカセットビジョンの『アストロコマンド』の移植など）。
+- ハッシュは MAME（libretro に No-Intro の DAT が無く、MADB にも記録が無い）。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1451,6 +1470,7 @@ python3 scripts/enrich.py playdia
 python3 scripts/build_pippin.py                # ピピンアットマーク（MAME hash/pippin.xml ＋ Wikipedia の記事）→ data/pippin/
 python3 scripts/build_loopy.py                 # ルーピー（Wikipedia の記事 ＋ No-Intro・MAME のハッシュ）→ data/loopy/
 python3 scripts/build_pv1000.py                # PV-1000（Wikipedia の記事 ＋ MADB ＋ No-Intro）→ data/pv1000/
+python3 scripts/build_gamepock.py              # ゲームポケコン（Wikipedia の記事 ＋ MAME）→ data/gamepock/
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧
