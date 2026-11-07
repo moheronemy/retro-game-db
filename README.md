@@ -32,6 +32,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | カシオ ルーピー | [`data/loopy/jp_titles.csv`](data/loopy/jp_titles.csv) | 11 | 11 | 6 | [`data/loopy/jp_rom_dumps.csv`](data/loopy/jp_rom_dumps.csv)（20 行） |
 | カシオ PV-1000 | [`data/pv1000/jp_titles.csv`](data/pv1000/jp_titles.csv) | 13 | 13 | 8 | [`data/pv1000/jp_rom_dumps.csv`](data/pv1000/jp_rom_dumps.csv)（13 行） |
 | ゲームポケコン | [`data/gamepock/jp_titles.csv`](data/gamepock/jp_titles.csv) | 5 | 0 | 0 | [`data/gamepock/jp_rom_dumps.csv`](data/gamepock/jp_rom_dumps.csv)（5 行） |
+| ぴゅう太 | [`data/pyuuta/jp_titles.csv`](data/pyuuta/jp_titles.csv) | 26 | 0 | 7 | [`data/pyuuta/jp_rom_dumps.csv`](data/pyuuta/jp_rom_dumps.csv)（26 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -71,6 +72,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ルーピー | （出典に記載なし・0 件） | （0 件） | |
 | PV-1000 | （出典に記載なし・0 件） | （0 件） | |
 | ゲームポケコン | （出典に記載なし・0 件） | （0 件） | |
+| ぴゅう太 | （未調査・0 件） | （0 件） | カセットテープ [`jp_tape.csv`](data/pyuuta/jp_tape.csv)（8 件） |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -976,6 +978,31 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - 価格は出典が無く空欄。発売元は全てエポック社。`notes` は Wikipedia の説明（『アストロボンバー』はカセットビジョンの『アストロコマンド』の移植など）。
 - ハッシュは MAME（libretro に No-Intro の DAT が無く、MADB にも記録が無い）。
 
+## ぴゅう太
+
+トミーのぴゅう太（1982年発売のホビーパソコン。後継機のぴゅう太Jr.・ぴゅう太mk2 を含む）用のソフト。`id` は `pyuuta-jp-<連番>`
+（Wikipedia の表の № の順。発売順とは限らない）。`scripts/build_pyuuta.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・番号・ゲームアダプター・説明 | ja.wikipedia「ぴゅう太」の「ソフトウェア」節（ROM の表 № 1〜26、TAPE の箇条書き 8 本） |
+| 発売時期・価格 | メディア芸術データベース（ぴゅう太の作品と確かめた 8 件だけ） |
+| 年・serial・ハッシュ | MAME `hash/tutor.xml` |
+
+- 本リストは ROM カートリッジの 26 本（№ 1〜26。MAME の serial `001E`〜`026E` と一致）。カセットテープの 8 本（K-1〜K-3 と番号の無い 5 本）は
+  別リスト `jp_tape.csv`。デモカートリッジ・未発売の 2 本（ガジゴジ・ジャック・イン・ザ・ボックス）・米国版（TUTOR）は対象外。
+- `cassette_no` は表の №、`game_adapter` は表の ●（初代ぴゅう太では別売のゲームアダプターが要る。3 本）。
+- MADB の「[システム] ぴゅう太」の商品（29 件）には他機種の商品（PV-1000『ファイティングバグ』`GPA-110`、PV-2000『楽ガキスペシャル』`GPB-109`、
+  ソード M5『リアルテニス ソード版』など）が混じり、「ゲームNo.」も表の № と合わないものがあるので、題名でぴゅう太の作品と確かめた
+  ROM 7 本（フロッガー・ザウルスランド・スクランブル・ターピン・ナイトフライト・バミューダトライアングル・ベースボール）と
+  TAPE『算数教室/数の学校』だけ使う（スクリプトの `MADB_IDS`）。
+- 発売日: MADB の 7 本は MADB の発売時期（`1982-10` など）。残りは MAME の年（`release_date_sources` が `MAME（年のみ）`）。
+  MAME の年は MADB と食い違う例（『フロッガー』MAME 1983・MADB 1982-10）があり、確かさは低い。『ミッキーマウスのアスレチックランド』は MAME も「198?」で空欄。
+- 型番: MAME の serial（`001E` など）はパッケージの型番かどうか分からないので `mame_serial` に置き、`model_number` は空欄。
+- 価格は MADB の 7 本（4,800 円）と TAPE 1 本（1,000 円）だけ。1989年3月以前なので `税なし`。発売元は全てトミー。
+- ハッシュは MAME（libretro に No-Intro の DAT が無い）。『プーヤン』『ジャングラー』は MAME の項目に地域の記載が無く、
+  『ガッタンゴットン』『メイズパトロール』『バミューダトライアングル』は米国版と同じ項目、『スクランブル』『トロン』は米国版の別版の項目（`notes` に記載）。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1471,6 +1498,7 @@ python3 scripts/build_pippin.py                # ピピンアットマーク（M
 python3 scripts/build_loopy.py                 # ルーピー（Wikipedia の記事 ＋ No-Intro・MAME のハッシュ）→ data/loopy/
 python3 scripts/build_pv1000.py                # PV-1000（Wikipedia の記事 ＋ MADB ＋ No-Intro）→ data/pv1000/
 python3 scripts/build_gamepock.py              # ゲームポケコン（Wikipedia の記事 ＋ MAME）→ data/gamepock/
+python3 scripts/build_pyuuta.py                # ぴゅう太（Wikipedia の記事 ＋ MADB ＋ MAME）→ data/pyuuta/
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧

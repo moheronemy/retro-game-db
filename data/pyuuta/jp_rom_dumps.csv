@@ -1,0 +1,27 @@
+title_id,title,mame_name,mame_description,mame_serial,rom_name,size,crc32,sha1,mame_status,hash_source
+pyuuta-jp-0001,ボンブマン,bombman,Bombman (Japan),001E,bombman.bin,8192,e6a7b204,e39deede7d76021e3be2cab09142af54fe97a847,yes,MAME
+pyuuta-jp-0002,モンスターイン,mnstrinn,Monster Inn (Japan),002E,mnstrinn.bin,8192,2af704f8,457acdeb308f2874021741f13fc8f74d52c361af,yes,MAME
+pyuuta-jp-0003,ザウルスランド,saurus,Saurusland (Japan),003E,saurus.bin,8192,87085401,bb4dd5b39a9a3992f4a67bf479be4ec0693c5845,yes,MAME
+pyuuta-jp-0004,ターピン,turpin,Turpin (Japan),004E,turpin.bin,8192,d00210df,74b30511f899e0b060981aa68f93c511df15f3d3,yes,MAME
+pyuuta-jp-0005,フロッガー,frogger,Frogger (Japan),005E,frogger.bin,8192,fffd897e,0778e0711e3c5a0d36b486f64bf7cc8ee8f9f8b5,yes,MAME
+pyuuta-jp-0006,スクランブル,scramblej,Scramble (Japan),006E,scramblej.bin,8192,bd708ab4,9029d16c123e6d35a5f3ed4fbc9eefae8948215f,yes,MAME
+pyuuta-jp-0007,ナイトフライト,nflight,Night Flight (Japan),007E,nightfli.bin,8192,db469444,d8b5f6888ec95b2e55ebfe8c9e0434f402cc0975,yes,MAME
+pyuuta-jp-0008,マリンアドベンチャー,marinadv,Marine Adventure (Japan),008E,tomy 32.2.u1,8192,90f6a3d9,9e7007b97ec2c1cf865b2f55989bb616af14a6e6,yes,MAME
+pyuuta-jp-0009,ミッションアタック,misattck,Mission Attack (Japan),009E,misattck.bin,8192,398b2321,e15d13a34b4aa0335d00c4c6bf1afda643f80905,yes,MAME
+pyuuta-jp-0010,トラフィックジャム,trafjam,Traffic Jam (Japan),,tomy 33.5.ic1,8192,c970f2c3,086825470d349f3bbd598bbb8b8c9e13aa2458b6,yes,MAME
+pyuuta-jp-0011,ミステリーゴールド,mysteryg,Mystery Gold (Japan),011E,mysteryg.bin,8192,2c4f30b8,8d1fcb8e86f4e2d5557a7c39e7859811311a966a,yes,MAME
+pyuuta-jp-0012,ドンパン,donpan,DonPan (Japan),012E,tomy33.5.u1,8192,1ec59f0e,0cd5edf7c7ec9cf7d0066dc9e75a5cca0062cbfc,yes,MAME
+pyuuta-jp-0013,ミッキーマウスのアスレチックランド,athland,Mickey Athletic Land (Japan),013E,m5l2764k.u1,8192,b0cf81bc,782a5f0f86917739bbee772e4b836e6f3b67578c,yes,MAME
+pyuuta-jp-0014,プーヤン,pooyan,Pooyan,,pooyan.bin,8192,05396699,f16f92591ac19b61707b61892d2abcedb47b0897,yes,MAME
+pyuuta-jp-0015,ジャングラー,jungler,Jungler,,jungler.bin,8192,ad635119,461cdca0b6e478c11dd598ccf2cbbbd5a6fe8125,yes,MAME
+pyuuta-jp-0016,ガッタンゴットン,locomotn,Loco-motion (USA) / Guttang Gottong (Japan),8203,lmotion.bin,8192,1f652f42,fa2e6129d29f9d38f1102da3678659d845daec5b,yes,MAME
+pyuuta-jp-0017,メイズパトロール,crawlers,Cave Crawlers (USA) / Maze Patrol (Japan),8100 / 017E,tomy 36.7.u1,8192,f3059779,fd51c445f0356ed3796bdbbd4a7f6086d7bb5331,yes,MAME
+pyuuta-jp-0018,トロン,tron,Tron (Japan),,tron.bin,8192,280f191d,0d8b5c43db89a438f6036794be7628793643818b,yes,MAME
+pyuuta-jp-0019,Mr. Do!,mrdo,Mr. Do! (Japan),019E,tomy 3l1.ic1.bin,16384,1dfa3f4b,93d1c17c5edd44f27c28cde88a68f609b77feb0c,yes,MAME
+pyuuta-jp-0020,バミューダトライアングル,torpedo,Torpedo Terror (USA) / Bermuda Triangle (Japan),8101 / 020E,torpedo.bin,8192,95577ceb,4b75c4bdd2285eff5ed0df3a951d8527270e6b96,yes,MAME
+pyuuta-jp-0021,四人麻雀,4ninmj,"4-nin Mahjan (Japan, set 1)",021E,Yonnin Majan.bin,16384,1c2eb2f0,4e9a0ce55f479c4b1a5fee9320561ce93765c4d7,yes,MAME
+pyuuta-jp-0022,トリプルコマンド,tripcomm,Triple Command (Japan),022E,tripl.bin,8192,d2bc85cc,a7c59c6c6c673f3706decfed4b5df46ed1e6cf88,yes,MAME
+pyuuta-jp-0023,スーパーバイク,superbik,Super Bike (Japan),023E,SuperBike(JP).BIN,16384,d66d2bc4,1941a4746b6ed0664dde0816966bc892d99691f6,yes,MAME
+pyuuta-jp-0024,レスキューコプター,rescue3d,Rescue Copter [3D] (Japan),024E,rescue.bin,32768,b28307dc,137c8d3cdc10a9ecb6270ee61c7a0979a26b3064,yes,MAME
+pyuuta-jp-0025,ベースボール,baseball,Baseball [3D] (Japan),025E,baseball.bin,32768,8f857d5f,2b612245777749e26d9c92ce7222d8db9582617f,yes,MAME
+pyuuta-jp-0026,バトルファイター,batlfght,Battle Fighter [3D] (Japan),026E,Battlefighter(JP).BIN,32768,e507480a,acb478e71f771854827217dd95472572759cb9d8,yes,MAME

@@ -1,0 +1,27 @@
+id,release_date,title,publisher,cassette_no,game_adapter,model_number,mame_serial,price_yen,price_tax,notes,wikipedia_article,release_date_sources,price_source,madb_id,mame_name
+pyuuta-jp-0001,1982,ボンブマン,トミー,1,,,001E,,,爆弾魔の投擲する爆弾を消火する,,MAME（年のみ）,,,bombman
+pyuuta-jp-0002,1983,モンスターイン,トミー,2,,,002E,,,ロードランナータイプのゲーム（敵を掘った穴にすべて埋めるとステージクリア）,,MAME（年のみ）,,,mnstrinn
+pyuuta-jp-0003,1982-10,ザウルスランド,トミー,3,,,003E,4800,税なし,もぐらたたきゲームの亜流、プレイヤーは原始人になってマンモスや恐竜を叩きまくる,,MADB,MADB,M732186,saurus
+pyuuta-jp-0004,1982-10,ターピン,トミー,4,,,004E,4800,税なし,子亀をゴールまで導くゲーム,,MADB,MADB,M733437,turpin
+pyuuta-jp-0005,1982-10,フロッガー,トミー,5,,,005E,4800,税なし,,フロッガー (ゲーム),MADB,MADB,M729769,frogger
+pyuuta-jp-0006,1982-10,スクランブル,トミー,6,,,006E,4800,税なし,MAME の項目は「Scramble (Japan)」（米国版の別版）,スクランブル (ゲーム),MADB,MADB,M732198,scramblej
+pyuuta-jp-0007,1982-12,ナイトフライト,トミー,7,,,007E,4800,税なし,陣取りゲーム,,MADB,MADB,M731356,nflight
+pyuuta-jp-0008,1982,マリンアドベンチャー,トミー,8,,,008E,,,深海魚を撃って海底都市にたどり着くシューティングゲーム,,MAME（年のみ）,,,marinadv
+pyuuta-jp-0009,1982,ミッションアタック,トミー,9,,,009E,,,バイクに乗って擬似3Dシューティング,,MAME（年のみ）,,,misattck
+pyuuta-jp-0010,1982,トラフィックジャム,トミー,10,,,,,,道路を塗りつぶすいわばドットイートアクション,,MAME（年のみ）,,,trafjam
+pyuuta-jp-0011,1983,ミステリーゴールド,トミー,11,,,011E,,,ディグダグタイプのゲーム,,MAME（年のみ）,,,mysteryg
+pyuuta-jp-0012,1982,ドンパン,トミー,12,,,012E,,,風船を割るゲーム,,MAME（年のみ）,,,donpan
+pyuuta-jp-0013,,ミッキーマウスのアスレチックランド,トミー,13,,,013E,,,横スクロールアクションゲーム,,,,,athland
+pyuuta-jp-0014,1982,プーヤン,トミー,14,,,,,,MAME の項目は「Pooyan」（日本版の吸い出しかどうかは記載が無い）,プーヤン,MAME（年のみ）,,,pooyan
+pyuuta-jp-0015,1981,ジャングラー,トミー,15,,,,,,MAME の項目は「Jungler」（日本版の吸い出しかどうかは記載が無い）,ジャングラー,MAME（年のみ）,,,jungler
+pyuuta-jp-0016,1983,ガッタンゴットン,トミー,16,,,8203,,,MAME の項目は「Loco-motion (USA) / Guttang Gottong (Japan)」,ガッタンゴットン,MAME（年のみ）,,,locomotn
+pyuuta-jp-0017,1983,メイズパトロール,トミー,17,,,8100 / 017E,,,迷路ゲーム。MAME の項目は「Cave Crawlers (USA) / Maze Patrol (Japan)」,,MAME（年のみ）,,,crawlers
+pyuuta-jp-0018,1983,トロン,トミー,18,,,,,,トロン (映画)のゲーム化。MAME の項目は「Tron (Japan)」（米国版の別版）,,MAME（年のみ）,,,tron
+pyuuta-jp-0019,1983,Mr. Do!,トミー,19,,,019E,,,,Mr. Do!,MAME（年のみ）,,,mrdo
+pyuuta-jp-0020,1983,バミューダトライアングル,トミー,20,,,8101 / 020E,4800,税なし,潜水艦シューティング。MAME の項目は「Torpedo Terror (USA) / Bermuda Triangle (Japan)」,,MADB,MADB,M728719,torpedo
+pyuuta-jp-0021,1984,四人麻雀,トミー,21,,,021E,,,,,MAME（年のみ）,,,4ninmj
+pyuuta-jp-0022,1983,トリプルコマンド,トミー,22,,,022E,,,ステージ毎に戦艦、戦車、戦闘機と自機が変化するシューティングゲーム,,MAME（年のみ）,,,tripcomm
+pyuuta-jp-0023,1984,スーパーバイク,トミー,23,,,023E,,,横スクロールアクションゲーム,,MAME（年のみ）,,,superbik
+pyuuta-jp-0024,1984,レスキューコプター,トミー,24,yes,,024E,,,救難ヘリでいろいろな救助活動を擬似3Dシミュレート,,MAME（年のみ）,,,rescue3d
+pyuuta-jp-0025,1984,ベースボール,トミー,25,yes,,025E,4800,税なし,,,MADB,MADB,M728600,baseball
+pyuuta-jp-0026,1985,バトルファイター,トミー,26,yes,,026E,,,低空、中空、高空概念のある縦スクロールシューティング,,MAME（年のみ）,,,batlfght
