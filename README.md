@@ -35,6 +35,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ぴゅう太 | [`data/pyuuta/jp_titles.csv`](data/pyuuta/jp_titles.csv) | 26 | 0 | 7 | [`data/pyuuta/jp_rom_dumps.csv`](data/pyuuta/jp_rom_dumps.csv)（26 行） |
 | アルカディア | [`data/arcadia/jp_titles.csv`](data/arcadia/jp_titles.csv) | 19 | 0 | 4 | [`data/arcadia/jp_rom_dumps.csv`](data/arcadia/jp_rom_dumps.csv)（4 行） |
 | 光速船 | [`data/vectrex/jp_titles.csv`](data/vectrex/jp_titles.csv) | 5（全件ではない） | 0 | 0 | （日本版の記録なし） |
+| インテレビジョン | [`data/intv/jp_titles.csv`](data/intv/jp_titles.csv) | 22（全件かは不明） | 0 | 22 | （日本版の記録なし） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -77,6 +78,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ぴゅう太 | （未調査・0 件） | （0 件） | カセットテープ [`jp_tape.csv`](data/pyuuta/jp_tape.csv)（8 件） |
 | アルカディア | （出典に記載なし・0 件） | （0 件） | |
 | 光速船 | （出典に記載なし・0 件） | （0 件） | |
+| インテレビジョン | （未調査・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -1043,6 +1045,21 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
 - ハッシュは載せない（日本版の吸い出しの記録が無く、米国版と中身が同じかは出典で確かめられない）。
 - 日本版の一覧の載った出典（当時の雑誌・バンダイのカタログなど）が見つかれば追加する。
 
+## インテレビジョン
+
+バンダイのインテレビジョン（1982年7月発売、49,800 円。米国マテルの Intellivision の日本版）用のソフト。`id` は `intv-jp-<連番>`
+（発売時期 → 題名の順）。`scripts/build_intv.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・英字題・発売時期・価格 | メディア芸術データベース（機種の欄が「Intellivision」で発売元がバンダイの 22 件。MADB の出典は現物・セールスマニュアル「ACTIVE BANDAI」・『トイジャーナル』『トイズマガジン』） |
+
+- **全件かは不明**。Wikipedia に日本のソフトの一覧は無く（英語版の一覧へのリンクのみ）、MAME `hash/intv.xml`・No-Intro（`Mattel - Intellivision`）にも
+  日本版の項目が無いので、MADB にある分だけを載せた（合意済み）。MADB の米国 Imagic 社のカートリッジ 2 件（日本での発売の記録が無い）は対象外。
+- 発売時期は MADB（15 件が `1982-08`、7 件が年のみの `1982`）。価格も MADB（4,800〜5,800 円。`税なし`）。`title_en` は MADB の英字題。
+  `notes` の「ゲームシート同梱」は MADB の記載（コントローラに差し込むオーバーレイ）。
+- 型番は出典が無く空欄。ハッシュは載せない（日本版の吸い出しの記録が無く、英字題から米国版のハッシュを当てることはしない）。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1541,6 +1558,7 @@ python3 scripts/build_gamepock.py              # ゲームポケコン（Wikiped
 python3 scripts/build_pyuuta.py                # ぴゅう太（Wikipedia の記事 ＋ MADB ＋ MAME）→ data/pyuuta/
 python3 scripts/build_arcadia.py               # アルカディア（Wikipedia の記事 ＋ MAME）→ data/arcadia/
 python3 scripts/build_vectrex.py               # 光速船（Wikipedia の記事のみ。全件ではない）→ data/vectrex/
+python3 scripts/build_intv.py                  # インテレビジョン（MADB のみ。全件かは不明）→ data/intv/
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧
