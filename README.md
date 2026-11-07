@@ -39,6 +39,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | キッズコンピュータ・ピコ | [`data/pico/jp_titles.csv`](data/pico/jp_titles.csv) | 245 | 214 | 0 | [`data/pico/jp_rom_dumps.csv`](data/pico/jp_rom_dumps.csv)（224 行） |
 | マイビジョン | [`data/myvision/jp_titles.csv`](data/myvision/jp_titles.csv) | 6 | 0 | 6 | [`data/myvision/jp_rom_dumps.csv`](data/myvision/jp_rom_dumps.csv)（11 行） |
 | ポケモンミニ | [`data/pokemini/jp_titles.csv`](data/pokemini/jp_titles.csv) | 10 | 0 | 0 | [`data/pokemini/jp_rom_dumps.csv`](data/pokemini/jp_rom_dumps.csv)（19 行） |
+| アタリ2800 | [`data/atari2800/jp_titles.csv`](data/atari2800/jp_titles.csv) | 27（全件かは不明） | 0 | 0 | [`data/atari2800/jp_rom_dumps.csv`](data/atari2800/jp_rom_dumps.csv)（6 行） |
 | スーパーカセットビジョン (SCV) | [`data/scv/jp_titles.csv`](data/scv/jp_titles.csv) | 30 | 0 | 0 | [`data/scv/jp_rom_dumps.csv`](data/scv/jp_rom_dumps.csv)（31 行） |
 | バーチャルボーイ (VB) | [`data/vb/jp_titles.csv`](data/vb/jp_titles.csv) | 19 | 19 | 4 | [`data/vb/jp_rom_dumps.csv`](data/vb/jp_rom_dumps.csv)（21 行） |
 | PlayStation Portable (PSP) | [`data/psp/jp_titles.csv`](data/psp/jp_titles.csv) | 1,460 | 828 | 1,392 | [`data/psp/jp_rom_dumps.csv`](data/psp/jp_rom_dumps.csv)（850 行） |
@@ -58,6 +59,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | 機種 | 理由 |
 |---|---|
 | セガAIコンピュータ（セガ、1986年） | 3〜8歳児向けの CAI（コンピュータ支援教育）用ホームコンピュータで、ソフトは教材（コースウェア）だけ。丸紅が知育教材「くもん わんだぁすくーる」（全18巻）とのセットで販売し、1 本ずつ店頭で売られたものではない。ja.wikipedia のコースウェアの一覧は販売開始当初のパンフレットのもので、実際に供給された内容と異なる場合があると注記されている（MAME `segaai` には ICカード版・テープ版など 36 件がある） |
+| エポック社のカセットTVゲーム（Atari VCS の日本での販売。1979〜1980年） | ja.wikipedia「Atari 2600」に販売の記述（本体 57,300 円、カートリッジ 12,500 円）があるだけで、ソフトの一覧の出典が無い。MAME・No-Intro・MADB にも日本版の記録が無い |
 
 
 | 機種 | 非売品 | 店頭体験版・開発版・試作品 | その他 |
@@ -92,6 +94,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ピコ | [`jp_not_for_sale.csv`](data/pico/jp_not_for_sale.csv)（キャンペーン非売品 1 件） | （0 件） | 本体とのセット [`jp_bundles.csv`](data/pico/jp_bundles.csv)（11 件）・コペラ対応 [`jp_copera.csv`](data/pico/jp_copera.csv)（9 件） |
 | マイビジョン | （出典に記載なし・0 件） | （0 件） | |
 | ポケモンミニ | （出典に記載なし・0 件） | [`jp_non_retail.csv`](data/pokemini/jp_non_retail.csv)（体験版 5 件・GC ソフト収録版 3 件） | |
+| アタリ2800 | （出典に記載なし・0 件） | （0 件） | |
 | VB | （未調査・0 件） | [`jp_non_retail.csv`](data/vb/jp_non_retail.csv)（試作品 2 件） | |
 | PSP | [`jp_not_for_sale.csv`](data/psp/jp_not_for_sale.csv)（1 件） | （0 件） | 配信専用 [`jp_download.csv`](data/psp/jp_download.csv)（104 件） |
 | DC | [`jp_not_for_sale.csv`](data/dc/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/dc/jp_non_retail.csv)（店頭体験版 22 件） | |
@@ -1136,6 +1139,26 @@ SG-1000・SC-3000 のソフト（マークIII でも動く）はここに含め�
   （3 件。GC 用ソフトの中で遊べる版とみられる）は `gc_bonus`（どちらも `overrides/non_retail_manual.csv` で手動）。製品版のある『ポケモンパズルコレクション』の
   GameCube の版は、ほかの機種の GC 用ソフト収録版と同じく製品版の行の吸い出し（`dump_kind` が `collection`）にした。
 
+## アタリ2800
+
+アタリ・インターナショナル日本支社のアタリ2800（Atari 2800。1983年5月10日発売、19,900 円。日本市場向けの Atari 2600）用のソフト。
+`id` は `atari2800-jp-<連番>`（記事の並び順）。`scripts/build_atari2800.py` で作る（enrich.py は使わない）。
+
+| 用途 | 出典 |
+|---|---|
+| タイトル・発売日 | ja.wikipedia「Atari 2600」の「バリエーション」節の Atari 2800 の項 |
+| ハッシュ | No-Intro DAT（libretro 収録の Atari - 2600）の「(Japan, USA)」の吸い出し |
+
+- 本文に「31タイトルを発売、この内の25タイトルが本体と同時発売。全てAtari 2600用ソフトのコンバージョン」とある。載せたのは
+  パンフレットカタログの第1弾 25 本（発売日 `1983-05-10`）と、パッケージと説明書が確認されている 2 本（『パックマン』『飛び鳥戦士』。発売日は空欄）の 27 本。
+  **全件かは分からない**（31 本と合わない）。アンケートはがき（83.11.15 作成）にだけ名前のある 10 本（ギャラクシアン・ポールポジション・
+  ムーンパトロール〈近日発売〉など）は、発売が確かめられないので載せない（合意済み）。
+- 題名はパンフレットの日本語題のまま（『アステロイド（小遊星）』のような括弧の読み添えも残す）。発売元は全てアタリ・インターナショナル日本支社。
+- 価格・型番は出典が無く空欄（MADB・MAME `hash/a2600.xml` に日本版の記録が無い）。
+- ハッシュは No-Intro が「(Japan, USA)」と記録した吸い出しのうち、題名の対応が明らかな 5 本（空・海戦闘・アステロイド・バザーク・センティビード・
+  サーカス・アタリ）だけ。『空・海戦闘』の Atari Anthology 版は `dump_kind` が `collection`。米国だけの吸い出しは使わない。
+- エポック社が 1979〜1980年に販売したカセットTVゲーム（Atari VCS）は対象外（「対象外とした機種」）。
+
 ## SCV
 
 エポック社のスーパーカセットビジョン（1984年発売）用のソフト。他社の参入は無く、全てエポック社の発売。`id` は `scv-jp-<連番>`（カセットの通し番号の順）。
@@ -1659,6 +1682,8 @@ python3 scripts/build_myvision.py              # マイビジョン（Wikipedia 
 python3 scripts/fetch_wikipedia_list.py pokemini   # 本体の記事の表（2 列）
 python3 scripts/enrich.py pokemini
 python3 scripts/build_dumps.py pokemini
+
+python3 scripts/build_atari2800.py             # アタリ2800（Wikipedia の Atari 2600 の記事 ＋ No-Intro）→ data/atari2800/
 
 # 発売日の確認（enrich.py の後。食い違いのある行の作品の記事を取得して照らし合わせる）
 python3 scripts/check_release_dates.py --list-articles .cache/release_date_articles.txt   # 要る記事名の一覧
