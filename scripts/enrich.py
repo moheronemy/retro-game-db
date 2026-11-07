@@ -404,6 +404,11 @@ def main():
             if off and val and off[0] != val:
                 if CR.same_level(off[0], val):   # 公式は審査時の旧区分、MADB は新区分に書き換えたもの
                     val, descs, src = off[0], off[1] or descs, "CERO公式（MADB は新区分の表記）"
+                elif not CR.same_level(val, off[0]) and off[3] >= 1.0:
+                    # 題名が完全に一致する CERO 公式の審査タイトルは、審査をした機関の記録として公式を採る（合意済み）
+                    issues.append(f"CERO公式を採用 MADB={val} CERO公式={off[0]}")
+                    src = f"CERO公式（MADB は {val}）"
+                    val, descs = off[0], off[1]
                 elif not CR.same_level(val, off[0]):
                     issues.append(f"CERO不一致 MADB={val} CERO公式={off[0]}（{off[2]}）")
             if not val and off:
@@ -423,9 +428,14 @@ def main():
                 hit = CR.gametdb_lookup(tdb, cfg["cero"]["gametdb_key"](model))
                 if hit and hit[0] != val:
                     issues.append(f"CERO不一致 MADB={val} GameTDB={hit[0]}")
+            desc_src = src.split("（")[0] if descs else ""
+            if val and not descs and off and off[0] == val and off[1]:
+                # MADB などで区分を採ったがアイコンの記録が無い → 区分が同じ CERO 公式の審査タイトルのアイコン（合意済み）
+                descs, desc_src = off[1], "CERO公式"
             if val in ("A", "B", "C", "D", "Z") and date < CR.NEW_SYSTEM_FROM:
                 src += "（新区分の表記。再販時の区分とみられる）"   # 新区分は 2006年3月から
-            r.update({"cero": val, "cero_descriptors": ";".join(descs) if val else "", "cero_source": src})
+            r.update({"cero": val, "cero_descriptors": ";".join(descs) if val else "", "cero_source": src,
+                      "cero_descriptors_source": desc_src if val else ""})
         for col, fn in cfg.get("derive", {}).items():  # 型番などから決まる列（DS の compat）
             r[col] = fn({**r, "model_number": model})
         for col in cfg.get("extra_columns", []):   # 手動補正（SG-1000 のマイカード再販の型番など）
@@ -454,7 +464,7 @@ def main():
 
     for n, r in enumerate(rows, 1):
         r["id"] = f"{cfg['id_prefix']}-{n:04d}"
-    extra = [c for c in cfg.get("extra_columns", [])] + (["cero", "cero_descriptors", "cero_source"] if cfg.get("cero") else [])
+    extra = [c for c in cfg.get("extra_columns", [])] + (["cero", "cero_descriptors", "cero_source", "cero_descriptors_source"] if cfg.get("cero") else [])
     fields = BASE_FIELDS[:4] + extra + BASE_FIELDS[4:] + (["maru_code"] if maru is not None else [])
     C.write_csv(data / "jp_titles.csv", rows, fields)
     C.write_csv(data / "review" / "match_report.csv", report)

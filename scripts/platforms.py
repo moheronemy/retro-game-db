@@ -734,6 +734,7 @@ PLATFORMS = {
         # DSiウェア（ダウンロード専用ソフト）は別リスト。fetch_wikipedia_list.py ds --list dsiware
         "extra_lists": {
             "dsiware": {
+                "cero_official": "NDS",   # CERO 公式のタイトル検索で区分を付ける（scripts/cero_extra_lists.py）
                 "out": "jp_dsiware.csv",
                 "id_suffix": "dsiware",
                 "tables": [
@@ -1142,6 +1143,7 @@ PLATFORMS = {
                                   "strip_title_mark": "*"}]},
         "extra_lists": {
             "psn": {
+                "cero_official": "PS3",   # CERO 公式のタイトル検索で区分を付ける（scripts/cero_extra_lists.py）
                 "out": "jp_psn.csv",
                 "id_suffix": "psn",
                 "tables": [{"page": "PlayStation 3のゲームタイトル一覧", "section": "配信専用タイトル",
@@ -1492,6 +1494,7 @@ PLATFORMS = {
             "columns": _PSP_COLUMNS, "row_filter": lambda r: not re.search(r"[▲△]", r.get("dl", "")), "derive": _PSP_DERIVE}]},
         "extra_lists": {
             "download": {
+                "cero_official": "PSP",   # CERO 公式のタイトル検索で区分を付ける（scripts/cero_extra_lists.py）
                 "out": "jp_download.csv",
                 "id_suffix": "dl",
                 "tables": [{"page": "PlayStation Portableのゲームタイトル一覧", "section": "発売されたタイトル",
@@ -1556,6 +1559,7 @@ PLATFORMS = {
             "derive": _X360_DERIVE}]},
         "extra_lists": {
             "download": {
+                "cero_official": "Xbox360",   # CERO 公式のタイトル検索で区分を付ける（scripts/cero_extra_lists.py）
                 "out": "jp_download.csv",
                 "id_suffix": "dl",
                 "tables": [{"page": "Xbox 360のゲームタイトル一覧", "section": "発売されたタイトル", "table_id": "softwarelist",
@@ -1675,6 +1679,7 @@ PLATFORMS = {
         },
         "extra_lists": {
             "wiiware": {
+                "cero_official": "Wii",   # CERO 公式のタイトル検索で区分を付ける（scripts/cero_extra_lists.py）
                 "out": "jp_wiiware.csv",
                 "id_suffix": "wiiware",
                 "tables": [{"page": "Wiiウェアのゲームタイトル一覧", "section": "配信されたタイトル",

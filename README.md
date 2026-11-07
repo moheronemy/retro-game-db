@@ -1507,7 +1507,7 @@ PS・PS2・PS3・PSP・DC・3DO（と SS・MD・メガCD・PCE）で、MADB・MA
 
 ## CERO 年齢区分
 
-2002年以降に発売のある機種（GBA・GC・DS・Wii・PS・PS2・PS3・PSP・Xbox・Xbox 360・DC・WS）の `jp_titles.csv` に 3 列を加えた
+2002年以降に発売のある機種（GBA・GC・DS・Wii・PS・PS2・PS3・PSP・Xbox・Xbox 360・DC・WS）の `jp_titles.csv` に 4 列を加えた
 （`scripts/cero.py`。enrich.py で付ける）。CERO 以外の区分（ESRB・PEGI、コンピュータソフトウェア倫理機構など）は採らない。CERO より前の
 機種の年齢表示は対象外（SS・PC-FX は `age_rating` 列）。
 
@@ -1515,6 +1515,7 @@ PS・PS2・PS3・PSP・DC・3DO（と SS・MD・メガCD・PCE）で、MADB・MA
 |---|---|
 | `cero` | 表記のまま。旧区分（〜2006年2月）は `全年齢`・`12`・`15`・`18`、新区分（2006年3月〜）は `A`・`B`・`C`・`D`・`Z`。区分の審査の対象外の `教育・データベース`（CERO 公式の表記。DS 103 件・PSP 25 件・Wii 1 件） |
 | `cero_descriptors` | 内容アイコン（`暴力;セクシャル` のように `;` 区切り。記録のあるものだけ） |
+| `cero_descriptors_source` | 内容アイコンの出典（`MADB` / `CERO公式` / `GameTDB`）。区分を MADB などから採っても、アイコンの記録が無ければ区分が同じ CERO 公式の審査タイトルのアイコンを入れる |
 | `cero_source` | `MADB`（照合した商品）/ `CERO公式`（CERO のタイトル検索）/ `CERO公式（MADB は新区分の表記）` / `GameTDB` / `MADB（別の版）`（照合した商品に区分が無く、同じ題名の別の商品〈the Best・限定版など〉の区分。別の商品どうしで食い違わないものだけ） |
 
 - 出典の優先順は MADB（`contentRating`・`contentRatingDescriptor`）→ CERO 公式サイトのタイトル検索 → GameTDB（`.cache/gametdb/`。Wii・GC は wiitdb、DS は dstdb、PS3 は ps3tdb。
@@ -1532,7 +1533,17 @@ PS・PS2・PS3・PSP・DC・3DO（と SS・MD・メガCD・PCE）で、MADB・MA
   - MADB に区分の無い行を補う（`CERO公式`。DS 183・PSP 60・PS3 25・Wii 21・Xbox 360 195 件）。
   - MADB が新区分・CERO 公式が旧区分で同じ程度のもの（『スーパーマリオ64DS』が MADB で `A`、CERO 公式で `全年齢` など）は、
     MADB が新区分に書き換えたものとみて、審査時の表記の CERO 公式を採った（`CERO公式（MADB は新区分の表記）`。DS 39・PSP 5・Xbox 360 10 件）。
-  - それ以外で MADB と食い違うものは MADB のまま、要確認レポートに「CERO不一致 MADB=… CERO公式=…」と出す（DS 3・PSP 3・PS3 7・Wii 1・Xbox 360 3 件）。
+  - それ以外で MADB と食い違うもののうち、CERO 公式の題名が完全に一致するものは、審査をした機関の記録として CERO 公式を採る
+    （`CERO公式（MADB は C）` のように記す。要確認レポートに「CERO公式を採用」。合意済み。DS 3・PSP 2・PS3 7・Wii 1・Xbox 360 2 件）。
+    題名が似ているだけのものは MADB のまま「CERO不一致 MADB=… CERO公式=…」と出す。
+- 内容アイコン: MADB の記録は少ないので、区分が MADB と同じ CERO 公式の審査タイトルのアイコンで補った（PSP 693・PS3 494・Xbox 360 313・DS 223・Wii 80 件が
+  `cero_descriptors_source` = `CERO公式`）。B〜Z の区分でアイコンの無い行は PS2 752 / 810 件（CERO 公式で確かめられない）、PS3 112、PSP 93 など。
+- 配信専用などの別リスト（DSiウェア `jp_dsiware.csv`・Wiiウェア `jp_wiiware.csv`・PSN `jp_psn.csv`・PSP / Xbox 360 のダウンロード専売 `jp_download.csv`）にも
+  同じ 4 列を加えた（`scripts/cero_extra_lists.py`。MADB と照合しないので CERO 公式だけ。照合の規則は本リストと同じ）。区分が付いたのは
+  DSiウェア 376 / 493・Wiiウェア 187 / 210・PSN 134 / 299・PSP 45 / 104・Xbox 360 8 / 24 件。
+- 古い機種（PS2・GBA・GC・Xbox・DC・PS・WS）の空欄（PS2 で約 570 件など）は、この環境から使える出典が無い。CERO 公式の検索データベースは
+  機種を指定しなくても PSP 以降の機種しか出てこず、ja.wikipedia の作品記事は基本情報欄に区分の項目が無い（本文で触れる記事も少なく、どの機種版の区分かも分からない）。
+  2006年3月より前の発売で新区分の表記のもの（PS2 725 件など）は、値を残して「再販時の区分とみられる」と注記したまま（合意済み）。
 
 ## 再生成
 
@@ -1547,6 +1558,7 @@ python3 scripts/build_nintendo_power.py gb     # → data/gb/jp_nintendo_power.c
 python3 scripts/build_dumps.py gb
 
 python3 scripts/fetch_cero.py                  # CERO のタイトル検索（DS・PSP・PS3・Wii・Xbox 360）→ .cache/cero/（2 秒間隔で 722 ページ）
+python3 scripts/cero_extra_lists.py            # 配信専用などの別リストに CERO 公式の区分（fetch_wikipedia_list.py --list の後に）
 
 python3 scripts/fetch_wikipedia_list.py ds
 python3 scripts/fetch_wikipedia_list.py ds --list dsiware   # → data/ds/jp_dsiware.csv
