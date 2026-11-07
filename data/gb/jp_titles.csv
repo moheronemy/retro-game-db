@@ -127,7 +127,7 @@ gb-jp-0125,1990-12-11,スパルタンX,アイレム,gb,,DMG-SXJ,3500,税込,,ス
 gb-jp-0126,1990-12-12,プリプリ PRIMITIVE PRINCESS!,サンソフト,gb,,DMG-P2A,3200,税込,,プリプリ PRIMITIVE PRINCESS!,Wikipedia+MADB+MAME,MAME,MADB,プリプリ PRIMITIVE PRINCESS!,M755629,pripri
 gb-jp-0127,1990-12-13,ドラゴンテール,アイマックス,gb,,DMG-DRA,3500,税込,,ドラゴンテール,Wikipedia+MADB+MAME,MAME,MADB,ドラゴンテール,M752507,dtail
 gb-jp-0128,1990-12-14,Sa・Ga2 秘宝伝説,スクウェア,gb,,DMG-S2J,4800,税込,サガシリーズ第2作,Sa・Ga2 秘宝伝説,Wikipedia+MADB+MAME,MAME+MADB,MADB,Sa・Ga2 秘宝伝説,M727129,saga2a
-gb-jp-0129,1990-12-14,銀河,ホット・ビィ,gb,,,3500,税込,,銀河 (ゲーム),Wikipedia+MADB,,MADB,銀河,M760874,
+gb-jp-0129,1990-12-14,銀河,ホット・ビィ,gb,,DMG-GGA,3500,税込,,銀河 (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,銀河,M760874,ginga
 gb-jp-0130,1990-12-14,クラックス,ハドソン,gb,,DMG-KLA,3500,税込,同名アーケードゲームのアレンジ移植,クラックス,Wikipedia+MADB+MAME,MAME,MADB,クラックス,M747532,klaxj
 gb-jp-0131,1990-12-14,ネコジャラ物語,KEMCO,gb,,DMG-NJJ,3300,税込,,ネコジャラ物語,Wikipedia+MADB+MAME,MAME,MADB,ネコジャラ物語,M753257,nekojara
 gb-jp-0132,1990-12-14,ポケットスタジアム,アトラス,gb,,DMG-PKJ,3300,税込,,ポケットスタジアム,Wikipedia+MADB+MAME,MAME,MADB,ポケットスタジアム,M756244,poktstad
@@ -226,7 +226,7 @@ gb-jp-0224,1991-11-01,コナミックゴルフ,コナミ,gb,,DMG-KGA,3800,税込
 gb-jp-0225,1991-11-08,熱血高校ドッジボール部 〜強敵!闘球戦士の巻〜,テクノスジャパン,gb,,DMG-NDJ,3600,税込,,熱血高校ドッジボール部 強敵!闘球戦士の巻,Wikipedia+MADB+MAME,MAME,MADB,熱血高校ドッジボール部 ～強敵! 闘球戦士の巻～,M726943,nekdodge
 gb-jp-0226,1991-11-15,ティーンエイジ・ミュータント・ニンジャ・タートルズ,コナミ,gb,,DMG-TTA,,,ゲームボーイにおけるティーンエイジ・ミュータント・ニンジャ・タートルズシリーズ第2作,ティーンエイジ・ミュータント・ニンジャ・タートルズ (1987年のアニメ),Wikipedia+MAME,MAME,,,,tmnt2j
 gb-jp-0227,1991-11-22,ポパイ2,シグマ商事,gb,,DMG-PGJ,3500,税抜,,ポパイ2,Wikipedia+MADB+MAME,MAME,MADB,ポパイ2,M756451,popeye2ja
-gb-jp-0228,1991-11-22,華佗,パーティールーム21,gb,,,3500,税込,,秘伝陰陽気功法 華佗,Wikipedia+MADB,,MADB,華佗,M760248,
+gb-jp-0228,1991-11-22,華佗,パーティールーム21,gb,,DMG-CDJ,3500,税込,,秘伝陰陽気功法 華佗,Wikipedia+MADB+MAME,MAME,MADB,華佗,M760248,cada
 gb-jp-0229,1991-11-29,アルタードスペース,EPIC・ソニー,gb,,DMG-ALA,3500,税込,異星人に乗っ取られた宇宙船の奪還劇を描いたクォータービュー形式のアクションゲーム,アルタードスペース,Wikipedia+MADB+MAME,MAME,MADB,アルタードスペース,M745140,altspacej
 gb-jp-0230,1991-11-29,スーパーチャイニーズランド2 宇宙大冒険,カルチャーブレーン,gb,,DMG-CHJ,3980,税込,ゲームボーイにおけるスーパーチャイニーズシリーズ第2弾,スーパーチャイニーズ,Wikipedia+MADB+MAME,MAME,MADB,スーパーチャイニーズランド2 宇宙大冒険,M749531,schilnd2
 gb-jp-0231,1991-12-03,ナムコクラシック,ナムコ,gb,,DMG-NHJ,3500,税込,,ナムコクラシック,Wikipedia+MADB+MAME,MAME,MADB,ナムコクラシック,M752885,namcocls
@@ -401,7 +401,7 @@ gb-jp-0399,1993-06-18,パチスロキッズ,ココナッツジャパン,gb,,DMG-
 gb-jp-0400,1993-06-25,スプリッツ 似顔絵15ゲーム,イマジニア,gb,,DMG-R5A,3900,税込,,スプリッツ 似顔絵15ゲーム,Wikipedia+MADB+MAME,MAME,MADB,スピリッツ 似顔絵15ゲーム,M750170,splitzj
 gb-jp-0401,1993-06-25,ブービーボーイズ,ニチブツ,gb,,DMG-B8J,3800,税込,アーケード用タイトル『キッドのホレホレ大作戦』を移植したアクションパズルゲーム,キッドのホレホレ大作戦,Wikipedia+MADB+MAME,MAME,MADB,ブービーボーイズ,M755207,boobyboy
 gb-jp-0402,1993-07-09,エイリアン3,アクレイムジャパン,gb,,DMG-L3A,3980,税込,同名映画が題材のアクションゲーム,エイリアン3,Wikipedia+MADB+MAME,MAME,MADB,エイリアン3,M745963,alien3j
-gb-jp-0403,1993-07-16,マイケル・ジョーダン ONE ON ONE,エレクトロニック・アーツ・ビクター,gb,,,3900,税抜,コモドール64などで発売された、元バスケットボール選手のマイケル・ジョーダンの名を冠したバスケットボールゲーム 日本国外では元バスケットボール選手のラリー・バードの名も冠する,マイケル・ジョーダン ONE ON ONE,Wikipedia+MADB,,MADB,マイケル・ジョーダン ONE ON ONE,M756668,
+gb-jp-0403,1993-07-16,マイケル・ジョーダン ONE ON ONE,エレクトロニック・アーツ・ビクター,gb,,DMG-JBA,3900,税抜,コモドール64などで発売された、元バスケットボール選手のマイケル・ジョーダンの名を冠したバスケットボールゲーム 日本国外では元バスケットボール選手のラリー・バードの名も冠する,マイケル・ジョーダン ONE ON ONE,Wikipedia+MADB+MAME,MAME,MADB,マイケル・ジョーダン ONE ON ONE,M756668,jordanbj
 gb-jp-0404,1993-07-16,びっくり熱血新記録! どこでも金メダル,テクノスジャパン,gb,,DMG-NQJ,3800,税抜,ファミリーコンピュータ用タイトル『びっくり熱血新記録』の移植版,びっくり熱血新記録! どこでも金メダル,Wikipedia+MADB,MADB,MADB,びっくり熱血新記録! どこでも金メダル,M726477,
 gb-jp-0405,1993-07-20,ゴッドメディスン ファンタジー世界の誕生,コナミ,gb,,DMG-GXJ,4500,税抜,,ゴッドメディスン,Wikipedia+MADB+MAME,MAME,MADB,ゴッドメディスン ファンタジー世界の誕生,M748291,godmedfs
 gb-jp-0406,1993-07-23,MYSTERIUM,バップ,gb,,DMG-MYJ,4500,税込,,MYSTERIUM,Wikipedia+MADB+MAME,MAME,MADB,MYSTERIUM,M740901,mysterumj
@@ -513,7 +513,7 @@ gb-jp-0511,1994-09-16,連対王,ヴィジット,gb,,DMG-AROJ-JPN,5500,税抜,,�
 gb-jp-0512,1994-09-22,とっても!ラッキーマン ラッキークッキーみんな大好きー!!,バンダイ,gb,yes,DMG-ALKJ-JPN,3980,税抜,テレビアニメ『とっても!ラッキーマン』が題材のボードゲーム,とっても!ラッキーマン,Wikipedia+MADB+MAME,MAME,MADB,とっても! ラッキーマン ラッキークッキーみんな大好きー!!,M752213,luckyman
 gb-jp-0513,1994-09-23,魂斗羅スピリッツ,コナミ,gb,yes,DMG-ACSJ-JPN,3800,税抜,,魂斗羅スピリッツ,Wikipedia+MADB+MAME,MAME,MADB,魂斗羅スピリッツ,M761470,contrasp
 gb-jp-0514,1994-09-30,ザ・シンプソンズ,アクレイムジャパン,gb,,,,,童話『ジャックと豆の木』をテレビアニメ『ザ・シンプソンズ』のキャラクターで描いた作品,ザ・シンプソンズ,Wikipedia,,,,,
-gb-jp-0515,1994-09-30,ダフィー・ダック,サンソフト,gb,yes,,4300,税抜,,ダフィー・ダック,Wikipedia+MADB,,MADB,ダフィー・ダック,M751011,
+gb-jp-0515,1994-09-30,ダフィー・ダック,サンソフト,gb,yes,DMG-YSA,4300,税抜,,ダフィー・ダック,Wikipedia+MADB+MAME,MAME,MADB,ダフィー・ダック,M751011,daffyj
 gb-jp-0516,1994-09-30,オセロワールド,ツクダオリジナル,gb,yes,DMG-ATOJ-JPN,3900,税抜,,オセロ (ボードゲーム),Wikipedia+MADB+MAME,MAME,MADB,オセロワールド,M746328,othellow
 gb-jp-0517,1994-10-07,本命ボーイ,ニチブツ,gb,,DMG-IKJ,6700,税抜,,本命ボーイ,Wikipedia+MADB+MAME,MAME,MADB,本命ボーイ,M765913,honmei
 gb-jp-0518,1994-10-14,ザ・心理ゲーム2 大阪編,ヴィジット,gb,,DMG-ASGJ-JPN,4500,税抜,,ザ・心理ゲーム2 大阪編,Wikipedia+MADB+MAME,MAME,MADB,ザ・心理ゲーム2 大阪編,M748633,shinri2

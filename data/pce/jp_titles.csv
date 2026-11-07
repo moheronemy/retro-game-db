@@ -302,8 +302,8 @@ pce-jp-0300,1991-08-30,ファイヤープロレスリング2nd BOUT,ヒューマ
 pce-jp-0301,1991-08-30,聖竜伝説モンビット,ハドソン,cd_rom2,RPG,HCD1018,,,,聖竜伝説モンビット,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,,,M726971,pcecd:monbit
 pce-jp-0302,1991-09-20,ヒット・ジ・アイス,タイトー,hucard,SPT,TP03019,6800,税抜,同名アーケードゲームの移植版,ヒット・ジ・アイス,Wikipedia+MADB+MAME,MAME,MADB,ヒット・ジ・アイス,M726964,hitice
 pce-jp-0303,1991-09-20,ワールドジョッキー,ナムコ,hucard,RCG,NC91003,5800,税抜,同名ファミリーコンピュータ用ソフトの移植版,ファミリージョッキー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ワールドジョッキー,M726961,wjockey
-pce-jp-0304,1991-09-27,ニュートピアII,ハドソン,hucard,ARPG,HC91047,,,『ニュートピア』の続編で、主人公は前作主人公・フレイの息子である,ニュートピアII,Wikipedia+MAME,MAME,,,,neutopi2
-pce-jp-0305,1991-09-27,どらごんEGG!,メサイヤ,hucard,ACT,NCS91003,,,,どらごんEGG!,Wikipedia+MAME,MAME,,,,dragnegg
+pce-jp-0304,1991-09-27,ニュートピアII,ハドソン,hucard,ARPG,HC91047,7200,税抜,『ニュートピア』の続編で、主人公は前作主人公・フレイの息子である,ニュートピアII,Wikipedia+MADB+MAME,MAME+MADB,MADB,NEUTOPIA 2,M726958,neutopi2
+pce-jp-0305,1991-09-27,どらごんEGG!,メサイヤ,hucard,ACT,NCS91003,6500,税抜,,どらごんEGG!,Wikipedia+MADB+MAME,MAME,MADB,ドラゴンEGG!,M752388,dragnegg
 pce-jp-0306,1991-09-27,森田将棋PC,NECアベニュー,hucard,TBL,NAPH-1021,7200,税抜,,森田将棋,Wikipedia+MADB+MAME,MAME,MADB,森田将棋PC,M762677,moritash
 pce-jp-0307,1991-09-27,ウルトラボックス 第5号,ビクター音楽産業,cd_rom2,,JCCD1605,,,,ウルトラボックス,Wikipedia+MADB,MADB+No-Intro,,,M728005,
 pce-jp-0308,1991-10-04,メソポタミア,アトラス,hucard,ACT,AT03001,6800,税抜,バネ状のおもちゃ・スリンキーに似た風貌の主人公の冒険を描いたアクションゲーム,メソポタミア (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,メソポタミア,M757479,mesopot

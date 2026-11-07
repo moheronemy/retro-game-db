@@ -71,12 +71,12 @@ sfc-jp-0069,1992-03-19,新世紀GPXサイバーフォーミュラ,タカラ,cart
 sfc-jp-0070,1992-03-19,スーパー伊忍道 打倒信長,光栄,cartridge,SHVC-IN,,,同名PCゲームの移植版,伊忍道 打倒信長,Wikipedia+MADB+MAME,MAME+MADB,,,M726828,suprinin
 sfc-jp-0071,1992-03-20,超攻合神サーディオン,アスミック,cartridge,SHVC-XA,8800,税抜,RPG要素のあるシューティングゲーム,超攻合神サーディオン,Wikipedia+MADB+MAME,MAME+MADB,MADB,超攻合神 XARDiON,M726824,xardionj
 sfc-jp-0072,1992-03-20,ファイナルファイト・ガイ,カプコン,cartridge,SHVC-FY,8500,税抜,『ファイナルファイト』の関連作品,ファイナルファイト,Wikipedia+MADB+MAME,MAME,MADB,ファイナルファイト・ガイ,M754942,ffightgj
-sfc-jp-0073,1992-03-27,スマッシュT.V.,アスキー,cartridge,SHVC-TV,,,,スマッシュT.V.,Wikipedia+MAME,MAME,,,,smashtvj
+sfc-jp-0073,1992-03-27,スマッシュT.V.,アスキー,cartridge,SHVC-TV,7800,税抜,,スマッシュT.V.,Wikipedia+MADB+MAME,MAME,MADB,SMASH T.V.,M742586,smashtvj
 sfc-jp-0074,1992-03-27,トップレーサー,コトブキシステム,cartridge,SHVC-TR,7573,税抜,,トップ・ギア・ラリー,Wikipedia+MADB+MAME,MAME,MADB,トップレーサー,M752244,topracer
 sfc-jp-0075,1992-03-27,カードマスター リムサリアの封印,ハル研究所,cartridge,SHVC-RF,8641,税抜,,カードマスター リムサリアの封印,Wikipedia+MADB+MAME,MAME+MADB,MADB,Card Master リムサリアの封印,M726816,cardmstr
 sfc-jp-0076,1992-03-27,ハットトリックヒーロー,タイトー,cartridge,SHVC-HT,8000,税抜,同名アーケードゲームの移植版,ハットトリックヒーロー,Wikipedia+MADB+MAME,MAME+MADB,MADB,HAT TRICK HERO,M726817,hattrick
 sfc-jp-0077,1992-03-27,スーパーファミスタ,ナムコ,cartridge,SHVC-FA,7900,税抜,スーパーファミコンにおけるファミスタシリーズ第1弾 また、日本野球機構からライセンスを得ており、選手や球団が実名で登場する,スーパーファミスタ,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパーファミスタ,M726818,sfamista
-sfc-jp-0078,1992-03-27,ストライクガンナー S.T.G.,アテナ,cartridge,SHVC-SG,,,同名アーケードゲームの移植版,ストライクガンナー S.T.G.,Wikipedia+MAME,MAME,,,,sgunnerj
+sfc-jp-0078,1992-03-27,ストライクガンナー S.T.G.,アテナ,cartridge,SHVC-SG,8900,税抜,同名アーケードゲームの移植版,ストライクガンナー S.T.G.,Wikipedia+MADB+MAME,MAME+MADB,MADB,S.T.G.,M726807,sgunnerj
 sfc-jp-0079,1992-03-27,ラッシング・ビート,ジャレコ,cartridge,SHVC-RB,8700,税抜,,ラッシング・ビート,Wikipedia+MADB+MAME,MAME+MADB,MADB,RUSHING BEAT,M726820,rushbeat
 sfc-jp-0080,1992-03-27,スーパーヴァリス 赤き月の乙女,レーザーソフト,cartridge,SHVC-VA,8500,税抜,PCエンジン用ソフト『夢幻戦士ヴァリス』のアレンジ移植,夢幻戦士ヴァリス,Wikipedia+MADB+MAME,MAME+MADB,MADB,SUPER ヴァリス 赤き月の乙女,M726821,svalis
 sfc-jp-0081,1992-03-27,らんま1/2 町内激闘篇,日本コンピュータシステム,cartridge,SHVC-RA,8800,税抜,漫画『らんま1/2』を原作とする対戦格闘ゲーム 北米版では、『らんま1/2』とは無関係のキャラクターに差し替えられている,らんま1/2 町内激闘篇,Wikipedia+MADB+MAME,MAME+MADB,MADB,らんま1/2～町内激闘篇,M726811,ranmagek
@@ -211,7 +211,7 @@ sfc-jp-0209,1992-12-18,フライングヒーロー ぶぎゅる〜の大冒険,�
 sfc-jp-0210,1992-12-18,ナグザットスーパーピンボール 邪鬼破壊,ナグザット,cartridge,SHVC-JH,8500,税抜,和風デジタルピンボール,ナグザットスーパーピンボール 邪鬼破壊,Wikipedia+MADB+MAME,MAME+MADB,MADB,ナグザットスーパーピンボール JAKI CRUSH 邪鬼破壊,M726640,jakicrsh
 sfc-jp-0211,1992-12-18,SDガンダム外伝2 円卓の騎士,ユタカ,cartridge,SHVC-EN,9500,税抜,『SDガンダム外伝 ナイトガンダム物語』の続編,SDガンダム外伝2 円卓の騎士,Wikipedia+MADB+MAME,MAME+MADB,MADB,SDガンダム外伝2 円卓の騎士,M727996,sdgundg2
 sfc-jp-0212,1992-12-18,ステルス,ヘクト,cartridge,SHVC-H7,9700,税抜,北ベトナム軍との戦いを描いたウォー・シミュレーションゲーム,ステルス (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,ステルス,M750030,stealth
-sfc-jp-0213,1992-12-18,中嶋悟監修 SUPER F1 HERO,バリエ,cartridge,SHVC-S4,8900,税抜,F1レーサー・中嶋悟監修の1人用レースゲーム,中嶋悟,Wikipedia,MADB,MADB,中嶋悟監修 SUPER F-1 HERO,M726642,
+sfc-jp-0213,1992-12-18,中嶋悟監修 SUPER F1 HERO,バリエ,cartridge,SHVC-S4,8900,税抜,F1レーサー・中嶋悟監修の1人用レースゲーム,中嶋悟,Wikipedia+MAME,MAME+MADB,MADB,中嶋悟監修 SUPER F-1 HERO,M726642,f1hero
 sfc-jp-0214,1992-12-18,スーパーニチブツマージャン,日本物産,cartridge,SHVC-NM,8800,税抜,同名アーケードゲームの移植版,ニチブツマージャン,Wikipedia+MADB+MAME,MAME,MADB,スーパーニチブツマージャン,M749554,nichimj
 sfc-jp-0215,1992-12-18,スーパー大相撲 熱戦大一番,ナムコ,cartridge,SHVC-OK,8800,税抜,,スーパー大相撲 熱戦大一番,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパー大相撲 熱戦大一番,M726631,superozu
 sfc-jp-0216,1992-12-18,スーパーテトリス2+ボンブリス,BPS,cartridge,SHVC-T2,8500,税抜,,ボンブリス,Wikipedia+MADB+MAME,MAME,MADB,スーパーテトリス 2 +ボンブリス,M726623,stetris2
@@ -275,7 +275,7 @@ sfc-jp-0273,1993-03-05,モノポリー,トミー,cartridge,SHVC-ML,9700,税抜,�
 sfc-jp-0274,1993-03-12,カリフォルニアゲームズII,ヘクト,cartridge,SHVC-H9,8800,税抜,,カリフォルニアゲームズII,Wikipedia+MADB+MAME,MAME+MADB,MADB,カリフォルニアゲームズ 2,M726561,calgame2j
 sfc-jp-0275,1993-03-12,2020年スーパーベースボール,ケイアミューズメントリース,cartridge,SHVC-SA,8900,税抜,同名ネオジオ用ソフトの移植版,2020年スーパーベースボール,Wikipedia+MADB+MAME,MAME,MADB,2020年スーパーベースボール,M737026,2020bbj
 sfc-jp-0276,1993-03-12,伝説のオウガバトル,クエスト,cartridge,SHVC-OB,9600,税抜,オウガバトルシリーズ第1弾,伝説のオウガバトル,Wikipedia+MADB+MAME,MAME+MADB,MADB,伝説のオウガバトル,M726559,ogrebatlj
-sfc-jp-0277,1993-03-12,エドノキバ,マイクロワールド,cartridge,SHVC-EK,,,近未来都市・EDOを舞台とした横スクロールアクションゲーム,エドノキバ,Wikipedia+MAME,MAME,,,,edonokib
+sfc-jp-0277,1993-03-12,エドノキバ,マイクロワールド,cartridge,SHVC-EK,8900,税抜,近未来都市・EDOを舞台とした横スクロールアクションゲーム,エドノキバ,Wikipedia+MADB+MAME,MAME,MADB,EDONO牙,M738759,edonokib
 sfc-jp-0278,1993-03-12,スーパーファミスタ2,ナムコ,cartridge,SHVC-FI,7900,税抜,日本野球機構公認作品で、球団と選手が実名で登場する,スーパーファミスタ2,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパーファミスタ 2,M726560,sfamist2
 sfc-jp-0279,1993-03-19,ナイジェル・マンセル F1チャレンジ,インフォコム,cartridge,SHVC-NC,8800,税抜,F1レーサーナイジェル・マンセル監修のレースゲームで、選手が実名で登場する,ナイジェル・マンセル F1チャレンジ,Wikipedia+MADB+MAME,MAME,MADB,ナイジェルマンセル F1チャレンジ,M752798,mansellj
 sfc-jp-0280,1993-03-19,バイオメタル,アテナ,cartridge,SHVC-BV,8980,税抜,,バイオメタル,Wikipedia+MADB+MAME,MAME,MADB,バイオメタル,M753623,biometalj
@@ -466,7 +466,7 @@ sfc-jp-0464,1993-12-17,スーパー・スター・ウォーズ 帝国の逆襲,�
 sfc-jp-0465,1993-12-17,ロックマンX,カプコン,cartridge,SHVC-RX,9500,税抜,,ロックマンX,Wikipedia+MADB+MAME,MAME+MADB,MADB,ロックマンX,M726352,rockmnxa
 sfc-jp-0466,1993-12-17,ラッシング・ビート修羅,ジャレコ,cartridge,SHVC-R6,9700,税抜,ラッシング・ビートシリーズ第3弾,ラッシング・ビート修羅,Wikipedia+MADB+MAME,MAME,MADB,ラッシング・ビート修羅,M758300,rushbets
 sfc-jp-0467,1993-12-17,ホーリーストライカー,ヘクト,cartridge,SHVC-AI,8800,税抜,ファンタジー調のブロック崩し,ホーリーストライカー,Wikipedia+MADB+MAME,MAME,MADB,ホーリーストライカー,M756143,hstriker
-sfc-jp-0468,1993-12-17,ドラゴンボールZ 超武闘伝2,バンダイ,cartridge,SHVC-EF,,,,ドラゴンボールZ 超武闘伝2,Wikipedia+MAME,MAME,,,,dbzbuto2ja1
+sfc-jp-0468,1993-12-17,ドラゴンボールZ 超武闘伝2,バンダイ,cartridge,SHVC-EF,9800,税抜,,ドラゴンボールZ 超武闘伝2,Wikipedia+MADB+MAME,MAME+MADB,MADB,DRAGON BALL Z 超武闘伝 2,M726355,dbzbuto2ja1
 sfc-jp-0469,1993-12-17,アルカエスト,スクウェア,cartridge,SHVC-LX,8800,税抜,HAL研究所が開発したゲームで、もともとは「ガーディアンブレイド」という名前で発売される予定だった,アルカエスト,Wikipedia+MADB+MAME,MAME+MADB,MADB,ALCAHEST,M726362,alcahest
 sfc-jp-0470,1993-12-17,ダウンタウン熱血べーすぼーる物語,テクノスジャパン,cartridge,SHVC-NV,9600,税抜,くにおくんシリーズを題材とした野球ゲーム,ダウンタウン熱血べーすぼーる物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,ダウンタウン熱血べーすぼーる物語,M726351,downtown
 sfc-jp-0471,1993-12-17,ドラえもん2 のび太のトイズランド大冒険,エポック社,cartridge,SHVC-2D,8000,税抜,スーパーファミコンにおけるドラえもんシリーズ第2弾 バーコードバトラーIIインターフェース対応ソフト,ドラえもん2 のび太のトイズランド大冒険,Wikipedia+MAME,MAME,MADB,ドラえもん 2～のび太のトイズランド大冒険,M752337,doraemn2
@@ -684,7 +684,7 @@ sfc-jp-0682,1994-08-05,Jリーグサッカー プライムゴール2,ナムコ,c
 sfc-jp-0683,1994-08-05,G2 ジェノサイド,コトブキシステム,cartridge,SHVC-2I,9800,税抜,PCゲーム『ジェノサイド2』の移植版で、スーパーファミコンにおける初めてのジェノサイドシリーズ作品,ジェノサイド2,Wikipedia+MADB+MAME,MAME+MADB,MADB,G2 ジェノサイド,M726183,genocid2
 sfc-jp-0684,1994-08-05,スーパー高校野球 一球入魂,アイマックス,cartridge,SHVC-Q6,9800,税抜,,スーパー高校野球 一球入魂,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパー高校野球 一球入魂,M726182,skoukou
 sfc-jp-0685,1994-08-05,す〜ぱ〜忍者くん,ジャレコ,cartridge,SHVC-8Q,7900,税抜,,す〜ぱ〜忍者くん,Wikipedia+MADB+MAME,MAME,MADB,すーぱー忍者くん,M749807,ninjakun
-sfc-jp-0686,1994-08-05,SUPER花札,アイマックス,cartridge,SHVC-Q5,,,こいこいに特化したコンピュータ花札,SUPER花札,Wikipedia+MAME,MAME,,,,suphana
+sfc-jp-0686,1994-08-05,SUPER花札,アイマックス,cartridge,SHVC-Q5,8800,税抜,こいこいに特化したコンピュータ花札,SUPER花札,Wikipedia+MADB+MAME,MAME,MADB,スーパー花札,M749783,suphana
 sfc-jp-0687,1994-08-05,魔法ぽいぽい ぽいっと!,タカラ,cartridge,SHVC-9P,8800,税抜,対戦型落ちものゲーム,魔法ぽいぽい ぽいっと!,Wikipedia+MADB+MAME,MAME,MADB,魔法ぽいぽい ぽいっと!,M766036,poipoitt
 sfc-jp-0688,1994-08-12,フリントストーン トレジャー オブ シェラマッドロック,タイトー,cartridge,SHVC-9F,,,アニメ作品『原始家族フリントストーン』のゲーム化,フリントストーン トレジャー オブ シェラマッドロック,Wikipedia+MAME,MAME,,,,flintsmj
 sfc-jp-0689,1994-08-12,レミングス2 ザ・トライブス,サンソフト,cartridge,SHVC-L2,9800,税抜,『レミングス』の続編,レミングス2,Wikipedia+MADB+MAME,MAME,MADB,レミングス 2,M758895,lemming2j
@@ -753,7 +753,7 @@ sfc-jp-0751,1994-10-21,デモンズ・ブレイゾン 魔界村 紋章編,カプ
 sfc-jp-0752,1994-10-21,スーパーファミリーサーキット,ナムコ,cartridge,SHVC-23,8800,税抜,スーパーファミコンにおけるファミリーサーキットシリーズ第3弾,スーパーファミリーサーキット,Wikipedia+MADB+MAME,MAME+MADB,MADB,スーパーファミリーサーキット,M726132,famicirc
 sfc-jp-0753,1994-10-21,スーパーラグビー,トンキンハウス,cartridge,SHVC-I3,9000,税抜,,スーパーラグビー,Wikipedia+MADB+MAME,MAME,MADB,スーパーラグビー,M749703,srugby
 sfc-jp-0754,1994-10-21,必殺パチンココレクション,サンソフト,cartridge,SHVC-AHPJ-JPN,9800,税抜,パチンコメーカー藤商事が開発にかかわったパチンコゲームで、同社機種が登場する,必殺パチンココレクション,Wikipedia+MADB+MAME,MAME+MADB,MADB,必殺パチンココレクション,M726130,hisspac1
-sfc-jp-0755,1994-10-21,船木誠勝 HYBRID WRESTLER 闘技伝承,テクノスジャパン,cartridge,,9800,税抜,,船木誠勝 HYBRID WRESTLER 闘技伝承,Wikipedia+MADB,,MADB,船木誠勝HYBRID WRESTLER 闘技伝承,M763672,
+sfc-jp-0755,1994-10-21,船木誠勝 HYBRID WRESTLER 闘技伝承,テクノスジャパン,cartridge,SHVC-ZR,9800,税抜,,船木誠勝 HYBRID WRESTLER 闘技伝承,Wikipedia+MADB+MAME,MAME,MADB,船木誠勝HYBRID WRESTLER 闘技伝承,M763672,hybwrest
 sfc-jp-0756,1994-10-21,ヘラクレスの栄光IV 神々からの贈り物,データイースト,cartridge,SHVC-4E,9900,税抜,,ヘラクレスの栄光,Wikipedia+MADB+MAME,MAME+MADB,MADB,ヘラクレスの栄光4 神々からの贈り物,M726129,herakl4
 sfc-jp-0757,1994-10-21,本格麻雀 徹萬II,ナグザット,cartridge,SHVC-AOXJ-JPN,8900,税抜,,本格麻雀 徹萬II,Wikipedia+MADB+MAME,MAME,MADB,本格麻雀 徹萬 2,M734816,honktmn2
 sfc-jp-0758,1994-10-28,化学者ハリーの波乱万丈,アルトロン,cartridge,SHVC-HV,8900,税抜,,化学者ハリーの波乱万丈,Wikipedia+MADB+MAME,MAME,MADB,化学者ハリーの波乱万丈,M760062,kagaharl
@@ -807,12 +807,12 @@ sfc-jp-0805,1994-12-02,アレサII アリエルの不思議な旅,やのまん,c
 sfc-jp-0806,1994-12-02,ザ・ラストバトル,テイチク,cartridge,SHVC-3T,9800,税抜,,ザ・ラストバトル,Wikipedia+MADB+MAME,MAME+MADB,MADB,The last Battle,M726093,lastbatl
 sfc-jp-0807,1994-12-02,制服伝説プリティ・ファイター,イマジニア,cartridge,SHVC-ASFJ-JPN,9980,税抜,,〜制服伝説〜プリティファイター,Wikipedia+MADB+MAME,MAME,MADB,制服伝説～プリティファイター,M763187,prettyfg
 sfc-jp-0808,1994-12-02,ドカポン3・2・1 〜嵐を呼ぶ友情〜,アスミック,cartridge,SHVC-AIXJ-JPN,9600,税抜,ドカポンシリーズ第2弾,ドカポンシリーズ,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドカポン3・2・1 ～嵐を呼ぶ友情～,M726091,dokap321
-sfc-jp-0809,1994-12-09,ヴォルテックス THE FX ROBOT BATTLE,パック・イン・ビデオ,cartridge,,,,,ヴォルテックス THE FX ROBOT BATTLE,Wikipedia,,,,,
+sfc-jp-0809,1994-12-09,ヴォルテックス THE FX ROBOT BATTLE,パック・イン・ビデオ,cartridge,,9800,税抜,,ヴォルテックス THE FX ROBOT BATTLE,Wikipedia+MADB+MAME,,MADB,ヴォルテックス ザ・FXロボットバトル,M745756,vortexj
 sfc-jp-0810,1994-12-09,ライオン・キング,ヴァージンゲーム,cartridge,SHVC-ALKJ-JPN,9980,税抜,同名アニメ映画のゲーム化,ライオン・キング,Wikipedia+MADB+MAME,MAME,MADB,ライオンキング,M758178,lionkingj
 sfc-jp-0811,1994-12-09,三國志IV,光栄,cartridge,SHVC-AS4J-JPN,14800,税抜,,三國志IV,Wikipedia+MADB+MAME,MAME+MADB,MADB,三國志 4,M726078,sangoku4a
 sfc-jp-0812,1994-12-09,キャプテン翼V 覇者の称号カンピオーネ,テクモ,cartridge,SHVC-AC5J-JPN,9980,税抜,,キャプテン翼 (ゲーム),Wikipedia+MADB+MAME,MAME+MADB,MADB,キャプテン翼5 覇者の称号カンピオーネ,M726084,ctsuba5
 sfc-jp-0813,1994-12-09,ゴジラ 怪獣大決戦,東宝,cartridge,SHVC-AG2J-JPN,9980,税抜,ゴジラシリーズを題材とした対戦格闘ゲーム,ゴジラ 怪獣大決戦,Wikipedia+MADB+MAME,MAME,MADB,ゴジラ 怪獣大決戦,M748239,godzilla
-sfc-jp-0814,1994-12-09,スーパー桃太郎電鉄III,ハドソン,cartridge,SHVC-AMDJ-JPN,,,スーパーファミコンにおける桃太郎電鉄シリーズ第2弾,スーパー桃太郎電鉄III,Wikipedia+MAME,MAME,,,,smomo3
+sfc-jp-0814,1994-12-09,スーパー桃太郎電鉄III,ハドソン,cartridge,SHVC-AMDJ-JPN,9500,税抜,スーパーファミコンにおける桃太郎電鉄シリーズ第2弾,スーパー桃太郎電鉄III,Wikipedia+MADB+MAME,MAME+MADB,MADB,SUPER桃太郎電鉄 3,M726077,smomo3
 sfc-jp-0815,1994-12-09,すごろクエスト++ -ダイスニクス-,テクノスジャパン,cartridge,SHVC-XQ,9900,税抜,,すごろクエスト++ -ダイスニクス-,Wikipedia+MAME,MAME,MADB,すごろクエスト++ダイスニクス,M749894,sugoroqs
 sfc-jp-0816,1994-12-09,牌砦,タカラ,cartridge,SHVC-ACSJ-JPN,8800,税抜,同名アーケードゲームの移植版,牌砦,Wikipedia+MADB+MAME,MAME,MADB,牌砦（とりで）,M765254,toride
 sfc-jp-0817,1994-12-09,バトルクロス,イマジニア,cartridge,SHVC-ABCJ-JPN,9800,税抜,,バトルクロス,Wikipedia+MADB+MAME,MAME,MADB,バトルクロス,M754115,battlex
@@ -845,12 +845,12 @@ sfc-jp-0843,1994-12-21,岡本綾子とマッチプレイゴルフ コ・オリ�
 sfc-jp-0844,1994-12-21,龍虎の拳2,ザウルス,cartridge,SHVC-AAFJ-JPN,10900,税抜,同名アーケードゲームの移植版,龍虎の拳,Wikipedia+MADB+MAME,MAME,MADB,龍虎の拳 2,M766733,ryukokn2
 sfc-jp-0845,1994-12-22,ライズ オブ ザ ロボッツ,T&Eソフト,cartridge,SHVC-AROJ-JPN,10900,税抜,同名Amiga用ソフトの移植版,ライズ オブ ザ ロボッツ,Wikipedia+MADB+MAME,MAME,MADB,ライズ・オブ・ザ・ロボッツ,M758184,riseroboj
 sfc-jp-0846,1994-12-22,アニマル武乱伝 -ブルータル-,コトブキシステム,cartridge,SHVC-ABLJ-JPN,9800,税抜,メガCD用ソフト『Brutal: Paws of Fury』の移植版,アニマル武乱伝 -ブルータル-,Wikipedia+MADB+MAME,MAME,MADB,アニマル武乱伝～ブルータル,M744993,brutalj
-sfc-jp-0847,1994-12-22,アルバートオデッセイII 邪神の胎動,サンソフト,cartridge,SHVC-AO2J-JPN,,,『アルバートオデッセイ』の続編,アルバートオデッセイII 邪神の胎動,Wikipedia+MAME,MAME,,,,albodys2
+sfc-jp-0847,1994-12-22,アルバートオデッセイII 邪神の胎動,サンソフト,cartridge,SHVC-AO2J-JPN,9980,税抜,『アルバートオデッセイ』の続編,アルバートオデッセイII 邪神の胎動,Wikipedia+MADB+MAME,MAME+MADB,MADB,ALBERT ODYSSEY 2 邪神の胎動,M726049,albodys2
 sfc-jp-0848,1994-12-22,ウルトラベースボール実名版2,カルチャーブレーン,cartridge,SHVC-ABJJ-JPN,9800,税抜,,超人ウルトラベースボール,Wikipedia+MAME,MAME,MADB,ウルトラベースボール実名版 2,M745879,ultrabb2
 sfc-jp-0849,1994-12-22,元祖パチンコ王,ココナッツジャパンエンターテイメント,cartridge,SHVC-OY,9980,税抜,,元祖パチンコ王,Wikipedia+MADB+MAME,MAME,MADB,元祖パチンコ王,M761144,gansopac
 sfc-jp-0850,1994-12-22,サンスポフィッシング 渓流王,イマジニア,cartridge,SHVC-IO,9980,税抜,,サンスポフィッシング 渓流王,Wikipedia+MADB+MAME,MAME,MADB,サンスポフィッシング 渓流王,M748966,sanspo
 sfc-jp-0851,1994-12-22,スーパーキャッスルズ,ビクターエンタテインメント,cartridge,SHVC-AVIJ-JPN,9800,税抜,,スーパーキャッスルズ,Wikipedia+MADB+MAME,MAME,MADB,スーパーキャッスルズ,M749493,scastles
-sfc-jp-0852,1994-12-22,スーパーファイヤープロレスリングSPECIAL,ヒューマン,cartridge,SHVC-AP4J-JPN,,,,スーパーファイヤープロレスリングSPECIAL,Wikipedia+MAME,MAME,,,,fireprws
+sfc-jp-0852,1994-12-22,スーパーファイヤープロレスリングSPECIAL,ヒューマン,cartridge,SHVC-AP4J-JPN,11500,税抜,,スーパーファイヤープロレスリングSPECIAL,Wikipedia+MADB+MAME,MAME+MADB,MADB,SUPER FIRE PROWRESTLING SPECIAL,M726055,fireprws
 sfc-jp-0853,1994-12-22,大貝獣物語,ハドソン,cartridge,SHVC-ADKJ-JPN,,,ファミリーコンピュータ用ソフト『貝獣物語』の続編,大貝獣物語,Wikipedia+MADB+MAME,MAME+MADB,,,M726047,daimonog
 sfc-jp-0854,1994-12-22,覇王大系リューナイト ロードオブパラディン,バンダイ,cartridge,SHVC-UR,9800,税抜,テレビアニメ『覇王大系リューナイト』のゲーム化。,覇王大系リューナイト,Wikipedia+MADB+MAME,MAME+MADB,MADB,覇王大系リューナイト ロード オブ パラディン,M726048,haoutryu
 sfc-jp-0855,1994-12-22,バトルジョッキー,ヴァージンゲーム,cartridge,SHVC-AV2J-JPN,9800,税抜,元々はナムコから『ウイニングジョッキー』として発売される予定だった。 なお、発売に当たってはナムコから許諾を受けている,バトルジョッキー,Wikipedia+MADB+MAME,MAME,MADB,バトルジョッキー,M754125,battlejo
@@ -908,11 +908,11 @@ sfc-jp-0906,1995-02-24,NFLクォーターバッククラブ'95,アクレイム�
 sfc-jp-0907,1995-02-24,NBA JAM トーナメントエディション,アクレイムジャパン,cartridge,SHVC-AJTJ-JPN,11800,税抜,スーパーファミコンにおけるNBAジャムシリーズ第2弾,NBA JAM トーナメントエディション,Wikipedia+MADB+MAME,MAME,MADB,NBA JAM トーナメントエディション,M741047,nbajamtej
 sfc-jp-0908,1995-02-24,エストポリス伝記II,タイトー,cartridge,SHVC-ANIJ-JPN,9980,税抜,エストポリス伝記三部作の第二部,エストポリス伝記II,Wikipedia+MADB+MAME,MAME+MADB,MADB,エストポリス伝記2,M726008,estpoli2
 sfc-jp-0909,1995-02-24,クラシックロードII,ビクターエンタテインメント,cartridge,SHVC-AV5J-JPN,12800,税抜,,クラシックロードII,Wikipedia+MADB+MAME,MAME,MADB,クラシックロード 2,M734031,classro2
-sfc-jp-0910,1995-02-24,実況パワフルプロ野球2,コナミ,cartridge,SHVC-AP2J-JPN,9980,税抜,実況パワフルプロ野球シリーズ第2弾,実況パワフルプロ野球2,Wikipedia+MADB,MADB,MADB,実況パワフルプロ野球 2,M726015,
+sfc-jp-0910,1995-02-24,実況パワフルプロ野球2,コナミ,cartridge,SHVC-AP2J-JPN,9980,税抜,実況パワフルプロ野球シリーズ第2弾,実況パワフルプロ野球2,Wikipedia+MADB+MAME,MAME+MADB,MADB,実況パワフルプロ野球 2,M726015,powyak2
 sfc-jp-0911,1995-02-24,首都高バトル2 ドリフトキング 土屋圭市&坂東正明,BPS,cartridge,SHVC-ASXJ-JPN,9800,税抜,,首都高バトル,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドリフトキング土屋圭市＆板東正明 首都高バトル 2,M726009,shotoku2
 sfc-jp-0912,1995-02-24,スーパードリフトアウト,ビスコ,cartridge,SHVC-ADOJ-JPN,9980,税抜,同名アーケードゲームの移植版,スーパードリフトアウト,Wikipedia+MADB+MAME,MAME,MADB,スーパードリフトアウト,M749541,sdrifto
 sfc-jp-0913,1995-02-24,Turf Memories,ベック,cartridge,SHVC-AYZJ-JPN,11600,税抜,競馬の騎手を題材とした育成シミュレーションゲーム,Turf Memories,Wikipedia+MADB+MAME,MAME+MADB,MADB,Turf Memories,M726014,turfmemo
-sfc-jp-0914,1995-02-24,NAGE LIBRE 〜静寂の水深〜,バリエ,cartridge,,9980,税抜,,NAGE LIBRE,Wikipedia+MADB,,MADB,NAGE LIBRE～静寂の水深,M740906,
+sfc-jp-0914,1995-02-24,NAGE LIBRE 〜静寂の水深〜,バリエ,cartridge,SHVC-ANSJ-JPN,9980,税抜,,NAGE LIBRE,Wikipedia+MADB+MAME,MAME,MADB,NAGE LIBRE～静寂の水深,M740906,nagelibr
 sfc-jp-0915,1995-02-24,バトルピンボール,バンプレスト,cartridge,SHVC-ABPJ-JPN,8800,税抜,コンパチヒーローズシリーズの1つであるデジタルピンボール,バトルピンボール,Wikipedia+MADB+MAME,MAME,MADB,バトルピンボール,M754144,batlpinb
 sfc-jp-0916,1995-02-24,美少女戦士セーラームーンS くるっくりん,バンダイ,cartridge,SHVC-AILJ-JPN,6800,税抜,,美少女戦士セーラームーン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,美少女戦士セーラームーンS～くるっくりん,M765464,sailorsk
 sfc-jp-0917,1995-02-24,ファーランドストーリー,バンプレスト,cartridge,SHVC-AFSJ-JPN,10800,税抜,,ファーランドストーリー,Wikipedia+MADB+MAME,MAME,MADB,ファーランドストーリー,M754837,farland
@@ -1016,7 +1016,7 @@ sfc-jp-1014,1995-06-16,夜光虫,アテナ,cartridge,SHVC-ADJJ-JPN,10800,税抜,
 sfc-jp-1015,1995-06-23,トランプアイランド,パック・イン・ビデオ,cartridge,SHVC-LT,8900,税抜,,トランプアイランド,Wikipedia+MADB+MAME,MAME,MADB,トランプアイランド,M752647,trumpisl
 sfc-jp-1016,1995-06-23,アースワーム・ジム,タカラ,cartridge,SHVC-AEJJ-JPN,9800,税抜,,アースワーム・ジム,Wikipedia+MADB+MAME,MAME,MADB,アースワーム・ジム,M744353,ejimj
 sfc-jp-1017,1995-06-23,スーパー・スター・ウォーズ ジェダイの復讐,ビクターエンタテインメント,cartridge,SHVC-ARJJ-JPN,10800,税抜,スーパーファミコンにおけるスター・ウォーズシリーズ第3弾で、映画『スター・ウォーズ エピソード6/ジェダイの帰還』を原作とする,スター・ウォーズ エピソード6/ジェダイの帰還,Wikipedia+MADB+MAME,MAME,MADB,スーパー・スター・ウォーズ～ジェダイの復讐,M749467,jedij
-sfc-jp-1018,1995-06-23,P-マン,コトブキシステム,cartridge,SHVC-APUJ-JPN,,,原始人を主役としたサイドビューアクション、シリーズの第3作で初のスーパーファミコン作品でもある,P-マン,Wikipedia+MAME,MAME,,,,pmanj
+sfc-jp-1018,1995-06-23,P-マン,コトブキシステム,cartridge,SHVC-APUJ-JPN,9200,税抜,原始人を主役としたサイドビューアクション、シリーズの第3作で初のスーパーファミコン作品でもある,P-マン,Wikipedia+MADB+MAME,MAME,MADB,P-MAN,M741619,pmanj
 sfc-jp-1019,1995-06-23,Mr. Do!,イマジニア,cartridge,SHVC-AUNJ-JPN,,,同名アーケードゲームの移植版,Mr. Do!,Wikipedia+MAME,MAME,,,,mrdoj
 sfc-jp-1020,1995-06-23,実戦競艇,イマジニア,cartridge,SHVC-AKOJ-JPN,11800,税抜,競艇ゲーム,実戦競艇,Wikipedia+MADB+MAME,MAME+MADB,MADB,実戦競艇,M725939,jissenky
 sfc-jp-1021,1995-06-23,プリンセス・ミネルバ,ビック東海,cartridge,SHVC-AVAJ-JPN,9900,税抜,同名作品の移植版,プリンセス・ミネルバ,Wikipedia+MADB+MAME,MAME,MADB,プリンセス・ミネルバ,M755661,pminerva
@@ -1103,11 +1103,11 @@ sfc-jp-1101,1995-09-15,スーパー鉄球ファイト!,バンプレスト,cartri
 sfc-jp-1102,1995-09-15,セント・アンドリュース 〜栄光と歴史のオールドコース〜,エポック社,cartridge,SHVC-ASAJ-JPN,9800,税抜,,セント・アンドリュース 〜栄光と歴史のオールドコース〜,Wikipedia+MADB+MAME,MAME+MADB,MADB,St Andrews 栄光と歴史のオールドコース,M725866,standrew
 sfc-jp-1103,1995-09-15,必勝777ファイターIII 黒竜王の復活,バップ,cartridge,SHVC-A73J-JPN,10800,税抜,必勝777ファイターシリーズ第3弾兼最終作,必勝777ファイターIII 黒竜王の復活,Wikipedia+MADB+MAME,MAME+MADB,MADB,必勝777ファイター 3,M725867,his777f3
 sfc-jp-1104,1995-09-22,ジャングルストライク 受け継がれた狂気,エレクトロニック・アーツ・ビクター,cartridge,SHVC-AJGJ-JPN,9800,税抜,『デザートストライク』の続編,ジャングルストライク 受け継がれた狂気,Wikipedia+MADB+MAME,MAME,MADB,ジャングルストライク,M749300,jstrikej
-sfc-jp-1105,1995-09-22,実況ワールドサッカー2 FIGHTING ELEVEN,コナミ,cartridge,SHVC-AWJJ-JPN,,,,実況ワールドサッカー,Wikipedia+MAME,MAME,,,,jikkscr2
+sfc-jp-1105,1995-09-22,実況ワールドサッカー2 FIGHTING ELEVEN,コナミ,cartridge,SHVC-AWJJ-JPN,9980,税抜,,実況ワールドサッカー,Wikipedia+MADB+MAME,MAME,MADB,実況ワールドサッカー 2～ファイティングイレブン,M761989,jikkscr2
 sfc-jp-1106,1995-09-22,朝日新聞連載 加藤一二三九段将棋 心技流,バリエ,cartridge,SHVC-A23J-JPN,12800,税抜,,朝日新聞連載 加藤一二三九段将棋 心技流,Wikipedia+MAME,MAME,MADB,朝日新聞連載 加藤一二三九段将棋 心技流,M764336,asahishi
 sfc-jp-1107,1995-09-22,四柱推命学入門 真桃源郷,バンプレスト,cartridge,SHVC-AP8J-JPN,11800,税抜,四柱推命を題材とした占いソフト,四柱推命学入門 真桃源郷,Wikipedia+MADB+MAME,MAME,MADB,四柱推命学入門 真桃源郷,M761803,shichusu
 sfc-jp-1108,1995-09-22,超兄貴 爆烈乱闘篇,日本コンピュータシステム,cartridge,SHVC-AANJ-JPN,11800,税抜,『調兄貴』を題材とした対戦型格闘ゲーム,超兄貴,Wikipedia+MADB+MAME,MAME,MADB,超兄貴～爆烈乱闘篇,M764386,choaniki
-sfc-jp-1109,1995-09-22,陳牌,バンプレスト,cartridge,SHVC-APEJ-JPN,,,マウス対応,陳牌,Wikipedia+MAME,MAME,,,,chinhai
+sfc-jp-1109,1995-09-22,陳牌,バンプレスト,cartridge,SHVC-APEJ-JPN,7800,税抜,マウス対応,陳牌,Wikipedia+MADB+MAME,MAME,MADB,陳牌 CHINHAI,M764475,chinhai
 sfc-jp-1110,1995-09-22,ドラゴンボールZ 超悟空伝 -覚醒編-,バンダイ,cartridge,SHVC-A2ZJ-JPN,10800,税抜,,ドラゴンボールZ 超悟空伝 -覚醒編-,Wikipedia+MADB+MAME,MAME+MADB,MADB,ドラゴンボールZ 超悟空伝 覚醒編,M725862,dbzkaku
 sfc-jp-1111,1995-09-22,美少女戦士セーラームーン ANOTHER STORY,エンジェル,cartridge,SHVC-AASJ-JPN,11800,税抜,スーパーファミコンにおけるセーラームーンシリーズ第6弾にして唯一のRPG作品,美少女戦士セーラームーン (ゲーム),Wikipedia+MADB+MAME,MAME,MADB,美少女戦士セーラームーン～Another Story,M765460,sailoras
 sfc-jp-1112,1995-09-22,本格派対局将棋 新・将棋倶楽部,ヘクト,cartridge,SHVC-AHJJ-JPN,12800,税抜,,本格派対局将棋 新・将棋倶楽部,Wikipedia+MADB+MAME,MAME,MADB,新・将棋倶楽部,M762550,shinshog
@@ -1154,7 +1154,7 @@ sfc-jp-1152,1995-10-27,白いリングへ Twinkle Little Star,ポニーキャニ
 sfc-jp-1153,1995-10-27,天地無用! げ〜む編,バンプレスト,cartridge,SHVC-AMUJ-JPN,10800,税抜,アニメ作品『天地無用!』のゲーム化,天地無用!,Wikipedia+MADB+MAME,MAME,MADB,天地無用! げ～む編,M764615,tenchi
 sfc-jp-1154,1995-10-27,麻雀飛翔伝 真 哭きの竜,ベック,cartridge,SHVC-ARUJ-JPN,8900,税抜,,哭きの竜,Wikipedia+MADB+MAME,MAME,MADB,麻雀飛翔伝 真・哭きの竜,M766161,mjhishou
 sfc-jp-1155,1995-10-27,パチスロ物語 パル工業スペシャル,KSS,cartridge,SHVC-A2WJ-JPN,10800,税抜,パル工業の機種を収録したパチスロゲーム,パチスロ物語,Wikipedia+MADB+MAME,MAME+MADB,MADB,パチスロ物語 パル工業スペシャル,M725836,pslotmp
-sfc-jp-1156,1995-10-27,From TV animation SLAM DUNK SDヒートアップ!!,バンダイ,cartridge,SHVC-AIHJ-JPN,,,,SLAM DUNK,Wikipedia+MAME,MAME,,,,slamdksd
+sfc-jp-1156,1995-10-27,From TV animation SLAM DUNK SDヒートアップ!!,バンダイ,cartridge,SHVC-AIHJ-JPN,9800,税抜,,SLAM DUNK,Wikipedia+MADB+MAME,MAME,MADB,テレビアニメ スラムダンク～SDヒートアップ!!,M751991,slamdksd
 sfc-jp-1157,1995-10-27,魔天伝説 戦慄のオーパーツ,タカラ,cartridge,SHVC-AZ9J-JPN,10800,税抜,,魔天伝説 戦慄のオーパーツ,Wikipedia+MADB+MAME,MAME,MADB,魔天伝説～戦慄のオーパーツ,M766015,matenden
 sfc-jp-1158,1995-10-27,ライトファンタジーII,トンキンハウス,cartridge,SHVC-ALRJ-JPN,9900,税抜,『ライトファンタジー』の続編,ライトファンタジー,Wikipedia+MADB+MAME,MAME,MADB,ライトファンタジー 2,M734490,lfantas2
 sfc-jp-1159,1995-11-02,必殺パチンココレクション3,サンソフト,cartridge,SHVC-A3HJ-JPN,9980,税抜,必殺パチンココレクションシリーズ第3弾で、大一商会の5機種が収録されている,必殺パチンココレクション,Wikipedia+MADB+MAME,MAME,MADB,必殺パチンココレクション 3,M765483,hisspac3
@@ -1280,7 +1280,7 @@ sfc-jp-1278,1996-03-29,ドラゴンボールZ HYPER DIMENSION,バンダイ,cartr
 sfc-jp-1279,1996-03-29,アンジェリーク ヴォイス・ファンタジー,光栄,cartridge,SHVC-AQLJ-JPN,9800,税抜,ボイサーくん対応ソフト,アンジェリーク,Wikipedia+MADB+MAME,MAME,MADB,アンジェリーク ヴォイス・ファンタジー,M745195,angeliqv
 sfc-jp-1280,1996-03-29,SDガンダムGNEXT ユニット&マップコレクション,バンダイ,cartridge,,3800,税抜,小型拡張ROMカセットであり『SDガンダムGNEXT』に装着,SDガンダムGNEXT,Wikipedia+MADB,,MADB,SDガンダム GNEXT専用ロムパック ユニット＆マップコレクション,M742116,
 sfc-jp-1281,1996-03-29,京楽 三洋 マルホン Parlor!パーラー!5 パチンコ3社・実機シミュレーションゲーム,日本テレネット,cartridge,,10800,税抜,Parlor!パーラー!シリーズ第5弾,京楽 三洋 マルホン Parlor!パーラー!5 パチンコ3社・実機シミュレーションゲーム,Wikipedia+MADB,,MADB,京楽・三洋・マルホン Parlor! パーラー! 5～パチンコ3社・実機シミュレーションゲーム,M760719,
-sfc-jp-1282,1996-03-29,GTレーシング,イマジニア,cartridge,,10800,税抜,,GTレーシング,Wikipedia+MADB,,MADB,GTレーシング,M739643,
+sfc-jp-1282,1996-03-29,GTレーシング,イマジニア,cartridge,SHVC-AIKJ-JPN,10800,税抜,,GTレーシング,Wikipedia+MADB+MAME,MAME,MADB,GTレーシング,M739643,gtracing
 sfc-jp-1283,1996-03-29,新機動戦記ガンダムW ENDLESS DUEL,バンダイ,cartridge,SHVC-AEDJ-JPN,7500,税抜,テレビアニメ『新機動戦記ガンダムW』を題材とした対戦格闘ゲーム,新機動戦記ガンダムW ENDLESS DUEL,Wikipedia+MADB+MAME,MAME+MADB,MADB,新機動戦記ガンダムW ENDLESS DUEL,M725688,gndmwend
 sfc-jp-1284,1996-03-29,スーパーファイヤープロレスリングX プレミアム,ヒューマン,cartridge,SHVC-AF6J-JPN,8000,税抜,『スーパーファイヤープロレスリングX』の難易度調整版兼廉価版,スーパーファイヤープロレスリングX,Wikipedia+MADB+MAME,MAME,MADB,スーパーファイヤープロレスリングX プレミアム,M749595,fireprxp
 sfc-jp-1285,1996-03-29,スーパーフォーメーションサッカー96 World Club Edition,ヒューマン,cartridge,SHVC-A96J-JPN,,,スーパーファミコンにおけるフォーメーションサッカーシリーズ最終作,フォーメーションサッカー,Wikipedia+MAME,MAME,,,,forms96
@@ -1418,6 +1418,6 @@ sfc-jp-1416,1998-03-27,星のカービィ3,任天堂,cartridge,SHVC-AFJJ-JPN,480
 sfc-jp-1417,1998-04-24,ロックマン&フォルテ,カプコン,cartridge,SHVC-AR6J-JPN,5800,税抜,通常販売最後のスーパーファミコン用ソフト（ニンテンドーパワーからの移植を除く）。,ロックマン&フォルテ,Wikipedia+MADB+MAME,MAME,MADB,ロックマン＆フォルテ,M759101,rockmanf
 sfc-jp-1418,1998-08-01,すってはっくん,任天堂,cartridge,SHVC-BSHJ-JPN,2000,税抜,衛星放送で配信されていた同名作品の移植版 ニンテンドウパワー書き換え対応 ROMカートリッジ版は1999年6月25日発売,すってはっくん,Wikipedia+MADB+MAME,MAME,MADB,すってはっくん,M750009,suttehak
 sfc-jp-1419,1998-10-01,ミニ四駆 レッツ&ゴー!! POWER WGP2,任天堂,cartridge,,2380,税抜,ニンテンドウパワー書き換え対応 ROMカートリッジ版は1998年12月4日発売,爆走兄弟レッツ&ゴー!!,Wikipedia+MADB,,MADB,ミニ四駆 レッツ＆ゴー POWER WGP2,M757270,
-sfc-jp-1420,1999-01-01,POWER倉庫番,任天堂,cartridge,,2000,税抜,ニンテンドウパワー書き換え対応 ROMカートリッジ版は1999年6月25日発売,倉庫番,Wikipedia+MADB,,MADB,POWER倉庫番,M741664,
+sfc-jp-1420,1999-01-01,POWER倉庫番,任天堂,cartridge,SHVC-BPSJ-JPN,2000,税抜,ニンテンドウパワー書き換え対応 ROMカートリッジ版は1999年6月25日発売,倉庫番,Wikipedia+MADB+MAME,MAME,MADB,POWER倉庫番,M741664,powrsoko
 sfc-jp-1421,1999-06-01,ウィザードリィI・II・III 〜Story of Llylgamyn〜,メディアファクトリー,cartridge,SHVC-BWZJ-JPN,3000,税抜,ウィザードリィシリーズ初期3作品を収録 ニンテンドウパワー書き換え専用,ウィザードリィのシリーズ一覧,Wikipedia+MADB+MAME,MAME,MADB,Wizardry 1・2 ・3  ～Story of Llylgamyn～,M733735,wizardry
 sfc-jp-1422,1999-08-28,ファイアーエムブレム トラキア776,任天堂,cartridge,SHVC-BFRJ-JPN,2500,税抜,ニンテンドウパワーでのプリライト版発売の後、1999年9月1日に書き換え開始 ROMカートリッジ版は2000年1月21日発売 限定品の「DXパック」あり 任天堂にとって最後のROMカートリッジ作品。 ROMカートリッジ版ではバグが修正されている。,ファイアーエムブレム トラキア776,Wikipedia,MAME,MADB,ファイアーエムブレム トラキア776,M754854,firembth

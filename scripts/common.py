@@ -1,5 +1,6 @@
 """機種に依存しない共通処理（出典の取得・キャッシュ、正規化、照合）。"""
 import csv
+from collections import Counter
 import datetime
 import difflib
 import html
@@ -133,6 +134,10 @@ def date_compatible(a, b):
     return not a or not b or a.startswith(b) or b.startswith(a)
 
 
+# 題名の手がかりだけで組にするときに、候補の側にだけあれば別の商品とみなす語（VARIANT に加えて）
+HINT_VARIANT = re.compile(r"パック|コアシステム|本体|バリュー|プレミアム|Premium|PREMIUM|コレクターズ|エディション版|ダブルパック|ツインパック|体験版")
+
+
 def _numbers(title):
     import cero
     return cero._numbers(title)
@@ -143,6 +148,8 @@ def title_hint(title, cand_titles, cand_label):
     import psxdc
     if VARIANT.search(cand_label) and not VARIANT.search(title):
         return False
+    if HINT_VARIANT.search(cand_label) and not HINT_VARIANT.search(title):
+        return False   # 本体同梱版・パック版など
     for t in cand_titles:
         t = re.sub(r"\s*~\s.*$", "", t)   # MAME の「日本語題 ~ ローマ字題」
         a, b = norm(title), norm(t)
@@ -204,9 +211,15 @@ def match(rows, src, overrides, col, date_only=False, undated_sim=None):
         if x["key"] not in used and x["date"]:
             left_src.setdefault(x["date"], []).append(x)
     for date, rs in left_rows.items():
-        if len(rs) == 1 and len(left_src.get(date, [])) == 1:
-            r, x = rs[0], left_src[date][0]
-            if title_hint(r["title"], x["titles"], x["label"]):
+        xs = left_src.get(date, [])
+        if not xs:
+            continue
+        # 手がかりのある組が、行の側でも候補の側でも 1 つだけに決まるものを採る（同じ日に候補が複数あってもよい）
+        hint_pairs = [(r, x) for r in rs for x in xs if title_hint(r["title"], x["titles"], x["label"])]
+        per_row = Counter(r["_i"] for r, _ in hint_pairs)
+        per_src = Counter(x["key"] for _, x in hint_pairs)
+        for r, x in hint_pairs:
+            if per_row[r["_i"]] == 1 and per_src[x["key"]] == 1:
                 result[r["_i"]] = (x, 0, "date_hint")
                 used.add(x["key"])
     if date_only:

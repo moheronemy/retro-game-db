@@ -1,5 +1,5 @@
 release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame_date,maru_code,maru_title,maru_date
-2006-12-02,SDガンダム スカッドハンマーズ,MADB未照合,,,,,,,RVL-RSDJ,SDガンダム SCAD HAMMERS,2006-12-02
+2006-12-02,SDガンダム スカッドハンマーズ,MADB同日1件のみ・題名の手がかりで照合（SDガンダム SCADHAMMERS）,M742121,SDガンダム SCADHAMMERS,2006-12-02,,,,RVL-RSDJ,SDガンダム SCAD HAMMERS,2006-12-02
 2006-12-21,ニード・フォー・スピード カーボン,maru-chang同日1件のみで照合（NEED FOR SPEED CARBON）,M752964,ニード・フォー・スピード カーボン,2006-12-21,,,,RVL-RNSJ,NEED FOR SPEED CARBON,2006-12-21
 2007-01-18,エキサイト トラック,maru-chang同日1件のみで照合（EXCITE TRUCK）,M746021,エキサイト トラック,2007-01-18,,,,RVL-REXJ,EXCITE TRUCK,2007-01-18
 2007-02-22,ファイアーエムブレム 暁の女神,MADB未照合,,,,,,,RVL-RFEJ,ファイアーエムブレム 暁の女神,2007-02-22
@@ -73,7 +73,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2010-05-20,ウイニングイレブン プレーメーカー2010 蒼き侍の挑戦,maru-chang同日1件のみで照合（Winning Eleven PLAY MAKER 2010 蒼き侍の挑戦）,M745634,ウイニングイレブン プレーメーカー 2010 蒼き侍の挑戦,2010-05-20,,,,RVL-SJWJ,Winning Eleven PLAY MAKER 2010 蒼き侍の挑戦,2010-05-20
 2010-05-27,レッドスティール2,maru-chang同日1件のみで照合（Red Steel 2）,M758868,レッドスティール 2,2010-05-27,,,,RVL-RD2J,Red Steel 2,2010-05-27
 2010-06-24,SDガンダム ガシャポンウォーズ,MADBの価格（5775税込・SDガンダム ガシャポンウォーズ クラシックコントローラPRO クロ パック）を同梱版等とみて maru-chang の価格に置換,M742127,SDガンダム ガシャポンウォーズ クラシックコントローラPRO クロ パック,2010-06-24,,,,RVL-SD9J,SDガンダム ガシャポンウォーズ,2010-06-24
-2010-07-15,WE CHEER Dancing Spirits!,MADB未照合,,,,,,,RVL-R6CJ,WE CHEER Dancing Spirits!,2010-07-15
+2010-07-15,WE CHEER Dancing Spirits!,MADB同日1件のみ・題名の手がかりで照合（ウィーチア ダンシングスピリッツ）,M745556,ウィーチア ダンシングスピリッツ,2010-07-15,,,,RVL-R6CJ,WE CHEER Dancing Spirits!,2010-07-15
 2010-07-15,ドラゴンクエスト モンスターバトルロードビクトリー,MADB未照合,,,,,,,RVL-SBAJ,ドラゴンクエスト モンスターバトルロードビクトリー,2010-07-15
 2010-07-29,戦国BASARA3,価格不一致 MADB=6990税込 maru-chang=5990税込,M763482,戦国BASARA3 クラシックコントローラPRO クロ パック,2010-07-29,,,,RVL-SB3J,戦国BASARA3,2010-07-29
 2010-08-05,テトリスパーティープレミアム,maru-chang同日1件のみで照合（Tetris Party Premium）,M751841,テトリスパーティープレミアム,2010-08-05,,,,RVL-STEJ,Tetris Party Premium,2010-08-05
@@ -81,13 +81,13 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2010-09-02,メトロイド アザーエム,MADB同日1件のみ・題名の手がかりで照合（METROID Other M）,M740709,METROID Other M,2010-09-02,,,,RVL-R3OJ,METROID Other M,2010-09-02
 2010-10-21,ノーモア★ヒーローズ2 デスパレート・ストラグル,MADB低スコア0.70; MADBが通常版以外の可能性; maru-chang同日1件のみで照合（NO MORE HEROES 2 DESPERATE STRUGGLE）,M753296,ノーモア ヒーローズ2 デスパレート ストラグル 限定コレクターズBOX「HOPPERS Edition」,2010-10-21,,,,RVL-RUYJ,NO MORE HEROES 2 DESPERATE STRUGGLE,2010-10-21
 2010-11-18,ウイニングイレブン プレーメーカー2011,maru-chang同日1件のみで照合（Winning Eleven PLAY MAKER 2011）,M745635,ウイニングイレブン プレーメーカー 2011,2010-11-18,,,,RVL-SW4J,Winning Eleven PLAY MAKER 2011,2010-11-18
-2010-12-09,フィットネス パーティ,MADB未照合,,,,,,,RVL-SRYJ,Fitness Party,2010-12-09
+2010-12-09,フィットネス パーティ,MADB同日1件のみ・題名の手がかりで照合（Fitness Party）,M739246,Fitness Party,2010-12-09,,,,RVL-SRYJ,Fitness Party,2010-12-09
 2010-12-30,マイルストーンシューティングコレクション2,maru-chang同日1件のみで照合（MILESTONE SHOOTING COLLECTION 2）,M756707,マイルストーンシューティングコレクション2,2010-12-30,,,,RVL-SS9J,MILESTONE SHOOTING COLLECTION 2,2010-12-30
 2011-01-27,ラストストーリー,MADBの価格（25800税込・ラストストーリー スペシャルパック）を同梱版等とみて maru-chang の価格に置換; maru-chang同日1件のみで照合（THE LAST STORY（ラストストーリー））,M758255,ラストストーリー スペシャルパック,2011-01-27,,,,RVL-SLSJ,THE LAST STORY（ラストストーリー）,2011-01-27
 2011-04-21,遊☆戯☆王5D's Duel Transer,MADB未照合; maru-chang同日1件のみで照合（遊戯王5D's デュエルトランサー）,,,,,,,RVL-R8DJ,遊戯王5D's デュエルトランサー,2011-04-21
 2011-06-30,ゴールデンアイ 007,maru-chang同日1件のみで照合（GOLDENEYE 007™）,M748209,ゴールデン アイ 007,2011-06-30,,,,RVL-SJBJ,GOLDENEYE 007™,2011-06-30
 2011-07-28,フィット・イン・シックス カラダを鍛える6つの要素,maru-chang同日1件のみで照合（Fit in Six カラダを鍛える6つの要素）,M755195,フィット・イン・シックス カラダを鍛える6つの要素,2011-07-28,,,,RVL-SF5J,Fit in Six カラダを鍛える6つの要素,2011-07-28
-2011-08-04,ディズニー エピックミッキー 〜ミッキーマウスと魔法の筆〜,MADB未照合,,,,,,,RVL-SEMJ,ディズニー エピックミッキー 〜ミッキーマウスと魔法の筆〜,2011-08-04
+2011-08-04,ディズニー エピックミッキー 〜ミッキーマウスと魔法の筆〜,MADB同日1件のみ・題名の手がかりで照合（Disney EPIC MICKEY ミッキーマウスと魔法の筆）,M738516,Disney EPIC MICKEY ミッキーマウスと魔法の筆,2011-08-04,,,,RVL-SEMJ,ディズニー エピックミッキー 〜ミッキーマウスと魔法の筆〜,2011-08-04
 2011-09-15,ドラゴンクエスト25周年記念 ファミコン&スーパーファミコン ドラゴンクエストI・II・III,価格不一致 MADB=4400税込 maru-chang=4440税込,M721426,ドラゴンクエスト25周年記念 ファミコン＆スーパーファミコン ドラゴンクエスト 1・2・3,2011-09-15,,,,RVL-S25J,ドラゴンクエスト25周年記念 ファミコン＆スーパーファミコン ドラゴンクエストI・II・III,2011-09-15
 2011-09-22,チャンピオンジョッキー:ギャロップレーサー&ジーワンジョッキー,MADB未照合,,,,,,,RVL-SGKJ,チャンピオンジョッキー: ギャロップレーサー＆ジーワンジョッキー,2011-09-22
 2011-11-03,ウイニングイレブン プレーメーカー 2012,maru-chang同日1件のみで照合（Winning Eleven PLAY MAKER 2012）,M745636,ウイニングイレブン プレーメーカー 2012,2011-11-03,,,,RVL-S2PJ,Winning Eleven PLAY MAKER 2012,2011-11-03

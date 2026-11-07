@@ -43,13 +43,13 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1999-11-03,蒼鋼の騎兵 -SPACE GRIFFON-,MAME未照合; Redumpの題名（Soukou no Kihei - Space Griffon (Japan)）から型番を補完（類似度0.95）,M763802,蒼鋼の騎兵 -SPACE GRIFFON-,1999-11-03,,,
 1999-11-03,ラングリッサーミレニアム,MAME未照合,M719291,LANGRISSER MILLENNIUM,1999-11-03,,,
 1999-11-11,チューチューロケット!,MAME未照合,M719289,チューチューロケット!,1999-11-11,,,
-1999-11-11,ギガウイング,MADB未照合,,,,gigawingj,ギガウイング,1999-11-11
+1999-11-11,ギガウイング,MADB同日1件のみ・題名の手がかりで照合（GIGAWING）,M739474,GIGAWING,1999-11-11,gigawingj,ギガウイング,1999-11-11
 1999-11-11,SUPER PRODUCERS -目指せショウビズ界-,MAME未照合,M719290,SUPER PRODUCERS 目指せショウビズ界,1999-11-11,,,
 1999-11-11,田中寅彦のウル寅流将棋居飛車穴熊編,MAME未照合; Redumpの題名（Tanaka Torahiko no Ultra-ryuu Shougi - Ibisha Anaguma-hen (Japan)）から型番を補完（類似度0.95）,M764656,田中寅彦のウル寅流将棋 居飛車穴熊編,1999-11-11,,,
 1999-11-18,スピード・デビル,MADB低スコア0.56; MAME未照合,M742692,SPEED DEViLS （スピード・デビル）,1999-11-18,,,
 1999-11-18,日本プロ麻雀連盟公認 徹萬 免許皆伝,MAME未照合; Redumpの題名（Nihon Pro Mahjong Renmei Kounin - Tetsuman Menkyokaiden (Japan)）から型番を補完（類似度0.85）,M765098,日本プロ麻雀連盟公認 徹萬 免許皆伝,1999-11-18,,,
 1999-11-25,ゾンビリベンジ,MAME未照合,M724101,ZOMBIE REVENGE,1999-11-25,,,
-1999-11-25,デスクリムゾン2 -メラニートの祭壇-,MAME未照合,M724102,デスクリムゾン2 -メラニートの祭壇-,1999-11-25,,,
+1999-11-25,デスクリムゾン2 -メラニートの祭壇-,"MAME同日1件のみ・題名の手がかりで照合（デスクリムゾン2 −メラニートの祭壇−, Death Crimson 2: Messe Sanoh Gun Set (Lightgun Bundle)）",M724102,デスクリムゾン2 -メラニートの祭壇-,1999-11-25,deathc2,"デスクリムゾン2 −メラニートの祭壇−, Death Crimson 2: Messe Sanoh Gun Set (Lightgun Bundle)",1999-11-25
 1999-11-25,ネッパチ 〜10連チャンでラスベガス旅行〜,MAME未照合,M753271,ネッパチ ～10連チャンでラスベガス旅行～,1999-11-25,,,
 1999-12-02,バーチャストライカー2 Ver.2000.1,MAME未照合,M719281,VIRTUA STRIKER 2 Ver. 2000.1,1999-12-02,,,
 1999-12-02,サンライズ英雄譚,MAME未照合,M719282,サンライズ英雄譚,1999-12-02,,,
@@ -97,7 +97,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-03-30,ザ・タイピング・オブ・ザ・デッド,MAME未照合,M723873,THE TYPING OF THE DEAD,2000-03-30,,,
 2000-03-30,ザ・キング・オブ・ファイターズ'99 EVOLUTION,MAME未照合,M719252,THE KING OF FIGHTERS'99 EVOLUTION,2000-03-30,,,
 2000-03-30,ウイニングポスト4 プログラム2000,MAME未照合,M719253,Winning Post 4 プログラム2000,2000-03-30,,,
-2000-03-30,実況パワフルプロ野球 Dreamcast Edition,MAME未照合,M723890,実況パワフルプロ野球 Dreamcast Edition,2000-03-30,,,
+2000-03-30,実況パワフルプロ野球 Dreamcast Edition,MAME同日1件のみ・題名の手がかりで照合（Jikkyou Powerful Pro Yakyuu - Dreamcast Edition）,M723890,実況パワフルプロ野球 Dreamcast Edition,2000-03-30,powyak,Jikkyou Powerful Pro Yakyuu - Dreamcast Edition,2000-03-30
 2000-03-30,プロ麻雀極D,MAME未照合,M755893,プロ麻雀 極D,2000-03-30,,,
 2000-03-30,ワールド・ネバーランド2プラス 〜プルト共和国物語〜,MAME未照合,M759291,ワールド・ネバーランド2 プラス ～プルト共和国物語～,2000-03-30,,,
 2000-04-06,スーパーユーロサッカー2000,MAME未照合,M719249,スーパーユーロサッカー 2000,2000-04-06,,,
@@ -153,7 +153,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-10-12,ポップンミュージック4 アペンドディスク,MAME未照合,M723639,pop'n music 4 APPEND DISC,2000-10-12,,,
 2000-10-19,セガマリンフィッシング,MAME未照合,M719203,SEGA MARINE FISSING,2000-10-19,,,
 2000-10-19,ナップルテール Arsia in Daydream,MAME低スコア0.64,M719202,Napple Tale: Arsia in Daydream,2000-10-19,napple,ナップルテール アリシア イン デイドリーム,2000-10-19
-2000-10-26,シドニー2000,MADB未照合; MAME未照合,,,,,,
+2000-10-26,シドニー2000,MADB同日1件のみ・題名の手がかりで照合（Sydney 2000）; MAME未照合,M743093,Sydney 2000,2000-10-26,,,
 2000-10-26,ネオゴールデンログレス,MAME未照合,M753193,ネオゴールデンログレス,2000-10-26,,,
 2000-11-02,L.O.L. 〜LACK OF LOVE〜,MADB同日1件のみ・題名の手がかりで照合（L.O.L.）,M740222,L.O.L.,2000-11-02,lol,エル・オー・エル,2000-11-02
 2000-11-09,マーズマトリックス,MADB低スコア0.67; MAME未照合,M740577,MARS MATRIX （マーズマトリックス）,2000-11-09,,,
@@ -166,7 +166,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-12-07,燃えろ!ジャスティス学園,MAME未照合,M719194,燃えろ ! ジャスティス学園,2000-12-07,,,
 2000-12-14,サンバDEアミーゴ Ver.2000,MAME未照合,M719189,サンバ DE アミーゴ Ver.2000,2000-12-14,,,
 2000-12-21,ソニックシャッフル,MAME未照合,M719180,SONIC SHUFFLE,2000-12-21,,,
-2000-12-21,ガンスパイク,MADB未照合,,,,gspike,ガンスパイク,2000-12-21
+2000-12-21,ガンスパイク,MADB同日1件のみ・題名の手がかりで照合（GUNSPIKE）,M739692,GUNSPIKE,2000-12-21,gspike,ガンスパイク,2000-12-21
 2000-12-21,ファンタシースターオンライン,MAME未照合,M719186,PHANTASY STAR ONLINE 初回プレス版,2000-12-21,,,
 2000-12-21,デイトナUSA2001,MADB低スコア0.56,M719181,DAYTONA USA 2001,2000-12-21,daytonaj,デイトナUSA 2001,2000-12-21
 2000-12-21,幕末浪漫第二幕 月華の剣士 Final edition,MAME未照合,M719183,幕末浪漫第二幕 月華の剣士 Final edition,2000-12-21,,,
@@ -186,7 +186,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2001-03-01,ファイヤープロレスリングD,MAME未照合,M755015,ファイヤープロレスリングD,2001-03-01,,,
 2001-03-15,ル・マン24アワーズ,MADB未照合,,,,lemans24hj,ル・マン24アワーズ,2001-03-15
 2001-03-22,WORLD SERIES BASEBALL 2K1,MADB未照合; MAME未照合,,,,,,
-2001-03-22,パワージェットレーシング 2001,MADB未照合; MAME未照合,,,,,,
+2001-03-22,パワージェットレーシング 2001,MADB同日1件のみ・題名の手がかりで照合（Power Jet Racing 2001）; MAME未照合,M741655,Power Jet Racing 2001,2001-03-22,,,
 2001-03-22,EVE ZERO 完全版 ark of the matter,MAME未照合; Redumpの題名（Eve Zero Kanzenban - Ark of the Matter (Japan) (Disc 1)）から型番を補完（類似度1.00）,M723405,EVE ZERO 完全版 ark of the matter,2001-03-22,,,
 2001-03-22,バイオハザード CODE:Veronica 完全版,MADB低スコア0.65; MAME低スコア0.51,M723404,BIOHAZARD CODE: Veronica 完全版 完全版,2001-03-22,biohazcvk,バイオハザード コード: ベロニカ 完全版,2001-03-22
 2001-03-22,サクラ大戦3 〜巴里は燃えているか〜,MAME未照合,M719166,サクラ大戦 3 巴里は燃えているか,2001-03-22,,,
@@ -205,11 +205,11 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2001-05-24,NET VERSUS 花札,MADB低スコア0.73; MAME低スコア0.69,M741147,NET@VERSUS ネットバーサス 「花札」,2001-05-24,nvshougi,ネット バーサス 将棋,2001-05-24
 2001-05-24,NET VERSUS 麻雀,MADB低スコア0.73; MAME低スコア0.72,M741149,NET@VERSUS ネットバーサス 「麻雀」,2001-05-24,nvchess,ネット バーサス チェス,2001-05-24
 2001-05-24,NET VERSUS リバーシ,MAME未照合,M741146,NET@VERSUS ネットバーサス 「リバーシ」,2001-05-24,,,
-2001-05-24,NET VERSUS 連珠 五目並べ,MAME未照合,M719155,net @ versus 五目並べと連珠,2001-05-24,,,
+2001-05-24,NET VERSUS 連珠 五目並べ,MAME同日1件のみ・題名の手がかりで照合（ネット バーサス 五目並べと連珠）,M719155,net @ versus 五目並べと連珠,2001-05-24,nvgomoku,ネット バーサス 五目並べと連珠,2001-05-24
 2001-05-31,クレイジータクシー2,MADB未照合,,,,crzytaxi2j,クレイジータクシー2,2001-05-31
 2001-06-07,ファンタシースターオンラインVer.2,MAME未照合,M719150,PHANTASY STAR ONLINE Ver.2,2001-06-07,,,
-2001-06-21,スーパーランナバウト サンフランシスコエディション,MADB未照合; MAME未照合,,,,,,
-2001-06-21,クレオパトラフォーチュン,MADB未照合; MAME未照合,,,,,,
+2001-06-21,スーパーランナバウト サンフランシスコエディション,MADB同日1件のみ・題名の手がかりで照合（Super RUNABOUT San Francisco EDITION）; MAME未照合,M742929,Super RUNABOUT San Francisco EDITION,2001-06-21,,,
+2001-06-21,クレオパトラフォーチュン,MADB同日1件のみ・題名の手がかりで照合（Cleopatra Fortune）; MAME未照合,M738028,Cleopatra Fortune,2001-06-21,,,
 2001-06-21,Piaキャロットへようこそ!!2.5,MAME未照合,M719147,Pia キャロットへようこそ!! 2.5,2001-06-21,,,
 2001-06-23,ソニックアドベンチャー2,MAME未照合; 型番がNo-Introに無い,M719145,SONIC ADVENTURE 2 バースデイパック,2001-06-23,,,
 2001-06-28,対戦ネットギミック カプコン&彩京オールスターズ,MAME未照合,M719141,対戦ネットギミック-カプコン＆彩京オールスターズ-,2001-06-28,,,
@@ -230,7 +230,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2001-08-30,プロ野球チームをつくろう!&あそぼう!,MAME未照合,M719129,プロ野球チームをつくろう!＆あそぼう!,2001-08-30,,,
 2001-09-06,SEGA EXTREME SPORTS,MAME未照合,M719128,SEGA EXTREME SPORTS,2001-09-06,,,
 2001-09-06,シェンムーII,MAME未照合,M734114,シェンムー2,2001-09-06,,,
-2001-09-06,ゼロガンナー2,MADB未照合; MAME未照合,,,,,,
+2001-09-06,ゼロガンナー2,MADB同日1件のみ・題名の手がかりで照合（ZERO GUNNER 2）; MAME未照合,M744202,ZERO GUNNER 2,2001-09-06,,,
 2001-09-06,RUN=DIM as Black Soul,MAME未照合; Redumpの題名（Run=Dim as Black Soul (Japan)）から型番を補完（類似度1.00）,M742035,RUN=DIM as Black Soul,2001-09-06,,,
 2001-09-27,タイピング オブ ザ デート,MADB低スコア0.67; MAME未照合,M750887,タイピング OF THE デート,2001-09-27,,,
 2001-09-27,パチスロ帝王ドリームスロット OLYMPIA SP,MAME未照合,M753914,パチスロ帝王ドリームスロット ～OLYMPIA SP～,2001-09-27,,,
@@ -249,7 +249,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2001-12-20,サクラ大戦オンライン 巴里の優雅な日々,MAME未照合,M719115,サクラ大戦オンライン ～巴里の優雅な日々～,2001-12-20,,,
 2001-12-27,21 -TwoOne-,MAME低スコア0.70; 型番不一致 MAME=T-46503M MADB=T-46504M,M719112,21-Two One-,2001-12-27,21twoone,"21 -Two One-, 21 -Two One- 初回限定版",2001-12-27
 2002-01-10,ボンバーヘッヘ,MADB同日1件のみ・題名の手がかりで照合（BOMBER hehhe!）,M737781,BOMBER hehhe!,2002-01-10,hehhe,ボンバーヘッヘ,2002-01-10
-2002-01-17,ミッシングパーツ ザ・探偵ストリーズ,MADB未照合,,,,misspart,ミッシングパーツ ザ 探偵ストーリーズ,2002-01-17
+2002-01-17,ミッシングパーツ ザ・探偵ストリーズ,MADB同日1件のみ・題名の手がかりで照合（MISSING PARTS the TANTEI stories）,M719111,MISSING PARTS the TANTEI stories,2002-01-17,misspart,ミッシングパーツ ザ 探偵ストーリーズ,2002-01-17
 2002-02-07,Jリーグ スペクタクルサッカー,MADB未照合,,,,jlspecso,Jリーグ スペクタクルサッカー,2002-02-07
 2002-02-14,スペースチャンネル5 Part2,MAME未照合,M750218,スペースチャンネル5 パート2 Dreamcast DIRECT,2002-02-14,,,
 2002-02-28,ウィークネスヒーロー トラウマンDC,MAME未照合,M719104,ウィークネスヒーロー トラウマンDC,2002-02-28,,,
@@ -258,7 +258,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2002-03-21,サクラ大戦4 〜恋せよ乙女〜,MAME未照合,M719101,サクラ大戦 4 恋せよ乙女,2002-03-21,,,
 2002-03-21,サクラ大戦 COMPLETE BOX,MAME未照合,M722948,サクラ大戦 COMPLETE BOX,2002-03-21,,,
 2002-03-28,NFL 2K2,MAME未照合,M719099,NFL 2K2 Dreamcast DIRECT,2002-03-28,,,
-2002-03-28,カード・オブ・デスティニー 〜光と闇の統合者〜,MAME低スコア0.62; MADB未照合,,,,cardofdg,カード・オブ・デスティニー 〜光と闇の統合者〜 限定版,2002-03-28
+2002-03-28,カード・オブ・デスティニー 〜光と闇の統合者〜,MAME低スコア0.62; MADB同日1件のみ・題名の手がかりで照合（Card of Destiny 光と闇の統合者）,M737898,Card of Destiny 光と闇の統合者,2002-03-28,cardofdg,カード・オブ・デスティニー 〜光と闇の統合者〜 限定版,2002-03-28
 2002-03-28,シスター・プリンセス プレミアム・エディション,MAME未照合,M719097,Sister Princess PREMIUM EDITION,2002-03-28,,,
 2002-04-18,WORLD SERIES BASEBALL 2K2,MAME未照合,M744008,WORLD SERIES BASEBALL 2K2 Dreamcast DIRECT,2002-04-18,,,
 2002-04-18,新世紀エヴァンゲリオン 綾波育成計画,MAME未照合,M719095,新世紀エヴァンゲリオン 綾波育成計画,2002-04-18,,,
@@ -308,7 +308,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2004-02-26,サイヴァリア2 THE WILL TO FABRICATE,MADB低スコア0.72; MAME未照合,M719046,PSYVARIAR 2 THE WILL TO FABRICATE,2004-02-26,,,
 2004-03-25,式神の城II,MAME未照合,M734672,式神の城2,2004-03-25,,,
 2004-03-25,てのひらを、たいように,"MAME未照合; Redumpの題名（Tenohira o, Taiyou ni (Japan)）から型番を補完（類似度0.97）",M751886,てのひらを、たいように,2004-03-25,,,
-2004-04-28,Orange Pocket 〜コルネット〜,MADB未照合; MAME未照合,,,,,,
+2004-04-28,Orange Pocket 〜コルネット〜,MADB同日1件のみ・題名の手がかりで照合（オレンジポケット -コルネット-）; MAME未照合,M746453,オレンジポケット -コルネット-,2004-04-28,,,
 2004-04-28,Cherryblossam 〜チェリーブロッサム〜,MAME低スコア0.69,M737982,Cherry blossom ～チェリーブロッサム～,2004-04-28,cherryb,チェリーブロッサム,2004-04-28
 2004-06-17,PIZZICATO POLKA 〜縁鎖現夜〜,MAME未照合,M741593,PIZZICATO POLKA ～縁鎖現夜～,2004-06-17,,,
 2004-06-24,うたう♪タンブリング・ダイス,MAME未照合,M745778,うたう♪タンブリング・ダイス,2004-06-24,,,

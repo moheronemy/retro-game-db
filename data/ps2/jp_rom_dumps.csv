@@ -2,6 +2,8 @@ title_id,title,game_code,dump_name,revision,dump_kind,size,crc32,md5,sha1,sha256
 ps2-jp-0001,A列車で行こう6,SLPS-20006,A6 - A Ressha de Ikou 6 (Japan),0,retail,641068176,c33e689d,3502e2c5c137b43d49f72e34f71601da,7fdd09c7ae6eb2798768bed0ee40c8e04dbe42c6,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0002,エターナルリング,SLPS-25001,Eternal Ring (Japan),0,retail,3917119488,7306017a,4f74321444988815aa8b792d170c27d6,1de981cc93f1bc8d36a68464799ea44e2c0ee09c,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0003,柿木将棋IV,SLPS-20004,Kakinoki Shougi IV (Japan),0,retail,246553104,5f7592d3,9b23878a6178e40acc0dc20d2046114b,b5d22972f3d88f2b7c8f42c23c1c6e46c353bf84,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-0004,決戦 -KESSEN-,SLPM-65001,Kessen (Japan) (v1.50),v1.50,retail,4536074240,28c22b31,d8888cedab83010d77ea5ecb8389fc38,728d8232732acd3c65c3a2a09106d18af4dd5c6a,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-0004,決戦 -KESSEN-,,Kessen (Japan) (v2.10),v2.10,retail,4536107008,675ba595,ef707544a08eb18936f6b699e03d389e,e0a30d2cbf0c4ddaf44a80d270bfa59ed9080098,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0005,ステッピングセレクション,SLPS-20018,Stepping Selection (Japan),0,retail,662527824;656781888,ad0ef2c8;86fc4e98,e6a404ade8ddf6d660d9919dc5c45532;07462599291af5ff4de9b83ea91234d6,100f4670a6377586542270d82b1aec49f11144b0;0833e97c772714687a739b73dfc454f287c822b2,;,dat_only,1,,,,,,,,,Redump,2
 ps2-jp-0006,ストリートファイターEX3,SLPS-20003,Street Fighter EX3 (Japan),0,retail,701721552,cb2788a0,5c664fab8a9e690d68843e477fe44161,1d2e6d4896d402e949274d8be9c8ffcb8f484a24,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0007,drummania,SLPM-62001,DrumMania (Japan),0,retail,324350208,711e288a,fca40e0d8188946ecce67e4e32c6ae98,8f38c5b68c898957e140c1279fcd584234532a15,,dat_only,1,,,,,,,,,Redump,1
@@ -12,6 +14,7 @@ ps2-jp-0013,ゴルフパラダイス,SLPS-20009,Golf Paradise (Japan),0,retail,7
 ps2-jp-0014,鉄拳TAG TOURNAMENT,SLPS-20015,Tekken Tag Tournament (Japan) (v1.20),v1.20,retail,727631184,937f6bbe,f8e6f3025eb702c29fc1f0d867d037d5,f24efbb0f80e7c41e4d61d5c43a5c27b29cb5946,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0014,鉄拳TAG TOURNAMENT,SLPS-20015,Tekken Tag Tournament (Japan) (v2.00),v2.00,retail,727631184,52c4ef9d,9f0b8727b592cab12dad8043292c292f,c8aa65a31024ae252a77ec1d38edb5f48d8a01c4,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0014,鉄拳TAG TOURNAMENT,,Tekken Tag Tournament (Japan) (v3.00),v3.00,retail,725777808,13e734a1,f9017705514e00a0c9b6f95c5de2317e,cd62901ce36d8613102cc81ed0187132cbd25912,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-0015,デッド オア アライブ2,SLPS-25002,Dead or Alive 2 (Japan),0,retail,4570841088,7250c2a0,7b59616b5281f3eec4da11077014ab1e,274c291de3e02ebfd05be6bdfc39c5e28120b185,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0016,撞球 ビリヤードマスター2,SLPM-62242/SLPS-20002,Doukyuu - Billiard Master 2 (Japan),0,retail,748222944,78c18176,44d1b8649583e9e0149b7e1e9f130c5b,54c0e2f107445e3b5259256970dc5c470ec22ebd,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0017,DRIVING EMOTION TYPE-S,SLPS-20007,Driving Emotion Type-S (Japan),0,retail,716089920,8067a9dc,707c424974468ec090a61dcd6c4083d5,70f56932bdcd32ab00d70040e183fe2d41641d83,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0019,グラディウスIII&IV〜復活の神話〜,SLPM-62007/SLPM-62063/SLPM-62530,Gradius III and IV - Fukkatsu no Shinwa (Japan),0,retail,522078144,c9e85b8c,7681fdc6802f960fb0c753ff6d995f29,d1716535c9a5686ad1bde980bee4045321edf8ec,,dat_only,1,,,,,,,,,Redump,1
@@ -291,7 +294,7 @@ ps2-jp-0372,ラ・ピュセル 光の聖女伝説,,"Pucelle, La - Hikari no Seij
 ps2-jp-0373,READY 2 RUMBLE BOXING ROUND 2,SLPM-62124,Ready 2 Rumble Boxing - Round 2 (Japan),0,retail,736150128,dcd96bdc,7a2a4db2a11c60100bf36d3dfce02db7,e932a943130230f1d38da7974b741c2ff21ff105,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0374,SSX TRICKY,SLPS-25078,SSX Tricky (Japan),0,retail,2888040448,755fffa5,2b1859ce0f3fa857f0e79e879f071c86,ba7db3f5a21c0c3581897bfb4ebabf6c4d87ef7f,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0375,NHL 2002,SLPS-20168,NHL 2002 (Japan),0,retail,688733808,66306d2f,a27a2a4d2b7c237678d2613184f925ee,c8bb1812194ffa70a1c7ac4a698df592b666b5f1,,dat_only,1,,,,,,,,,Redump,1
-ps2-jp-0376,侍,SLPM-66399,Samurai 7 (Japan) (Genteiban),0,retail,3032383488,1297f66b,f246421facc822656b3d58166377d82f,0161d2f3f8c0ab7d8250c6f3f866d6f067c51471,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-0376,侍,SCPS-51005/SLPS-20178,"Samurai (Japan, Asia)",0,retail,646818816,9eb89f30,a4cf5fd559fc5872ba402b1a43517878,80159bbc44a4845efb3a8248ff1ac60e548dca5f,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0378,スマッシュコート プロトーナメント,SLPS-20171,Smash Court Pro Tournament (Japan),0,retail,571648896,de52b7ce,83f660586b61287c1df190b9fe45a81d,60de1b3a8ddd740fb8850a47eb1e63d4afafa9ab,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0379,マジカルスポーツ Hard Hitter 2,SLPS-20173/SLPS-20270,Hard Hitter 2 (Japan),0,retail,422837856,309c1189,f730de7e5af2a37f83635255b0740315,959d683ad2d522e0e2c89548b745994b91706107,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0381,甲子園 紺碧の空,SLPS-20172/SLPS-20269,Koushien - Konpeki no Sora (Japan),0,retail,729536304,8977dbdd,95af0a6f789fd26bbf9f3c858a006fe3,3f55ab66d0c4097855fe3f8a0e3536999fa4b2ad,,dat_only,1,,,,,,,,,Redump,1
@@ -578,6 +581,7 @@ ps2-jp-0757,SAVAGE SKIES,SLPM-65226,Savage Skies (Japan),0,retail,2330132480,229
 ps2-jp-0758,エアロビクスレボリューション,SLPM-62301,Aerobics Revolution (Japan),0,retail,492297120,abc4e6e2,108d15499206da69245b5f675d449d6c,33882cda38ea692910751936ebc5e973a78fb204,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0761,トム・クランシーシリーズ ゴーストリコン,SLPM-65244/SLPM-65954,Tom Clancy's Ghost Recon (Japan),0,retail,1335885824,1a714ffd,8b8a166d5f786ab968b55a6b59b73136,5637a38a1f9b8ad1e4ab65157089d5b7a32d1e69,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0762,バーチャファイター4 エボリューション,SLPM-65270,Virtua Fighter 4 - Evolution (Japan),0,retail,1238695936,28e0d826,0f23792d1dd0cded72b837a9d66646e0,a906a1236084a8bc306edfda06ea0c066ed8edee,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-0763,ファイナルファンタジーX-2,SLPM-66125/SLPS-25250,Final Fantasy X-2 (Japan),0,retail,3972890624,ba5bae27,80885666ff338d46af5578f3f7c87bed,cef0b3a4d669ba8449590c16e15a534f7326754b,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0765,OVER THE MONOCHROME RAINBOW featuring SHOGO HAMADA,SLPM-65271,Over the Monochrome Rainbow featuring Shogo Hamada (Japan),0,retail,4650926080,b77ba49c,ea242ad4a6ebe829ece54cf953bb3765,446ee81492b04e6b2468dd802f6bac53ea1c824b,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0766,アークザラッド 精霊の黄昏,,Arc the Lad - Seirei no Tasogare (Japan) (Premium Box),0,retail,3563290624,905a19d7,173a481f587341b05709b458e87b3a91,e27587622f6e83c964f408abc0402ed240c67385,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0766,アークザラッド 精霊の黄昏,SCAJ-20019/SCPS-15041,"Arc the Lad - Seirei no Tasogare (Japan, Asia)",0,retail,3563290624,c4dc01d7,8656ac6b8028fc3b0b14dfa3c1ec8e38,9b5190b0c9e1dd15d68b42ab5ba64d118c168482,,dat_only,1,,,,,,,,,Redump,1
@@ -698,6 +702,7 @@ ps2-jp-0922,モノポリー 〜めざせっ!!大富豪人生!!〜,SLPS-20281,Mon
 ps2-jp-0922,モノポリー 〜めざせっ!!大富豪人生!!〜,SLPS-20281,Monopoly - Mezase!! Daifugou Jinsei!! (Japan) (v2.00),v2.00,retail,364475328,3f7b1110,86af0c99c8a8566e5f9307110f339e20,9d186a80387c286e1dd52b9124b22a77f6b30e2f,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0924,オールスター・プロレスリングIII,SLPM-65300,All Star Pro-Wrestling III (Japan),0,retail,2016018432,b82b62e7,ffd975db1d77f13cbefdc907b7bee936,af834dd596d57082d00a43b7d5c9731cd7356836,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0925,ガチンコプロ野球,SLPS-20301,Gachinko Pro Yakyuu (Japan),0,retail,349460160,d396602d,c140efa89bddcf9ec21d7761559c9578,9ec5c60b013a2bbb800ce4295ab6b5ebd5006e85,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-0926,カルディナルアーク〜混沌の封札〜,SLPM-62365/SLPM-62699,Cardinal Arc - Konton no Fuusatsu (Japan),0,retail,542079552,9f4a154c,24d19733c63cc79ef23ad13824a0db31,595ed92b74728d3ad6a6ae6bb5e128a13fbbdd57,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0927,恐怖新聞【平成版 】怪奇! 心霊ファイル,SLPM-65342/SLPM-65626,Kyoufu Shinbun Heisei-ban - Kaiki! Shinrei File (Japan),0,retail,2030829568,3eb8a936,1f77868ffd817048713d8654b57be09f,0d55300c0e979e7fa7f03ef3b0825f3f3109b631,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0929,サモンナイト3,SLPS-25267/SLPS-73211,Summon Night 3 (Japan),0,retail,3313205248,20fee467,bb94693a31471243541a852dbba55c5f,676fa955abed7c3b6b7df3f31cb53ef46b5f3768,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-0933,ラーゼフォン 蒼穹幻想曲,SLPS-25264,Rahxephon - Soukyuu Gensoukyoku (Japan),0,retail,4611145728,137b26c6,59f9eb7b11416fd4b6701d7e1723f360,577db138b74596098fb8d7cce0c73aae6a6fc719,,dat_only,1,,,,,,,,,Redump,1
@@ -875,6 +880,7 @@ ps2-jp-1194,COOL GIRL,SLPM-65506/SLPM-65742,Cool Girl (Japan) (Disc 1) (Ice Side
 ps2-jp-1194,COOL GIRL,,Cool Girl (Japan) (Disc 1) (Ice Side) (Genteiban),0,retail,3718086656,b4c704e3,6322c45db4e873427d572c392da0cfc2,59d6f474b87093c054972cbef2228774cf79d1c3,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1194,COOL GIRL,,Cool Girl (Japan) (Disc 2) (Aska Side),0,retail,3389095936,e57ed329,36462d921fb63770138c3c3f2f712d0c,b589ec9b5ba8edb16df0acd67a4040e0419ce670,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1194,COOL GIRL,,Cool Girl (Japan) (Disc 2) (Aska Side) (Genteiban),0,retail,3389095936,7ec13c72,3542ae4842bc3cc4461d3630384fcd3e,25c25a9502c99ec18fa2123685edcee2f2fa5e85,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-1198,ファイナルファンタジーX-2 インターナショナル+ラストミッション,SCAJ-20068/SLPM-65478/SLPM-66678,"Final Fantasy X-2 International + Last Mission (Japan, Asia)",0,retail,4452483072,f9f3afca,6b9d862f6aeac04562b8887c075e96c2,08e3cc12c80b73de9715355ed1087965071f069d,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1202,After...〜忘れえぬ絆〜,SLPM-65482,After... Wasureenu Kizuna (Japan),0,retail,1273266176,34f0759c,1485a631cca822123ab11bf3b14e19cf,dcfc6f44d764fbf9f6d5250123458bcc648b9683,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1202,After...〜忘れえぬ絆〜,,After... Wasureenu Kizuna (Japan) (Shokai Genteiban),0,retail,1273266176,01076df8,872b8c72690b048d75dc4fee688595cc,4ddeac7711e2c58630a1fccc8b85139b0c8f8b25,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1203,鬼武者3,SLPM-65413,Onimusha 3 (Japan),0,retail,4683857920,2187f390,03a04dd376ece07450cd1ff32114cd4e,18b9159af713d2542a074d6f64eb407789a1a15b,,dat_only,1,,,,,,,,,Redump,1
@@ -922,6 +928,7 @@ ps2-jp-1259,TAISEN2 囲碁,SLPS-20334,Taisen 2 - Igo (Japan),0,retail,82503456,3
 ps2-jp-1261,TAISEN4 ソルジャー,SLPS-20336,Taisen 4 - Soldier - Kigyou Senshi Shougi (Japan),0,retail,82517568,8b68d7f0,af143612ef53858381723f3b59e03133,3b4a8c99e9f24b1a0d8cd13f928cf7e995cb3f79,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1262,てのひらを、たいように 〜永久の絆〜,SLPM-65560,"Tenohira o, Taiyou ni - Eikyuu no Kizuna (Japan)",0,retail,4649680896,532e3382,b8055f4e9890124a0184dbf7c47fcc9d,ae9df494bb93b12396ecc3cd629a583bdac659f2,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1262,てのひらを、たいように 〜永久の絆〜,,"Tenohira o, Taiyou ni - Eikyuu no Kizuna (Japan) (Shokai Genteiban)",0,retail,4649680896,5e80a05a,d7e835fc07687bc12a42d7383c7fff22,bb5d5fced49db21cd3efdda5244f2b61ace2505c,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-1263,ドラゴンクエストV 天空の花嫁,SCAJ-20075/SLPM-65555/SLPM-66480,"Dragon Quest V - Tenkuu no Hanayome (Japan, Asia)",0,retail,2549121024,f86ffca5,4879f9004c86635e5c03fe81cae6b70d,a1dc324c140a35e64ce24d798bcb6fa62589bd98,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1264,熱チュー!プロ野球2004,SLPS-25350,Netchuu! Pro Yakyuu 2004 (Japan),0,retail,4566974464,559d67c8,4d7adc6e4c11c3cfd3eb9571aab55ea7,327f8ee044fdc157a5f2ac7a8e4ce549dffc277b,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1265,プロ野球スピリッツ2004,SLPM-65543,Pro Yakyuu Spirits 2004 (Japan),0,retail,4479942656,80f5b60c,ca369836ddaa1465c3528efa28dfecf4,94d5fe9f1ab94e8bbbb2325d2f2c79c0bcc618d7,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1267,黄泉がえり,SLPM-65466,Yomigaeri - Refrain (Japan),0,retail,1779761152,3858ad86,54bcdf4695a2c65d38363a799ed58f6a,9d2e24b79e98c0f1d34c020bf1c1d1f7e9d664c4,,dat_only,1,,,,,,,,,Redump,1
@@ -1026,6 +1033,7 @@ ps2-jp-1416,サルアイトーイ 大騒ぎ!ウッキウキゲームてんこも
 ps2-jp-1417,SIMPLE2000シリーズ Vol.57 THE プロ野球2004,SLPM-62508,Simple 2000 Series Vol. 57 - The Pro Yakyuu 2004 (Japan),0,retail,156478560,8aad4c1d,4eff5637fdd0a6165fdbe60ef5191baa,413625c395a55e2a38aee266cce9737d084c26d5,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1418,すくすく犬福,SLPM-62424/SLPM-62630,Quiz & Variety - Suku Suku Inufuku (Japan),0,retail,553896000,46f427a7,061958ba451f1fbcaa2485175dc3d386,9b767c380eeccbb6786a0c8ebcb788e0732ad6b8,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1419,SOCOM II: U.S. NAVY SEALs,SCPS-15065,SOCOM II - U.S. Navy SEALs (Japan),0,retail,4449304576,ebd9f778,f9338af6731f6137b19577565711dfb2,adb4ba49d9209a305d1698ec5e480ae82bd0c84e,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-1420,Darling special Backlash 恋のエキゾースト・ヒート,SLPM-65653/SLPS-25632,Simple 2000 Series Vol. 97 - The Koi no Engine - Darling Special Backlash - Koi no Exhaust Heat (Japan),0,retail,1415675904,499f1b1b,16fc624746d69070907580af15d8cdf0,c6013117626d4df45251d4f2443fa0961bb69626,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1423,michigan,SLPM-65480,Michigan (Japan),0,retail,2442395648,71475458,ddb843cd1b3a5075d46fc576fb7680bb,c0e8cf4fa06cf7e5b613548d9afa3d853e1bfd18,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1424,めいわく星人パニックメーカー,SLPM-65642,Meiwaku Seijin - Panic Maker (Japan),0,retail,2756902912,e62faa6e,8549e580c1ffb06b08969307090e375a,d8f747fa5badb3ebb294b4eda46e195f15f0b2de,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-1426,ワールドサッカーウイニングイレブン8,SLPM-65657,World Soccer Winning Eleven 8 (Japan),0,retail,2458386432,de9da888,d27539b4f918600c95da6fd346a1815d,20e2c86a5d64a2d446e062a2ae1a7e7614c13880,,dat_only,1,,,,,,,,,Redump,1
@@ -1484,6 +1492,7 @@ ps2-jp-2221,オレたちゲーセン族 プーヤン,SLPM-62731,Oretachi Geesen 
 ps2-jp-2222,キミキス,SLPS-25643,KimiKiss (Japan),0,retail,3422715904,b531a620,fb1c518de6b795eb6cba7dcc8a88cd9f,66e4178bed7a2bb2d96e9541328ba3bea7eba4e3,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2222,キミキス,,KimiKiss (Japan) (ebKore Plus),0,retail,1267597312,2a806cf1,5c8bca330ba1e8dddb9205aff31c14b7,9a252463c2d2fb12f3be7c66be4faeb77e9a0815,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2223,SAMURAI 7,SLPM-66400,Samurai 7 (Japan),0,retail,3082027008,3dacc75e,f4cfe7a93178f4351c67152ab0e162be,b0cabe4d293bfa7c1e302bb59bc9a804483155c5,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-2223,SAMURAI 7,,Samurai 7 (Japan) (Genteiban),0,retail,3032383488,1297f66b,f246421facc822656b3d58166377d82f,0161d2f3f8c0ab7d8250c6f3f866d6f067c51471,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2224,新・豪血寺一族 -煩悩解放-,SLPM-66278,Shin Gouketsuji Ichizoku - Bonnou Kaihou (Japan),0,retail,1229750272,5964a3b7,ffc7c86f1ce5e384bef763e5e52e70a5,95a20905a3f30a5f72fdcca93f86c0efc4f2e0c8,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2225,ストリートファイターZERO ファイターズ ジェネレーション,SLPM-66409/SLPM-66854,Street Fighter Zero - Fighter's Generation (Japan),0,retail,4698767360,5ef8e1bb,a5384edba76e28656e5549a1fa579f8b,457312ec9d496c22435f7c2cd1a70f575f4f23a9,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2228,必勝パチンコ★パチスロ攻略シリーズ Vol.4 CR明日があるさ よしもとワールド,SLPS-25645,Hisshou Pachinko Pachi-Slot Kouryaku Series Vol. 4 - CR Ashita ga Aru sa Yoshimoto World (Japan),0,retail,4088397824,b6963a09,bec91940d86f217eea1b08d0997df855,dd67106b596b31671ab411290fed99a0aac238e8,,dat_only,1,,,,,,,,,Redump,1
@@ -1700,6 +1709,7 @@ ps2-jp-2623,マネーすごろく カブコロ,SLPM-66895,Money Sugoroku - Kabuk
 ps2-jp-2626,ワールドサッカー ウイニングイレブン 2008,SLPM-66885,"World Soccer Winning Eleven 2008 (Japan, Korea) (En,Ja)",0,retail,2728034304,fbe8b1bb,b4021166c8e00172bee8549f07f1b275,5ebd99c429d5ed780fc0a5d20568fdb1069b60d7,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2627,ウミショー,SLPM-66864,Umishou (Japan),0,retail,2205908992,b158d77a,08a63db4f248acdc24cdaa0b9507b854,ee82bd535ed114c632a0a31b5acc340d5d0a0175,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2630,ハリー・ポッターと不死鳥の騎士団,SLPM-66886,Harry Potter to Fushichou no Kishidan (Japan),0,retail,4649287680,b605ad66,1b145184a9dc978d2d263834aa9a6b3a,8f0c709c3499bc2c284ecaff4b31eb594e4347bc,,dat_only,1,,,,,,,,,Redump,1
+ps2-jp-2632,ファイナルファンタジーXI アルタナの神兵,SLPM-66894,Final Fantasy XI - Altana no Shinpei (Japan),0,retail,2063728640,101e39fd,688af48a10b5aed0c1e340511c6a79ca,c37e650cb037606949573bdf63fddab3ff822930,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2633,ぷりサガ! 〜プリンセスをさがせ!〜,SLPM-66890,Pri-Saga! Princess o Sagase! (Japan),0,retail,1856307200,b6fb8b49,73e02a6b0cc6bc2d864696290e32b4aa,de9292ac0f13a3006eacdc64576d2e47d681eee3,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2634,Another Century’s Episode 2 Special Vocal Version,SLPS-25829,Another Century's Episode 2 - Special Vocal Version (Japan),0,retail,3677028352,48980350,73bcffb7f2e6da7e3a7e26cd29145dd7,8b23d453c1b257bc718232f1b0d79bb2ebbcae82,,dat_only,1,,,,,,,,,Redump,1
 ps2-jp-2635,SDガンダム Gジェネレーション スピリッツ,SLPS-25832,"SD Gundam - GGeneration Spirits - G-Spirits (Japan, Korea)",0,retail,4222877696,14d277f5,31c69c95d24634f44f01785b7c643634,487f699a7ce1efb7e899791cffdce96212b1ea3a,,dat_only,1,,,,,,,,,Redump,1

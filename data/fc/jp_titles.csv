@@ -716,9 +716,9 @@ fc-jp-0714,1990-11-29,ふしぎなブロビー ブロバニアの危機,ジャ�
 fc-jp-0715,1990-11-30,パロディウスだ!,コナミ,KON-RC849,5800,税抜,同名アーケードゲームの移植版,パロディウスだ! 〜神話からお笑いへ〜,Wikipedia+MADB+MAME,MAME,MADB,パロディウスだ!,M727150,parodiusj
 fc-jp-0716,1990-11-30,大迷路 迷宮の達人,エポック社,EPO-E7,,,,大迷路 迷宮の達人,Wikipedia+MAME,MAME,,,,daimeiro
 fc-jp-0717,1990-12-07,NEMO パジャマヒーロー,カプコン,CAP-EZ,,,映画『リトル・ニモ』のゲーム化,リトル・ニモ,Wikipedia+MADB+MAME,MAME,,,M727147,nemoj
-fc-jp-0718,1990-12-07,T.M.N.T.,コナミ,,,,テレビアニメ『ティーンエイジ・ミュータント・ニンジャ・タートルズ』のゲーム化で、アーケードゲームからの移植,T.M.N.T. 〜スーパー亀忍者〜,Wikipedia,,,,,
+fc-jp-0718,1990-12-07,T.M.N.T.,コナミ,KON-RC853,,,テレビアニメ『ティーンエイジ・ミュータント・ニンジャ・タートルズ』のゲーム化で、アーケードゲームからの移植,T.M.N.T. 〜スーパー亀忍者〜,Wikipedia+MAME,MAME,,,,tmntj
 fc-jp-0719,1990-12-07,西遊記ワールドII 天上界の魔神,ジャレコ,JF-31,,,『西遊記ワールド』の続編,西遊記ワールド,Wikipedia+MAME,MAME,,,,saiyuki2
-fc-jp-0720,1990-12-07,グレートボクシング RUSH・UP,ビスコ,,,,,グレートボクシング RUSH・UP,Wikipedia,,,,,
+fc-jp-0720,1990-12-07,グレートボクシング RUSH・UP,ビスコ,VIS-5E,,,,グレートボクシング RUSH・UP,Wikipedia+MAME,MAME,,,,gboxing
 fc-jp-0721,1990-12-07,TIMES OF LORE 失われたメダリオン,東宝,THF-U7,5300,税抜,,TIMES OF LORE 失われたメダリオン,Wikipedia+MADB+MAME,MAME+MADB,MADB,TIMES OF LORE,M727143,timelorej
 fc-jp-0722,1990-12-07,テクモ ワールドカップサッカー,テクモ,TCF-WC,,,アーケードゲーム『TEHKAN World Cup』を基にしたサッカーゲーム,テクモ ワールドカップサッカー,Wikipedia+MAME,MAME,,,,tecmowcj
 fc-jp-0723,1990-12-07,ぎゅわんぶらあ自己中心派2,アスミック,ASM-2J,,,ぎゅわんぶらあ自己中心派シリーズ第2弾,ぎゅわんぶらあ自己中心派,Wikipedia+MAME,MAME,,,,gambler2
@@ -809,7 +809,7 @@ fc-jp-0807,1991-06-21,忍者龍剣伝III 黄泉の方船,テクモ,TCF-3N,,,忍�
 fc-jp-0808,1991-06-21,飛龍の拳スペシャル ファイティングウォーズ,カルチャーブレーン,CBF-4N,6300,税抜,飛龍の拳シリーズ第4弾で、対決シーンのみをまとめた番外編でもある,飛龍の拳,Wikipedia+MADB+MAME,MAME+MADB,MADB,飛龍の拳スペシャル ファイティングウォーズ,M727021,hiryuksp
 fc-jp-0809,1991-06-28,超人狼戦記 WARWOLF,タカラ,TFC-W8,,,人狼ものの横スクロールアクションゲーム,超人狼戦記 WARWOLF,Wikipedia+MAME,MAME,,,,warwolf
 fc-jp-0810,1991-06-28,AD&D プール・オブ・レイディアンス,ポニーキャニオン,PNF-QA,,,『アドバンスト・ダンジョンズ&ドラゴンズ』のコンピュータゲーム化作品第2弾,プール・オブ・レイディアンス,Wikipedia+MAME,MAME,,,,poolradj
-fc-jp-0811,1991-06-28,ボンバーマンII,ハドソン,HFC-2X,,,ボンバーマンシリーズ第2弾,ボンバーマンII,Wikipedia+MAME,MAME,,,,bombman2j
+fc-jp-0811,1991-06-28,ボンバーマンII,ハドソン,HFC-2X,5800,税抜,ボンバーマンシリーズ第2弾,ボンバーマンII,Wikipedia+MADB+MAME,MAME+MADB,MADB,BOMBER MAN 2,M727011,bombman2j
 fc-jp-0812,1991-06-28,新4人打ちマージャン 役満天国,任天堂,HVC-YT,6500,税抜,,役満 (任天堂),Wikipedia+MADB+MAME,MAME+MADB,MADB,役満天国,M727015,shin4num
 fc-jp-0813,1991-06-28,すごろクエスト ダイスの戦士たち,テクノスジャパン,TJC-Q7,6500,税抜,ボードゲーム調のRPG,すごろクエスト ダイスの戦士たち,Wikipedia+MADB+MAME,MAME+MADB,MADB,すごろクエスト ダイスの戦士たち,M727013,sugoro
 fc-jp-0814,1991-06-28,つっぱりウォーズ,サミー,SAC-7W,,,不良もののシミュレーションゲーム,つっぱりウォーズ,Wikipedia+MAME,MAME,,,,tsuppwar
