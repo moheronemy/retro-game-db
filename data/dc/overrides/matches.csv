@@ -70,3 +70,5 @@ release_date,title,madb_id,mame_name,maru_code,model_number,price_yen,price_tax,
 2001-12-27,21 -TwoOne-,,,,T-46504M,,,,MADB・Redump は T-46504M（MAME の T-46503M は採らない）
 2001-05-24,NET VERSUS 囲碁,,,,T-45703M,,,,MADB・Redump は T-45703M（MAME の T-45701M は採らない）
 2000-09-07,ディノクライシス,M738481,,,,,,2000-09-06,発売日: 一覧の表は 2000-09-07。MAME と記事「ディノクライシス」の基本情報欄は 2000-09-06。MADB「DINO CRISIS」（題名の表記違いで自動照合されない。価格の調査で手動対応）
+2000-09-28,デッド オア アライブ2,M719212,,,,-,,,MADB に通常版が無く、照合した「DEAD OR ALIVE 2 初回限定版」は限定版などなので価格を採らない（照合は確認済み）
+2003-03-13,インタールード,M719064,,,,,,,MADB「Interlude 初回限定版」で確認済み（その形でしか売られなかった・発売時からの廉価版・BEST 版、または価格を maru-chang で裏付け）

@@ -1,6 +1,5 @@
 release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame_date
 1995-07-21,ギャラクティック・ピンボール,発売日不一致 MAME=1995-07-01,M725913,GALACTIC PINBALL,1995-07-21,galactic,ギャラクティック・ピンボール,1995-07-01
-1995-07-21,テレロボクサー,MADBが通常版以外の可能性,M725911,TELEROBOXER,1995-07-21,telerobo,テレロボクサー,1995-07-21
 1995-09-28,スペーススカッシュ,MADB未照合; 発売日不一致 MAME=1995-09-29,,,,ssquash,スペーススカッシュ,1995-09-29
 1995-10-06,バーチャルフィッシング,MADB未照合; 発売日不一致 MAME=1995-10-16,,,,vfishing,バーチャルフィッシング,1995-10-16
 1995-10-13,インスマウスの館,MADB未照合,,,,insmouse,インスマウスの館,1995-10-13

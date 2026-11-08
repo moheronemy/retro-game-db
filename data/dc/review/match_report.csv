@@ -14,7 +14,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-08-24,プリズマティカリゼーション,MADB未照合,,,,,,
 2000-09-07,CAPCOM VS. SNK ミレニアムファイト2000,発売日不一致 MADB=2000-09-06,M719216,CAPCOM VS. SNK MILLENNIUM FIGHT 2000,2000-09-06,,,
 2000-09-21,デスピリア,MADB低スコア0.56,M738399,deSPIRIA（デスピリア）,2000-09-21,despiria,デスピリア,2000-09-21
-2000-09-28,デッド オア アライブ2,MADB低スコア0.70; MADBが通常版以外の可能性; 型番不一致 MAME=T-3602M MADB=T-3601M,M719212,DEAD OR ALIVE 2 初回限定版,2000-09-28,doa2j,デッド オア アライブ2,2000-09-28
+2000-09-28,デッド オア アライブ2,型番不一致 MAME=T-3602M MADB=T-3601M,M719212,DEAD OR ALIVE 2 初回限定版,2000-09-28,doa2j,デッド オア アライブ2,2000-09-28
 2000-09-28,もっとプロ野球チームをつくろう!,型番不一致 MAME=HDR-0092 MADB=HADR-0092,M719210,もっとプロ野球チームをつくろう !,2000-09-28,mottopyt,もっとプロ野球チームをつくろう!,2000-09-28
 2000-11-09,マーズマトリックス,MADB低スコア0.67,M740577,MARS MATRIX （マーズマトリックス）,2000-11-09,,,
 2000-11-16,バイオハザード3 LAST ESCAPE,MADB低スコア0.58,M737566,BIOHAZARD 3 LAST ESCAPE,2000-11-16,,,
@@ -38,7 +38,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2001-09-27,Memories Off 2nd,MADB未照合,,,,memoff2,メモリーズオフ セカンド,2001-09-27
 2001-12-27,21 -TwoOne-,型番不一致 MAME=T-46503M MADB=T-46504M,M719112,21-Two One-,2001-12-27,21twoone,"21 -Two One-, 21 -Two One- 初回限定版",2001-12-27
 2002-02-07,Jリーグ スペクタクルサッカー,MADB未照合,,,,jlspecso,Jリーグ スペクタクルサッカー,2002-02-07
-2003-03-13,インタールード,MADBが通常版以外の可能性,M719064,Interlude 初回限定版,2003-03-13,,,
 2003-06-19,ザ・キング・オブ・ファイターズ2002,MADB未照合,,,,,,
 2003-07-31,ミッシングパーツ3 ザ・探偵ストーリーズ,型番がNo-Introに無い,M719057,MISSING PARTS 3 the TANTEI stories,2003-07-31,,,
 2004-12-16,カオスフィールド,MADB未照合,,,,cfieldsd,カオスフィールド,2004-12-16

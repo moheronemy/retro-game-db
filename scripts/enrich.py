@@ -374,7 +374,9 @@ def main():
         price_src, package = ("MADB", md["label"]) if yen else ("", "")
         price_note = "オープン価格" if md and not yen and "オープン価格" in str(md["price"] or "") else ""
         my, mt = (ma["yen"], ma["tax"]) if ma and ma["yen"] else ("", "")
-        if ov.get("price_yen"):
+        if ov.get("price_yen") == "-":   # 照合した MADB の価格が限定版などのもの → 価格を採らない（照合・型番は残す）
+            yen, tax, price_src, package = "", "", "", ""
+        elif ov.get("price_yen"):
             yen, tax, price_src, package = ov["price_yen"], ov.get("price_tax", ""), "manual", ""
         elif my and not yen:
             yen, tax, price_src, package = my, mt, "maru-chang", ""

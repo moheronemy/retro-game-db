@@ -68,7 +68,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1996-09-27,インタナショナルMOTOーX,MADB低スコア0.59（型番・発売日が他の出典と一致）,M725549,INTERNATIONAL MOTO-X,1996-09-27,,,
 1996-10-04,アンジェリークスペシャルプレミアムBOX,psxdatacenter低スコア0.61で型番を照合（Angelique Special [Premium Box]）,M745216,アンジェリークSpecial プレミアムBOX,1996-10-04,,,
 1996-10-04,あれ!も これ?も 桃太郎,Redumpの題名（Are!Mo KoreMo Momotarou (Japan)）から型番を補完（類似度1.00）,M734810,日本たらればなしツアー1 あれ! も これ?も桃太郎,1996-10-04,,,
-1996-10-10,ヒロイン・ドリーム,MADB低スコア0.70（型番・発売日が他の出典と一致）,M725529,ヒロインドリーム 初回限定版,1996-10-10,,,
 1996-10-25,スターグラディエイター,MADB同日1件のみ・題名の手がかりで照合（STAR GLADIATOR EPISODE: 1 FINAL CRUSADE）,M725510,STAR GLADIATOR EPISODE: 1 FINAL CRUSADE,1996-10-25,,,
 1996-10-25,eexy life EAST END×YURI,psxdatacenter低スコア0.65で型番を照合（East End x Yuri / Eexy Life）,M738761,eexy life EAST END×YURI,1996-10-25,,,
 1996-11-01,NIGHTRUTH 闇の扉,MADB低スコア0.50（型番・発売日が他の出典と一致）,M725505,NIGHTRUTH Explanation of the paranomal 闇の扉,1996-11-01,,,
@@ -159,7 +158,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1997-08-07,ガンバレット,psxdatacenter低スコア0.53で型番を照合（GunBullet）,M746987,ガンバレット エラー 2029,1997-08-07,,,
 1997-08-21,ドラゴンボール FINAL BOUT,MADB低スコア0.51（型番・発売日が他の出典と一致）,M725164,DRAGON BALL FINAL BOUT,1997-08-21,,,
 1997-08-21,スターボーダーズ,psxdatacenter低スコア0.57で型番を照合（Starborders）,M749980,スターボーダーズ,1997-08-21,,,
-1997-08-28,悠久幻想曲,MADB低スコア0.70（型番・発売日が他の出典と一致）,M725159,悠久幻想曲 限定版,1997-08-28,,,
 1997-09-11,熱砂の惑星,psxdatacenter低スコア0.64で型番を照合（Nessa No Hoshi）,M765213,熱砂の惑星,1997-09-11,,,
 1997-09-11,K-1 リベンジ ファイティングイリュージョン,MADB低スコア0.70（型番・発売日が他の出典と一致）,M725149,FIGHTING ILLUSION K-1 REVENGE,1997-09-11,,,
 1997-09-25,トリプルプレー98,psxdatacenter低スコア0.54で型番を照合（Triple Play '98）,M757475,メジャーリーグベースボール トリプルプレイ98,1997-09-25,,,
@@ -347,7 +345,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1999-07-22,GERMS 狙われた街,Redumpの題名（Germs - Nerawareta Machi (Japan)）から型番を補完（類似度1.00）,M739453,GERMS 狙われた街,1999-07-22,,,
 1999-07-22,トロンにコブン,psxdatacenter低スコア0.55で型番を照合（Tron ni Kobun - RockMan Dash Series）,M752744,トロンにコブン,1999-07-22,,,
 1999-07-29,ポップンタンクス!,MADB同日1件のみ・題名の手がかりで照合（POPN TANKS）,M741641,POPN TANKS,1999-07-29,popntank,ポップンタンクス！,1999-07-29
-1999-08-05,トランプしようよ！,MADB低スコア0.70（型番・発売日が他の出典と一致）,M724271,トランプしようよ! 廉価版,1999-08-05,,,
 1999-08-05,探偵神宮寺三郎 Early Collection,MAME低スコア0.52（型番・発売日が他の出典と一致）,M764245,探偵神宮寺三郎 Early Collection,1999-08-05,tjsearly,探偵神宮寺三郎 アーリーコレクション,1999-08-05
 1999-08-12,サイフォン・フィルター,psxdatacenter低スコア0.50で型番を照合（Syphon Filter）,,,,,,
 1999-08-12,SDガンダム GGENERATION-ZERO,MAME低スコア0.63（型番・発売日が他の出典と一致）,M724252,SDガンダム G GENERATION ZERO,1999-08-12,sdgungg0,SDガンダム ジージェネレーション・ゼロ,1999-08-12
@@ -448,7 +445,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-05-18,磁石で飛んじゃう!? ピックスの大冒険,Redumpの題名（Jishaku de Tonjau! Phix no Daibouken (Japan)）から型番を補完（類似度0.89）,M761873,磁石で飛んじゃう! ?ビックスの大冒険,2000-05-18,,,
 2000-05-18,プロ麻雀「兵」3,psxdatacenter低スコア0.56で型番を照合（Pro Mahjong Tsuwamono 3）,M755885,プロ指南麻雀「兵」3,2000-05-18,,,
 2000-05-18,バックギャモン2000,MADB同日1件のみ・題名の手がかりで照合（BACK GAMMON 2000）,M737461,BACK GAMMON 2000,2000-05-18,,,
-2000-05-18,ビクトリーボクシング,MADB低スコア0.70（型番・発売日が他の出典と一致）,M723824,VICTORY BOXING,2000-05-18,,,
 2000-05-25,聖ルミナス女学院,psxdatacenter低スコア0.67で型番を照合（St. Luminous Jogakuin）,M763244,聖ルミナス女学院,2000-05-25,,,
 2000-05-25,SuperLite 1500シリーズ CastorolHONDA SuperBike,psxdatacenter低スコア0.51で型番を照合（Castrol Honda Superbike [SuperLite 1500 Series]）,M742946,SuperLite 1500 シリーズ Castrol HONDA SuperbikeRacing,2000-05-25,,,
 2000-05-25,SuperLite 1500シリーズ Hooockey,MAME低スコア0.74（型番・発売日が他の出典と一致）,M742949,SuperLite 1500 シリーズ Hooockey!!,2000-05-25,hooockey,SuperLite1500シリーズ ホッケー！！,2000-05-25
@@ -636,7 +632,6 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2002-08-29,SIMPLE1500シリーズ Vol.100 THE 宇宙飛行士,psxdatacenter低スコア0.65で型番を照合（Simple 1500 Series Vol.100 - The Astronaut）,,,,,,
 2002-08-29,GROOVE ADVENTURE RAVE 〜未完の秘石〜,MAME低スコア0.68（型番・発売日が他の出典と一致）,M722759,GROOVE ADVENTURE RAVE 未完の秘石,2002-08-29,ravemh,グルーヴアドベンチャーレイヴ　～未完の秘石～,2002-08-29
 2002-09-05,プーさんのみんなで森の大きょうそう!,Redumpの題名（Pooh-san no Minna de Mori no Daikyousou! (Japan)）から型番を補完（類似度0.86）,M755206,プーさんのみんなで森の大きょうそう,2002-09-05,,,
-2002-09-05,ピノビィーの大冒険,MADB低スコア0.70（型番・発売日が他の出典と一致）,M722744,ピノビィーの大冒険 HUDSON THE BEST,2002-09-05,,,
 2002-09-12,デジタルえほん Vol.5 いまどきの うらしまたろう,Redumpの題名（Digital Ehon Vol. 5 - Imadoki no Urashima-tarou (Japan)）から型番を補完（類似度0.90）,M751695,デジタルえほん Vol. 5 いまどきのうらしまたろう,2002-09-12,,,
 2002-09-26,SLOT! PRO6 ハイパージャグラーV,psxdatacenter低スコア0.68で型番を照合（Slot! Pro 6 - Hyper Juggler V）,M732446,SLOT! PRO6 ～ハイパージャグラー5～,2002-09-26,,,
 2002-09-26,天使な小生意気,psxdatacenter低スコア0.69で型番を照合（Tenshi Na Konamaiki）,M764595,天使な小生意気,2002-09-26,,,

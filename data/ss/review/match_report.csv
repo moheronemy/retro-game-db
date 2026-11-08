@@ -43,7 +43,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1996-12-20,アポなしギャルズ お・り・ん・ぽ・す,MAME未照合,M745035,アポなしギャルズ お・り・ん・ぽ・す♥,1996-12-20,,,
 1996-12-20,両替パズル もうぢゃ,MADB低スコア0.62,M757808,もうぢゃ,1996-12-20,mouja,両替パズルゲーム もうぢや,1996-12-20
 1996-12-27,水滸伝・天命の誓い,MAME未照合,M763112,水滸伝・天命の誓い,1996-12-27,,,
-1996-12-31,THE KING OF FIGHTERS '96,MADB低スコア0.64; MADBが通常版以外の可能性; 型番不一致 MAME=T-3108G MADB=T-3109G,M719502,ザ・キング・オブ・ファイターズ'96 RAM同梱版,1996-12-31,kof96,ザ・キング・オブ・ファイターズ'96,1996-12-31
+1996-12-31,THE KING OF FIGHTERS '96,型番不一致 MAME=T-3108G MADB=T-3109G,M719502,ザ・キング・オブ・ファイターズ'96 RAM同梱版,1996-12-31,kof96,ザ・キング・オブ・ファイターズ'96,1996-12-31
 1997-01-10,デジタルダンスミックス Vol.1 安室奈美恵,MADB未照合,,,,digidanc,デジタルダンスミックス Vol.1 安室 奈美恵,1997-01-10
 1997-01-24,EVE burst error,型番不一致 MAME=T-15011G MADB=T-15022G,M719022,EVE burst error,1997-01-24,eveburst,イヴ・バーストエラー,1997-01-24
 1997-01-24,スーパーカジノスペシャル,MADB未照合,,,,supercas,スーパーカジノスペシャル,1997-01-24
@@ -78,7 +78,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1997-09-25,プラドルDISC Vol.6 吉田里深,MAME未照合,M755540,プラドルDISC Vol. 6 吉田里深,1997-09-25,,,
 1997-09-25,ルームメイト〜涼子 in Summer Vacation〜,MAME未照合,M758622,ルームメイト ～涼子 in Summer Vacation～,1997-09-25,,,
 1997-10-30,DiscStation別冊 i miss you.,MADB低スコア0.55; MAME未照合,M739882,i miss you.,1997-10-30,,,
-1997-11-27,X-MEN VS. STREET FIGHTER,MADB低スコア0.70; MADBが通常版以外の可能性; 型番がNo-Introに無い,M744145,X-MEN VS. STREET FIGHTER 4M拡張RAM同梱版,1997-11-27,xmvssfdou,エックスメンVS.ストリートファイター (拡張ラムカートリッジ4MB付属),1997-11-27
+1997-11-27,X-MEN VS. STREET FIGHTER,型番がNo-Introに無い,M744145,X-MEN VS. STREET FIGHTER 4M拡張RAM同梱版,1997-11-27,xmvssfdou,エックスメンVS.ストリートファイター (拡張ラムカートリッジ4MB付属),1997-11-27
 1997-11-27,プラドルDISC Vol.8 古川恵実子,MAME未照合,M755542,プラドルDISC Vol. 8 古川恵実子,1997-11-27,,,
 1997-12-04,この世の果てで恋を唄う少女YU-NO,型番不一致 MAME=T-28004G MADB=T-28005G,M719018,この世の果てで恋を唄う少女 YU-NO,1997-12-04,yuno,この世の果てで恋を唄う少女YU−NO,1997-12-04
 1997-12-04,デジグ ラッセン〜アートコレクション〜,MAME未照合,M751688,デジグ ラッセン ～アートコレクション～,1997-12-04,,,

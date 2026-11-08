@@ -963,7 +963,7 @@ gb-jp-0961,2000-02-24,メタモード,コーエー,gbc_only,,CGB-BTMJ-JPN,3980,�
 gb-jp-0962,2000-03-10,突撃!パッパラ隊,J・ウィング,gbc_compatible,yes,DMG-APHJ-JPN,4500,税抜,,,突撃!パッパラ隊,Wikipedia+MADB+MAME,MAME+MADB,MADB,突撃! パッパラ隊,M723913,gbcolor:totsuge
 gb-jp-0963,2000-03-10,ドラえもんメモリーズ のび太の想い出大冒険,エポック社,gbc_compatible,,DMG-BDMJ-JPN,3980,税抜,,,ドラえもんの派生作品,Wikipedia+MADB+MAME,MAME,MADB,ドラえもんメモリーズ のび太の想い出大冒険,M752377,gbcolor:doramemo
 gb-jp-0964,2000-03-10,メダロット カードロボトル カブトバージョン,イマジニア,gbc_compatible,yes,DMG-A8CJ-JPN,3980,税抜,,メダロットが題材のカードゲームのコンピュータゲーム化,メダロット カードロボトル カブトバージョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,メダロット カードロボトル カブト バージョン,M723911,gbcolor:medarcka
-gb-jp-0965,2000-03-10,メダロット カードロボトル クワガタバージョン,イマジニア,gbc_compatible,yes,DMG-A9CJ-JPN,3980,税抜,,メダロットが題材のカードゲームのコンピュータゲーム化,メダロット カードロボトル クワガタバージョン,Wikipedia+MADB+MAME,MAME+MADB,MADB,メダロット カードロボトル クワガタ バージョン 初回限定版,M723912,gbcolor:medarcku
+gb-jp-0965,2000-03-10,メダロット カードロボトル クワガタバージョン,イマジニア,gbc_compatible,yes,DMG-A9CJ-JPN,,,,メダロットが題材のカードゲームのコンピュータゲーム化,メダロット カードロボトル クワガタバージョン,Wikipedia+MADB+MAME,MAME+MADB,,,M723912,gbcolor:medarcku
 gb-jp-0966,2000-03-10,野球シミュレーション ポケットプロ野球,エポック社,gbc_only,,CGB-BPPJ-JPN,3980,税抜,,,野球シミュレーション ポケットプロ野球,Wikipedia+MADB+MAME,MAME,MADB,野球シミュレーション ポケットプロ野球,M766402,gbcolor:pockyak
 gb-jp-0967,2000-03-17,合格ボーイシリーズ □いアタマを○くする 常識の書,イマジニア,gb,,,3800,税抜,,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 常識の書,M734595,
 gb-jp-0968,2000-03-17,合格ボーイシリーズ □いアタマを○くする 難問の書,イマジニア,gb,,,3800,税抜,,,,Wikipedia+MADB,,MADB,合格ボーイシリーズ □い頭を○くする 難問の書,M734599,
@@ -1009,7 +1009,7 @@ gb-jp-1007,2000-05-19,ゲームコンビニ21,スターフィッシュ,gbc_compa
 gb-jp-1008,2000-05-26,タイトーメモリアル バブルボブル,ジョルダン,gbc_compatible,yes,DMG-BJBJ-JPN,3980,税抜,,,バブルボブル,Wikipedia+MADB+MAME,MAME,MADB,タイトーメモリアル バブルボブル,M750847,gbcolor:bublboblj
 gb-jp-1009,2000-05-26,タイトーメモリアル チェイスH.Q.,ジョルダン,gbc_compatible,yes,DMG-BJCJ-JPN,3980,税抜,,,チェイスH.Q.,Wikipedia+MADB+MAME,MAME,MADB,タイトーメモリアル チェイスH.Q.,M750846,gbcolor:chasehqj
 gb-jp-1010,2000-06-02,大貝獣物語 ポヨンのダンジョンルーム2,ハドソン,gbc_only,,CGB-BP2J-JPN,3980,税抜,,,大貝獣物語 ポヨンのダンジョンルーム2,Wikipedia+MADB+MAME,MAME,MADB,ポヨンのダンジョンルーム2,M756495,gbcolor:poyondr2
-gb-jp-1011,2000-06-10,ビックリマン2000 チャージングカードGB,イマジニア,gbc_compatible,yes,DMG-BC2J-JPN,3980,税抜,,ビックリマン (シール)14代目「ビックリマン2000」が題材,ビックリマン2000 チャージングカードGB,Wikipedia+MADB+MAME,MAME+MADB,MADB,ビックリマン2000 チャージングカードGB 初回限定版,M723803,gbcolor:bikkuri
+gb-jp-1011,2000-06-10,ビックリマン2000 チャージングカードGB,イマジニア,gbc_compatible,yes,DMG-BC2J-JPN,,,,ビックリマン (シール)14代目「ビックリマン2000」が題材,ビックリマン2000 チャージングカードGB,Wikipedia+MADB+MAME,MAME+MADB,,,M723803,gbcolor:bikkuri
 gb-jp-1012,2000-06-15,HUNTER×HUNTER ハンターの系譜,コナミ,gbc_only,,CGB-BHHJ-JPN,4500,税抜,,ゲームボーイカラーにおける漫画およびアニメ『HUNTER×HUNTER』のゲーム化第1作目,HUNTER×HUNTER ハンターの系譜,Wikipedia+MADB+MAME,MAME,MADB,HUNTER×HUNTER ハンターの系譜,M739867,gbcolor:hxhhunke
 gb-jp-1013,2000-06-29,ミスタードリラー,ナムコ,gbc_only,,CGB-BMDJ-JPN,3800,税抜,,同名アーケードゲームの移植版,ミスタードリラー,Wikipedia+MADB+MAME,MAME+MADB,MADB,ミスタードリラー,M723777,gbcolor:mrdrillrja
 gb-jp-1014,2000-06-30,おじゃる丸 〜満願神社の縁日でおじゃる!〜,エム・ティー・オー,gbc_compatible,,DMG-BOJJ-JPN,4200,税抜,,ゲームボーイカラーにおけるテレビアニメ『おじゃる丸』のゲーム第1作目,おじゃる丸 〜満願神社の縁日でおじゃる!〜,Wikipedia+MADB+MAME,MAME,MADB,おじゃる丸～満願神社の縁日でおじゃる! ～,M746293,gbcolor:ojarumam
@@ -1020,7 +1020,7 @@ gb-jp-1018,2000-07-04,いつでもパチンコGB CRモンスターハウス,タ�
 gb-jp-1019,2000-07-06,ワールドサッカーGB2000,コナミ,gbc_only,,CGB-BWSJ-JPN,4500,税抜,,,ワールドサッカーGB2000,Wikipedia+MADB+MAME,MAME,MADB,ワールドサッカーGB2000,M759336,gbcolor:wsoccr2k
 gb-jp-1020,2000-07-07,あつめてあそぶ くまのプーさん 〜もりのたからもの〜,トミー,gbc_only,,CGB-BPUJ-JPN,3980,税抜,,キャラクター・くまのプーさんが題材,あつめてあそぶ くまのプーさん 〜もりのたからもの〜,Wikipedia+MADB+MAME,MAME,MADB,あつめてあそぶ くまのプーさん ～もりのたからもの～,M744919,gbcolor:poohadvj
 gb-jp-1021,2000-07-13,がんばれ!ニッポン! オリンピック2000,コナミ,gbc_only,,CGB-B3HJ-JPN,4500,税抜,,ハイパーオリンピック関連タイトル,がんばれ!ニッポン! オリンピック2000,Wikipedia+MADB+MAME,MAME+MADB,MADB,がんばれ! ニッポン! オリンピック2000,M723760,gbcolor:olymp2k
-gb-jp-1022,2000-07-13,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,コナミ,gbc_only,,CGB-BY3J-JPN,4500,税抜,,ゲームボーイカラーにおける遊戯王シリーズ第3弾であり、初めて日本国外で発売,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,Wikipedia+MADB+MAME,MAME,MADB,遊☆戯☆王 デュエルモンスターズ3 三聖戦神降臨 初回限定版,M723759,gbcolor:yugidm3
+gb-jp-1022,2000-07-13,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,コナミ,gbc_only,,CGB-BY3J-JPN,,,,ゲームボーイカラーにおける遊戯王シリーズ第3弾であり、初めて日本国外で発売,遊☆戯☆王デュエルモンスターズIII 三聖戦神降臨,Wikipedia+MADB+MAME,MAME,,,M723759,gbcolor:yugidm3
 gb-jp-1023,2000-07-14,おじゃる丸 〜月夜が池のたからもの〜,サクセス,gbc_compatible,,DMG-BORJ-JPN,3980,税抜,,ゲームボーイカラーにおけるテレビアニメ『おじゃる丸』のゲーム第2作目,おじゃる丸 〜月夜が池のたからもの〜,Wikipedia+MADB+MAME,MAME,MADB,おじゃる丸 ～月夜が池のたからもの～,M746290,gbcolor:ojarumat
 gb-jp-1024,2000-07-14,ドカポン?! ミレニアムクエスト,アスミック・エース エンタテインメント,gbc_compatible,yes,DMG-BDKJ-JPN,3980,税抜,,ドカポンシリーズの一つである、一人用のダンジョンRPG,ドカポン?! ミレニアムクエスト,Wikipedia+MADB+MAME,MAME,MADB,ドカポン?! ミレニアムクエスト,M752092,gbcolor:dokapon
 gb-jp-1025,2000-07-19,サバイバルキッズ2 脱出!!双子島!,コナミ,gbc_compatible,yes,DMG-B2VJ-JPN,4500,税抜,,,サバイバルキッズ,Wikipedia+MADB+MAME,MAME,MADB,サバイバルキッズ2 脱出!! 双子島!,M748840,gbcolor:survkid2
