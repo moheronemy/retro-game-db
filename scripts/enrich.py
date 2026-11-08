@@ -13,6 +13,7 @@
 出力:
   <dir>/jp_titles.csv
   <dir>/review/match_report.csv         要確認の照合結果
+  <dir>/review/match_notes.csv          値の決め方の注記（確かめ済みの照合方法・置き換えの記録・裏付けのある低スコアの照合）
 
 使い方:
   python3 scripts/enrich.py gba         # ソースは .cache/ にダウンロードして再利用
@@ -27,6 +28,11 @@ import platforms as P
 BASE_FIELDS = ["id", "release_date", "title", "publisher", "model_number", "price_yen", "price_tax", "price_note",
                "notes", "wikipedia_article", "release_date_sources", "model_number_source", "price_source",
                "price_package", "madb_id", "mame_name"]
+
+
+# 要確認レポートではなく注記（review/match_notes.csv）に回すもの: 確かめ済みの照合方法・置き換えの記録
+NOTE_RE = re.compile(r"Redumpの題名|psxdatacenter|同日1件のみ|型番をDATにあるもの|MADBの価格（.*）を同梱版等|MADBの見本盤|CERO公式を採用"
+                     r"|GameTDB の題名")
 
 
 def expand_groups(rows, path):
@@ -209,7 +215,7 @@ def main():
                 issues.append(f"{name}同日1件のみで照合（{src['label']}）")
             elif how == "date_hint":
                 issues.append(f"{name}同日1件のみ・題名の手がかりで照合（{src['label']}）")
-        if not md and md_how != "manual" and cfg["madb_platforms"]:
+        if not md and md_how != "manual" and cfg["madb_platforms"] and not cfg.get("madb_partial"):
             issues.append("MADB未照合")
         if not mm and mm_how != "manual" and cfg["mame_lists"] and not cfg.get("mame_partial"):
             issues.append("MAME未照合")
@@ -322,6 +328,7 @@ def main():
     m_maru = C.match_maru(rows, maru, overrides, cfg.get("code_of") if cfg.get("ref_code_models") else None,
                           cfg.get("maru_date_only", False)) if maru is not None else {}
     report = []
+    note_rows = []
     for r in rows:
         md, mm, ma = r["_md"], r["_mm"], m_maru.get(r["_i"])
         ov = overrides.get((r["release_date"], r["title"]), {})
@@ -466,9 +473,21 @@ def main():
             "price_package": package if price_src.startswith("MADB") else "",
             "maru_code": ma["key"] if ma else "",
         })
-        if issues:
+        # 要確認と注記に分ける。注記は値の決め方の記録（確認済みの照合方法など）で review/match_notes.csv へ。
+        # 低スコアの照合も、型番が 2 つ以上の出典で一致し発売日も一致するなら裏付けありとして注記に回す
+        srcs_set = set(srcs) - {"manual"}
+        notes = []
+        for i in list(issues):
+            backed = (i.startswith("MADB低スコア") and "MADB" in srcs_set and len(srcs_set) >= 2 and "MADB" in dsrc) or \
+                     (i.startswith("MAME低スコア") and "MAME" in srcs_set and len(srcs_set) >= 2 and "MAME" in dsrc)
+            if backed or NOTE_RE.search(i):
+                issues.remove(i)
+                notes.append(i + ("（型番・発売日が他の出典と一致）" if backed else ""))
+        for target, items in ((report, issues), (note_rows, notes)):
+            if not items:
+                continue
             rep = {
-                "release_date": r["release_date"], "title": r["title"], "issues": "; ".join(issues),
+                "release_date": r["release_date"], "title": r["title"], "issues": "; ".join(items),
                 "madb_id": md["key"] if md else "", "madb_title": md["label"] if md else "",
                 "madb_date": md["date"] if md else "",
                 "mame_name": mm["key"] if mm else "", "mame_title": mm["label"] if mm else "",
@@ -477,7 +496,7 @@ def main():
             if maru is not None:
                 rep.update({"maru_code": ma["key"] if ma else "", "maru_title": ma["label"] if ma else "",
                             "maru_date": ma["date"] if ma else ""})
-            report.append(rep)
+            target.append(rep)
 
     for n, r in enumerate(rows, 1):
         r["id"] = f"{cfg['id_prefix']}-{n:04d}"
@@ -485,6 +504,7 @@ def main():
     fields = BASE_FIELDS[:4] + extra + BASE_FIELDS[4:] + (["maru_code"] if maru is not None else [])
     C.write_csv(data / "jp_titles.csv", rows, fields)
     C.write_csv(data / "review" / "match_report.csv", report)
+    C.write_csv(data / "review" / "match_notes.csv", note_rows)
     if cfg.get("dat_title_link"):
         C.write_csv(data / "review" / "dat_title_matches.csv",
                     [{"dump_name": n, "title_id": r["id"], "title": r["title"], "dat_title": e["label"], "score": f"{sc:.2f}"}

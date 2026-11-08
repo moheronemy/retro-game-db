@@ -875,6 +875,7 @@ PLATFORMS = {
             ],
         },
         "madb_platforms": ["ファミリーコンピュータ"],
+        "madb_partial": True,   # MADB にこの機種の商品が少ない（全体の一部しか無い）ので「MADB未照合」は報告しない
         "madb_filter": lambda x: "ディスクカード" not in x["media_format"],
         "mame_lists": ["nes", "nes_datach", "nes_kstudio"],
         "mame_jp_models": _fc_models,   # 'Super Mario Bros. (World)' のように日米共通のもの（シリアルに HVC-SM）
@@ -906,6 +907,7 @@ PLATFORMS = {
         "derive": {"sales_channel": _fds_channel, "port_of_cartridge": _circle("d_port"),
                    "single_sided": _circle("d_single")},
         "madb_platforms": ["ファミリーコンピュータ"],
+        "madb_partial": True,   # MADB にこの機種の商品が少ない（全体の一部しか無い）ので「MADB未照合」は報告しない
         "madb_filter": lambda x: "ディスクカード" in x["media_format"],   # パッケージ版の価格（書き換え料金の出典は無い）
         "mame_lists": ["famicom_flop"],
         "mame_jp_models": lambda s: [s] if s else [],   # 説明に (Japan) が無い（全て日本のソフト）
@@ -985,6 +987,7 @@ PLATFORMS = {
                                   "table_id": "softwarelist",
                                   "columns": ("jp", "na", "eu", "br", "title", "publisher", "notes")}]},
         "madb_platforms": ["メガドライブ"],
+        "madb_partial": True,   # MADB にこの機種の商品が少ない（全体の一部しか無い）ので「MADB未照合」は報告しない
         "madb_filter": lambda x: x["product_id"].startswith("GM-"),
         "mame_lists": ["32x"],
         "mame_jp_models": _md_jp_models,
@@ -1221,6 +1224,7 @@ PLATFORMS = {
         "extra_columns": ["release_date_text", "system", "media", "card_model_number"],
         "derive": {"card_model_number": _sg_card_model},
         "madb_platforms": ["SC-3000,SG-1000", "SG-1000,SC-3000", "SEGAマーク3,SC-3000,SG-1000"],
+        "madb_partial": True,   # MADB にこの機種の商品が少ない（全体の一部しか無い）ので「MADB未照合」は報告しない
         "mame_lists": ["sg1000"],
         "match_undated": 0.8,   # MAME に発売日が無く、Wikipedia も日まで分からないものが多い
         "models_from": _sg_models,
@@ -1251,6 +1255,7 @@ PLATFORMS = {
             }}]},
         "extra_columns": ["media", "capacity", "fm_sound"],
         "madb_platforms": ["SEGAマーク3", "SEGAマーク3,セガ・マスターシステム"],
+        "madb_partial": True,   # MADB にこの機種の商品が少ない（全体の一部しか無い）ので「MADB未照合」は報告しない
         "mame_lists": ["sms"],
         "mame_jp_models": _sms_models,   # 'After Burner (World)' など。海外版の型番は数字だけなので含まれない
         "models_from": _sms_models,
@@ -1353,6 +1358,7 @@ PLATFORMS = {
         }]},
         "extra_columns": ["genre", "age_rating"],
         "madb_platforms": ["PC-FX"],
+        "mame_partial": True,   # MAME のリストに日本版が少ないので「MAME未照合」は報告しない
         "mame_lists": ["pcfx"],
         "mame_all_japanese": ["pcfx"],
         "models_from": _pcfx_models,
@@ -1531,6 +1537,7 @@ PLATFORMS = {
                                   "table_id": "softwarelist",
                                   "columns": ("jp", "na", "eu", "title", "publisher", "notes", "refs")}]},
         "madb_platforms": ["ドリームキャスト"],
+        "mame_partial": True,   # MAME のリストに日本版が少ないので「MAME未照合」は報告しない
         "mame_lists": ["dc"],
         "mame_jp_models": _dc_models,
         "models_from": _dc_models,
@@ -1625,6 +1632,7 @@ PLATFORMS = {
         "extra_columns": ["channel"],
         "derive": {"channel": _3do_channel},
         "madb_platforms": ["3DO"],
+        "mame_partial": True,   # MAME のリストに日本版が少ないので「MAME未照合」は報告しない
         "mame_lists": ["3do"],
         "models_from": _3do_models,
         "models_from_serial": _3do_models,
