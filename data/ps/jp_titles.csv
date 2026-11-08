@@ -48,7 +48,7 @@ ps-jp-0046,1995-06-23,機動戦士ガンダム,バンダイ,,,,,SLPS-00035,6800,
 ps-jp-0047,1995-06-23,ファルカタ 〜アストラン・パードマの紋章〜,ガスト,,,,,,6800,税抜,,,ファルカタ 〜アストラン・パードマの紋章〜,Wikipedia,,MADB,Falcata ～アストラン・パードマの紋章～,M738986,
 ps-jp-0048,1995-06-30,エースコンバット,ナムコ,,,,,SLPS-00061,5800,税抜,,アーケードゲーム『エアーコンバット』シリーズを原作としており、同時期に開発されていた『エアーコンバット22』の仕様の一部も導入されている。,エースコンバット,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,ACE COMBAT,M725931,acecombt
 ps-jp-0049,1995-06-30,アクアノートの休日,アートディンク,,,,,SLPS-00060,6800,税抜,,潜水艦を題材とした海洋探索シミュレーションゲーム。,アクアノートの休日,Wikipedia+MADB,MADB+No-Intro,MADB,アクアノートの休日,M725930,
-ps-jp-0050,1995-06-30,アークザラッド,ソニー・コンピュータエンタテインメント,,,,,SLPS-10008,5800,税抜,,PlayStation初の大型RPG。 PlayStation Classic内蔵ソフト,アークザラッド,Wikipedia+MADB,MADB,MADB,ARC THE LAD,M725932,
+ps-jp-0050,1995-06-30,アークザラッド,ソニー・コンピュータエンタテインメント,,,,,SCPS-10008,5800,税抜,,PlayStation初の大型RPG。 PlayStation Classic内蔵ソフト,アークザラッド,Wikipedia+MADB,manual+No-Intro,MADB,ARC THE LAD,M725932,
 ps-jp-0051,1995-07-07,動画でパズルだ!プップクプー,アジェンダ,,,,,SLPS-00077,5800,税抜,,,,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,動画でパズルだ! プップクプ～,M764954,
 ps-jp-0052,1995-07-07,くるりんPA!,スカイ・シンク・システム,,,,,SLPS-00066,3980,税抜,,,,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,くるりんPA!,M725922,kururinp
 ps-jp-0053,1995-07-07,麻雀巌流島,アスキー,,,,,SLPS-00043,6800,税抜,,,,Wikipedia+MADB,MADB+No-Intro,MADB,麻雀巌流島,M725923,
@@ -271,7 +271,7 @@ ps-jp-0269,1996-05-17,サーキットビート,プリズム・アーツ,,,,,SLPS
 ps-jp-0270,1996-05-24,モータートゥーン・グランプリ2,ソニー・コンピュータエンタテインメント,,,,,SCPS-10018,5800,税抜,,,モータートゥーン・グランプリ,Wikipedia+MADB,MADB+No-Intro,MADB,MOTOR TOON GRAND PRIX 2,M725662,
 ps-jp-0271,1996-05-24,矢追純一極秘プロジェクト『UFOを追え』,日本クラリービジネス,,,,,SLPS-00054,7800,税抜,,UFOに関する資料や記録を収録したデータベースソフトで、もともとはスーパーファミコン用のシミュレーションゲームになる予定だった。,矢追純一,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,矢追純一極秘プロジェクト UFOを追え!,M766406,
 ps-jp-0272,1996-05-24,サンダーホーク2,ビクターエンタテインメント,,,,,,6800,税抜,,,サンダーホーク,Wikipedia+MADB,,MADB,サンダーホーク 2,M734108,
-ps-jp-0273,1996-05-24,ESPN ストリートゲームス,ソニー・コンピュータエンタテインメント,,,,,SLPS-60004,5800,税抜,,,ESPN ストリートゲームス,Wikipedia+MADB,MADB,MADB,ESPN StreetGames,M725660,
+ps-jp-0273,1996-05-24,ESPN ストリートゲームス,ソニー・コンピュータエンタテインメント,,,,,SIPS-60004,5800,税抜,,,ESPN ストリートゲームス,Wikipedia+MADB,No-Intro,MADB,ESPN StreetGames,M725660,
 ps-jp-0274,1996-05-24,デザエモンプラス,アテナ,,,,,SLPS-00335,5800,税抜,,,デザエモン,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,デザエモンPLUS,M725661,dezaepls
 ps-jp-0275,1996-05-31,ダンジョンクリエイター,エレクトロニック・アーツ・ビクター,,,,,SLPS-00349,6800,税抜,,,ダンジョンクリエイター,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,ダンジョンクリエイター,M751120,
 ps-jp-0276,1996-05-31,エキスパート,日本物産,,,,,SLPS-00342,,,,,エキスパート (ゲーム),Wikipedia+MAME,MAME+No-Intro,,,,expert
@@ -660,7 +660,7 @@ ps-jp-0658,1997-03-20,PGA TOUR'97,エレクトロニック・アーツ・ビク�
 ps-jp-0659,1997-03-21,スーパーロボットシューティング,バンプレスト,,,,,SLPS-00554,6800,税抜,,人形付き あり,スーパーロボットシューティング,manual+MADB,MADB+No-Intro,MADB,スーパーロボットシューティング,M725329,
 ps-jp-0660,1997-03-21,ファイナルファンタジーIV,スクウェア,,,,,SLPM-86028,4800,税抜,,同名作品の移植版,ファイナルファンタジーIV,Wikipedia+MADB,MADB+No-Intro,MADB,FINAL FANTASY 4,M725328,
 ps-jp-0661,1997-03-27,ブリーディングスタッド 牧場で逢いましょう,コナミ,,,,,SLPM-86012,5800,税抜,,,ブリーディングスタッド 牧場で逢いましょう,Wikipedia+MADB,MADB+No-Intro,MADB,BreedingStud ～牧場で逢いましょう～,M725324,
-ps-jp-0662,1997-03-27,ときめきメモリアル SELECTION藤崎詩織,コナミ,,,,,SLPS-86029,2800,税抜,,,ときめきメモリアル,Wikipedia+MADB,MADB,MADB,ときめきメモリアル Selection 藤崎詩織,M725323,
+ps-jp-0662,1997-03-27,ときめきメモリアル SELECTION藤崎詩織,コナミ,,,,,SLPM-86029,2800,税抜,,,ときめきメモリアル,Wikipedia+MADB,No-Intro,MADB,ときめきメモリアル Selection 藤崎詩織,M725323,
 ps-jp-0663,1997-03-28,ザ・コンビニ あの町を独占せよ,ヒューマン,,,,,SLPS-00782,5800,税抜,,,ザ・コンビニ,Wikipedia+MADB,MADB+No-Intro,MADB,ザ・コンビニ ～あの町を独占せよ～,M725311,
 ps-jp-0664,1997-03-28,新スーパーロボット大戦スペシャルディスク,バンプレスト,,,,,SLPS-00787,2800,税抜,,,新スーパーロボット大戦スペシャルディスク,Wikipedia+MADB,MADB+No-Intro,MADB,新スーパーロボット大戦 スペシャルディスク,M725309,
 ps-jp-0665,1997-03-28,ドキドキプリティリーグ,エクシング,,,,,SLPS-00756,,,,,ドキドキプリティリーグ,Wikipedia+MADB,psxdatacenter+No-Intro,,,M752111,
@@ -2749,7 +2749,7 @@ ps-jp-2747,2000-12-28,SIMPLE1500シリーズ Vol.51 THE ジグソーパズル,D3
 ps-jp-2748,2000-12-28,ぼくの水族館 アクアパラダイス,ビクターインタラクティブソフトウエア,,,,,SLPS-03095,5800,税抜,,,アクアパラダイス,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,アクアパラダイス ～ぼくの水族館,M744577,aquapara
 ps-jp-2749,2000-12-28,ウィザードリィ エンパイア 古の王女,スターフィッシュ/タイトー,,,,,SLPM-86689,5800,税抜,,,ウィザードリィ エンパイア 古の王女,Wikipedia+MADB,MADB+No-Intro,MADB,Wizardry EMPIRE 古の王女,M723495,
 ps-jp-2750,2000-12-28,HEIWA Parlor! PRO 不二子におまかせスペシャル,三井物産,,,,,SLPS-03105,5200,税抜,,,CR不二子におまかせ,Wikipedia+MADB,MADB+No-Intro,MADB,HEIWA Parlor! PRO 不二子にお・ま・か・せ スペシャル,M723497,
-ps-jp-2751,2000-12-28,ミズパックマン メイズマッドネス,ナムコ,,,,,SLPM-03000,4800,税抜,,,パックマン,Wikipedia+MADB,MADB,MADB,MS.PAC-MAN MAZE MADNESS,M723496,
+ps-jp-2751,2000-12-28,ミズパックマン メイズマッドネス,ナムコ,,,,,SLPS-03000,4800,税抜,,,パックマン,Wikipedia+MADB,No-Intro,MADB,MS.PAC-MAN MAZE MADNESS,M723496,
 ps-jp-2752,2000-12-28,必殺パチンコステーションnow7 マジカルサーカス,サン電子,,,,,SLPS-03107,5800,税抜,,,マジカルサーカス,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,必殺パチンコステーションnow7 マジカルサーカス,M765502,
 ps-jp-2753,2001-01-11,"普及版1,500円シリーズ LOVE★パラ 〜ラブリー東京パラパラ娘〜",メディアリング,,,,,SLPS-03097,1500,税抜,,,ラブリー東京パラパラ娘,Wikipedia+MADB,MADB+No-Intro,MADB,LOVE★パラ ラブリー東京パラパラ娘,M723490,
 ps-jp-2754,2001-01-11,エアロダイブ,バンプレスト,,,,,SLPS-02367,5800,税抜,,,エアロダイブ,Wikipedia+MADB,MADB+No-Intro,MADB,AERO DIVE,M723488,
@@ -2987,7 +2987,7 @@ ps-jp-2985,2001-11-29,SuperLite 3in1シリーズ 数独集,サクセス,,,,,,280
 ps-jp-2986,2001-12-01,ハリー・ポッターと賢者の石,エレクトロニック・アーツ・スクウェア,,,,,SLPS-03355,5300,税抜,,同名児童文学のゲーム化。,ハリー・ポッターと賢者の石,Wikipedia+MADB,MADB+No-Intro,MADB,ハリー・ポッターと賢者の石,M723129,
 ps-jp-2987,2001-12-06,デジモンテイマーズ バトルエボリューション,バンダイ,,,,,SLPS-03357,5800,税抜,,,デジモンテイマーズ バトルエボリューション,Wikipedia+MADB+MAME,MAME+MADB+No-Intro,MADB,DIGIMONTAMERS バトルエボリューション,M723117,digitte
 ps-jp-2988,2001-12-06,メモリアル☆シリーズ サンソフト Vol.2,サン電子,,,,,SLPS-03181,1500,税抜,,,メモリアル☆シリーズ,Wikipedia+MADB+MAME,MAME+No-Intro,MADB,メモリアル☆シリーズ SUNSOFT Vol. 2,M757714,sunsoft2
-ps-jp-2989,2001-12-06,パチスロ完全攻略 〜高砂スーパープロジェクトVOL.2〜,シスコンエンタテインメント,,,,,SLPS-86962,3800,税抜,,,高砂スーパープロジェクト,Wikipedia+MADB,MADB,MADB,パチスロ完全攻略 TAKASAGO SUPER PROJECT 2,M723124,
+ps-jp-2989,2001-12-06,パチスロ完全攻略 〜高砂スーパープロジェクトVOL.2〜,シスコンエンタテインメント,,,,,SLPM-86962,3800,税抜,,,高砂スーパープロジェクト,Wikipedia+MADB,No-Intro,MADB,パチスロ完全攻略 TAKASAGO SUPER PROJECT 2,M723124,
 ps-jp-2990,2001-12-06,DX百人一首,タカラ,,,,,SLPM-86908,2800,税抜,,,百人一首,Wikipedia+MADB,psxdatacenter+No-Intro,MADB,DX百人一首,M738698,
 ps-jp-2991,2001-12-13,シスタープリンセス ピュア・ストーリーズ,メディアワークス,,,,,SLPS-03360,,,,,シスタープリンセス,Wikipedia,MAME+No-Intro,,,,sistrprn
 ps-jp-2992,2001-12-13,キッズステーション ポンキッキーズ21,サン電子,,,,,,3800,税抜,,テレビ番組『ポンキッキーズ21』を題材とした教育ゲーム コントローラ同梱版あり,ポンキッキーズ,Wikipedia+MADB,,MADB,キッズステーション ポンキッキーズ21 ゲームのおもちゃ箱,M747110,

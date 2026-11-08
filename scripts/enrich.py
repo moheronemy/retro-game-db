@@ -31,7 +31,7 @@ BASE_FIELDS = ["id", "release_date", "title", "publisher", "model_number", "pric
 
 
 # 要確認レポートではなく注記（review/match_notes.csv）に回すもの: 確かめ済みの照合方法・置き換えの記録
-NOTE_RE = re.compile(r"Redumpの題名|psxdatacenter|同日1件のみ|型番をDATにあるもの|MADBの価格（.*）を同梱版等|MADBの見本盤|CERO公式を採用"
+NOTE_RE = re.compile(r"Redumpの題名|psxdatacenter|同日1件のみ|型番をDATにあるもの|型番の接頭辞をDATに|MADBの価格（.*）を同梱版等|MADBの見本盤|CERO公式を採用"
                      r"|GameTDB の題名")
 
 
@@ -156,6 +156,18 @@ def main():
     if cfg.get("mame_filter"):   # 業務用と家庭用が混ざったリスト（ネオジオ）から家庭用だけを使う
         mame = [m for m in mame if cfg["mame_filter"](m)]
     nointro = nointro_models(cfg)
+    _dat_names = {}
+
+    def dat_names():
+        """DAT のシリアル（型番）→ 作品名（型番の接頭辞をそろえるときの確認用）"""
+        if not _dat_names:
+            for name in cfg["nointro_dats"]:
+                for block in C.nointro_dat_text(name).split("game (")[1:]:
+                    gm = re.search(r'name "([^"]+)"', block)
+                    for s_ in re.findall(r'serial "([^"]+)"', block):
+                        for c in cfg["models_from_serial"](s_):
+                            _dat_names.setdefault(c, []).append(gm.group(1) if gm else "")
+        return _dat_names
     maru = C.load_maru(cfg["maru"]) if cfg.get("maru") else None
     print(f"MADB: {len(madb)} 件 / MAME 日本版: {len(mame)} 件"
           + (f" / maru-chang: {len(maru)} 件" if maru is not None else ""), file=sys.stderr)
@@ -360,9 +372,26 @@ def main():
             srcs.append("maru-chang")
         if model and key(model) in keys(nointro):
             srcs.append("No-Intro")
+        if model and nointro and key(model) not in keys(nointro) and not ov.get("model_number"):
+            # 接頭辞だけが違う型番（MADB の 'SLPS-86029' と DAT の 'SLPM-86029' など）が DAT に 1 つだけあれば、DAT の表記にそろえる
+            # ソニー機の 'AAAA-NNNNN' の形だけ（PCE の 'NAPH-1010' と 'GED-1010' のように数字の短い型番は別作品とぶつかる）。
+            # DAT の作品名が題名と似ていることも求める
+            m_num = re.fullmatch(r"([A-Z]{4})-(\d{5})", model)
+            same_num = sorted(c for c in nointro if m_num and re.fullmatch(rf"[A-Z]{{4}}-{m_num.group(2)}", c)) if m_num else []
+            if len(same_num) == 1:
+                import psxdc
+                names = dat_names().get(same_num[0], [])
+                if not any(psxdc._ratio(psxdc.romaji(r["title"]), psxdc.norm_roman(re.sub(r" \(.*", "", n)), 0) >= 0.6
+                           or C.sim(r["title"], n) >= 0.6 for n in names):
+                    same_num = []
+            if len(same_num) == 1:
+                issues.append(f"型番の接頭辞をDATにそろえた（元 {model}）")
+                model = same_num[0]
+                srcs[:] = [x for x in srcs if x not in ("MADB", "MAME", "psxdatacenter")] + ["No-Intro"]
         check_ni = cfg.get("nointro_model_check", lambda r: True)
-        if model and nointro and key(model) not in keys(nointro) and check_ni({**r, **{c: fn(r) for c, fn in cfg.get("derive", {}).items()}}):
-            issues.append("型番がNo-Introに無い")
+        if (model and nointro and key(model) not in keys(nointro) and "manual" not in srcs
+                and check_ni({**r, **{c: fn(r) for c, fn in cfg.get("derive", {}).items()}})):
+            issues.append("型番がNo-Introに無い")   # 手で入れた型番（Redump のレーベル面など）は確かめ済みなので報告しない
         if ma and ma["model"] and model and ma["model"] != model:
             issues.append(f"型番不一致 maru-chang={ma['model']}")
         if cfg.get("check_row"):

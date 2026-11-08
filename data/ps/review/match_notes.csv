@@ -41,6 +41,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1996-05-03,首都高バトル DRIFT KING 土屋圭市&坂東正明,MADB低スコア0.74（型番・発売日が他の出典と一致）,M725669,DRIFT KING 首都高バトル 土屋圭市＆坂東正明,1996-05-03,,,
 1996-05-10,花札グラフィティー 恋々物語,MADB同日1件のみ・題名の手がかりで照合（恋々物語）,M766856,恋々物語,1996-05-10,,,
 1996-05-10,バディムス,MADB同日1件のみ・題名の手がかりで照合（VADIMS）,M743678,VADIMS,1996-05-10,,,
+1996-05-24,ESPN ストリートゲームス,型番の接頭辞をDATにそろえた（元 SLPS-60004）,M725660,ESPN StreetGames,1996-05-24,,,
 1996-05-31,ダンジョンクリエイター,psxdatacenter低スコア0.52で型番を照合（Dungeon Creator）,M751120,ダンジョンクリエイター,1996-05-31,,,
 1996-05-31,ブロックくずし デデンの逆襲,Redumpの題名（Block Kuzushi - Deden no Gyakushuu (Japan)）から型番を補完（類似度0.89）,M755854,ブロックくずし ～デデンの逆襲～,1996-05-31,,,
 1996-05-31,あいどるプロモーション〜すずきゆみえ〜,psxdatacenter低スコア0.63で型番を照合（Idol Promotion - Yumie Suzuki）,M744467,あいどるプロモーション ～すずきゆみえ～,1996-05-31,,,
@@ -117,6 +118,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 1997-03-20,ロックマン バトル&チェイス,psxdatacenter低スコア0.65で型番を照合（Rockman Battle & Chase）,M759096,ロックマン バトル＆チェイス,1997-03-20,,,
 1997-03-20,エリア51,psxdatacenter低スコア0.67で型番を照合（Area 51）,M746107,エリア51 スペシャルパック,1997-03-20,,,
 1997-03-21,ファイナルファンタジーIV,MADB低スコア0.56（型番・発売日が他の出典と一致）,M725328,FINAL FANTASY 4,1997-03-21,,,
+1997-03-27,ときめきメモリアル SELECTION藤崎詩織,型番の接頭辞をDATにそろえた（元 SLPS-86029）,M725323,ときめきメモリアル Selection 藤崎詩織,1997-03-27,,,
 1997-03-28,ゼビウス3D/G+,MADB同日1件のみ・題名の手がかりで照合（ZEVIOUS 3D / G+）,M725314,ZEVIOUS 3D / G+,1997-03-28,,,
 1997-03-28,アンドレッティレーシング97,psxdatacenter低スコア0.67で型番を照合（Andretti Racing）,M745269,アンドレッティ レーシング,1997-03-28,,,
 1997-04-11,アンジェリークスペシャル2,MADB低スコア0.57（型番・発売日が他の出典と一致）,M725302,アンジェリーク Special 2,1997-04-11,angspec2,アンジェリークスペシャル2,1997-04-11
@@ -526,6 +528,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2000-12-28,SIMPLE1500シリーズ Vol.51 THE ジグソーパズル,MADB低スコア0.51（型番・発売日が他の出典と一致）,M723498,THE ジグソーパズル,2000-12-28,ss051jgs,SIMPLE1500シリーズ Vol.51 THE ジグソーパズル,2000-12-28
 2000-12-28,ぼくの水族館 アクアパラダイス,MAME低スコア0.57（型番・発売日が他の出典と一致）,M744577,アクアパラダイス ～ぼくの水族館,2000-12-28,aquapara,アクアパラダイス ぼくの水族館,2000-12-28
 2000-12-28,ウィザードリィ エンパイア 古の王女,MADB同日1件のみ・題名の手がかりで照合（Wizardry EMPIRE 古の王女）,M723495,Wizardry EMPIRE 古の王女,2000-12-28,,,
+2000-12-28,ミズパックマン メイズマッドネス,型番の接頭辞をDATにそろえた（元 SLPM-03000）,M723496,MS.PAC-MAN MAZE MADNESS,2000-12-28,,,
 2001-01-11,"普及版1,500円シリーズ LOVE★パラ 〜ラブリー東京パラパラ娘〜",MADB低スコア0.74（型番・発売日が他の出典と一致）,M723490,LOVE★パラ ラブリー東京パラパラ娘,2001-01-11,,,
 2001-01-18,山佐Digiガイド・ファウスト,MADB低スコア0.64（型番・発売日が他の出典と一致）,M723482,YAMASA Digi Gude ファウスト,2001-01-18,,,
 2001-01-18,SIMPLE1500実用シリーズ Vol.05 薬の事典 〜ピルブック2001年版〜,MADB低スコア0.59（型番・発売日が他の出典と一致）,M723479,薬の事典～ピルブック2001年版～,2001-01-18,sjs05knj,SIMPLE1500実用シリーズ Vol.05 薬の事典〜ピルブック2001年版〜,2001-01-18
@@ -584,6 +587,7 @@ release_date,title,issues,madb_id,madb_title,madb_date,mame_name,mame_title,mame
 2001-11-29,NICE PRICEシリーズVol.1 日本プロ麻雀連盟公認 本格プロ麻雀,psxdatacenter低スコア0.59で型番を照合（Nihon Pro Mahjong Renmei Kounin - Honkaku Pro Mahjong [Nice Price Series Vol. 01]）,M741232,NICE PRICE シリーズ Vol. 1 「日本プロ麻雀連盟公認 本格プロ麻雀」,2001-11-29,,,
 2001-11-29,NICE PRICEシリーズVol.2 本格将棋指南,psxdatacenter低スコア0.51で型番を照合（Honkaku Shogi Shinan [Nice Price Vol.02]）,,,,,,
 2001-11-29,SuperLite GOLDシリーズ みんなのチェス,psxdatacenter低スコア0.57で型番を照合（Minna no Chess [SuperLite Gold Series]）,M743074,SuperLite Gold シリーズ みんなのチェス,2001-11-29,,,
+2001-12-06,パチスロ完全攻略 〜高砂スーパープロジェクトVOL.2〜,型番の接頭辞をDATにそろえた（元 SLPS-86962）,M723124,パチスロ完全攻略 TAKASAGO SUPER PROJECT 2,2001-12-06,,,
 2001-12-13,キッズステーション ドキドキ☆のりもの大冒険,psxdatacenter低スコア0.69で型番を照合（Kids Station - Unten Daisuki - Doki doki Norimono Daibouken）,M747086,キッズステーション どきどき★のりもの大冒険,2001-12-13,,,
 2001-12-27,HEIWA Parlor! PRO ブンドリキングスペシャル,MADB低スコア0.53（型番・発売日が他の出典と一致）,M723070,HEIWA Parlor! PRO BunDori KING SP,2001-12-27,,,
 2001-12-27,ジェットコプターX,psxdatacenter低スコア0.61で型番を照合（Jet Copter X）,M749076,ジェットコプター・エックス,2001-12-27,,,
