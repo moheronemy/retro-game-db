@@ -31,7 +31,7 @@ BASE_FIELDS = ["id", "release_date", "title", "publisher", "model_number", "pric
 
 
 # 要確認レポートではなく注記（review/match_notes.csv）に回すもの: 確かめ済みの照合方法・置き換えの記録
-NOTE_RE = re.compile(r"Redumpの題名|psxdatacenter|同日1件のみ|型番をDATにあるもの|型番の接頭辞をDATに|MADBの価格（.*）を同梱版等|MADBの見本盤|CERO公式を採用"
+NOTE_RE = re.compile(r"Redumpの題名|psxdatacenter|同日1件のみ|型番をDATにあるもの|型番の接頭辞をDATに|税込・税抜の表記違い|は誤りとみて maru-chang|MADBの価格（.*）を同梱版等|MADBの見本盤|CERO公式を採用"
                      r"|GameTDB の題名")
 
 
@@ -410,13 +410,24 @@ def main():
         elif my and not yen:
             yen, tax, price_src, package = my, mt, "maru-chang", ""
         elif my and yen:
+            rate = C.tax_rate(date0 or "2000-01-01")
             if abs(C.net_price(yen, tax, date0) - C.net_price(my, mt, date0)) <= 1:
                 price_src = "MADB+maru-chang"
+            elif rate and any(abs(a - C.net_price(my, mt, date0)) <= 1
+                              for a in (int(yen), round(int(yen) / (1 + rate)), round(int(yen) * (1 + rate)))):
+                # 同じ価格で税込・税抜の表記だけが違う（MADB の「5,040円（税抜）」が 4,800 円の税込など）→ maru-chang の表記を採る
+                issues.append(f"MADBの価格（{yen}{tax}）は税込・税抜の表記違いとみて maru-chang の表記に")
+                yen, tax, price_src, package = my, mt, "MADB+maru-chang", ""
             elif C.net_price(yen, tax, date0) > 1.3 * C.net_price(my, mt, date0):
                 # MADB が maru-chang より3割以上高い → 本体・周辺機器との同梱版などの価格とみて通常版の価格に置き換える
                 issues.append(f"MADBの価格（{yen}{tax}・{package}）を同梱版等とみて maru-chang の価格に置換")
                 yen, tax, price_src, package = my, mt, "maru-chang", ""
-            elif C.VARIANT.search(package) and not C.VARIANT.search(r["title"]):
+            elif C.net_price(yen, tax, date0) < 0.2 * C.net_price(my, mt, date0):
+                # MADB の価格が maru-chang の 2 割未満（DS『ブラック2』の「571円」など）→ MADB の誤りとみて maru-chang
+                issues.append(f"MADBの価格（{yen}{tax}）は誤りとみて maru-chang の価格に置換")
+                yen, tax, price_src, package = my, mt, "maru-chang", ""
+            elif ((C.VARIANT.search(package) or C.HINT_VARIANT.search(package) or re.search(r"Collection|コレクション", package))
+                  and not (C.VARIANT.search(r["title"]) or C.HINT_VARIANT.search(r["title"]))):
                 # MADB が限定版・廉価版・同梱版などの価格だった → 通常版の価格に置き換える
                 yen, tax, price_src, package = my, mt, "maru-chang", ""
             elif (yen == my and tax == "税抜" and mt == "税込" and cfg.get("tax_inclusive_from")
