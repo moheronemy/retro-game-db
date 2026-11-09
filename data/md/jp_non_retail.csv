@@ -1,8 +1,56 @@
 id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
-md-jp-nr-h8b13866d,Flash Point (Japan) (En) (Proto),prototype,cartridge,,,Flash Point (Japan) (En) (Proto),No-Intro: Proto,dat_only
-md-jp-nr-h6ca716fe,Gensou Senki Kokou no Ryuu - Crying Dragon (Japan) (Proto),prototype,cartridge,,,Gensou Senki Kokou no Ryuu - Crying Dragon (Japan) (Proto),No-Intro: Proto,dat_only
-md-jp-nr-h6f9d8f27,Mega Turrican (Japan) (En) (Proto),prototype,cartridge,,,Mega Turrican (Japan) (En) (Proto),No-Intro: Proto,dat_only
-md-jp-nr-hbb66529b,Ninja Gaiden (Japan) (En) (Proto),prototype,cartridge,,,Ninja Gaiden (Japan) (En) (Proto),No-Intro: Proto,dat_only
-md-jp-nr-h1a37d2c0,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 1),prototype,cartridge,,,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 1),No-Intro: Proto 1,dat_only
-md-jp-nr-hfc689077,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 2),prototype,cartridge,,,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 2),No-Intro: Proto 2,dat_only
-md-jp-nr-hc3dbe7b2,Star Mobile (Japan) (Proto),prototype,cartridge,,,Star Mobile (Japan) (Proto),No-Intro: Proto,dat_only
+md-jp-nr-1747,スーパーハングオン（開発版）,beta,cartridge,md-jp-0014,,"Super Hang-On (Japan, USA) (En,Ja) (Beta) (Sega Channel)",No-Intro: Beta,trusted_dump
+md-jp-nr-2054,ファイナルブロー（開発版）,beta,cartridge,md-jp-0033,,Final Blow (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-2023,ダーウィン4081（開発版）,beta,cartridge,md-jp-0035,,"Darwin 4081 (Japan, Korea) (En) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-2204,サンダーフォースIII（開発版）,beta,cartridge,md-jp-0041,,"Thunder Force III (Japan, USA) (En) (Rev 1) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-2209,大旋風（開発版）,beta,cartridge,md-jp-0042,,"Twin Hawk (Japan, Europe) (En) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-2357,マイケル・ジャクソンズ・ムーンウォーカー（開発版）,beta,cartridge,md-jp-0052,,"Michael Jackson's Moonwalker (Japan, USA) (En) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-2108,鮫!鮫!鮫!（開発版）,beta,cartridge,md-jp-0066,,Same! Same! Same! (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-2432,グラナダ（開発版）,beta,cartridge,md-jp-0067,,"Granada (Japan, USA) (En) (Rev A) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-1962,アドバンスド大戦略 ドイツ電撃作戦（開発版）,beta,cartridge,md-jp-0116,,Advanced Daisenryaku - Deutsch Dengeki Sakusen (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-1573,レッスルウォー（開発版）,beta,cartridge,md-jp-0120,,"Wrestle War (Japan, Europe) (En) (Beta)",No-Intro: Beta,third_party
+md-jp-nr-1836,球界道中記（開発版）,beta,cartridge,md-jp-0125,,Kyuukai Douchuuki (Japan) (Rev 1) (Beta) (Sega Channel),No-Intro: Beta,trusted_dump
+md-jp-nr-2132,ストリートスマート（開発版）,beta,cartridge,md-jp-0126,,"Street Smart (Japan, USA) (En) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-2074,マスター・オブ・モンスターズ（開発版）,beta,cartridge,md-jp-0128,,Master of Monsters (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-2223,ワンダーボーイV モンスターワールドIII（開発版）,beta,cartridge,md-jp-0146,,"Wonder Boy V - Monster World III (Japan, Korea) (Ja) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-2089,忍者武雷伝説（開発版）,beta,cartridge,md-jp-0157,,Ninja Burai Densetsu (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-2036,ダブルドラゴンII（開発版）,beta,cartridge,md-jp-0163,,Double Dragon II - The Revenge (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-2124,ソーサルキングダム（開発版）,beta,cartridge,md-jp-0178,,Sorcer Kingdom (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-1975,バトルマニア（開発版）,beta,cartridge,md-jp-0183,,Battle Mania (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-2208,ターボアウトラン（開発版）,beta,cartridge,md-jp-0188,,"Turbo OutRun (Japan, Europe) (En) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-2024,デビッド・ロビンソン バスケットボール（開発版）,beta,cartridge,md-jp-0208,,David Robinson Basketball (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-3704,サンダーフォースIV（開発版）,beta,cartridge,md-jp-0215,,Thunder Force IV (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-0453,エクスランザー（開発版）,beta,cartridge,md-jp-0272,,Ex-Ranza (Japan) (En) (Beta),No-Intro: Beta,third_party
+md-jp-nr-2662,スラップファイトMD（開発版）,beta,cartridge,md-jp-0277,,Slap Fight MD (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-1343,ザ・スーパー忍II（開発版）,beta,cartridge,md-jp-0284,,"Super Shinobi II, The (Japan) (Beta 1)",No-Intro: Beta 1,third_party
+md-jp-nr-1342,ザ・スーパー忍II（開発版）,beta,cartridge,md-jp-0284,,"Super Shinobi II, The (Japan) (En,Ja) (Beta 2)",No-Intro: Beta 2,third_party
+md-jp-nr-2433,エコー・ザ・ドルフィン（開発版）,beta,cartridge,md-jp-0287,,Ecco the Dolphin (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-0578,ガンスターヒーローズ（開発版）,beta,cartridge,md-jp-0295,,Gunstar Heroes (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-2392,ガントレット（開発版）,beta,cartridge,md-jp-0298,,"Gauntlet (Japan) (En,Ja) (Beta)",No-Intro: Beta,trusted_modification
+md-jp-nr-0801,マクドナルド トレジャーランド・アドベンチャー（開発版）,beta,cartridge,md-jp-0299,,"McDonald's Treasure Land Adventure (Japan) (En,Ja) (Beta)",No-Intro: Beta,third_party
+md-jp-nr-1899,エターナルチャンピオンズ（開発版）,beta,cartridge,md-jp-0338,,"Eternal Champions (Japan, Korea) (En) (Beta)",No-Intro: Beta,trusted_dump
+md-jp-nr-0613,ハイパーダンク・ザ・プレイオフエディション（開発版）,beta,cartridge,md-jp-0344,,Hyper Dunk - The Playoff Edition (Japan) (En) (Beta),No-Intro: Beta,third_party
+md-jp-nr-2395,ベア・ナックルIII（開発版）,beta,cartridge,md-jp-0348,,Bare Knuckle III (Japan) (Beta),No-Intro: Beta,third_party
+md-jp-nr-1214,新創世記ラグナセンティ（開発版）,beta,cartridge,md-jp-0367,,Shin Souseiki Ragnacenty (Japan) (Beta),No-Intro: Beta,third_party
+md-jp-nr-0609,ハイブリッド・フロント（開発版）,beta,cartridge,md-jp-0377,,"Hybrid Front, The (Japan) (Beta)",No-Intro: Beta,third_party
+md-jp-nr-3666,パルスマン（開発版）,beta,cartridge,md-jp-0378,,Pulseman (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-0409,ダイナマイトヘッディー（開発版）,beta,cartridge,md-jp-0379,,Dynamite Headdy (Japan) (En) (Beta 1),No-Intro: Beta 1,third_party
+md-jp-nr-1894,ダイナマイトヘッディー（開発版）,beta,cartridge,md-jp-0379,,Dynamite Headdy (Japan) (En) (Beta 2),No-Intro: Beta 2,trusted_dump
+md-jp-nr-1895,ダイナマイトヘッディー（開発版）,beta,cartridge,md-jp-0379,,Dynamite Headdy (Japan) (En) (Beta 3),No-Intro: Beta 3,trusted_dump
+md-jp-nr-1712,パノラマコットン（開発版）,beta,cartridge,md-jp-0380,,Panorama Cotton (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-1839,幽☆遊☆白書 魔強統一戦（開発版）,beta,cartridge,md-jp-0387,,Yu Yu Hakusho - Makyou Toitsusen (Japan) (Beta) (Sega Channel),No-Intro: Beta,trusted_dump
+md-jp-nr-1913,リスター・ザ・シューティングスター（開発版）,beta,cartridge,md-jp-0401,,Ristar - The Shooting Star (Japan) (En) (Beta 1),No-Intro: Beta 1,trusted_dump
+md-jp-nr-1914,リスター・ザ・シューティングスター（開発版）,beta,cartridge,md-jp-0401,,Ristar - The Shooting Star (Japan) (En) (Beta 2),No-Intro: Beta 2,trusted_dump
+md-jp-nr-0157,Bare Knuckle II (Japan) (En) (Beta),beta,cartridge,,,Bare Knuckle II (Japan) (En) (Beta),No-Intro: Beta,third_party
+md-jp-nr-0683,Junker's High (Japan) (En) (Beta 1),beta,cartridge,,,Junker's High (Japan) (En) (Beta 1),No-Intro: Beta 1,third_party
+md-jp-nr-2655,Junker's High (Japan) (En) (Beta 2),beta,cartridge,,,Junker's High (Japan) (En) (Beta 2),No-Intro: Beta 2,trusted_dump
+md-jp-nr-1748,"Super Shinobi, The (Japan) (En) (Beta) (Sega Channel)",beta,cartridge,,,"Super Shinobi, The (Japan) (En) (Beta) (Sega Channel)",No-Intro: Beta,trusted_dump
+md-jp-nr-1702,"Super Shinobi, The (Japan) (En) (Beta) (Sega Smash Pack)",beta,cartridge,,,"Super Shinobi, The (Japan) (En) (Beta) (Sega Smash Pack)",No-Intro: Beta,trusted_dump
+md-jp-nr-2464,[BIOS] Mega-CD (Japan) (Beta),beta,cartridge,,,[BIOS] Mega-CD (Japan) (Beta),No-Intro: Beta,trusted_dump
+md-jp-nr-1659,Flash Point (Japan) (En) (Proto),prototype,cartridge,,,Flash Point (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+md-jp-nr-2412,Gensou Senki Kokou no Ryuu - Crying Dragon (Japan) (Proto),prototype,cartridge,,,Gensou Senki Kokou no Ryuu - Crying Dragon (Japan) (Proto),No-Intro: Proto,trusted_dump
+md-jp-nr-2444,Mega Turrican (Japan) (En) (Proto),prototype,cartridge,,,Mega Turrican (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+md-jp-nr-0934,Ninja Gaiden (Japan) (En) (Proto),prototype,cartridge,,,Ninja Gaiden (Japan) (En) (Proto),No-Intro: Proto,third_party
+md-jp-nr-1824,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 1),prototype,cartridge,,,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 1),No-Intro: Proto 1,trusted_dump
+md-jp-nr-1823,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 2),prototype,cartridge,,,Sonic The Hedgehog 3 Limited Edition (Japan) (En) (Proto 2),No-Intro: Proto 2,trusted_dump
+md-jp-nr-3696,Star Mobile (Japan) (Proto),prototype,cartridge,,,Star Mobile (Japan) (Proto),No-Intro: Proto,trusted_dump

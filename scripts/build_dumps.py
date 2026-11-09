@@ -51,7 +51,7 @@ VIRTUAL_CONSOLE = re.compile(r"Virtual Console|Switch Online")
 COLLECTION = re.compile(r"Collection$|^Pokemon Box$|^GameCube$|^Capcom Town$|^Columbus Circle$"
                         r"|^Animal Crossing$|^Retro-Bit Generations$|^Toaplan Arcade Garage$|^Steam$|^PS5$|^Switch$"
                         r"|^XBOX$|^Classic Mini$|^Namco Anthology \d$|^Project EGG$|^Collector's Edition$"
-                        r"|^Game & Watch - Super Mario Bros\.$|^Evercade$|^Retro-Bit$|^Disney Classic Games$"
+                        r"|^Game & Watch - Super Mario Bros\.$|^Evercade$|^Retro-Bit$|^Disney Classic Games$|^Final Fantasy Chronicles$|^Toy Story Retro Roundup!$"
                         r"|^(Mega Drive|Genesis) Mini( 2)?$|^Game no Kanzume.*|^Sega Ages$|^Sega 3D Classics$|^Mega 6$|^PC Engine Mini$|^Satakore$"
                         r"|^PlayStation the Best.*|^PSone Books$|^Major Wave$|^Artdink Best Choice$|^Honkakuha de 1300$"
                         r"|^GameVillage The Best$|^PSP [Tt]he Best$|^Rockstar Classics$|^Culture Publishers$|^Fukyuuban$|^PlayStation 2 the Best.*|^PlayStation 3 the Best.*")
@@ -159,6 +159,9 @@ def game_codes(g, ref, cfg):
     return {c2 for c in codes for c2 in [cfg["normalize_code"](c)] if c2}
 
 
+FILE_FORMAT = None   # 機種の設定の nointro_file_format（FC は "Headerless"）
+
+
 def dump_info(g, ref, mame):
     """No-Intro の1エントリから、吸い出し一覧の1行分（タイトル列以外）を作る。"""
     arch = g.find("archive")
@@ -168,7 +171,18 @@ def dump_info(g, ref, mame):
     files = [s.find("file") for s in sources if s.find("file") is not None]
     # 代表ハッシュ: libretro DAT（= No-Intro の現行 DAT）と同じ CRC のファイル
     main_file = None
-    if ref:
+    if FILE_FORMAT:
+        # FC はヘッダーを除いた ROM 本体（format="Headerless"・.unh）のハッシュを載せる。libretro DAT（ヘッダー付き）と同じ CRC の
+        # ファイルがある吸い出し元の、ヘッダー無しのファイルを選ぶ
+        for src in sources:
+            fs = src.findall("file")
+            if ref and any((f.get("crc32") or "").lower() == ref["crc"] for f in fs) or not ref:
+                main_file = next((f for f in fs if f.get("format") == FILE_FORMAT), None)
+                if main_file is not None:
+                    break
+        if main_file is None:
+            main_file = next((f for src in sources for f in src.findall("file") if f.get("format") == FILE_FORMAT), None)
+    if main_file is None and ref:
         main_file = next((f for f in files if (f.get("crc32") or "").lower() == ref["crc"]), None)
     if main_file is None and files:
         main_file = files[0]
@@ -235,6 +249,8 @@ def main():
     for t in titles:
         if t["model_number"]:
             by_code.setdefault(code_of(t["model_number"]), []).append(t)
+    global FILE_FORMAT
+    FILE_FORMAT = cfg.get("nointro_file_format")
     exports = cfg["nointro_export"] if isinstance(cfg["nointro_export"], list) else [cfg["nointro_export"]]
     games, versions = {}, []
     for pattern in exports:  # GB/GBC のように複数の DB Export を合わせる機種がある
@@ -290,7 +306,7 @@ def main():
             continue
 
         # ---- 製品版（jp_titles.csv）
-        if any(EXCLUDE.match(t) for t in tags) or "Taikenban" in name:
+        if any(EXCLUDE.match(t) for t in tags) or "Taikenban" in name or re.search(r"\[b\d*\]", name):   # [b] は不良な吸い出し
             continue
         targets = [t for c in sorted(codes) for t in by_code.get(c, [])]
         if manual.get(name) == "-":

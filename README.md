@@ -13,10 +13,10 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ニンテンドー ゲームキューブ (GC) | [`data/gc/jp_titles.csv`](data/gc/jp_titles.csv) | 276 | 274 | 276 | [`data/gc/jp_rom_dumps.csv`](data/gc/jp_rom_dumps.csv)（368 行） |
 | Wii | [`data/wii/jp_titles.csv`](data/wii/jp_titles.csv) | 461 | 461 | 461 | [`data/wii/jp_rom_dumps.csv`](data/wii/jp_rom_dumps.csv)（496 行） |
 | NINTENDO 64 (N64) | [`data/n64/jp_titles.csv`](data/n64/jp_titles.csv) | 198 | 198 | 148 | [`data/n64/jp_rom_dumps.csv`](data/n64/jp_rom_dumps.csv)（246 行） |
-| スーパーファミコン (SFC) | [`data/sfc/jp_titles.csv`](data/sfc/jp_titles.csv) | 1,422 | 1,403 | 1,366 | [`data/sfc/jp_rom_dumps.csv`](data/sfc/jp_rom_dumps.csv)（1,647 行） |
-| ファミリーコンピュータ (FC) | [`data/fc/jp_titles.csv`](data/fc/jp_titles.csv) | 1,053 | 1,031 | 374 | [`data/fc/jp_rom_dumps.csv`](data/fc/jp_rom_dumps.csv)（1,320 行） |
+| スーパーファミコン (SFC) | [`data/sfc/jp_titles.csv`](data/sfc/jp_titles.csv) | 1,422 | 1,403 | 1,366 | [`data/sfc/jp_rom_dumps.csv`](data/sfc/jp_rom_dumps.csv)（1,775 行） |
+| ファミリーコンピュータ (FC) | [`data/fc/jp_titles.csv`](data/fc/jp_titles.csv) | 1,053 | 1,031 | 374 | [`data/fc/jp_rom_dumps.csv`](data/fc/jp_rom_dumps.csv)（1,385 行） |
 | ディスクシステム (FC の別リスト) | [`data/fc/disk_system/jp_titles.csv`](data/fc/disk_system/jp_titles.csv) | 198 | 182 | 23 | [`data/fc/disk_system/jp_rom_dumps.csv`](data/fc/disk_system/jp_rom_dumps.csv)（288 行） |
-| メガドライブ (MD) | [`data/md/jp_titles.csv`](data/md/jp_titles.csv) | 422 | 410 | 402 | [`data/md/jp_rom_dumps.csv`](data/md/jp_rom_dumps.csv)（525 行） |
+| メガドライブ (MD) | [`data/md/jp_titles.csv`](data/md/jp_titles.csv) | 422 | 410 | 402 | [`data/md/jp_rom_dumps.csv`](data/md/jp_rom_dumps.csv)（576 行） |
 | メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 111 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
 | スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
 | PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 661 | 429 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（731 行） |
@@ -70,10 +70,10 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | GC | [`jp_not_for_sale.csv`](data/gc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/gc/jp_non_retail.csv)（62 件） | |
 | Wii | [`jp_not_for_sale.csv`](data/wii/jp_not_for_sale.csv)（4 件） | （0 件） | Wiiウェア [`jp_wiiware.csv`](data/wii/jp_wiiware.csv)（210 件） |
 | N64 | （未調査・0 件） | [`jp_non_retail.csv`](data/n64/jp_non_retail.csv)（5 件） | 64DD [`jp_64dd.csv`](data/n64/jp_64dd.csv)（10 件） |
-| SFC | [`jp_not_for_sale.csv`](data/sfc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/sfc/jp_non_retail.csv)（9 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/sfc/jp_nintendo_power.csv)（179 件） |
-| FC | [`jp_not_for_sale.csv`](data/fc/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/fc/jp_non_retail.csv)（9 件） | |
+| SFC | [`jp_not_for_sale.csv`](data/sfc/jp_not_for_sale.csv)（3 件） | [`jp_non_retail.csv`](data/sfc/jp_non_retail.csv)（147 件） | ニンテンドウパワー [`jp_nintendo_power.csv`](data/sfc/jp_nintendo_power.csv)（179 件） |
+| FC | [`jp_not_for_sale.csv`](data/fc/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/fc/jp_non_retail.csv)（74 件） | |
 | ディスクシステム | [`jp_not_for_sale.csv`](data/fc/disk_system/jp_not_for_sale.csv)（4 件） | [`jp_non_retail.csv`](data/fc/disk_system/jp_non_retail.csv)（14 件） | |
-| MD | （未調査・0 件） | [`jp_non_retail.csv`](data/md/jp_non_retail.csv)（7 件） | 配信専用 [`jp_online.csv`](data/md/jp_online.csv)（46 件） |
+| MD | （未調査・0 件） | [`jp_non_retail.csv`](data/md/jp_non_retail.csv)（55 件） | 配信専用 [`jp_online.csv`](data/md/jp_online.csv)（46 件） |
 | メガCD | [`jp_not_for_sale.csv`](data/md/mega_cd/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/md/mega_cd/jp_non_retail.csv)（1 件） | |
 | PCE | [`jp_not_for_sale.csv`](data/pce/jp_not_for_sale.csv)（15 件） | [`jp_non_retail.csv`](data/pce/jp_non_retail.csv)（3 件） | 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） |
 | SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
@@ -507,7 +507,7 @@ NINTENDO 64 用として日本で発売されたソフト（1996〜2001年）。
 | タイトル・発売日・発売元 | ja.wikipedia「スーパーファミコンのゲームタイトル一覧」（日本の発売日がある行。本文の記載どおり 1,447 件、年別件数も一致） |
 | 価格（・型番の補助） | メディア芸術データベース（機種「スーパーファミコン」） |
 | 型番・発売日の照合 | MAME ソフトウェアリスト `hash/snes.xml`・`hash/snes_strom.xml`（スーファミターボ） |
-| ハッシュ | No-Intro DAT（libretro 収録の SNES・Sufami Turbo。DB Export は未取得） |
+| ハッシュ | No-Intro DB Export（Super Nintendo Entertainment System〈20261108-123545〉）、スーファミターボは No-Intro DAT（libretro 収録の Sufami Turbo。DB Export は未取得） |
 | ニンテンドウパワー | ja.wikipedia「ニンテンドウパワーのゲームタイトル一覧」スーパーファミコンの表 |
 
 - 本リストは 1,422 件。ニンテンドウパワーの書き換え専用タイトル 25 件（ピクロスNP、スーパーパンチアウト!!、
@@ -528,7 +528,12 @@ Wikipedia「その他」節の 6 件を振り分けた。
 | 別リスト `business`（3 件） | ゲットインザホール（ゴルフシミュレータ専用）、JRA PAT／JRA PAT ワイド対応版（NTT データ通信セット専用の競馬投票ソフト） |
 
 No-Intro の `Sample`・`Auto Demo`・`Enhancement Chip` は製品版から除き、`Capcom Town`・`Columbus Circle`（後年の再発売）は
-`collection` とした。別リストはほかに試作品 6 件。
+`collection` とした。別リストはほかに開発版 137 件・試作品 7 件（No-Intro の DB Export にある `Beta`・`Proto`）。
+
+ハッシュは No-Intro の DB Export（2026年11月に取得）で、確認区分（`trusted_dump` 1,437・`third_party` 206・`undocumented` 118・
+`trusted_modification` 1）・SHA256・初出の日付・アーカイブ番号・ラベルの刻印（1,090 行）が入った。libretro 版 DAT のときと
+製品版のハッシュは変わらない。DB Export で加わった後年の収録版（`Final Fantasy Chronicles`・`Toy Story Retro Roundup!`）は `collection`。スーファミターボ（13 件）は libretro 版 DAT のまま（確認区分は `dat_only`）。
+別リストの `id` はハッシュからの `nr-h…` をやめ、No-Intro のアーカイブ番号からの番号にした。
 
 ### ニンテンドウパワー（`jp_nintendo_power.csv`）
 
@@ -548,7 +553,7 @@ GB と同じ形式の別リスト（179 件、うち書き換え専用 26 件）
 | タイトル・発売日・発売元 | ja.wikipedia「ファミリーコンピュータのゲームタイトル一覧」（日本の発売日がある行。本文の記載どおり 1,053 件、年別件数も一致）、「ファミリーコンピュータ ディスクシステムのゲームタイトル一覧」（198 件、年別件数も一致） |
 | 価格（・型番の補助） | メディア芸術データベース（機種「ファミリーコンピュータ」。カセット 415 件・ディスクカード 26 件しかない） |
 | 型番・発売日の照合 | MAME ソフトウェアリスト `hash/nes.xml`・`nes_datach.xml`・`nes_kstudio.xml`、ディスクは `famicom_flop.xml` |
-| ハッシュ | No-Intro DAT（libretro 収録の NES・Famicom Disk System。DB Export は未取得） |
+| ハッシュ | No-Intro DB Export（Nintendo Entertainment System〈20261107-104737〉）、ディスクシステムは No-Intro DAT（libretro 収録の Famicom Disk System。DB Export は未取得） |
 
 - 周辺機器の専用・同梱ソフト（データック、カラオケスタジオ、ファミリートレーナー、ロボット、ファミリーベーシックなど）は本リストに含む。
 - 型番は会社ごとに形式が違う（`HVC-SM`、`NAM-NXV-4900`、`TFC-KD-4900`、`IF-02` など）ため、表記のまま載せる。
@@ -564,6 +569,13 @@ GB と同じ形式の別リスト（179 件、うち書き換え専用 26 件）
 ### ハッシュ
 
 - FC は iNES ヘッダーを除いた ROM 本体（No-Intro の `.unh`）のハッシュ。ヘッダー付き（`.nes`）は載せない。
+  DB Export には両方の形式があるので、`platforms.py` の `nointro_file_format`（`Headerless`）で `.unh` の方を選ぶ。
+- No-Intro の DB Export（2026年11月に取得）で、確認区分（`trusted_dump` 1,352・`third_party` 31・`trusted_modification` 2）・SHA256・
+  初出の日付・アーカイブ番号・ラベルの刻印（843 行）が入った。libretro 版 DAT のときからハッシュが変わったのは 7 行（『ドラゴンボール3 悟空伝』の
+  無印と Rev 1 の入れ替わり、『ギャラクシアン』のナムコットコレクション版など）で、現在の No-Intro の記録に従った。
+  `[b]`（不良な吸い出し）は載せない。後年の非ライセンス扱いになった『テトリス (World)』は製品版から外れた。
+  DB Export にだけある開発版 65 件・試作品が別リスト `jp_non_retail.csv` に加わった（74 件）。
+  『スター・ウォーズ』（ビクター）は No-Intro の名前が `(Victor)` 付きのため手動対応（`overrides/dump_matches.csv`）。
 - FC の ROM にはゲームコードが無く、No-Intro の DAT にもシリアルが無いため、吸い出しとタイトルは
   MAME のチップ別（PRG・CHR）の CRC をつないだ CRC、No-Intro 名、手動対応（`overrides/dump_matches.csv`）で結びつけた。
   『スーパーマリオブラザーズ』など日米共通の `(World)` の吸い出しも含む。製品版の吸い出しがあるのは 1,052/1,053 件
@@ -612,7 +624,7 @@ Wikipedia の「非売品」節（FC 10 行・ディスク 5 行）を振り分�
 | タイトル・発売日・発売元 | ja.wikipedia「メガドライブのゲームタイトル一覧」（セガ公式のソフトウェア一覧が出典。日本 468 件・年別件数とも本文と一致）、「メガCDのゲームタイトル一覧」（114 件）、「スーパー32Xのゲームタイトル一覧」（18 件） |
 | 価格（・型番の補助） | メディア芸術データベース（機種「メガドライブ」。カートリッジのうち型番 `GM-` は 32X、CD-ROM はメガCD に振り分け） |
 | 型番・発売日の照合 | MAME ソフトウェアリスト `hash/megadriv.xml`・`megacd.xml`・`32x.xml` |
-| ハッシュ | No-Intro DAT（libretro 収録の Mega Drive・32X）、Redump DAT（libretro 収録の Mega-CD） |
+| ハッシュ | No-Intro DB Export（Mega Drive - Genesis〈20261109-015329〉）、32X は No-Intro DAT（libretro 収録。DB Export は未取得）、Redump DAT（libretro 収録の Mega-CD） |
 
 - Wikipedia の 468 件のうち、配信専用の 46 件（ゲーム図書館 36・セガチャンネル 8・MEGAターミナル 2）は
   [`jp_online.csv`](data/md/jp_online.csv)（`service` 列）に分け、本リストは 422 件。『コラムス』のように
@@ -625,6 +637,9 @@ Wikipedia の「非売品」節（FC 10 行・ディスク 5 行）を振り分�
   （本リスト・メガCD・32X とも全タイトルに製品版の吸い出しがある）。メガCD は Redump のシリアル（レーベル面の型番）で結びつける。
 - 価格は本リスト 398 件・メガCD 101 件。32X は MADB に 2 件しかなく 1 件だけ。1989年3月以前の発売（5 件）は `税なし`。
 - メガCD のハッシュは libretro 版 Redump DAT に載っている最初のトラック（データトラック）のもの。
+- 本リストのハッシュは No-Intro の DB Export（2026年11月に取得）で、確認区分（`trusted_dump` 545・`third_party` 29・`trusted_modification` 2）・
+  SHA256・初出の日付・アーカイブ番号・ラベルの刻印（75 行）が入った。libretro 版 DAT のときとハッシュは変わらない。
+  吸い出しは 525 → 576 行（DB Export にだけある収録版など）。別リスト `jp_non_retail.csv` は開発版 48 件・試作品 7 件（55 件）。
 - No-Intro の `Sega Game Toshokan`・`Sega Channel` の吸い出しは `dump_kind` を `online`、メガドライブミニ・ゲームのかんづめ・
   セガエイジスなどの収録版は `collection` とした。
 - 非売品の調査は後回し（本体の一覧に「非売品」節が無い）。メガCD の「その他」節の 2 件は、ワンダーメガ コレクション

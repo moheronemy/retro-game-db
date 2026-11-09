@@ -1,10 +1,75 @@
 id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
-fc-jp-nr-h63ff3e29,オセロ（試作品）,prototype,cartridge,fc-jp-0157,,Othello (Japan) (En) (Rev 1) (Proto) (HAL Laboratory),No-Intro: Proto,dat_only
-fc-jp-nr-hd9cd2616,Bio Force Ape (Japan) (En) (Proto),prototype,cartridge,,,Bio Force Ape (Japan) (En) (Proto),No-Intro: Proto,dat_only
-fc-jp-nr-h923ff3d2,"Fairyland Story, The (Japan) (En) (Proto)",prototype,cartridge,,,"Fairyland Story, The (Japan) (En) (Proto)",No-Intro: Proto,dat_only
-fc-jp-nr-h7a5678d0,Millipede (Japan) (En) (Proto),prototype,cartridge,,,Millipede (Japan) (En) (Proto),No-Intro: Proto,dat_only
-fc-jp-nr-ha263bd62,Parody World - Monster Party (Japan) (Proto),prototype,cartridge,,,Parody World - Monster Party (Japan) (Proto),No-Intro: Proto,dat_only
-fc-jp-nr-h2b5cde46,Pescatore (Japan) (Proto),prototype,cartridge,,,Pescatore (Japan) (Proto),No-Intro: Proto,dat_only
-fc-jp-nr-h4c020336,Splatterworld - Rick to Kyoufu no Daiou (Japan) (Proto),prototype,cartridge,,,Splatterworld - Rick to Kyoufu no Daiou (Japan) (Proto),No-Intro: Proto,dat_only
-fc-jp-nr-h6a597d64,Strider Hiryu (Japan) (Proto),prototype,cartridge,,,Strider Hiryu (Japan) (Proto),No-Intro: Proto,dat_only
-fc-jp-nr-hdd838d8c,Time Diver - Eon Man (Japan) (En) (Proto),prototype,cartridge,,,Time Diver - Eon Man (Japan) (En) (Proto),No-Intro: Proto,dat_only
+fc-jp-nr-2724,F1レース（開発版）,beta,cartridge,fc-jp-0024,,F1 Race (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-1162,カラテカ（開発版）,beta,cartridge,fc-jp-0083,,Karateka (Japan) (En) (Beta),No-Intro: Beta,third_party
+fc-jp-nr-2567,頭脳戦艦ガル（開発版）,beta,cartridge,fc-jp-0090,,Zunou Senkan Galg (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2824,忍者ハットリくん 忍者は修行でござるの巻（開発版）,beta,cartridge,fc-jp-0103,,Ninja Hattori-kun - Ninja wa Syugyou de Gozaru no Maki (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2590,バルトロン（開発版）,beta,cartridge,fc-jp-0107,,Baltron (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-0835,ゲゲゲの鬼太郎 妖怪大魔境（開発版）,beta,cartridge,fc-jp-0109,,Gegege no Kitarou - Youkai Daimakyou (Japan) (Beta),No-Intro: Beta,third_party
+fc-jp-nr-0137,アトランチスの謎（開発版）,beta,cartridge,fc-jp-0111,,Atlantis no Nazo (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2583,北斗の拳（開発版）,beta,cartridge,fc-jp-0135,,Hokuto no Ken (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2589,バナナ（開発版）,beta,cartridge,fc-jp-0141,,Banana (Japan) (En) (Beta 1),No-Intro: Beta 1,trusted_dump
+fc-jp-nr-2695,バナナ（開発版）,beta,cartridge,fc-jp-0141,,Banana (Japan) (En) (Beta 2) (1986-06-30),No-Intro: Beta 2,trusted_dump
+fc-jp-nr-2688,ゴーストバスターズ（開発版）,beta,cartridge,fc-jp-0145,,Ghostbusters (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-7631,スペースハンター（開発版）,beta,cartridge,fc-jp-0146,,Space Hunter (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+fc-jp-nr-7630,スペースハンター（開発版）,beta,cartridge,fc-jp-0146,,Space Hunter (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+fc-jp-nr-2568,うる星やつら ラムのウェディングベル（開発版）,beta,cartridge,fc-jp-0150,,Urusei Yatsura - Lum no Wedding Bell (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-1902,けいさんゲーム 算数4年（開発版）,beta,cartridge,fc-jp-0151,,Sansuu 4 Nen - Keisan Game (Japan) (Beta),No-Intro: Beta,third_party
+fc-jp-nr-1904,けいさんゲーム 算数5・6年（開発版）,beta,cartridge,fc-jp-0152,,Sansuu 5 & 6 Nen - Keisan Game (Japan) (Beta),No-Intro: Beta,third_party
+fc-jp-nr-2577,長靴をはいた猫 世界一周80日大冒険（開発版）,beta,cartridge,fc-jp-0158,,Nagagutsu o Haita Neko - Sekai Isshuu 80 Nichi Daibouken (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2582,ホッターマンの地底探険（開発版）,beta,cartridge,fc-jp-0168,,Hottarman no Chitei Tanken (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-1047,いきなりミュージシャン（開発版）,beta,cartridge,fc-jp-0194,,Ikinari Musician (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2578,燃えろ!!プロ野球（開発版）,beta,cartridge,fc-jp-0217,,Moero!! Pro Yakyuu (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-3163,月風魔伝（開発版）,beta,cartridge,fc-jp-0222,,Getsu Fuuma Den (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-0380,チェスター・フィールド（開発版）,beta,cartridge,fc-jp-0230,,Chester Field - Ankoku Shin e no Chousen (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-4744,インドラの光（開発版）,beta,cartridge,fc-jp-0260,,Indora no Hikari (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2579,目指せパチプロ パチ夫くん（開発版）,beta,cartridge,fc-jp-0295,,Mezase Pachi Pro - Pachio-kun (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2678,スーパーマン（開発版）,beta,cartridge,fc-jp-0297,,Superman (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-7458,ガーディック外伝（開発版）,beta,cartridge,fc-jp-0312,,Guardic Gaiden (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-7885,アルカノイドII リベンジオブドゥ（開発版）,beta,cartridge,fc-jp-0320,,Arkanoid II (Japan) (En) (Beta 1),No-Intro: Beta 1,trusted_dump
+fc-jp-nr-0120,アルカノイドII リベンジオブドゥ（開発版）,beta,cartridge,fc-jp-0320,,Arkanoid II (Japan) (En) (Beta 2),No-Intro: Beta 2,trusted_dump
+fc-jp-nr-0559,ダブルドラゴン（開発版）,beta,cartridge,fc-jp-0334,,Double Dragon (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-1879,聖闘士星矢 黄金伝説完結編（開発版）,beta,cartridge,fc-jp-0348,,Saint Seiya - Ougon Densetsu Kanketsu Hen (Japan) (Beta),No-Intro: Beta,third_party
+fc-jp-nr-8101,究極ハリキリスタジアム（開発版）,beta,cartridge,fc-jp-0354,,Kyuukyoku Harikiri Stadium (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2843,ヒットラーの復活 TOP SECRET（開発版）,beta,cartridge,fc-jp-0359,,Hitler no Fukkatsu - Top Secret (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-1304,マッド・シティ（開発版）,beta,cartridge,fc-jp-0375,,Mad City (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2167,スーパーピンボール（開発版）,beta,cartridge,fc-jp-0381,,Super Pinball (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-3161,西遊記ワールド（開発版）,beta,cartridge,fc-jp-0406,,Saiyuuki World (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-3219,燃えろ!!ジュニアバスケット ツーオンツー（開発版）,beta,cartridge,fc-jp-0409,,Moero!! Junior Basket - Two on Two (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-8102,たけしの戦国風雲児（開発版）,beta,cartridge,fc-jp-0412,,Takeshi no Sengoku Fuuunji (Japan) (Beta 1) (1988-06-04),No-Intro: Beta 1,trusted_dump
+fc-jp-nr-2569,たけしの戦国風雲児（開発版）,beta,cartridge,fc-jp-0412,,Takeshi no Sengoku Fuuunji (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+fc-jp-nr-2350,突然! マッチョマン（開発版）,beta,cartridge,fc-jp-0414,,Totsuzen! Macchoman (Japan) (Beta),No-Intro: Beta,third_party
+fc-jp-nr-7624,西村京太郎ミステリー ブルートレイン殺人事件（開発版）,beta,cartridge,fc-jp-0448,,Nishimura Kyoutarou Mystery - Blue Train Satsujin Jiken (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-0714,来来キョンシーズ ベビーキョンシーのあみだ大冒険（開発版）,beta,cartridge,fc-jp-0450,,Family Trainer 10 - Rairai Kyonsees (Japan) (Beta),No-Intro: Beta,third_party
+fc-jp-nr-2586,電撃ビッグバン!（開発版）,beta,cartridge,fc-jp-0451,,Dengeki - Big Bang! (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-8100,爆笑!!人生劇場（開発版）,beta,cartridge,fc-jp-0470,,Bakushou!! Jinsei Gekijou (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+fc-jp-nr-7886,爆笑!!人生劇場（開発版）,beta,cartridge,fc-jp-0470,,Bakushou!! Jinsei Gekijou (Japan) (Beta 2) (1988-10-13),No-Intro: Beta 2,trusted_dump
+fc-jp-nr-6661,じゃじゃ丸忍法帳（開発版）,beta,cartridge,fc-jp-0474,,Jajamaru Ninpou Chou (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-3910,シャドウゲイト（開発版）,beta,cartridge,fc-jp-0477,,Shadowgate (Japan) (Beta) (1988-11-xx),No-Intro: Beta,trusted_dump
+fc-jp-nr-2844,ガーフィールドの一週間（開発版）,beta,cartridge,fc-jp-0480,,Garfield no Isshukan (Japan) (En) (Beta 1),No-Intro: Beta 1,trusted_dump
+fc-jp-nr-0827,ガーフィールドの一週間（開発版）,beta,cartridge,fc-jp-0480,,Garfield no Isshukan (Japan) (En) (Beta 2),No-Intro: Beta 2,trusted_dump
+fc-jp-nr-8403,アメリカンドリーム（開発版）,beta,cartridge,fc-jp-0531,,American Dream (Japan) (Beta),No-Intro: Beta,trusted_modification
+fc-jp-nr-3361,落っことしパズル とんじゃん!?（開発版）,beta,cartridge,fc-jp-0534,,Okkotoshi Puzzle - Tonjan! (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2444,わんぱくダック夢冒険（開発版）,beta,cartridge,fc-jp-0595,,Wanpaku Duck Yume Bouken (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-8092,2010 ストリートファイター（開発版）,beta,cartridge,fc-jp-0666,,2010 Street Fighter (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-7574,NEMO パジャマヒーロー（開発版）,beta,cartridge,fc-jp-0717,,Pajama Hero - Nemo (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-3018,まじかるキッズどろぴー（開発版）,beta,cartridge,fc-jp-0731,,Magical Kid's Doropie (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2713,バーズテイル 知られざる物語（開発版）,beta,cartridge,fc-jp-0740,,"Bard's Tale, The (Japan) (Beta)",No-Intro: Beta,trusted_dump
+fc-jp-nr-2585,ファミコン将棋竜王戦（開発版）,beta,cartridge,fc-jp-0761,,Famicom Shougi - Ryuuousen (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-1575,忍者じゃじゃ丸〜銀河大作戦〜（開発版）,beta,cartridge,fc-jp-0782,,Ninja Jajamaru - Ginga Daisakusen (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-3312,メタルマックス（開発版）,beta,cartridge,fc-jp-0804,,Metal Max (Japan) (Beta) (1991-01-31),No-Intro: Beta,trusted_dump
+fc-jp-nr-2612,飛龍の拳スペシャル ファイティングウォーズ（開発版）,beta,cartridge,fc-jp-0808,,Hiryuu no Ken Special - Fighting Wars (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2677,リトル・マーメイド（開発版）,beta,cartridge,fc-jp-0818,,Little Mermaid - Ningyo Hime (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2717,ギミック!（開発版）,beta,cartridge,fc-jp-0908,,Gimmick! (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2711,コロンブス 黄金の夜明け（開発版）,beta,cartridge,fc-jp-0976,,Columbus - Ougon no Yoake (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-0006,1943 - The Battle of Midway (Japan) (Beta),beta,cartridge,,,1943 - The Battle of Midway (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-0563,Sou Setsu Ryuu II - The Revenge (Japan) (Beta),beta,cartridge,,,Sou Setsu Ryuu II - The Revenge (Japan) (Beta),No-Intro: Beta,trusted_dump
+fc-jp-nr-2748,"Tale, The - Elrond no Eiyuu (Japan) (Beta)",beta,cartridge,,,"Tale, The - Elrond no Eiyuu (Japan) (Beta)",No-Intro: Beta,trusted_dump
+fc-jp-nr-3139,オセロ（試作品）,prototype,cartridge,fc-jp-0157,,Othello (Japan) (En) (Rev 1) (Proto) (HAL Laboratory),No-Intro: Proto,third_party
+fc-jp-nr-2622,Bio Force Ape (Japan) (En) (Proto),prototype,cartridge,,,Bio Force Ape (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+fc-jp-nr-3831,"Fairyland Story, The (Japan) (En) (Proto)",prototype,cartridge,,,"Fairyland Story, The (Japan) (En) (Proto)",No-Intro: Proto,trusted_dump
+fc-jp-nr-3165,Millipede (Japan) (En) (Proto),prototype,cartridge,,,Millipede (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+fc-jp-nr-2682,Parody World - Monster Party (Japan) (Proto),prototype,cartridge,,,Parody World - Monster Party (Japan) (Proto),No-Intro: Proto,trusted_dump
+fc-jp-nr-1670,Pescatore (Japan) (Proto),prototype,cartridge,,,Pescatore (Japan) (Proto),No-Intro: Proto,trusted_dump
+fc-jp-nr-8233,Splatterworld - Rick to Kyoufu no Daiou (Japan) (Proto),prototype,cartridge,,,Splatterworld - Rick to Kyoufu no Daiou (Japan) (Proto),No-Intro: Proto,third_party
+fc-jp-nr-2684,Strider Hiryu (Japan) (Proto),prototype,cartridge,,,Strider Hiryu (Japan) (Proto),No-Intro: Proto,trusted_dump
+fc-jp-nr-8018,Time Diver - Eon Man (Japan) (En) (Proto),prototype,cartridge,,,Time Diver - Eon Man (Japan) (En) (Proto),No-Intro: Proto,third_party

@@ -881,9 +881,10 @@ PLATFORMS = {
         "mame_jp_models": _fc_models,   # 'Super Mario Bros. (World)' のように日米共通のもの（シリアルに HVC-SM）
         "dump_world": True,
         "nointro_dats": ["Nintendo - Nintendo Entertainment System"],
-        "nointro_export": ["Nintendo Entertainment System (Headerless) (DB Export)"],
+        "nointro_export": ["Nintendo - Nintendo Entertainment System (DB Export)"],
+        "nointro_file_format": "Headerless",   # DB Export にはヘッダー付き（.nes）とヘッダー無し（.unh）がある。載せるのはヘッダー無し
         "nointro_export_fallback": {
-            "Nintendo Entertainment System (Headerless) (DB Export)": "Nintendo - Nintendo Entertainment System"},
+            "Nintendo - Nintendo Entertainment System (DB Export)": "Nintendo - Nintendo Entertainment System"},
         "models_from": _fc_models,
         "models_from_serial": lambda s: [],   # DAT にシリアルが無い
         "code_of": lambda m: "",               # ROM にゲームコードが無い（吸い出しは名前・CRC で結びつける）

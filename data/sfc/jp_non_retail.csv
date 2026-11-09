@@ -1,10 +1,148 @@
 id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
-sfc-jp-nr-h00dcf693,Jelly Boy 2 (Japan) (Proto),prototype,cartridge,,,Jelly Boy 2 (Japan) (Proto),No-Intro: Proto,dat_only
-sfc-jp-nr-h63d54992,Sleep (Japan) (En) (Proto),prototype,cartridge,,,Sleep (Japan) (En) (Proto),No-Intro: Proto,dat_only
-sfc-jp-nr-h667b481a,Sound Factory (Japan) (En) (Proto),prototype,cartridge,,,Sound Factory (Japan) (En) (Proto),No-Intro: Proto,dat_only
-sfc-jp-nr-h18126651,Super Donkey (Japan) (En) (Proto 1),prototype,cartridge,,,Super Donkey (Japan) (En) (Proto 1),No-Intro: Proto 1,dat_only
-sfc-jp-nr-h1a4486cc,Super Donkey (Japan) (En) (Proto 2),prototype,cartridge,,,Super Donkey (Japan) (En) (Proto 2),No-Intro: Proto 2,dat_only
-sfc-jp-nr-hae921480,Troddlers (Japan) (En) (Proto),prototype,cartridge,,,Troddlers (Japan) (En) (Proto),No-Intro: Proto,dat_only
-sfc-jp-nr-m001,ゲットインザホール,business,cartridge,,,Get in the Hole (Japan),Wikipedia: 1995年 リコー教育機器のゴルフシミュレータ「レーザバーディ」専用,dat_only
-sfc-jp-nr-m002,JRA PAT,business,cartridge,,,JRA PAT (Japan) (TJAJ),Wikipedia: 1996年 RSS 競馬セキュリティサービス、NTTデータ通信セットNDSF専用（2015年7月31日サービス終了）,dat_only
-sfc-jp-nr-m003,JRA PAT ワイド対応版,business,cartridge,,,JRA PAT - Wide Taiouban (Japan) (TJDJ),Wikipedia: 1999年 RSS 競馬セキュリティサービス、NTTデータ通信セットNDSF専用（2015年7月31日サービス終了）,dat_only
+sfc-jp-nr-4062,がんばれゴエモン〜ゆき姫救出絵巻〜（開発版）,beta,cartridge,sfc-jp-0024,,Ganbare Goemon - Yuki Hime Kyuushutsu Emaki (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4063,超魔界村（開発版）,beta,cartridge,sfc-jp-0035,,Chou Makaimura (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4061,悪魔城ドラキュラ（開発版）,beta,cartridge,sfc-jp-0038,,Akumajou Dracula (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4040,雷電伝説（開発版）,beta,cartridge,sfc-jp-0040,,Raiden Densetsu (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4060,スーパーアレスタ（開発版）,beta,cartridge,sfc-jp-0095,,Super Aleste (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4046,パロディウスだ! 〜神話からお笑いへ〜（開発版）,beta,cartridge,sfc-jp-0113,,Parodius Da! - Shinwa kara Owarai e (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3627,炎の闘球児 ドッジ弾平（開発版）,beta,cartridge,sfc-jp-0133,,Honoo no Toukyuuji - Dodge Danpei (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4056,スーパーマリオカート（開発版）,beta,cartridge,sfc-jp-0146,,Super Mario Kart (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-4057,スーパーマリオカート（開発版）,beta,cartridge,sfc-jp-0146,,Super Mario Kart (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-4058,スーパーマリオカート（開発版）,beta,cartridge,sfc-jp-0146,,Super Mario Kart (Japan) (Beta 3),No-Intro: Beta 3,trusted_dump
+sfc-jp-nr-3707,スーパーSWIV（開発版）,beta,cartridge,sfc-jp-0172,,Super SWIV (Japan) (En) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-3968,スーパーSWIV（開発版）,beta,cartridge,sfc-jp-0172,,Super SWIV (Japan) (En) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3810,白熱プロ野球'93ガンバリーグ（開発版）,beta,cartridge,sfc-jp-0198,,Hakunetsu Pro Yakyuu '93 - Ganba League (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-3608,スーパー大相撲 熱戦大一番（開発版）,beta,cartridge,sfc-jp-0215,,Super Oozumou - Nessen Ooichiban (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3559,スーパーファイヤープロレスリング2（開発版）,beta,cartridge,sfc-jp-0230,,Super Fire Pro Wrestling 2 (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4508,ワールドクラスラグビー（開発版）,beta,cartridge,sfc-jp-0244,,World Class Rugby (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3721,喜国雅彦の雀闘士 銅鑼王（開発版）,beta,cartridge,sfc-jp-0252,,Kikuni Masahiko no Jantoushi Doraou (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-1770,デビルズコース（開発版）,beta,cartridge,sfc-jp-0266,,New 3D Golf Simulation - Devil's Course (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-0431,超魔界大戦!どらぼっちゃん（開発版）,beta,cartridge,sfc-jp-0282,,Chou Makai Taisen! Dorabocchan (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-0637,ドラゴンボールZ 超武闘伝（開発版）,beta,cartridge,sfc-jp-0284,,Dragon Ball Z - Super Butouden (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3744,Pop'nツインビー（開発版）,beta,cartridge,sfc-jp-0291,,Pop'n TwinBee (Japan) (Beta 1),No-Intro: Beta 1,third_party
+sfc-jp-nr-2018,Pop'nツインビー（開発版）,beta,cartridge,sfc-jp-0291,,Pop'n TwinBee (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3680,ウルトラセブン（開発版）,beta,cartridge,sfc-jp-0293,,Ultra Seven (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4229,デュアルオーブ 聖霊珠伝説（開発版）,beta,cartridge,sfc-jp-0304,,Dual Orb - Seirei Tama Densetsu (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-1592,マジンガーZ（開発版）,beta,cartridge,sfc-jp-0333,,Mazinger Z (Japan) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-3160,宇宙の騎士テッカマンブレード（開発版）,beta,cartridge,sfc-jp-0362,,Uchuu no Kishi - Tekkaman Blade (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-1867,大仁田厚 FMW（開発版）,beta,cartridge,sfc-jp-0367,,Oonita Atsushi FMW (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3654,ファイナルセット（開発版）,beta,cartridge,sfc-jp-0391,,Finalset (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3816,SD機動戦士ガンダム2（開発版）,beta,cartridge,sfc-jp-0395,,SD Kidou Senshi Gundam 2 (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-3589,スーパーチャイニーズワールド2 宇宙一武闘大会（開発版）,beta,cartridge,sfc-jp-0417,,Super Chinese World 2 - Uchuuichi Butou Taikai (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-2618,スーパーチャイニーズワールド2 宇宙一武闘大会（開発版）,beta,cartridge,sfc-jp-0417,,Super Chinese World 2 - Uchuuichi Butou Taikai (Japan) (Beta 2),No-Intro: Beta 2,third_party
+sfc-jp-nr-2401,ソルスティスII（開発版）,beta,cartridge,sfc-jp-0424,,Solstice II (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3567,スーパーUNO（開発版）,beta,cartridge,sfc-jp-0426,,Super Uno (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-0124,アルディライトフット（開発版）,beta,cartridge,sfc-jp-0439,,Ardy Lightfoot (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-3365,ヤダモン ワンダランドドリーム（開発版）,beta,cartridge,sfc-jp-0445,,Yadamon - Wonderland Dream (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4225,決戦!ドカポン王国IV〜伝説の勇者たち〜（開発版）,beta,cartridge,sfc-jp-0461,,Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-4226,決戦!ドカポン王国IV〜伝説の勇者たち〜（開発版）,beta,cartridge,sfc-jp-0461,,Kessen! Dokapon Oukoku IV - Densetsu no Yuusha-tachi (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3518,白熱プロ野球'94ガンバリーグ3（開発版）,beta,cartridge,sfc-jp-0462,,Hakunetsu Pro Yakyuu '94 - Ganba League 3 (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4173,ドラえもん2 のび太のトイズランド大冒険（開発版）,beta,cartridge,sfc-jp-0471,,Doraemon 2 - Nobita no Toys Land Daibouken (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3573,へべれけのぽぷーん（開発版）,beta,cartridge,sfc-jp-0482,,Hebereke no Popoon (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4224,BING BING! BINGO（開発版）,beta,cartridge,sfc-jp-0484,,Bing Bing! Bingo (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4236,テトリス武闘外伝（開発版）,beta,cartridge,sfc-jp-0492,,Tetris Battle Gaiden (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-1475,リトル・マジック（開発版）,beta,cartridge,sfc-jp-0495,,Little Magic (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-2396,サッカーキッド（開発版）,beta,cartridge,sfc-jp-0497,,Soccer Kid (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-2810,スーパー・ピンボール ビハインド・ザ・マスク（開発版）,beta,cartridge,sfc-jp-0506,,Super Pinball - Behind the Mask (Japan) (En) (Beta),No-Intro: Beta,
+sfc-jp-nr-3767,ザ・グレイトバトル外伝2 祭りだワッショイ（開発版）,beta,cartridge,sfc-jp-0514,,"Great Battle Gaiden 2, The - Matsuri da Wasshoi (Japan) (Beta)",No-Intro: Beta,trusted_dump
+sfc-jp-nr-4561,鉄腕アトム（開発版）,beta,cartridge,sfc-jp-0530,,Tetsuwan Atom (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-0505,サイボーグ009（開発版）,beta,cartridge,sfc-jp-0535,,Cyborg 009 (Japan) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-3764,剣勇伝説YAIBA（開発版）,beta,cartridge,sfc-jp-0580,,Kenyuu Densetsu Yaiba (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3813,NBA JAM（開発版）,beta,cartridge,sfc-jp-0607,,NBA Jam (Japan) (En) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-3514,ダークキングダム（開発版）,beta,cartridge,sfc-jp-0609,,Dark Kingdom (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4230,くにおのおでん（開発版）,beta,cartridge,sfc-jp-0618,,Kunio no Oden (Japan) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-3843,ジグソーパ〜ティ〜（開発版）,beta,cartridge,sfc-jp-0663,,Jigsaw Party (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-0936,G2 ジェノサイド（開発版）,beta,cartridge,sfc-jp-0683,,Genocide 2 (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-3268,ワイルドガンズ（開発版）,beta,cartridge,sfc-jp-0690,,Wild Guns (Japan) (Beta 1),No-Intro: Beta 1,third_party
+sfc-jp-nr-3267,ワイルドガンズ（開発版）,beta,cartridge,sfc-jp-0690,,Wild Guns (Japan) (Beta 2),No-Intro: Beta 2,third_party
+sfc-jp-nr-3708,松村邦洋伝 最強の歴史をぬりかえろ!!（開発版）,beta,cartridge,sfc-jp-0703,,Matsumura Kunihiro Den - Saikyou no Rekishi o Nurikaero! (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-2220,SAMURAI SPIRITS（開発版）,beta,cartridge,sfc-jp-0719,,Samurai Spirits (Japan) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-3291,Wizap! -ウィザップ 〜暗黒の王-（開発版）,beta,cartridge,sfc-jp-0721,,Wizap! - Ankoku no Ou (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4235,ノスフェラトゥ（開発版）,beta,cartridge,sfc-jp-0744,,Nosferatu (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4234,イルバニアンの城（開発版）,beta,cartridge,sfc-jp-0760,,Illvanian no Shiro (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3637,少年忍者サスケ（開発版）,beta,cartridge,sfc-jp-0762,,Shounen Ninja Sasuke (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-0775,フェーダ エンブレム オブ ジャスティス（開発版）,beta,cartridge,sfc-jp-0769,,Feda - The Emblem of Justice (Japan) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-1638,ミッキーとミニー マジカルアドベンチャー2（開発版）,beta,cartridge,sfc-jp-0773,,Mickey to Minnie - Magical Adventure 2 (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-1000,鋼 HAGANE（開発版）,beta,cartridge,sfc-jp-0780,,Hagane (Japan) (Beta) [b],No-Intro: Beta,
+sfc-jp-nr-3625,極上パロディウス（開発版）,beta,cartridge,sfc-jp-0793,,Gokujou Parodius (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-0962,極上パロディウス（開発版）,beta,cartridge,sfc-jp-0793,,Gokujou Parodius (Japan) (Beta 2),No-Intro: Beta 2,third_party
+sfc-jp-nr-0129,アレサII アリエルの不思議な旅（開発版）,beta,cartridge,sfc-jp-0805,,Aretha II - Ariel no Fushigi na Tabi (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-0130,アレサII アリエルの不思議な旅（開発版）,beta,cartridge,sfc-jp-0805,,Aretha II - Ariel no Fushigi na Tabi (Japan) (Beta 2),No-Intro: Beta 2,
+sfc-jp-nr-4233,ザ・ラストバトル（開発版）,beta,cartridge,sfc-jp-0806,,"Last Battle, The (Japan) (Beta)",No-Intro: Beta,trusted_dump
+sfc-jp-nr-4149,制服伝説プリティ・ファイター（開発版）,beta,cartridge,sfc-jp-0807,,Seifuku Densetsu - Pretty Fighter (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3714,ロックマンX2（開発版）,beta,cartridge,sfc-jp-0824,,Rockman X2 (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-3710,ロックマンX2（開発版）,beta,cartridge,sfc-jp-0824,,Rockman X2 (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3513,蒼き伝説シュート!（開発版）,beta,cartridge,sfc-jp-0825,,Aoki Densetsu Shoot! (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3640,海釣り名人 スズキ編（開発版）,beta,cartridge,sfc-jp-0826,,Umizuri Meijin - Suzuki Hen (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3537,がんばれゴエモン3 獅子重禄兵衛のからくり卍固め（開発版）,beta,cartridge,sfc-jp-0827,,Ganbare Goemon 3 - Shishi Juurokubee no Karakuri Manjigatame (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4227,ウルトラベースボール実名版2（開発版）,beta,cartridge,sfc-jp-0848,,Ultra Baseball Jitsumei Ban 2 (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3650,覇王大系リューナイト ロードオブパラディン（開発版）,beta,cartridge,sfc-jp-0854,,Haou Taikei Ryuu Knight - Lord of Paladin (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4221,クロノ・トリガー（開発版）,beta,cartridge,sfc-jp-0931,,Chrono Trigger (Japan) (Beta) (Final Fantasy Chronicles),No-Intro: Beta,trusted_dump
+sfc-jp-nr-1874,おらがランド主催 ベストファーマー収穫祭（開発版）,beta,cartridge,sfc-jp-0933,,Oraga Land Shusai - Best Farmer Shuukakusai (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-2172,ロックマン7 宿命の対決!（開発版）,beta,cartridge,sfc-jp-0947,,Rockman 7 - Shukumei no Taiketsu! (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3687,ミッキーマニア THE TIMELESS ADVENTURES OF MICKEY MOUSE（開発版）,beta,cartridge,sfc-jp-0959,,Mickey Mania - The Timeless Adventures of Mickey Mouse (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3626,ママレード・ボーイ（開発版）,beta,cartridge,sfc-jp-0981,,Marmalade Boy (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4064,スヌーピーコンサート（開発版）,beta,cartridge,sfc-jp-0998,,Snoopy Concert (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4228,す〜ぱ〜なぞぷよ ルルーのルー（開発版）,beta,cartridge,sfc-jp-1009,,Super Nazo Puyo - Rulue no Roux (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3639,グランヒストリア 〜幻史世界記〜（開発版）,beta,cartridge,sfc-jp-1027,,Granhistoria - Genshi Sekaiki (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4147,リトルマスター〜虹色の魔石〜（開発版）,beta,cartridge,sfc-jp-1035,,Little Master - Nijiiro no Maseki (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4066,スーパーマリオ ヨッシーアイランド（開発版）,beta,cartridge,sfc-jp-1075,,Super Mario - Yoshi Island (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3588,すーぱーぐっすんおよよ（開発版）,beta,cartridge,sfc-jp-1080,,Super Gussun Oyoyo (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-2699,すーぱーぐっすんおよよ（開発版）,beta,cartridge,sfc-jp-1080,,Super Gussun Oyoyo (Japan) (Beta 2),No-Intro: Beta 2,third_party
+sfc-jp-nr-3596,バウンティ・ソード（開発版）,beta,cartridge,sfc-jp-1096,,Bounty Sword (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3539,クロックタワー（開発版）,beta,cartridge,sfc-jp-1097,,Clock Tower (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-1219,実況ワールドサッカー2 FIGHTING ELEVEN（開発版）,beta,cartridge,sfc-jp-1105,,Jikkyou World Soccer 2 - Fighting Eleven (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-3634,ハイパーイリア（開発版）,beta,cartridge,sfc-jp-1137,,Hyper Iria (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-2236,SD F-1グランプリ（開発版）,beta,cartridge,sfc-jp-1148,,SD F-1 Grand Prix (Japan) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-3594,天地無用! げ〜む編（開発版）,beta,cartridge,sfc-jp-1153,,Tenchi Muyou! - Game Hen (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3749,ロックマンX3（開発版）,beta,cartridge,sfc-jp-1177,,Rockman X3 (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-3661,ロックマンX3（開発版）,beta,cartridge,sfc-jp-1177,,Rockman X3 (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3750,ロックマンX3（開発版）,beta,cartridge,sfc-jp-1177,,Rockman X3 (Japan) (Beta 3),No-Intro: Beta 3,trusted_dump
+sfc-jp-nr-3629,ちびまる子ちゃん めざせ!南のアイランド!!（開発版）,beta,cartridge,sfc-jp-1183,,Chibi Maruko-chan - Mezase! Minami no Island!! (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3642,峠・伝説 最速バトル（開発版）,beta,cartridge,sfc-jp-1267,,Touge Densetsu - Saisoku Battle (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3641,アラビアンナイト 砂漠の精霊王（開発版）,beta,cartridge,sfc-jp-1312,,Arabian Nights - Sabaku no Seirei Ou (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3702,す〜ぱ〜なぞぷよ通 ルルーの鉄腕繁盛記（開発版）,beta,cartridge,sfc-jp-1318,,Super Nazo Puyo Tsuu - Rulue no Tetsuwan Hanjouki (Japan) (Beta) ('96 Tokyo Omocha Show),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4100,マーヴルスーパーヒーローズ ウォーオブザジェム（開発版）,beta,cartridge,sfc-jp-1361,,Marvel Super Heroes - War of the Gems (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3957,ピノキオ（開発版）,beta,cartridge,sfc-jp-1373,,Pinocchio (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-3958,ピノキオ（開発版）,beta,cartridge,sfc-jp-1373,,Pinocchio (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3959,ピノキオ（開発版）,beta,cartridge,sfc-jp-1373,,Pinocchio (Japan) (Beta 3),No-Intro: Beta 3,trusted_dump
+sfc-jp-nr-3705,ストリートファイターZERO2（開発版）,beta,cartridge,sfc-jp-1374,,Street Fighter Zero 2 (Japan) (En) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3536,ピキーニャ!（開発版）,beta,cartridge,sfc-jp-1387,,Pikiinya! (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3643,ガンプル GUNMAN'S PROOF（開発版）,beta,cartridge,sfc-jp-1388,,Ganpuru - Gunman's Proof (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-2079,プロ野球熱闘ぱずるスタジアム（開発版）,beta,cartridge,sfc-jp-1403,,Pro Yakyuu Nettou - Puzzle Stadium (Japan) (Beta),No-Intro: Beta,trusted_modification
+sfc-jp-nr-0549,Demon's Blazon - Makaimura Monshou Hen (Japan) (Beta),beta,cartridge,,,Demon's Blazon - Makaimura Monshou Hen (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3662,Den'Z Traffic Panic (Japan) (Beta),beta,cartridge,,,Den'Z Traffic Panic (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-4237,Elfaria - A Fantastic Theater (Japan) (Beta),beta,cartridge,,,Elfaria - A Fantastic Theater (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-0988,"Great Battle IV, The (Japan) (Beta)",beta,cartridge,,,"Great Battle IV, The (Japan) (Beta)",No-Intro: Beta,third_party
+sfc-jp-nr-3511,Human Grand Prix 2 (Japan) (Beta),beta,cartridge,,,Human Grand Prix 2 (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-3515,Itadaki Street 2 - Neon Sign ha Barairo Ni (Japan) (Beta),beta,cartridge,,,Itadaki Street 2 - Neon Sign ha Barairo Ni (Japan) (Beta),No-Intro: Beta,trusted_dump
+sfc-jp-nr-1379,Kijin Kourinden Oni (Japan) (Beta),beta,cartridge,,,Kijin Kourinden Oni (Japan) (Beta),No-Intro: Beta,
+sfc-jp-nr-3516,"Mario Paint (Japan, USA) (En) (Beta)",beta,cartridge,,,"Mario Paint (Japan, USA) (En) (Beta)",No-Intro: Beta,trusted_dump
+sfc-jp-nr-2480,Star Fox 2 (Japan) (Beta 1),beta,cartridge,,,Star Fox 2 (Japan) (Beta 1),No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-4077,Star Fox 2 (Japan) (Beta 10),beta,cartridge,,,Star Fox 2 (Japan) (Beta 10),No-Intro: Beta 10,trusted_dump
+sfc-jp-nr-4078,Star Fox 2 (Japan) (Beta 11),beta,cartridge,,,Star Fox 2 (Japan) (Beta 11),No-Intro: Beta 11,trusted_dump
+sfc-jp-nr-4079,Star Fox 2 (Japan) (Beta 12),beta,cartridge,,,Star Fox 2 (Japan) (Beta 12),No-Intro: Beta 12,trusted_dump
+sfc-jp-nr-4080,Star Fox 2 (Japan) (Beta 13) (Debug),beta,cartridge,,,Star Fox 2 (Japan) (Beta 13) (Debug),"No-Intro: Beta 13, Debug",trusted_dump
+sfc-jp-nr-4074,Star Fox 2 (Japan) (Beta 2),beta,cartridge,,,Star Fox 2 (Japan) (Beta 2),No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3685,Star Fox 2 (Japan) (Beta 3),beta,cartridge,,,Star Fox 2 (Japan) (Beta 3),No-Intro: Beta 3,trusted_dump
+sfc-jp-nr-3686,Star Fox 2 (Japan) (Beta 4),beta,cartridge,,,Star Fox 2 (Japan) (Beta 4),No-Intro: Beta 4,trusted_dump
+sfc-jp-nr-4071,Star Fox 2 (Japan) (Beta 5),beta,cartridge,,,Star Fox 2 (Japan) (Beta 5),No-Intro: Beta 5,trusted_dump
+sfc-jp-nr-4073,Star Fox 2 (Japan) (Beta 6),beta,cartridge,,,Star Fox 2 (Japan) (Beta 6),No-Intro: Beta 6,trusted_dump
+sfc-jp-nr-2481,Star Fox 2 (Japan) (Beta 7),beta,cartridge,,,Star Fox 2 (Japan) (Beta 7),No-Intro: Beta 7,third_party
+sfc-jp-nr-4075,Star Fox 2 (Japan) (Beta 8),beta,cartridge,,,Star Fox 2 (Japan) (Beta 8),No-Intro: Beta 8,trusted_dump
+sfc-jp-nr-4076,Star Fox 2 (Japan) (Beta 9),beta,cartridge,,,Star Fox 2 (Japan) (Beta 9),No-Intro: Beta 9,trusted_dump
+sfc-jp-nr-4585,Street Fighter II (Japan) (Beta),beta,cartridge,,,Street Fighter II (Japan) (Beta),No-Intro: Beta,third_party
+sfc-jp-nr-4261,"Super Game Boy (Japan, USA) (En) (Beta 1)",beta,cartridge,,,"Super Game Boy (Japan, USA) (En) (Beta 1)",No-Intro: Beta 1,trusted_dump
+sfc-jp-nr-4262,"Super Game Boy (Japan, USA) (En) (Beta 2)",beta,cartridge,,,"Super Game Boy (Japan, USA) (En) (Beta 2)",No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3603,"Super Game Boy (Japan, USA) (En) (Beta 2) (Alt)",beta,cartridge,,,"Super Game Boy (Japan, USA) (En) (Beta 2) (Alt)",No-Intro: Beta 2,trusted_dump
+sfc-jp-nr-3747,"X Zone (Japan, USA) (En) (Beta)",beta,cartridge,,,"X Zone (Japan, USA) (En) (Beta)",No-Intro: Beta,trusted_dump
+sfc-jp-nr-1198,Jelly Boy 2 (Japan) (Proto),prototype,cartridge,,,Jelly Boy 2 (Japan) (Proto),No-Intro: Proto,third_party
+sfc-jp-nr-4083,Sleep (Japan) (En) (Proto),prototype,cartridge,,,Sleep (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+sfc-jp-nr-3599,Sound Factory (Japan) (En) (Proto),prototype,cartridge,,,Sound Factory (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+sfc-jp-nr-4070,Super Donkey (Japan) (En) (Proto 1),prototype,cartridge,,,Super Donkey (Japan) (En) (Proto 1),No-Intro: Proto 1,trusted_dump
+sfc-jp-nr-4069,Super Donkey (Japan) (En) (Proto 2),prototype,cartridge,,,Super Donkey (Japan) (En) (Proto 2),No-Intro: Proto 2,trusted_dump
+sfc-jp-nr-4112,Troddlers (Japan) (En) (Proto),prototype,cartridge,,,Troddlers (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+sfc-jp-nr-3623,[BIOS] Super NES CD-ROM - Boot ROM (Japan) (En) (Proto),prototype,cartridge,,,[BIOS] Super NES CD-ROM - Boot ROM (Japan) (En) (Proto),No-Intro: Proto,trusted_dump
+sfc-jp-nr-m001,ゲットインザホール,business,cartridge,,,Get in the Hole (Japan),Wikipedia: 1995年 リコー教育機器のゴルフシミュレータ「レーザバーディ」専用,trusted_dump
+sfc-jp-nr-m002,JRA PAT,business,cartridge,,,JRA PAT (Japan) (TJAJ),Wikipedia: 1996年 RSS 競馬セキュリティサービス、NTTデータ通信セットNDSF専用（2015年7月31日サービス終了）,trusted_dump
+sfc-jp-nr-m003,JRA PAT ワイド対応版,business,cartridge,,,JRA PAT - Wide Taiouban (Japan) (TJDJ),Wikipedia: 1999年 RSS 競馬セキュリティサービス、NTTデータ通信セットNDSF専用（2015年7月31日サービス終了）,trusted_dump
