@@ -281,7 +281,7 @@ MAME が 2003〜2007年ごろの古い外部提供の吸い出しを使ってい
 | タイトル・発売日・発売元・SGB 対応 | ja.wikipedia「[ゲームボーイのゲームタイトル一覧](https://ja.wikipedia.org/wiki/ゲームボーイのゲームタイトル一覧)」（GB 専用）、「[ゲームボーイカラーのゲームタイトル一覧](https://ja.wikipedia.org/wiki/ゲームボーイカラーのゲームタイトル一覧)」（カラー対応・カラー専用の 2 表） | oldid=111571037 / 111419004 |
 | 価格（・型番の補助） | メディア芸術データベース（機種「ゲームボーイ」。GBC も含む） | GBA と同じ |
 | 型番・発売日の照合 | MAME ソフトウェアリスト `hash/gameboy.xml` / `hash/gbcolor.xml` | master |
-| ハッシュ・リビジョン | No-Intro DB Export（Game Boy / Game Boy Color） | 20261031-010415 / 20261102-232700 |
+| ハッシュ・リビジョン | No-Intro DB Export（Game Boy / Game Boy Color） | 20261107-104737 / 20261107-104737 |
 | ニンテンドウパワー | ja.wikipedia「[ニンテンドウパワーのゲームタイトル一覧](https://ja.wikipedia.org/wiki/ニンテンドウパワーのゲームタイトル一覧)」ゲームボーイの表 | 2026-11-05 取得 |
 
 maru-chang には GB/GBC の一覧が無いため、照合は Wikipedia・MADB・MAME の 3 つで行う。
