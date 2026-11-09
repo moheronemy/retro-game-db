@@ -1034,10 +1034,10 @@ PLATFORMS = {
         "dat_title_models": True,   # MADB・MAME で型番の決まらない行は DAT の題名とシリアルで補う
         "nointro_dats": ["NEC - PC Engine - TurboGrafx 16", "NEC - PC Engine SuperGrafx",
                          "redump:NEC - PC Engine CD - TurboGrafx-CD"],
-        "nointro_export": ["NEC - PC Engine - TurboGrafx 16 (DB Export)", "NEC - PC Engine SuperGrafx (DB Export)",
+        "nointro_export": ["NEC - PC Engine - TurboGrafx-16 (DB Export)", "NEC - PC Engine SuperGrafx (DB Export)",
                            "NEC - PC Engine CD (Redump)"],
         "nointro_export_fallback": {
-            "NEC - PC Engine - TurboGrafx 16 (DB Export)": "NEC - PC Engine - TurboGrafx 16",
+            "NEC - PC Engine - TurboGrafx-16 (DB Export)": "NEC - PC Engine - TurboGrafx 16",
             "NEC - PC Engine SuperGrafx (DB Export)": "NEC - PC Engine SuperGrafx",
             "NEC - PC Engine CD (Redump)": "redump:NEC - PC Engine CD - TurboGrafx-CD"},
         # CD は Redump のシリアル（レーベル面の型番）で結びつける。HuCARD は DAT にシリアルが無い

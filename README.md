@@ -19,7 +19,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | メガドライブ (MD) | [`data/md/jp_titles.csv`](data/md/jp_titles.csv) | 422 | 410 | 402 | [`data/md/jp_rom_dumps.csv`](data/md/jp_rom_dumps.csv)（525 行） |
 | メガCD (MD の別リスト) | [`data/md/mega_cd/jp_titles.csv`](data/md/mega_cd/jp_titles.csv) | 115 | 111 | 101 | [`data/md/mega_cd/jp_rom_dumps.csv`](data/md/mega_cd/jp_rom_dumps.csv)（120 行） |
 | スーパー32X (MD の別リスト) | [`data/md/32x/jp_titles.csv`](data/md/32x/jp_titles.csv) | 18 | 18 | 1 | [`data/md/32x/jp_rom_dumps.csv`](data/md/32x/jp_rom_dumps.csv)（18 行） |
-| PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 661 | 429 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（729 行） |
+| PCエンジン (PCE) | [`data/pce/jp_titles.csv`](data/pce/jp_titles.csv) | 668 | 661 | 429 | [`data/pce/jp_rom_dumps.csv`](data/pce/jp_rom_dumps.csv)（731 行） |
 | セガサターン (SS) | [`data/ss/jp_titles.csv`](data/ss/jp_titles.csv) | 1,058 | 1,011 | 1,008 | [`data/ss/jp_rom_dumps.csv`](data/ss/jp_rom_dumps.csv)（1,210 行） |
 | PlayStation (PS) | [`data/ps/jp_titles.csv`](data/ps/jp_titles.csv) | 3,289 | 2,944 | 2,997 | [`data/ps/jp_rom_dumps.csv`](data/ps/jp_rom_dumps.csv)（3,310 行） |
 | PlayStation 2 (PS2) | [`data/ps2/jp_titles.csv`](data/ps2/jp_titles.csv) | 2,930 | 1,607 | 2,789 | [`data/ps2/jp_rom_dumps.csv`](data/ps2/jp_rom_dumps.csv)（1,882 行） |
@@ -75,7 +75,7 @@ Wii 世代（2000年代中盤）までのレトロゲーム情報を収集する
 | ディスクシステム | [`jp_not_for_sale.csv`](data/fc/disk_system/jp_not_for_sale.csv)（4 件） | [`jp_non_retail.csv`](data/fc/disk_system/jp_non_retail.csv)（14 件） | |
 | MD | （未調査・0 件） | [`jp_non_retail.csv`](data/md/jp_non_retail.csv)（7 件） | 配信専用 [`jp_online.csv`](data/md/jp_online.csv)（46 件） |
 | メガCD | [`jp_not_for_sale.csv`](data/md/mega_cd/jp_not_for_sale.csv)（1 件） | [`jp_non_retail.csv`](data/md/mega_cd/jp_non_retail.csv)（1 件） | |
-| PCE | [`jp_not_for_sale.csv`](data/pce/jp_not_for_sale.csv)（15 件） | [`jp_non_retail.csv`](data/pce/jp_non_retail.csv)（1 件） | 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） |
+| PCE | [`jp_not_for_sale.csv`](data/pce/jp_not_for_sale.csv)（15 件） | [`jp_non_retail.csv`](data/pce/jp_non_retail.csv)（3 件） | 販売経路不明 [`jp_other.csv`](data/pce/jp_other.csv)（6 件） |
 | SS | [`jp_not_for_sale.csv`](data/ss/jp_not_for_sale.csv)（9 件） | [`jp_non_retail.csv`](data/ss/jp_non_retail.csv)（36 件） | |
 | PS | （未調査・0 件） | （0 件） | |
 | PS2 | （未調査・0 件） | [`jp_non_retail.csv`](data/ps2/jp_non_retail.csv)（店頭体験版 19 件） | |
@@ -642,7 +642,7 @@ PCエンジンとして日本で発売されたソフト（1987〜1999年）。`
 | タイトル・発売日・発売元・規格 | ja.wikipedia「PCエンジンのゲームタイトル一覧」の HuCARD 系・CD-ROM 系の2つの表（日本 666 件。本文の規格別件数と一致） |
 | 価格（・型番の補助） | メディア芸術データベース（機種「PCエンジン」） |
 | 型番・発売日の照合 | MAME ソフトウェアリスト `hash/pce.xml`（日本版のみのリスト）・`sgx.xml`・`pcecd.xml` |
-| ハッシュ | No-Intro DAT（libretro 収録の PC Engine・SuperGrafx）、Redump DAT（libretro 収録の PC Engine CD） |
+| ハッシュ | No-Intro DB Export（PC Engine - TurboGrafx-16〈20261107-104733〉・PC Engine SuperGrafx〈20250913-112105〉）、Redump DAT（libretro 収録の PC Engine CD） |
 
 | 列 | 内容 |
 |---|---|
@@ -660,6 +660,9 @@ PCエンジンとして日本で発売されたソフト（1987〜1999年）。`
 ### ハッシュ
 
 - HuCARD・スーパーグラフィックスは No-Intro、CD は Redump のデータトラック（通常 Track 02。libretro 版 DAT に載っている1本）。
+- HuCARD・スーパーグラフィックスは No-Intro の DB Export（2026年11月に取得）で、確認区分（`trusted_dump` 307・`third_party` 6）・SHA256・初出の日付・
+  アーカイブ番号・一部のラベルの刻印（40 件）が入った。libretro 版 DAT のときとハッシュ・サイズ・リビジョンは変わらない。DB Export にだけある開発版 2 件
+  （『TATSUJIN』『PC原人シリーズ PC電人』の Beta）が別リスト `jp_non_retail.csv` に加わった。CD は libretro 版 Redump DAT のまま（確認区分は `dat_only`）。
 - CD は Redump のシリアル（レーベル面の型番）で結びつける。HuCARD は DAT にシリアルが無いため MAME の CRC・名前・手動対応で結びつけた。
   製品版の吸い出しが無いのは 3 件（ROMカラオケ Vol.5、パラディオン、真怨霊戦記）。
 - libretro 版 Redump DAT には同名の game が複数あることがある。同じハッシュならシリアルを `;` でつないで1つにまとめ

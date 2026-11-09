@@ -1,2 +1,4 @@
 id,title,category,media,parent_id,game_code,nointro_name,evidence,verification
 pce-jp-nr-m001,ハイテク王国,event_demo,hucard,,,,Wikipedia: 1989年7月22日〜 ハドソン全国キャラバン大会の会場で使用されたアトラクション用ソフト（月刊コロコロコミックのキャラクターのミニゲーム集）,
+pce-jp-nr-0365,TATSUJIN（開発版）,beta,cartridge,pce-jp-0406,,Tatsujin (Japan) (En) (Beta),No-Intro: Beta,third_party
+pce-jp-nr-2469,PC原人シリーズ PC電人（開発版）,beta,cartridge,pce-jp-0438,,PC Denjin - Punkic Cyborgs (Japan) (Beta),No-Intro: Beta,trusted_dump
